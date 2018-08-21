@@ -1,0 +1,26 @@
+= Rules of the RoboCup Small Size League 2019
+{docdate}
+:toc:
+
+:icons: font
+:numbered:
+
+include::chapters/introduction.adoc[]
+
+include::chapters/league.adoc[]
+
+include::chapters/playingenvironment.adoc[]
+
+include::chapters/robots.adoc[]
+
+include::chapters/gamestructure.adoc[]
+
+include::chapters/refereecommands.adoc[]
+
+include::chapters/offenses.adoc[]
+
+include::chapters/exchanging.adoc[]
+
+include::chapters/scoringgoals.adoc[]
+
+include::chapters/endofgame.adoc[]

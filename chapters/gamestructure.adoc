@@ -1,0 +1,32 @@
+== Game Structure
+
+=== Roles
+==== Impartial Roles
+===== Main Referee
+Chapter 5.1 - 5.3, Decision 1
+
+===== Assistant Referee
+Chapter 6 Decision 1
+
+===== Game Controller Operator
+Chapter 6.1
+
+===== Vision Exptert
+Appendix B.1
+
+==== Team-Specific Roles
+Chapter 3 Decision 1
+
+=== Game preparation
+Chapter 4 Decision 6
+
+==== Game Result Sheet
+==== Choosing Colors, Side And Kick-Off
+Chapter 4.5, 8.1
+
+=== Game stages
+==== Overview
+Chapter 7.1, Appendix A.1
+
+==== Timeouts
+Chapter 7.3, Appendix A.1.3

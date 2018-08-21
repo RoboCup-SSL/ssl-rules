@@ -1,0 +1,16 @@
+== Playing Environment
+
+=== Field Setup
+Chapter 1.1 - 1.7
+
+=== Cameras
+=== Ball
+Chapter 2
+
+=== Shared Software
+==== Vision
+==== Game Controller
+Chapter 5.4
+
+==== Automatic Referee
+Chapter 5 Decision 4

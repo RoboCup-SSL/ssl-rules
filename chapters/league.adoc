@@ -1,0 +1,8 @@
+== League Overview
+
+=== Divisions
+Appendix 6, http://wiki.robocup.org/Small_Size_League/RoboCup_2018/Divisions
+
+=== Qualification
+http://wiki.robocup.org/Small_Size_League/RoboCup_2018/Qualification
+

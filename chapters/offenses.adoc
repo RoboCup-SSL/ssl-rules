@@ -1,0 +1,66 @@
+== Offenses
+
+=== Ball Leaves The Field
+==== Touch Line Crossing
+Chapter 15
+
+==== Goal Line Crossing
+===== Goal Kick
+Chapter 16
+
+===== Corner Kick
+Chapter 17
+
+===== Aimless Kick
+Chapter 12.3, Decision 10
+
+=== Minor Offenses
+==== Lack Of Progress
+Chapter 9.4, 12.3
+
+==== Double Touch
+Chapter 9.1, Chapter 9 Decision 1
+
+==== Attacker Too Close To Defense Area
+Chapter 9.4, Chapter 9 Decision 2
+
+==== Attacker In Defense Area
+Chapter 12.3
+
+==== Attacker Touches Keeper
+Chapter 12.3
+
+==== Dribbling
+Chapter 12.3, Decision 6
+
+==== Ball Speed
+Chapter 12.3
+
+=== Fouls
+Chapter 12 Decision 3
+
+==== Crashing
+Chapter 12.1, 12.2, Decision 1, 2
+
+==== Pushing
+Chapter 12.1, 12.2
+
+==== Ball Holding
+Chapter 12.1, 12.2, Decision 5
+
+==== Tipping Over Or Dropping Parts
+Chapter 12.3, 3.1.1
+
+==== Robot Stop Speed
+Chapter 12.4, Decision 9
+
+=== Misconduct
+==== Damaging Other Robots
+Chapter 12.4
+
+==== Damaging The Field Or The Ball
+Chapter 12.4
+
+=== Simultaneous Sanctions
+
+=== Advantage Rule

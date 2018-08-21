@@ -1,0 +1,24 @@
+== Robots
+
+=== Number Of Robots
+Chapter 3
+
+=== Hardware Constraints
+==== Safety
+Chapter 4.1, 4.3, Decision 3
+
+==== Shape
+Chapter 4.2
+
+==== Dribbling Device
+Chapter 4.8, Decision 5
+
+==== Vision Pattern
+Chapter 4.6
+
+==== Radio Communication
+Chapter 4.4, Decision 1, 4
+
+==== Autonomy
+Chapter 4.7, Chaper 12 Decision 4
+
