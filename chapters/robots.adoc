@@ -3,7 +3,7 @@
 === Number Of Robots
 Chapter 3
 
-=== Hardware Constraints
+=== Hardware And Software Constraints
 ==== Safety
 Chapter 4.1, 4.3, Decision 3
 

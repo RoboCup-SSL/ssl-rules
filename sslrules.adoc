@@ -2,7 +2,7 @@
 {docdate}
 :toc:
 
-:icons: font
+// :icons: font
 :numbered:
 
 include::chapters/introduction.adoc[]
