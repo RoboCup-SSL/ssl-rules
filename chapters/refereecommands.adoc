@@ -1,6 +1,9 @@
 == Referee Commands
 
 === General Commands
+
+
+
 ==== Stop
 ===== Definition
 When the *STOP* command is issued, all robots have to slow down to less than 1.5 m/s. Additionally, all robots have to keep at least 500mm distance to the ball and are not allowed to manipulate the ball.
@@ -9,6 +12,8 @@ NOTE: If the ball moves very quickly, it is hard to always keep the required dis
 
 ===== Usage
 The *STOP* command is used to pause the game after the ball crossed the field boundaries (including goals) or a foul occured as well as to prepare the start or resumption of the game after *HALT*, timeouts and automatic ball placement.
+
+
 
 ==== Halt
 ===== Definition
@@ -23,7 +28,23 @@ The *HALT* command is always followed up by *STOP*.
 ==== Automatic Ball Placement
 Chapter 9.2
 
+===== Definition
+
+===== Usage
+
+
+
 ==== Force Start
+===== Definition
+When the *FORCE START* command is issued, the game is immediately resumed and both teams are allowed to manipulate the ball again.
+
+===== Usage
+The referee can issue a *STOP* command followed by *FORCE START* if there is a clear lack of progress for at least 10 seconds while both teams are allowed to manipulate the ball. This is not the case if the ball is inside a defense area.
+
+It can also be used to resume the game when the game had to be stopped and no team or both teams are at fault.
+
+
+
 ==== Shoot-Out
 Appendix A.2
 
