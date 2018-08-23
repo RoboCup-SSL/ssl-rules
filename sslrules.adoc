@@ -24,3 +24,8 @@ include::chapters/exchanging.adoc[]
 include::chapters/scoringgoals.adoc[]
 
 include::chapters/endofgame.adoc[]
+
+
+// Terms to define:
+// - ball in play (refer to >50mm movement)
+// - manipulate the ball (dribble & shoot)
