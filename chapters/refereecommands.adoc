@@ -9,7 +9,7 @@ When the STOP command is issued, all robots have to slow down to less than 1.5 m
 NOTE: If the ball moves very quickly, it is hard to always keep the required distance to the ball, especially since the speed of the robots is limited during STOP. Therefore, it is sufficient if it is obvious to the referee that the robots try their best to follow the distance rule.
 
 .Usage
-The STOP command is used to pause the game after the ball crossed the field boundaries (including goals) or a foul occured as well as to prepare the start or resumption of the game after HALT, timeouts and automatic ball placement.
+The STOP command is used to pause the game after the ball crossed the field boundaries (including goals) or a foul occured as well as to prepare the start or resumption of the game after HALT, timeouts and automatic ball placement. The robot speed limit and the minimum distance to the ball allow the referee or assistant referee to place the ball safely and without interference.
 
 
 
@@ -28,6 +28,8 @@ To resume the game after a stoppage or start the game in the first place, the ba
 
 In Division A, the ball will be placed automatically by the robots if the following command is a free kick or FORCE START (see <<Automatic Ball Placement>>).
 
+// Chapter 5.5: ball handler
+// Chapter 9.2: automatic ball placement
 
 ==== Kick-Off
 Chapter 8.2
