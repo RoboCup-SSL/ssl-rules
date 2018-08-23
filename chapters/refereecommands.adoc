@@ -24,7 +24,9 @@ also used to recalibrate the vision software during a game if the vision expert 
 The HALT command is always followed up by STOP.
 
 === Resuming The Game
-Chapter 8.3
+To resume the game after a stoppage or start the game in the first place, the ball has to be placed at a certain position on the field first. The main referee or assistant referee is advised to use a so-called ball handler (a long, preferably black stick-like device) to move the ball.
+
+In Division A, the ball will be placed automatically by the robots if the following command is a free kick or FORCE START (see <<Automatic Ball Placement>>).
 
 
 ==== Kick-Off
