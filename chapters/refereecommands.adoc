@@ -57,15 +57,18 @@ When the DIRECT FREE KICK command is issued, robots of the attacking team are al
 When the ball is in play, the kicker may not touch the ball again until it has been touched by another robot or the game has been stopped. Also, the restrictions regarding the robot positions are lifted.
 
 .Usage
-TODO
+Direct free kicks are used to restart the game after a <<Fouls, foul>> has occured. Additionally, <<Goal Kick, goal kicks>> and <<Corner Kick, corner kicks>> are mapped to direct free kicks.
 
 ==== Indirect Free Kick
 .Definition
-An indirect free kick behaves like a direct free kick, except: After an indirect free kick, a goal can only be scored if the ball touches another robot of the attacking team before entering the goal. If the ball enters the goal without touching another attacking robot, it will be treated like it crossed the goal line outside the goal.
+An indirect free kick behaves like a direct free kick, except: After an indirect free kick, a goal can only be scored if the ball touches a robot of the attacking team after the ball entered play and before it entering the goal. If the ball enters the goal without touching an attacking robot, it will be treated like it crossed the goal line outside the goal.
+
+NOTE: A goal can only be scored if more than one attacking robot is involved or a robot of the defending team has touched the ball before the attacker shot the goal.
+
+NOTE: In association football, it is sufficient if any player (including the keeper) touches the ball before it enters the goal. To discourage the teams to shoot directly at the goal and hope that the keeper touches it, the rules of the Small Size League require a second touch of an attacking robot.
 
 .Usage
-TODO
-// Chapter 13
+Indirect free kicks are used to restart the game after a <<Minor Offenses, minor offense>> has occured. Additionally, <<Throw-In, throw-ins>> are mapped to indirect free kicks.
 
 ==== Force Start
 .Definition
