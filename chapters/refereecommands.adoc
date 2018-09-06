@@ -63,7 +63,7 @@ Direct free kicks are used to restart the game after a <<Fouls, foul>> has occur
 .Definition
 An indirect free kick behaves like a direct free kick, except: After an indirect free kick, a goal can only be scored if the ball touches a robot of the attacking team after the ball entered play and before it entering the goal. If the ball enters the goal without touching an attacking robot, it will be treated like it crossed the goal line outside the goal.
 
-NOTE: A goal can only be scored if more than one attacking robot is involved or a robot of the defending team has touched the ball before the attacker shot the goal.
+NOTE: Scoring a goal from an indirect free kick does not require more than one attacking robot. The goal can also be shot by the same robot that kicked the free kick if a robot of either team touches the ball before the attacker shoots the goal.
 
 NOTE: In association football, it is sufficient if any player (including the keeper) touches the ball before it enters the goal. To discourage the teams to shoot directly at the goal and hope that the keeper touches it, the rules of the Small Size League require a second touch of an attacking robot.
 
@@ -75,7 +75,7 @@ Indirect free kicks are used to restart the game after a <<Minor Offenses, minor
 When the FORCE START command is issued, the game is immediately resumed and both teams are allowed to manipulate the ball again.
 
 .Usage
-The referee can issue a STOP command followed by FORCE START if there is a clear lack of progress for at least 10 seconds while both teams are allowed to manipulate the ball. This is not the case if the ball is inside a defense area.
+The referee can issue a STOP command followed by FORCE START if there is a clear lack of progress for at least 10 seconds while both teams are allowed to approach and manipulate the ball.
 
 It can also be used to resume the game when the game had to be stopped and no team or both teams are at fault.
 
