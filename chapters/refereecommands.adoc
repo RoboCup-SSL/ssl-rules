@@ -89,23 +89,55 @@ Additional time is allowed for a penalty kick to be taken at the end of each hal
 The penalty kick is retaken if the attacking team infringes the rules and the ball enters the goal or the defending team infringes the rules and the ball does not enter the goal.
 
 .Usage
-Penalty Kicks are used to punish teams that committed multiple <<Fouls, fouls>>.
+Penalty Kicks are used to punish teams that received multiple <<Yellow Card, yellow cards>>.
+
+// TODO multiple defenders
 
 
 === Sanctions
 
 ==== Yellow Card
 .Definition
+A yellow card can only be given during STOP.
 
+Upon receipt of a yellow card, the number of robots allowed on the field for the penalised team decreases by one. If, after this decrease, the team has more robots than permitted on the field, a robot must immediately be removed from the field before play resumes. The penalized team can choose the robot to remove.
 
-Chapter 12.4
+After 2 minutes of playing time, the yellow card expires and the number of allowed robots is increased by one.
+
+For every third card (regardless of its color) for one team, a penalty kick is awarded to the opponent team.
+
+.Usage
+Yellow Cards are used to punish teams that committed multiple <<Fouls, fouls>>.
+
+Yellow Cards can also be given by the referee to punish fouls or unsporting behavior.
 
 ==== Red Card
-Chapter 12.4
+.Definition
+A red card behaves like a yellow card, exept: It does not expire until the end of the game.
+
+.Usage
+Red Cards are given by the referee to punish severe fouls or unsporting behavior.
+
+NOTE: Offenses that can result in a red card include serious violent contact and disrespectful behaviour towards the referees.
+
 
 ==== Forced Forfeit
-==== Disqualification
+.Definition
+A Forced Forfeit means that a team instantly loses the current game with a score of 0 to 10.
 
+.Usage
+A team can be forced to forfeit if it is unable to play with at least one robot that satisfies the rules.
+
+A team can only be forced to forfeit in agreement with members of the technical committe and the organizing committee.
+
+==== Disqualification
+.Definition
+A Disqualification means that a team immediately drops out of the tournament and places last. It will not be eligible to receive any trophies.
+
+.Usage
+A team can be disqualified if members of this team don't follow safety guidelines, rules of the venue or commit similarly severe offenses.
+
+A team can only be disqualified in agreement with members of the technical committe and the organizing committee.
 
 === Special Commands
 
