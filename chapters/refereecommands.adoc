@@ -4,7 +4,7 @@
 
 ==== Stop
 .Definition
-When the STOP command is issued, all robots have to slow down to less than 1.5 m/s. Additionally, all robots have to keep at least 500mm distance to the ball and are not allowed to manipulate the ball.
+When the STOP command is issued, all robots have to slow down to less than 1.5 m/s. Additionally, all robots have to keep at least 0.5 meters distance to the ball and are not allowed to manipulate the ball.
 
 NOTE: If the ball moves very quickly, it is hard to always keep the required distance to the ball, especially since the speed of the robots is limited during STOP. Therefore, it is sufficient if it is obvious to the referee that the robots try their best to follow the distance rule.
 
@@ -28,9 +28,6 @@ To resume the game after a stoppage or start the game in the first place, the ba
 
 In Division A, the ball will be placed automatically by the robots if the following command is a free kick or FORCE START (see <<Automatic Ball Placement>>).
 
-// Chapter 5.5: ball handler
-// Chapter 9.2: automatic ball placement
-
 ==== Kick-Off
 .Definition
 The ball has to be placed at the center of the field.
@@ -46,13 +43,11 @@ Both half times as well as both extra time periods (if needed) start with a kick
 
 Additionally, after a goal has been scored, the receiving team restarts the game with a kick-off.
 
-// Chapter 8.2
-
 ==== Direct Free Kick
 .Definition
-The ball has to be placed inside the field with at least 100mm distance to the field boundaries and at least 700mm distance to the defense areas. The exact position of the ball is defined by the type of offense that led to the free kick.
+The ball has to be placed inside the field with at least 0.1 meters distance to the field boundaries and at least 0.7 meters distance to the defense areas. The exact position of the ball is defined by the type of offense that led to the free kick.
 
-When the DIRECT FREE KICK command is issued, robots of the attacking team are allowed to approach the ball while robots of the defending team still have to stay at least 500mm distance away from the ball (the same distance as in STOP). One robot of the attacking team is allowed to shoot the ball. This robot will be referred to as the kicker. A goal may be scored directly from the direct free kick.
+When the DIRECT FREE KICK command is issued, robots of the attacking team are allowed to approach the ball while robots of the defending team still have to stay at least 0.5 meters distance away from the ball (the same distance as in STOP). One robot of the attacking team is allowed to shoot the ball. This robot will be referred to as the kicker. A goal may be scored directly from the direct free kick.
 
 When the ball is in play, the kicker may not touch the ball again until it has been touched by another robot or the game has been stopped. Also, the restrictions regarding the robot positions are lifted.
 
@@ -63,7 +58,7 @@ Direct free kicks are used to restart the game after a <<Fouls, foul>> has occur
 .Definition
 An indirect free kick behaves like a direct free kick, except: After an indirect free kick, a goal can only be scored if the ball touches a robot of the attacking team after the ball entered play and before it entering the goal. If the ball enters the goal without touching an attacking robot, it will be treated like it crossed the goal line outside the goal.
 
-NOTE: Scoring a goal from an indirect free kick does not require more than one attacking robot. The goal can also be shot by the same robot that kicked the free kick if a robot of either team touches the ball before the attacker shoots the goal.
+NOTE: Scoring a goal from an indirect free kick does not require more than one attacking robot. The goal can also be shot by the same robot that kicked the free kick if a robot of the defending team touches the ball before the attacker shoots the goal.
 
 NOTE: In association football, it is sufficient if any player (including the keeper) touches the ball before it enters the goal. To discourage the teams to shoot directly at the goal and hope that the keeper touches it, the rules of the Small Size League require a second touch of an attacking robot.
 
@@ -79,11 +74,30 @@ The referee can issue a STOP command followed by FORCE START if there is a clear
 
 It can also be used to resume the game when the game had to be stopped and no team or both teams are at fault.
 
-==== Penalty Shot
-Chapter 14
+==== Penalty Kick
+.Definition
+To initiate a penalty kick, the STOP command has to be sent and the ball has to be placed on the penalty mark by the human referee.
+
+When the PENALTY command is issued, one attacking robot is allowed to approach but not touch the ball. This robot will be referred to as the kicker. The defending keeper has to touch the goal line. All other robots have to move behind a line parallel to the goal line and 0.4 meters behind the penalty mark. When these constraints are met, the referee may continue with a NORMAL START command.
+
+When the NORMAL START command is issued, the kicker is allowed to shoot the ball. A goal may be scored directly from the penalty kick.
+
+When the ball is in play, the kicker may not touch the ball again until it has been touched by another robot or the game has been stopped. Also, the restrictions regarding the robot positions are lifted.
+
+Additional time is allowed for a penalty kick to be taken at the end of each half or at the end of periods of extra time.
+
+The penalty kick is retaken if the attacking team infringes the rules and the ball enters the goal or the defending team infringes the rules and the ball does not enter the goal.
+
+.Usage
+Penalty Kicks are used to punish teams that committed multiple <<Fouls, fouls>>.
+
 
 === Sanctions
+
 ==== Yellow Card
+.Definition
+
+
 Chapter 12.4
 
 ==== Red Card
