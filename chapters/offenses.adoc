@@ -1,19 +1,5 @@
 == Offenses
-
-=== Ball Leaves The Field
-==== Touch Line Crossing
-===== Throw-In
-Chapter 15
-
-==== Goal Line Crossing
-===== Goal Kick
-Chapter 16
-
-===== Corner Kick
-Chapter 17
-
-===== Aimless Kick
-Chapter 12.3, Decision 10
+Offenses are divided into multiple categories according to the seriousness of the offense.
 
 === Minor Offenses
 ==== Lack Of Progress

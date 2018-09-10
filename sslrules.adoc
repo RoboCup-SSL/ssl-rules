@@ -17,11 +17,13 @@ include::chapters/gamestructure.adoc[]
 
 include::chapters/refereecommands.adoc[]
 
+include::chapters/ballleavesthefield.adoc[]
+
+include::chapters/scoringgoals.adoc[]
+
 include::chapters/offenses.adoc[]
 
 include::chapters/exchanging.adoc[]
-
-include::chapters/scoringgoals.adoc[]
 
 include::chapters/endofgame.adoc[]
 
