@@ -118,7 +118,7 @@ A red card behaves like a yellow card, exept: It does not expire until the end o
 .Usage
 Red Cards are given by the referee to punish severe fouls or unsporting behavior.
 
-NOTE: Offenses that can result in a red card include serious violent contact and disrespectful behaviour towards the referees.
+NOTE: Offenses that can result in a red card include serious violent contact by the robots and disrespectful behaviour towards the referees.
 
 
 ==== Forced Forfeit
