@@ -1,5 +1,5 @@
 == Ball Leaves The Field
-When the ball leaves the field by crossing the boundary, the game will be stopped, the ball will be placed and the game will be restarted depending on the position of the boundary crossing as well as on the team that last touched the ball.
+When the ball leaves the field by fully crossing the field line, the game will be stopped, the ball will be placed and the game will be restarted depending on the position of the field line crossing as well as on the team that last touched the ball.
 
 In division A, the robots have to retrieve and place the ball autonomously (see <<Automatic Ball Placement>>).
 
@@ -23,6 +23,8 @@ After the ball has been placed, a <<Direct Free Kick, direct free kick>> is awar
 .Usage
 A goal kick is used to restart the game after the ball left the field by crossing the goal line of the team that did *not* touch the ball last.
 
+NOTE: In division B, the <<Aimless Kick [small]#(_division B only_)#, aimless kick rule>> might apply instead.
+
 ==== Corner Kick
 .Definition
 The ball has to be placed 0.2 meters from the closest touch line and 0.2 meters from the goal line.
@@ -31,14 +33,3 @@ After the ball has been placed, a <<Direct Free Kick, direct free kick>> is awar
 
 .Usage
 A corner kick is used to restart the game after the ball left the field by crossing the goal line of the team that touched the ball last.
-
-
-==== Aimless Kick [small]#(_division B only_)#
-
-.Definition
-The ball has to be placed at the position the ball has been shot from, with at least 0.2 meters distance to all field boundaries and 0.7 meters distance to either defense area.
-
-After the ball has been placed, an <<Indirect Free Kick, indirect free kick>> is awarded to the opponent of the team that last touched the ball before it left the field.
-
-.Usage
-A kick is aimless when after the ball touched a robot, it subsequently crossed the midline and then its opponent's goal line outside the goal without touching another robot. A kick-off kick cannot be aimless, as the ball is located at the midline and does therefore not cross it.

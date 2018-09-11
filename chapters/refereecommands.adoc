@@ -9,7 +9,7 @@ When the STOP command is issued, all robots have to slow down to less than 1.5 m
 NOTE: If the ball moves very quickly, it is hard to always keep the required distance to the ball, especially since the speed of the robots is limited during STOP. Therefore, it is sufficient if it is obvious to the referee that the robots try their best to follow the distance rule.
 
 .Usage
-The STOP command is used to pause the game after the ball crossed the field boundaries (including goals) or a foul occured as well as to prepare the start or resumption of the game after HALT, timeouts and automatic ball placement. The robot speed limit and the minimum distance to the ball allow the referee or assistant referee to place the ball safely and without interference.
+The STOP command is used to pause the game after the ball crossed the field lines (including goals) or a foul occured as well as to prepare the start or resumption of the game after HALT, timeouts and automatic ball placement. The robot speed limit and the minimum distance to the ball allow the referee or assistant referee to place the ball safely and without interference.
 
 
 
@@ -36,7 +36,7 @@ When the KICK-OFF command is issued, all robots have to move to their own half o
 
 When the NORMAL START command is issued, the kicker is allowed to shoot the ball. A goal may be scored directly from the kick-off.
 
-When the ball is in play, the kicker may not touch the ball again until it has been touched by another robot or the game has been stopped. Also, the restrictions regarding the robot positions are lifted.
+When the ball is in play, the kicker may not touch the ball until it has been touched by another robot or the game has been stopped (see <<Double Touch, double touch>>). Also, the restrictions regarding the robot positions are lifted.
 
 .Usage
 Both half times as well as both extra time periods (if needed) start with a kick-off. Chapter <<Game preparation>> describes how to determine the attacking team.
@@ -45,11 +45,11 @@ Additionally, after a goal has been scored, the receiving team restarts the game
 
 ==== Direct Free Kick
 .Definition
-The ball has to be placed inside the field with at least 0.1 meters distance to the field boundaries and at least 0.7 meters distance to the defense areas. The exact position of the ball is defined by the type of offense that led to the free kick.
+The ball placement position for a free kick depends on the event that led to the free kick. This position is valid if there is at least 0.2 meters distance to all field lines and 0.7 meters distance to either defense area. If an event requires the ball to be placed at a position that contravenes this rule, it has to be placed at the closest valid position instead.
 
 When the DIRECT FREE KICK command is issued, robots of the attacking team are allowed to approach the ball while robots of the defending team still have to stay at least 0.5 meters distance away from the ball (the same distance as in STOP). One robot of the attacking team is allowed to shoot the ball. This robot will be referred to as the kicker. A goal may be scored directly from the direct free kick.
 
-When the ball is in play, the kicker may not touch the ball again until it has been touched by another robot or the game has been stopped. Also, the restrictions regarding the robot positions are lifted.
+When the ball is in play, the kicker may not touch the ball until it has been touched by another robot or the game has been stopped (see <<Double Touch, double touch>>). Also, the restrictions regarding the robot positions are lifted.
 
 .Usage
 Direct free kicks are used to restart the game after a <<Fouls, foul>> has occured. Additionally, <<Goal Kick, goal kicks>> and <<Corner Kick, corner kicks>> are mapped to direct free kicks.
@@ -82,7 +82,7 @@ When the PENALTY command is issued, one attacking robot is allowed to approach b
 
 When the NORMAL START command is issued, the kicker is allowed to shoot the ball. A goal may be scored directly from the penalty kick.
 
-When the ball is in play, the kicker may not touch the ball again until it has been touched by another robot or the game has been stopped. Also, the restrictions regarding the robot positions are lifted.
+When the ball is in play, the kicker may not touch the ball until it has been touched by another robot or the game has been stopped (see <<Double Touch, double touch>>). Also, the restrictions regarding the robot positions are lifted.
 
 Additional time is allowed for a penalty kick to be taken at the end of each half or at the end of periods of extra time.
 

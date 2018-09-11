@@ -2,29 +2,50 @@
 Offenses are divided into multiple categories according to the seriousness of the offense.
 
 === Minor Offenses
+Minor Offenses are violations of the rules that result in a stoppage and a subsequent <<Indirect Free Kick, indirect free kick>> for the opposing team. The free kick will be shot from the position where the offense began happening (see <<Direct Free Kick, the direct free kick rules>> for the exact ball position rules). All minor offenses are listed below.
+
+==== Aimless Kick [small]#(_division B only_)#
+A kick is aimless when after the ball touched a robot, it subsequently crossed the midline and then its opponent's goal line outside the goal without touching another robot. A kick-off kick cannot be aimless, as the ball is located at the midline and does therefore not cross it.
+
 ==== Lack Of Progress
-Chapter 9.4, 12.3
+There is a lack of progress if only one team is allowed to manipulate the ball (<<Kick-Off, kick-off>>, <<Direct Free Kick, direct free kick>>, <<Indirect Free Kick, indirect free kick>>, <<Penalty Kick, penalty kick>>) and does not bring the ball into play for 10 seconds.
+
+There is also a lack of progress if the ball is inside a team's defense area for 10 seconds, since the keeper is the only robot that is allowed to manipulate the ball.
+
+NOTE: If both teams are allowed to manipulate the ball, and thus no team is at fault, the referee may stop the game and issue a <<Force Start, force start>> command.
 
 ==== Double Touch
-Chapter 9.1, Chapter 9 Decision 1
+When the ball is brought into play following a <<Kick-Off, kick-off>>, <<Direct Free Kick, direct free kick>>, <<Indirect Free Kick, indirect free kick>> or <<Penalty Kick, penalty kick>>, the kicker is not allowed to touch the ball until it has been touched by another robot or the game has been stopped.
+
+The ball must have moved at least 0.05 meters to be considered as in play.
+
+NOTE: It is understood that the ball may be bumped by the robot multiple times over a short distance while the kick is being taken. This is why a distance of 0.05 meters is used to decide whether a robot violates this rule or not. Remaining in contact with the ball for more than 0.05 meters also counts as double touch, even though technically the robot only touched the ball once.
+
+// Chapter 9.1, Chapter 9 Decision 1
 
 ==== Attacker Too Close To Defense Area
-Chapter 9.4, Chapter 9 Decision 2
+During <<Stop, stop>>, <<Direct Free Kick, direct free kicks>> and <<Indirect Free Kick, indirect free kicks>>, before the ball has entered play, all robots have to keep at least 0.2 meters distance to the opponent defense area.
+
+There is a grace period of 2 seconds for the robots to move away from the opponent defense area.
 
 ==== Attacker In Defense Area
-Chapter 12.3
+A robot must not touch the ball while being partially or fully inside the opponent defense area.
 
 ==== Attacker Touches Keeper
-Chapter 12.3
+A robot must not touch the opponent keeper inside the opponent defense area.
 
 ==== Dribbling
-Chapter 12.3, Decision 6
+A robot must not dribble the ball further than 1 meter, measured linearly from the ball location where the dribbling started. A robot begins dribbling when it makes contact with the ball and stops dribbling when there is an observable separation between the ball and the robot.
+
+NOTE: Dribblers can still be used to dribble large distances with the ball as long as the robot periodically loses possession, such as kicking the ball ahead of it as human soccer players often do.
 
 ==== Ball Speed
-Chapter 12.3
+A robot must not shoot the ball faster than 6.5 meters per second in 3D space.
 
 === Fouls
-Chapter 12 Decision 3
+Fouls are violations of the rules that result in a <<Direct Free Kick, direct free kick>> for the opposing team. Additionally, every third foul of the same team results in a <<Yellow Card, yellow card>>.
+
+// Chapter 12 Decision 3
 
 ==== Crashing
 Chapter 12.1, 12.2, Decision 1, 2
