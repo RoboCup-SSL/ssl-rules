@@ -45,7 +45,7 @@ Additionally, after a goal has been scored, the receiving team restarts the game
 
 ==== Direct Free Kick
 .Definition
-The ball placement position for a free kick depends on the event that led to the free kick. This position is valid if there is at least 0.2 meters distance to all field lines and 0.7 meters distance to either defense area. If an event requires the ball to be placed at a position that contravenes this rule, it has to be placed at the closest valid position instead.
+The ball placement position for a free kick depends on the event that led to the free kick. This position is valid if there is at least 0.2 meters distance to all field lines and 1 meter distance to either defense area. If an event requires the ball to be placed at a position that contravenes this rule, it has to be placed at the closest valid position instead.
 
 When the DIRECT FREE KICK command is issued, robots of the attacking team are allowed to approach the ball while robots of the defending team still have to stay at least 0.5 meters distance away from the ball (the same distance as in STOP). One robot of the attacking team is allowed to shoot the ball. This robot will be referred to as the kicker. A goal may be scored directly from the direct free kick.
 
