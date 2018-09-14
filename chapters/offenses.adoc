@@ -45,30 +45,42 @@ A robot must not shoot the ball faster than 6.5 meters per second in 3D space.
 === Fouls
 Fouls are violations of the rules that result in a <<Direct Free Kick, direct free kick>> for the opposing team. Additionally, every third foul of the same team results in a <<Yellow Card, yellow card>>.
 
-// Chapter 12 Decision 3
-
 ==== Crashing
-Chapter 12.1, 12.2, Decision 1, 2
+At the moment of collision of two robots of different teams, the difference of the speed vectors of both robots is taken and projected onto the line that is defined by the position of both robots. If the length of this projection is greater than 1.5 meters per second, the faster robot committed a foul. If the absolute robot speed difference is less than 0.3 meters per second, both conduct a foul but the game will not be stopped.
+
+NOTE: In a typical scenario, the referee would warn the team and expect that they would modify their system to reduce the violence of their play. If the referee was still unsatisfied a yellow card would be issued.
 
 ==== Pushing
-Chapter 12.1, 12.2
+A robot pushes an opponent robot if both robots keep contact to the ball while both robots travel towards the opponent robot for more than 0.2 meters or until the opponent enters its defense area.
+
+Additionally, the referee can punish a team for pushing even if none of the involved robots touch the ball.
 
 ==== Ball Holding
-Chapter 12.1, 12.2, Decision 5
+A robot is holding a ball if it takes full control of the ball by removing all of its degrees of freedom; typically, fixing a ball to the body or surrounding a ball using the body to prevent access by others. 80% of the area of the ball when viewed from above should be outside the convex hull around the robot. Another robot must be able to remove the ball from a robot with the ball. This limitation applies as well to all dribbling and kicking devices, even if such infringement is momentary.
 
 ==== Tipping Over Or Dropping Parts
-Chapter 12.3, 3.1.1
+A robot must not tip over, break or drop parts on the field that pose a potential threat to other robots.
+
+NOTE: Metal parts (screws for example) as well as larger parts generally pose a potential threat, very small non-metal parts (for example rubber subwheel rings) don't.
 
 ==== Robot Stop Speed
-Chapter 12.4, Decision 9
+A robot must not move faster than 1.5 meters per second during STOP.
+
+There is a grace period of 2 seconds for the robots to slow down.
+
+NOTE: Since the stop command is used for manual ball placement and robot exchange, the intention of the robot speed limit is to avoid robots harming the people on the field.
 
 === Misconduct
+Misconduct can lead to <<Yellow Card, yellow cards>>, <<Red Card, red cards>> or a <<Disqualification, disqualification>>, depending on the severity of the offense.
+
 ==== Damaging Other Robots
-Chapter 12.4
+It is not allowed to damage or modify robots of other teams.
 
 ==== Damaging The Field Or The Ball
-Chapter 12.4
+It is not allowed to damage or modify the field or the ball.
 
 === Simultaneous Sanctions
+TODO
 
 === Advantage Rule
+TODO
