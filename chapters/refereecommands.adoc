@@ -113,7 +113,7 @@ Yellow Cards can also be given by the referee to punish fouls or unsporting beha
 
 ==== Red Card
 .Definition
-A red card behaves like a yellow card, exept: It does not expire until the end of the game.
+A red card behaves like a <<Yellow Card, yellow card>>, exept: It does not expire until the end of the game.
 
 .Usage
 Red Cards are given by the referee to punish severe fouls or unsporting behavior.
