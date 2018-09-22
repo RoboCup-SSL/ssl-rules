@@ -8,4 +8,4 @@ Additionally, the goal is only valid if
 
 // TODO shootout chip goals
 
-In those cases, the game will be continued as if the ball crossed the goal line outside the goal.
+If the goal is considered invalid, the game will be continued as if the ball crossed the goal line outside the goal.

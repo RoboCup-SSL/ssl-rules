@@ -4,37 +4,39 @@
 
 ==== Stop
 .Definition
-When the STOP command is issued, all robots have to slow down to less than 1.5 m/s. Additionally, all robots have to keep at least 0.5 meters distance to the ball and are not allowed to manipulate the ball.
+When the stop command is issued, all robots have to slow down to less than 1.5 m/s. Additionally, all robots have to keep at least 0.5 meters distance to the ball and are not allowed to manipulate the ball.
 
-NOTE: If the ball moves very quickly, it is hard to always keep the required distance to the ball, especially since the speed of the robots is limited during STOP. Therefore, it is sufficient if it is obvious to the referee that the robots try their best to follow the distance rule.
+NOTE: If the ball moves very quickly, it is hard to always keep the required distance to the ball, especially since the speed of the robots is limited during stop. Therefore, it is sufficient if it is obvious to the referee that the robots try their best to follow the distance rule.
 
 .Usage
-The STOP command is used to pause the game after the ball crossed the field lines (including goals) or a foul occured as well as to prepare the start or resumption of the game after HALT, timeouts and automatic ball placement. The robot speed limit and the minimum distance to the ball allow the referee or assistant referee to place the ball safely and without interference.
+The stop command is used to pause the game after the ball crossed the field lines (including goals) or an offense occured as well as to prepare the start or resumption of the game after halt, timeouts and automatic ball placement. The robot speed limit and the minimum distance to the ball allow the referee or assistant referee to place the ball safely and without interference.
 
 
 
 ==== Halt
 .Definition
-When the HALT command is issued, all robots have to brake immediately. During HALT, the robots are not allowed to move or manipulate the ball.
+When the halt command is issued, no robot is allowed to move or manipulate the ball.
+
+There is a grace period of 2 seconds for the robots to brake.
 
 .Usage
-The HALT command allows the referee to interrupt the game immediately whenever an emergency occurs (for example when a robot gets out of contol). It is
-also used to recalibrate the vision software during a game if the vision expert considers it necessary and the referee agrees. Additionally, the referee is free to issue the HALT command at will.
+The halt command allows the referee to interrupt the game immediately whenever an emergency occurs (for example when a robot gets out of contol). It is
+also used to recalibrate the vision software during a game if the vision expert considers it necessary and the referee agrees. Additionally, the referee is free to issue the halt command at will.
 
-The HALT command is always followed up by STOP.
+The halt command is always followed up by stop.
 
 === Resuming The Game
 To resume the game after a stoppage or start the game in the first place, the ball has to be placed at a certain position on the field first. The main referee or assistant referee is advised to use a so-called ball handler (a long, preferably black stick-like device) to move the ball.
 
-In Division A, the ball will be placed automatically by the robots if the following command is a free kick or FORCE START (see <<Automatic Ball Placement>>).
+In Division A, the ball will be placed automatically by the robots if the following command is a free kick or force start (see <<Automatic Ball Placement>>).
 
 ==== Kick-Off
 .Definition
-The ball has to be placed at the center of the field.
+The ball has to be placed in the center of the field by the human referee.
 
-When the KICK-OFF command is issued, all robots have to move to their own half of the field excluding the center circle. However, one robot of the attacking team is also allowed to be inside the whole center circle. This robot will be referred to as the kicker. No robot is allowed to touch the ball.
+When the kick-off command is issued, all robots have to move to their own half of the field excluding the center circle. However, one robot of the attacking team is also allowed to be inside the whole center circle. This robot will be referred to as the kicker. No robot is allowed to touch the ball.
 
-When the NORMAL START command is issued, the kicker is allowed to shoot the ball. A goal may be scored directly from the kick-off.
+When the normal start command is issued, the kicker is allowed to shoot the ball. A goal may be scored directly from the kick-off.
 
 When the ball is in play, the kicker may not touch the ball until it has been touched by another robot or the game has been stopped (see <<Double Touch, double touch>>). Also, the restrictions regarding the robot positions are lifted.
 
@@ -47,7 +49,7 @@ Additionally, after a goal has been scored, the receiving team restarts the game
 .Definition
 The ball placement position for a free kick depends on the event that led to the free kick. This position is valid if there is at least 0.2 meters distance to all field lines and 1 meter distance to either defense area. If an event requires the ball to be placed at a position that contravenes this rule, it has to be placed at the closest valid position instead.
 
-When the DIRECT FREE KICK command is issued, robots of the attacking team are allowed to approach the ball while robots of the defending team still have to stay at least 0.5 meters distance away from the ball (the same distance as in STOP). One robot of the attacking team is allowed to shoot the ball. This robot will be referred to as the kicker. A goal may be scored directly from the direct free kick.
+When the direct free kick command is issued, robots of the attacking team are allowed to approach the ball while robots of the defending team still have to stay at least 0.5 meters distance away from the ball (the same distance as in stop). One robot of the attacking team is allowed to shoot the ball. This robot will be referred to as the kicker. A goal may be scored directly from the direct free kick.
 
 When the ball is in play, the kicker may not touch the ball until it has been touched by another robot or the game has been stopped (see <<Double Touch, double touch>>). Also, the restrictions regarding the robot positions are lifted.
 
@@ -56,7 +58,7 @@ Direct free kicks are used to restart the game after a <<Fouls, foul>> has occur
 
 ==== Indirect Free Kick
 .Definition
-An indirect free kick behaves like a direct free kick, except: After an indirect free kick, a goal can only be scored if the ball touches a robot of the attacking team after the ball entered play and before it entering the goal. If the ball enters the goal without touching an attacking robot, it will be treated like it crossed the goal line outside the goal.
+An indirect free kick behaves like a <<Direct Free Kick,direct free kick>>, except: After an indirect free kick, a goal can only be scored if the ball touches a robot of the attacking team after the ball entered play and before it entering the goal. If the ball enters the goal without touching an attacking robot, it will be treated like it crossed the goal line outside the goal.
 
 NOTE: Scoring a goal from an indirect free kick does not require more than one attacking robot. The goal can also be shot by the same robot that kicked the free kick if a robot of the defending team touches the ball before the attacker shoots the goal.
 
@@ -67,20 +69,20 @@ Indirect free kicks are used to restart the game after a <<Minor Offenses, minor
 
 ==== Force Start
 .Definition
-When the FORCE START command is issued, the game is immediately resumed and both teams are allowed to manipulate the ball again.
+When the force start command is issued, the game is immediately resumed and both teams are allowed to approach and manipulate the ball again.
 
 .Usage
-The referee can issue a STOP command followed by FORCE START if there is a clear lack of progress for at least 10 seconds while both teams are allowed to approach and manipulate the ball.
+The referee can issue a stop command followed by force start if there is a clear lack of progress for at least 10 seconds while both teams are allowed to approach and manipulate the ball.
 
 It can also be used to resume the game when the game had to be stopped and no team or both teams are at fault.
 
 ==== Penalty Kick
 .Definition
-To initiate a penalty kick, the STOP command has to be sent and the ball has to be placed on the penalty mark by the human referee.
+To initiate a penalty kick, the stop command has to be sent and the ball has to be placed on the penalty mark by the human referee.
 
-When the PENALTY command is issued, one attacking robot is allowed to approach but not touch the ball. This robot will be referred to as the kicker. The defending keeper has to touch the goal line. All other robots have to move behind a line parallel to the goal line and 0.4 meters behind the penalty mark. When these constraints are met, the referee may continue with a NORMAL START command.
+When the penalty command is issued, one attacking robot is allowed to approach but not touch the ball. This robot will be referred to as the kicker. The defending keeper has to touch the goal line. All other robots have to move behind a line parallel to the goal line and 0.4 meters behind the penalty mark. When these constraints are met, the referee may continue with a normal start command.
 
-When the NORMAL START command is issued, the kicker is allowed to shoot the ball. A goal may be scored directly from the penalty kick.
+When the normal start command is issued, the kicker is allowed to shoot the ball. A goal may be scored directly from the penalty kick.
 
 When the ball is in play, the kicker may not touch the ball until it has been touched by another robot or the game has been stopped (see <<Double Touch, double touch>>). Also, the restrictions regarding the robot positions are lifted.
 
@@ -98,32 +100,32 @@ Penalty Kicks are used to punish teams that received multiple <<Yellow Card, yel
 
 ==== Yellow Card
 .Definition
-A yellow card can only be given during STOP.
+A yellow card can only be given during stop.
 
 Upon receipt of a yellow card, the number of robots allowed on the field for the penalised team decreases by one. If, after this decrease, the team has more robots than permitted on the field, a robot must immediately be removed from the field before play resumes. The penalized team can choose the robot to remove.
 
-After 2 minutes of playing time, the yellow card expires and the number of allowed robots is increased by one.
+After 2 minutes of playing time (measured by the game controller), the yellow card expires and the number of allowed robots is increased by one.
 
 For every third card (regardless of its color) for one team, a penalty kick is awarded to the opponent team.
 
 .Usage
-Yellow Cards are used to punish teams that committed multiple <<Fouls, fouls>>.
+Yellow cards are used to punish teams that committed multiple <<Fouls, fouls>>.
 
-Yellow Cards can also be given by the referee to punish fouls or unsporting behavior.
+Yellow cards can also be given by the referee to punish <<Fouls, fouls>> or <<Unsporting Behavior,unsporting behavior>>.
 
 ==== Red Card
 .Definition
 A red card behaves like a <<Yellow Card, yellow card>>, exept: It does not expire until the end of the game.
 
 .Usage
-Red Cards are given by the referee to punish severe fouls or unsporting behavior.
+Red cards are given by the referee to punish severe <<Fouls, fouls>> or <<Unsporting Behavior,unsporting behavior>>.
 
-NOTE: Offenses that can result in a red card include serious violent contact by the robots and disrespectful behaviour towards the referees.
+NOTE: For example, serious violent contact by the robots or disrespectful behaviour towards the referees can result in a red card.
 
 
 ==== Forced Forfeit
 .Definition
-A Forced Forfeit means that a team instantly loses the current game with a score of 0 to 10.
+A Forced forfeit means that a team instantly loses the current game with a score of 0 to 10.
 
 .Usage
 A team can be forced to forfeit if it is unable to play with at least one robot that satisfies the rules.

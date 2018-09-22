@@ -21,7 +21,7 @@ The ball has to be placed 0.2 meters from the closest touch line and 1 meter fro
 After the ball has been placed, a <<Direct Free Kick, direct free kick>> is awarded to the opponent of the team that last touched the ball before it left the field.
 
 .Usage
-A goal kick is used to restart the game after the ball left the field by crossing the goal line of the team that did *not* touch the ball last.
+A goal kick is used to restart the game after the ball left the field by crossing the goal line of the team that did not touch the ball last.
 
 NOTE: In division B, the <<Aimless Kick [small]#(_division B only_)#, aimless kick rule>> might apply instead.
 
