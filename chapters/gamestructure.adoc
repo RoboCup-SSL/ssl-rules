@@ -24,9 +24,10 @@ Chapter 4 Decision 6
 ==== Choosing Colors, Side And Kick-Off
 Chapter 4.5, 8.1
 
-=== Game stages
+=== Game Stages
 ==== Overview
 Chapter 7.1, Appendix A.1
+// Chapter 10.2, 10.3, Appendix A.3, A.4
 
 ==== Timeouts
 Chapter 7.3, Appendix A.1.3
