@@ -28,6 +28,7 @@ The referee is not held liable for any kind of injury suffered by an official or
 * The referee ensures a safe match for all humans and robots
 * The referee ensures a fair match according to the rules of the Small Size League
 * The referee ensures that there is no interference by unauthorized persons or team members
+* The referee or assistant referee places the ball for <<Kick-Off, kick-offs>> and <<Penalty Kick, penalties>> (division A) or after every <<Stopping The Game, stoppage>> (division B). Subsequently, the referee resumes the match.
 
 ==== Assistant Referee
 The assistant referee supports the referee whereever he can. He is encouraged to use the designated walking area next to the field (see <<Field Setup>>), opposite the referee.
@@ -36,6 +37,7 @@ The assistant referee supports the referee whereever he can. He is encouraged to
 
 * The assistant referee indicates when misconduct or any other incident has occurred out of the view of the referee
 * The assistant referee discusses unclear situations with the referee
+* The referee or assistant referee places the ball for <<Kick-Off, kick-offs>> and <<Penalty Kick, penalties>> (division A) or after every <<Stopping The Game, stoppage>> (division B)
 
 
 ==== Game Controller Operator
