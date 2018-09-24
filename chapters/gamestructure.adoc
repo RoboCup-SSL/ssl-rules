@@ -43,8 +43,14 @@ The assistant referee supports the referee whereever he can. He is encouraged to
 ==== Game Controller Operator
 Chapter 6.1
 
-==== Vision Exptert
-Appendix B.1
+==== Vision Expert
+During a match, the vision expert is in charge of the shared vision systems on the field.
+
+.Duties
+
+* The vision expert checks the vision hardware and reports any kind of hardware problems to the technicall committee
+* The vision expert monitors the shared vision system during the match and reports any kind of problems to the referee instantly
+* The vision expert recalibrates the vision system if the referee deems it necessary
 
 === Team-Specific Roles
 ==== Robot Handler
