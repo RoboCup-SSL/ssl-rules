@@ -41,10 +41,12 @@ The assistant referee supports the referee whereever he can. He is encouraged to
 
 
 ==== Game Controller Operator
-Chapter 6.1
+During a match, the game controller operator uses the <<Game Controller, game controller software>> as an interface between the <<Referee, referee>> and the team software.
+
+TODO
 
 ==== Vision Expert
-During a match, the vision expert is in charge of the shared vision systems on the field.
+During a match, the vision expert is in charge of the <<Vision, shared vision system>> on the field.
 
 .Duties
 
