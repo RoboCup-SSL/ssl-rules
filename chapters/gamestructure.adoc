@@ -23,6 +23,8 @@ advice of an assistant referee, provided that he has not restarted play.
 
 The referee is not held liable for any kind of injury suffered by an official or spectator, any damage to property of any kind nor any other loss suffered by an individual, club, company, association, or other body.
 
+The <<Robot Handler, robot handler>> is the only team member that may talk to the referee.
+
 .Duties
 
 * The referee ensures a safe match for all humans and robots
@@ -32,6 +34,8 @@ The referee is not held liable for any kind of injury suffered by an official or
 
 ==== Assistant Referee
 The assistant referee supports the referee whereever he can. He is encouraged to use the designated walking area next to the field (see <<Field Setup>>), opposite the referee.
+
+No team members are allowed to talk to the assistant referee.
 
 .Duties
 
@@ -43,10 +47,14 @@ The assistant referee supports the referee whereever he can. He is encouraged to
 ==== Game Controller Operator
 During a match, the game controller operator uses the <<Game Controller, game controller software>> as an interface between the <<Referee, referee>> and the team software.
 
+No team members are allowed to talk to the game controller operator.
+
 TODO
 
 ==== Vision Expert
 During a match, the vision expert is in charge of the <<Vision, shared vision system>> on the field.
+
+Team members are generally advised not to talk to the vision expert, unless they experience major vision problems.
 
 .Duties
 
@@ -55,15 +63,25 @@ During a match, the vision expert is in charge of the <<Vision, shared vision sy
 * The vision expert recalibrates the vision system if the referee deems it necessary
 
 === Team-Specific Roles
+
 ==== Robot Handler
-Chapter 3 Decision 1
+Before the start of the match, every team has to designate one robot handler. The robot handler represents the team during the match.
+
+.Duties
+* The robot handler helps <<Game preparation, preparing the game>>.
+* The robot handler asks the referee for <<Timeouts, timeouts>> if necessary.
+* The robot handler asks the referee for the permission to exchange a robot in the next stoppage and exchanges the robots (see <<Exchanging Robots>>).
+* The robot handler voices concerns of the team (for example network issues or vision problems).
 
 === Game preparation
 Chapter 4 Decision 6
 
 ==== Game Result Sheet
+==== Testing The Network
 ==== Choosing Colors, Side And Kick-Off
 Chapter 4.5, 8.1
+
+==== Choosing Keeper Id
 
 === Game Stages
 ==== Overview
