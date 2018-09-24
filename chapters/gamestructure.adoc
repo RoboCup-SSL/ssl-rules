@@ -68,15 +68,19 @@ Team members are generally advised not to talk to the vision expert, unless they
 Before the start of the match, every team has to designate one robot handler. The robot handler represents the team during the match.
 
 .Duties
-* The robot handler helps <<Game preparation, preparing the game>>.
+* The robot handler helps <<Match Preparation, preparing the match>>.
 * The robot handler asks the referee for <<Timeouts, timeouts>> if necessary.
 * The robot handler asks the referee for the permission to exchange a robot in the next stoppage and exchanges the robots (see <<Exchanging Robots>>).
 * The robot handler voices concerns of the team (for example network issues or vision problems).
 
-=== Game preparation
-Chapter 4 Decision 6
+=== Match Preparation
+All people that fill a role in the match (<<Impartial Roles, impartial>> or <<Team-Specific Roles, team-specific>>) have to be ready at least 10 minutes before the match starts.
 
 ==== Game Result Sheet
+Before the match starts, the <<Referee, referee>> obtains a game result sheet from the organizing committee. After the game, the referee fills in the final score, collects the required signatures and submits the sheet to the organizing committee.
+
+NOTE: While obtaining the game result sheet, the referee can also take an official <<Ball, ball>> and referee equipment such as a whistle or red and yellow cards (if provided).
+
 ==== Testing The Network
 ==== Choosing Colors, Side And Kick-Off
 Chapter 4.5, 8.1
