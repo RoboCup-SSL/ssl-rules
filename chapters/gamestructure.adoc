@@ -74,18 +74,26 @@ Before the start of the match, every team has to designate one robot handler. Th
 * The robot handler voices concerns of the team (for example network issues or vision problems).
 
 === Match Preparation
-All people that fill a role in the match (<<Impartial Roles, impartial>> or <<Team-Specific Roles, team-specific>>) have to be ready at least 10 minutes before the match starts.
+All people that fill a role in the match (<<Impartial Roles, impartial>> or <<Team-Specific Roles, team-specific>>) have to be ready at least 10 minutes before the start of the match to allow the referee to make the following preparations:
 
 ==== Game Result Sheet
-Before the match starts, the <<Referee, referee>> obtains a game result sheet from the organizing committee. After the game, the referee fills in the final score, collects the required signatures and submits the sheet to the organizing committee.
+The <<Referee, referee>> obtains a game result sheet from the organizing committee. After the game, the referee fills in the final score, collects the required signatures and submits the sheet to the organizing committee.
 
 NOTE: While obtaining the game result sheet, the referee can also take an official <<Ball, ball>> and referee equipment such as a whistle or red and yellow cards (if provided).
 
 ==== Testing The Network
-==== Choosing Colors, Side And Kick-Off
-Chapter 4.5, 8.1
+The <<Referee, referee>> ensures that both teams receive vision data and referee commands.
+
+==== Choosing Team Colors
+The <<Referee, referee>> asks the <<Robot Handler, robot handlers>> of the teams about their preferred team color. If the teams agree on a color assignment, the colors will be used for the entire match.
+
+However, if both teams prefer the same color, the referee assigns the colors by chance. In this case, the teams switch the colors after the first half of the match as well as after the first half of the extra time if applicable.
+
+==== Choosing Side And Kick-Off
+The <<Referee, referee>> tosses a coin with both <<Robot Handler, robot handlers>>. The winning team chooses the goal it will attack in the first half of the match. The other team takes the <<Kick-Off, kick-off>> to start the match.
 
 ==== Choosing Keeper Id
+The <<Referee, referee>> asks both <<Robot Handler, robot handlers>> which robot they will use as the keeper and forwards this information to the <<Game Controller Operator, game controller operator>>.
 
 === Game Stages
 ==== Overview
