@@ -1,7 +1,21 @@
 == Playing Environment
 
 === Field Setup
-Chapter 1.1 - 1.7
+==== Dimensions
+The field of play must be rectangular and of the following size:
+
+* Division A: 13.4 meters times 10.4 meters with a playing area of 12 meters times 9 meters
+* Division B: 10.4 meters times 7.4 meters with a playing area of 9 meters times 6 meters
+
+The exact field dimensions and the field markings at the venue may vary by up to ±10% in each linear dimension.
+
+The two figures below show the dimensions of the field, the goals and special field areas, measured in millimeters. Figure 1 shows the dimensions for division A and figure 2 for division B.
+
+.Field dimensions for division A
+image::quad-size-field.png[]
+
+.Field dimensions for division B
+image::double-size-field.png[]
 
 === Cameras
 === Ball
