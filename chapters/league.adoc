@@ -5,6 +5,8 @@ The Small Size League is divided into two divisions with separate tournaments, n
 
 When submitting the <<Qualification, qualification>> material, the team also chooses a preferred division including a short rationale. The members of the organizing committee will have the final word.
 
+NOTE: Divisions allow for more radical advancements in the Small Size League without drastically raising the entry barrier for new teams. Additionally, they also considerably increase the amount of matches between teams of similar skill.
+
 === Qualification
 http://wiki.robocup.org/Small_Size_League/RoboCup_2018/Qualification
 
