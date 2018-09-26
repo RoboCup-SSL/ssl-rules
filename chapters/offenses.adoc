@@ -97,6 +97,8 @@ Unsporting behavior can lead to <<Yellow card, yellow cards>>, <<Red card, red c
 
 NOTE: If the referee is not sure which sanction to choose, he may confer with members of the technical committe or the organizing committee.
 
+Some examples of unsporting behavior are listed below.
+
 ==== Damaging Other Robots
 It is not allowed to damage or modify robots of other teams.
 
