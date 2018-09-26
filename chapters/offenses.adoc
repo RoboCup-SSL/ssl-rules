@@ -1,8 +1,12 @@
 == Offenses
 Offenses are divided into multiple categories according to the seriousness of the offense: <<Minor Offenses, minor offenses>>, <<Fouls, fouls>> and <<Unsporting Behavior, unsporting behavior>>.
 
+NOTE: Rule of thumb: Minor offenses are infringements of the rules committed by an attacking robot while the ball is in play. Fouls are infringements of the rules committed by a defender or while the ball is not in play or infringements that may harm the humans, the robots or the field.
+
 === Minor Offenses
-Minor offenses are violations of the rules that result in a stoppage and a subsequent <<Indirect Free Kick, indirect free kick>> for the opposing team. The free kick will be shot from the position where the offense began happening (see <<Direct Free Kick, the direct free kick rules>> for the exact ball position rules). All minor offenses are listed below.
+Minor offenses are violations of the rules that result in a stoppage and a subsequent <<Indirect Free Kick, indirect free kick>> for the opposing team. The free kick will be shot from the position where the offense began happening (see <<Direct Free Kick, the direct free kick rules>> for the exact ball position rules).
+
+All minor offenses are listed below.
 
 ==== Aimless Kick [small]#(_division B only_)#
 A kick is aimless when after the ball touched a robot, it subsequently crossed the midline and then its opponent's goal line outside the goal without touching another robot. A kick-off kick cannot be aimless, as the ball is located at the midline and does therefore not cross it.
@@ -21,18 +25,15 @@ The ball must have moved at least 0.05 meters to be considered as in play.
 
 NOTE: It is understood that the ball may be bumped by the robot multiple times over a short distance while the kick is being taken. This is why a distance of 0.05 meters is used to decide whether a robot violates this rule or not. Remaining in contact with the ball for more than 0.05 meters also counts as double touch, even though technically the robot only touched the ball once.
 
-// Chapter 9.1, Chapter 9 Decision 1
-
-==== Attacker Too Close To Defense Area
-During <<Stop, stop>>, <<Direct Free Kick, direct free kicks>> and <<Indirect Free Kick, indirect free kicks>>, before the ball has entered play, all robots have to keep at least 0.2 meters distance to the opponent defense area.
-
-There is a grace period of 2 seconds for the robots to move away from the opponent defense area.
-
 ==== Attacker In Defense Area
 A robot must not touch the ball while being partially or fully inside the opponent defense area.
 
+NOTE: When the ball is not in play, the more strict rule <<Attacker Too Close To Defense Area>> applies instead.
+
 ==== Attacker Touches Keeper
 A robot must not touch the opponent keeper inside the opponent defense area.
+
+NOTE: When the ball is not in play, the more strict rule <<Attacker Too Close To Defense Area>> applies instead.
 
 ==== Dribbling
 A robot must not dribble the ball further than 1 meter, measured linearly from the ball location where the dribbling started. A robot begins dribbling when it makes contact with the ball and stops dribbling when there is an observable separation between the ball and the robot.
@@ -43,7 +44,23 @@ NOTE: Dribblers can still be used to dribble large distances with the ball as lo
 A robot must not shoot the ball faster than 6.5 meters per second in 3D space.
 
 === Fouls
-Fouls are violations of the rules that result in a <<Direct Free Kick, direct free kick>> for the opposing team. The free kick will be shot from the position where the offense began happening (see <<Direct Free Kick, the direct free kick rules>> for the exact ball position rules). Additionally, every third foul of the same team results in a <<Yellow card, yellow card>>. In case of severe fouls, the referee can also issue a <<Yellow card, yellow card>> or a <<Red card, red card>>.
+Fouls are violations of the rules that result in a <<Direct Free Kick, direct free kick>> for the opposing team. The free kick will be shot from the position where the offense began happening (see <<Direct Free Kick, the direct free kick rules>> for the exact ball position rules). Additionally, every third foul of the same team results in a <<Yellow card, yellow card>>.
+
+In case of severe fouls, the referee can also issue a <<Yellow card, yellow card>> or a <<Red card, red card>>.
+
+All fouls are listed below.
+
+==== Attacker Too Close To Defense Area
+During <<Stop, stop>>, <<Direct Free Kick, direct free kicks>> and <<Indirect Free Kick, indirect free kicks>>, before the ball has entered play, all robots have to keep at least 0.2 meters distance to the opponent defense area.
+
+There is a grace period of 2 seconds for the robots to move away from the opponent defense area.
+
+==== Ball Placement Interference
+During <<Automatic Ball Placement, automatic ball placement>>, all robots of the non-placing team have to keep at least 0.5 meters distance to the line between the ball and the placement position (the forbidden area forms a stadium shape).
+
+If a robot of the non-placing team is too close to the line between the ball and the placement position for more than 2 seconds, it commits a foul.
+
+NOTE: This rule does not cover all cases of ball placement interference. The <<Referee, referee>> is encouraged to call fouls if the non-placing team is obviously interfering with the ball placement.
 
 ==== Crashing
 At the moment of collision of two robots of different teams, the difference of the speed vectors of both robots is taken and projected onto the line that is defined by the position of both robots. If the length of this projection is greater than 1.5 meters per second, the faster robot committed a foul. If the absolute robot speed difference is less than 0.3 meters per second, both conduct a foul but the game will not be stopped.
@@ -76,13 +93,22 @@ A robot's distance to the ball must be at least 0.5 meters during an opponent <<
 NOTE: During <<Stop, stop>>, there is no automatic sanction for being too close to the ball. The referee may still punish a team for <<Unsporting Behavior,unsporting behavior>> by issuing a <<Yellow card, yellow card>> if it does not respect the required distance. See <<Stop, stop>> for further explanation.
 
 === Unsporting Behavior
-Unsporting behavior can lead to <<Yellow card, yellow cards>>, <<Red card, red cards>> or a <<Disqualification, disqualification>>. The human referee chooses an appropriate sanction, depending on the severity of the offense.
+Unsporting behavior can lead to <<Yellow card, yellow cards>>, <<Red card, red cards>>, <<Penalty Kick, penalty kicks>>, a <<Forced Forfeit, forced forfeit>> or a <<Disqualification, disqualification>>. The human <<Referee, referee>> chooses an appropriate sanction, depending on the severity of the offense.
+
+NOTE: If the referee is not sure which sanction to choose, he may confer with members of the technical committe or the organizing committee.
 
 ==== Damaging Other Robots
 It is not allowed to damage or modify robots of other teams.
 
 ==== Damaging The Field Or The Ball
 It is not allowed to damage or modify the field or the ball.
+
+==== Showing Lack Of Respect
+A team member must show appropriate respect to everyone involved in the game. Infringements of this rule include but are not limited to:
+
+* insulting the opponent, the <<Referee, referee>> or other persons holding an <<Impartial Roles, impartial role>>
+* annoying the <<Referee, referee>> or other persons holding an <<Impartial Roles, impartial role>>
+* not obeying the orders of the <<Referee, referee>>
 
 === Simultaneous Offenses
 If the game is <<Stop, stopped>> and a team is allowed to <<Resuming The Game, resume the game>>, <<Minor Offenses, minor offenses>> and <<Fouls, fouls>> of this team's opponent don't affect the method and position of the resumption of the game, except if the resulting method is a <<Penalty Kick, penalty kick>>.
