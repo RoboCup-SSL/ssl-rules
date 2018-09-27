@@ -97,7 +97,39 @@ The <<Referee, referee>> asks both <<Robot Handler, robot handlers>> which robot
 
 === Game Stages
 ==== Overview
-Chapter 7.1, Appendix A.1
+An official match of the Small Size League consists of the following stages:
+
+|===
+| Game Stage | Duration
+
+| First Half | 300 seconds of playing time
+| Half-Time | 300 seconds pause
+| Second Half | 300 seconds of playing time
+|===
+
+If the match is an elimination match (draw is not a possible outcome) and the score is even after the regular game time, the match goes into extra time and the following game stages are added:
+
+|===
+| Game Stage | Duration
+
+| Pre-Extra Time Break | 300 seconds of pause
+| Extra Time First Half | 150 seconds of playing time
+| Extra Time Half-Time | 120 seconds of pause
+| Extra Time Second Half | 150 seconds of playing time
+|===
+
+If the score is even after extra time has been played, the following stages are added:
+
+|===
+| Game Stage | Duration
+
+| Pre-Shoot-Out Break | 120 seconds of pause
+| <<Shoot-Out>> | unlimited
+|===
+
+NOTE: The actual time is much greater than the playing time, since the game timer is paused when the game is <<Stopping The Game, stopped>>.
+
+// Chapter 7.1, Appendix A.1
 // Chapter 10.2, 10.3, Appendix A.3, A.4
 
 ==== Timeouts

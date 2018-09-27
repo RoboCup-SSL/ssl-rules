@@ -1,7 +1,11 @@
 == Referee Commands
 
 === Stopping The Game
-When the game is stopped, the ball is considered out of play.
+When the game is stopped, the ball is considered out of play until it has been brought <<Resuming The Game, into play>>.
+
+The game time is paused during <<Stop, stop>>, <<Halt, halt>> and <<Automatic Ball Placement, automatic ball placement>>.
+
+NOTE: The game time is not paused during other referee commands, even if the ball is still out of play.
 
 ==== Stop
 .Definition
