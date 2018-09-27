@@ -25,7 +25,23 @@ Dribbling devices that actively exert spin on the ball, which keep the ball in c
 * 80% of the area of the ball when viewed from above should be outside the convex hull around the robot. This limitation applies as well to all kicking devices, even if such infringement is momentary.
 
 ==== Vision Pattern
+All participating teams must adhere to the given operating requirements of the <<Vision, shared vision system>>. In particular, teams are required to use a certain set of standardized colors and patterns on top of their robots.
 
+To ensure compatibility with the standardized patterns for the shared vision system, all teams must ensure that all robots have a flat surface with sufficient space available on the top side. The color of the robot top must be black or dark grey and have a matte (non-shiny) finish to reduce glare. The standard vision pattern is guaranteed to fit within a circle with a radius of 0.085 meters that is linearly cut off on the front side of the robot to a distance of 0.055 meters from the centre, as shown in figure 5. Teams must ensure that their robot tops fully enclose this area.
+
+The standard pattern to be used by all teams is shown in figure 5. Note that the technical committee and the organizing committee reserve the right to change this pattern at any time, if required. Teams must therefore make sure to still adhere to the standard robot top area size.
+
+.Standard Vision Pattern Dimensions
+image::standard_pattern2010.png[]
+
+Every robot must have one of the 16 patterns shown in figure 6. No two robots are allowed to use the same pattern.
+
+The center dot color determines the team and is either blue or yellow (see <<Choosing Team Colors>>). The other four dot colors encode the id of the robot. To ensure that every team uses the same colors, the organizing committee provides enough colored paper at the competition.
+
+NOTE: Teams are encouraged to prefer color assignments with ids 0 to 7 because they have been experimentally found more stable, as there is no risk that the back two dots “color-bleed” into each other.
+
+.Standard Vision Pattern Colors
+image::standard_colors2010.png[width=60%]
 
 ==== Radio Communication
 Chapter 4.4, Decision 1, 4
