@@ -73,7 +73,7 @@ A robot pushes an opponent robot if both robots keep contact to the ball while b
 Additionally, the referee can punish a team for pushing even if none of the involved robots touch the ball.
 
 ==== Ball Holding
-A robot is holding a ball if it takes full control of the ball by removing all of its degrees of freedom; typically, fixing a ball to the body or surrounding a ball using the body to prevent access by others. 80% of the area of the ball when viewed from above should be outside the convex hull around the robot. Another robot must be able to remove the ball from a robot with the ball. This limitation applies as well to all dribbling and kicking devices, even if such infringement is momentary.
+Robots must not surround the ball to prevent access by others.
 
 ==== Tipping Over Or Dropping Parts
 A robot must not tip over, break or drop parts on the field that pose a potential threat to other robots.

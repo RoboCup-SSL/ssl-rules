@@ -1,8 +1,0 @@
-== League Overview
-
-=== Divisions
-The Small Size League is divided into two divisions with separate tournaments, namely division A and division B. Division A is aimed at advanced teams whereas new and/or less competitive teams can play in division B. Each team will only play in one of those two divisions.
-
-When submitting the qualification material, the team also chooses a preferred division including a short rationale. The members of the organizing committee will have the final word. Information about the qualification process can be found on the official RoboCup Small Size League website (https://ssl.robocup.org).
-
-NOTE: Divisions allow for more radical advancements in the Small Size League without drastically raising the entry barrier for new teams. Additionally, they also considerably increase the amount of matches between teams of similar skill.

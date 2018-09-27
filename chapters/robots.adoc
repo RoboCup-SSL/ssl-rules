@@ -3,20 +3,29 @@
 === Number Of Robots
 A match is played by two teams, each consisting of not more than 8 robots in division A and 6 robots in division B, one of which may be the keeper. Each robot must be clearly numbered according to its vision pattern so that the referee can identify it during the match. The keeper must be designated before the match starts (see <<Choosing Keeper Id>>).
 
+=== Hardware And Software Constraints
+The <<Referee, referee>> may force a team to remove a robot from the field if it does not satisfy the rules. Members of the technical committee may also check the hardware and software constraints of robots at any point of the tournament.
+
 If a team is not able to provide at least one robot that satisfies the rules, the team may be <<Forced Forfeit, forced to forfeit>>.
 
-=== Hardware And Software Constraints
 ==== Safety
-Chapter 4.1, 4.3, Decision 3
+A robot must not pose danger to itself, another robot, or humans. It must not <<Damaging The Field Or The Ball, damage or modify the ball or the field>>.
+
+The <<Referee, referee>> has to force a team to remove a robot from the field if he considers it a potential safety threat.
 
 ==== Shape
-Chapter 4.2
+A robot must fit inside a 0.18 meters wide and 0.15 meters high cylinder at any point in time. Additionally, the top of the robot must adhere to the standard pattern size and surface constraints.
 
 ==== Dribbling Device
-Chapter 4.8, Decision 5
+Dribbling devices that actively exert spin on the ball, which keep the ball in contact with the robot are permitted under certain conditions:
+
+* The dribbling device must not elevate the ball from the ground
+* Another robot must be able to remove the ball from a robot with the ball.
+* A robot must not take full control of the ball by removing all of its degrees of freedom.
+* 80% of the area of the ball when viewed from above should be outside the convex hull around the robot. This limitation applies as well to all kicking devices, even if such infringement is momentary.
 
 ==== Vision Pattern
-Chapter 4.6
+
 
 ==== Radio Communication
 Chapter 4.4, Decision 1, 4
