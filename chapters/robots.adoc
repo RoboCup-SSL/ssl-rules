@@ -1,7 +1,9 @@
 == Robots
 
 === Number Of Robots
-Chapter 3
+A match is played by two teams, each consisting of not more than 8 robots in division A and 6 robots in division B, one of which may be the keeper. Each robot must be clearly numbered according to its vision pattern so that the referee can identify it during the match. The keeper must be designated before the match starts (see <<Choosing Keeper Id>>).
+
+If a team is not able to provide at least one robot that satisfies the rules, the team may be <<Forced Forfeit, forced to forfeit>>.
 
 === Hardware And Software Constraints
 ==== Safety
