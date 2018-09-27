@@ -1,6 +1,7 @@
 == Referee Commands
 
 === Stopping The Game
+When the game is stopped, the ball is considered out of play.
 
 ==== Stop
 .Definition
@@ -30,6 +31,8 @@ To resume the game after a stoppage or start the game in the first place, the ba
 
 In Division A, the ball will be placed automatically by the robots if the following command is a free kick or force start (see <<Automatic Ball Placement>>).
 
+When <<Force Start, force start>> has been issued or the ball moved at least 0.05 meters following a <<Kick-Off, kick-off>>, <<Direct Free Kick, direct free kick>>, <<Indirect Free Kick, indirect free kick>> or <<Penalty Kick, penalty kick>>, the ball is considered in play (see <<Double Touch>> for the rationale of the 0.05 meter distance).
+
 ==== Kick-Off
 .Definition
 The ball has to be placed in the center of the field by the human referee.
@@ -38,7 +41,7 @@ When the kick-off command is issued, all robots have to move to their own half o
 
 When the normal start command is issued, the kicker is allowed to shoot the ball. A goal may be scored directly from the kick-off.
 
-When the ball is in play, the kicker may not touch the ball until it has been touched by another robot or the game has been stopped (see <<Double Touch, double touch>>). Also, the restrictions regarding the robot positions are lifted.
+When the ball is <<Resuming The Game, in play>>, the kicker may not touch the ball until it has been touched by another robot or the game has been stopped (see <<Double Touch, double touch>>). Also, the restrictions regarding the robot positions are lifted.
 
 .Usage
 Both half times as well as both extra time periods (if needed) start with a kick-off. Chapter <<Game preparation>> describes how to determine the attacking team.
@@ -51,14 +54,14 @@ The ball placement position for a free kick depends on the event that led to the
 
 When the direct free kick command is issued, robots of the attacking team are allowed to approach the ball while robots of the defending team still have to stay at least 0.5 meters distance away from the ball (the same distance as in stop). One robot of the attacking team is allowed to shoot the ball. This robot will be referred to as the kicker. A goal may be scored directly from the direct free kick.
 
-When the ball is in play, the kicker may not touch the ball until it has been touched by another robot or the game has been stopped (see <<Double Touch, double touch>>). Also, the restrictions regarding the robot positions are lifted.
+When the ball is <<Resuming The Game, in play>>, the kicker may not touch the ball until it has been touched by another robot or the game has been stopped (see <<Double Touch, double touch>>). Also, the restrictions regarding the robot positions are lifted.
 
 .Usage
 Direct free kicks are used to restart the game after a <<Fouls, foul>> has occured. Additionally, <<Goal Kick, goal kicks>> and <<Corner Kick, corner kicks>> are mapped to direct free kicks.
 
 ==== Indirect Free Kick
 .Definition
-An indirect free kick behaves like a <<Direct Free Kick,direct free kick>>, except: After an indirect free kick, a goal can only be scored if the ball touches a robot of the attacking team after the ball entered play and before it entering the goal. If the ball enters the goal without touching an attacking robot, it will be treated like it crossed the goal line outside the goal.
+An indirect free kick behaves like a <<Direct Free Kick,direct free kick>>, except: After an indirect free kick, a goal can only be scored if the ball touches a robot of the attacking team after the ball <<Resuming The Game, entered play>> and before it entering the goal. If the ball enters the goal without touching an attacking robot, it will be treated like it crossed the goal line outside the goal.
 
 NOTE: Scoring a goal from an indirect free kick does not require more than one attacking robot. The goal can also be shot by the same robot that kicked the free kick if a robot of the defending team touches the ball before the attacker shoots the goal.
 
@@ -84,7 +87,7 @@ When the penalty command is issued, one attacking robot is allowed to approach b
 
 When the normal start command is issued, the kicker is allowed to shoot the ball. A goal may be scored directly from the penalty kick.
 
-When the ball is in play, the kicker may not touch the ball until it has been touched by another robot or the game has been stopped (see <<Double Touch, double touch>>). Also, the restrictions regarding the robot positions are lifted.
+When the ball is <<Resuming The Game, in play>>, the kicker may not touch the ball until it has been touched by another robot or the game has been stopped (see <<Double Touch, double touch>>). Also, the restrictions regarding the robot positions are lifted.
 
 Additional time is allowed for a penalty kick to be taken at the end of each half or at the end of periods of extra time.
 
@@ -102,9 +105,9 @@ Penalty Kicks are used to punish teams that received multiple <<Yellow Card, yel
 .Definition
 A yellow card can only be given during stop.
 
-Upon receipt of a yellow card, the number of robots allowed on the field for the penalised team decreases by one. If, after this decrease, the team has more robots than permitted on the field, a robot must immediately be removed from the field before play resumes. The penalized team can choose the robot to remove.
+Upon receipt of a yellow card, the number of robots allowed on the field for the penalised team decreases by one. If, after this decrease, the team has more robots than permitted on the field, a robot must immediately be removed from the field before <<Resuming The Game, play resumes>>. The penalized team can choose the robot to remove.
 
-After 2 minutes of playing time (measured by the game controller), the yellow card expires and the number of allowed robots is increased by one.
+After 120 seconds of playing time (measured by the game controller), the yellow card expires and the number of allowed robots is increased by one.
 
 For every third card (regardless of its color) for one team, a penalty kick is awarded to the opponent team.
 
