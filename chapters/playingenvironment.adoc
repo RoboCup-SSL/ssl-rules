@@ -54,12 +54,24 @@ image::goal_detail_divisionA.png[width=40%]
 .The goal in detail for division B
 image::goal_detail_divisionB.png[width=40%]
 
-=== Cameras
+==== Camera Mounting Bars
+A pair of mounting bars will be provided 4 meters above the field. The bars should be mounted securely so that they do not swing or sway under a small external force, and they should not bend or twist significantly when the weight of typical video equipment is added.
+
+NOTE: The orientation and position of the bars depend on the setup and the size of the fields.
+
+// === Cameras
+
 === Ball
-Chapter 2
+The ball is a standard orange golf ball. It weights approximately 0.046 kilograms and its diameter measures 0.043 meters.
+
+For official matches, the organizing committee provides the ball.
 
 === Shared Software
 ==== Vision
+Each field is provided with a shared central vision server and a set of shared cameras. This shared vision equipment uses the community-maintained SSL-Vision software (https://github.com/RoboCup-SSL/ssl-vision) to provide localization data to teams via Ethernet in a packet format that is to be announced by the shared vision system developers before the competition. Teams need to ensure that their systems are compatible with the shared vision system output and that their systems are able to handle the typical properties of real-world sensory data as provided by the shared vision system (including noise, latency, or occasional failed detections and misclassifications). The vision patterns on the top of the robots must adhere to the specifications of SSL-Vision, and must be of the standard color paper as specified in the SSL-Vision documentation.
+
+Besides the shared vision equipment, teams are not allowed to mount their own cameras or other external sensors, unless specifically announced or permitted by the respective competition organisers.
+
 ==== Game Controller
 Chapter 5.4
 
