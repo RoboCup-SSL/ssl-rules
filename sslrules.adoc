@@ -9,8 +9,6 @@
 
 include::chapters/introduction.adoc[]
 
-include::chapters/league.adoc[]
-
 include::chapters/playingenvironment.adoc[]
 
 include::chapters/robots.adoc[]

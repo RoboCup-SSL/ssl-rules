@@ -54,5 +54,3 @@ NOTE: Communication technolgies that use carrier frequencies in the 2.4 GHz or 5
 The robotic equipment has to be fully autonomous. Human operators are not permitted to enter any information to the system during a match, except at half time or during a time-out. Disregarding this rule is considered <<Unsporting Behavior, unsporting behavior>>.
 
 // TODO link timeout and half time
-
-=== Team Equipment
