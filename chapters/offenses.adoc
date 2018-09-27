@@ -94,6 +94,14 @@ A robot's distance to the ball must be at least 0.5 meters during an opponent <<
 
 NOTE: During <<Stop, stop>>, there is no automatic sanction for being too close to the ball. The referee may still punish a team for <<Unsporting Behavior,unsporting behavior>> by issuing a <<Yellow card, yellow card>> if it does not respect the required distance. See <<Stop, stop>> for further explanation.
 
+==== Multiple Defenders
+NOTE: This rule does not use the standard sanctions defined for <<Fouls, fouls>>.
+
+If a robot touches the ball while being partially inside its own defense area, the game is stopped, the robot receives a <<Yellow Card, yellow card>> and the opponent team resumes the game with a <<Direct Free Kick, direct free kick>>. The foul counter is not increased.
+
+If a robot touches the ball while being entirely inside its own defense area, the game is stopped and a <<Penalty Kick, penalty kick>> is awarded to the other team. The foul counter is not increased.
+
+
 === Unsporting Behavior
 Unsporting behavior can lead to <<Yellow card, yellow cards>>, <<Red card, red cards>>, <<Penalty Kick, penalty kicks>>, a <<Forced Forfeit, forced forfeit>> or a <<Disqualification, disqualification>>. The human <<Referee, referee>> chooses an appropriate sanction, depending on the severity of the offense.
 
