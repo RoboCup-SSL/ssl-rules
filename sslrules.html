@@ -565,13 +565,82 @@ Divisions allow for more radical advancements in the Small Size League without d
 <div class="content">
 <img src="images/quad-size-field.png" alt="quad size field">
 </div>
-<div class="title">Figure 1. Field dimensions for division A</div>
+<div class="title">Figure 1. Field dimensions and markings for division A</div>
 </div>
 <div class="imageblock">
 <div class="content">
 <img src="images/double-size-field.png" alt="double size field">
 </div>
-<div class="title">Figure 2. Field dimensions for division B</div>
+<div class="title">Figure 2. Field dimensions and markings for division B</div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_field_surface">3.1.2. Field Surface</h4>
+<div class="paragraph">
+<p>The playing surface is green felt mat or carpet. The floor under the carpet is level, flat, and hard.</p>
+</div>
+<div class="paragraph">
+<p>The field surface will continue for 0.7 meters beyond the <a href="#_field_lines">field lines</a> on all sides. The outer 0.4 meters of this runoff area, separated from the robot area by a 0.1 meters tall wall, is used as a designated walking area for the <a href="#_referee">referee</a> and the <a href="#_assistant_referee">assistant referee</a>.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_field_markings">3.1.3. Field Markings</h4>
+<div class="paragraph">
+<p>The field of play is marked with lines. All lines are 0.01 meters wide and white (paint, spray, white carpet or strong tape). Lines belong to the areas of which they are boundaries.</p>
+</div>
+<div class="sect4">
+<h5 id="_field_lines">Field Lines</h5>
+<div class="paragraph">
+<p>The playing area is defined by four field lines. The two longer field lines are called touch lines. The two shorter field lines are called goal lines.</p>
+</div>
+</div>
+<div class="sect4">
+<h5 id="_additional_lines">Additional Lines</h5>
+<div class="paragraph">
+<p>The field of play is divided into two halves by a halfway line that runs along the width of the field and through the center of the field.</p>
+</div>
+<div class="paragraph">
+<p>A mid-line runs along the length of the field, passing through the center of the field. This line is used to provide adequate features for the geometry calibration of the <a href="#_vision">vision software</a>.</p>
+</div>
+</div>
+<div class="sect4">
+<h5 id="_center_circle">Center Circle</h5>
+<div class="paragraph">
+<p>The center mark is indicated at the midpoint of the halfway line. A circle with a diameter of 1 meter is marked around it for both divisions.</p>
+</div>
+</div>
+<div class="sect4">
+<h5 id="_defense_area">Defense Area</h5>
+<div class="paragraph">
+<p>A defense area is defined at each end of the field as a rectangle of 2.4 meters times 1.2 meters for division A and 2 meters times 1 meter for division B.</p>
+</div>
+</div>
+<div class="sect4">
+<h5 id="_penalty_mark">Penalty Mark</h5>
+<div class="paragraph">
+<p>For each field half the penalty mark is 1.2 meters for division A and 1 meter for division B, from the midpoint between the goalposts and equidistant to them, thus coinciding with the outer edge of the defense area.</p>
+</div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_goals">3.1.4. Goals</h4>
+<div class="paragraph">
+<p>Goals must be placed on the center of each goal line and anchored securely to the field surface. They consist of two 0.16 meters high vertical side walls joined at the back by a 0.16 meters high vertical rear wall. The inner face of the goal has to be covered with an energy absorbing material such as foam to help absorb ball impacts and lessen the speed of deflections. The goal walls, edges, and tops are white in color.</p>
+</div>
+<div class="paragraph">
+<p>The distance between the side walls is 1.2 meters for division A and 1 meter for division B, and the goal is 0.18 meters deep. The goal walls are 0.02 meters thick and touch the goal line, but do not overlap or encroach on the field lines or the field. Figure 3 and Figure 4 show these details for division A and division B respectively.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="images/goal_detail_divisionA.png" alt="goal detail divisionA" width="40%">
+</div>
+<div class="title">Figure 3. The goal in detail for division A</div>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="images/goal_detail_divisionB.png" alt="goal detail divisionB" width="40%">
+</div>
+<div class="title">Figure 4. The goal in detail for division B</div>
 </div>
 </div>
 </div>
@@ -916,7 +985,7 @@ If the ball moves very quickly, it is hard to always keep the required distance 
 </div>
 <div class="paragraph">
 <div class="title">Usage</div>
-<p>The stop command is used to pause the game after the ball crossed the field lines (including goals) or an offense occured as well as to prepare the start or resumption of the game after halt, timeouts and automatic ball placement. The robot speed limit and the minimum distance to the ball allow the referee or assistant referee to place the ball safely and without interference.</p>
+<p>The stop command is used to pause the game after the ball crossed the <a href="#_field_lines">field lines</a> (including goals) or an offense occured as well as to prepare the start or resumption of the game after halt, timeouts and automatic ball placement. The robot speed limit and the minimum distance to the ball allow the referee or assistant referee to place the ball safely and without interference.</p>
 </div>
 </div>
 <div class="sect3">
@@ -953,7 +1022,7 @@ also used to recalibrate the vision software during a game if the vision expert 
 <p>The ball has to be placed in the center of the field by the human referee.</p>
 </div>
 <div class="paragraph">
-<p>When the kick-off command is issued, all robots have to move to their own half of the field excluding the center circle. However, one robot of the attacking team is also allowed to be inside the whole center circle. This robot will be referred to as the kicker. No robot is allowed to touch the ball.</p>
+<p>When the kick-off command is issued, all robots have to move to their own half of the field excluding the <a href="#_center_circle">center circle</a>. However, one robot of the attacking team is also allowed to be inside the whole center circle. This robot will be referred to as the kicker. No robot is allowed to touch the ball.</p>
 </div>
 <div class="paragraph">
 <p>When the normal start command is issued, the kicker is allowed to shoot the ball. A goal may be scored directly from the kick-off.</p>
@@ -973,7 +1042,7 @@ also used to recalibrate the vision software during a game if the vision expert 
 <h4 id="_direct_free_kick">6.2.2. Direct Free Kick</h4>
 <div class="paragraph">
 <div class="title">Definition</div>
-<p>The ball placement position for a free kick depends on the event that led to the free kick. This position is valid if there is at least 0.2 meters distance to all field lines and 1 meter distance to either defense area. If an event requires the ball to be placed at a position that contravenes this rule, it has to be placed at the closest valid position instead.</p>
+<p>The ball placement position for a free kick depends on the event that led to the free kick. This position is valid if there is at least 0.2 meters distance to all <a href="#_field_lines">field lines</a> and 1 meter distance to either <a href="#_defense_area">defense area</a>. If an event requires the ball to be placed at a position that contravenes this rule, it has to be placed at the closest valid position instead.</p>
 </div>
 <div class="paragraph">
 <p>When the direct free kick command is issued, robots of the attacking team are allowed to approach the ball while robots of the defending team still have to stay at least 0.5 meters distance away from the ball (the same distance as in stop). One robot of the attacking team is allowed to shoot the ball. This robot will be referred to as the kicker. A goal may be scored directly from the direct free kick.</p>
@@ -1039,7 +1108,7 @@ In association football, it is sufficient if any player (including the keeper) t
 <h4 id="_penalty_kick">6.2.5. Penalty Kick</h4>
 <div class="paragraph">
 <div class="title">Definition</div>
-<p>To initiate a penalty kick, the stop command has to be sent and the ball has to be placed on the penalty mark by the human referee.</p>
+<p>To initiate a penalty kick, the stop command has to be sent and the ball has to be placed on the <a href="#_penalty_mark">penalty mark</a> by the human <a href="#_referee">referee</a>.</p>
 </div>
 <div class="paragraph">
 <p>When the penalty command is issued, one attacking robot is allowed to approach but not touch the ball. This robot will be referred to as the kicker. The defending keeper has to touch the goal line. All other robots have to move behind a line parallel to the goal line and 0.4 meters behind the penalty mark. When these constraints are met, the referee may continue with a normal start command.</p>
@@ -1161,13 +1230,16 @@ For example, serious violent contact by the robots or disrespectful behaviour to
 <h2 id="_ball_leaves_the_field">7. Ball Leaves The Field</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>When the ball leaves the field by fully crossing the field line, the game will be stopped, the ball will be placed and the game will be restarted depending on the position of the field line crossing as well as on the team that last touched the ball.</p>
+<p>When the ball leaves the field by fully crossing the <a href="#_field_lines">field line</a>, the game will be stopped, the ball will be placed and the game will be restarted depending on the position of the field line crossing as well as on the team that last touched the ball.</p>
 </div>
 <div class="paragraph">
 <p>In division A, the robots have to retrieve and place the ball autonomously (see <a href="#_automatic_ball_placement">Automatic Ball Placement</a>).</p>
 </div>
 <div class="sect2">
 <h3 id="_touch_line_crossing">7.1. Touch Line Crossing</h3>
+<div class="paragraph">
+<p>Touch lines are the long <a href="#_field_lines">field lines</a> at both sides of the playing field.</p>
+</div>
 <div class="sect3">
 <h4 id="_throw_in">7.1.1. Throw-In</h4>
 <div class="paragraph">
@@ -1185,6 +1257,9 @@ For example, serious violent contact by the robots or disrespectful behaviour to
 </div>
 <div class="sect2">
 <h3 id="_goal_line_crossing">7.2. Goal Line Crossing</h3>
+<div class="paragraph">
+<p>Goal lines are the short <a href="#_field_lines">field lines</a> at both ends of the playing field.</p>
+</div>
 <div class="sect3">
 <h4 id="_goal_kick">7.2.1. Goal Kick</h4>
 <div class="paragraph">
@@ -1290,7 +1365,7 @@ Rule of thumb: Minor offenses are infringements of the rules committed by an att
 <p>There is a lack of progress if only one team is allowed to manipulate the ball (<a href="#_kick_off">kick-off</a>, <a href="#_direct_free_kick">direct free kick</a>, <a href="#_indirect_free_kick">indirect free kick</a>, <a href="#_penalty_kick">penalty kick</a>) and does not bring the ball into play for 10 seconds.</p>
 </div>
 <div class="paragraph">
-<p>There is also a lack of progress if the ball is inside a team&#8217;s defense area for 10 seconds, since the keeper is the only robot that is allowed to manipulate the ball.</p>
+<p>There is also a lack of progress if the ball is inside a team&#8217;s <a href="#_defense_area">defense area</a> for 10 seconds, since the keeper is the only robot that is allowed to manipulate the ball.</p>
 </div>
 <div class="admonitionblock note">
 <table>
@@ -1329,7 +1404,7 @@ It is understood that the ball may be bumped by the robot multiple times over a 
 <div class="sect3">
 <h4 id="_attacker_in_defense_area">9.1.4. Attacker In Defense Area</h4>
 <div class="paragraph">
-<p>A robot must not touch the ball while being partially or fully inside the opponent defense area.</p>
+<p>A robot must not touch the ball while being partially or fully inside the opponent <a href="#_defense_area">defense area</a>.</p>
 </div>
 <div class="admonitionblock note">
 <table>
@@ -1347,7 +1422,7 @@ When the ball is not in play, the more strict rule <a href="#_attacker_too_close
 <div class="sect3">
 <h4 id="_attacker_touches_keeper">9.1.5. Attacker Touches Keeper</h4>
 <div class="paragraph">
-<p>A robot must not touch the opponent keeper inside the opponent defense area.</p>
+<p>A robot must not touch the opponent keeper inside the opponent <a href="#_defense_area">defense area</a>.</p>
 </div>
 <div class="admonitionblock note">
 <table>
@@ -1401,7 +1476,7 @@ Dribblers can still be used to dribble large distances with the ball as long as 
 <div class="sect3">
 <h4 id="_attacker_too_close_to_defense_area">9.2.1. Attacker Too Close To Defense Area</h4>
 <div class="paragraph">
-<p>During <a href="#_stop">stop</a>, <a href="#_direct_free_kick">direct free kicks</a> and <a href="#_indirect_free_kick">indirect free kicks</a>, before the ball has entered play, all robots have to keep at least 0.2 meters distance to the opponent defense area.</p>
+<p>During <a href="#_stop">stop</a>, <a href="#_direct_free_kick">direct free kicks</a> and <a href="#_indirect_free_kick">indirect free kicks</a>, before the ball has entered play, all robots have to keep at least 0.2 meters distance to the opponent <a href="#_defense_area">defense area</a>.</p>
 </div>
 <div class="paragraph">
 <p>There is a grace period of 2 seconds for the robots to move away from the opponent defense area.</p>
@@ -1449,7 +1524,7 @@ In a typical scenario, the referee would warn the team and expect that they woul
 <div class="sect3">
 <h4 id="_pushing">9.2.4. Pushing</h4>
 <div class="paragraph">
-<p>A robot pushes an opponent robot if both robots keep contact to the ball while both robots travel towards the opponent robot for more than 0.2 meters or until the opponent enters its defense area.</p>
+<p>A robot pushes an opponent robot if both robots keep contact to the ball while both robots travel towards the opponent robot for more than 0.2 meters or until the opponent enters its <a href="#_defense_area">defense area</a>.</p>
 </div>
 <div class="paragraph">
 <p>Additionally, the referee can punish a team for pushing even if none of the involved robots touch the ball.</p>
@@ -1611,7 +1686,7 @@ This rule is in place to prevent teams from purposely committing offenses in ord
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2018-09-26 16:38:07 CEST
+Last updated 2018-09-26 17:02:51 CEST
 </div>
 </div>
 </body>
