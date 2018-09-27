@@ -17,6 +17,29 @@ image::quad-size-field.png[]
 .Field dimensions for division B
 image::double-size-field.png[]
 
+==== Field Surface
+The playing surface is green felt mat or carpet. The floor under the carpet is level, flat, and hard.
+
+The field surface will continue for 0.7 meters beyond the <<Field Lines, field lines>> on all sides. The outer 0.4 meters of this runoff area, separated from the robot area by a 0.1 meters tall wall, is used as a designated walking area for the <<Referee, referee>> and the <<Assistant Referee, assistant referee>>.
+
+
+==== Field Markings
+The field of play is marked with lines. All lines are 0.01 meters wide and white (paint, spray, white carpet or strong tape). Lines belong to the areas of which they are boundaries.
+
+===== Field Lines
+The playing area is defined by four field lines. The two longer field lines are called touch lines. The two shorter field lines are called goal lines.
+
+===== Additional Lines
+The field of play is divided into two halves by a halfway line that runs along the width of the field and through the center of the field.
+
+A mid-line runs along the length of the field, passing through the center of the field. This line is used to provide adequate features for the geometry calibration of the <<Vision, vision software>>.
+
+===== Center Circle
+The center mark is indicated at the midpoint of the halfway line. A circle with a diameter of 1 meter is marked around it for both divisions.
+
+===== Defense Area
+A defense area is defined at each end of the field as a rectangle of 2.4 meters times 1.2 meters for division A and 2 meters times 1 meter for division B.
+
 === Cameras
 === Ball
 Chapter 2

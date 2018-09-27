@@ -9,7 +9,7 @@ When the stop command is issued, all robots have to slow down to less than 1.5 m
 NOTE: If the ball moves very quickly, it is hard to always keep the required distance to the ball, especially since the speed of the robots is limited during stop. Therefore, it is sufficient if it is obvious to the referee that the robots try their best to follow the distance rule.
 
 .Usage
-The stop command is used to pause the game after the ball crossed the field lines (including goals) or an offense occured as well as to prepare the start or resumption of the game after halt, timeouts and automatic ball placement. The robot speed limit and the minimum distance to the ball allow the referee or assistant referee to place the ball safely and without interference.
+The stop command is used to pause the game after the ball crossed the <<Field Lines, field lines>> (including goals) or an offense occured as well as to prepare the start or resumption of the game after halt, timeouts and automatic ball placement. The robot speed limit and the minimum distance to the ball allow the referee or assistant referee to place the ball safely and without interference.
 
 
 
@@ -34,7 +34,7 @@ In Division A, the ball will be placed automatically by the robots if the follow
 .Definition
 The ball has to be placed in the center of the field by the human referee.
 
-When the kick-off command is issued, all robots have to move to their own half of the field excluding the center circle. However, one robot of the attacking team is also allowed to be inside the whole center circle. This robot will be referred to as the kicker. No robot is allowed to touch the ball.
+When the kick-off command is issued, all robots have to move to their own half of the field excluding the <<Center Circle, center circle>>. However, one robot of the attacking team is also allowed to be inside the whole center circle. This robot will be referred to as the kicker. No robot is allowed to touch the ball.
 
 When the normal start command is issued, the kicker is allowed to shoot the ball. A goal may be scored directly from the kick-off.
 
@@ -47,7 +47,7 @@ Additionally, after a goal has been scored, the receiving team restarts the game
 
 ==== Direct Free Kick
 .Definition
-The ball placement position for a free kick depends on the event that led to the free kick. This position is valid if there is at least 0.2 meters distance to all field lines and 1 meter distance to either defense area. If an event requires the ball to be placed at a position that contravenes this rule, it has to be placed at the closest valid position instead.
+The ball placement position for a free kick depends on the event that led to the free kick. This position is valid if there is at least 0.2 meters distance to all <<Field Lines, field lines>> and 1 meter distance to either <<Defense Area, defense area>>. If an event requires the ball to be placed at a position that contravenes this rule, it has to be placed at the closest valid position instead.
 
 When the direct free kick command is issued, robots of the attacking team are allowed to approach the ball while robots of the defending team still have to stay at least 0.5 meters distance away from the ball (the same distance as in stop). One robot of the attacking team is allowed to shoot the ball. This robot will be referred to as the kicker. A goal may be scored directly from the direct free kick.
 

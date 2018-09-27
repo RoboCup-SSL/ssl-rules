@@ -14,7 +14,7 @@ A kick is aimless when after the ball touched a robot, it subsequently crossed t
 ==== Lack Of Progress
 There is a lack of progress if only one team is allowed to manipulate the ball (<<Kick-Off, kick-off>>, <<Direct Free Kick, direct free kick>>, <<Indirect Free Kick, indirect free kick>>, <<Penalty Kick, penalty kick>>) and does not bring the ball into play for 10 seconds.
 
-There is also a lack of progress if the ball is inside a team's defense area for 10 seconds, since the keeper is the only robot that is allowed to manipulate the ball.
+There is also a lack of progress if the ball is inside a team's <<Defense Area, defense area>> for 10 seconds, since the keeper is the only robot that is allowed to manipulate the ball.
 
 NOTE: If both teams are allowed to manipulate the ball, and thus no team is at fault, the referee may stop the game and issue a <<Force Start, force start>> command.
 
@@ -26,12 +26,12 @@ The ball must have moved at least 0.05 meters to be considered as in play.
 NOTE: It is understood that the ball may be bumped by the robot multiple times over a short distance while the kick is being taken. This is why a distance of 0.05 meters is used to decide whether a robot violates this rule or not. Remaining in contact with the ball for more than 0.05 meters also counts as double touch, even though technically the robot only touched the ball once.
 
 ==== Attacker In Defense Area
-A robot must not touch the ball while being partially or fully inside the opponent defense area.
+A robot must not touch the ball while being partially or fully inside the opponent <<Defense Area, defense area>>.
 
 NOTE: When the ball is not in play, the more strict rule <<Attacker Too Close To Defense Area>> applies instead.
 
 ==== Attacker Touches Keeper
-A robot must not touch the opponent keeper inside the opponent defense area.
+A robot must not touch the opponent keeper inside the opponent <<Defense Area, defense area>>.
 
 NOTE: When the ball is not in play, the more strict rule <<Attacker Too Close To Defense Area>> applies instead.
 
@@ -51,7 +51,7 @@ In case of severe fouls, the referee can also issue a <<Yellow card, yellow card
 All fouls are listed below.
 
 ==== Attacker Too Close To Defense Area
-During <<Stop, stop>>, <<Direct Free Kick, direct free kicks>> and <<Indirect Free Kick, indirect free kicks>>, before the ball has entered play, all robots have to keep at least 0.2 meters distance to the opponent defense area.
+During <<Stop, stop>>, <<Direct Free Kick, direct free kicks>> and <<Indirect Free Kick, indirect free kicks>>, before the ball has entered play, all robots have to keep at least 0.2 meters distance to the opponent <<Defense Area, defense area>>.
 
 There is a grace period of 2 seconds for the robots to move away from the opponent defense area.
 
@@ -68,7 +68,7 @@ At the moment of collision of two robots of different teams, the difference of t
 NOTE: In a typical scenario, the referee would warn the team and expect that they would modify their system to reduce the violence of their play. If the referee was still unsatisfied a yellow card would be issued.
 
 ==== Pushing
-A robot pushes an opponent robot if both robots keep contact to the ball while both robots travel towards the opponent robot for more than 0.2 meters or until the opponent enters its defense area.
+A robot pushes an opponent robot if both robots keep contact to the ball while both robots travel towards the opponent robot for more than 0.2 meters or until the opponent enters its <<Defense Area, defense area>>.
 
 Additionally, the referee can punish a team for pushing even if none of the involved robots touch the ball.
 

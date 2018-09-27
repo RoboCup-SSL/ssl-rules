@@ -1,9 +1,11 @@
 == Ball Leaves The Field
-When the ball leaves the field by fully crossing the field line, the game will be stopped, the ball will be placed and the game will be restarted depending on the position of the field line crossing as well as on the team that last touched the ball.
+When the ball leaves the field by fully crossing the <<Field Lines, field line>>, the game will be stopped, the ball will be placed and the game will be restarted depending on the position of the field line crossing as well as on the team that last touched the ball.
 
 In division A, the robots have to retrieve and place the ball autonomously (see <<Automatic Ball Placement>>).
 
 === Touch Line Crossing
+Touch lines are the long <<Field Lines, field lines>> at both sides of the playing field.
+
 ==== Throw-In
 .Definition
 The ball has to be placed 0.2 meters perpendicular to the touch line where the ball crossed the touch line. Its distance to the goal lines must be at least 0.2 meters.
@@ -14,6 +16,8 @@ After the ball has been placed, an <<Indirect Free Kick, indirect free kick>> is
 A throw-in is used to restart the game after the ball left the field by crossing the touch line.
 
 === Goal Line Crossing
+Goal lines are the short <<Field Lines, field lines>> at both ends of the playing field.
+
 ==== Goal Kick
 .Definition
 The ball has to be placed 0.2 meters from the closest touch line and 1 meter from the goal line.
