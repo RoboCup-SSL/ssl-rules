@@ -78,7 +78,7 @@ It can also be used to resume the game when the game had to be stopped and no te
 
 ==== Penalty Kick
 .Definition
-To initiate a penalty kick, the stop command has to be sent and the ball has to be placed on the penalty mark by the human referee.
+To initiate a penalty kick, the stop command has to be sent and the ball has to be placed on the <<Penalty Mark, penalty mark>> by the human <<Referee, referee>>.
 
 When the penalty command is issued, one attacking robot is allowed to approach but not touch the ball. This robot will be referred to as the kicker. The defending keeper has to touch the goal line. All other robots have to move behind a line parallel to the goal line and 0.4 meters behind the penalty mark. When these constraints are met, the referee may continue with a normal start command.
 
