@@ -48,7 +48,7 @@ When the normal start command is issued, the kicker is allowed to shoot the ball
 When the ball is <<Resuming The Game, in play>>, the kicker may not touch the ball until it has been touched by another robot or the game has been stopped (see <<Double Touch, double touch>>). Also, the restrictions regarding the robot positions are lifted.
 
 .Usage
-Both half times as well as both extra time periods (if needed) start with a kick-off. Chapter <<Game preparation>> describes how to determine the attacking team.
+Both half times as well as both overtime periods (if needed) start with a kick-off. Chapter <<Game preparation>> describes how to determine the attacking team.
 
 Additionally, after a goal has been scored, the receiving team restarts the game with a kick-off.
 
@@ -93,7 +93,7 @@ When the normal start command is issued, the kicker is allowed to shoot the ball
 
 When the ball is <<Resuming The Game, in play>>, the kicker may not touch the ball until it has been touched by another robot or the game has been stopped (see <<Double Touch, double touch>>). Also, the restrictions regarding the robot positions are lifted.
 
-Additional time is allowed for a penalty kick to be taken at the end of each half or at the end of periods of extra time.
+Additional time is allowed for a penalty kick to be taken at the end of each half or at the end of periods of overtime.
 
 The penalty kick is retaken if the attacking team infringes the rules and the ball enters the goal or the defending team infringes the rules and the ball does not enter the goal.
 
