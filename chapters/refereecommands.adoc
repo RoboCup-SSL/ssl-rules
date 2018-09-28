@@ -113,7 +113,7 @@ Upon receipt of a yellow card, the number of robots allowed on the field for the
 
 After 120 seconds of playing time (measured by the game controller), the yellow card expires and the number of allowed robots is increased by one. The team may <<Putting A Robot In, put a robot back in>>.
 
-For every third card (regardless of its color) for one team, a penalty kick is awarded to the opponent team.
+For every third card (regardless of its color) for one team, a <<Penalty Kick, penalty kick>> is awarded to the opponent team.
 
 .Usage
 Yellow cards are used to punish teams that committed multiple <<Fouls, fouls>>.
