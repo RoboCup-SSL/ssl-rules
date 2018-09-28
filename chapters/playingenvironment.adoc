@@ -49,10 +49,10 @@ Goals must be placed on the center of each goal line and anchored securely to th
 The distance between the side walls is 1.2 meters for division A and 1 meter for division B, and the goal is 0.18 meters deep. The goal walls are 0.02 meters thick and touch the goal line, but do not overlap or encroach on the field lines or the field. Figure 3 and Figure 4 show these details for division A and division B respectively.
 
 .The goal in detail for division A
-image::goal_detail_divisionA.png[width=40%]
+image::goal_detail_divisionA.png[width=400]
 
 .The goal in detail for division B
-image::goal_detail_divisionB.png[width=40%]
+image::goal_detail_divisionB.png[width=400]
 
 ==== Camera Mounting Bars
 A pair of mounting bars will be provided 4 meters above the field. The bars should be mounted securely so that they do not swing or sway under a small external force, and they should not bend or twist significantly when the weight of typical video equipment is added.

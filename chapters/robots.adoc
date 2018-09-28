@@ -41,7 +41,7 @@ The center dot color determines the team and is either blue or yellow (see <<Cho
 NOTE: Teams are encouraged to prefer color assignments with ids 0 to 7 because they have been experimentally found more stable, as there is no risk that the back two dots “color-bleed” into each other.
 
 .Standard Vision Pattern Colors
-image::standard_colors2010.png[width=60%]
+image::standard_colors2010.png[width=500]
 
 ==== Radio Communication
 Participants using wireless communications must notify the organising committee of the method of wireless communication, power, and frequency. The organising committee must be notified of any change after registration as soon as possible. In order to avoid interference, a team should be able to select from two carrier frequencies before the match. The type of wireless communication has to follow legal regulations of the country where the competition is held. Compliance with local laws is the responsibility of the competing teams, not the RoboCup Federation.
