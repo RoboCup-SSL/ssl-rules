@@ -103,7 +103,7 @@ An official match of the Small Size League consists of the following stages:
 | Game Stage | Duration
 
 | First Half | 300 seconds of playing time
-| Half-Time | 300 seconds pause
+| Half-Time Break | 300 seconds pause
 | Second Half | 300 seconds of playing time
 |===
 
@@ -114,7 +114,7 @@ If the match is an elimination match (draw is not a possible outcome) and the sc
 
 | Pre-Overtime Break | 300 seconds of pause
 | Overtime First Half | 150 seconds of playing time
-| Overtime Half-Time | 120 seconds of pause
+| Overtime Half-Time Break | 120 seconds of pause
 | Overtime Second Half | 150 seconds of playing time
 |===
 
@@ -133,4 +133,13 @@ NOTE: The actual time is much greater than the playing time, since the game time
 // Chapter 10.2, 10.3, Appendix A.3, A.4
 
 ==== Timeouts
-Chapter 7.3, Appendix A.1.3
+The <<Robot Handler, robot handler>> has to ask the referee for a timeout. Timeouts are handled like <<Overview, breaks>>, meaning that both teams are allowed to make modifications to their software and hardware (see <<Autonomy>>).
+
+Each team is allocated 4 timeouts at the beginning of the match. A total of 300 seconds is allowed for all timeouts. Timeouts may only be taken during a game
+stoppage. The time is monitored and recorded by the <<Game Controller Operator, game controller operator>>.
+
+NOTE: For example, a team may take 3 timeouts of 60 seconds duration and thereafter have only one timeout of up to 120 seconds duration.
+
+During overtime, both teams can use 2 timeouts with a total time of 150 seconds. The number of timeouts and the time not used in regular game are not added.
+
+No timeouts are possible in the <<Shoot-Out, shoot-out>> stage.

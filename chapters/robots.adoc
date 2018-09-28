@@ -51,6 +51,6 @@ The type of wireless communication may also be restricted by the local organisin
 NOTE: Communication technolgies that use carrier frequencies in the 2.4 GHz or 5 GHz band (like Bluetooth) are usually prohibited to prevent interference with other leagues.
 
 ==== Autonomy
-The robotic equipment has to be fully autonomous. Human operators are not permitted to enter any information to the system during a match, except at half time or during a time-out. Disregarding this rule is considered <<Unsporting Behavior, unsporting behavior>>.
+The robotic equipment has to be fully autonomous. Human operators are not permitted to enter any information to the system during a match, except in <<Overview, breaks>> or during a <<Timeouts,timeout>>. Disregarding this rule is considered <<Unsporting Behavior, unsporting behavior>>.
 
 // TODO link timeout and half time
