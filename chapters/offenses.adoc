@@ -70,9 +70,7 @@ At the moment of collision of two robots of different teams, the difference of t
 NOTE: In a typical scenario, the referee would warn the team and expect that they would modify their system to reduce the violence of their play. If the referee was still unsatisfied a yellow card would be issued.
 
 ==== Pushing
-A robot pushes an opponent robot if both robots keep contact to the ball while both robots travel towards the opponent robot for more than 0.2 meters or until the opponent enters its <<Defense Area, defense area>>.
-
-Additionally, the referee can punish a team for pushing even if none of the involved robots touch the ball.
+A robot pushes an opponent robot if both robots keep contact to the ball or to each other while both robots travel towards the opponent robot for more than 0.2 meters or until the opponent enters its <<Defense Area, defense area>>.
 
 ==== Ball Holding
 Robots must not surround the ball to prevent access by others.
