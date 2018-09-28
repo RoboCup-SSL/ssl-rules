@@ -80,6 +80,8 @@ Robots must not surround the ball to prevent access by others.
 ==== Tipping Over Or Dropping Parts
 A robot must not tip over, break or drop parts on the field that pose a potential threat to other robots.
 
+A robot violating this rule has to be <<Robot Substitution, substituted>>.
+
 NOTE: Metal parts (screws for example) as well as larger parts generally pose a potential threat, very small non-metal parts (for example rubber subwheel rings) don't.
 
 ==== Robot Stop Speed
@@ -87,7 +89,7 @@ A robot must not move faster than 1.5 meters per second during <<Stop, stop>>.
 
 There is a grace period of 2 seconds for the robots to slow down.
 
-NOTE: Since the stop command is used for manual ball placement and robot exchange, the intention of the robot speed limit is to avoid robots harming the people on the field.
+NOTE: Since the stop command is used for manual ball placement and robot substitution, the intention of the robot speed limit is to avoid robots harming the people on the field.
 
 ==== Defender Too Close To Ball
 A robot's distance to the ball must be at least 0.5 meters during an opponent <<Kick-Off, kick-off>>, <<Direct Free Kick, direct free kick>> or <<Indirect Free Kick, indirect free kick>>.

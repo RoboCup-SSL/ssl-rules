@@ -23,7 +23,7 @@ include::chapters/scoringgoals.adoc[]
 
 include::chapters/offenses.adoc[]
 
-include::chapters/exchanging.adoc[]
+include::chapters/substitution.adoc[]
 
 
 // Terms to define:
