@@ -51,7 +51,7 @@ No team members are allowed to talk to the game controller operator.
 
 .Duties
 * The game controller operator configures the <<Game Controller, game controller>> before the game begins
-* The game controller operator enters the signals of the <Referee, referee> into the <<Game Controller, game controller>>
+* The game controller operator enters the signals of the <<Referee, referee>> into the <<Game Controller, game controller>>
 * The game controller operator watches the game event log for any events that need attention, like detections of an <<Automatic Referee, automatic referee>> or elapsed timers and notifies the <<Referee, referee>>
 
 ==== Vision Expert
