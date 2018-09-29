@@ -3,7 +3,7 @@
 === Stopping The Game
 When the game is stopped, the ball is considered out of play until it has been brought <<Resuming The Game, into play>>.
 
-The game time is paused during <<Stop, stop>>, <<Halt, halt>> and <<Automatic Ball Placement, automatic ball placement>>.
+The game time is paused during <<Stop, stop>>, <<Halt, halt>> and <<Ball Placement, ball placement>>.
 
 NOTE: The game time is not paused during other referee commands, even if the ball is still out of play.
 
@@ -14,7 +14,7 @@ When the stop command is issued, all robots have to slow down to less than 1.5 m
 NOTE: If the ball moves very quickly, it is hard to always keep the required distance to the ball, especially since the speed of the robots is limited during stop. Therefore, it is sufficient if it is obvious to the referee that the robots try their best to follow the distance rule.
 
 .Usage
-The stop command is used to pause the game after the ball crossed the <<Field Lines, field lines>> (including goals) or an offense occured as well as to prepare the start or resumption of the game after halt, timeouts and automatic ball placement. The robot speed limit and the minimum distance to the ball allow the referee or assistant referee to place the ball safely and without interference.
+The stop command is used to pause the game after the ball crossed the <<Field Lines, field lines>> (including goals) or an offense occurred as well as to prepare the start or resumption of the game after halt, timeouts and automatic ball placement. The robot speed limit and the minimum distance to the ball allow the referee or assistant referee to place the ball safely and without interference.
 
 
 
@@ -33,7 +33,7 @@ The halt command is always followed up by stop.
 === Resuming The Game
 To resume the game after a stoppage or start the game in the first place, the ball has to be placed at a certain position on the field first. The main referee or assistant referee is advised to use a so-called ball handler (a long, preferably black stick-like device) to move the ball.
 
-In Division A, the ball will be placed automatically by the robots if the following command is a free kick or force start (see <<Automatic Ball Placement>>).
+In division A, the ball will be placed automatically by the robots if the following command is a free kick or force start (see <<Ball Placement>>).
 
 When <<Force Start, force start>> has been issued or the ball moved at least 0.05 meters following a <<Kick-Off, kick-off>>, <<Direct Free Kick, direct free kick>>, <<Indirect Free Kick, indirect free kick>> or <<Penalty Kick, penalty kick>>, the ball is considered in play (see <<Double Touch>> for the rationale of the 0.05 meter distance).
 
@@ -150,12 +150,44 @@ A team can only be disqualified in agreement with members of the technical commi
 
 === Special Commands
 
-==== Automatic Ball Placement
-Chapter 9.2
-
+==== Ball Placement
 .Definition
+After the game was stopped, the ball must be placed on the appropriate position, depending on the event that occurred.
+The automatic ball placement is the preferred way to place the ball at the designated position on the field by the robots of the teams without human interaction.
+If this is not possible, the <<Referee, referee>> places the ball manually.
 
 .Usage
+When the ball goes <<Stopping The Game,out of play>>, the following rules decide, if automatic ball placement is applied:
+
+1. The <<Referee, referee>> has to place the ball for all kickoffs and all penalty kicks
+1. For an <<Indirect Free Kick, indirect free kick>> or <<Direct Free Kick, direct free kick>>, the team that brings the ball into play must place the ball
+1. For a <<Force Start, force start>>, a team is drawn by chance and must place the ball
+1. The ball must be visible and must not be inside a field or goal corner or behind the goal, before the ball placement starts
+1. The <<Referee, referee>> can decide to place the ball manually at any time
+1. The <<Referee, referee>> can decide to disable automatic ball placement for the rest of the game. TC/OC must agree with this decision
+1. When a team has failed to place the ball five times in a row, it is not allowed to place the ball for the rest of the game half. All free kicks that were a result of the ball leaving the field, are awarded to the opposing team. For all other rule violations or when both teams failed to place the ball, the ball is placed by the <<Referee, referee>>
+1. If no team can place the ball, the ball is placed by the <<Referee, referee>>
+
+NOTE: The ball may still be moving when the placement command is issued.
+
+Ball placement is mandatory for all teams in division A.
+Teams in division B may decide, at any time before or during the game, not to place the ball for the rest of the game by talking to the <<Referee, referee>>, who in turn tells the <<Game Controller Operator, game controller operator>> to disable ball placement for this team.
+In this case, the team is allowed to bring the ball into play, after the ball was placed by the opposing team.
+If the opposing team fails to place the ball or no team can place the ball, it is placed by the <<Referee, referee>>.
+
+A ball is considered placed successfully if
+
+* no more than 30 seconds passed since the placement command
+* there is no robot within 0.05 meters distance to the ball if the next command is an <<Indirect Free Kick, indirect free kick>> or <<Direct Free Kick, direct free kick>>
+* there is no robot within 0.5 meters distance to the ball if the next command is a <<Force Start, force start>>
+* the ball is stationary
+* the ball is at a position within 0.15 meters radius from the requested position
+
+No further commands will be issued by the <<Game Controller, game controller>> until the automatic placement is complete.
+The game will be continued by the <<Game Controller, game controller>> as soon as the ball is successfully placed.
+A failed placement will result in an indirect free kick for the opposing team.
+If this team failed to place the ball as well, the ball is placed by the <<Referee, referee>> and game continues with the original command.
+The non-placing team must not <<Ball Placement Interference, interfere the ball placement task>>.
 
 ==== Shoot-Out
 Appendix A.2

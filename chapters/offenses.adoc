@@ -58,7 +58,7 @@ During <<Stop, stop>>, <<Direct Free Kick, direct free kicks>> and <<Indirect Fr
 There is a grace period of 2 seconds for the robots to move away from the opponent defense area.
 
 ==== Ball Placement Interference
-During <<Automatic Ball Placement, automatic ball placement>>, all robots of the non-placing team have to keep at least 0.5 meters distance to the line between the ball and the placement position (the forbidden area forms a stadium shape).
+During <<Ball Placement, ball placement>>, all robots of the non-placing team have to keep at least 0.5 meters distance to the line between the ball and the placement position (the forbidden area forms a stadium shape).
 
 If a robot of the non-placing team is too close to the line between the ball and the placement position for more than 2 seconds, it commits a foul.
 
@@ -86,6 +86,8 @@ NOTE: Metal parts (screws for example) as well as larger parts generally pose a 
 A robot must not move faster than 1.5 meters per second during <<Stop, stop>>.
 
 There is a grace period of 2 seconds for the robots to slow down.
+
+NOTE: This rule does not apply to <<Ball Placement, ball placement>>.
 
 NOTE: Since the stop command is used for manual ball placement and robot substitution, the intention of the robot speed limit is to avoid robots harming the people on the field.
 

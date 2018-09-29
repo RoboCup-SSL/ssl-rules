@@ -1,8 +1,6 @@
 == Ball Leaves The Field
 When the ball leaves the field by fully crossing the <<Field Lines, field line>>, the game will be stopped, the ball will be placed and the game will be restarted depending on the position of the field line crossing as well as on the team that last touched the ball.
 
-In division A, the robots have to retrieve and place the ball autonomously (see <<Automatic Ball Placement>>).
-
 === Touch Line Crossing
 Touch lines are the long <<Field Lines, field lines>> at both sides of the playing field.
 
