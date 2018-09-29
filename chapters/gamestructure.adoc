@@ -132,9 +132,6 @@ If the score is even after overtime has been played, the following stages are ad
 
 NOTE: The actual time is much greater than the playing time, since the game timer is paused when the game is <<Stopping The Game, stopped>>.
 
-// Chapter 7.1, Appendix A.1
-// Chapter 10.2, 10.3, Appendix A.3, A.4
-
 ==== Timeouts
 The <<Robot Handler, robot handler>> has to ask the referee for a timeout. Timeouts are handled like <<Overview, breaks>>, meaning that both teams are allowed to make modifications to their software and hardware (see <<Autonomy>>).
 
@@ -146,3 +143,6 @@ NOTE: For example, a team may take 3 timeouts of 60 seconds duration and thereaf
 During overtime, both teams can use 2 timeouts with a total time of 150 seconds. The number of timeouts and the time not used in regular game are not added.
 
 No timeouts are possible in the <<Shoot-Out, shoot-out>> stage.
+
+==== Early Termination At A Score Of 10
+When a team manages to shoot 10 goals, the match is automatically terminated and the team with more goals is declared the winner, regardless of the current game stage.
