@@ -46,7 +46,9 @@ NOTE: Dribblers can still be used to dribble large distances with the ball as lo
 A robot must not shoot the ball faster than 6.5 meters per second in 3D space.
 
 === Fouls
-Fouls are violations of the rules that result in a <<Direct Free Kick, direct free kick>> for the opposing team. The free kick will be shot from the position where the offense began happening (see <<Direct Free Kick, the direct free kick rules>> for the exact ball position rules). Additionally, every third foul of the same team results in a <<Yellow Card, yellow card>>.
+Fouls are violations of the rules that result in a <<Direct Free Kick, direct free kick>> for the opposing team. The free kick will be shot from the position where the offense began happening (see <<Direct Free Kick, the direct free kick rules>> for the exact ball position rules). If the foul happened while the ball is <<Stopping The Game, not in play>>, no free kick is given.
+
+Every third foul of the same team results in a <<Yellow Card, yellow card>>.
 
 In case of severe fouls, the referee can also issue a <<Yellow Card, yellow card>> or a <<Red Card, red card>>.
 
