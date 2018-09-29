@@ -7,9 +7,9 @@ To play an official match in the Small Size League, four impartial roles must be
 * the <<Referee, referee>>
 * the <<Assistant Referee, assistant referee>>
 * the <<Game Controller Operator, game controller operator>>
-* the <<Vision Exptert, vision expert>>
+* the <<Vision Expert, vision expert>>
 
-Usually, these roles are filled by two non-playing teams, with one team providing the <<Referee, referee>> and the <<Game Controller Operator, game controller operator>> and the other team providing the <<Assistant Referee, assistant referee>> and the <<Vision Exptert, vision expert>>. The assignment of the roles is up to the organizing committee.
+Usually, these roles are filled by two non-playing teams, with one team providing the <<Referee, referee>> and the <<Game Controller Operator, game controller operator>> and the other team providing the <<Assistant Referee, assistant referee>> and the <<Vision Expert, vision expert>>. The assignment of the roles is up to the organizing committee.
 
 Every participating team is required to be able to provide enough people who are familiar with these roles.
 
