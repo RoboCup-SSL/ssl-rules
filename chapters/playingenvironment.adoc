@@ -80,8 +80,8 @@ The game-controller has a network interface for the playing teams. They can auto
 
 ==== Automatic Referee
 One or more automatic referee applications can supervise a game and report <<Offenses, offenses>> to the <<Game Controller, game controller>>.
-At least one automatic referee is required in division A. If more than one automatic referee is connected to the game controller, a majority vote can be applied.
+At least one automatic referee is required per game. If more than one automatic referee is connected to the game controller, a majority vote can be applied.
 
-Automatic referee implementations can be provided, given that the source code is open-sourced. New implementations must be announced at least three month before the competition. The technical committee decides if an implementation will be used or not.
+New automatic referee implementations can be provided, given that the source code is open-sourced. New implementations must be announced at least three month before the competition. The technical committee decides if an implementation will be used or not.
 
 Existing implementations can be found on Github: https://github.com/RoboCup-SSL/ssl-autorefs.
