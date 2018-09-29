@@ -33,7 +33,7 @@ The <<Robot Handler, robot handler>> is the only team member that may talk to th
 * The referee or assistant referee places the ball for <<Kick-Off, kick-offs>> and <<Penalty Kick, penalties>> (division A) or after every <<Stopping The Game, stoppage>> (division B). Subsequently, the referee resumes the match.
 
 ==== Assistant Referee
-The assistant referee supports the referee whereever he can. He is encouraged to use the designated walking area next to the field (see <<Field Setup>>), opposite the referee.
+The assistant referee supports the referee wherever he can. He is encouraged to use the designated walking area next to the <<Field Setup, field>>, opposite the referee.
 
 No team members are allowed to talk to the assistant referee.
 
