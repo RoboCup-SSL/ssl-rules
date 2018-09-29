@@ -130,4 +130,14 @@ If a team exploits this rule, the referee may punish this team for <<Unsporting 
 NOTE: This rule is in place to prevent teams from purposely committing offenses in order to relocate the opponent <<Direct Free Kick, free kick>> to a more favorable position.
 
 === Advantage Rule
-TODO
+In certain situations, stopping the game because of a foul may have a disadvantage to the opposing team.
+As these situations are not easy to detect automatically, the opposing team is asked if it likes to continue the game.
+In this case, the game is not stopped and no direct kick is awarded at any time.
+The foul counter is still incremented and any resulting cards are given when the game is <<Stop,stopped>>.
+
+.Fouls that are considered
+
+* <<Crashing>>, if not both teams committed the foul
+* <<Pushing>>
+
+NOTE: If the team is not connected to the game controller or does not reply within 0.2 seconds, the decision of the team defaults to stopping the game.
