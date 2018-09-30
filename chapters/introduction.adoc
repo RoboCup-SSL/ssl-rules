@@ -1,12 +1,31 @@
-== Introduction
+== League Overview
 
-=== What is the RoboCup?
-=== What is the Small Size League?
-=== Long term goals
+// === What is the RoboCup?
+// === What is the Small Size League?
+// === Long term goals
+
+=== Committees
+The Small Size League (like every other league of the RoboCup) is run by close cooperation of three different committees (<<Executive Committee, executive committee>>, <<Technical Committee, technical committee>> and <<Organizing Committee, organizing committee>>), all with a different set of responsibilities. The members of the respective committees can be found on the official RoboCup Small Size League website (https://ssl.robocup.org).
+
+NOTE: In practice, there is no strict separation between the <<Technical Committee, technical>> and the <<Organizing Committee, organizing committee>>. Members of both committees often work together on the joint set of tasks.
+
+Additionally, the members of the <<Local Organizing Committee, local organizing committee>> organize the RoboCup event for all leagues.
+
+==== Executive Committee
+Executive committee members are responsible for the long term goals of the Small Size League and thus have also contact to other leagues as well as to the RoboCup federation. The executive committee presents the Small Size League and its achievements to the RoboCup federation every year and gets feedback to organize the league. Executive committee members are elected by the board of trustees of the RoboCup federation. They serve 3-year terms.
+
+==== Technical Committee
+The technical committee of the Small Size League is responsible the technical aspects of the RoboCup, such as maintaining the rules and the shared software. All members are elected by the team leaders of the teams which have participated in the previous competition.
+
+==== Organizing Committee
+The organizing committee of the Small Size League is responsible for preparing and organizing the competition. This mainly includes making the schedule, performing the qualification process, and running the competition. The committee members are selected by the <<Executive Committee, executive committee>> of the league and the RoboCup trustees.
+
+==== Local Organizing Committee
+The local organizing committee is responsible for planning and executing the event itself in accordance to the needs of the different leagues. This includes setting up the team areas (fields, network, tables, whiteboard, screens, etc.), creating a schedule for the event and implementing a safety and security concept.
 
 === Divisions
 The Small Size League is divided into two divisions with separate tournaments, namely division A and division B. Division A is aimed at advanced teams whereas new and/or less competitive teams can play in division B. Each team will only play in one of those two divisions.
 
-When submitting the qualification material, the team also chooses a preferred division including a short rationale. The members of the organizing committee will have the final word. Information about the qualification process can be found on the official RoboCup Small Size League website (https://ssl.robocup.org).
+When submitting the qualification material, the team also chooses a preferred division including a short rationale. The members of the <<Organizing Committee, organizing committee>> will have the final word. Information about the qualification process can be found on the official RoboCup Small Size League website (https://ssl.robocup.org).
 
 NOTE: Divisions allow for more radical advancements in the Small Size League without drastically raising the entry barrier for new teams. Additionally, they also considerably increase the amount of matches between teams of similar skill.

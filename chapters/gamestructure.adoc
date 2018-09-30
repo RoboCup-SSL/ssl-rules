@@ -9,7 +9,7 @@ To play an official match in the Small Size League, four impartial roles must be
 * the <<Game Controller Operator, game controller operator>>
 * the <<Vision Expert, vision expert>>
 
-Usually, these roles are filled by two non-playing teams, with one team providing the <<Referee, referee>> and the <<Game Controller Operator, game controller operator>> and the other team providing the <<Assistant Referee, assistant referee>> and the <<Vision Expert, vision expert>>. The assignment of the roles is up to the organizing committee.
+Usually, these roles are filled by two non-playing teams, with one team providing the <<Referee, referee>> and the <<Game Controller Operator, game controller operator>> and the other team providing the <<Assistant Referee, assistant referee>> and the <<Vision Expert, vision expert>>. The assignment of the roles is up to the <<Organizing Committee, organizing committee>>.
 
 Every participating team is required to be able to provide enough people who are familiar with these roles.
 
@@ -61,7 +61,7 @@ Team members are generally advised not to talk to the vision expert, unless they
 
 .Duties
 
-* The vision expert checks the vision hardware and reports any kind of hardware problems to the technical committee
+* The vision expert checks the vision hardware and reports any kind of hardware problems to the <<Technical Committee, technical committee>>
 * The vision expert monitors the shared vision system during the match and reports any kind of problems to the referee instantly
 * The vision expert recalibrates the vision system if the referee deems it necessary
 
@@ -80,7 +80,7 @@ Before the start of the match, every team has to designate one robot handler. Th
 All people that fill a role in the match (<<Impartial Roles, impartial>> or <<Team-Specific Roles, team-specific>>) have to be ready at least 10 minutes before the start of the match to allow the referee to make the following preparations:
 
 ==== Game Result Sheet
-The <<Referee, referee>> obtains a game result sheet from the organizing committee. After the game, the referee fills in the final score, collects the required signatures and submits the sheet to the organizing committee.
+The <<Referee, referee>> obtains a game result sheet from the <<Organizing Committee, organizing committee>>. After the game, the referee fills in the final score, collects the required signatures and submits the sheet to the <<Organizing Committee, organizing committee>>.
 
 NOTE: While obtaining the game result sheet, the referee can also take an official <<Ball, ball>> and referee equipment such as a whistle or red and yellow cards (if provided).
 

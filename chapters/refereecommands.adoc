@@ -137,7 +137,7 @@ A Forced forfeit means that a team instantly loses the current game with a score
 .Usage
 A team can be forced to forfeit if it is unable to play with at least one robot that satisfies the rules.
 
-A team can only be forced to forfeit in agreement with members of the technical committee and the organizing committee.
+A team can only be forced to forfeit in agreement with members of the <<Technical Committee, technical committee>> and the <<Organizing Committee, organizing committee>>.
 
 ==== Disqualification
 .Definition
@@ -146,7 +146,7 @@ A Disqualification means that a team immediately drops out of the tournament and
 .Usage
 A team can be disqualified if members of this team don't follow safety guidelines, rules of the venue or commit similarly severe offenses.
 
-A team can only be disqualified in agreement with members of the technical committee and the organizing committee.
+A team can only be disqualified in agreement with members of the <<Technical Committee, technical committee>> and the <<Organizing Committee, organizing committee>>.
 
 === Special Commands
 

@@ -110,7 +110,7 @@ If a robot touches the ball while being entirely inside its own defense area, th
 === Unsporting Behavior
 Unsporting behavior can lead to <<Yellow Card, yellow cards>>, <<Red Card, red cards>>, <<Penalty Kick, penalty kicks>>, a <<Forced Forfeit, forced forfeit>> or a <<Disqualification, disqualification>>. The human <<Referee, referee>> chooses an appropriate sanction, depending on the severity of the offense.
 
-NOTE: If the referee is not sure which sanction to choose, he may confer with members of the technical committee or the organizing committee.
+NOTE: If the referee is not sure which sanction to choose, he may confer with members of the <<Technical Committee, technical committee>> or the <<Organizing Committee, organizing committee>>.
 
 Some examples of unsporting behavior are listed below.
 

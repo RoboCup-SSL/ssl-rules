@@ -4,7 +4,7 @@
 A match is played by two teams, each consisting of not more than 8 robots in division A and 6 robots in division B, one of which may be the keeper. Each robot must be clearly numbered according to its vision pattern so that the referee can identify it during the match. The keeper must be designated before the match starts (see <<Choosing Keeper Id>>).
 
 === Hardware And Software Constraints
-The <<Referee, referee>> may force a team to remove a robot from the field if it does not satisfy the rules. Members of the technical committee may also check the hardware and software constraints of robots at any point of the tournament.
+The <<Referee, referee>> may force a team to remove a robot from the field if it does not satisfy the rules. Members of the <<Technical Committee, technical committee>> may also check the hardware and software constraints of robots at any point of the tournament.
 
 If a team is not able to provide at least one robot that satisfies the rules, the team may be <<Forced Forfeit, forced to forfeit>>.
 
@@ -29,14 +29,14 @@ All participating teams must adhere to the given operating requirements of the <
 
 To ensure compatibility with the standardized patterns for the shared vision system, all teams must ensure that all robots have a flat surface with sufficient space available on the top side. The color of the robot top must be black or dark grey and have a matte (non-shiny) finish to reduce glare. The standard vision pattern is guaranteed to fit within a circle with a radius of 0.085 meters that is linearly cut off on the front side of the robot to a distance of 0.055 meters from the centre, as shown in figure 5. Teams must ensure that their robot tops fully enclose this area.
 
-The standard pattern to be used by all teams is shown in figure 5. Note that the technical committee and the organizing committee reserve the right to change this pattern at any time, if required. Teams must therefore make sure to still adhere to the standard robot top area size.
+The standard pattern to be used by all teams is shown in figure 5. Note that the <<Technical Committee, technical committee>> and the <<Organizing Committee, organizing committee>> reserve the right to change this pattern at any time, if required. Teams must therefore make sure to still adhere to the standard robot top area size.
 
 .Standard Vision Pattern Dimensions
 image::standard_pattern2010.png[]
 
 Every robot must have one of the 16 patterns shown in figure 6. No two robots are allowed to use the same pattern.
 
-The center dot color determines the team and is either blue or yellow (see <<Choosing Team Colors>>). The other four dot colors encode the id of the robot. To ensure that every team uses the same colors, the organizing committee provides enough colored paper at the competition.
+The center dot color determines the team and is either blue or yellow (see <<Choosing Team Colors>>). The other four dot colors encode the id of the robot. To ensure that every team uses the same colors, the <<Organizing Committee, organizing committee>> provides enough colored paper at the competition.
 
 NOTE: Teams are encouraged to prefer color assignments with ids 0 to 7 because they have been experimentally found more stable, as there is no risk that the back two dots “color-bleed” into each other.
 
@@ -44,9 +44,9 @@ NOTE: Teams are encouraged to prefer color assignments with ids 0 to 7 because t
 image::standard_colors2010.png[width=500]
 
 ==== Radio Communication
-Participants using wireless communications must notify the organising committee of the method of wireless communication, power, and frequency. The organising committee must be notified of any change after registration as soon as possible. In order to avoid interference, a team should be able to select from two carrier frequencies before the match. The type of wireless communication has to follow legal regulations of the country where the competition is held. Compliance with local laws is the responsibility of the competing teams, not the RoboCup Federation.
+Participants using wireless communications must notify the <<Organizing Committee, organizing committee>> of the method of wireless communication, power, and frequency. The <<Organizing Committee, organizing committee>> must be notified of any change after registration as soon as possible. In order to avoid interference, a team should be able to select from two carrier frequencies before the match. The type of wireless communication has to follow legal regulations of the country where the competition is held. Compliance with local laws is the responsibility of the competing teams, not the RoboCup Federation.
 
-The type of wireless communication may also be restricted by the local organising committee. The local organising committee will announce any restrictions to the community as early as possible.
+The type of wireless communication may also be restricted by the <<Local Organizing Committee, local organizing committee>>. The local organising committee will announce any restrictions to the community as early as possible.
 
 NOTE: Communication technolgies that use carrier frequencies in the 2.4 GHz or 5 GHz band (like Bluetooth) are usually prohibited to prevent interference with other leagues.
 
