@@ -63,6 +63,7 @@ There is a grace period of 2 seconds for the robots to move away from the oppone
 During <<Ball Placement, ball placement>>, all robots of the non-placing team have to keep at least 0.5 meters distance to the line between the ball and the placement position (the forbidden area forms a stadium shape).
 
 If a robot of the non-placing team is too close to the line between the ball and the placement position for more than 2 seconds, it commits a foul.
+In this case, the placement procedure is restarted.
 
 NOTE: This rule does not cover all cases of ball placement interference. The <<Referee, referee>> is encouraged to call fouls if the non-placing team is obviously interfering with the ball placement.
 
