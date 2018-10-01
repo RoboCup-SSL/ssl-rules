@@ -107,7 +107,9 @@ Penalty Kicks are used to punish teams that received multiple <<Yellow Card, yel
 
 ==== Yellow Card
 .Definition
-A yellow card can only be given during stop.
+A yellow card can only be given during <<Halt, halt>>.
+
+If the yellow card is shown as a result of <<Unsporting Behavior, unsporting behavior>>, the referee may decide to immediately <<Halt, halt>> the match. In this case, the match continues with a direct free kick for the other team.
 
 Upon receipt of a yellow card, the number of robots allowed on the field for the penalised team decreases by one. If, after this decrease, the team has more robots than permitted on the field, a robot must immediately be <<Taking A Robot Out, taken out>> before <<Resuming The Game, play resumes>>. The penalized team can choose the robot to remove.
 
