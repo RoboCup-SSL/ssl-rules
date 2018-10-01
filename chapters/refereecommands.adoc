@@ -26,7 +26,7 @@ There is a grace period of 2 seconds for the robots to brake.
 
 .Usage
 The halt command allows the referee to interrupt the game immediately whenever an emergency occurs (for example when a robot gets out of contol). It is
-also used to recalibrate the vision software during a game if the vision expert considers it necessary and the referee agrees. Additionally, the referee is free to issue the halt command at will.
+also used to recalibrate the vision software during a game if the vision expert considers it necessary and the referee agrees and for <<Robot Substitution, robot substitution>>. Additionally, the referee is free to issue the halt command at will.
 
 The halt command is always followed up by stop.
 
