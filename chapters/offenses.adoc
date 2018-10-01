@@ -70,8 +70,6 @@ NOTE: This rule does not cover all cases of ball placement interference. The <<R
 ==== Crashing
 At the moment of collision of two robots of different teams, the difference of the speed vectors of both robots is taken and projected onto the line that is defined by the position of both robots. If the length of this projection is greater than 1.5 meters per second, the faster robot committed a foul. If the absolute robot speed difference is less than 0.3 meters per second, both conduct a foul but the game will not be stopped.
 
-NOTE: In a typical scenario, the referee would warn the team and expect that they would modify their system to reduce the violence of their play. If the referee was still unsatisfied a yellow card would be issued.
-
 ==== Pushing
 A robot pushes an opponent robot if both robots keep contact to the ball or to each other while both robots travel towards the opponent robot for more than 0.2 meters or until the opponent enters its <<Defense Area, defense area>>.
 
