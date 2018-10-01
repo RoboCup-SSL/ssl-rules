@@ -158,6 +158,21 @@ After the game was stopped, the ball must be placed on the appropriate position,
 The automatic ball placement is the preferred way to place the ball at the designated position on the field by the robots of the teams without human interaction.
 If this is not possible, the <<Referee, referee>> places the ball manually.
 
+A ball is considered placed successfully by the robots if
+
+* no more than 30 seconds passed since the placement command
+* there is no robot within 0.05 meters distance to the ball if the next command is an <<Indirect Free Kick, indirect free kick>> or <<Direct Free Kick, direct free kick>>
+* there is no robot within 0.5 meters distance to the ball if the next command is a <<Force Start, force start>>
+* the ball is stationary
+* the ball is at a position within 0.15 meters radius from the requested position
+
+No further commands will be issued by the <<Game Controller, game controller>> until the automatic placement is complete.
+The game will be continued by the <<Game Controller, game controller>> as soon as the ball is successfully placed.
+A failed placement will result in an indirect free kick for the opposing team.
+If this team failed to place the ball as well, the ball is placed by the <<Referee, referee>> and game continues with the original command.
+
+The non-placing team must not <<Ball Placement Interference, interfere the ball placement task>>.
+
 .Usage
 When the ball goes <<Stopping The Game,out of play>>, the following rules decide, if automatic ball placement is applied:
 
@@ -176,21 +191,6 @@ Ball placement is mandatory for all teams in division A.
 Teams in division B may decide, at any time before or during the game, not to place the ball for the rest of the game by talking to the <<Referee, referee>>, who in turn tells the <<Game Controller Operator, game controller operator>> to disable ball placement for this team.
 In this case, the team is allowed to bring the ball into play, after the ball was placed by the opposing team.
 If the opposing team fails to place the ball or no team can place the ball, it is placed by the <<Referee, referee>>.
-
-A ball is considered placed successfully if
-
-* no more than 30 seconds passed since the placement command
-* there is no robot within 0.05 meters distance to the ball if the next command is an <<Indirect Free Kick, indirect free kick>> or <<Direct Free Kick, direct free kick>>
-* there is no robot within 0.5 meters distance to the ball if the next command is a <<Force Start, force start>>
-* the ball is stationary
-* the ball is at a position within 0.15 meters radius from the requested position
-
-No further commands will be issued by the <<Game Controller, game controller>> until the automatic placement is complete.
-The game will be continued by the <<Game Controller, game controller>> as soon as the ball is successfully placed.
-A failed placement will result in an indirect free kick for the opposing team.
-If this team failed to place the ball as well, the ball is placed by the <<Referee, referee>> and game continues with the original command.
-
-The non-placing team must not <<Ball Placement Interference, interfere the ball placement task>>.
 
 ==== Shoot-Out
 .Definition
