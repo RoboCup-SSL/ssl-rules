@@ -65,7 +65,9 @@ Direct free kicks are used to restart the game after a <<Fouls, foul>> has occur
 
 ==== Indirect Free Kick
 .Definition
-An indirect free kick behaves like a <<Direct Free Kick,direct free kick>>, except: After an indirect free kick, a goal can only be scored if the ball touches a robot of the attacking team after the ball <<Resuming The Game, entered play>> and before it entering the goal. If the ball enters the goal without touching an attacking robot, it will be treated like it crossed the goal line outside the goal.
+An indirect free kick behaves like a <<Direct Free Kick,direct free kick>>, except: After an indirect free kick, a goal can only be scored if the ball touches a robot of the attacking team after the ball <<Resuming The Game, entered play>> and before it entering the goal of the defending team. If the ball enters the goal of the defending team without touching an attacking robot, it will be treated like it crossed the goal line outside the goal.
+
+If the ball enters the goal of the attacking team (an own goal), a goal will be awarded to the defending team.
 
 NOTE: Scoring a goal from an indirect free kick does not require more than one attacking robot. The goal can also be shot by the same robot that kicked the free kick if a robot of the defending team touches the ball before the attacker shoots the goal.
 
