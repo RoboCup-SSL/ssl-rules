@@ -200,8 +200,9 @@ Only one attacking robot and one keeper is allowed per team. During a shoot-out 
 
 The procedure of a shoot-out attempt is as follows:
 
-. The ball is placed by the human referee on the <<Additional Lines, mid-line>> (not halfway line), 8 meters (division A) or 6 meters (division B) away from the opponent goal. The defending keeper has to touch the goal line.
-. When <<Penalty Kick, penalty>> command is issued, the attacker is allowed to manipulate the ball. The ball has to only move towards the opponent goal, as measured by its x coordinate in the coordinate system of <<Vision, SSL-Vision>>.
+. The ball is placed by the human referee on the <<Additional Lines, mid-line>> (not halfway line), 8 meters (division A) or 6 meters (division B) away from the opponent goal.
+. When the <<Penalty Kick, penalty>> command is issued, the defending keeper has to move to the goal line and keep touching it.
+. When the normal start command is issued, the attacker is allowed to manipulate the ball. The ball has to only move towards the opponent goal, as measured by its x coordinate in the coordinate system of <<Vision, SSL-Vision>>.
 . When the ball is <<Resuming The Game, in play>>, the defending keeper may move freely again, analogous to a <<Penalty Kick, penalty kick>>.
 
 A goal is awarded if:
