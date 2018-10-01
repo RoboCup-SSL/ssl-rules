@@ -5,7 +5,7 @@
 <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="generator" content="Asciidoctor 1.5.5">
-<meta name="author" content="2018-09-30">
+<meta name="author" content="2018-10-01">
 <title>Rules of the RoboCup Small Size League 2019</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
 <style>
@@ -423,7 +423,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div id="header">
 <h1>Rules of the RoboCup Small Size League 2019</h1>
 <div class="details">
-<span id="author" class="author">2018-09-30</span><br>
+<span id="author" class="author">2018-10-01</span><br>
 </div>
 <div id="toc" class="toc">
 <div id="toctitle">Table of Contents</div>
@@ -489,6 +489,22 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </div>
 <div id="content">
+<div id="preamble">
+<div class="sectionbody">
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Note</div>
+</td>
+<td class="content">
+References to the male gender in the rules with respect to referees, team members, officials, etc. are for simplification and apply to both males and females.
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
 <div class="sect1">
 <h2 id="_league_overview">1. League Overview</h2>
 <div class="sectionbody">
@@ -668,24 +684,6 @@ Divisions allow for more radical advancements in the Small Size League without d
 <div class="title">Figure 4. The goal in detail for division B</div>
 </div>
 </div>
-<div class="sect3">
-<h4 id="_camera_mounting_bars">2.1.5. Camera Mounting Bars</h4>
-<div class="paragraph">
-<p>A pair of mounting bars will be provided 4 meters above the field. The bars should be mounted securely so that they do not swing or sway under a small external force, and they should not bend or twist significantly when the weight of typical video equipment is added.</p>
-</div>
-<div class="admonitionblock note">
-<table>
-<tr>
-<td class="icon">
-<div class="title">Note</div>
-</td>
-<td class="content">
-The orientation and position of the bars depend on the setup and the size of the fields.
-</td>
-</tr>
-</table>
-</div>
-</div>
 </div>
 <div class="sect2">
 <h3 id="_ball">2.2. Ball</h3>
@@ -862,18 +860,6 @@ Communication technolgies that use carrier frequencies in the 2.4 GHz or 5 GHz b
 <div class="sect1">
 <h2 id="_game_structure">4. Game Structure</h2>
 <div class="sectionbody">
-<div class="admonitionblock note">
-<table>
-<tr>
-<td class="icon">
-<div class="title">Note</div>
-</td>
-<td class="content">
-References to the male gender in the rules with respect to referees, team members, officials, etc. are for simplification and apply to both males and females.
-</td>
-</tr>
-</table>
-</div>
 <div class="sect2">
 <h3 id="_impartial_roles">4.1. Impartial Roles</h3>
 <div class="paragraph">
@@ -1286,7 +1272,7 @@ If the ball moves very quickly, it is hard to always keep the required distance 
 <div class="paragraph">
 <div class="title">Usage</div>
 <p>The halt command allows the referee to interrupt the game immediately whenever an emergency occurs (for example when a robot gets out of contol). It is
-also used to recalibrate the vision software during a game if the vision expert considers it necessary and the referee agrees. Additionally, the referee is free to issue the halt command at will.</p>
+also used to recalibrate the vision software during a game if the vision expert considers it necessary and the referee agrees and for <a href="#_robot_substitution">robot substitution</a>. Additionally, the referee is free to issue the halt command at will.</p>
 </div>
 <div class="paragraph">
 <p>The halt command is always followed up by stop.</p>
@@ -1348,7 +1334,10 @@ also used to recalibrate the vision software during a game if the vision expert 
 <h4 id="_indirect_free_kick">5.2.3. Indirect Free Kick</h4>
 <div class="paragraph">
 <div class="title">Definition</div>
-<p>An indirect free kick behaves like a <a href="#_direct_free_kick">direct free kick</a>, except: After an indirect free kick, a goal can only be scored if the ball touches a robot of the attacking team after the ball <a href="#_resuming_the_game">entered play</a> and before it entering the goal. If the ball enters the goal without touching an attacking robot, it will be treated like it crossed the goal line outside the goal.</p>
+<p>An indirect free kick behaves like a <a href="#_direct_free_kick">direct free kick</a>, except: After an indirect free kick, a goal can only be scored if the ball touches a robot of the attacking team after the ball <a href="#_resuming_the_game">entered play</a> and before it entering the goal of the defending team. If the ball enters the goal of the defending team without touching an attacking robot, it will be treated like it crossed the goal line outside the goal.</p>
+</div>
+<div class="paragraph">
+<p>If the ball enters the goal of the attacking team (an own goal), a goal will be awarded to the defending team.</p>
 </div>
 <div class="admonitionblock note">
 <table>
@@ -1426,7 +1415,10 @@ In association football, it is sufficient if any player (including the keeper) t
 <h4 id="_yellow_card">5.3.1. Yellow Card</h4>
 <div class="paragraph">
 <div class="title">Definition</div>
-<p>A yellow card can only be given during stop.</p>
+<p>A yellow card can only be given during <a href="#_halt">halt</a>.</p>
+</div>
+<div class="paragraph">
+<p>If the yellow card is shown as a result of <a href="#_unsporting_behavior">unsporting behavior</a>, the referee may immediately <a href="#_halt">halt</a> the match. In this case, the match continues with a direct free kick for the other team.</p>
 </div>
 <div class="paragraph">
 <p>Upon receipt of a yellow card, the number of robots allowed on the field for the penalised team decreases by one. If, after this decrease, the team has more robots than permitted on the field, a robot must immediately be <a href="#_taking_a_robot_out">taken out</a> before <a href="#_resuming_the_game">play resumes</a>. The penalized team can choose the robot to remove.</p>
@@ -1823,10 +1815,10 @@ Rule of thumb: Minor offenses are infringements of the rules committed by an att
 <div class="sect3">
 <h4 id="_lack_of_progress">8.1.2. Lack Of Progress</h4>
 <div class="paragraph">
-<p>There is a lack of progress if only one team is allowed to manipulate the ball (<a href="#_kick_off">kick-off</a>, <a href="#_direct_free_kick">direct free kick</a>, <a href="#_indirect_free_kick">indirect free kick</a>, <a href="#_penalty_kick">penalty kick</a>) and does not bring the ball <a href="#_resuming_the_game">into play</a> for 10 seconds.</p>
+<p>There is a lack of progress if only one team is allowed to manipulate the ball (<a href="#_kick_off">kick-off</a>, <a href="#_direct_free_kick">direct free kick</a>, <a href="#_indirect_free_kick">indirect free kick</a>, <a href="#_penalty_kick">penalty kick</a>) and does not bring the ball <a href="#_resuming_the_game">into play</a> for 5 seconds in division A or 10 seconds in division B.</p>
 </div>
 <div class="paragraph">
-<p>There is also a lack of progress if the ball is inside a team&#8217;s <a href="#_defense_area">defense area</a> for 10 seconds, since the keeper is the only robot that is allowed to manipulate the ball.</p>
+<p>There is also a lack of progress if the ball is inside a team&#8217;s <a href="#_defense_area">defense area</a> for 10 seconds (both divisions), since the keeper is the only robot that is allowed to manipulate the ball.</p>
 </div>
 <div class="admonitionblock note">
 <table>
@@ -1985,18 +1977,6 @@ This rule does not cover all cases of ball placement interference. The <a href="
 <div class="paragraph">
 <p>At the moment of collision of two robots of different teams, the difference of the speed vectors of both robots is taken and projected onto the line that is defined by the position of both robots. If the length of this projection is greater than 1.5 meters per second, the faster robot committed a foul. If the absolute robot speed difference is less than 0.3 meters per second, both conduct a foul but the game will not be stopped.</p>
 </div>
-<div class="admonitionblock note">
-<table>
-<tr>
-<td class="icon">
-<div class="title">Note</div>
-</td>
-<td class="content">
-In a typical scenario, the referee would warn the team and expect that they would modify their system to reduce the violence of their play. If the referee was still unsatisfied a yellow card would be issued.
-</td>
-</tr>
-</table>
-</div>
 </div>
 <div class="sect3">
 <h4 id="_pushing">8.2.4. Pushing</h4>
@@ -2058,7 +2038,7 @@ This rule does not apply to <a href="#_ball_placement">ball placement</a>.
 <div class="title">Note</div>
 </td>
 <td class="content">
-Since the stop command is used for manual ball placement and robot substitution, the intention of the robot speed limit is to avoid robots harming the people on the field.
+Since the stop command is used for manual ball placement and <a href="#_robot_substitution">robot substitution</a>, the intention of the robot speed limit is to avoid robots harming the people on the field.
 </td>
 </tr>
 </table>
@@ -2238,7 +2218,7 @@ If the team is not connected to the game controller or does not reply within 0.2
 <p>The referee forwards this request to the <a href="#_game_controller_operator">game controller operator</a>, so that he can pause the <a href="#_automatic_referee">automatic referee</a>.</p>
 </li>
 <li>
-<p>After the next ball placement (manual or automatic), the <a href="#_robot_handler">robot handler</a> is allowed to take the robot out.</p>
+<p>After the next ball placement (manual or automatic), the <a href="#_halt">halt</a> command is issued and the <a href="#_robot_handler">robot handler</a> is allowed to take the robot out.</p>
 </li>
 </ol>
 </div>
@@ -2254,7 +2234,7 @@ If the team is not connected to the game controller or does not reply within 0.2
 <p>The referee forwards this request to the <a href="#_game_controller_operator">game controller operator</a>, so that he can pause the <a href="#_automatic_referee">automatic referee</a>.</p>
 </li>
 <li>
-<p>After the next ball placement (manual or automatic), the <a href="#_robot_handler">robot handler</a> is allowed to put the robot in.</p>
+<p>After the next ball placement (manual or automatic), the <a href="#_halt">halt</a> command is issued and the <a href="#_robot_handler">robot handler</a> is allowed to put the robot in.</p>
 </li>
 </ol>
 </div>
@@ -2264,7 +2244,7 @@ If the team is not connected to the game controller or does not reply within 0.2
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2018-09-30 11:32:25 CEST
+Last updated 2018-10-01 14:16:38 CEST
 </div>
 </div>
 </body>
