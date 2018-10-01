@@ -10,7 +10,7 @@ Additionally, the members of the <<Local Organizing Committee, local organizing 
 Executive committee members are responsible for the long term goals of the Small Size League and thus have also contact to other leagues as well as to the RoboCup federation. The executive committee presents the Small Size League and its achievements to the RoboCup federation every year and gets feedback to organize the league. Executive committee members are elected by the board of trustees of the RoboCup federation. They serve 3-year terms.
 
 ==== Technical Committee
-The technical committee of the Small Size League is responsible the technical aspects of the RoboCup, such as maintaining the rules and the shared software. All members are elected by the team leaders of the teams which have participated in the previous competition.
+The technical committee of the Small Size League is responsible for the technical aspects of the RoboCup, such as maintaining the rules and the shared software. All members are elected by the team leaders of the teams which have participated in the previous competition.
 
 ==== Organizing Committee
 The organizing committee of the Small Size League is responsible for preparing and organizing the competition. This mainly includes making the schedule, performing the qualification process, and running the competition. The committee members are selected by the <<Executive Committee, executive committee>> of the league and the RoboCup trustees.
