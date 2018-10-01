@@ -7,6 +7,8 @@
 // :icons: font
 :numbered:
 
+NOTE: References to the male gender in the rules with respect to referees, team members, officials, etc. are for simplification and apply to both males and females.
+
 include::chapters/introduction.adoc[]
 
 include::chapters/playingenvironment.adoc[]

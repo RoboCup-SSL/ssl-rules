@@ -1,6 +1,4 @@
 == Game Structure
-NOTE: References to the male gender in the rules with respect to referees, team members, officials, etc. are for simplification and apply to both males and females.
-
 === Impartial Roles
 To play an official match in the Small Size League, four impartial roles must be filled:
 

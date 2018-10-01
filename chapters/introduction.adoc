@@ -1,9 +1,4 @@
 == League Overview
-
-// === What is the RoboCup?
-// === What is the Small Size League?
-// === Long term goals
-
 === Committees
 The Small Size League (like every other league of the RoboCup) is run by close cooperation of three different committees (<<Executive Committee, executive committee>>, <<Technical Committee, technical committee>> and <<Organizing Committee, organizing committee>>), all with a different set of responsibilities. The members of the respective committees can be found on the official RoboCup Small Size League website (https://ssl.robocup.org).
 
