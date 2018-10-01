@@ -157,14 +157,14 @@ If this is not possible, the <<Referee, referee>> places the ball manually.
 .Usage
 When the ball goes <<Stopping The Game,out of play>>, the following rules decide, if automatic ball placement is applied:
 
-1. The <<Referee, referee>> has to place the ball for all kickoffs and all penalty kicks
-2. For an <<Indirect Free Kick, indirect free kick>> or <<Direct Free Kick, direct free kick>>, the team that brings the ball into play must place the ball
-3. For a <<Force Start, force start>>, a team is drawn by chance and must place the ball
-4. The ball must be visible and must not be inside a field or goal corner or behind the goal, before the ball placement starts
-5. The <<Referee, referee>> can decide to place the ball manually at any time
-6. The <<Referee, referee>> can decide to disable automatic ball placement for the rest of the game. TC/OC must agree with this decision
-7. When a team has failed to place the ball five times in a row, it is not allowed to place the ball for the rest of the game half. All free kicks that were a result of the ball leaving the field, are awarded to the opposing team. For all other rule violations or when both teams failed to place the ball, the ball is placed by the <<Referee, referee>>
-8. If no team can place the ball, the ball is placed by the <<Referee, referee>>
+. The <<Referee, referee>> has to place the ball for all kickoffs and all penalty kicks
+. For an <<Indirect Free Kick, indirect free kick>> or <<Direct Free Kick, direct free kick>>, the team that brings the ball into play must place the ball
+. For a <<Force Start, force start>>, a team is drawn by chance and must place the ball
+. The ball must be visible and must not be inside a field or goal corner or behind the goal, before the ball placement starts
+. The <<Referee, referee>> can decide to place the ball manually at any time
+. The <<Referee, referee>> can decide to disable automatic ball placement for the rest of the game. TC/OC must agree with this decision
+. When a team has failed to place the ball five times in a row, it is not allowed to place the ball for the rest of the game half. All free kicks that were a result of the ball leaving the field, are awarded to the opposing team. For all other rule violations or when both teams failed to place the ball, the ball is placed by the <<Referee, referee>>
+. If no team can place the ball, the ball is placed by the <<Referee, referee>>
 
 NOTE: The ball may still be moving when the placement command is issued.
 
@@ -189,5 +189,34 @@ If this team failed to place the ball as well, the ball is placed by the <<Refer
 The non-placing team must not <<Ball Placement Interference, interfere the ball placement task>>.
 
 ==== Shoot-Out
-Appendix A.2
+.Definition
+Both teams alternately attempt to score a goal until each team has performed 5 attempts. If both teams have the same score after those 5 attempts, each team takes another attempt in the same order as before until the score of the two teams is different.
+
+Only one attacking robot and one keeper is allowed per team. During a shoot-out attempt, the attacking robot and the opponent keeper are the only ones allowed to move and manipulate the ball. Other robots are not allowed to interfere.
+
+The procedure of a shoot-out attempt is as follows:
+
+. The ball is placed by the human referee on the <<Additional Lines, mid-line>> (not halfway line), 8 meters (division A) or 6 meters (division B) away from the opponent goal. The defending keeper has to touch the goal line.
+. When <<Penalty Kick, penalty>> command is issued, the attacker is allowed to manipulate the ball. The ball has to only move towards the opponent goal, as measured by its x coordinate in the coordinate system of <<Vision, SSL-Vision>>.
+. When the ball is <<Resuming The Game, in play>>, the defending keeper may move freely again, analogous to a <<Penalty Kick, penalty kick>>.
+
+A goal is awarded if:
+
+* the ball enters the goal of the defending team in less than 10 seconds, starting from when the <<Penalty Kick, penalty>> command is issued
+* the defending team violates any rule
+
+A goal is not awarded if:
+
+* the ball crosses any <<Field Lines, field lines>> outside the goal
+* the defending keeper touches the ball such that the ball speed vector changes direction by at least 90 degrees in 2D space
+* the attacking team violates any rule
+
+NOTE: The restrictions defined for <<Scoring Goals, scoring goals>> do not apply here. Other rules like the <<Dribbling, dribbling>> limitation for example do.
+
+Robots may be <<Robot Substitution, substituted>> between shoot-out attempts. The new robot may be put in right away.
+
+NOTE: Note that <<Timeouts, timeouts>> are not allowed during shoot-out.
+
+.Usage
+Shoot-Out is used to determine the winner of an elimination match if both teams scored the same amount of goals in previous <<Game Stages, game stages>>.
 
