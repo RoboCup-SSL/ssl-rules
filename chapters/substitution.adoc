@@ -11,10 +11,10 @@ If the robot to be taken out is the keeper, the <<Robot Handler, robot handler>>
 
 . The <<Robot Handler, robot handler>> informs the <<Referee, referee>> that he intends to take a robot out.
 . The referee forwards this request to the <<Game Controller Operator, game controller operator>>, so that he can pause the <<Automatic Referee, automatic referee>>.
-. After the next ball placement (manual or automatic), the <<Robot Handler, robot handler>> is allowed to take the robot out.
+. After the next ball placement (manual or automatic), the <<Halt, halt>> command is issued and the <<Robot Handler, robot handler>> is allowed to take the robot out.
 
 === Putting A Robot In
 
 . The <<Robot Handler, robot handler>> informs the <<Referee, referee>> that he intends to put a robot in.
 . The referee forwards this request to the <<Game Controller Operator, game controller operator>>, so that he can pause the <<Automatic Referee, automatic referee>>.
-. After the next ball placement (manual or automatic), the <<Robot Handler, robot handler>> is allowed to put the robot in.
+. After the next ball placement (manual or automatic), the <<Halt, halt>> command is issued and the <<Robot Handler, robot handler>> is allowed to put the robot in.
