@@ -1418,7 +1418,7 @@ In association football, it is sufficient if any player (including the keeper) t
 <p>A yellow card can only be given during <a href="#_halt">halt</a>.</p>
 </div>
 <div class="paragraph">
-<p>If the yellow card is shown as a result of <a href="#_unsporting_behavior">unsporting behavior</a>, the referee may immediately <a href="#_halt">halt</a> the match. In this case, the match continues with a direct free kick for the other team.</p>
+<p>If the yellow card is shown as a result of <a href="#_unsporting_behavior">unsporting behavior</a>, the referee may decide to immediately <a href="#_halt">halt</a> the match. In this case, the match continues with a direct free kick for the other team.</p>
 </div>
 <div class="paragraph">
 <p>Upon receipt of a yellow card, the number of robots allowed on the field for the penalised team decreases by one. If, after this decrease, the team has more robots than permitted on the field, a robot must immediately be <a href="#_taking_a_robot_out">taken out</a> before <a href="#_resuming_the_game">play resumes</a>. The penalized team can choose the robot to remove.</p>
@@ -1500,6 +1500,37 @@ The automatic ball placement is the preferred way to place the ball at the desig
 If this is not possible, the <a href="#_referee">referee</a> places the ball manually.</p>
 </div>
 <div class="paragraph">
+<p>A ball is considered placed successfully if</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>no more than 30 seconds passed since the placement command</p>
+</li>
+<li>
+<p>there is no robot within 0.05 meters distance to the ball if the next command is an <a href="#_indirect_free_kick">indirect free kick</a> or <a href="#_direct_free_kick">direct free kick</a></p>
+</li>
+<li>
+<p>there is no robot within 0.5 meters distance to the ball if the next command is a <a href="#_force_start">force start</a></p>
+</li>
+<li>
+<p>the ball is stationary</p>
+</li>
+<li>
+<p>the ball is at a position within 0.15 meters radius from the requested position</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>No further commands will be issued by the <a href="#_game_controller">game controller</a> until the automatic placement is complete.
+The game will be continued by the <a href="#_game_controller">game controller</a> as soon as the ball is successfully placed.
+A failed placement will result in an indirect free kick for the opposing team.
+If this team failed to place the ball as well, the ball is placed by the <a href="#_referee">referee</a> and game continues with the original command.</p>
+</div>
+<div class="paragraph">
+<p>The non-placing team must not <a href="#_ball_placement_interference">interfere the ball placement task</a>.</p>
+</div>
+<div class="paragraph">
 <div class="title">Usage</div>
 <p>When the ball goes <a href="#_stopping_the_game">out of play</a>, the following rules decide, if automatic ball placement is applied:</p>
 </div>
@@ -1549,37 +1580,6 @@ Teams in division B may decide, at any time before or during the game, not to pl
 In this case, the team is allowed to bring the ball into play, after the ball was placed by the opposing team.
 If the opposing team fails to place the ball or no team can place the ball, it is placed by the <a href="#_referee">referee</a>.</p>
 </div>
-<div class="paragraph">
-<p>A ball is considered placed successfully if</p>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p>no more than 30 seconds passed since the placement command</p>
-</li>
-<li>
-<p>there is no robot within 0.05 meters distance to the ball if the next command is an <a href="#_indirect_free_kick">indirect free kick</a> or <a href="#_direct_free_kick">direct free kick</a></p>
-</li>
-<li>
-<p>there is no robot within 0.5 meters distance to the ball if the next command is a <a href="#_force_start">force start</a></p>
-</li>
-<li>
-<p>the ball is stationary</p>
-</li>
-<li>
-<p>the ball is at a position within 0.15 meters radius from the requested position</p>
-</li>
-</ul>
-</div>
-<div class="paragraph">
-<p>No further commands will be issued by the <a href="#_game_controller">game controller</a> until the automatic placement is complete.
-The game will be continued by the <a href="#_game_controller">game controller</a> as soon as the ball is successfully placed.
-A failed placement will result in an indirect free kick for the opposing team.
-If this team failed to place the ball as well, the ball is placed by the <a href="#_referee">referee</a> and game continues with the original command.</p>
-</div>
-<div class="paragraph">
-<p>The non-placing team must not <a href="#_ball_placement_interference">interfere the ball placement task</a>.</p>
-</div>
 </div>
 <div class="sect3">
 <h4 id="_shoot_out">5.4.2. Shoot-Out</h4>
@@ -1596,10 +1596,13 @@ If this team failed to place the ball as well, the ball is placed by the <a href
 <div class="olist arabic">
 <ol class="arabic">
 <li>
-<p>The ball is placed by the human referee on the <a href="#_additional_lines">mid-line</a> (not halfway line), 8 meters (division A) or 6 meters (division B) away from the opponent goal. The defending keeper has to touch the goal line.</p>
+<p>The ball is placed by the human referee on the <a href="#_additional_lines">mid-line</a> (not halfway line), 8 meters (division A) or 6 meters (division B) away from the opponent goal.</p>
 </li>
 <li>
-<p>When <a href="#_penalty_kick">penalty</a> command is issued, the attacker is allowed to manipulate the ball. The ball has to only move towards the opponent goal, as measured by its x coordinate in the coordinate system of <a href="#_vision">SSL-Vision</a>.</p>
+<p>When the <a href="#_penalty_kick">penalty</a> command is issued, the defending keeper has to move to the goal line and keep touching it.</p>
+</li>
+<li>
+<p>When the normal start command is issued, the attacker is allowed to manipulate the ball. The ball has to only move towards the opponent goal, as measured by its x coordinate in the coordinate system of <a href="#_vision">SSL-Vision</a>.</p>
 </li>
 <li>
 <p>When the ball is <a href="#_resuming_the_game">in play</a>, the defending keeper may move freely again, analogous to a <a href="#_penalty_kick">penalty kick</a>.</p>
@@ -1815,10 +1818,10 @@ Rule of thumb: Minor offenses are infringements of the rules committed by an att
 <div class="sect3">
 <h4 id="_lack_of_progress">8.1.2. Lack Of Progress</h4>
 <div class="paragraph">
-<p>There is a lack of progress if only one team is allowed to manipulate the ball (<a href="#_kick_off">kick-off</a>, <a href="#_direct_free_kick">direct free kick</a>, <a href="#_indirect_free_kick">indirect free kick</a>, <a href="#_penalty_kick">penalty kick</a>) and does not bring the ball <a href="#_resuming_the_game">into play</a> for 5 seconds in division A or 10 seconds in division B.</p>
+<p>There is a lack of progress if only one team is allowed to manipulate the ball (<a href="#_kick_off">kick-off</a>, <a href="#_direct_free_kick">direct free kick</a>, <a href="#_indirect_free_kick">indirect free kick</a>, <a href="#_penalty_kick">penalty kick</a>) and does not bring the ball <a href="#_resuming_the_game">into play</a> in time. The time limit is 5 seconds for free kicks in division A and 10 seconds in all other cases.</p>
 </div>
 <div class="paragraph">
-<p>There is also a lack of progress if the ball is inside a team&#8217;s <a href="#_defense_area">defense area</a> for 10 seconds (both divisions), since the keeper is the only robot that is allowed to manipulate the ball.</p>
+<p>There is also a lack of progress if the ball is inside a team&#8217;s <a href="#_defense_area">defense area</a> for 10 seconds, since the keeper is the only robot that is allowed to manipulate the ball.</p>
 </div>
 <div class="admonitionblock note">
 <table>
@@ -2244,7 +2247,7 @@ If the team is not connected to the game controller or does not reply within 0.2
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2018-10-01 14:16:38 CEST
+Last updated 2018-10-01 17:38:22 CEST
 </div>
 </div>
 </body>
