@@ -98,9 +98,7 @@ Additional time is allowed for a penalty kick to be taken at the end of each hal
 The penalty kick is retaken if the attacking team infringes the rules and the ball enters the goal or the defending team infringes the rules and the ball does not enter the goal.
 
 .Usage
-Penalty Kicks are used to punish teams that received multiple <<Yellow Card, yellow cards>>.
-
-// TODO multiple defenders
+Penalty Kicks are used to punish teams that received multiple <<Yellow Card, yellow cards>>, as well as to punish <<Unsporting Behavior, unsporting behavior>> and <<Multiple Defenders, multiple defenders>>.
 
 
 === Sanctions
