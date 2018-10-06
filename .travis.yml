@@ -21,8 +21,8 @@ after_failure:
   - docker logs asciidoc-to-html
   - docker logs asciidoc-to-pdf
 
-after_success:      
-  - git clone ${GH_REF} --single-branch --branch gh-pages gh-pages
+after_script:
+  - git clone https://${GH_REF} --single-branch --branch gh-pages gh-pages
   - cd gh-pages
   - cp ../*.html ../*.pdf .
   - mkdir -p images
