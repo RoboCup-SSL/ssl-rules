@@ -22,8 +22,8 @@ after_failure:
   - docker logs asciidoc-to-pdf
 
 after_script:
-  - git clone https://${GH_REF} --single-branch --branch gh-pages gh-pages
-  - cd gh-pages
+  - git clone https://${GH_REF} --single-branch --branch gh-pages $TRAVIS_BUILD_DIR/gh-pages
+  - cd $TRAVIS_BUILD_DIR/gh-pages
   - cp ../*.html ../*.pdf .
   - mkdir -p images
   - cp ../images/*.png images/
