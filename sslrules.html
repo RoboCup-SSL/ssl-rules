@@ -5,7 +5,7 @@
 <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="generator" content="Asciidoctor 1.5.7.1">
-<meta name="author" content="2018-10-06">
+<meta name="author" content="2018-10-09">
 <title>Rules of the RoboCup Small Size League 2019</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
 <style>
@@ -435,7 +435,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div id="header">
 <h1>Rules of the RoboCup Small Size League 2019</h1>
 <div class="details">
-<span id="author" class="author">2018-10-06</span><br>
+<span id="author" class="author">2018-10-09</span><br>
 </div>
 <div id="toc" class="toc">
 <div id="toctitle">Table of Contents</div>
@@ -493,8 +493,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </li>
 <li><a href="#_robot_substitution">9. Robot Substitution</a>
 <ul class="sectlevel2">
-<li><a href="#_taking_a_robot_out">9.1. Taking A Robot Out</a></li>
-<li><a href="#_putting_a_robot_in">9.2. Putting A Robot In</a></li>
+<li><a href="#_procedure">9.1. Procedure</a></li>
 </ul>
 </li>
 </ul>
@@ -724,7 +723,7 @@ Divisions allow for more radical advancements in the Small Size League without d
 It is operated by the <a href="#_game_controller_operator">game controller operator</a>. The software translates decisions of the <a href="#_referee">referee</a> and the <a href="#_automatic_referee">automatic referee</a> into Ethernet communication signals that are broadcast to the network. It maintains the state of the game, tracks all events and acts as a proxy between all participating parties in the game.</p>
 </div>
 <div class="paragraph">
-<p>The game-controller has a network interface for the playing teams. They can automatically change their keeper id when the ball is <a href="#_stopping_the_game">not in play</a> and they can reply to requests of the <a href="#_advantage_rule">advantage rule</a>.</p>
+<p>The game-controller has a network interface for the playing teams. They can automatically change their keeper id when the ball is <a href="#_stopping_the_game">not in play</a>, they can signal a robot substitution intent for the next opportunity and they can reply to requests of the <a href="#_advantage_rule">advantage rule</a>.</p>
 </div>
 </div>
 <div class="sect3">
@@ -1433,10 +1432,10 @@ In association football, it is sufficient if any player (including the keeper) t
 <p>If the yellow card is shown as a result of <a href="#_unsporting_behavior">unsporting behavior</a>, the referee may decide to immediately <a href="#_halt">halt</a> the match. In this case, the match continues with a direct free kick for the other team.</p>
 </div>
 <div class="paragraph">
-<p>Upon receipt of a yellow card, the number of robots allowed on the field for the penalised team decreases by one. If, after this decrease, the team has more robots than permitted on the field, a robot must immediately be <a href="#_taking_a_robot_out">taken out</a> before <a href="#_resuming_the_game">play resumes</a>. The penalized team can choose the robot to remove.</p>
+<p>Upon receipt of a yellow card, the number of robots allowed on the field for the penalised team decreases by one. If, after this decrease, the team has more robots than permitted on the field, a robot must be <a href="#_robot_substitution">taken out</a> before <a href="#_resuming_the_game">play resumes</a>. The penalized team can choose the robot to remove.</p>
 </div>
 <div class="paragraph">
-<p>After 120 seconds of playing time (measured by the game controller), the yellow card expires and the number of allowed robots is increased by one. The team may <a href="#_putting_a_robot_in">put a robot back in</a>.</p>
+<p>After 120 seconds of playing time (measured by the game controller), the yellow card expires and the number of allowed robots is increased by one. The team may <a href="#_robot_substitution">put a robot back in</a> during the next opportunity.</p>
 </div>
 <div class="paragraph">
 <p>For every third card (regardless of its color) for one team, a <a href="#_penalty_kick">penalty kick</a> is awarded to the opponent team.</p>
@@ -2217,41 +2216,78 @@ If the team is not connected to the game controller or does not reply within 0.2
 <p>Robots are substituted by the <a href="#_robot_handler">robot handler</a> of the respective team. No other team member is allowed to take robots out or put robots in.</p>
 </div>
 <div class="paragraph">
-<p>A robot substitution consists of two actions, <a href="#_taking_a_robot_out">taking a robot out</a> and <a href="#_putting_a_robot_in">putting a robot in</a>. If the robot to be taken out is closer than 1 meter to the intersection of the halfway line with one of the touch lines, another robot can be put in right away. Otherwise, the <a href="#_robot_handler">robot handler</a> has to wait until the next stoppage of the game (after the ball placement has been completed).</p>
+<p>A robot substitution intent can be made by:</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>A <a href="#_robot_handler">robot handler</a> by informing the <a href="#_game_controller_operator">game controller operator</a> who in turn enters the intent into the <a href="#_game_controller">game controller</a>.</p>
+</li>
+<li>
+<p>A team software by sending a request to the <a href="#_game_controller">game controller</a>.</p>
+</li>
+<li>
+<p>The <a href="#_game_controller">game controller</a> itself if a team exceeds the maximum number of robots.</p>
+</li>
+</ol>
 </div>
 <div class="paragraph">
-<p>If the robot to be taken out is the keeper, the <a href="#_robot_handler">robot handler</a> tells the <a href="#_referee">referee</a> the id of the robot that takes over the keeper role. This information is forwarded to the <a href="#_game_controller_operator">game controller operator</a>.</p>
+<p>If a robot substitution intent for either team is present just before the game would continue after ball placement, the <a href="#_game_controller">game controller</a> automatically <a href="#_halt">halts</a> the game.</p>
 </div>
 <div class="sect2">
-<h3 id="_taking_a_robot_out">9.1. Taking A Robot Out</h3>
+<h3 id="_procedure">9.1. Procedure</h3>
 <div class="olist arabic">
 <ol class="arabic">
 <li>
-<p>The <a href="#_robot_handler">robot handler</a> informs the <a href="#_referee">referee</a> that he intends to take a robot out.</p>
-</li>
-<li>
-<p>The referee forwards this request to the <a href="#_game_controller_operator">game controller operator</a>, so that he can pause the <a href="#_automatic_referee">automatic referee</a>.</p>
-</li>
-<li>
-<p>After the next ball placement (manual or automatic), the <a href="#_halt">halt</a> command is issued and the <a href="#_robot_handler">robot handler</a> is allowed to take the robot out.</p>
-</li>
-</ol>
-</div>
-</div>
-<div class="sect2">
-<h3 id="_putting_a_robot_in">9.2. Putting A Robot In</h3>
+<p>Each <a href="#_robot_handler">robot handler</a> who&#8217;s team is marked for robot substitution performs at least one of the following operations in the given order. Each operation can be repeated:</p>
 <div class="olist arabic">
 <ol class="arabic">
 <li>
-<p>The <a href="#_robot_handler">robot handler</a> informs the <a href="#_referee">referee</a> that he intends to put a robot in.</p>
+<p>Put a robot in. The maximum allowed number of robots of the team on the field must not be exceeded.</p>
 </li>
 <li>
-<p>The referee forwards this request to the <a href="#_game_controller_operator">game controller operator</a>, so that he can pause the <a href="#_automatic_referee">automatic referee</a>.</p>
-</li>
-<li>
-<p>After the next ball placement (manual or automatic), the <a href="#_halt">halt</a> command is issued and the <a href="#_robot_handler">robot handler</a> is allowed to put the robot in.</p>
+<p>Take a robot out. If this robot is closer than 1 meter to the intersection of the halfway line with one of the touch lines, another robot can be put in right away.</p>
 </li>
 </ol>
+</div>
+</li>
+<li>
+<p>If one of the robots taken out is the keeper, the <a href="#_robot_handler">robot handler</a> tells the <a href="#_game_controller_operator">game controller operator</a> the id of the robot that takes over the keeper role.</p>
+</li>
+<li>
+<p>The <a href="#_robot_handler">robot handler</a> informs the <a href="#_referee">referee</a> when done.</p>
+</li>
+<li>
+<p>When both teams finished the robot substitution, the <a href="#_referee">referee</a> informs the <a href="#_game_controller_operator">game controller operator</a>.</p>
+</li>
+<li>
+<p>The <a href="#_game_controller_operator">game controller operator</a> performs a <a href="#_stop">stop</a> followed by continuing the game.</p>
+</li>
+</ol>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Note</div>
+</td>
+<td class="content">
+If a robot is not taken out within 1 meter to the intersection of the halfway line with one of the touch lines, the <a href="#_robot_handler">robot handler</a> has to wait until the next substitution opportunity.
+</td>
+</tr>
+</table>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Note</div>
+</td>
+<td class="content">
+If the game was halted due to a substitution intent by a team, at least one substitution (taking a robot out or putting one in) must be performed by this team. A substitution intent can be revoked unless the game was not already halted for substitution.
+</td>
+</tr>
+</table>
 </div>
 </div>
 </div>
@@ -2259,7 +2295,7 @@ If the team is not connected to the game controller or does not reply within 0.2
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2018-10-06 15:02:46 UTC
+Last updated 2018-10-09 18:48:34 UTC
 </div>
 </div>
 </body>
