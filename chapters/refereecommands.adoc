@@ -111,9 +111,9 @@ A yellow card can only be given during <<Halt, halt>>.
 
 If the yellow card is shown as a result of <<Unsporting Behavior, unsporting behavior>>, the referee may decide to immediately <<Halt, halt>> the match. In this case, the match continues with a direct free kick for the other team.
 
-Upon receipt of a yellow card, the number of robots allowed on the field for the penalised team decreases by one. If, after this decrease, the team has more robots than permitted on the field, a robot must immediately be <<Taking A Robot Out, taken out>> before <<Resuming The Game, play resumes>>. The penalized team can choose the robot to remove.
+Upon receipt of a yellow card, the number of robots allowed on the field for the penalised team decreases by one. If, after this decrease, the team has more robots than permitted on the field, a robot must be <<Robot Substitution, taken out>> before <<Resuming The Game, play resumes>>. The penalized team can choose the robot to remove.
 
-After 120 seconds of playing time (measured by the game controller), the yellow card expires and the number of allowed robots is increased by one. The team may <<Putting A Robot In, put a robot back in>>.
+After 120 seconds of playing time (measured by the game controller), the yellow card expires and the number of allowed robots is increased by one. The team may <<Robot Substitution, put a robot back in>> during the next opportunity.
 
 For every third card (regardless of its color) for one team, a <<Penalty Kick, penalty kick>> is awarded to the opponent team.
 
