@@ -5,7 +5,7 @@
 <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="generator" content="Asciidoctor 1.5.7.1">
-<meta name="author" content="2018-10-09">
+<meta name="author" content="2018-10-11">
 <title>Rules of the RoboCup Small Size League 2019</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
 <style>
@@ -435,7 +435,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div id="header">
 <h1>Rules of the RoboCup Small Size League 2019</h1>
 <div class="details">
-<span id="author" class="author">2018-10-09</span><br>
+<span id="author" class="author">2018-10-11</span><br>
 </div>
 <div id="toc" class="toc">
 <div id="toctitle">Table of Contents</div>
@@ -491,11 +491,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#_advantage_rule">8.5. Advantage Rule</a></li>
 </ul>
 </li>
-<li><a href="#_robot_substitution">9. Robot Substitution</a>
-<ul class="sectlevel2">
-<li><a href="#_procedure">9.1. Procedure</a></li>
-</ul>
-</li>
+<li><a href="#_robot_substitution">9. Robot Substitution</a></li>
 </ul>
 </div>
 </div>
@@ -2210,43 +2206,20 @@ If the team is not connected to the game controller or does not reply within 0.2
 <h2 id="_robot_substitution">9. Robot Substitution</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Robots can be substituted for any reason. There is no limit on the number of substitutions.</p>
-</div>
-<div class="paragraph">
+<div class="title">Definition</div>
 <p>Robots are substituted by the <a href="#_robot_handler">robot handler</a> of the respective team. No other team member is allowed to take robots out or put robots in.</p>
 </div>
-<div class="paragraph">
-<p>A robot substitution intent can be made by:</p>
-</div>
 <div class="olist arabic">
 <ol class="arabic">
 <li>
-<p>A <a href="#_robot_handler">robot handler</a> by informing the <a href="#_game_controller_operator">game controller operator</a> who in turn enters the intent into the <a href="#_game_controller">game controller</a>.</p>
+<p>A <a href="#_robot_handler">robot handler</a> who&#8217;s team is marked for robot substitution performs at least one of the following operations in the given order.</p>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>Put robots in. The maximum allowed number of robots of the team on the field must not be exceeded.</p>
 </li>
 <li>
-<p>A team software by sending a request to the <a href="#_game_controller">game controller</a>.</p>
-</li>
-<li>
-<p>The <a href="#_game_controller">game controller</a> itself if a team exceeds the maximum number of robots.</p>
-</li>
-</ol>
-</div>
-<div class="paragraph">
-<p>If a robot substitution intent for either team is present just before the game would continue after ball placement, the <a href="#_game_controller">game controller</a> automatically <a href="#_halt">halts</a> the game.</p>
-</div>
-<div class="sect2">
-<h3 id="_procedure">9.1. Procedure</h3>
-<div class="olist arabic">
-<ol class="arabic">
-<li>
-<p>Each <a href="#_robot_handler">robot handler</a> who&#8217;s team is marked for robot substitution performs at least one of the following operations in the given order. Each operation can be repeated:</p>
-<div class="olist arabic">
-<ol class="arabic">
-<li>
-<p>Put a robot in. The maximum allowed number of robots of the team on the field must not be exceeded.</p>
-</li>
-<li>
-<p>Take a robot out. If this robot is closer than 1 meter to the intersection of the halfway line with one of the touch lines, another robot can be put in right away.</p>
+<p>Take robots out. If a robot that is taken out is closer than 1 meter to the intersection of the halfway line with one of the touch lines, another robot can be put in right away. Otherwise the robot handler has to wait until the next substitution opportunity.</p>
 </li>
 </ol>
 </div>
@@ -2265,37 +2238,38 @@ If the team is not connected to the game controller or does not reply within 0.2
 </li>
 </ol>
 </div>
-<div class="admonitionblock note">
-<table>
-<tr>
-<td class="icon">
-<div class="title">Note</div>
-</td>
-<td class="content">
-If a robot is not taken out within 1 meter to the intersection of the halfway line with one of the touch lines, the <a href="#_robot_handler">robot handler</a> has to wait until the next substitution opportunity.
-</td>
-</tr>
-</table>
+<div class="paragraph">
+<div class="title">Usage</div>
+<p>Robots can be substituted for any reason. There is no limit on the number of substitutions.</p>
 </div>
-<div class="admonitionblock note">
-<table>
-<tr>
-<td class="icon">
-<div class="title">Note</div>
-</td>
-<td class="content">
-If the game was halted due to a substitution intent by a team, at least one substitution (taking a robot out or putting one in) must be performed by this team. A substitution intent can be revoked unless the game was not already halted for substitution.
-</td>
-</tr>
-</table>
+<div class="paragraph">
+<p>A robot substitution intent can be made by:</p>
 </div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>A <a href="#_robot_handler">robot handler</a> by informing the <a href="#_game_controller_operator">game controller operator</a> who in turn enters the intent into the <a href="#_game_controller">game controller</a>.</p>
+</li>
+<li>
+<p>A team software by sending a request to the <a href="#_game_controller">game controller</a>.</p>
+</li>
+<li>
+<p>The <a href="#_game_controller">game controller</a> itself if a team exceeds the maximum number of robots (for example after a team receives a <a href="#_yellow_card">yellow</a> or <a href="#_red_card">red card</a>).</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>If the game was halted due to a substitution intent by a team, at least one substitution (taking a robot out or putting one in) must be performed by this team. A substitution intent can be revoked unless the game was not already halted for substitution.</p>
+</div>
+<div class="paragraph">
+<p>If a robot substitution intent for either team is present just before the game would continue after ball placement, the <a href="#_game_controller">game controller</a> automatically <a href="#_halt">halts</a> the game.</p>
 </div>
 </div>
 </div>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2018-10-09 18:48:34 UTC
+Last updated 2018-10-11 14:58:28 UTC
 </div>
 </div>
 </body>
