@@ -1,5 +1,8 @@
 [appendix]
 == Game Event Table
+The game event table is a compilation of the different game events and their consequences. It also lists what all <<Automatic Referee>> implementations must be capable of handling.
+
+NOTE: Note that the information shown in this table here is incomplete. Please read the sections of the respective events for the full definitions.
 
 Chapter <<Robots>>:
 |===
