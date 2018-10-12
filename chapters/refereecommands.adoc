@@ -39,7 +39,7 @@ When <<Force Start, force start>> has been issued or the ball moved at least 0.0
 
 ==== Normal Start
 .Definition
-For multi-stage referee commands, normal start is sent to let the attacking team know that a robot may manipulate the ball. A match cannot be resumed directly via normal start.
+For multi-stage referee commands, when normal start is sent, an attacker may manipulate the ball. A match cannot be resumed directly via normal start.
 
 .Usage
 Normal start is used for <<Kick-Off, kick-offs>>, <<Penalty Kick, penalty kicks>> and <<Shoot-Out, shoot-out>>.
