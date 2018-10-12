@@ -1303,7 +1303,18 @@ also used to recalibrate the vision software during a game if the vision expert 
 <p>When <a href="#_force_start">force start</a> has been issued or the ball moved at least 0.05 meters following a <a href="#_kick_off">kick-off</a>, <a href="#_direct_free_kick">direct free kick</a>, <a href="#_indirect_free_kick">indirect free kick</a> or <a href="#_penalty_kick">penalty kick</a>, the ball is considered in play (see <a href="#_double_touch">Double Touch</a> for the rationale of the 0.05 meter distance).</p>
 </div>
 <div class="sect3">
-<h4 id="_kick_off">5.2.1. Kick-Off</h4>
+<h4 id="_normal_start">5.2.1. Normal Start</h4>
+<div class="paragraph">
+<div class="title">Definition</div>
+<p>For multi-stage referee commands, normal start is sent to let the attacking team know that a robot may manipulate the ball. A match cannot be resumed directly via normal start.</p>
+</div>
+<div class="paragraph">
+<div class="title">Usage</div>
+<p>Normal start is used for <a href="#_kick_off">kick-offs</a>, <a href="#_penalty_kick">penalty kicks</a> and <a href="#_shoot_out">shoot-out</a>.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_kick_off">5.2.2. Kick-Off</h4>
 <div class="paragraph">
 <div class="title">Definition</div>
 <p>The ball has to be placed in the center of the field by the human referee.</p>
@@ -1312,7 +1323,7 @@ also used to recalibrate the vision software during a game if the vision expert 
 <p>When the kick-off command is issued, all robots have to move to their own half of the field excluding the <a href="#_center_circle">center circle</a>. However, one robot of the attacking team is also allowed to be inside the whole center circle. This robot will be referred to as the kicker. No robot is allowed to touch the ball.</p>
 </div>
 <div class="paragraph">
-<p>When the normal start command is issued, the kicker is allowed to shoot the ball. A goal may be scored directly from the kick-off.</p>
+<p>When the <a href="#_normal_start">normal start</a> command is issued, the kicker is allowed to shoot the ball. A goal may be scored directly from the kick-off.</p>
 </div>
 <div class="paragraph">
 <p>When the ball is <a href="#_resuming_the_game">in play</a>, the kicker may not touch the ball until it has been touched by another robot or the game has been stopped (see <a href="#_double_touch">double touch</a>). Also, the restrictions regarding the robot positions are lifted.</p>
@@ -1326,7 +1337,7 @@ also used to recalibrate the vision software during a game if the vision expert 
 </div>
 </div>
 <div class="sect3">
-<h4 id="_direct_free_kick">5.2.2. Direct Free Kick</h4>
+<h4 id="_direct_free_kick">5.2.3. Direct Free Kick</h4>
 <div class="paragraph">
 <div class="title">Definition</div>
 <p>The ball placement position for a free kick depends on the event that led to the free kick. This position is valid if there is at least 0.2 meters distance to all <a href="#_field_lines">field lines</a> and 1 meter distance to either <a href="#_defense_area">defense area</a>. If an event requires the ball to be placed at a position that contravenes this rule, it has to be placed at the closest valid position instead.</p>
@@ -1343,7 +1354,7 @@ also used to recalibrate the vision software during a game if the vision expert 
 </div>
 </div>
 <div class="sect3">
-<h4 id="_indirect_free_kick">5.2.3. Indirect Free Kick</h4>
+<h4 id="_indirect_free_kick">5.2.4. Indirect Free Kick</h4>
 <div class="paragraph">
 <div class="title">Definition</div>
 <p>An indirect free kick behaves like a <a href="#_direct_free_kick">direct free kick</a>, except: After an indirect free kick, a goal can only be scored if the ball touches a robot of the attacking team after the ball <a href="#_resuming_the_game">entered play</a> and before it entering the goal of the defending team. If the ball enters the goal of the defending team without touching an attacking robot, it will be treated like it crossed the goal line outside the goal.</p>
@@ -1381,7 +1392,7 @@ In association football, it is sufficient if any player (including the keeper) t
 </div>
 </div>
 <div class="sect3">
-<h4 id="_force_start">5.2.4. Force Start</h4>
+<h4 id="_force_start">5.2.5. Force Start</h4>
 <div class="paragraph">
 <div class="title">Definition</div>
 <p>When the force start command is issued, the game is immediately resumed and both teams are allowed to approach and manipulate the ball again.</p>
@@ -1395,16 +1406,16 @@ In association football, it is sufficient if any player (including the keeper) t
 </div>
 </div>
 <div class="sect3">
-<h4 id="_penalty_kick">5.2.5. Penalty Kick</h4>
+<h4 id="_penalty_kick">5.2.6. Penalty Kick</h4>
 <div class="paragraph">
 <div class="title">Definition</div>
 <p>To initiate a penalty kick, the stop command has to be sent and the ball has to be placed on the <a href="#_penalty_mark">penalty mark</a> by the human <a href="#_referee">referee</a>.</p>
 </div>
 <div class="paragraph">
-<p>When the penalty command is issued, one attacking robot is allowed to approach but not touch the ball. This robot will be referred to as the kicker. The defending keeper has to touch the goal line. All other robots have to move behind a line parallel to the goal line and 0.4 meters behind the penalty mark. When these constraints are met, the referee may continue with a normal start command.</p>
+<p>When the penalty command is issued, one attacking robot is allowed to approach but not touch the ball. This robot will be referred to as the kicker. The defending keeper has to touch the goal line. All other robots have to move behind a line parallel to the goal line and 0.4 meters behind the penalty mark. When these constraints are met, the referee may continue with a <a href="#_normal_start">normal start</a> command.</p>
 </div>
 <div class="paragraph">
-<p>When the normal start command is issued, the kicker is allowed to shoot the ball. A goal may be scored directly from the penalty kick.</p>
+<p>When the <a href="#_normal_start">normal start</a> command is issued, the kicker is allowed to shoot the ball. A goal may be scored directly from the penalty kick.</p>
 </div>
 <div class="paragraph">
 <p>When the ball is <a href="#_resuming_the_game">in play</a>, the kicker may not touch the ball until it has been touched by another robot or the game has been stopped (see <a href="#_double_touch">double touch</a>). Also, the restrictions regarding the robot positions are lifted.</p>
@@ -1614,7 +1625,7 @@ If the opposing team fails to place the ball or no team can place the ball, it i
 <p>When the <a href="#_penalty_kick">penalty</a> command is issued, the defending keeper has to move to the goal line and keep touching it.</p>
 </li>
 <li>
-<p>When the normal start command is issued, the attacker is allowed to manipulate the ball. The ball has to only move towards the opponent goal, as measured by its x coordinate in the coordinate system of <a href="#_vision">SSL-Vision</a>.</p>
+<p>When the <a href="#_normal_start">normal start</a> command is issued, the attacker is allowed to manipulate the ball. The ball has to only move towards the opponent goal, as measured by its x coordinate in the coordinate system of <a href="#_vision">SSL-Vision</a>.</p>
 </li>
 <li>
 <p>When the ball is <a href="#_resuming_the_game">in play</a>, the defending keeper may move freely again, analogous to a <a href="#_penalty_kick">penalty kick</a>.</p>
@@ -2337,7 +2348,7 @@ Note that the information shown in this table here is incomplete. Please read th
 <tbody>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_kick_off">Kick-Off</a> prepared</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">normal start</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_normal_start">Normal Start</a></p></td>
 <td class="tableblock halign-left valign-top"></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="icon green"><i class="fa fa-check"></i></span></p></td>
 </tr>
@@ -2349,7 +2360,7 @@ Note that the information shown in this table here is incomplete. Please read th
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_penalty_kick">Penalty Kick</a> prepared</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">normal start</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_normal_start">Normal Start</a></p></td>
 <td class="tableblock halign-left valign-top"></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="icon green"><i class="fa fa-check"></i></span></p></td>
 </tr>
@@ -2684,7 +2695,7 @@ Note that the information shown in this table here is incomplete. Please read th
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2018-10-12 09:11:11 UTC
+Last updated 2018-10-12 13:42:36 UTC
 </div>
 </div>
 </body>
