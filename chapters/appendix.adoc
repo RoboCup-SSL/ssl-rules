@@ -79,3 +79,10 @@ Chapter <<Offenses>>, section <<Unsporting Behavior>>:
 
 | Unsporting Behavior | | <<Yellow Card>>, <<Red Card>>, <<Penalty Kick>>, <<Forced Forfeit>> or <<Disqualification>> | icon:times[role="red"]
 |===
+
+Chapter <<Robot Substitution>>:
+|===
+| Event | Command | Follow-Up Command | AutoRef
+
+| <<Robot Substitution>> Intent | <<Halt>> | | icon:times[role="red"]
+|===
