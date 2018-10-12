@@ -15,9 +15,9 @@ Chapter <<Referee Commands>>:
 |===
 | Event | Command | Follow-Up Command | AutoRef
 
-| <<Kick-Off>> prepared | normal start | | icon:check[role="green"]
+| <<Kick-Off>> prepared | <<Normal Start>> | | icon:check[role="green"]
 | No Progress | <<Stop>> | <<Force Start>> | icon:check[role="green"]
-| <<Penalty Kick>> prepared | normal start | | icon:check[role="green"]
+| <<Penalty Kick>> prepared | <<Normal Start>> | | icon:check[role="green"]
 | Multiple <<Yellow Card, Yellow Cards>> | | <<Penalty Kick>> | icon:times[role="red"] (handled by the game controller)
 | <<Ball Placement>> failed by team in favor | <<Stop>> | <<Indirect Free Kick>> (div A) / previous command (div B) | icon:check[role="green"]
 | <<Ball Placement>> failed by opponent | <<Stop>> | | icon:check[role="green"]

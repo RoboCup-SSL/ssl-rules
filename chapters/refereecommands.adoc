@@ -37,13 +37,20 @@ In division A, the ball will be placed automatically by the robots if the follow
 
 When <<Force Start, force start>> has been issued or the ball moved at least 0.05 meters following a <<Kick-Off, kick-off>>, <<Direct Free Kick, direct free kick>>, <<Indirect Free Kick, indirect free kick>> or <<Penalty Kick, penalty kick>>, the ball is considered in play (see <<Double Touch>> for the rationale of the 0.05 meter distance).
 
+==== Normal Start
+.Definition
+For multi-stage referee commands, normal start is sent to let the attacking team know that a robot may manipulate the ball. A match cannot be resumed directly via normal start.
+
+.Usage
+Normal start is used for <<Kick-Off, kick-offs>>, <<Penalty Kick, penalty kicks>> and <<Shoot-Out, shoot-out>>.
+
 ==== Kick-Off
 .Definition
 The ball has to be placed in the center of the field by the human referee.
 
 When the kick-off command is issued, all robots have to move to their own half of the field excluding the <<Center Circle, center circle>>. However, one robot of the attacking team is also allowed to be inside the whole center circle. This robot will be referred to as the kicker. No robot is allowed to touch the ball.
 
-When the normal start command is issued, the kicker is allowed to shoot the ball. A goal may be scored directly from the kick-off.
+When the <<Normal Start, normal start>> command is issued, the kicker is allowed to shoot the ball. A goal may be scored directly from the kick-off.
 
 When the ball is <<Resuming The Game, in play>>, the kicker may not touch the ball until it has been touched by another robot or the game has been stopped (see <<Double Touch, double touch>>). Also, the restrictions regarding the robot positions are lifted.
 
@@ -89,9 +96,9 @@ It can also be used to resume the game when the game had to be stopped and no te
 .Definition
 To initiate a penalty kick, the stop command has to be sent and the ball has to be placed on the <<Penalty Mark, penalty mark>> by the human <<Referee, referee>>.
 
-When the penalty command is issued, one attacking robot is allowed to approach but not touch the ball. This robot will be referred to as the kicker. The defending keeper has to touch the goal line. All other robots have to move behind a line parallel to the goal line and 0.4 meters behind the penalty mark. When these constraints are met, the referee may continue with a normal start command.
+When the penalty command is issued, one attacking robot is allowed to approach but not touch the ball. This robot will be referred to as the kicker. The defending keeper has to touch the goal line. All other robots have to move behind a line parallel to the goal line and 0.4 meters behind the penalty mark. When these constraints are met, the referee may continue with a <<Normal Start, normal start>> command.
 
-When the normal start command is issued, the kicker is allowed to shoot the ball. A goal may be scored directly from the penalty kick.
+When the <<Normal Start, normal start>> command is issued, the kicker is allowed to shoot the ball. A goal may be scored directly from the penalty kick.
 
 When the ball is <<Resuming The Game, in play>>, the kicker may not touch the ball until it has been touched by another robot or the game has been stopped (see <<Double Touch, double touch>>). Also, the restrictions regarding the robot positions are lifted.
 
@@ -202,7 +209,7 @@ The procedure of a shoot-out attempt is as follows:
 
 . The ball is placed by the human referee on the <<Additional Lines, mid-line>> (not halfway line), 8 meters (division A) or 6 meters (division B) away from the opponent goal.
 . When the <<Penalty Kick, penalty>> command is issued, the defending keeper has to move to the goal line and keep touching it.
-. When the normal start command is issued, the attacker is allowed to manipulate the ball. The ball has to only move towards the opponent goal, as measured by its x coordinate in the coordinate system of <<Vision, SSL-Vision>>.
+. When the <<Normal Start, normal start>> command is issued, the attacker is allowed to manipulate the ball. The ball has to only move towards the opponent goal, as measured by its x coordinate in the coordinate system of <<Vision, SSL-Vision>>.
 . When the ball is <<Resuming The Game, in play>>, the defending keeper may move freely again, analogous to a <<Penalty Kick, penalty kick>>.
 
 A goal is awarded if:
