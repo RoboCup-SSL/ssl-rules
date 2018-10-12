@@ -1,0 +1,81 @@
+[appendix]
+== Game Event Table
+
+Chapter <<Robots>>:
+|===
+| Event | Command | Follow-Up Command | AutoRef
+
+| <<Number Of Robots>> exceeded | <<Stop>> | | icon:times[role="red"]
+|===
+
+Chapter <<Referee Commands>>:
+|===
+| Event | Command | Follow-Up Command | AutoRef
+
+| <<Kick-Off>> prepared | normal start | | icon:check[role="green"]
+| No Progress | <<Stop>> | <<Force Start>> | icon:check[role="green"]
+| <<Penalty Kick>> prepared | normal start | | icon:check[role="green"]
+| Multiple <<Yellow Card, Yellow Cards>> | | <<Penalty Kick>> | icon:check[role="green"]
+| <<Ball Placement>> failed by team in favor | <<Stop>> | <<Indirect Free Kick>> (div A) / previous command (div B) | icon:check[role="green"]
+| <<Ball Placement>> failed by opponent | <<Stop>> | | icon:check[role="green"]
+| <<Ball Placement>> successful | continue | | icon:check[role="green"]
+|===
+
+Chapter <<Ball Leaves The Field>>:
+|===
+| Event | Command | Follow-Up Command | AutoRef
+
+| <<Throw-In>> | <<Stop>> | <<Indirect Free Kick>> | icon:check[role="green"]
+| <<Goal Kick>> | <<Stop>> | <<Direct Free Kick>> | icon:check[role="green"]
+| <<Corner Kick>> | <<Stop>> | <<Direct Free Kick>> | icon:check[role="green"]
+|===
+
+Chapter <<Scoring Goals>>:
+|===
+| Event | Command | Follow-Up Command | AutoRef
+
+| Goal | <<Stop>> | <<Kick-Off>> | (icon:check[role="green"]) footnote:[the game controller operator has to continue the game]
+| Invalid Goal | <<Stop>> | <<Direct Free Kick>> | icon:check[role="green"]
+|===
+
+Chapter <<Offenses>>, section <<Minor Offenses>>:
+|===
+| Event | Command | Follow-Up Command | AutoRef
+
+| <<Aimless Kick [small]#(_division B only_)#, Aimless Kick>> | <<Stop>> | <<Indirect Free Kick>> | icon:check[role="green"]
+| <<Lack Of Progress>> | <<Stop>> | <<Indirect Free Kick>> | icon:check[role="green"]
+| <<Double Touch>> | <<Stop>> | <<Indirect Free Kick>> | icon:check[role="green"]
+| <<Attacker In Defense Area>> | <<Stop>> | <<Indirect Free Kick>> | icon:check[role="green"]
+| <<Attacker Touches Keeper>> | <<Stop>> | <<Indirect Free Kick>> | icon:check[role="green"]
+| <<Dribbling>> | <<Stop>> | <<Indirect Free Kick>> | icon:check[role="green"]
+| <<Ball Speed>> | <<Stop>> | <<Indirect Free Kick>> | icon:check[role="green"]
+|===
+
+
+Chapter <<Offenses>>, section <<Fouls>>:
+|===
+| Event | Command | Follow-Up Command | AutoRef
+
+| Multiple <<Fouls>> | | <<Yellow Card>> | icon:check[role="green"]
+| <<Attacker Too Close To Defense Area>> | <<Stop>> | <<Direct Free Kick>> | icon:check[role="green"]
+| <<Ball Placement Interference>> | <<Stop>> | <<Direct Free Kick>> | icon:check[role="green"]
+| <<Crashing>> | <<Stop>> | <<Direct Free Kick>> | icon:check[role="green"]
+| <<Crashing>> skipped | | | icon:check[role="green"] (<<Advantage Rule>>)
+| <<Crashing>> draw | | | icon:check[role="green"]
+| <<Pushing>> | <<Stop>> | <<Direct Free Kick>> | icon:check[role="green"]
+| <<Pushing>> skipped | | | icon:check[role="green"] (<<Advantage Rule>>)
+| <<Ball Holding>> | <<Stop>> | <<Direct Free Kick>> | icon:check[role="green"]
+| <<Tipping Over Or Dropping Parts>> | <<Stop>> | <<Direct Free Kick>> | icon:times[role="red"]
+| <<Robot Stop Speed>> | <<Stop>> | <<Direct Free Kick>> | icon:check[role="green"]
+| <<Defender Too Close To Ball>> | <<Stop>> | <<Direct Free Kick>> | icon:check[role="green"]
+| <<Multiple Defenders>> partially | <<Stop>> | <<Direct Free Kick>>, <<Yellow Card>> | icon:check[role="green"]
+| <<Multiple Defenders>> entirely | <<Stop>> | <<Penalty Kick>> | icon:check[role="green"]
+|===
+
+Chapter <<Offenses>>, section <<Unsporting Behavior>>:
+
+|===
+| Event | Command | Follow-Up Command | AutoRef
+
+| Unsporting Behavior | | <<Yellow Card>>, <<Red Card>>, <<Penalty Kick>>, <<Forced Forfeit>> or <<Disqualification>> | icon:times[role="red"]
+|===
