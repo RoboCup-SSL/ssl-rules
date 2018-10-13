@@ -3,8 +3,6 @@
 === Stopping The Game
 When the game is stopped, the ball is considered out of play until it has been brought <<Resuming The Game, into play>>.
 
-NOTE: The game time is not paused during other referee commands, even if the ball is still out of play.
-
 ==== Stop
 .Definition
 When the stop command is issued, all robots have to slow down to less than 1.5 m/s. Additionally, all robots have to keep at least 0.5 meters distance to the ball and are not allowed to manipulate the ball.
