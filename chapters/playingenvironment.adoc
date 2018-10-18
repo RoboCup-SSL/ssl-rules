@@ -43,7 +43,7 @@ A defense area is defined at each end of the field as a rectangle of 2.4 meters 
 ===== Penalty Mark
 For each field half the penalty mark is 1.2 meters for division A and 1 meter for division B, from the midpoint between the goalposts and equidistant to them, thus coinciding with the outer edge of the defense area.
 
-NOTE: the penaly mark does not need to be painted since it coincides with the intersection of the defense area and the mid-line.
+NOTE: The penaly mark does not need to be painted since it coincides with the intersection of the defense area and the mid-line.
 
 ==== Goals
 Goals must be placed on the center of each goal line and anchored securely to the field surface. They consist of two 0.16 meters high vertical side walls joined at the back by a 0.16 meters high vertical rear wall. The inner face of the goal has to be covered with an energy absorbing material such as foam to help absorb ball impacts and lessen the speed of deflections. The goal walls, edges, and tops are white in color.
