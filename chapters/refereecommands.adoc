@@ -215,7 +215,7 @@ A goal is not awarded if:
 * the defending keeper touches the ball such that the ball speed vector changes direction by at least 90 degrees in 2D space
 * the attacking team violates any rule
 
-NOTE: The restrictions defined for <<Scoring Goals, scoring goals>> do not apply here. Other rules like the <<Dribbling, dribbling>> limitation for example do.
+NOTE: The restrictions defined for <<Scoring Goals, scoring goals>> do not apply here. Other rules like the <<Excessive Dribbling, excessive dribbling>> limitation for example do.
 
 Robots may be <<Robot Substitution, substituted>> between shoot-out attempts. The new robot may be put in right away.
 
