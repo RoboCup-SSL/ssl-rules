@@ -63,10 +63,10 @@ Chapter <<Offenses>>, section <<Fouls>>:
 | <<Attacker Too Close To Defense Area>> | <<Stopping The Game, ball not in play>> | <<Stop>>, then <<Direct Free Kick>> | icon:check[role="green"]
 | <<Ball Placement Interference>> | during <<Ball Placement>> | <<Stop>>, then <<Direct Free Kick>> | icon:check[role="green"]
 | <<Crashing>> | always | <<Stop>>, then <<Direct Free Kick>> | icon:check[role="green"]
-| <<Crashing>> skipped | always | <<Stop>>, then <<Direct Free Kick>> or no command | icon:check[role="green"] (<<Advantage Rule>>)
+| <<Crashing>> skipped | always | no command | icon:check[role="green"] (<<Advantage Rule>>)
 | <<Crashing>> draw | always | no command | icon:check[role="green"]
 | <<Pushing>> | always | <<Stop>>, then <<Direct Free Kick>> | icon:check[role="green"]
-| <<Pushing>> skipped | always | <<Stop>>, then <<Direct Free Kick>> or no command | icon:check[role="green"] (<<Advantage Rule>>)
+| <<Pushing>> skipped | always | no command | icon:check[role="green"] (<<Advantage Rule>>)
 | <<Ball Holding>> | <<Resuming The Game, ball in play>> | <<Stop>>, then <<Direct Free Kick>> | icon:check[role="green"]
 | <<Tipping Over Or Dropping Parts>> | always | <<Stop>>, then <<Direct Free Kick>> | icon:times[role="red"]
 | <<Robot Stop Speed>> | during <<Stop>> | <<Stop>>, then <<Direct Free Kick>> | icon:check[role="green"]
@@ -80,7 +80,7 @@ Chapter <<Offenses>>, section <<Unsporting Behavior>>:
 |===
 | Event | Applicability | Command | AutoRef
 
-| Unsporting Behavior | always | <<Yellow Card>>, <<Red Card>>, <<Penalty Kick>>, <<Forced Forfeit>> or <<Disqualification>> | icon:times[role="red"]
+| Unsporting Behavior | always | <<Stop>>, then <<Yellow Card>>, <<Red Card>>, <<Penalty Kick>>, <<Forced Forfeit>> or <<Disqualification>> | icon:times[role="red"]
 |===
 
 Chapter <<Robot Substitution>>:
