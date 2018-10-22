@@ -60,7 +60,7 @@ Chapter <<Offenses>>, section <<Fouls>>:
 | Event | Applicability | Command | AutoRef
 
 | Multiple <<Fouls>> | <<Stopping The Game, ball not in play>> | <<Yellow Card>> | icon:times[role="red"] (handled by the game controller)
-| <<Attacker Too Close To Defense Area>> | <<Stopping The Game, ball not in play>> | <<Stop>>, then <<Direct Free Kick>> | icon:check[role="green"]
+| <<Robot Too Close To Opponent Defense Area>> | <<Stopping The Game, ball not in play>> | <<Stop>>, then <<Direct Free Kick>> | icon:check[role="green"]
 | <<Ball Placement Interference>> | during <<Ball Placement>> | <<Stop>>, then <<Direct Free Kick>> | icon:check[role="green"]
 | <<Crashing>> | always | <<Stop>>, then <<Direct Free Kick>> | icon:check[role="green"]
 | <<Crashing>> skipped | always | no command | icon:check[role="green"] (<<Advantage Rule>>)

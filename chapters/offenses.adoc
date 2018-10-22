@@ -30,12 +30,12 @@ NOTE: It is understood that the ball may be bumped by the robot multiple times o
 ==== Attacker In Defense Area
 A robot must not touch the ball while being partially or fully inside the opponent <<Defense Area, defense area>>.
 
-NOTE: When the ball is <<Stopping The Game, not in play>>, the more strict rule <<Attacker Too Close To Defense Area>> applies instead.
+NOTE: When the ball is <<Stopping The Game, not in play>>, the more strict rule <<Robot Too Close To Opponent Defense Area>> applies instead.
 
 ==== Attacker Touches Keeper
 A robot must not touch the opponent keeper inside the opponent <<Defense Area, defense area>>.
 
-NOTE: When the ball is <<Stopping The Game, not in play>>, the more strict rule <<Attacker Too Close To Defense Area>> applies instead.
+NOTE: When the ball is <<Stopping The Game, not in play>>, the more strict rule <<Robot Too Close To Opponent Defense Area>> applies instead.
 
 ==== Dribbling
 A robot must not dribble the ball further than 1 meter, measured linearly from the ball location where the dribbling started. A robot begins dribbling when it makes contact with the ball and stops dribbling when there is an observable separation between the ball and the robot.
@@ -54,7 +54,7 @@ In case of severe fouls, the referee can also issue a <<Yellow Card, yellow card
 
 All fouls are listed below.
 
-==== Attacker Too Close To Defense Area
+==== Robot Too Close To Opponent Defense Area
 During <<Stop, stop>>, <<Direct Free Kick, direct free kicks>> and <<Indirect Free Kick, indirect free kicks>>, before the ball <<Resuming The Game, has entered play>>, all robots have to keep at least 0.2 meters distance to the opponent <<Defense Area, defense area>>.
 
 There is a grace period of 2 seconds for the robots to move away from the opponent defense area.
