@@ -5,7 +5,7 @@
 <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="generator" content="Asciidoctor 1.5.7.1">
-<meta name="author" content="2018-10-18">
+<meta name="author" content="2018-10-22">
 <title>Rules of the RoboCup Small Size League 2019</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
 <style>
@@ -435,7 +435,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div id="header">
 <h1>Rules of the RoboCup Small Size League 2019</h1>
 <div class="details">
-<span id="author" class="author">2018-10-18</span><br>
+<span id="author" class="author">2018-10-22</span><br>
 </div>
 <div id="toc" class="toc">
 <div id="toctitle">Table of Contents</div>
@@ -2313,16 +2313,16 @@ Note that the information shown in this table here is incomplete. Please read th
 <thead>
 <tr>
 <th class="tableblock halign-left valign-top">Event</th>
+<th class="tableblock halign-left valign-top">Applicability</th>
 <th class="tableblock halign-left valign-top">Command</th>
-<th class="tableblock halign-left valign-top">Follow-Up Command</th>
 <th class="tableblock halign-left valign-top">AutoRef</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_number_of_robots">Number Of Robots</a> exceeded</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">always</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_stop">Stop</a></p></td>
-<td class="tableblock halign-left valign-top"></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="icon red"><i class="fa fa-times"></i></span></p></td>
 </tr>
 </tbody>
@@ -2340,52 +2340,52 @@ Note that the information shown in this table here is incomplete. Please read th
 <thead>
 <tr>
 <th class="tableblock halign-left valign-top">Event</th>
+<th class="tableblock halign-left valign-top">Applicability</th>
 <th class="tableblock halign-left valign-top">Command</th>
-<th class="tableblock halign-left valign-top">Follow-Up Command</th>
 <th class="tableblock halign-left valign-top">AutoRef</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_kick_off">Kick-Off</a> prepared</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">during <a href="#_kick_off">Kick-Off</a></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_normal_start">Normal Start</a></p></td>
-<td class="tableblock halign-left valign-top"></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="icon green"><i class="fa fa-check"></i></span></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">No Progress</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_stop">Stop</a></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_force_start">Force Start</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_resuming_the_game">ball in play</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_stop">Stop</a>, then <a href="#_force_start">Force Start</a></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="icon green"><i class="fa fa-check"></i></span></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_penalty_kick">Penalty Kick</a> prepared</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">during <a href="#_penalty_kick">Penalty Kick</a></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_normal_start">Normal Start</a></p></td>
-<td class="tableblock halign-left valign-top"></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="icon green"><i class="fa fa-check"></i></span></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Multiple <a href="#_yellow_card">Yellow Cards</a></p></td>
-<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_stopping_the_game">ball not in play</a></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_penalty_kick">Penalty Kick</a></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="icon red"><i class="fa fa-times"></i></span> (handled by the game controller)</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_ball_placement">Ball Placement</a> failed by team in favor</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_stop">Stop</a></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_indirect_free_kick">Indirect Free Kick</a> (div A) / previous command (div B)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">during <a href="#_ball_placement">Ball Placement</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_stop">Stop</a>, then <a href="#_indirect_free_kick">Indirect Free Kick</a> (div A) / previous command (div B)</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="icon green"><i class="fa fa-check"></i></span></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_ball_placement">Ball Placement</a> failed by opponent</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">during <a href="#_ball_placement">Ball Placement</a></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_stop">Stop</a></p></td>
-<td class="tableblock halign-left valign-top"></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="icon green"><i class="fa fa-check"></i></span></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_ball_placement">Ball Placement</a> successful</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">during <a href="#_ball_placement">Ball Placement</a></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">continue</p></td>
-<td class="tableblock halign-left valign-top"></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="icon green"><i class="fa fa-check"></i></span></p></td>
 </tr>
 </tbody>
@@ -2403,28 +2403,28 @@ Note that the information shown in this table here is incomplete. Please read th
 <thead>
 <tr>
 <th class="tableblock halign-left valign-top">Event</th>
+<th class="tableblock halign-left valign-top">Applicability</th>
 <th class="tableblock halign-left valign-top">Command</th>
-<th class="tableblock halign-left valign-top">Follow-Up Command</th>
 <th class="tableblock halign-left valign-top">AutoRef</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_throw_in">Throw-In</a></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_stop">Stop</a></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_indirect_free_kick">Indirect Free Kick</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_resuming_the_game">ball in play</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_stop">Stop</a>, then <a href="#_indirect_free_kick">Indirect Free Kick</a></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="icon green"><i class="fa fa-check"></i></span></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_goal_kick">Goal Kick</a></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_stop">Stop</a></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_direct_free_kick">Direct Free Kick</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_resuming_the_game">ball in play</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_stop">Stop</a>, then <a href="#_direct_free_kick">Direct Free Kick</a></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="icon green"><i class="fa fa-check"></i></span></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_corner_kick">Corner Kick</a></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_stop">Stop</a></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_direct_free_kick">Direct Free Kick</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_resuming_the_game">ball in play</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_stop">Stop</a>, then <a href="#_direct_free_kick">Direct Free Kick</a></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="icon green"><i class="fa fa-check"></i></span></p></td>
 </tr>
 </tbody>
@@ -2442,22 +2442,22 @@ Note that the information shown in this table here is incomplete. Please read th
 <thead>
 <tr>
 <th class="tableblock halign-left valign-top">Event</th>
+<th class="tableblock halign-left valign-top">Applicability</th>
 <th class="tableblock halign-left valign-top">Command</th>
-<th class="tableblock halign-left valign-top">Follow-Up Command</th>
 <th class="tableblock halign-left valign-top">AutoRef</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Goal</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_stop">Stop</a></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_kick_off">Kick-Off</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_resuming_the_game">ball in play</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_stop">Stop</a>, then <a href="#_kick_off">Kick-Off</a></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">(<span class="icon green"><i class="fa fa-check"></i></span>) <sup class="footnote">[<a id="_footnoteref_1" class="footnote" href="#_footnotedef_1" title="View footnote.">1</a>]</sup></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Invalid Goal</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_stop">Stop</a></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_direct_free_kick">Direct Free Kick</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_resuming_the_game">ball in play</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_stop">Stop</a>, then <a href="#_direct_free_kick">Direct Free Kick</a></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="icon green"><i class="fa fa-check"></i></span></p></td>
 </tr>
 </tbody>
@@ -2475,52 +2475,52 @@ Note that the information shown in this table here is incomplete. Please read th
 <thead>
 <tr>
 <th class="tableblock halign-left valign-top">Event</th>
+<th class="tableblock halign-left valign-top">Applicability</th>
 <th class="tableblock halign-left valign-top">Command</th>
-<th class="tableblock halign-left valign-top">Follow-Up Command</th>
 <th class="tableblock halign-left valign-top">AutoRef</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_aimless_kick_division_b_only">Aimless Kick</a></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_stop">Stop</a></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_indirect_free_kick">Indirect Free Kick</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_resuming_the_game">ball in play</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_stop">Stop</a>, then <a href="#_indirect_free_kick">Indirect Free Kick</a></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="icon green"><i class="fa fa-check"></i></span></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_lack_of_progress">Lack Of Progress</a></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_stop">Stop</a></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_indirect_free_kick">Indirect Free Kick</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_resuming_the_game">ball in play</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_stop">Stop</a>, then <a href="#_indirect_free_kick">Indirect Free Kick</a></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="icon green"><i class="fa fa-check"></i></span></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_double_touch">Double Touch</a></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_stop">Stop</a></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_indirect_free_kick">Indirect Free Kick</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_resuming_the_game">ball in play</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_stop">Stop</a>, then <a href="#_indirect_free_kick">Indirect Free Kick</a></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="icon green"><i class="fa fa-check"></i></span></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_attacker_in_defense_area">Attacker In Defense Area</a></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_stop">Stop</a></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_indirect_free_kick">Indirect Free Kick</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_resuming_the_game">ball in play</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_stop">Stop</a>, then <a href="#_indirect_free_kick">Indirect Free Kick</a></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="icon green"><i class="fa fa-check"></i></span></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_attacker_touches_keeper">Attacker Touches Keeper</a></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_stop">Stop</a></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_indirect_free_kick">Indirect Free Kick</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_resuming_the_game">ball in play</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_stop">Stop</a>, then <a href="#_indirect_free_kick">Indirect Free Kick</a></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="icon green"><i class="fa fa-check"></i></span></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_dribbling">Dribbling</a></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_stop">Stop</a></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_indirect_free_kick">Indirect Free Kick</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_resuming_the_game">ball in play</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_stop">Stop</a>, then <a href="#_indirect_free_kick">Indirect Free Kick</a></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="icon green"><i class="fa fa-check"></i></span></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_ball_speed">Ball Speed</a></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_stop">Stop</a></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_indirect_free_kick">Indirect Free Kick</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_resuming_the_game">ball in play</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_stop">Stop</a>, then <a href="#_indirect_free_kick">Indirect Free Kick</a></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="icon green"><i class="fa fa-check"></i></span></p></td>
 </tr>
 </tbody>
@@ -2538,94 +2538,94 @@ Note that the information shown in this table here is incomplete. Please read th
 <thead>
 <tr>
 <th class="tableblock halign-left valign-top">Event</th>
+<th class="tableblock halign-left valign-top">Applicability</th>
 <th class="tableblock halign-left valign-top">Command</th>
-<th class="tableblock halign-left valign-top">Follow-Up Command</th>
 <th class="tableblock halign-left valign-top">AutoRef</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Multiple <a href="#_fouls">Fouls</a></p></td>
-<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_stopping_the_game">ball not in play</a></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_yellow_card">Yellow Card</a></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="icon red"><i class="fa fa-times"></i></span> (handled by the game controller)</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_attacker_too_close_to_defense_area">Attacker Too Close To Defense Area</a></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_stop">Stop</a></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_direct_free_kick">Direct Free Kick</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_stopping_the_game">ball not in play</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_stop">Stop</a>, then <a href="#_direct_free_kick">Direct Free Kick</a></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="icon green"><i class="fa fa-check"></i></span></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_ball_placement_interference">Ball Placement Interference</a></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_stop">Stop</a></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_direct_free_kick">Direct Free Kick</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">during <a href="#_ball_placement">Ball Placement</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_stop">Stop</a>, then <a href="#_direct_free_kick">Direct Free Kick</a></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="icon green"><i class="fa fa-check"></i></span></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_crashing">Crashing</a></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_stop">Stop</a></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_direct_free_kick">Direct Free Kick</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">always</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_stop">Stop</a>, then <a href="#_direct_free_kick">Direct Free Kick</a></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="icon green"><i class="fa fa-check"></i></span></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_crashing">Crashing</a> skipped</p></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">always</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_stop">Stop</a>, then <a href="#_direct_free_kick">Direct Free Kick</a> or no command</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="icon green"><i class="fa fa-check"></i></span> (<a href="#_advantage_rule">Advantage Rule</a>)</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_crashing">Crashing</a> draw</p></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">always</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">no command</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="icon green"><i class="fa fa-check"></i></span></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_pushing">Pushing</a></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_stop">Stop</a></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_direct_free_kick">Direct Free Kick</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">always</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_stop">Stop</a>, then <a href="#_direct_free_kick">Direct Free Kick</a></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="icon green"><i class="fa fa-check"></i></span></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_pushing">Pushing</a> skipped</p></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">always</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_stop">Stop</a>, then <a href="#_direct_free_kick">Direct Free Kick</a> or no command</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="icon green"><i class="fa fa-check"></i></span> (<a href="#_advantage_rule">Advantage Rule</a>)</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_ball_holding">Ball Holding</a></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_stop">Stop</a></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_direct_free_kick">Direct Free Kick</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_resuming_the_game">ball in play</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_stop">Stop</a>, then <a href="#_direct_free_kick">Direct Free Kick</a></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="icon green"><i class="fa fa-check"></i></span></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_tipping_over_or_dropping_parts">Tipping Over Or Dropping Parts</a></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_stop">Stop</a></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_direct_free_kick">Direct Free Kick</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">always</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_stop">Stop</a>, then <a href="#_direct_free_kick">Direct Free Kick</a></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="icon red"><i class="fa fa-times"></i></span></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_robot_stop_speed">Robot Stop Speed</a></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_stop">Stop</a></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_direct_free_kick">Direct Free Kick</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">during <a href="#_stop">Stop</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_stop">Stop</a>, then <a href="#_direct_free_kick">Direct Free Kick</a></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="icon green"><i class="fa fa-check"></i></span></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_defender_too_close_to_ball">Defender Too Close To Ball</a></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_stop">Stop</a></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_direct_free_kick">Direct Free Kick</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_stopping_the_game">ball not in play</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_stop">Stop</a>, then <a href="#_direct_free_kick">Direct Free Kick</a></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="icon green"><i class="fa fa-check"></i></span></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_multiple_defenders">Multiple Defenders</a> partially</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_stop">Stop</a></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_direct_free_kick">Direct Free Kick</a>, <a href="#_yellow_card">Yellow Card</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_resuming_the_game">ball in play</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_stop">Stop</a>, then <a href="#_direct_free_kick">Direct Free Kick</a>, <a href="#_yellow_card">Yellow Card</a></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="icon green"><i class="fa fa-check"></i></span></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_multiple_defenders">Multiple Defenders</a> entirely</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_stop">Stop</a></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_penalty_kick">Penalty Kick</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_resuming_the_game">ball in play</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_stop">Stop</a>, then <a href="#_penalty_kick">Penalty Kick</a></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="icon green"><i class="fa fa-check"></i></span></p></td>
 </tr>
 </tbody>
@@ -2643,15 +2643,15 @@ Note that the information shown in this table here is incomplete. Please read th
 <thead>
 <tr>
 <th class="tableblock halign-left valign-top">Event</th>
+<th class="tableblock halign-left valign-top">Applicability</th>
 <th class="tableblock halign-left valign-top">Command</th>
-<th class="tableblock halign-left valign-top">Follow-Up Command</th>
 <th class="tableblock halign-left valign-top">AutoRef</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Unsporting Behavior</p></td>
-<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">always</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_yellow_card">Yellow Card</a>, <a href="#_red_card">Red Card</a>, <a href="#_penalty_kick">Penalty Kick</a>, <a href="#_forced_forfeit">Forced Forfeit</a> or <a href="#_disqualification">Disqualification</a></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="icon red"><i class="fa fa-times"></i></span></p></td>
 </tr>
@@ -2670,16 +2670,16 @@ Note that the information shown in this table here is incomplete. Please read th
 <thead>
 <tr>
 <th class="tableblock halign-left valign-top">Event</th>
+<th class="tableblock halign-left valign-top">Applicability</th>
 <th class="tableblock halign-left valign-top">Command</th>
-<th class="tableblock halign-left valign-top">Follow-Up Command</th>
 <th class="tableblock halign-left valign-top">AutoRef</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_robot_substitution">Robot Substitution</a> Intent</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_halt">Halt</a> (after next stoppage)</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_stop">Stop</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">always</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_halt">Halt</a> (after next stoppage), then <a href="#_stop">Stop</a></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="icon red"><i class="fa fa-times"></i></span></p></td>
 </tr>
 </tbody>
@@ -2695,7 +2695,7 @@ Note that the information shown in this table here is incomplete. Please read th
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2018-10-18 09:04:04 UTC
+Last updated 2018-10-22 09:51:57 UTC
 </div>
 </div>
 </body>
