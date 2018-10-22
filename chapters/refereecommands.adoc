@@ -176,7 +176,7 @@ The non-placing team must not <<Ball Placement Interference, interfere the ball 
 When the ball goes <<Ball In And Out Of Play, out of play>>, the following rules decide, if automatic ball placement is applied:
 
 . The <<Referee, referee>> has to place the ball for all kickoffs and all penalty kicks
-. For an <<Indirect Free Kick, indirect free kick>> or <<Direct Free Kick, direct free kick>>, the team that brings the ball into play must place the ball
+. For an <<Indirect Free Kick, indirect free kick>> or <<Direct Free Kick, direct free kick>>, the team that brings the ball <<Ball In And Out Of Play, into play>> must place the ball
 . For a <<Force Start, force start>>, a team is drawn by chance and must place the ball
 . The ball must be visible and must not be inside a field or goal corner or behind the goal, before the ball placement starts
 . The <<Referee, referee>> can decide to place the ball manually at any time
