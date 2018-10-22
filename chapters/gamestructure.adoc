@@ -129,7 +129,7 @@ If the score is even after overtime has been played, the following stages are ad
 | <<Shoot-Out>> | unlimited
 |===
 
-The match timer is paused whenever no team is allowed to manipulate the ball. This includes <<Stop, stop>>, <<Halt, halt>> and the preparation states of <<Kick-Off, kick-off>> and <<Penalty Kick, penalty kick>>. Additionally, it is paused during <<Ball Placement, ball placement>>.
+The match timer is paused whenever no team is allowed to <<Ball Manipulation, manipulate the ball>>. This includes <<Stop, stop>>, <<Halt, halt>> and the preparation states of <<Kick-Off, kick-off>> and <<Penalty Kick, penalty kick>>. Additionally, it is paused during <<Ball Placement, ball placement>>.
 
 NOTE: As a result, the time needed for a match is much greater than the playing time.
 

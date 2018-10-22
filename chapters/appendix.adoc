@@ -1,4 +1,18 @@
 [appendix]
+== Terminology
+=== Ball In And Out Of Play
+When the match is <<Stopping The Game, stopped>>, the ball is considered *out of play* until it has been brought into play.
+
+When the match is <<Resuming The Game, resumed>>, the ball is considered *in play* until the next stoppage occurs. The match is resumed when <<Force Start, force start>> has been issued or the ball moved at least 0.05 meters following a <<Kick-Off, kick-off>>, <<Direct Free Kick, direct free kick>>, <<Indirect Free Kick, indirect free kick>> or <<Penalty Kick, penalty kick>>.
+
+NOTE: see <<Double Touch, double touch>> for the rationale of the 0.05 meter distance
+
+
+=== Ball Manipulation
+Shooting and <<Dribbling Device, dribbling>> is considered as manipulating the ball, the ball accidentally bouncing off the hull is not.
+
+
+[appendix]
 == Game Event Table
 The game event table is a compilation of the different game events and their consequences. It also lists what all <<Automatic Referee>> implementations must be capable of handling.
 
@@ -16,9 +30,9 @@ Chapter <<Referee Commands>>:
 | Event | Applicability | Command | AutoRef
 
 | <<Kick-Off>> prepared | during <<Kick-Off>> | <<Normal Start>> | icon:check[role="green"]
-| No Progress | <<Resuming The Game, ball in play>> | <<Stop>>, then <<Force Start>> | icon:check[role="green"]
+| No Progress | <<Ball In And Out Of Play, ball in play>> | <<Stop>>, then <<Force Start>> | icon:check[role="green"]
 | <<Penalty Kick>> prepared | during <<Penalty Kick>> | <<Normal Start>> | icon:check[role="green"]
-| Multiple <<Yellow Card, Yellow Cards>> | <<Stopping The Game, ball not in play>> | <<Penalty Kick>> | icon:times[role="red"] (handled by the game controller)
+| Multiple <<Yellow Card, Yellow Cards>> | <<Ball In And Out Of Play, ball out of play>> | <<Penalty Kick>> | icon:times[role="red"] (handled by the game controller)
 | <<Ball Placement>> failed by team in favor | during <<Ball Placement>> | <<Stop>>, then <<Indirect Free Kick>> (div A) / previous command (div B) | icon:check[role="green"]
 | <<Ball Placement>> failed by opponent | during <<Ball Placement>> | <<Stop>> | icon:check[role="green"]
 | <<Ball Placement>> successful | during <<Ball Placement>> | continue | icon:check[role="green"]
@@ -28,30 +42,30 @@ Chapter <<Ball Leaves The Field>>:
 |===
 | Event | Applicability | Command | AutoRef
 
-| <<Throw-In>> | <<Resuming The Game, ball in play>> | <<Stop>>, then <<Indirect Free Kick>> | icon:check[role="green"]
-| <<Goal Kick>> | <<Resuming The Game, ball in play>> | <<Stop>>, then <<Direct Free Kick>> | icon:check[role="green"]
-| <<Corner Kick>> | <<Resuming The Game, ball in play>> | <<Stop>>, then <<Direct Free Kick>> | icon:check[role="green"]
+| <<Throw-In>> | <<Ball In And Out Of Play, ball in play>> | <<Stop>>, then <<Indirect Free Kick>> | icon:check[role="green"]
+| <<Goal Kick>> | <<Ball In And Out Of Play, ball in play>> | <<Stop>>, then <<Direct Free Kick>> | icon:check[role="green"]
+| <<Corner Kick>> | <<Ball In And Out Of Play, ball in play>> | <<Stop>>, then <<Direct Free Kick>> | icon:check[role="green"]
 |===
 
 Chapter <<Scoring Goals>>:
 |===
 | Event | Applicability | Command | AutoRef
 
-| Goal | <<Resuming The Game, ball in play>> | <<Stop>>, then <<Kick-Off>> | (icon:check[role="green"]) footnote:[the game controller operator has to continue the game]
-| Invalid Goal | <<Resuming The Game, ball in play>> | <<Stop>>, then <<Direct Free Kick>> | icon:check[role="green"]
+| Goal | <<Ball In And Out Of Play, ball in play>> | <<Stop>>, then <<Kick-Off>> | (icon:check[role="green"]) footnote:[the game controller operator has to continue the game]
+| Invalid Goal | <<Ball In And Out Of Play, ball in play>> | <<Stop>>, then <<Direct Free Kick>> | icon:check[role="green"]
 |===
 
 Chapter <<Offenses>>, section <<Minor Offenses>>:
 |===
 | Event | Applicability | Command | AutoRef
 
-| <<Aimless Kick [small]#(_division B only_)#, Aimless Kick>> | <<Resuming The Game, ball in play>> | <<Stop>>, then <<Indirect Free Kick>> | icon:check[role="green"]
-| <<Lack Of Progress>> | <<Resuming The Game, ball in play>> | <<Stop>>, then <<Indirect Free Kick>> | icon:check[role="green"]
-| <<Double Touch>> | <<Resuming The Game, ball in play>> | <<Stop>>, then <<Indirect Free Kick>> | icon:check[role="green"]
-| <<Attacker In Defense Area>> | <<Resuming The Game, ball in play>> | <<Stop>>, then <<Indirect Free Kick>> | icon:check[role="green"]
-| <<Attacker Touches Keeper>> | <<Resuming The Game, ball in play>> | <<Stop>>, then <<Indirect Free Kick>> | icon:check[role="green"]
-| <<Dribbling>> | <<Resuming The Game, ball in play>> | <<Stop>>, then <<Indirect Free Kick>> | icon:check[role="green"]
-| <<Ball Speed>> | <<Resuming The Game, ball in play>> | <<Stop>>, then <<Indirect Free Kick>> | icon:check[role="green"]
+| <<Aimless Kick [small]#(_division B only_)#, Aimless Kick>> | <<Ball In And Out Of Play, ball in play>> | <<Stop>>, then <<Indirect Free Kick>> | icon:check[role="green"]
+| <<Lack Of Progress>> | <<Ball In And Out Of Play, ball in play>> | <<Stop>>, then <<Indirect Free Kick>> | icon:check[role="green"]
+| <<Double Touch>> | <<Ball In And Out Of Play, ball in play>> | <<Stop>>, then <<Indirect Free Kick>> | icon:check[role="green"]
+| <<Attacker In Defense Area>> | <<Ball In And Out Of Play, ball in play>> | <<Stop>>, then <<Indirect Free Kick>> | icon:check[role="green"]
+| <<Attacker Touches Keeper>> | <<Ball In And Out Of Play, ball in play>> | <<Stop>>, then <<Indirect Free Kick>> | icon:check[role="green"]
+| <<Dribbling>> | <<Ball In And Out Of Play, ball in play>> | <<Stop>>, then <<Indirect Free Kick>> | icon:check[role="green"]
+| <<Ball Speed>> | <<Ball In And Out Of Play, ball in play>> | <<Stop>>, then <<Indirect Free Kick>> | icon:check[role="green"]
 |===
 
 
@@ -59,20 +73,20 @@ Chapter <<Offenses>>, section <<Fouls>>:
 |===
 | Event | Applicability | Command | AutoRef
 
-| Multiple <<Fouls>> | <<Stopping The Game, ball not in play>> | <<Yellow Card>> | icon:times[role="red"] (handled by the game controller)
-| <<Robot Too Close To Opponent Defense Area>> | <<Stopping The Game, ball not in play>> | <<Stop>>, then <<Direct Free Kick>> | icon:check[role="green"]
+| Multiple <<Fouls>> | <<Ball In And Out Of Play, ball out of play>> | <<Yellow Card>> | icon:times[role="red"] (handled by the game controller)
+| <<Robot Too Close To Opponent Defense Area>> | <<Ball In And Out Of Play, ball out of play>> | <<Stop>>, then <<Direct Free Kick>> | icon:check[role="green"]
 | <<Ball Placement Interference>> | during <<Ball Placement>> | <<Stop>>, then <<Direct Free Kick>> | icon:check[role="green"]
 | <<Crashing>> | always | <<Stop>>, then <<Direct Free Kick>> | icon:check[role="green"]
 | <<Crashing>> skipped | always | no command | icon:check[role="green"] (<<Advantage Rule>>)
 | <<Crashing>> draw | always | no command | icon:check[role="green"]
 | <<Pushing>> | always | <<Stop>>, then <<Direct Free Kick>> | icon:check[role="green"]
 | <<Pushing>> skipped | always | no command | icon:check[role="green"] (<<Advantage Rule>>)
-| <<Ball Holding>> | <<Resuming The Game, ball in play>> | <<Stop>>, then <<Direct Free Kick>> | icon:check[role="green"]
+| <<Ball Holding>> | <<Ball In And Out Of Play, ball in play>> | <<Stop>>, then <<Direct Free Kick>> | icon:check[role="green"]
 | <<Tipping Over Or Dropping Parts>> | always | <<Stop>>, then <<Direct Free Kick>> | icon:times[role="red"]
 | <<Robot Stop Speed>> | during <<Stop>> | <<Stop>>, then <<Direct Free Kick>> | icon:check[role="green"]
-| <<Defender Too Close To Ball>> | <<Stopping The Game, ball not in play>> | <<Stop>>, then <<Direct Free Kick>> | icon:check[role="green"]
-| <<Multiple Defenders>> partially | <<Resuming The Game, ball in play>> | <<Stop>>, then <<Direct Free Kick>>, <<Yellow Card>> | icon:check[role="green"]
-| <<Multiple Defenders>> entirely | <<Resuming The Game, ball in play>> | <<Stop>>, then <<Penalty Kick>> | icon:check[role="green"]
+| <<Defender Too Close To Ball>> | <<Ball In And Out Of Play, ball out of play>> | <<Stop>>, then <<Direct Free Kick>> | icon:check[role="green"]
+| <<Multiple Defenders>> partially | <<Ball In And Out Of Play, ball in play>> | <<Stop>>, then <<Direct Free Kick>>, <<Yellow Card>> | icon:check[role="green"]
+| <<Multiple Defenders>> entirely | <<Ball In And Out Of Play, ball in play>> | <<Stop>>, then <<Penalty Kick>> | icon:check[role="green"]
 |===
 
 Chapter <<Offenses>>, section <<Unsporting Behavior>>:
@@ -89,3 +103,4 @@ Chapter <<Robot Substitution>>:
 
 | <<Robot Substitution>> Intent | always | <<Halt>> (after next stoppage), then <<Stop>> | icon:times[role="red"]
 |===
+
