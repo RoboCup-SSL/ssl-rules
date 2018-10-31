@@ -68,6 +68,8 @@ The ball is a standard orange golf ball. It weights approximately 0.046 kilogram
 For official matches, the <<Organizing Committee, organizing committee>> provides the ball.
 
 === Shared Software
+The shared software used in the Small Size League is maintained by the <<Technical Committee, technical committee>>, though everyone is encouraged to contribute. The <<Technical Committee, technical committee>> members however guarantee that any changes made less than three months before the next RoboCup do not break compatibility.
+
 ==== Vision
 Each field is provided with a shared central vision server and a set of shared cameras. This shared vision equipment uses the community-maintained SSL-Vision software (https://github.com/RoboCup-SSL/ssl-vision) to provide localization data to teams via Ethernet in a packet format that is to be announced by the shared vision system developers before the competition. Teams need to ensure that their systems are compatible with the shared vision system output and that their systems are able to handle the typical properties of real-world sensory data as provided by the shared vision system (including noise, latency, or occasional failed detections and misclassifications). The vision patterns on the top of the robots must adhere to the specifications of SSL-Vision, and must be of the standard color paper as specified in the SSL-Vision documentation.
 
