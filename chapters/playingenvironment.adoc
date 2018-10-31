@@ -9,7 +9,7 @@ The field of play must be rectangular and of the following size:
 
 The exact field dimensions and the field markings at the venue may vary by up to ±10% in each linear dimension.
 
-The two figures below show the dimensions of the field, the goals and special field areas, measured in millimeters. Figure 1 shows the dimensions for division A and figure 2 for division B.
+The two figures below show the dimensions of the field, the goals and special field areas, measured in millimeters.  <<field-dimensions-a, Figure 1>> shows the dimensions for division A and  <<field-dimensions-b, figure 2>> for division B.
 
 
 [[field-dimensions-a]]
@@ -52,11 +52,13 @@ NOTE: The penaly mark does not need to be painted since it coincides with the in
 ==== Goals
 Goals must be placed on the center of each goal line and anchored securely to the field surface. They consist of two 0.16 meters high vertical side walls joined at the back by a 0.16 meters high vertical rear wall. The inner face of the goal has to be covered with an energy absorbing material such as foam to help absorb ball impacts and lessen the speed of deflections. The goal walls, edges, and tops are white in color.
 
-The distance between the side walls is 1.2 meters for division A and 1 meter for division B, and the goal is 0.18 meters deep. The goal walls are 0.02 meters thick and touch the goal line, but do not overlap or encroach on the field lines or the field. Figure 3 and Figure 4 show these details for division A and division B respectively.
+The distance between the side walls is 1.2 meters for division A and 1 meter for division B, and the goal is 0.18 meters deep. The goal walls are 0.02 meters thick and touch the goal line, but do not overlap or encroach on the field lines or the field. <<goal-detail-a, Figure 3>> and <<goal-detail-b, figure 4>> show these details for division A and division B respectively.
 
+[[goal-detail-a]]
 .The goal in detail for division A
 image::goal_detail_divisionA.png[width=400]
 
+[[goal-detail-b]]
 .The goal in detail for division B
 image::goal_detail_divisionB.png[width=400]
 

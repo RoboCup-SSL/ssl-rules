@@ -33,13 +33,14 @@ To ensure compatibility with the standardized patterns for the shared vision sys
 .Standard Vision Pattern Dimensions
 image::standard_pattern2010.png[]
 
-Every robot must have one of the 16 patterns shown in figure 6. No two robots are allowed to use the same pattern.
+Every robot must have one of the 16 patterns shown in <<standard-vision-colors, figure 6>>. No two robots are allowed to use the same pattern.
 
 The center dot color determines the team and is either blue or yellow (see <<Choosing Team Colors>>). The other four dot colors encode the id of the robot. To ensure that every team uses the same colors, the <<Organizing Committee, organizing committee>> provides enough colored paper at the competition.
 
 NOTE: Teams are encouraged to prefer color assignments with ids 0 to 7 because they have been experimentally found more stable, as there is no risk that the back two dots “color-bleed” into each other.
 
 .Standard Vision Pattern Colors
+[[standard-vision-colors]]
 image::standard_colors2010.png[width=500]
 
 ==== Radio Communication
