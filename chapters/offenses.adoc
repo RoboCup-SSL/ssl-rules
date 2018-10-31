@@ -131,7 +131,7 @@ If the game is <<Stop, stopped>> and a team is allowed to <<Resuming The Game, r
 
 If a team exploits this rule, the referee may punish this team for <<Unsporting Behavior,unsporting behavior>> by issuing a <<Yellow Card, yellow card>>.
 
-NOTE: This rule is in place to prevent teams from purposely committing offenses in order to relocate the opponent <<Direct Free Kick, free kick>> to a more favorable position.
+NOTE: This rule is in place to prevent teams from purposely committing offenses in order to relocate the opponent <<Direct Free Kick, direct free kick>> or <<Indirect Free Kick, indirect free kick>> to a more favorable position.
 
 === Advantage Rule
 In certain situations, stopping the game because of a foul may have a disadvantage to the opposing team.
