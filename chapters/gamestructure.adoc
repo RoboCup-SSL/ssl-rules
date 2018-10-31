@@ -16,7 +16,7 @@ Each match is controlled by the referee. He has full authority to enforce the ru
 
 The referee is assisted by the <<Automatic Referee, automatic referee>> software. The human referee is allowed to override any decision made by the automatic referee software.
 
-The decisions of the referee regarding facts connected with play are final. The referee may only change a decision on realising that it is incorrect or, at his discretion, on the
+The decisions of the referee regarding facts connected with play are final. The referee may only change a decision on realizing that it is incorrect or, at his discretion, on the
 advice of an assistant referee, provided that he has not restarted play.
 
 The referee is not held liable for any kind of injury suffered by an official or spectator, any damage to property of any kind nor any other loss suffered by an individual, club, company, association, or other body.
