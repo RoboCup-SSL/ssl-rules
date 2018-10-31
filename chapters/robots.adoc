@@ -6,7 +6,7 @@ A match is played by two teams, with each team consisting of not more than 8 rob
 === Hardware And Software Constraints
 The <<Referee, referee>> may force a team to remove a robot from the field if it does not satisfy the rules. Members of the <<Technical Committee, technical committee>> may also check the hardware and software constraints of robots at any point of the tournament.
 
-If a team is not able to provide at least one robot that satisfies the rules, the team may be <<Forced Forfeit, forced to forfeit>>.
+If a team is not able to provide at least one robot that satisfies the rules, the team is <<Forced Forfeit, forced to forfeit>>.
 
 ==== Safety
 A robot must not pose danger to itself, another robot, or humans. It must not <<Damaging The Field Or The Ball, damage or modify the ball or the field>>.
