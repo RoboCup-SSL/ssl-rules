@@ -5,7 +5,7 @@
 <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="generator" content="Asciidoctor 1.5.7.1">
-<meta name="author" content="2018-10-22">
+<meta name="author" content="2018-10-31">
 <title>Rules of the RoboCup Small Size League 2019</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
 <style>
@@ -435,7 +435,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div id="header">
 <h1>Rules of the RoboCup Small Size League 2019</h1>
 <div class="details">
-<span id="author" class="author">2018-10-22</span><br>
+<span id="author" class="author">2018-10-31</span><br>
 </div>
 <div id="toc" class="toc">
 <div id="toctitle">Table of Contents</div>
@@ -617,13 +617,13 @@ Divisions allow for more radical advancements in the Small Size League without d
 <div class="paragraph">
 <p>The two figures below show the dimensions of the field, the goals and special field areas, measured in millimeters. Figure 1 shows the dimensions for division A and figure 2 for division B.</p>
 </div>
-<div class="imageblock">
+<div id="field-dimensions-a" class="imageblock">
 <div class="content">
 <img src="images/quad-size-field.png" alt="quad size field">
 </div>
 <div class="title">Figure 1. Field dimensions and markings for division A</div>
 </div>
-<div class="imageblock">
+<div id="field-dimensions-b" class="imageblock">
 <div class="content">
 <img src="images/double-size-field.png" alt="double size field">
 </div>
@@ -668,7 +668,7 @@ Divisions allow for more radical advancements in the Small Size League without d
 <div class="sect4">
 <h5 id="_defense_area">Defense Area</h5>
 <div class="paragraph">
-<p>A defense area is defined at each end of the field as a rectangle of 2.4 meters times 1.2 meters for division A and 2 meters times 1 meter for division B.</p>
+<p>A defense area is defined as a rectangle touching the goal lines centrally in front of both <a href="#_goals">goals</a>. The size of the defense area is 2.4 meters times 1.2 meters for division A and 2 meters times 1 meter for division B, as shown in figures <a href="#field-dimensions-a">1</a> and <a href="#field-dimensions-b">2</a> respectively.</p>
 </div>
 </div>
 <div class="sect4">
@@ -729,7 +729,7 @@ The penaly mark does not need to be painted since it coincides with the intersec
 <p>Each field is provided with a shared central vision server and a set of shared cameras. This shared vision equipment uses the community-maintained SSL-Vision software (<a href="https://github.com/RoboCup-SSL/ssl-vision" class="bare">https://github.com/RoboCup-SSL/ssl-vision</a>) to provide localization data to teams via Ethernet in a packet format that is to be announced by the shared vision system developers before the competition. Teams need to ensure that their systems are compatible with the shared vision system output and that their systems are able to handle the typical properties of real-world sensory data as provided by the shared vision system (including noise, latency, or occasional failed detections and misclassifications). The vision patterns on the top of the robots must adhere to the specifications of SSL-Vision, and must be of the standard color paper as specified in the SSL-Vision documentation.</p>
 </div>
 <div class="paragraph">
-<p>Besides the shared vision equipment, teams are not allowed to mount their own cameras or other external sensors, unless specifically announced or permitted by the respective competition organisers.</p>
+<p>Besides the shared vision equipment, teams are not allowed to mount their own cameras or other external sensors, unless specifically announced or permitted by the respective competition organizers.</p>
 </div>
 </div>
 <div class="sect3">
@@ -767,7 +767,7 @@ At least one automatic referee is required per game. If more than one automatic 
 <div class="sect2">
 <h3 id="_number_of_robots">3.1. Number Of Robots</h3>
 <div class="paragraph">
-<p>A match is played by two teams, each consisting of not more than 8 robots in division A and 6 robots in division B, one of which may be the keeper. Each robot must be clearly numbered according to its vision pattern so that the referee can identify it during the match. The keeper must be designated before the match starts (see <a href="#_choosing_keeper_id">Choosing Keeper Id</a>).</p>
+<p>A match is played by two teams, with each team consisting of not more than 8 robots in division A and 6 robots in division B, one of which may be the keeper. Each robot must be clearly numbered according to its vision pattern so that the referee can identify it during the match. The id of the keeper must be chosen before the match starts (see <a href="#_choosing_keeper_id">Choosing Keeper Id</a>).</p>
 </div>
 </div>
 <div class="sect2">
@@ -863,7 +863,7 @@ Teams are encouraged to prefer color assignments with ids 0 to 7 because they ha
 <p>Participants using wireless communications must notify the <a href="#_organizing_committee">organizing committee</a> of the method of wireless communication, power, and frequency. The <a href="#_organizing_committee">organizing committee</a> must be notified of any change after registration as soon as possible. In order to avoid interference, a team should be able to select from two carrier frequencies before the match. The type of wireless communication has to follow legal regulations of the country where the competition is held. Compliance with local laws is the responsibility of the competing teams, not the RoboCup Federation.</p>
 </div>
 <div class="paragraph">
-<p>The type of wireless communication may also be restricted by the <a href="#_local_organizing_committee">local organizing committee</a>. The local organising committee will announce any restrictions to the community as early as possible.</p>
+<p>The type of wireless communication may also be restricted by the <a href="#_local_organizing_committee">local organizing committee</a>. The local organizing committee will announce any restrictions to the community as early as possible.</p>
 </div>
 <div class="admonitionblock note">
 <table>
@@ -926,7 +926,7 @@ Bluetooth is not allowed since it cannot be fixed to frequency channels.
 <p>The referee is assisted by the <a href="#_automatic_referee">automatic referee</a> software. The human referee is allowed to override any decision made by the automatic referee software.</p>
 </div>
 <div class="paragraph">
-<p>The decisions of the referee regarding facts connected with play are final. The referee may only change a decision on realising that it is incorrect or, at his discretion, on the
+<p>The decisions of the referee regarding facts connected with play are final. The referee may only change a decision on realizing that it is incorrect or, at his discretion, on the
 advice of an assistant referee, provided that he has not restarted play.</p>
 </div>
 <div class="paragraph">
@@ -1100,6 +1100,18 @@ While obtaining the game result sheet, the referee can also take an official <a 
 <h4 id="_choosing_keeper_id">4.3.5. Choosing Keeper Id</h4>
 <div class="paragraph">
 <p>The <a href="#_referee">referee</a> asks both <a href="#_robot_handler">robot handlers</a> which robot they will use as the keeper and forwards this information to the <a href="#_game_controller_operator">game controller operator</a>.</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+If a team does not want to use a keeper, it may select the id of a robot that is not on the field.
+</td>
+</tr>
+</table>
 </div>
 </div>
 </div>
@@ -1444,7 +1456,7 @@ In association football, it is sufficient if any player (including the keeper) t
 <p>If the yellow card is shown as a result of <a href="#_unsporting_behavior">unsporting behavior</a>, the referee may decide to immediately <a href="#_halt">halt</a> the match. In this case, the match continues with a direct free kick for the other team.</p>
 </div>
 <div class="paragraph">
-<p>Upon receipt of a yellow card, the number of robots allowed on the field for the penalised team decreases by one. If, after this decrease, the team has more robots than permitted on the field, a robot must be <a href="#_robot_substitution">taken out</a> before <a href="#_resuming_the_game">play resumes</a>. The penalized team can choose the robot to remove.</p>
+<p>Upon receipt of a yellow card, the number of robots allowed on the field for the penalized team decreases by one. If, after this decrease, the team has more robots than permitted on the field, a robot must be <a href="#_robot_substitution">taken out</a> before <a href="#_resuming_the_game">play resumes</a>. The penalized team can choose the robot to remove.</p>
 </div>
 <div class="paragraph">
 <p>After 120 seconds of playing time (measured by the game controller), the yellow card expires and the number of allowed robots is increased by one. The team may <a href="#_robot_substitution">put a robot back in</a> during the next opportunity.</p>
@@ -1477,7 +1489,7 @@ In association football, it is sufficient if any player (including the keeper) t
 <i class="fa icon-note" title="Note"></i>
 </td>
 <td class="content">
-For example, serious violent contact by the robots or disrespectful behaviour towards the referees can result in a red card.
+For example, serious violent contact by the robots or disrespectful behavior towards the referees can result in a red card.
 </td>
 </tr>
 </table>
@@ -2178,7 +2190,7 @@ If the referee is not sure which sanction to choose, he may confer with members 
 <i class="fa icon-note" title="Note"></i>
 </td>
 <td class="content">
-This rule is in place to prevent teams from purposely committing offenses in order to relocate the opponent <a href="#_direct_free_kick">free kick</a> to a more favorable position.
+This rule is in place to prevent teams from purposely committing offenses in order to relocate the opponent <a href="#_direct_free_kick">direct free kick</a> or <a href="#_indirect_free_kick">indirect free kick</a> to a more favorable position.
 </td>
 </tr>
 </table>
@@ -2727,7 +2739,7 @@ Note that the information shown in this table here is incomplete. Please read th
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2018-10-22 19:20:27 UTC
+Last updated 2018-10-31 11:02:34 UTC
 </div>
 </div>
 </body>
