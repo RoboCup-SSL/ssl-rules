@@ -84,7 +84,7 @@ A robot violating this rule has to be <<Robot Substitution, substituted>>.
 NOTE: Metal parts (screws for example) as well as larger parts generally pose a potential threat, very small non-metal parts (for example rubber subwheel rings) don't.
 
 ==== Robot Stop Speed
-A robot must not move faster than 1.5 meters per second during <<Stop, stop>>.
+A robot must not move faster than 1.5 meters per second during <<Stop, stop>>. A violation of this rule is only counted once per robot and stoppage.
 
 There is a grace period of 2 seconds for the robots to slow down.
 
