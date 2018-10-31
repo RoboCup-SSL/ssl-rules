@@ -11,9 +11,12 @@ The exact field dimensions and the field markings at the venue may vary by up to
 
 The two figures below show the dimensions of the field, the goals and special field areas, measured in millimeters. Figure 1 shows the dimensions for division A and figure 2 for division B.
 
+
+[[field-dimensions-a]]
 .Field dimensions and markings for division A
 image::quad-size-field.png[]
 
+[[field-dimensions-b]]
 .Field dimensions and markings for division B
 image::double-size-field.png[]
 
@@ -38,7 +41,8 @@ A mid-line runs along the length of the field, passing through the center of the
 The center mark is indicated at the midpoint of the halfway line. A circle with a diameter of 1 meter is marked around it for both divisions.
 
 ===== Defense Area
-A defense area is defined at each end of the field as a rectangle of 2.4 meters times 1.2 meters for division A and 2 meters times 1 meter for division B.
+A defense area is defined as a rectangle touching the goal lines centrally in front of both <<Goals, goals>>. The size of the defense area is 2.4 meters times 1.2 meters for division A and 2 meters times 1 meter for division B, as shown in figures <<field-dimensions-a, 1>> and <<field-dimensions-b, 2>> respectively.
+
 
 ===== Penalty Mark
 For each field half the penalty mark is 1.2 meters for division A and 1 meter for division B, from the midpoint between the goalposts and equidistant to them, thus coinciding with the outer edge of the defense area.
