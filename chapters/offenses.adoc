@@ -43,7 +43,7 @@ A robot must not <<Dribbling Device, dribble>> the ball further than 1 meter, me
 NOTE: Dribblers can still be used to dribble large distances with the ball as long as the robot periodically loses possession, such as kicking the ball ahead of it as human soccer players often do.
 
 ==== Ball Speed
-A robot must not shoot the ball faster than 6.5 meters per second in 3D space.
+A robot must not accelerate the ball faster than 6.5 meters per second in 3D space.
 
 === Fouls
 Fouls are violations of the rules that result in a <<Direct Free Kick, direct free kick>> for the opposing team. The free kick will be shot from the position where the offense began happening (see <<Direct Free Kick, the direct free kick rules>> for the exact ball position rules). If the foul happened while the ball is <<Ball In And Out Of Play, out of play>>, no free kick is given.
