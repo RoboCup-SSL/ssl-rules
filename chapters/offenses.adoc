@@ -101,9 +101,9 @@ NOTE: During <<Stop, stop>>, there is no automatic sanction for being too close 
 ==== Multiple Defenders
 NOTE: This rule does not use the standard sanctions defined for <<Fouls, fouls>>.
 
-If a robot touches the ball while being partially inside its own defense area, the game is stopped, the robot receives a <<Yellow Card, yellow card>> and the opponent team resumes the game with a <<Direct Free Kick, direct free kick>>. The foul counter is not increased.
+If a robot other than the keeper touches the ball while being partially inside its own defense area, the game is stopped, the robot receives a <<Yellow Card, yellow card>> and the opponent team resumes the game with a <<Direct Free Kick, direct free kick>>. The foul counter is not increased.
 
-If a robot touches the ball while being entirely inside its own defense area, the game is stopped and a <<Penalty Kick, penalty kick>> is awarded to the other team. The foul counter is not increased.
+If a robot other than the keeper touches the ball while being entirely inside its own defense area, the game is stopped and a <<Penalty Kick, penalty kick>> is awarded to the other team. The foul counter is not increased.
 
 
 === Unsporting Behavior
