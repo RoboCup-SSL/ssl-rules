@@ -22,7 +22,7 @@ Dribbling devices that actively exert spin on the ball, which keep the ball in c
 * The dribbling device must not elevate the ball from the ground
 * Another robot must be able to remove the ball from a robot with the ball.
 * A robot must not take full control of the ball by removing all of its degrees of freedom.
-* 80% of the area of the ball when viewed from above should be outside the convex hull around the robot. This limitation applies as well to all kicking devices, even if such infringement is momentary.
+* 80% of the area of the ball when viewed from above has to be outside the convex hull around the robot. This limitation applies as well to all kicking devices, even if such infringement is momentary.
 
 ==== Vision Pattern
 All participating teams must adhere to the given operating requirements of the <<Vision, shared vision system>>. In particular, teams are required to use a certain set of standardized colors and patterns on top of their robots.
@@ -44,7 +44,7 @@ NOTE: Teams are encouraged to prefer color assignments with ids 0 to 7 because t
 image::standard_colors2010.png[width=500]
 
 ==== Radio Communication
-Participants using wireless communications must notify the <<Organizing Committee, organizing committee>> of the method of wireless communication, power, and frequency. The <<Organizing Committee, organizing committee>> must be notified of any change after registration as soon as possible. In order to avoid interference, a team should be able to select from two carrier frequencies before the match. The type of wireless communication has to follow legal regulations of the country where the competition is held. Compliance with local laws is the responsibility of the competing teams, not the RoboCup Federation.
+Participants using wireless communications must notify the <<Organizing Committee, organizing committee>> of the method of wireless communication, power, and frequency. The <<Organizing Committee, organizing committee>> must be notified of any change after registration as soon as possible. In order to avoid interference, a team must be able to select from two carrier frequencies before the match. The type of wireless communication has to follow legal regulations of the country where the competition is held. Compliance with local laws is the responsibility of the competing teams, not the RoboCup Federation.
 
 The type of wireless communication may also be restricted by the <<Local Organizing Committee, local organizing committee>>. The local organizing committee will announce any restrictions to the community as early as possible.
 
