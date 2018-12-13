@@ -31,7 +31,7 @@ In division A, the ball will be placed automatically by the robots if the follow
 
 ==== Normal Start
 .Definition
-For multi-stage referee commands, when normal start is sent, an attacker may <<Ball Manipulation, manipulate the ball>>. A match cannot be resumed directly via normal start.
+For two-staged referee commands, when normal start is sent, an attacker may <<Ball Manipulation, manipulate the ball>>. A match cannot be resumed directly via normal start.
 
 .Usage
 Normal start is used for <<Kick-Off, kick-offs>>, <<Penalty Kick, penalty kicks>> and <<Shoot-Out, shoot-out>>.
