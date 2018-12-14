@@ -104,3 +104,13 @@ Chapter <<Robot Substitution>>:
 | <<Robot Substitution>> Intent | always | <<Halt>> (after next stoppage), then <<Stop>> | icon:times[role="red"]
 |===
 
+[appendix]
+== Differences Between Divisions
+
+This is a complete list of differences between <<Divisions, division>> A and <<Divisions, division>> B.
+
+* Division A plays on a <<Dimensions, larger field>> with <<Goals, larger goals>> than division B. As a result, the <<Shoot-Out, shoot-out>> is taken from a greater distance as well.
+* Division A plays with <<Number Of Robots, more robots>> than division B.
+* The automatic <<Ball Placement, ball placement>> procedure is mandatory for division A and optional for division B.
+* The <<Aimless Kick [small]#(_division B only_)#, aimless kick>> rule only applies to division B.
+* There is a smaller time window in division A for taking a free kick before <<Lack Of Progress, lack of progress>> is called.
