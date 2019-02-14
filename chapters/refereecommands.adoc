@@ -166,7 +166,7 @@ A ball is considered placed successfully by the robots if
 * the ball is at a position within 0.15 meters radius from the requested position
 
 No further commands will be issued by the <<Game Controller, game controller>> until the automatic placement is complete.
-The game will be continued by the <<Game Controller, game controller>> as soon as the ball is successfully placed.
+The game will be continued by the <<Game Controller, game controller>> as soon as the ball is successfully placed, but not earlier than 2 seconds after the ball placement command has been issued.
 A failed placement will result in an indirect free kick for the opposing team.
 If this team failed to place the ball as well, the ball is placed by the <<Referee, referee>> and game continues with the original command.
 
@@ -181,8 +181,10 @@ When the ball goes <<Ball In And Out Of Play, out of play>>, the following rules
 . The ball must be visible and must not be inside a field or goal corner or behind the goal, before the ball placement starts
 . The <<Referee, referee>> can decide to place the ball manually at any time
 . The <<Referee, referee>> can decide to disable automatic ball placement for the rest of the game. TC/OC must agree with this decision
-. When a team has failed to place the ball five times in a row, it is not allowed to place the ball for the rest of the game half. All free kicks that were a result of the ball leaving the field, are awarded to the opposing team. For all other rule violations or when both teams failed to place the ball, the ball is placed by the <<Referee, referee>>
+. When a team has failed to place the ball 5 times in a row, it is not allowed to place the ball for the rest of the game half. All free kicks that were a result of the ball leaving the field, are awarded to the opposing team. For all other rule violations or when both teams failed to place the ball, the ball is placed by the <<Referee, referee>>
 . If no team can place the ball, the ball is placed by the <<Referee, referee>>
+
+NOTE: If the ball is already at the placement position (for example after a failed free kick by the other team), the ball placement can be successful without a robot manipulating the ball. This could lead to the counter for failed attempts resetting without a contribution by the placing team.
 
 NOTE: The ball may still be moving when the placement command is issued.
 
