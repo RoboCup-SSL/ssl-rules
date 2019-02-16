@@ -17,7 +17,7 @@
    version="1.1"
    inkscape:version="0.92.3 (2405546, 2018-03-11)"
    sodipodi:docname="octa-size-field.svg"
-   inkscape:export-filename="/Users/masa-ito/Dropbox/aichi-pu2/robocup/robocup18/ssl-rules/img/quad-size-field.png"
+   inkscape:export-filename="/home/christian/Projects/Robotics/League/ssl-rules/images/octa-size-field.png"
    inkscape:export-xdpi="11.415141"
    inkscape:export-ydpi="11.415141">
   <defs
@@ -113,8 +113,8 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.049706039"
-     inkscape:cx="10162.806"
-     inkscape:cy="5829.2093"
+     inkscape:cx="12437.227"
+     inkscape:cy="8553.5932"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -137,7 +137,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -208,12 +208,12 @@
        inkscape:connector-curvature="0" />
     <path
        style="fill:none;stroke:#000000;stroke-width:19.96702766;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow2Lstart);marker-end:url(#Arrow2Lend)"
-       d="M 97.711065,1019.4049 V -12314.68"
+       d="M 97.71131,1019.4049 V -12314.68"
        id="path4452-4"
        inkscape:connector-curvature="0" />
     <path
        style="fill:none;stroke:#000000;stroke-width:21.2852478;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow2Lstart);marker-end:url(#Arrow2Lend)"
-       d="M 36.129576,-9029.3364 H 19362.478"
+       d="M 36.129576,-12049.336 H 19362.478"
        id="path4452-5-5"
        inkscape:connector-curvature="0" />
     <path
@@ -280,8 +280,8 @@
          style="fill:#806600;fill-opacity:1;stroke:none" />
     </g>
     <path
-       style="fill:none;stroke:#000000;stroke-width:10.9244709;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow2Mstart);marker-end:url(#Arrow2Mend)"
-       d="m 554.42074,-6246.1281 v 1166.0605"
+       style="fill:none;stroke:#000000;stroke-width:12.13682652;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow2Mstart);marker-end:url(#Arrow2Mend)"
+       d="m 554.42074,-6372.7139 v 1439.2313"
        id="path4452-2-9"
        inkscape:connector-curvature="0" />
     <path
@@ -297,35 +297,35 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;line-height:0%;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-       x="3714.3977"
-       y="-9102.3477"
+       x="9284.3975"
+       y="-12102.348"
        id="text8102"><tspan
          sodipodi:role="line"
-         x="3714.3977"
-         y="-9102.3477"
+         x="9284.3975"
+         y="-12102.348"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:250px;line-height:1.25;font-family:Verdana;-inkscape-font-specification:Verdana"
          id="tspan8106">19400</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;line-height:0%;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-       x="4205.9062"
-       y="329.00391"
+       x="5305.9067"
+       y="328.94232"
        id="text8110"
        transform="rotate(-90)"><tspan
          sodipodi:role="line"
          id="tspan8112"
-         x="4205.9062"
-         y="329.00391"
+         x="5305.9067"
+         y="328.94232"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:250px;line-height:1.25;font-family:Verdana;-inkscape-font-specification:Verdana">13400</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:Verdana;-inkscape-font-specification:Verdana;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
        x="4385.1562"
-       y="-7751.8691"
+       y="-8051.8696"
        id="text8114"><tspan
          sodipodi:role="line"
          x="4385.1562"
-         y="-7751.8691"
+         y="-8051.8696"
          id="tspan8118"
          style="font-size:250px;line-height:1.25">18000</tspan></text>
     <text
