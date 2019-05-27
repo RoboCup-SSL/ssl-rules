@@ -178,7 +178,7 @@ When the ball goes <<Ball In And Out Of Play, out of play>>, the following rules
 . The <<Referee, referee>> has to place the ball for all kickoffs and all penalty kicks
 . For an <<Indirect Free Kick, indirect free kick>> or <<Direct Free Kick, direct free kick>>, the team that brings the ball <<Ball In And Out Of Play, into play>> must place the ball
 . For a <<Force Start, force start>>, a team is drawn by chance and must place the ball
-. The ball must be visible and must not be inside a field or goal corner or behind the goal, before the ball placement starts
+. The ball must be visible and must not be inside a field corner, a goal corner or behind the goal, before the ball placement starts
 . The <<Referee, referee>> can decide to place the ball manually at any time
 . The <<Referee, referee>> can decide to disable automatic ball placement for the rest of the game. TC/OC must agree with this decision
 . When a team has failed to place the ball 5 times in a row, it is not allowed to place the ball for the rest of the game half. All free kicks that were a result of the ball leaving the field, are awarded to the opposing team. For all other rule violations or when both teams failed to place the ball, the ball is placed by the <<Referee, referee>>
@@ -208,7 +208,7 @@ The procedure of a shoot-out attempt is as follows:
 
 A goal is awarded if:
 
-* the ball enters the goal of the defending team in less than 10 seconds, starting from when the <<Penalty Kick, penalty>> command is issued
+* the ball enters the goal of the defending team in less than 10 seconds, starting from when the <<Normal Start, normal start>> command is issued
 * the defending team violates any rule
 
 A goal is not awarded if:
