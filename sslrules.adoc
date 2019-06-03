@@ -34,4 +34,6 @@ include::chapters/offenses.adoc[]
 
 include::chapters/substitution.adoc[]
 
+include::chapters/shootout.adoc[]
+
 include::chapters/appendix.adoc[]
