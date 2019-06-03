@@ -475,9 +475,9 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#_referee_commands">5. Referee Commands</a>
 <ul class="sectlevel2">
 <li><a href="#_stopping_the_game">5.1. Stopping The Game</a></li>
-<li><a href="#_resuming_the_game">5.2. Resuming The Game</a></li>
-<li><a href="#_sanctions">5.3. Sanctions</a></li>
-<li><a href="#_special_commands">5.4. Special Commands</a></li>
+<li><a href="#_ball_placement">5.2. Ball Placement</a></li>
+<li><a href="#_resuming_the_game">5.3. Resuming The Game</a></li>
+<li><a href="#_sanctions">5.4. Sanctions</a></li>
 </ul>
 </li>
 <li><a href="#_ball_leaves_the_field">6. Ball Leaves The Field</a>
@@ -497,6 +497,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </ul>
 </li>
 <li><a href="#_robot_substitution">9. Robot Substitution</a></li>
+<li><a href="#_shoot_out">10. Shoot-Out</a></li>
 <li><a href="#_terminology">Appendix A: Terminology</a>
 <ul class="sectlevel2">
 <li><a href="#_ball_in_and_out_of_play">A.1. Ball In And Out Of Play</a></li>
@@ -1340,227 +1341,7 @@ also used to recalibrate the vision software during a game if the vision expert 
 </div>
 </div>
 <div class="sect2">
-<h3 id="_resuming_the_game">5.2. Resuming The Game</h3>
-<div class="paragraph">
-<p>To resume the game after a stoppage or start the game in the first place, the ball has to be placed at a certain position on the field first. The main referee or assistant referee is advised to use a so-called ball handler (a long, preferably black stick-like device) to move the ball.</p>
-</div>
-<div class="paragraph">
-<p>In division A, the ball will be placed automatically by the robots if the following command is a free kick or force start (see <a href="#_ball_placement">Ball Placement</a>).</p>
-</div>
-<div class="sect3">
-<h4 id="_normal_start">5.2.1. Normal Start</h4>
-<div class="paragraph">
-<div class="title">Definition</div>
-<p>For two-staged referee commands, when normal start is sent, an attacker may <a href="#_ball_manipulation">manipulate the ball</a>. A match cannot be resumed directly via normal start.</p>
-</div>
-<div class="paragraph">
-<div class="title">Usage</div>
-<p>Normal start is used for <a href="#_kick_off">kick-offs</a>, <a href="#_penalty_kick">penalty kicks</a> and <a href="#_shoot_out">shoot-out</a>.</p>
-</div>
-</div>
-<div class="sect3">
-<h4 id="_kick_off">5.2.2. Kick-Off</h4>
-<div class="paragraph">
-<div class="title">Definition</div>
-<p>The ball has to be placed in the center of the field by the human referee.</p>
-</div>
-<div class="paragraph">
-<p>When the kick-off command is issued, all robots have to move to their own half of the field excluding the <a href="#_center_circle">center circle</a>. However, one robot of the attacking team is also allowed to be inside the whole center circle. This robot will be referred to as the kicker. No robot is allowed to touch the ball.</p>
-</div>
-<div class="paragraph">
-<p>When the <a href="#_normal_start">normal start</a> command is issued, the kicker is allowed to shoot the ball. A goal may be scored directly from the kick-off.</p>
-</div>
-<div class="paragraph">
-<p>When the ball is <a href="#_ball_in_and_out_of_play">in play</a>, the kicker may not touch the ball until it has been touched by another robot or the game has been stopped (see <a href="#_double_touch">double touch</a>). Also, the restrictions regarding the robot positions are lifted.</p>
-</div>
-<div class="paragraph">
-<div class="title">Usage</div>
-<p>Both half times as well as both overtime periods (if needed) start with a kick-off. Chapter <a href="#_match_preparation">Match Preparation</a> describes how to determine the attacking team.</p>
-</div>
-<div class="paragraph">
-<p>Additionally, after a goal has been scored, the receiving team restarts the game with a kick-off.</p>
-</div>
-</div>
-<div class="sect3">
-<h4 id="_direct_free_kick">5.2.3. Direct Free Kick</h4>
-<div class="paragraph">
-<div class="title">Definition</div>
-<p>The ball placement position for a free kick depends on the event that led to the free kick. This position is valid if there is at least 0.2 meters distance to all <a href="#_field_lines">field lines</a> and 1 meter distance to either <a href="#_defense_area">defense area</a>. If an event requires the ball to be placed at a position that contravenes this rule, it has to be placed at the closest valid position instead.</p>
-</div>
-<div class="paragraph">
-<p>When the direct free kick command is issued, robots of the attacking team are allowed to approach the ball while robots of the defending team still have to stay at least 0.5 meters distance away from the ball (the same distance as in stop). One robot of the attacking team is allowed to shoot the ball. This robot will be referred to as the kicker. A goal may be scored directly from the direct free kick.</p>
-</div>
-<div class="paragraph">
-<p>When the ball is <a href="#_ball_in_and_out_of_play">in play</a>, the kicker may not touch the ball until it has been touched by another robot or the game has been stopped (see <a href="#_double_touch">double touch</a>). Also, the restrictions regarding the robot positions are lifted.</p>
-</div>
-<div class="paragraph">
-<div class="title">Usage</div>
-<p>Direct free kicks are used to restart the game after a <a href="#_fouls">foul</a> has occured. Additionally, <a href="#_goal_kick">goal kicks</a> and <a href="#_corner_kick">corner kicks</a> are mapped to direct free kicks.</p>
-</div>
-</div>
-<div class="sect3">
-<h4 id="_indirect_free_kick">5.2.4. Indirect Free Kick</h4>
-<div class="paragraph">
-<div class="title">Definition</div>
-<p>An indirect free kick behaves like a <a href="#_direct_free_kick">direct free kick</a>, except: After an indirect free kick, a goal can only be scored if the ball touches a robot of the attacking team after the ball <a href="#_resuming_the_game">entered play</a> and before it entering the goal of the defending team. If the ball enters the goal of the defending team without touching an attacking robot, it will be treated like it crossed the goal line outside the goal.</p>
-</div>
-<div class="paragraph">
-<p>If the ball enters the goal of the attacking team (an own goal), a goal will be awarded to the defending team.</p>
-</div>
-<div class="admonitionblock note">
-<table>
-<tr>
-<td class="icon">
-<i class="fa icon-note" title="Note"></i>
-</td>
-<td class="content">
-Scoring a goal from an indirect free kick does not require more than one attacking robot. The goal can also be shot by the same robot that kicked the free kick if a robot of the defending team touches the ball before the attacker shoots the goal.
-</td>
-</tr>
-</table>
-</div>
-<div class="admonitionblock note">
-<table>
-<tr>
-<td class="icon">
-<i class="fa icon-note" title="Note"></i>
-</td>
-<td class="content">
-In association football, it is sufficient if any player (including the keeper) touches the ball before it enters the goal. To discourage the teams to shoot directly at the goal and hope that the keeper touches it, the rules of the Small Size League require a second touch of an attacking robot.
-</td>
-</tr>
-</table>
-</div>
-<div class="paragraph">
-<div class="title">Usage</div>
-<p>Indirect free kicks are used to restart the game after a <a href="#_minor_offenses">minor offense</a> has occured. Additionally, <a href="#_throw_in">throw-ins</a> are mapped to indirect free kicks.</p>
-</div>
-</div>
-<div class="sect3">
-<h4 id="_force_start">5.2.5. Force Start</h4>
-<div class="paragraph">
-<div class="title">Definition</div>
-<p>When the force start command is issued, the game is immediately resumed and both teams are allowed to approach and <a href="#_ball_manipulation">manipulate the ball</a> again.</p>
-</div>
-<div class="paragraph">
-<div class="title">Usage</div>
-<p>The referee can issue a stop command followed by force start if there is a clear lack of progress for at least 10 seconds while both teams are allowed to approach and <a href="#_ball_manipulation">manipulate the ball</a>.</p>
-</div>
-<div class="paragraph">
-<p>It can also be used to resume the game when the game had to be stopped and no team or both teams are at fault.</p>
-</div>
-</div>
-<div class="sect3">
-<h4 id="_penalty_kick">5.2.6. Penalty Kick</h4>
-<div class="paragraph">
-<div class="title">Definition</div>
-<p>To initiate a penalty kick, the stop command has to be sent and the ball has to be placed on the <a href="#_penalty_mark">penalty mark</a> by the human <a href="#_referee">referee</a>.</p>
-</div>
-<div class="paragraph">
-<p>When the penalty command is issued, one attacking robot is allowed to approach but not touch the ball. This robot will be referred to as the kicker. The defending keeper has to touch the goal line. All other robots have to move behind a line parallel to the goal line and 0.4 meters behind the penalty mark. When these constraints are met, the referee may continue with a <a href="#_normal_start">normal start</a> command.</p>
-</div>
-<div class="paragraph">
-<p>When the <a href="#_normal_start">normal start</a> command is issued, the kicker is allowed to shoot the ball. A goal may be scored directly from the penalty kick.</p>
-</div>
-<div class="paragraph">
-<p>When the ball is <a href="#_ball_in_and_out_of_play">in play</a>, the kicker may not touch the ball until it has been touched by another robot or the game has been stopped (see <a href="#_double_touch">double touch</a>). Also, the restrictions regarding the robot positions are lifted.</p>
-</div>
-<div class="paragraph">
-<p>Additional time is allowed for a penalty kick to be taken at the end of each half or at the end of periods of overtime.</p>
-</div>
-<div class="paragraph">
-<p>The penalty kick is retaken if the attacking team infringes the rules and the ball enters the goal or the defending team infringes the rules and the ball does not enter the goal.</p>
-</div>
-<div class="paragraph">
-<div class="title">Usage</div>
-<p>Penalty Kicks are used to punish teams that received multiple <a href="#_yellow_card">yellow cards</a>, as well as to punish <a href="#_unsporting_behavior">unsporting behavior</a> and <a href="#_multiple_defenders">multiple defenders</a>.</p>
-</div>
-</div>
-</div>
-<div class="sect2">
-<h3 id="_sanctions">5.3. Sanctions</h3>
-<div class="sect3">
-<h4 id="_yellow_card">5.3.1. Yellow Card</h4>
-<div class="paragraph">
-<div class="title">Definition</div>
-<p>A yellow card can only be given during <a href="#_halt">halt</a>.</p>
-</div>
-<div class="paragraph">
-<p>If the yellow card is shown as a result of <a href="#_unsporting_behavior">unsporting behavior</a>, the referee may decide to immediately <a href="#_halt">halt</a> the match. In this case, the match continues with a direct free kick for the other team.</p>
-</div>
-<div class="paragraph">
-<p>Upon receipt of a yellow card, the number of robots allowed on the field for the penalized team decreases by one. If, after this decrease, the team has more robots than permitted on the field, a robot must be <a href="#_robot_substitution">taken out</a> before <a href="#_resuming_the_game">play resumes</a>. The penalized team can choose the robot to remove.</p>
-</div>
-<div class="paragraph">
-<p>After 120 seconds of playing time (measured by the game controller), the yellow card expires and the number of allowed robots is increased by one. The team may <a href="#_robot_substitution">put a robot back in</a> during the next opportunity.</p>
-</div>
-<div class="paragraph">
-<p>For every third card (regardless of its color) for one team, a <a href="#_penalty_kick">penalty kick</a> is awarded to the opponent team.</p>
-</div>
-<div class="paragraph">
-<div class="title">Usage</div>
-<p>Yellow cards are used to punish teams that committed multiple <a href="#_fouls">fouls</a>.</p>
-</div>
-<div class="paragraph">
-<p>Yellow cards can also be given by the referee to punish <a href="#_fouls">fouls</a> or <a href="#_unsporting_behavior">unsporting behavior</a>.</p>
-</div>
-</div>
-<div class="sect3">
-<h4 id="_red_card">5.3.2. Red Card</h4>
-<div class="paragraph">
-<div class="title">Definition</div>
-<p>A red card behaves like a <a href="#_yellow_card">yellow card</a>, exept: It does not expire until the end of the game.</p>
-</div>
-<div class="paragraph">
-<div class="title">Usage</div>
-<p>Red cards are given by the referee to punish severe <a href="#_fouls">fouls</a> or <a href="#_unsporting_behavior">unsporting behavior</a>.</p>
-</div>
-<div class="admonitionblock note">
-<table>
-<tr>
-<td class="icon">
-<i class="fa icon-note" title="Note"></i>
-</td>
-<td class="content">
-For example, serious violent contact by the robots or disrespectful behavior towards the referees can result in a red card.
-</td>
-</tr>
-</table>
-</div>
-</div>
-<div class="sect3">
-<h4 id="_forced_forfeit">5.3.3. Forced Forfeit</h4>
-<div class="paragraph">
-<div class="title">Definition</div>
-<p>A Forced forfeit means that a team instantly loses the current game with a score of 0 to 10.</p>
-</div>
-<div class="paragraph">
-<div class="title">Usage</div>
-<p>A team can be forced to forfeit if it is unable to play with at least one robot that satisfies the rules.</p>
-</div>
-<div class="paragraph">
-<p>A team can only be forced to forfeit in agreement with members of the <a href="#_technical_committee">technical committee</a> and the <a href="#_organizing_committee">organizing committee</a>.</p>
-</div>
-</div>
-<div class="sect3">
-<h4 id="_disqualification">5.3.4. Disqualification</h4>
-<div class="paragraph">
-<div class="title">Definition</div>
-<p>A Disqualification means that a team immediately drops out of the tournament and places last. It will not be eligible to receive any trophies.</p>
-</div>
-<div class="paragraph">
-<div class="title">Usage</div>
-<p>A team can be disqualified if members of this team don&#8217;t follow safety guidelines, rules of the venue or commit similarly severe offenses.</p>
-</div>
-<div class="paragraph">
-<p>A team can only be disqualified in agreement with members of the <a href="#_technical_committee">technical committee</a> and the <a href="#_organizing_committee">organizing committee</a>.</p>
-</div>
-</div>
-</div>
-<div class="sect2">
-<h3 id="_special_commands">5.4. Special Commands</h3>
-<div class="sect3">
-<h4 id="_ball_placement">5.4.1. Ball Placement</h4>
+<h3 id="_ball_placement">5.2. Ball Placement</h3>
 <div class="paragraph">
 <div class="title">Definition</div>
 <p>After the game was stopped, the ball must be placed on the appropriate position, depending on the event that occurred.
@@ -1626,7 +1407,7 @@ If this team failed to place the ball as well, the ball is placed by the <a href
 <p>When a team has failed to place the ball 5 times in a row, it is not allowed to place the ball for the rest of the game half. All free kicks that were a result of the ball leaving the field, are awarded to the opposing team. For all other rule violations or when both teams failed to place the ball, the ball is placed by the <a href="#_referee">referee</a></p>
 </li>
 <li>
-<p>If no team can place the ball, the ball is placed by the <a href="#_referee">referee</a></p>
+<p>If no team can place the ball, the ball is placed by the <a href="#_referee">referee</a> or the <a href="#_assistant_referee">assistant referee</a>. Both the referee as well as the assistant referee are advised to use a so-called ball handler (a long, preferably black stick-like device) to move the ball.</p>
 </li>
 </ol>
 </div>
@@ -1658,65 +1439,73 @@ The ball may still be moving when the placement command is issued.
 <p>Ball placement is mandatory for all teams in division A.
 Teams in division B may decide, at any time before or during the game, not to place the ball for the rest of the game by talking to the <a href="#_referee">referee</a>, who in turn tells the <a href="#_game_controller_operator">game controller operator</a> to disable ball placement for this team.
 In this case, the team is allowed to bring the ball into play, after the ball was placed by the opposing team.
-If the opposing team fails to place the ball or no team can place the ball, it is placed by the <a href="#_referee">referee</a>.</p>
+If the opposing team fails to place the ball or no team can place the ball, it is placed by the <a href="#_referee">referee</a> or the <a href="#_assistant_referee">assistant referee</a>.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_resuming_the_game">5.3. Resuming The Game</h3>
+<div class="paragraph">
+<p>After the ball has been placed, the game is resumed using one of the following commands.</p>
+</div>
+<div class="sect3">
+<h4 id="_normal_start">5.3.1. Normal Start</h4>
+<div class="paragraph">
+<div class="title">Definition</div>
+<p>For two-staged referee commands, when normal start is sent, an attacker may <a href="#_ball_manipulation">manipulate the ball</a>. A match cannot be resumed directly via normal start.</p>
+</div>
+<div class="paragraph">
+<div class="title">Usage</div>
+<p>Normal start is used for <a href="#_kick_off">kick-offs</a>, <a href="#_penalty_kick">penalty kicks</a> and <a href="#_shoot_out">shoot-out</a>.</p>
 </div>
 </div>
 <div class="sect3">
-<h4 id="_shoot_out">5.4.2. Shoot-Out</h4>
+<h4 id="_kick_off">5.3.2. Kick-Off</h4>
 <div class="paragraph">
 <div class="title">Definition</div>
-<p>Both teams alternately attempt to score a goal until each team has performed 5 attempts. If both teams have the same score after those 5 attempts, each team takes another attempt in the same order as before until the score of the two teams is different.</p>
+<p>The ball has to be placed in the center of the field by the human referee.</p>
 </div>
 <div class="paragraph">
-<p>Only one attacking robot and one keeper is allowed per team. During a shoot-out attempt, the attacking robot and the opponent keeper are the only ones allowed to move and <a href="#_ball_manipulation">manipulate the ball</a>. Other robots are not allowed to interfere.</p>
+<p>When the kick-off command is issued, all robots have to move to their own half of the field excluding the <a href="#_center_circle">center circle</a>. However, one robot of the attacking team is also allowed to be inside the whole center circle. This robot will be referred to as the kicker. No robot is allowed to touch the ball.</p>
 </div>
 <div class="paragraph">
-<p>The procedure of a shoot-out attempt is as follows:</p>
-</div>
-<div class="olist arabic">
-<ol class="arabic">
-<li>
-<p>The ball is placed by the human referee on the <a href="#_additional_lines">mid-line</a> (not halfway line), 8 meters (division A) or 6 meters (division B) away from the opponent goal.</p>
-</li>
-<li>
-<p>When the <a href="#_penalty_kick">penalty</a> command is issued, the defending keeper has to move to the goal line and keep touching it.</p>
-</li>
-<li>
-<p>When the <a href="#_normal_start">normal start</a> command is issued, the attacker is allowed to <a href="#_ball_manipulation">manipulate the ball</a>. The ball has to only move towards the opponent goal, as measured by its x coordinate in the coordinate system of <a href="#_vision">SSL-Vision</a>.</p>
-</li>
-<li>
-<p>When the ball is <a href="#_ball_in_and_out_of_play">in play</a>, the defending keeper may move freely again, analogous to a <a href="#_penalty_kick">penalty kick</a>.</p>
-</li>
-</ol>
+<p>When the <a href="#_normal_start">normal start</a> command is issued, the kicker is allowed to shoot the ball. A goal may be scored directly from the kick-off.</p>
 </div>
 <div class="paragraph">
-<p>A goal is awarded if:</p>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p>the ball enters the goal of the defending team in less than 10 seconds, starting from when the <a href="#_normal_start">normal start</a> command is issued</p>
-</li>
-<li>
-<p>the defending team violates any rule</p>
-</li>
-</ul>
+<p>When the ball is <a href="#_ball_in_and_out_of_play">in play</a>, the kicker may not touch the ball until it has been touched by another robot or the game has been stopped (see <a href="#_double_touch">double touch</a>). Also, the restrictions regarding the robot positions are lifted.</p>
 </div>
 <div class="paragraph">
-<p>A goal is not awarded if:</p>
+<div class="title">Usage</div>
+<p>Both half times as well as both overtime periods (if needed) start with a kick-off. Chapter <a href="#_match_preparation">Match Preparation</a> describes how to determine the attacking team.</p>
 </div>
-<div class="ulist">
-<ul>
-<li>
-<p>the ball crosses any <a href="#_field_lines">field lines</a> outside the goal</p>
-</li>
-<li>
-<p>the defending keeper touches the ball such that the ball speed vector changes direction by at least 90 degrees in 2D space</p>
-</li>
-<li>
-<p>the attacking team violates any rule</p>
-</li>
-</ul>
+<div class="paragraph">
+<p>Additionally, after a goal has been scored, the receiving team restarts the game with a kick-off.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_direct_free_kick">5.3.3. Direct Free Kick</h4>
+<div class="paragraph">
+<div class="title">Definition</div>
+<p>The ball placement position for a free kick depends on the event that led to the free kick. This position is valid if there is at least 0.2 meters distance to all <a href="#_field_lines">field lines</a> and 1 meter distance to either <a href="#_defense_area">defense area</a>. If an event requires the ball to be placed at a position that contravenes this rule, it has to be placed at the closest valid position instead.</p>
+</div>
+<div class="paragraph">
+<p>When the direct free kick command is issued, robots of the attacking team are allowed to approach the ball while robots of the defending team still have to stay at least 0.5 meters distance away from the ball (the same distance as in stop). One robot of the attacking team is allowed to shoot the ball. This robot will be referred to as the kicker. A goal may be scored directly from the direct free kick.</p>
+</div>
+<div class="paragraph">
+<p>When the ball is <a href="#_ball_in_and_out_of_play">in play</a>, the kicker may not touch the ball until it has been touched by another robot or the game has been stopped (see <a href="#_double_touch">double touch</a>). Also, the restrictions regarding the robot positions are lifted.</p>
+</div>
+<div class="paragraph">
+<div class="title">Usage</div>
+<p>Direct free kicks are used to restart the game after a <a href="#_fouls">foul</a> has occured. Additionally, <a href="#_goal_kick">goal kicks</a> and <a href="#_corner_kick">corner kicks</a> are mapped to direct free kicks.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_indirect_free_kick">5.3.4. Indirect Free Kick</h4>
+<div class="paragraph">
+<div class="title">Definition</div>
+<p>An indirect free kick behaves like a <a href="#_direct_free_kick">direct free kick</a>, except: After an indirect free kick, a goal can only be scored if the ball touches a robot of the attacking team after the ball <a href="#_resuming_the_game">entered play</a> and before it entering the goal of the defending team. If the ball enters the goal of the defending team without touching an attacking robot, it will be treated like it crossed the goal line outside the goal.</p>
+</div>
+<div class="paragraph">
+<p>If the ball enters the goal of the attacking team (an own goal), a goal will be awarded to the defending team.</p>
 </div>
 <div class="admonitionblock note">
 <table>
@@ -1725,14 +1514,11 @@ If the opposing team fails to place the ball or no team can place the ball, it i
 <i class="fa icon-note" title="Note"></i>
 </td>
 <td class="content">
-The restrictions defined for <a href="#_scoring_goals">scoring goals</a> do not apply here. Other rules like the <a href="#_excessive_dribbling">excessive dribbling</a> limitation for example do.
+Scoring a goal from an indirect free kick does not require more than one attacking robot. The goal can also be shot by the same robot that kicked the free kick if a robot of the defending team touches the ball before the attacker shoots the goal.
 </td>
 </tr>
 </table>
 </div>
-<div class="paragraph">
-<p>Robots may be <a href="#_robot_substitution">substituted</a> between shoot-out attempts. The new robot may be put in right away.</p>
-</div>
 <div class="admonitionblock note">
 <table>
 <tr>
@@ -1740,14 +1526,134 @@ The restrictions defined for <a href="#_scoring_goals">scoring goals</a> do not 
 <i class="fa icon-note" title="Note"></i>
 </td>
 <td class="content">
-Note that <a href="#_timeouts">timeouts</a> are not allowed during shoot-out.
+In association football, it is sufficient if any player (including the keeper) touches the ball before it enters the goal. To discourage the teams to shoot directly at the goal and hope that the keeper touches it, the rules of the Small Size League require a second touch of an attacking robot.
 </td>
 </tr>
 </table>
 </div>
 <div class="paragraph">
 <div class="title">Usage</div>
-<p>Shoot-Out is used to determine the winner of an elimination match if both teams scored the same amount of goals in previous <a href="#_game_stages">game stages</a>.</p>
+<p>Indirect free kicks are used to restart the game after a <a href="#_minor_offenses">minor offense</a> has occured. Additionally, <a href="#_throw_in">throw-ins</a> are mapped to indirect free kicks.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_force_start">5.3.5. Force Start</h4>
+<div class="paragraph">
+<div class="title">Definition</div>
+<p>When the force start command is issued, the game is immediately resumed and both teams are allowed to approach and <a href="#_ball_manipulation">manipulate the ball</a> again.</p>
+</div>
+<div class="paragraph">
+<div class="title">Usage</div>
+<p>The referee can issue a stop command followed by force start if there is a clear lack of progress for at least 10 seconds while both teams are allowed to approach and <a href="#_ball_manipulation">manipulate the ball</a>.</p>
+</div>
+<div class="paragraph">
+<p>It can also be used to resume the game when the game had to be stopped and no team or both teams are at fault.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_penalty_kick">5.3.6. Penalty Kick</h4>
+<div class="paragraph">
+<div class="title">Definition</div>
+<p>To initiate a penalty kick, the stop command has to be sent and the ball has to be placed on the <a href="#_penalty_mark">penalty mark</a> by the human <a href="#_referee">referee</a>.</p>
+</div>
+<div class="paragraph">
+<p>When the penalty command is issued, one attacking robot is allowed to approach but not touch the ball. This robot will be referred to as the kicker. The defending keeper has to touch the goal line. All other robots have to move behind a line parallel to the goal line and 0.4 meters behind the penalty mark. When these constraints are met, the referee may continue with a <a href="#_normal_start">normal start</a> command.</p>
+</div>
+<div class="paragraph">
+<p>When the <a href="#_normal_start">normal start</a> command is issued, the kicker is allowed to shoot the ball. A goal may be scored directly from the penalty kick.</p>
+</div>
+<div class="paragraph">
+<p>When the ball is <a href="#_ball_in_and_out_of_play">in play</a>, the kicker may not touch the ball until it has been touched by another robot or the game has been stopped (see <a href="#_double_touch">double touch</a>). Also, the restrictions regarding the robot positions are lifted.</p>
+</div>
+<div class="paragraph">
+<p>Additional time is allowed for a penalty kick to be taken at the end of each half or at the end of periods of overtime.</p>
+</div>
+<div class="paragraph">
+<p>The penalty kick is retaken if the attacking team infringes the rules and the ball enters the goal or the defending team infringes the rules and the ball does not enter the goal.</p>
+</div>
+<div class="paragraph">
+<div class="title">Usage</div>
+<p>Penalty Kicks are used to punish teams that received multiple <a href="#_yellow_card">yellow cards</a>, as well as to punish <a href="#_unsporting_behavior">unsporting behavior</a> and <a href="#_multiple_defenders">multiple defenders</a>.</p>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_sanctions">5.4. Sanctions</h3>
+<div class="sect3">
+<h4 id="_yellow_card">5.4.1. Yellow Card</h4>
+<div class="paragraph">
+<div class="title">Definition</div>
+<p>A yellow card can only be given during <a href="#_halt">halt</a>.</p>
+</div>
+<div class="paragraph">
+<p>If the yellow card is shown as a result of <a href="#_unsporting_behavior">unsporting behavior</a>, the referee may decide to immediately <a href="#_halt">halt</a> the match. In this case, the match continues with a direct free kick for the other team.</p>
+</div>
+<div class="paragraph">
+<p>Upon receipt of a yellow card, the number of robots allowed on the field for the penalized team decreases by one. If, after this decrease, the team has more robots than permitted on the field, a robot must be <a href="#_robot_substitution">taken out</a> before <a href="#_resuming_the_game">play resumes</a>. The penalized team can choose the robot to remove.</p>
+</div>
+<div class="paragraph">
+<p>After 120 seconds of playing time (measured by the game controller), the yellow card expires and the number of allowed robots is increased by one. The team may <a href="#_robot_substitution">put a robot back in</a> during the next opportunity.</p>
+</div>
+<div class="paragraph">
+<p>For every third card (regardless of its color) for one team, a <a href="#_penalty_kick">penalty kick</a> is awarded to the opponent team.</p>
+</div>
+<div class="paragraph">
+<div class="title">Usage</div>
+<p>Yellow cards are used to punish teams that committed multiple <a href="#_fouls">fouls</a>.</p>
+</div>
+<div class="paragraph">
+<p>Yellow cards can also be given by the referee to punish <a href="#_fouls">fouls</a> or <a href="#_unsporting_behavior">unsporting behavior</a>.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_red_card">5.4.2. Red Card</h4>
+<div class="paragraph">
+<div class="title">Definition</div>
+<p>A red card behaves like a <a href="#_yellow_card">yellow card</a>, exept: It does not expire until the end of the game.</p>
+</div>
+<div class="paragraph">
+<div class="title">Usage</div>
+<p>Red cards are given by the referee to punish severe <a href="#_fouls">fouls</a> or <a href="#_unsporting_behavior">unsporting behavior</a>.</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+For example, serious violent contact by the robots or disrespectful behavior towards the referees can result in a red card.
+</td>
+</tr>
+</table>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_forced_forfeit">5.4.3. Forced Forfeit</h4>
+<div class="paragraph">
+<div class="title">Definition</div>
+<p>A Forced forfeit means that a team instantly loses the current game with a score of 0 to 10.</p>
+</div>
+<div class="paragraph">
+<div class="title">Usage</div>
+<p>A team can be forced to forfeit if it is unable to play with at least one robot that satisfies the rules.</p>
+</div>
+<div class="paragraph">
+<p>A team can only be forced to forfeit in agreement with members of the <a href="#_technical_committee">technical committee</a> and the <a href="#_organizing_committee">organizing committee</a>.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_disqualification">5.4.4. Disqualification</h4>
+<div class="paragraph">
+<div class="title">Definition</div>
+<p>A Disqualification means that a team immediately drops out of the tournament and places last. It will not be eligible to receive any trophies.</p>
+</div>
+<div class="paragraph">
+<div class="title">Usage</div>
+<p>A team can be disqualified if members of this team don&#8217;t follow safety guidelines, rules of the venue or commit similarly severe offenses.</p>
+</div>
+<div class="paragraph">
+<p>A team can only be disqualified in agreement with members of the <a href="#_technical_committee">technical committee</a> and the <a href="#_organizing_committee">organizing committee</a>.</p>
 </div>
 </div>
 </div>
@@ -2340,6 +2246,97 @@ If the team is not connected to the game controller or does not reply within 0.2
 </div>
 </div>
 <div class="sect1">
+<h2 id="_shoot_out">10. Shoot-Out</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<div class="title">Definition</div>
+<p>Both teams alternately attempt to score a goal until each team has performed 5 attempts. If both teams have the same score after those 5 attempts, each team takes another attempt in the same order as before until the score of the two teams is different.</p>
+</div>
+<div class="paragraph">
+<p>Only one attacking robot and one keeper is allowed per team. During a shoot-out attempt, the attacking robot and the opponent keeper are the only ones allowed to move and <a href="#_ball_manipulation">manipulate the ball</a>. Other robots are not allowed to interfere.</p>
+</div>
+<div class="paragraph">
+<p>The procedure of a shoot-out attempt is as follows:</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>The ball is placed by the human referee on the <a href="#_additional_lines">mid-line</a> (not halfway line), 8 meters (division A) or 6 meters (division B) away from the opponent goal.</p>
+</li>
+<li>
+<p>When the <a href="#_penalty_kick">penalty</a> command is issued, the defending keeper has to move to the goal line and keep touching it.</p>
+</li>
+<li>
+<p>When the <a href="#_normal_start">normal start</a> command is issued, the attacker is allowed to <a href="#_ball_manipulation">manipulate the ball</a>. The ball has to only move towards the opponent goal, as measured by its x coordinate in the coordinate system of <a href="#_vision">SSL-Vision</a>.</p>
+</li>
+<li>
+<p>When the ball is <a href="#_ball_in_and_out_of_play">in play</a>, the defending keeper may move freely again, analogous to a <a href="#_penalty_kick">penalty kick</a>.</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>A goal is awarded if:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>the ball enters the goal of the defending team in less than 10 seconds, starting from when the <a href="#_normal_start">normal start</a> command is issued</p>
+</li>
+<li>
+<p>the defending team violates any rule</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>A goal is not awarded if:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>the ball crosses any <a href="#_field_lines">field lines</a> outside the goal</p>
+</li>
+<li>
+<p>the defending keeper touches the ball such that the ball speed vector changes direction by at least 90 degrees in 2D space</p>
+</li>
+<li>
+<p>the attacking team violates any rule</p>
+</li>
+</ul>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+The restrictions defined for <a href="#_scoring_goals">scoring goals</a> do not apply here. This explicitly includes the ball height limit of 0.15 meters. Other rules like the <a href="#_excessive_dribbling">excessive dribbling</a> limitation for example do.
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>Robots may be <a href="#_robot_substitution">substituted</a> between shoot-out attempts. The new robot may be put in right away.</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+Note that <a href="#_timeouts">timeouts</a> are not allowed during shoot-out.
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<div class="title">Usage</div>
+<p>Shoot-Out is used to determine the winner of an elimination match if both teams scored the same amount of goals in previous <a href="#_game_stages">game stages</a>.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
 <h2 id="_terminology">Appendix A: Terminology</h2>
 <div class="sectionbody">
 <div class="sect2">
@@ -2811,7 +2808,7 @@ Note that the information shown in this table here is incomplete. Please read th
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2019-06-03 09:11:33 UTC
+Last updated 2019-06-03 18:29:25 UTC
 </div>
 </div>
 </body>
