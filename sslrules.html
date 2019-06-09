@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="generator" content="Asciidoctor 2.0.9">
-<meta name="author" content="2019-06-03">
+<meta name="author" content="2019-06-09">
 <title>Rules of the RoboCup Small Size League 2019</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
 <style>
@@ -440,7 +440,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div id="header">
 <h1>Rules of the RoboCup Small Size League 2019</h1>
 <div class="details">
-<span id="author" class="author">2019-06-03</span><br>
+<span id="author" class="author">2019-06-09</span><br>
 </div>
 <div id="toc" class="toc">
 <div id="toctitle">Table of Contents</div>
@@ -1874,25 +1874,7 @@ When the ball is <a href="#_ball_in_and_out_of_play">out of play</a>, the more s
 </div>
 </div>
 <div class="sect3">
-<h4 id="_attacker_touches_keeper">8.1.5. Attacker Touches Keeper</h4>
-<div class="paragraph">
-<p>A robot must not touch the opponent keeper inside the opponent <a href="#_defense_area">defense area</a>.</p>
-</div>
-<div class="admonitionblock note">
-<table>
-<tr>
-<td class="icon">
-<i class="fa icon-note" title="Note"></i>
-</td>
-<td class="content">
-When the ball is <a href="#_ball_in_and_out_of_play">out of play</a>, the more strict rule <a href="#_robot_too_close_to_opponent_defense_area">Robot Too Close To Opponent Defense Area</a> applies instead.
-</td>
-</tr>
-</table>
-</div>
-</div>
-<div class="sect3">
-<h4 id="_excessive_dribbling">8.1.6. Excessive Dribbling</h4>
+<h4 id="_excessive_dribbling">8.1.5. Excessive Dribbling</h4>
 <div class="paragraph">
 <p>A robot must not <a href="#_dribbling_device">dribble</a> the ball further than 1 meter, measured linearly from the ball location where the dribbling started. A robot begins dribbling when it makes contact with the ball and stops dribbling when there is an observable separation between the ball and the robot.</p>
 </div>
@@ -1910,7 +1892,7 @@ Dribblers can still be used to dribble large distances with the ball as long as 
 </div>
 </div>
 <div class="sect3">
-<h4 id="_ball_speed">8.1.7. Ball Speed</h4>
+<h4 id="_ball_speed">8.1.6. Ball Speed</h4>
 <div class="paragraph">
 <p>A robot must not accelerate the ball faster than 6.5 meters per second in 3D space.</p>
 </div>
@@ -1931,7 +1913,25 @@ Dribblers can still be used to dribble large distances with the ball as long as 
 <p>All fouls are listed below.</p>
 </div>
 <div class="sect3">
-<h4 id="_robot_too_close_to_opponent_defense_area">8.2.1. Robot Too Close To Opponent Defense Area</h4>
+<h4 id="_attacker_touches_robot_in_opponent_defense_area">8.2.1. Attacker Touches Robot In Opponent Defense Area</h4>
+<div class="paragraph">
+<p>When the ball <a href="#_ball_in_and_out_of_play">in play</a>, a robot must not touch any opponent robot inside the opponent <a href="#_defense_area">defense area</a>.</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+When the ball is <a href="#_ball_in_and_out_of_play">out of play</a>, the rule <a href="#_robot_too_close_to_opponent_defense_area">Robot Too Close To Opponent Defense Area</a> applies instead.
+</td>
+</tr>
+</table>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_robot_too_close_to_opponent_defense_area">8.2.2. Robot Too Close To Opponent Defense Area</h4>
 <div class="paragraph">
 <p>During <a href="#_stop">stop</a>, <a href="#_direct_free_kick">direct free kicks</a> and <a href="#_indirect_free_kick">indirect free kicks</a>, before the ball <a href="#_resuming_the_game">has entered play</a>, all robots have to keep at least 0.2 meters distance to the opponent <a href="#_defense_area">defense area</a>.</p>
 </div>
@@ -1940,7 +1940,7 @@ Dribblers can still be used to dribble large distances with the ball as long as 
 </div>
 </div>
 <div class="sect3">
-<h4 id="_ball_placement_interference">8.2.2. Ball Placement Interference</h4>
+<h4 id="_ball_placement_interference">8.2.3. Ball Placement Interference</h4>
 <div class="paragraph">
 <p>During <a href="#_ball_placement">ball placement</a>, all robots of the non-placing team have to keep at least 0.5 meters distance to the line between the ball and the placement position (the forbidden area forms a stadium shape).</p>
 </div>
@@ -1962,25 +1962,37 @@ This rule does not cover all cases of ball placement interference. The <a href="
 </div>
 </div>
 <div class="sect3">
-<h4 id="_crashing">8.2.3. Crashing</h4>
+<h4 id="_crashing">8.2.4. Crashing</h4>
 <div class="paragraph">
 <p>At the moment of collision of two robots of different teams, the difference of the speed vectors of both robots is taken and projected onto the line that is defined by the position of both robots. If the length of this projection is greater than 1.5 meters per second, the faster robot committed a foul. If the absolute robot speed difference is less than 0.3 meters per second, both conduct a foul but the game will not be stopped.</p>
 </div>
 </div>
 <div class="sect3">
-<h4 id="_pushing">8.2.4. Pushing</h4>
+<h4 id="_pushing">8.2.5. Pushing</h4>
 <div class="paragraph">
-<p>A robot pushes an opponent robot if both robots keep contact to the ball or to each other while both robots travel towards the opponent robot for more than 0.2 meters or until the opponent enters its <a href="#_defense_area">defense area</a>.</p>
+<p>A robot pushes an opponent robot if both robots keep contact to the ball or to each other while the robot exerts force onto the opponent robot, such that both robots travel towards the opponent robot.</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+If both robots are pushing each other with similar force, no team is at fault.
+</td>
+</tr>
+</table>
 </div>
 </div>
 <div class="sect3">
-<h4 id="_ball_holding">8.2.5. Ball Holding</h4>
+<h4 id="_ball_holding">8.2.6. Ball Holding</h4>
 <div class="paragraph">
 <p>Robots must not surround the ball to prevent access by others.</p>
 </div>
 </div>
 <div class="sect3">
-<h4 id="_tipping_over_or_dropping_parts">8.2.6. Tipping Over Or Dropping Parts</h4>
+<h4 id="_tipping_over_or_dropping_parts">8.2.7. Tipping Over Or Dropping Parts</h4>
 <div class="paragraph">
 <p>A robot must not tip over, break or drop parts on the field that pose a potential threat to other robots.</p>
 </div>
@@ -2001,7 +2013,7 @@ Metal parts (screws for example) as well as larger parts generally pose a potent
 </div>
 </div>
 <div class="sect3">
-<h4 id="_robot_stop_speed">8.2.7. Robot Stop Speed</h4>
+<h4 id="_robot_stop_speed">8.2.8. Robot Stop Speed</h4>
 <div class="paragraph">
 <p>A robot must not move faster than 1.5 meters per second during <a href="#_stop">stop</a>. A violation of this rule is only counted once per robot and stoppage.</p>
 </div>
@@ -2034,7 +2046,7 @@ Since the stop command is used for manual ball placement and <a href="#_robot_su
 </div>
 </div>
 <div class="sect3">
-<h4 id="_defender_too_close_to_ball">8.2.8. Defender Too Close To Ball</h4>
+<h4 id="_defender_too_close_to_ball">8.2.9. Defender Too Close To Ball</h4>
 <div class="paragraph">
 <p>A robot&#8217;s distance to the ball must be at least 0.5 meters during an opponent <a href="#_kick_off">kick-off</a>, <a href="#_direct_free_kick">direct free kick</a> or <a href="#_indirect_free_kick">indirect free kick</a>.
 The game is resumed with the same command that was issued before the foul.</p>
@@ -2053,7 +2065,7 @@ During <a href="#_stop">stop</a>, there is no automatic sanction for being too c
 </div>
 </div>
 <div class="sect3">
-<h4 id="_multiple_defenders">8.2.9. Multiple Defenders</h4>
+<h4 id="_multiple_defenders">8.2.10. Multiple Defenders</h4>
 <div class="admonitionblock note">
 <table>
 <tr>
@@ -2162,7 +2174,7 @@ The foul counter is still incremented and any resulting cards are given when the
 <p><a href="#_crashing">Crashing</a>, if not both teams committed the foul</p>
 </li>
 <li>
-<p><a href="#_pushing">Pushing</a></p>
+<p><a href="#_attacker_touches_robot_in_opponent_defense_area">Attacker Touches Robot In Opponent Defense Area</a></p>
 </li>
 </ul>
 </div>
@@ -2280,7 +2292,7 @@ If the team is not connected to the game controller or does not reply within 0.2
 <div class="ulist">
 <ul>
 <li>
-<p>the ball enters the goal of the defending team in less than 10 seconds, starting from when the <a href="#_normal_start">normal start</a> command is issued</p>
+<p>the ball touches the inner surface of a goal wall or the ground of the goal of the defending team in less than 10 seconds, starting from when the <a href="#_normal_start">normal start</a> command is issued</p>
 </li>
 <li>
 <p>the defending team violates any rule</p>
@@ -2592,10 +2604,16 @@ Note that the information shown in this table here is incomplete. Please read th
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="icon green"><i class="fa fa-check"></i></span></p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_attacker_touches_keeper">Attacker Touches Keeper</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_attacker_touches_robot_in_opponent_defense_area">Attacker Touches Robot In Opponent Defense Area</a></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_ball_in_and_out_of_play">ball in play</a></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_stop">Stop</a>, then <a href="#_indirect_free_kick">Indirect Free Kick</a></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="icon green"><i class="fa fa-check"></i></span></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_attacker_touches_robot_in_opponent_defense_area">Attacker Touches Robot In Opponent Defense Area</a> skipped</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_ball_in_and_out_of_play">ball in play</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">no command</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="icon green"><i class="fa fa-check"></i></span> (<a href="#_advantage_rule">Advantage Rule</a>)</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_excessive_dribbling">Excessive Dribbling</a></p></td>
@@ -2670,13 +2688,7 @@ Note that the information shown in this table here is incomplete. Please read th
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_pushing">Pushing</a></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">always</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_stop">Stop</a>, then <a href="#_direct_free_kick">Direct Free Kick</a></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="icon green"><i class="fa fa-check"></i></span></p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_pushing">Pushing</a> skipped</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">always</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">no command</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="icon green"><i class="fa fa-check"></i></span> (<a href="#_advantage_rule">Advantage Rule</a>)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="icon red"><i class="fa fa-times"></i></span></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_ball_holding">Ball Holding</a></p></td>
@@ -2808,7 +2820,7 @@ Note that the information shown in this table here is incomplete. Please read th
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2019-06-03 18:29:25 UTC
+Last updated 2019-06-09 11:26:30 UTC
 </div>
 </div>
 </body>
