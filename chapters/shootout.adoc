@@ -13,7 +13,7 @@ The procedure of a shoot-out attempt is as follows:
 
 A goal is awarded if:
 
-* the ball enters the goal of the defending team in less than 10 seconds, starting from when the <<Normal Start, normal start>> command is issued
+* the ball touches the inner surface of a goal wall or the ground of the goal of the defending team in less than 10 seconds, starting from when the <<Normal Start, normal start>> command is issued
 * the defending team violates any rule
 
 A goal is not awarded if:
