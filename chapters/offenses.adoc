@@ -32,11 +32,6 @@ A robot must not touch the ball while being partially or fully inside the oppone
 
 NOTE: When the ball is <<Ball In And Out Of Play, out of play>>, the more strict rule <<Robot Too Close To Opponent Defense Area>> applies instead.
 
-==== Attacker Touches Keeper
-A robot must not touch the opponent keeper inside the opponent <<Defense Area, defense area>>.
-
-NOTE: When the ball is <<Ball In And Out Of Play, out of play>>, the more strict rule <<Robot Too Close To Opponent Defense Area>> applies instead.
-
 ==== Excessive Dribbling
 A robot must not <<Dribbling Device, dribble>> the ball further than 1 meter, measured linearly from the ball location where the dribbling started. A robot begins dribbling when it makes contact with the ball and stops dribbling when there is an observable separation between the ball and the robot.
 
@@ -53,6 +48,11 @@ Every third foul of the same team results in a <<Yellow Card, yellow card>>.
 In case of severe fouls, the referee can also issue a <<Yellow Card, yellow card>> or a <<Red Card, red card>>.
 
 All fouls are listed below.
+
+==== Attacker Touches Robot In Opponent Defense Area
+When the ball <<Ball In And Out Of Play, in play>>, a robot must not touch any opponent robot inside the opponent <<Defense Area, defense area>>.
+
+NOTE: When the ball is <<Ball In And Out Of Play, out of play>>, the rule <<Robot Too Close To Opponent Defense Area>> applies instead.
 
 ==== Robot Too Close To Opponent Defense Area
 During <<Stop, stop>>, <<Direct Free Kick, direct free kicks>> and <<Indirect Free Kick, indirect free kicks>>, before the ball <<Resuming The Game, has entered play>>, all robots have to keep at least 0.2 meters distance to the opponent <<Defense Area, defense area>>.
@@ -71,7 +71,9 @@ NOTE: This rule does not cover all cases of ball placement interference. The <<R
 At the moment of collision of two robots of different teams, the difference of the speed vectors of both robots is taken and projected onto the line that is defined by the position of both robots. If the length of this projection is greater than 1.5 meters per second, the faster robot committed a foul. If the absolute robot speed difference is less than 0.3 meters per second, both conduct a foul but the game will not be stopped.
 
 ==== Pushing
-A robot pushes an opponent robot if both robots keep contact to the ball or to each other while both robots travel towards the opponent robot for more than 0.2 meters or until the opponent enters its <<Defense Area, defense area>>.
+A robot pushes an opponent robot if both robots keep contact to the ball or to each other while the robot exerts force onto the opponent robot, such that both robots travel towards the opponent robot.
+
+NOTE: If both robots are pushing each other with similar force, no team is at fault.
 
 ==== Ball Holding
 Robots must not surround the ball to prevent access by others.
@@ -142,6 +144,6 @@ The foul counter is still incremented and any resulting cards are given when the
 .Fouls that are considered
 
 * <<Crashing>>, if not both teams committed the foul
-* <<Pushing>>
+* <<Attacker Touches Robot In Opponent Defense Area>>
 
 NOTE: If the team is not connected to the game controller or does not reply within 0.2 seconds, the decision of the team defaults to stopping the game.
