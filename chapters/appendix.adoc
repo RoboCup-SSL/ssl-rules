@@ -22,7 +22,7 @@ Chapter <<Robots>>:
 |===
 | Event | Applicability | Command | AutoRef
 
-| <<Number Of Robots>> exceeded | always | <<Stop>> | icon:times[role="red"]
+| <<Number Of Robots>> exceeded | always | <<Stop>> | icon:check[role="green"]
 |===
 
 Chapter <<Referee Commands>>:
