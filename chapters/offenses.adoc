@@ -20,13 +20,6 @@ NOTE: If both teams are allowed to manipulate the ball, and thus no team is at f
 
 NOTE: If both teams are clearly unable to bring the ball <<Ball In And Out Of Play, into play>> without violating the rules, the referee may issue a <<Force Start, force start>> command instead of an <<Indirect Free Kick, indirect free kick>> for the other team.
 
-==== Double Touch
-When the ball is brought <<Ball In And Out Of Play, into play>> following a <<Kick-Off, kick-off>>, <<Direct Free Kick, direct free kick>>, <<Indirect Free Kick, indirect free kick>> or <<Penalty Kick, penalty kick>>, the kicker is not allowed to touch the ball until it has been touched by another robot or the game has been stopped.
-
-The ball must have moved at least 0.05 meters to be considered as <<Ball In And Out Of Play, in play>>.
-
-NOTE: It is understood that the ball may be bumped by the robot multiple times over a short distance while the kick is being taken. This is why a distance of 0.05 meters is used to decide whether a robot violates this rule or not. Remaining in contact with the ball for more than 0.05 meters also counts as double touch, even though technically the robot only touched the ball once.
-
 ==== Attacker In Defense Area
 A robot must not touch the ball while being partially or fully inside the opponent <<Defense Area, defense area>>.
 

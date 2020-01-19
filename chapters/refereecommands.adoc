@@ -86,8 +86,6 @@ When the kick-off command is issued, all robots have to move to their own half o
 
 When the <<Normal Start, normal start>> command is issued, the kicker is allowed to shoot the ball. A goal may be scored directly from the kick-off.
 
-When the ball is <<Ball In And Out Of Play, in play>>, the kicker may not touch the ball until it has been touched by another robot or the game has been stopped (see <<Double Touch, double touch>>). Also, the restrictions regarding the robot positions are lifted.
-
 .Usage
 Both half times as well as both overtime periods (if needed) start with a kick-off. Chapter <<Match Preparation>> describes how to determine the attacking team.
 
@@ -99,10 +97,10 @@ The ball placement position for a free kick depends on the event that led to the
 
 When the direct free kick command is issued, robots of the attacking team are allowed to approach the ball while robots of the defending team still have to stay at least 0.5 meters distance away from the ball (the same distance as in stop). One robot of the attacking team is allowed to shoot the ball. This robot will be referred to as the kicker. A goal may be scored directly from the direct free kick.
 
-When the ball is <<Ball In And Out Of Play, in play>>, the kicker may not touch the ball until it has been touched by another robot or the game has been stopped (see <<Double Touch, double touch>>). Also, the restrictions regarding the robot positions are lifted.
+When the ball is <<Ball In And Out Of Play, in play>>, the restrictions regarding the robot positions are lifted.
 
 .Usage
-Direct free kicks are used to restart the game after a <<Fouls, foul>> has occured. Additionally, <<Goal Kick, goal kicks>> and <<Corner Kick, corner kicks>> are mapped to direct free kicks.
+Direct free kicks are used to restart the game after a <<Fouls, foul>> has occurred. Additionally, <<Goal Kick, goal kicks>> and <<Corner Kick, corner kicks>> are mapped to direct free kicks.
 
 ==== Indirect Free Kick
 .Definition
@@ -115,7 +113,7 @@ NOTE: Scoring a goal from an indirect free kick does not require more than one a
 NOTE: In association football, it is sufficient if any player (including the keeper) touches the ball before it enters the goal. To discourage the teams to shoot directly at the goal and hope that the keeper touches it, the rules of the Small Size League require a second touch of an attacking robot.
 
 .Usage
-Indirect free kicks are used to restart the game after a <<Minor Offenses, minor offense>> has occured. Additionally, <<Throw-In, throw-ins>> are mapped to indirect free kicks.
+Indirect free kicks are used to restart the game after a <<Minor Offenses, minor offense>> has occurred. Additionally, <<Throw-In, throw-ins>> are mapped to indirect free kicks.
 
 ==== Force Start
 .Definition
@@ -134,7 +132,7 @@ When the penalty command is issued, one attacking robot is allowed to approach b
 
 When the <<Normal Start, normal start>> command is issued, the kicker is allowed to shoot the ball. A goal may be scored directly from the penalty kick.
 
-When the ball is <<Ball In And Out Of Play, in play>>, the kicker may not touch the ball until it has been touched by another robot or the game has been stopped (see <<Double Touch, double touch>>). Also, the restrictions regarding the robot positions are lifted.
+When the ball is <<Ball In And Out Of Play, in play>>, the restrictions regarding the robot positions are lifted.
 
 Additional time is allowed for a penalty kick to be taken at the end of each half or at the end of periods of overtime.
 
