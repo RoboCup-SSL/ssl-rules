@@ -122,7 +122,8 @@ Indirect free kicks are used to restart the game after a <<Minor Offenses, minor
 When the force start command is issued, the game is immediately resumed and both teams are allowed to approach and <<Ball Manipulation, manipulate the ball>> again.
 
 .Usage
-The referee can issue a stop command followed by force start if there is a clear lack of progress for at least 10 seconds while both teams are allowed to approach and <<Ball Manipulation, manipulate the ball>>.
+The referee can issue a <<Stop, stop>> command followed by <<Force Start, forced start>> if there
+is a clear <<Lack Of Progress, lack of progress>>.
 
 It can also be used to resume the game when the game had to be stopped and no team or both teams are at fault.
 
