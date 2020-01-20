@@ -1,7 +1,7 @@
 == Robots
 
 === Number Of Robots
-A match is played by two teams, with each team consisting of not more than 8 robots in division A and not more than 6 robots in division B, one of which may be the keeper. Each robot must be clearly numbered according to its vision pattern so that the referee can identify it during the match. The id of the keeper must be chosen before the match starts (see <<Choosing Keeper Id>>).
+A match is played by two teams, with each team consisting of not more than 11 robots in division A and not more than 6 robots in division B, one of which may be the keeper. Each robot must be clearly numbered according to its vision pattern so that the referee can identify it during the match. The id of the keeper must be chosen before the match starts (see <<Choosing Keeper Id>>).
 
 === Hardware And Software Constraints
 The <<Referee, referee>> may force a team to remove a robot from the field if it does not satisfy the rules. Members of the <<Technical Committee, technical committee>> may also check the hardware and software constraints of robots at any point of the tournament.
