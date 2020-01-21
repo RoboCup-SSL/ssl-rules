@@ -82,7 +82,7 @@ Besides the shared vision equipment, teams are not allowed to mount their own ca
 A game is controlled by the community-maintained ssl-game-controller (https://github.com/RoboCup-SSL/ssl-game-controller).
 It is operated by the <<Game Controller Operator, game controller operator>>. The software translates decisions of the <<Referee, referee>> and the <<Automatic Referee, automatic referee>> into Ethernet communication signals that are broadcast to the network. It maintains the state of the game, tracks all events and acts as a proxy between all participating parties in the game.
 
-The game-controller has a network interface for the playing teams. They can automatically change their keeper id when the ball is <<Ball In And Out Of Play, out of play>>, they can signal a robot substitution intent for the next opportunity and they can reply to requests of the <<Advantage Rule, advantage rule>>.
+The game-controller has a network interface for the playing teams. They can automatically change their keeper id when the ball is on the opponent's half, they can signal a robot substitution intent for the next opportunity and they can reply to requests of the <<Advantage Rule, advantage rule>>.
 
 ==== Automatic Referee
 One or more automatic referee applications can supervise a game and report <<Offenses, offenses>> to the <<Game Controller, game controller>>.
