@@ -5,8 +5,8 @@ Robots are substituted by the <<Robot Handler, robot handler>> of the respective
 . Robot substitution during game play - Division A only:
 .. The <<Robot Handler, robot handler>> should prefer to use long sleeves and colors that won't interfere with the vision system.
 .. A <<Robot Handler, robot handler>> who's team is marked for robot substitution performs at least one of the following operations in the given order.
-... Put robots in during game play. If the ball is at least 2 meters away from the mid line, the robot can be placed in it without notifying the <<Referee, referee>>.
-... Take robots out during game play (Division A only). If a robot is at the mid line and the ball is at least 2 meters away from the mid line, the robot can be removed without notifying the <<Referee, referee>>.
+... Put robots in. If the ball is at least 2 meters away from the halfway line, the robot can be placed on the intersection of the halfway line with any touch line without notifying the <<Referee, referee>>.
+... Take robots out. If a robot is at the intersection of the halfway line with any touch line and the ball is at least 2 meters away from the halfway line, the robot can be removed without notifying the <<Referee, referee>>.
 
 . Robot substitution on next stoppage - Both Divisions:
 .. A <<Robot Handler, robot handler>> who's team is marked for robot substitution performs at least one of the following operations in the given order.
