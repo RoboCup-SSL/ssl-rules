@@ -1,0 +1,13 @@
+== Emergency stop
+
+This rule only applies to Division A.
+
+.Definition
+
+A team can ask to stop the game immediately after a grace period of 10 seconds or at the next stoppage, whichever happens first regardless of the current situation. It will receive a yellow card for this and must take a timeout immediately. If the team is out of timeouts, it is still allowed to remove robots from the field, but can not use any remaining timeout time.
+
+.Usage
+
+A emergency stop intent can be made by:
+
+. A <<Robot Handler, robot handler>> by informing the <<Game Controller Operator, game controller operator>> who in turn enters the intent into the <<Game Controller, game controller>>.
