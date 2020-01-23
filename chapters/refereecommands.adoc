@@ -102,7 +102,7 @@ When the direct free kick command is issued, robots of the attacking team are al
 When the ball is <<Ball In And Out Of Play, in play>>, the kicker may not touch the ball until it has been touched by another robot or the game has been stopped (see <<Double Touch, double touch>>). Also, the restrictions regarding the robot positions are lifted.
 
 .Usage
-Direct free kicks are used to restart the game after a <<Fouls, foul>> has occured. Additionally, <<Goal Kick, goal kicks>> and <<Corner Kick, corner kicks>> are mapped to direct free kicks.
+Direct free kicks are used to restart the game after a <<Fouls, foul>> has occurred. Additionally, <<Goal Kick, goal kicks>> and <<Corner Kick, corner kicks>> are mapped to direct free kicks.
 
 ==== Indirect Free Kick
 .Definition
@@ -115,7 +115,7 @@ NOTE: Scoring a goal from an indirect free kick does not require more than one a
 NOTE: In association football, it is sufficient if any player (including the keeper) touches the ball before it enters the goal. To discourage the teams to shoot directly at the goal and hope that the keeper touches it, the rules of the Small Size League require a second touch of an attacking robot.
 
 .Usage
-Indirect free kicks are used to restart the game after a <<Minor Offenses, minor offense>> has occured. Additionally, <<Throw-In, throw-ins>> are mapped to indirect free kicks.
+Indirect free kicks are used to restart the game after a <<Minor Offenses, minor offense>> has occurred. Additionally, <<Throw-In, throw-ins>> are mapped to indirect free kicks.
 
 ==== Force Start
 .Definition
@@ -154,7 +154,9 @@ If the yellow card is shown as a result of <<Unsporting Behavior, unsporting beh
 
 Upon receipt of a yellow card, the number of robots allowed on the field for the penalized team decreases by one. If, after this decrease, the team has more robots than permitted on the field, a robot must be <<Robot Substitution, taken out>>.
 
-After the yellow card is issued the game will not be stopped, the team will have 10s to move any robot to the mid line of the field, where it can be immediately removed. If a robot is not taken out within time, the game is stopped for <<Robot Substitution, manual substitution>>, the ball is placed 1.5m from the teams defense area and the other team gets a free kick.
+After the yellow card is issued the game will not be stopped, the team will have 10 seconds to move any robot to the mid line of the field, where it can be immediately removed. If a robot is not taken out within time, the game is stopped for <<Robot Substitution, manual substitution>>.
+
+NOTE: In 2020 no penalty will be given to the team that couldn't get the robot out of the field in time, however, in 2021, if the robot gets manually substituted, the ball is placed on the mid line and 1.5 meters away from the teams defense area and the other team gets a free kick.
 
 //before <<Resuming The Game, play resumes>>. The penalized team can choose the robot to remove.
 
