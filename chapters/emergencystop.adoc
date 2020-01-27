@@ -8,11 +8,11 @@ A team can ask to stop the game immediately after a grace period of 10 seconds o
 
 .Usage
 
-A emergency stop intent can be made by:
+An emergency stop intent can be made by:
 
 // To inform the referee a communication flag shall be used
 // TODO: link "informing" with the communication flag section
 
 . A <<Robot Handler, robot handler>> by informing the <<Referee, referee>> who shall stop the game within 10 seconds or at the next stoppage.
 
-NOTE: Until we implement an automatic procedure, e.g. Raspberry PI, the referee is allowed to stop the game earlier than 10 seconds, if there isn't a important play in action, e.g. no team is at the risk of scoring a goal or the ball is close to the halfway line.
+NOTE: Until we implement an automatic procedure, e.g. Raspberry PI, the referee is allowed to stop the game earlier than 10 seconds, if there isn't an important play in action, e.g. no team is at the risk of scoring a goal or the ball is close to the halfway line.
