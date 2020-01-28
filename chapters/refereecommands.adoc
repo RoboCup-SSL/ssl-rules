@@ -17,7 +17,7 @@ When the halt command is issued, no robot is allowed to move or <<Ball Manipulat
 There is a grace period of 2 seconds for the robots to brake.
 
 .Usage
-The halt command allows the referee to interrupt the game immediately whenever an emergency occurs (for example when a robot gets out of contol). It is also used for <<Robot Substitution, robot substitution>>. Additionally, the referee is free to issue the halt command at will.
+The halt command allows the referee to interrupt the game immediately whenever an emergency occurs (for example when a robot gets out of control). It is also used for <<Robot Substitution, robot substitution>>. Additionally, the referee is free to issue the halt command at will.
 
 Regarding the vision system, the game will be immediately halted in case of catastrophic failures, which includes:
 
@@ -28,12 +28,14 @@ Regarding the vision system, the game will be immediately halted in case of cata
 
 The game is continued in case of:
 
-. The ball is detected at least every 0.2s while not being covered by some robot or shadow;
-. All robots on the field are detected at least every 0.5s;
+. The ball is detected at least every 0.2 seconds while not being covered by some robot or shadow;
+. All robots on the field are detected at least every 0.5 seconds;
+
+In case the robot or ball detection gets worse than the previously defined threshold, the game may be halted. There won't be any tool that guarantees that the game will be halted in case those thresholds are violated.
  
 NOTE: Teams are responsible for validating the vision calibration before the game starts.
 
-To help newcoming teams, link:https://github.com/RoboCup-SSL/ssl-autorefs[TIGERs Autoref] broadcasts filtered balls and robots through the link:https://ssl.robocup.org/league-software/[ssl-vision-tracker-protocol]
+To help new teams, link:https://github.com/RoboCup-SSL/ssl-autorefs[TIGERs Autoref] broadcasts filtered balls and robots through the link:https://ssl.robocup.org/league-software/[ssl-vision-tracker-protocol]
 
 The halt command is always followed up by stop.
 
