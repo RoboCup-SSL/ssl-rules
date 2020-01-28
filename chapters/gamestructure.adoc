@@ -97,7 +97,9 @@ The <<Referee, referee>> tosses a coin with both <<Robot Handler, robot handlers
 ==== Choosing Keeper Id
 The <<Referee, referee>> asks both <<Robot Handler, robot handlers>> which robot they will use as the keeper and forwards this information to the <<Game Controller Operator, game controller operator>>.
 
-The keeper Id can also be changed during game play, this can be done automatically by using the <<Game Controller, game controller>> network interface or manually, in this case, the <<Game Controller Operator, game controller operator>> is responsible for checking if the ball is in a valid position and making the change.
+The keeper id can also be changed during game play. This can be done automatically by using the <<Game Controller, game controller>> network interface or by asking the <<Game Controller Operator, game controller operator>> to change it in the <<Game Controller, game controller>>. The <<Game Controller Operator, game controller operator>> must not change the keeper id until the ball is at a valid position.
+
+Teams can automatically change their keeper id when the ball is on the opponent's half by using the <<Game Controller, game controller>> network interface.
 
 NOTE: If a team does not want to use a keeper, it may select the id of a robot that is not on the field.
 
