@@ -31,7 +31,11 @@ The game is continued in case of:
 . The ball is detected at least every 0.2 seconds while not being covered by some robot or shadow;
 . All robots on the field are detected at least every 0.5 seconds;
 
-In case the robot or ball detection gets worse than the previously defined threshold, the game may be halted. There won't be any tool that guarantees that the game will be halted in case those thresholds are violated.
+In case the robot or ball detection gets worse than the previously defined threshold, the game may be halted.
+
+The <<Vision Expert, vision expert>> may monitor a link:https://github.com/RoboCup-SSL/ssl-quality-inspector[quality inspecting tool] that both teams agree with and signal issues with the vision system to the referee. Only tools that are run on official league computers are allowed for vision quality checks.
+
+NOTE: In order to avoid interruptions, only officially proven issues should lead to game stoppages.
  
 NOTE: Teams are responsible for validating the vision calibration before the game starts.
 
