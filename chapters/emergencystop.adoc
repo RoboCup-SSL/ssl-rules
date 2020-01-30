@@ -6,6 +6,17 @@ This rule only applies to Division A.
 
 A team can ask to stop the game immediately after a grace period of 10 seconds or at the next stoppage, whichever happens first regardless of the current situation. It will receive a yellow card for this and must take a timeout immediately. If the team is out of timeouts, it is still allowed to remove robots from the field, but can not use any remaining timeout time.
 
+There are three possible situations when this rule is used:
+
+. 10 seconds have passed and the game is stopped;
+. The game is stopped earlier than 10 seconds due to the ball leaving the field or a foul occurred;
+. The human referee stopped the game manually earlier than 10 seconds.
+
+And there are two methods of restarting the game:
+
+. For situation 1 and 3, the game is continued with a free kick for the opposing team;
+. For situation 2, the game is continued like a regular timeout.
+
 .Usage
 
 An emergency stop intent can be made by:
