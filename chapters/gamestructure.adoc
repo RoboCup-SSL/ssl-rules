@@ -72,7 +72,7 @@ Before the start of the match, every team has to designate one robot handler. Th
 .Duties
 * The robot handler helps <<Match Preparation, preparing the match>>.
 * The robot handler asks the referee for <<Timeouts, timeouts>> if necessary.
-* The robot handler can substitute a robot during game play, if it is at the halfway line (Division A only), <<Robot Substitution, substitutes the robot>>.
+* The robot handler can substitute a robot during game play, <<Robot Substitution, substitutes the robot>>.
 * The robot handler asks the referee for the permission to substitute a robot in the next stoppage and, if the referee agrees, <<Robot Substitution, substitutes the robot>>.
 * The robot handler voices concerns of the team (for example network issues or vision problems).
 
