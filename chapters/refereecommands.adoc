@@ -141,7 +141,7 @@ Additional time is allowed for a penalty kick to be taken at the end of each hal
 The penalty kick is retaken if the attacking team infringes the rules and the ball enters the goal or the defending team infringes the rules and the ball does not enter the goal.
 
 .Usage
-Penalty Kicks are used to punish teams that received multiple <<Yellow Card, yellow cards>>, as well as to punish <<Unsporting Behavior, unsporting behavior>> and <<Multiple Defenders, multiple defenders>>.
+Penalty Kicks are used to punish <<Unsporting Behavior, unsporting behavior>> and <<Multiple Defenders, multiple defenders>>.
 
 
 === Sanctions
@@ -156,7 +156,7 @@ Upon receipt of a yellow card, the number of robots allowed on the field for the
 
 After 120 seconds of playing time (measured by the game controller), the yellow card expires and the number of allowed robots is increased by one. The team may <<Robot Substitution, put a robot back in>> during the next opportunity.
 
-For every third card (regardless of its color) for one team, a <<Penalty Kick, penalty kick>> is awarded to the opponent team.
+When a team has two not yet expired yellow cards and receives another yellow card, this card will be turned into a red card instead.
 
 .Usage
 Yellow cards are used to punish teams that committed multiple <<Fouls, fouls>>.
