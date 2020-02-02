@@ -36,7 +36,7 @@ The ball must have moved at least 0.05 meters to be considered as <<Ball In And 
 NOTE: It is understood that the ball may be bumped by the robot multiple times over a short distance while the kick is being taken. This is why a distance of 0.05 meters is used to decide whether a robot violates this rule or not. Remaining in contact with the ball for more than 0.05 meters also counts as double touch, even though technically the robot only touched the ball once.
 
 ==== Attacker In Defense Area
-A robot must not touch the ball while being partially or fully inside the opponent <<Defense Area, defense area>>.
+A robot must not touch the ball while being partially or fully inside the opponent <<Defense Area, defense area>>. This offense increments the <<Fouls, foul counter>> by one, which may result in a yellow card. Additionally, any goals scored within 2 seconds of the end of this offense will not count.
 
 NOTE: When the ball is <<Ball In And Out Of Play, out of play>>, the more strict rule <<Robot Too Close To Opponent Defense Area>> applies instead.
 
