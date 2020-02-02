@@ -64,7 +64,7 @@ Chapter <<Offenses>>, section <<Minor Offenses>>:
 | <<Double Touch>> | <<Ball In And Out Of Play, ball in play>> | <<Stop>>, then <<Indirect Free Kick>> | icon:check[role="green"]
 | <<Attacker In Defense Area>> | <<Ball In And Out Of Play, ball in play>> | <<Stop>>, then <<Indirect Free Kick>> | icon:check[role="green"]
 | <<Attacker Touches Robot In Opponent Defense Area>> skipped | <<Ball In And Out Of Play, ball in play>> | no command | icon:check[role="green"] (<<Advantage Rule>>)
-| <<Excessive Dribbling>> | <<Ball In And Out Of Play, ball in play>> | <<Stop>>, then <<Indirect Free Kick>> | icon:check[role="green"]
+| <<Excessive Dribbling>> | <<Ball In And Out Of Play, ball in play>> | Goals within 2 seconds do not count, Increase <<Fouls, foul counter>> | icon:check[role="green"]
 | <<Ball Speed>> | <<Ball In And Out Of Play, ball in play>> | <<Stop>>, then <<Indirect Free Kick>> | icon:check[role="green"]
 |===
 
