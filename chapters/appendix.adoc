@@ -86,7 +86,7 @@ Chapter <<Offenses>>, section <<Fouls>>:
 | <<Robot Stop Speed>> | during <<Stop>> | <<Stop>>, then <<Direct Free Kick>> | icon:check[role="green"]
 | <<Defender Too Close To Ball>> | <<Ball In And Out Of Play, ball out of play>> | <<Stop>>, then <<Direct Free Kick>> | icon:check[role="green"]
 | <<Multiple Defenders>> partially | <<Ball In And Out Of Play, ball in play>> | <<Stop>>, then <<Direct Free Kick>>, <<Yellow Card>> | icon:check[role="green"]
-| <<Multiple Defenders>> entirely | <<Ball In And Out Of Play, ball in play>> | <<Stop>>, then <<Penalty Kick>> | icon:check[role="green"]
+| <<Multiple Defenders>> entirely | <<Ball In And Out Of Play, ball in play>> | <<Red Card>> | icon:check[role="green"]
 |===
 
 Chapter <<Offenses>>, section <<Unsporting Behavior>>:
