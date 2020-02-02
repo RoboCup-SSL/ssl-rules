@@ -70,6 +70,8 @@ All fouls are listed below.
 ==== Attacker Touches Robot In Opponent Defense Area
 When the ball <<Ball In And Out Of Play, in play>>, a robot must not touch any opponent robot inside the opponent <<Defense Area, defense area>>.
 
+Game continues but goals within 2 seconds of the end of the offense are not counted. Foul counter is increased.
+
 NOTE: When the ball is <<Ball In And Out Of Play, out of play>>, the rule <<Robot Too Close To Opponent Defense Area>> applies instead.
 
 ==== Robot Too Close To Opponent Defense Area
