@@ -76,7 +76,7 @@ Chapter <<Offenses>>, section <<Fouls>>:
 | Multiple <<Fouls>> | <<Ball In And Out Of Play, ball out of play>> | <<Yellow Card>> | icon:times[role="red"] (handled by the game controller)
 | <<Attacker Touches Robot In Opponent Defense Area>> | <<Ball In And Out Of Play, ball in play>> | <<Stop>>, then <<Indirect Free Kick>> | icon:check[role="green"]
 | <<Robot Too Close To Opponent Defense Area>> | <<Ball In And Out Of Play, ball out of play>> | <<Stop>>, then <<Direct Free Kick>> | icon:check[role="green"]
-| <<Ball Placement Interference>> | during <<Ball Placement>> | <<Stop>>, then <<Direct Free Kick>> | icon:check[role="green"]
+| <<Ball Placement Interference>> | during <<Ball Placement>> | Increase <<Ball Placement>> timer by 10s | icon:check[role="green"]
 | <<Crashing>> | always | <<Stop>>, then <<Direct Free Kick>> | icon:check[role="green"]
 | <<Crashing>> skipped | always | no command | icon:check[role="green"] (<<Advantage Rule>>)
 | <<Crashing>> draw | always | no command | icon:check[role="green"]
