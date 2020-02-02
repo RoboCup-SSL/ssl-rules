@@ -18,7 +18,7 @@ A robot substitution intent can be made by:
 . A <<Robot Handler, robot handler>> by informing the <<Game Controller Operator, game controller operator>> who in turn enters the intent into the <<Game Controller, game controller>>.
 . A team software by sending a request to the <<Game Controller, game controller>>.
 . The <<Game Controller, game controller>> itself if a team exceeds the maximum number of robots (for example after a team receives a <<Yellow Card, yellow>> or <<Red Card, red card>>).
-. *(Division A only)* If a robot needs to be taken out and it is not in the mid line, a timeout needs to be taken in order for the team to remove the robot from the field. If a team is out of timeouts, it will still be able to take the robot out, however, it will not be able to use any remaining timeout time, the robot must be removed from the field as fast as possible.
+. *(Division A only)* If a robot can not be taken out in the substitution area, a timeout needs to be taken in order for the team to remove the robot from the field. If a team is out of timeouts, it will still be able to take the robot out, however, it will not be able to use any remaining timeout time, the robot must be removed from the field as fast as possible.
 
 If the game was halted due to a substitution intent by a team, at least one substitution (taking a robot out or putting one in) must be performed by this team. A substitution intent can be revoked unless the game was not already halted for substitution.
 
