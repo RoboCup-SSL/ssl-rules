@@ -6,16 +6,12 @@ Robots are substituted by the <<Robot Handler, robot handler>> of the respective
 
 . Robots can always be substituted during game play if the following specifications are respected:
 
-.. Is at least partially inside the <<Field Surface, field margin>>
-.. At a distance from the halfway line that must not exceed 30 centimeters
+.. The robot is at least partially inside the <<Field Surface, field margin>>
+.. The robot is at a distance from the halfway line that must not exceed 1 meter
 .. The ball must be at least 2 meters away from the halfway line
 
-. If the previous specifications are respected, the <<Robot Handler, robot handler>> is allowed to perform the following operations.
-... Put robots in, without notifying the <<Referee, referee>>.
-... Take robots out, without notifying the <<Referee, referee>>.
-
-. Given that robots can be put in at any time, while respecting the previous specifications, on a game stoppage robots can only be removed.
-.. A <<Robot Handler, robot handler>> who's team is marked for robot substitution performs the following operation in the given order.
+. If the previous specifications are respected, the <<Robot Handler, robot handler>> is allowed to put robots in and take robots out, without notifying the <<Referee, referee>>.
+.. Additionally, robots can be taken out from any position during game stoppage by the <<Robot Handler, robot handler>> using the procedure below:
 ... Take robots out.
 ... The <<Robot Handler, robot handler>> informs the <<Referee, referee>> when done.
 ... When both teams finished the robot substitution, the <<Referee, referee>> informs the <<Game Controller Operator, game controller operator>>.
@@ -23,7 +19,7 @@ Robots are substituted by the <<Robot Handler, robot handler>> of the respective
 
 . If one of the robots taken out is the keeper, the <<Robot Handler, robot handler>> tells the <<Game Controller Operator, game controller operator>> the id of the robot that takes over the keeper role.
 
-. The maximum allowed number of robots of the team on the field must not be exceeded.
+. The maximum allowed number of robots of the team on the field must not be exceeded at any time.
 
 
 .Usage
@@ -32,6 +28,7 @@ Robots can be substituted for any reason. There is no limit on the number of sub
 A robot substitution intent can be made by:
 
 . A <<Robot Handler, robot handler>> by informing the <<Game Controller Operator, game controller operator>> who in turn enters the intent into the <<Game Controller, game controller>>.
+. A team software by sending a request to the <<Game Controller, game controller>>.
 . The <<Game Controller, game controller>> itself if a team exceeds the maximum number of robots (for example after a team receives a <<Yellow Card, yellow>> or <<Red Card, red card>>).
 
 If the game was halted due to a substitution intent by a team, at least one substitution (taking a robot out or putting one in) must be performed by this team. A substitution intent can be revoked unless the game was not already halted for substitution.
