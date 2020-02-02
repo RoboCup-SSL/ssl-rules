@@ -76,7 +76,7 @@ After the ball has been placed, the game is resumed using one of the following c
 For two-staged referee commands, when normal start is sent, an attacker may <<Ball Manipulation, manipulate the ball>>. A match cannot be resumed directly via normal start.
 
 .Usage
-Normal start is used for <<Kick-Off, kick-offs>>, <<Penalty Kick, penalty kicks>> and <<Shoot-Out, shoot-out>>.
+Normal start is used for <<Kick-Off, kick-offs>> and <<Penalty Kick, penalty kicks>>.
 
 ==== Kick-Off
 .Definition
@@ -149,7 +149,8 @@ A goal is not awarded if:
 * the defending keeper touches the ball such that the ball speed vector changes direction by at least 90 degrees in 2D space
 * the attacking team violates any rule
 
-NOTE: The restrictions defined for <<Scoring Goals, scoring goals>> do not apply here. This explicitly includes the ball height limit of 0.15 meters. Other rules like the <<Excessive Dribbling, excessive dribbling>> limitation for example do.
+NOTE: The restrictions defined for <<Scoring Goals, scoring goals>>, including the ball height limit of 0.15 meters, do not apply here.
+Other rules like the <<Excessive Dribbling, excessive dribbling>> limitation for example do.
 
 When the ball is <<Ball In And Out Of Play, in play>>, the kicker may not touch the ball until it has been touched by another robot or the game has been stopped (see <<Double Touch, double touch>>). Also, the restrictions regarding the robot positions are lifted.
 
