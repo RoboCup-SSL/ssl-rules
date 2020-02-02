@@ -114,7 +114,8 @@ NOTE: Since the stop command is used for manual ball placement and <<Robot Subst
 
 ==== Defender Too Close To Ball
 A robot's distance to the ball must be at least 0.5 meters during an opponent <<Kick-Off, kick-off>>, <<Direct Free Kick, direct free kick>> or <<Indirect Free Kick, indirect free kick>>.
-The game is resumed with the same command that was issued before the foul.
+
+Game continues but <<Fouls, foul counter increases>>.
 
 NOTE: During <<Stop, stop>>, there is no automatic sanction for being too close to the ball. The referee may still punish a team for <<Unsporting Behavior,unsporting behavior>> by issuing a <<Yellow Card, yellow card>> if it does not respect the required distance. See <<Stop, stop>> for further explanation.
 

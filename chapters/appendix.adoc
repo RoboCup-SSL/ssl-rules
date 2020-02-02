@@ -84,7 +84,7 @@ Chapter <<Offenses>>, section <<Fouls>>:
 | <<Ball Holding>> | <<Ball In And Out Of Play, ball in play>> | <<Stop>>, then <<Direct Free Kick>> | icon:check[role="green"]
 | <<Tipping Over Or Dropping Parts>> | always | <<Stop>>, then <<Direct Free Kick>> | icon:times[role="red"]
 | <<Robot Stop Speed>> | during <<Stop>> | <<Stop>>, then <<Direct Free Kick>> | icon:check[role="green"]
-| <<Defender Too Close To Ball>> | <<Ball In And Out Of Play, ball out of play>> | <<Stop>>, then <<Direct Free Kick>> | icon:check[role="green"]
+| <<Defender Too Close To Ball>> | <<Ball In And Out Of Play, ball out of play>> | Increase <<Fouls, foul counter>> | icon:check[role="green"]
 | <<Multiple Defenders>> partially | <<Ball In And Out Of Play, ball in play>> | <<Stop>>, then <<Direct Free Kick>>, <<Yellow Card>> | icon:check[role="green"]
 | <<Multiple Defenders>> entirely | <<Ball In And Out Of Play, ball in play>> | <<Stop>>, then <<Penalty Kick>> | icon:check[role="green"]
 |===
