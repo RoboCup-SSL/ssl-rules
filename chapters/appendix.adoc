@@ -77,7 +77,7 @@ Chapter <<Offenses>>, section <<Fouls>>:
 | <<Attacker Touches Robot In Opponent Defense Area>> | <<Ball In And Out Of Play, ball in play>> | <<Stop>>, then <<Indirect Free Kick>> | icon:check[role="green"]
 | <<Robot Too Close To Opponent Defense Area>> | <<Ball In And Out Of Play, ball out of play>> | <<Stop>>, then <<Direct Free Kick>> | icon:check[role="green"]
 | <<Ball Placement Interference>> | during <<Ball Placement>> | <<Stop>>, then <<Direct Free Kick>> | icon:check[role="green"]
-| <<Crashing>> | always | <<Stop>>, then <<Direct Free Kick>> | icon:check[role="green"]
+| <<Crashing>> | always | <<Fouls, Foul counter>> increased | icon:check[role="green"]
 | <<Crashing>> skipped | always | no command | icon:check[role="green"] (<<Advantage Rule>>)
 | <<Crashing>> draw | always | no command | icon:check[role="green"]
 | <<Pushing>> | always | <<Stop>>, then <<Direct Free Kick>> | icon:times[role="red"]
