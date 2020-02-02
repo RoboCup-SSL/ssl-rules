@@ -4,7 +4,15 @@ Offenses are divided into multiple categories according to the seriousness of th
 NOTE: Rule of thumb: Minor offenses are infringements of the rules committed by an attacking robot while the ball is <<Ball In And Out Of Play, in play>>. Fouls are infringements of the rules committed by a defender or while the ball is <<Ball In And Out Of Play, out of play>> or infringements that may harm the humans, the robots or the field.
 
 === Minor Offenses
-Minor offenses are violations of the rules that result in a stoppage and a subsequent <<Indirect Free Kick, indirect free kick>> for the opposing team. The free kick will be shot from the position where the offense began happening (see <<Direct Free Kick, the direct free kick rules>> for the exact ball position rules).
+
+Minor offenses are violations of the rules, generally by the attacking team. They result in two broad classes of penalty:
+
+  - <<Fouls, Foul counter increase>>
+  - Stoppage and subsequent <<Indirect Free Kick, indirect free kick>> for the opposing team.
+
+In the case of an <<Indirect Free Kick, indirect free kick>>, the free kick will be shot from the position where the offense began happening (see <Direct Free Kick, the direct free kick rules>> for the exact ball position rules).
+
+If the offense does not stop the game, then goals will not be counted for some duration from the end of the offense. This will reduce unnecessary stoppage, keeping the game fluid, while simultaneously not incentivizing teams to trade fouls for goals.
 
 All minor offenses are listed below.
 
