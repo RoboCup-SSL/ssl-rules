@@ -24,7 +24,7 @@ image::double-size-field.png[]
 ==== Field Surface
 The playing surface is green felt mat or carpet. The floor under the carpet is level, flat, and hard.
 
-The field surface will continue for 0.7 meters beyond the <<Field Lines, field lines>> on all sides. The outer 0.4 meters of this runoff area, separated from the robot area by a 0.1 meters tall wall, is used as a designated walking area for the <<Referee, referee>> and the <<Assistant Referee, assistant referee>>.
+The field surface will continue for 0.7 meters beyond the <<Field Lines, field lines>> on all sides. The outer 0.4 meters of this runoff area, separated from the robot area by a 0.1 meters tall wall, is used as a designated walking area for the <<Referee, referee>> and the <<Assistant Referee, assistant referee>>. The remaining 0.3 meters are the field margins.
 
 
 ==== Field Markings
