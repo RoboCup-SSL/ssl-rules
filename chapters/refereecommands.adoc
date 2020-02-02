@@ -155,6 +155,8 @@ Upon receipt of a yellow card, the number of robots allowed on the field for the
 
 After the yellow card is issued the game will not be stopped, the team will have 10 seconds to <<Robot Substitution, automatically remove the robot>>. If a robot is not taken out within time, the game is stopped for <<Robot Substitution, manual substitution>>.
 
+NOTE: There are some fouls that causes game stoppage, e.g. dropping parts. Therefore, if any of these fouls happen within 10 seconds of the yellow card, teams are allowed to replace the robot.
+
 NOTE: In 2020 no penalty will be given to the team that couldn't get the robot out of the field in time. Thus, the game shall be restarted using a force start. However, in 2021, if the robot gets manually substituted, the ball is placed on the mid line and 1.5 meters away from the teams defense area and the opposing team gets a free kick.
 
 
