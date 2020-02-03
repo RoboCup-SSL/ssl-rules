@@ -36,4 +36,6 @@ include::chapters/substitution.adoc[]
 
 include::chapters/shootout.adoc[]
 
+include::chapters/challengeflag.adoc[]
+
 include::chapters/appendix.adoc[]
