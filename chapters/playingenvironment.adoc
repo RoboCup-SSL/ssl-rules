@@ -48,7 +48,7 @@ A defense area is defined as a rectangle touching the goal lines centrally in fr
 ===== Penalty Mark
 For each field half the penalty mark is 1.2 meters for division A and 1 meter for division B, from the midpoint between the goalposts and equidistant to them, thus coinciding with the outer edge of the defense area.
 
-NOTE: The penaly mark does not need to be painted since it coincides with the intersection of the defense area and the mid-line.
+NOTE: The penalty mark does not need to be painted since it coincides with the intersection of the defense area and the mid-line.
 
 ==== Goals
 Goals must be placed on the center of each goal line and anchored securely to the field surface. They consist of two 0.16 meters high vertical side walls joined at the back by a 0.16 meters high vertical rear wall. The inner face of the goal has to be covered with an energy absorbing material such as foam to help absorb ball impacts and lessen the speed of deflections. The goal walls, edges, and tops are white in color.
@@ -93,3 +93,11 @@ New automatic referee implementations can be provided, given that the source cod
 The <<Game Event Table>> shows which game events an automatic referee implementation must be able to detect.
 
 Existing implementations can be found on Github: https://github.com/RoboCup-SSL/ssl-autorefs.
+
+=== Communication Flags
+
+The communication flags are used to avoid gesturing and yelling with the <<Referee ,referee>> during a match. These flags are responsible for communicating various intents, such as: <<Timeouts, timeouts>>, <<Emergency stop, emergency stops>>, <<Robot Substitution, manual robot interchange>> and <<Challenge flags, challenges>>.
+
+The <<Referee, referee>> or <<Game Controller Operator, game controller operator>> has to acknowledge the communication flag, any gesturing and yelling will be considered unsporting behavior, punished by a red card after the first warning.
+
+The flags will be provided by the organizers of the competition. The Official Team Remote Control can be used for this purpose, as well as actual flags. Any other solution that the organizers find feasible can also be used.
