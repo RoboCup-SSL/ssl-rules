@@ -96,7 +96,7 @@ Existing implementations can be found on Github: https://github.com/RoboCup-SSL/
 
 === Communication Flags
 
-The communication flags are used to avoid gesturing and yelling with the <<Referee ,referee>> during a match. These flags are responsible for communicating various intents, such as: <<Timeouts, timeouts>>, <<Emergency stop, emergency stops>>, <<Robot Substitution, manual robot interchange>> and <<Challenge flags, challenges>>.
+The communication flags are used to avoid gesturing and yelling with the <<Referee, referee>> during a match. These flags are responsible for communicating various intents, such as: <<Timeouts, timeouts>>, <<Emergency stop, emergency stops>>, <<Robot Substitution, manual robot interchange>> and <<Challenge flags, challenges>>.
 
 The <<Referee, referee>> or <<Game Controller Operator, game controller operator>> has to acknowledge the communication flag, any gesturing and yelling will be considered unsporting behavior, punished by a red card after the first warning.
 
