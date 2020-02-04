@@ -1,6 +1,6 @@
 == Challenge Flag
 
-In American football there is a challenge flag. A team can challenge a decision of the referee:
+A challenge flag allows teams to challenge a decision of the referee:
 
 . If referees decision was correct, team loses a timeout.
 . If referees decision was incorrect, the correct decision is applied and the team doesn't lose a timeout.
@@ -10,3 +10,5 @@ NOTE: In both cases the team loses one flag.
 Only one ruling may be challenged at a time.
 
 Each team will receive two flags at the start of the game.
+
+NOTE: This rule is inspired by challenge flags in American football.
