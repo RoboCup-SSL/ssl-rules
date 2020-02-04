@@ -9,6 +9,8 @@ NOTE: In both cases the team loses one flag.
 
 Only one ruling may be challenged at a time.
 
+The team must have at least one timeout left before using a challenge flag.
+
 Each team will receive two flags at the start of the game.
 
 NOTE: This rule is inspired by challenge flags in American football.
