@@ -3,29 +3,24 @@
 This rule only applies to Division A.
 
 .Definition
+A team can ask to stop the game immediately after a grace period of 10 seconds or at the next stoppage, whichever happens first regardless of the current situation.
+It will receive a yellow card for this and must take a timeout immediately.
+If the team is out of timeouts, it is still allowed to remove robots from the field, but can not use any remaining timeout time.
 
-A team can ask to stop the game immediately after a grace period of 10 seconds or at the next stoppage, whichever happens first regardless of the current situation. It will receive a yellow card for this and must take a timeout immediately. If the team is out of timeouts, it is still allowed to remove robots from the field, but can not use any remaining timeout time.
-
-NOTE: This rule is supposed to only be used in extreme situations, e.g. a software crash or the robots starts damaging themselves.
+NOTE: This rule is supposed to be used in extreme situations only, e.g. a software crash or when robots are damaging themselves significantly.
 
 When the game is stopped due to this rule, there are three possibilities that may have happened:
 
-. 10 seconds have passed and the game is stopped.
-. The game is stopped earlier than 10 seconds due to the ball leaving the field or a foul occurred.
-. The human referee stopped the game manually earlier than 10 seconds.
+. The grace period has passed and the game is stopped.
+. The human referee stopped the game earlier.
+. The game is stopped earlier due to the ball leaving the field or because of a foul.
 
 For these possibilities there are two methods to proceed the game:
 
-. For *1* and *3*, the game is continued with a free kick for the opposing team.
-. For *2*, the game is continued like after a regular timeout.
+. For *1* and *2*, the game is continued with a <<Free Kick, free kick>> for the opposing team.
+. For *3*, the game is continued like after a regular timeout.
 
 .Usage
+An emergency stop intent can be made using <<Communication Flags, communication flags>>.
 
-An emergency stop intent can be made by:
-
-// To inform the referee a communication flag shall be used
-// TODO: link "informing" with the communication flag section
-
-. A <<Robot Handler, robot handler>> by informing the <<Referee, referee>> who shall stop the game within 10 seconds.
-
-NOTE: The Official Team Remote Control is just an option, if it is not available, the referee is allowed to stop the game earlier than 10 seconds, if there isn't an important play in action, e.g. no team is at the risk of scoring a goal or the ball is close to the halfway line.
+NOTE: The referee may to stop the game earlier if there is no promising play in action.
