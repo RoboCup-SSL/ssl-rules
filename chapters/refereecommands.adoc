@@ -130,7 +130,7 @@ It can also be used to resume the game when the game had to be stopped and no te
 .Definition
 The procedure of a penalty kick is as follows:
 
-. The ball is placed by the human referee on the <<Additional Lines, mid-line>> (not halfway line), 8 meters (division A) or 6 meters (division B) away from the opponent goal.
+. The ball is placed by the human referee on the <<Penalty Mark, penalty mark>>.
 . When the <<Penalty Kick, penalty>> command is issued
 .. The defending keeper has to move to the goal line and keep touching it
 .. One attacking robot is allowed to approach the ball but not touch the ball
