@@ -4,16 +4,15 @@ Robots are substituted by the <<Robot Handler, robot handler>> of the respective
 
 The <<Robot Handler, robot handler>> should prefer to use long sleeves and colors that won't interfere with the vision system.
 
-Robots can always be substituted during game play without notifying the <<Referee, referee>> if the following specifications are respected:
+Robots can always be substituted during game play without notifying the <<Referee, referee>> if all the following conditions are met:
 
 . The robot is at least partially inside the <<Field Surface, field margin>>.
 . The robot is at a distance from the halfway line that must not exceed 1 meter.
 . The ball must be at least 2 meters away from the halfway line.
 
-
 Additionally, robots can be taken out from any position during <<Stopping The Game, game stoppage>> by the <<Robot Handler, robot handler>> using the procedure below:
 
-. Take robots out.
+. The <<Robot Handler, robot handler>> takes robots out.
 . The <<Robot Handler, robot handler>> informs the <<Referee, referee>> when done.
 . When both teams finished the robot substitution, the <<Referee, referee>> informs the <<Game Controller Operator, game controller operator>>.
 . The <<Game Controller Operator, game controller operator>> performs a <<Stop, stop>> followed by continuing the game.
@@ -21,7 +20,6 @@ Additionally, robots can be taken out from any position during <<Stopping The Ga
 If one of the robots taken out is the keeper, the <<Robot Handler, robot handler>> tells the <<Game Controller Operator, game controller operator>> the id of the robot that takes over the keeper role.
 
 The maximum allowed number of robots of the team on the field must not be exceeded at any time.
-
 
 .Usage
 Robots can be substituted for any reason. There is no limit on the number of substitutions.
