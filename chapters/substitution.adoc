@@ -17,8 +17,6 @@ Additionally, robots can be taken out from any position during <<Stopping The Ga
 . When both teams finished the robot substitution, the <<Referee, referee>> informs the <<Game Controller Operator, game controller operator>>.
 . The <<Game Controller Operator, game controller operator>> performs a <<Stop, stop>> followed by continuing the game.
 
-If one of the robots taken out is the keeper, the <<Robot Handler, robot handler>> tells the <<Game Controller Operator, game controller operator>> the id of the robot that takes over the keeper role.
-
 The maximum allowed number of robots of the team on the field must not be exceeded at any time.
 
 .Usage
