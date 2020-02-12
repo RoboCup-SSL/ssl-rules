@@ -102,7 +102,7 @@ When the direct free kick command is issued, robots of the attacking team are al
 When the ball is <<Ball In And Out Of Play, in play>>, the kicker may not touch the ball until it has been touched by another robot or the game has been stopped (see <<Double Touch, double touch>>). Also, the restrictions regarding the robot positions are lifted.
 
 .Usage
-Direct free kicks are used to restart the game after a <<Fouls, foul>> has occured. Additionally, <<Goal Kick, goal kicks>> and <<Corner Kick, corner kicks>> are mapped to direct free kicks.
+Direct free kicks are used to restart the game after a <<Fouls, foul>> has occurred. Additionally, <<Goal Kick, goal kicks>> and <<Corner Kick, corner kicks>> are mapped to direct free kicks.
 
 ==== Indirect Free Kick
 .Definition
@@ -115,7 +115,7 @@ NOTE: Scoring a goal from an indirect free kick does not require more than one a
 NOTE: In association football, it is sufficient if any player (including the keeper) touches the ball before it enters the goal. To discourage the teams to shoot directly at the goal and hope that the keeper touches it, the rules of the Small Size League require a second touch of an attacking robot.
 
 .Usage
-Indirect free kicks are used to restart the game after a <<Minor Offenses, minor offense>> has occured. Additionally, <<Throw-In, throw-ins>> are mapped to indirect free kicks.
+Indirect free kicks are used to restart the game after a <<Minor Offenses, minor offense>> has occurred. Additionally, <<Throw-In, throw-ins>> are mapped to indirect free kicks.
 
 ==== Force Start
 .Definition
@@ -165,7 +165,7 @@ Yellow cards can also be given by the referee to punish <<Fouls, fouls>> or <<Un
 
 ==== Red Card
 .Definition
-A red card behaves like a <<Yellow Card, yellow card>>, exept: It does not expire until the end of the game.
+A red card behaves like a <<Yellow Card, yellow card>>, except: It does not expire until the end of the game.
 
 .Usage
 Red cards are given by the referee to punish severe <<Fouls, fouls>> or <<Unsporting Behavior,unsporting behavior>>.
