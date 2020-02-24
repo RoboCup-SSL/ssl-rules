@@ -25,7 +25,7 @@ of progress is called is described in the table: <<lack-of-progress-timings>>.
 [[lack-of-progress-timings]]
 |=============================================================================
 | Situation                                                                   | Div A Time | Div B Time
-| <<Kick-Of, kick-off>>                                                     | 10 s       | 10 s
+| <<Kick-Off, kick-off>>                                                     | 10 s       | 10 s
 | <<Penalty Kick, penalty kick>>                                          | 10 s       | 10 s               
 | <<Direct Free Kick, direct free kick>>                                 | 5 s        | 10 s        
 | <<Indirect Free Kick, indirect free kick>>                            | 5 s        | 10 s                  
@@ -39,7 +39,14 @@ If there is a lack of progress due to the ball being inside a team's
 <<Defense Area, defense area>> past the timeout, then a <<Indirect Free
 Kick, indirect free kick>> is issued for the attacking team.
 
-In all other cases, a <<Stop>> then a <<Force Start>> command is issued.
+In the case of <<Kick-Off, kick-off>>, <<Direct Free Kick, direct free
+kick>>, <<Indirect Free Kick, indirect free kick>>, after the time
+expires the ball is considered <<Ball In And Out Of Play, in play>>
+and both teams may manipulate the ball.
+
+In all other cases a <<Stop>> is issued followed by a <<Force Start>>
+This includes situations where both teams can manipulate the ball, but
+the referee determines that no progress is being made.
 
 ==== Double Touch
 When the ball is brought <<Ball In And Out Of Play, into play>> following a <<Kick-Off, kick-off>>, <<Direct Free Kick, direct free kick>>, <<Indirect Free Kick, indirect free kick>> or <<Penalty Kick, penalty kick>>, the kicker is not allowed to touch the ball until it has been touched by another robot or the game has been stopped.

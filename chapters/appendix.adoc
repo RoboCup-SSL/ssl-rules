@@ -60,8 +60,9 @@ Chapter <<Offenses>>, section <<Minor Offenses>>:
 | Event | Applicability | Command | AutoRef
 
 | <<Aimless Kick [small]#(_division B only_)#, Aimless Kick>> | <<Ball In And Out Of Play, ball in play>> | <<Stop>>, then <<Indirect Free Kick>> | icon:check[role="green"]
-| <<Lack Of Progress>> | <<Ball In And Out Of Play, ball in play>> | <<Stop>>, then <<Force Start>> | icon:check[role="green"]
+| <<Lack Of Progress>> during <<Kick-Off>>, <<Direct Free Kick>>, <<Indirect Free Kick>> | <<Ball In And Out Of Play, ball in play>> | Ball is considered in-play and manipulatable by both teams | icon:check[role="green"]
 | <<Lack Of Progress>> ball in <<Defense Area, defense area>> | <<Ball In And Out Of Play, ball in play>> | <<Indirect Free Kick, indirect free kick>> | icon:check[role="green"]
+| <<Lack Of Progress>>, otherwise | <<Ball In And Out Of Play, ball in play>> | <<Stop>>, then <<Force Start>> | icon:check[role="green"]
 | <<Double Touch>> | <<Ball In And Out Of Play, ball in play>> | <<Stop>>, then <<Indirect Free Kick>> | icon:check[role="green"]
 | <<Attacker In Defense Area>> | <<Ball In And Out Of Play, ball in play>> | <<Stop>>, then <<Indirect Free Kick>> | icon:check[role="green"]
 | <<Attacker Touches Robot In Opponent Defense Area>> skipped | <<Ball In And Out Of Play, ball in play>> | no command | icon:check[role="green"] (<<Advantage Rule>>)
