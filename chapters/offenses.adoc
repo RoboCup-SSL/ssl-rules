@@ -44,7 +44,7 @@ kick>>, <<Indirect Free Kick, indirect free kick>>, after the time
 expires the ball is considered <<Ball In And Out Of Play, in play>>
 and both teams may manipulate the ball.
 
-In all other cases a <<Stop>> is issued followed by a <<Force Start>>
+In all other cases a <<Stop, stop>> is issued followed by a <<Force Start, forced start>>.
 This includes situations where both teams can manipulate the ball, but
 the referee determines that no progress is being made.
 
