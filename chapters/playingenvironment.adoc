@@ -15,11 +15,11 @@ NOTE: The numbers in the figures below show the distances in millimeters.
 
 [[field-dimensions-a]]
 .Field dimensions and markings for division A
-image::quad-size-field.png[]
+image::quad-size-field.svg[]
 
 [[field-dimensions-b]]
 .Field dimensions and markings for division B
-image::double-size-field.png[]
+image::double-size-field.svg[]
 
 ==== Field Surface
 The playing surface is green felt mat or carpet. The floor under the carpet is level, flat, and hard.
@@ -58,11 +58,11 @@ NOTE: The numbers in the figures below show the distances in millimeters.
 
 [[goal-detail-a]]
 .The goal in detail for division A
-image::goal_detail_divisionA.png[width=400]
+image::goal_detail_divisionA.svg[width=400]
 
 [[goal-detail-b]]
 .The goal in detail for division B
-image::goal_detail_divisionB.png[width=400]
+image::goal_detail_divisionB.svg[width=400]
 
 === Ball
 The ball is a standard orange golf ball. It weights approximately 0.046 kilograms and its diameter measures 0.043 meters.

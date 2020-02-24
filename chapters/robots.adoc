@@ -41,7 +41,7 @@ NOTE: Teams are encouraged to prefer color assignments with ids 0 to 7 because t
 
 .Standard Vision Pattern Colors
 [[standard-vision-colors]]
-image::standard_colors2010.png[width=500]
+image::standard_colors2010.svg[width=500]
 
 ==== Radio Communication
 Participants using wireless communications must notify the <<Organizing Committee, organizing committee>> of the method of wireless communication, power, and frequency. The <<Organizing Committee, organizing committee>> must be notified of any change after registration as soon as possible. In order to avoid interference, a team must be able to select from two carrier frequencies before the match. The type of wireless communication has to follow legal regulations of the country where the competition is held. Compliance with local laws is the responsibility of the competing teams, not the RoboCup Federation.
