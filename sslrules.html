@@ -499,6 +499,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </li>
 <li><a href="#_robot_substitution">9. Robot Substitution</a></li>
 <li><a href="#_shoot_out">10. Shoot-Out</a></li>
+<li><a href="#_emergency_stop">11. Emergency stop</a></li>
 <li><a href="#_terminology">Appendix A: Terminology</a>
 <ul class="sectlevel2">
 <li><a href="#_ball_in_and_out_of_play">A.1. Ball In And Out Of Play</a></li>
@@ -2423,6 +2424,77 @@ Note that <a href="#_timeouts">timeouts</a> are not allowed during shoot-out.
 </div>
 </div>
 <div class="sect1">
+<h2 id="_emergency_stop">11. Emergency stop</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>This rule only applies to Division A.</p>
+</div>
+<div class="paragraph">
+<div class="title">Definition</div>
+<p>A team can ask to stop the game immediately after a grace period of 10 seconds or at the next stoppage, whichever happens first regardless of the current situation.
+It will receive a yellow card for this and must take a timeout immediately.
+If the team is out of timeouts, it is still allowed to remove robots from the field, but can not use any remaining timeout time.</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+This rule is supposed to be used in extreme situations only, e.g. a software crash or when robots are damaging themselves significantly.
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>When the game is stopped due to this rule, there are three possibilities that may have happened:</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>The grace period has passed and the game is stopped.</p>
+</li>
+<li>
+<p>The human referee stopped the game earlier.</p>
+</li>
+<li>
+<p>The game is stopped earlier due to the ball leaving the field or because of a foul.</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>For these possibilities there are two methods to proceed the game:</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>For <strong>1</strong> and <strong>2</strong>, the game is continued with a <a href="#Free Kick">free kick</a> for the opposing team.</p>
+</li>
+<li>
+<p>For <strong>3</strong>, the game is continued like after a regular timeout.</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<div class="title">Usage</div>
+<p>An emergency stop intent can be made using <a href="#Communication Flags">communication flags</a>.</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+The referee may stop the game earlier if there is no promising play in action.
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class="sect1">
 <h2 id="_terminology">Appendix A: Terminology</h2>
 <div class="sectionbody">
 <div class="sect2">
@@ -2894,7 +2966,7 @@ Note that the information shown in this table here is incomplete. Please read th
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2020-02-26 20:16:33 UTC
+Last updated 2020-02-26 20:18:49 UTC
 </div>
 </div>
 </body>
