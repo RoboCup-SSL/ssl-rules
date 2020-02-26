@@ -92,3 +92,15 @@ New automatic referee implementations can be provided, given that the source cod
 The <<Game Event Table>> shows which game events an automatic referee implementation must be able to detect.
 
 Existing implementations can be found on Github: https://github.com/RoboCup-SSL/ssl-autorefs.
+
+=== Communication Flags
+
+The communication flags are used to avoid gesturing and yelling with the <<Referee, referee>> during a match.
+These flags are responsible for communicating various intents, such as: <<Timeouts, timeouts>>, <<Emergency stop, emergency stops>>, <<Robot Substitution, manual robot substitution>> and <<Challenge flags, challenges>>.
+
+The <<Referee, referee>> or <<Game Controller Operator, game controller operator>> has to acknowledge the communication flag.
+Any gesturing and yelling will be considered <<Unsporting Behavior, unsporting behavior>>, punished by a <<Red card, red card>> after the first warning.
+
+The communication flags are provided by the organizers of the competition.
+A remote control software or device can be provided and replace physical flags.
+Any other solution that the organizers find feasible can also be used.
