@@ -1,10 +1,10 @@
 == Scoring Goals
-A goal is scored if the ball enters the goal between the goal posts, provided that no rule infringement has been committed in the play immediately preceeding this event, by the team scoring the goal.
+A goal is scored if the ball enters the goal between the goal posts, provided that no rule infringement has been committed in the play immediately preceding this event, by the team scoring the goal.
 
 Additionally, the goal is only valid if
 
 * The height of the ball did not exceed 0.15 meters after the last touch of an attacker
 
-NOTE: During <<Shoot-Out, shoot-out>>, these additional rules do not apply.
+NOTE: During <<Penalty Kick, penalty kicks>>, these additional rules do not apply.
 
 If the goal is considered invalid, the game will be continued as if the ball crossed the goal line outside the goal.

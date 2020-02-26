@@ -76,7 +76,7 @@ After the ball has been placed, the game is resumed using one of the following c
 For two-staged referee commands, when normal start is sent, an attacker may <<Ball Manipulation, manipulate the ball>>. A match cannot be resumed directly via normal start.
 
 .Usage
-Normal start is used for <<Kick-Off, kick-offs>>, <<Penalty Kick, penalty kicks>> and <<Shoot-Out, shoot-out>>.
+Normal start is used for <<Kick-Off, kick-offs>> and <<Penalty Kick, penalty kicks>>.
 
 ==== Kick-Off
 .Definition
@@ -102,7 +102,7 @@ When the free kick command is issued, robots of the attacking team are allowed t
 When the ball is <<Ball In And Out Of Play, in play>>, the kicker may not touch the ball until it has been touched by another robot or the game has been stopped (see <<Double Touch, double touch>>). Also, the restrictions regarding the robot positions are lifted.
 
 .Usage
-free kicks are used to restart the game after a <<Fouls, foul>> has occured. Additionally, <<Goal Kick, goal kicks>> and <<Corner Kick, corner kicks>> are mapped to free kicks.
+free kicks are used to restart the game after a <<Fouls, foul>> has occurred. Additionally, <<Goal Kick, goal kicks>> and <<Corner Kick, corner kicks>> are mapped to free kicks.
 
 ==== Force Start
 .Definition
@@ -115,17 +115,33 @@ It can also be used to resume the game when the game had to be stopped and no te
 
 ==== Penalty Kick
 .Definition
-To initiate a penalty kick, the stop command has to be sent and the ball has to be placed on the <<Penalty Mark, penalty mark>> by the human <<Referee, referee>>.
+The procedure of a penalty kick is as follows:
 
-When the penalty command is issued, one attacking robot is allowed to approach but not touch the ball. This robot will be referred to as the kicker. The defending keeper has to touch the goal line. All other robots have to move behind a line parallel to the goal line and 0.4 meters behind the penalty mark. When these constraints are met, the referee may continue with a <<Normal Start, normal start>> command.
+. The ball is placed by the human referee on the <<Penalty Mark, penalty mark>>.
+. When the <<Penalty Kick, penalty>> command is issued
+.. The defending keeper has to move to the goal line and keep touching it
+.. One attacking robot is allowed to approach the ball but not touch the ball
+.. All other robots have to be 1m behind the ball such that they do not interfere the penalty kick procedure at any time.
+. When the <<Normal Start, normal start>> command is issued, the attacker is allowed to <<Ball Manipulation, manipulate the ball>>. The ball has to only move towards the opponent goal, as measured by its x coordinate in the coordinate system of <<Vision, SSL-Vision>>.
+. When the ball is <<Ball In And Out Of Play, in play>>, the defending keeper may move freely again
 
-When the <<Normal Start, normal start>> command is issued, the kicker is allowed to shoot the ball. A goal may be scored directly from the penalty kick.
+A goal is awarded if:
+
+* the ball touches the inner surface of a goal wall or the ground of the goal of the defending team in less than 10 seconds, starting from when the <<Normal Start, normal start>> command is issued
+* the defending team violates any rule
+
+A goal is not awarded if:
+
+* the ball crosses any <<Field Lines, field lines>> outside the goal
+* the defending keeper touches the ball such that the ball speed vector changes direction by at least 90 degrees in 2D space
+* the attacking team violates any rule
+
+NOTE: The restrictions defined for <<Scoring Goals, scoring goals>>, including the ball height limit of 0.15 meters, do not apply here.
+Other rules like the <<Excessive Dribbling, excessive dribbling>> limitation for example do.
 
 When the ball is <<Ball In And Out Of Play, in play>>, the kicker may not touch the ball until it has been touched by another robot or the game has been stopped (see <<Double Touch, double touch>>). Also, the restrictions regarding the robot positions are lifted.
 
 Additional time is allowed for a penalty kick to be taken at the end of each half or at the end of periods of overtime.
-
-The penalty kick is retaken if the attacking team infringes the rules and the ball enters the goal or the defending team infringes the rules and the ball does not enter the goal.
 
 .Usage
 Penalty Kicks are used to punish teams that received multiple <<Yellow Card, yellow cards>>, as well as to punish <<Unsporting Behavior, unsporting behavior>> and <<Multiple Defenders, multiple defenders>>.
@@ -135,11 +151,18 @@ Penalty Kicks are used to punish teams that received multiple <<Yellow Card, yel
 
 ==== Yellow Card
 .Definition
-A yellow card can only be given during <<Halt, halt>>.
 
 If the yellow card is shown as a result of <<Unsporting Behavior, unsporting behavior>>, the referee may decide to immediately <<Halt, halt>> the match. In this case, the match continues with a free kick for the other team.
 
-Upon receipt of a yellow card, the number of robots allowed on the field for the penalized team decreases by one. If, after this decrease, the team has more robots than permitted on the field, a robot must be <<Robot Substitution, taken out>> before <<Resuming The Game, play resumes>>. The penalized team can choose the robot to remove.
+Upon receipt of a yellow card, the number of robots allowed on the field for the penalized team decreases by one. If, after this decrease, the team has more robots than permitted on the field, a robot must be <<Robot Substitution, taken out>>.
+
+A yellow card does not lead to a stop automatically. If the the ball is <<Ball In And Out Of Play, in play>>, the team will have 10 seconds to <<Robot Substitution, automatically remove the robot>>. If a robot is not taken out within time, the game is stopped for <<Robot Substitution, manual substitution>>.
+
+NOTE: This rule implies that after receiving a yellow card, the game might not be automatically stopped. However, the game will be stopped if the foul that led to the yellow card causes a game stoppage, e.g. dropping parts. Therefore, if one of those fouls occurred, the team is allowed to manually remove the robot.
+
+NOTE: In 2020 no penalty will be given to the team that couldn't get the robot out of the field in time. Thus, the game shall be restarted using a force start. However, in 2021, if the robot gets manually substituted, the ball is placed on the mid line and 1.5 meters away from the teams defense area and the opposing team gets a free kick.
+
+A team cannot score a goal while having more than the allowed number of robots on the field.
 
 After 120 seconds of playing time (measured by the game controller), the yellow card expires and the number of allowed robots is increased by one. The team may <<Robot Substitution, put a robot back in>> during the next opportunity.
 
@@ -152,7 +175,7 @@ Yellow cards can also be given by the referee to punish <<Fouls, fouls>> or <<Un
 
 ==== Red Card
 .Definition
-A red card behaves like a <<Yellow Card, yellow card>>, exept: It does not expire until the end of the game.
+A red card behaves like a <<Yellow Card, yellow card>>, except: It does not expire until the end of the game.
 
 .Usage
 Red cards are given by the referee to punish severe <<Fouls, fouls>> or <<Unsporting Behavior,unsporting behavior>>.
