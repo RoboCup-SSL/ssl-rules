@@ -5,16 +5,16 @@
 /Author (2020-02-26)
 /Creator (Asciidoctor PDF 1.5.0, based on Prawn 2.2.2)
 /Producer (2020-02-26)
-/ModDate (D:20200226202511+00'00')
-/CreationDate (D:20200226202527+00'00')
+/ModDate (D:20200226202650+00'00')
+/CreationDate (D:20200226202706+00'00')
 >>
 endobj
 2 0 obj
 << /Type /Catalog
 /Pages 3 0 R
 /Names 12 0 R
-/Outlines 845 0 R
-/PageLabels 888 0 R
+/Outlines 846 0 R
+/PageLabels 889 0 R
 /PageMode /UseOutlines
 /OpenAction [7 0 R /FitH 841.89]
 /ViewerPreferences << /DisplayDocTitle true
@@ -24,7 +24,7 @@ endobj
 3 0 obj
 << /Type /Pages
 /Count 35
-/Kids [7 0 R 10 0 R 30 0 R 44 0 R 50 0 R 60 0 R 76 0 R 94 0 R 122 0 R 136 0 R 142 0 R 154 0 R 175 0 R 197 0 R 222 0 R 239 0 R 262 0 R 279 0 R 300 0 R 321 0 R 334 0 R 354 0 R 368 0 R 383 0 R 398 0 R 431 0 R 460 0 R 471 0 R 499 0 R 525 0 R 551 0 R 563 0 R 596 0 R 667 0 R 742 0 R]
+/Kids [7 0 R 10 0 R 30 0 R 44 0 R 50 0 R 60 0 R 76 0 R 94 0 R 122 0 R 136 0 R 142 0 R 154 0 R 175 0 R 197 0 R 222 0 R 239 0 R 262 0 R 279 0 R 300 0 R 321 0 R 334 0 R 354 0 R 368 0 R 383 0 R 398 0 R 431 0 R 461 0 R 472 0 R 500 0 R 526 0 R 552 0 R 564 0 R 597 0 R 668 0 R 743 0 R]
 >>
 endobj
 4 0 obj
@@ -1485,21 +1485,21 @@ endobj
 /Font << /F2.0 8 0 R
 /F1.0 16 0 R
 >>
-/XObject << /Stamp1 889 0 R
+/XObject << /Stamp1 890 0 R
 >>
 >>
-/Annots [765 0 R 766 0 R 767 0 R 768 0 R 769 0 R 770 0 R 771 0 R 772 0 R 773 0 R 774 0 R 775 0 R 776 0 R 777 0 R 778 0 R 779 0 R 780 0 R 781 0 R 782 0 R 783 0 R 784 0 R 785 0 R 786 0 R 787 0 R 788 0 R 789 0 R 790 0 R 791 0 R 792 0 R 793 0 R 794 0 R 795 0 R 796 0 R 797 0 R 798 0 R 799 0 R 800 0 R 801 0 R 802 0 R 803 0 R 804 0 R 805 0 R 806 0 R 807 0 R 808 0 R 809 0 R 810 0 R 811 0 R 812 0 R 813 0 R 814 0 R 815 0 R 816 0 R 817 0 R 818 0 R 819 0 R 820 0 R 821 0 R 822 0 R 823 0 R 824 0 R 825 0 R 826 0 R 827 0 R 828 0 R 829 0 R 830 0 R 831 0 R 832 0 R]
+/Annots [766 0 R 767 0 R 768 0 R 769 0 R 770 0 R 771 0 R 772 0 R 773 0 R 774 0 R 775 0 R 776 0 R 777 0 R 778 0 R 779 0 R 780 0 R 781 0 R 782 0 R 783 0 R 784 0 R 785 0 R 786 0 R 787 0 R 788 0 R 789 0 R 790 0 R 791 0 R 792 0 R 793 0 R 794 0 R 795 0 R 796 0 R 797 0 R 798 0 R 799 0 R 800 0 R 801 0 R 802 0 R 803 0 R 804 0 R 805 0 R 806 0 R 807 0 R 808 0 R 809 0 R 810 0 R 811 0 R 812 0 R 813 0 R 814 0 R 815 0 R 816 0 R 817 0 R 818 0 R 819 0 R 820 0 R 821 0 R 822 0 R 823 0 R 824 0 R 825 0 R 826 0 R 827 0 R 828 0 R 829 0 R 830 0 R 831 0 R 832 0 R 833 0 R]
 >>
 endobj
 8 0 obj
 << /Type /Font
 /BaseFont /f8275d+NotoSerif-Bold
 /Subtype /TrueType
-/FontDescriptor 892 0 R
+/FontDescriptor 893 0 R
 /FirstChar 32
 /LastChar 255
-/Widths 894 0 R
-/ToUnicode 893 0 R
+/Widths 895 0 R
+/ToUnicode 894 0 R
 >>
 endobj
 9 0 obj
@@ -2393,10 +2393,10 @@ endobj
 /F1.0 16 0 R
 /F2.0 8 0 R
 >>
-/XObject << /Stamp2 890 0 R
+/XObject << /Stamp2 891 0 R
 >>
 >>
-/Annots [19 0 R 20 0 R 21 0 R 22 0 R 23 0 R 24 0 R 25 0 R 26 0 R 833 0 R 834 0 R 835 0 R 836 0 R 837 0 R 838 0 R 839 0 R 840 0 R 841 0 R 842 0 R 843 0 R 844 0 R]
+/Annots [19 0 R 20 0 R 21 0 R 22 0 R 23 0 R 24 0 R 25 0 R 26 0 R 834 0 R 835 0 R 836 0 R 837 0 R 838 0 R 839 0 R 840 0 R 841 0 R 842 0 R 843 0 R 844 0 R 845 0 R]
 >>
 endobj
 11 0 obj
@@ -2408,40 +2408,40 @@ endobj
 >>
 endobj
 13 0 obj
-<< /Kids [70 0 R 575 0 R 267 0 R 558 0 R 71 0 R 317 0 R 128 0 R 502 0 R 248 0 R]
+<< /Kids [70 0 R 576 0 R 267 0 R 559 0 R 71 0 R 317 0 R 128 0 R 503 0 R 248 0 R]
 >>
 endobj
 14 0 obj
 << /Type /Font
 /BaseFont /964711+mplus1mn-regular
 /Subtype /TrueType
-/FontDescriptor 896 0 R
+/FontDescriptor 897 0 R
 /FirstChar 32
 /LastChar 255
-/Widths 898 0 R
-/ToUnicode 897 0 R
+/Widths 899 0 R
+/ToUnicode 898 0 R
 >>
 endobj
 15 0 obj
 << /Type /Font
 /BaseFont /041c68+FontAwesome5Free-Solid
 /Subtype /TrueType
-/FontDescriptor 900 0 R
+/FontDescriptor 901 0 R
 /FirstChar 32
 /LastChar 255
-/Widths 902 0 R
-/ToUnicode 901 0 R
+/Widths 903 0 R
+/ToUnicode 902 0 R
 >>
 endobj
 16 0 obj
 << /Type /Font
 /BaseFont /c431c0+NotoSerif
 /Subtype /TrueType
-/FontDescriptor 904 0 R
+/FontDescriptor 905 0 R
 /FirstChar 32
 /LastChar 255
-/Widths 906 0 R
-/ToUnicode 905 0 R
+/Widths 907 0 R
+/ToUnicode 906 0 R
 >>
 endobj
 17 0 obj
@@ -3176,7 +3176,7 @@ endobj
 /F1.0 16 0 R
 /F4.1 15 0 R
 >>
-/XObject << /Stamp1 889 0 R
+/XObject << /Stamp1 890 0 R
 >>
 >>
 /Annots [32 0 R 35 0 R 36 0 R 37 0 R 41 0 R 42 0 R]
@@ -4590,7 +4590,7 @@ endobj
 /ExtGState << /Tr1 46 0 R
 /Tr2 47 0 R
 >>
-/XObject << /Stamp2 890 0 R
+/XObject << /Stamp2 891 0 R
 >>
 >>
 >>
@@ -4614,11 +4614,11 @@ endobj
 << /Type /Font
 /BaseFont /99f3ff+NotoSerif-Italic
 /Subtype /TrueType
-/FontDescriptor 908 0 R
+/FontDescriptor 909 0 R
 /FirstChar 32
 /LastChar 255
-/Widths 910 0 R
-/ToUnicode 909 0 R
+/Widths 911 0 R
+/ToUnicode 910 0 R
 >>
 endobj
 49 0 obj
@@ -6216,7 +6216,7 @@ endobj
 /F5.0 48 0 R
 /F2.0 8 0 R
 >>
-/XObject << /Stamp1 889 0 R
+/XObject << /Stamp1 890 0 R
 >>
 >>
 /Annots [53 0 R 54 0 R 55 0 R]
@@ -7416,7 +7416,7 @@ endobj
 /ExtGState << /Tr1 46 0 R
 /Tr2 47 0 R
 >>
-/XObject << /Stamp2 890 0 R
+/XObject << /Stamp2 891 0 R
 >>
 >>
 /Annots [61 0 R 64 0 R 65 0 R 66 0 R 68 0 R 72 0 R 73 0 R]
@@ -7476,12 +7476,12 @@ endobj
 endobj
 70 0 obj
 << /Limits [(__anchor-top) (_ball)]
-/Names [(__anchor-top) 11 0 R (_additional_lines) 58 0 R (_advantage_rule) 518 0 R (_aimless_kick_division_b_only) 403 0 R (_assistant_referee) 176 0 R (_attacker_in_defense_area) 428 0 R (_attacker_touches_robot_in_opponent_defense_area) 445 0 R (_automatic_referee) 97 0 R (_autonomy) 149 0 R (_ball) 78 0 R]
+/Names [(__anchor-top) 11 0 R (_additional_lines) 58 0 R (_advantage_rule) 519 0 R (_aimless_kick_division_b_only) 403 0 R (_assistant_referee) 176 0 R (_attacker_in_defense_area) 428 0 R (_attacker_touches_robot_in_opponent_defense_area) 446 0 R (_automatic_referee) 97 0 R (_autonomy) 149 0 R (_ball) 78 0 R]
 >>
 endobj
 71 0 obj
 << /Limits [(_field_setup) (_hardware_and_software_constraints)]
-/Names [(_field_setup) 39 0 R (_field_surface) 52 0 R (_footnotedef_1) 763 0 R (_footnoteref_1) 627 0 R (_force_start) 324 0 R (_forced_forfeit) 364 0 R (_fouls) 438 0 R (_game_controller) 86 0 R (_game_controller_operator) 181 0 R (_game_event_table) 577 0 R (_game_result_sheet) 206 0 R (_game_stages) 235 0 R (_game_structure) 155 0 R (_goal_kick) 380 0 R (_goal_line_crossing) 378 0 R (_goals) 69 0 R (_halt) 263 0 R (_hardware_and_software_constraints) 117 0 R]
+/Names [(_field_setup) 39 0 R (_field_surface) 52 0 R (_footnotedef_1) 764 0 R (_footnoteref_1) 628 0 R (_force_start) 324 0 R (_forced_forfeit) 364 0 R (_fouls) 438 0 R (_game_controller) 86 0 R (_game_controller_operator) 181 0 R (_game_event_table) 578 0 R (_game_result_sheet) 206 0 R (_game_stages) 235 0 R (_game_structure) 155 0 R (_goal_kick) 380 0 R (_goal_line_crossing) 378 0 R (_goals) 69 0 R (_halt) 263 0 R (_hardware_and_software_constraints) 117 0 R]
 >>
 endobj
 72 0 obj
@@ -8781,7 +8781,7 @@ endobj
 /F5.0 48 0 R
 /F2.0 8 0 R
 >>
-/XObject << /Stamp1 889 0 R
+/XObject << /Stamp1 890 0 R
 >>
 >>
 /Annots [79 0 R 81 0 R 82 0 R 84 0 R 85 0 R 87 0 R 88 0 R 89 0 R 90 0 R 91 0 R 92 0 R]
@@ -9864,7 +9864,7 @@ endobj
 /Font << /F1.0 16 0 R
 /F2.0 8 0 R
 >>
-/XObject << /Stamp2 890 0 R
+/XObject << /Stamp2 891 0 R
 >>
 >>
 /Annots [95 0 R 96 0 R 98 0 R 99 0 R 100 0 R 101 0 R 102 0 R 103 0 R 105 0 R 106 0 R 107 0 R 108 0 R 109 0 R 110 0 R 111 0 R 112 0 R 113 0 R 116 0 R 118 0 R 119 0 R 120 0 R]
@@ -10617,7 +10617,7 @@ endobj
 /Font << /F2.0 8 0 R
 /F1.0 16 0 R
 >>
-/XObject << /Stamp1 889 0 R
+/XObject << /Stamp1 890 0 R
 >>
 >>
 /Annots [124 0 R 125 0 R 126 0 R 131 0 R 132 0 R 133 0 R]
@@ -10655,7 +10655,7 @@ endobj
 endobj
 128 0 obj
 << /Limits [(_playing_environment) (_robot_too_close_to_opponent_defense_area)]
-/Names [(_playing_environment) 38 0 R (_pushing) 463 0 R (_radio_communication) 145 0 R (_red_card) 360 0 R (_referee) 167 0 R (_referee_commands) 255 0 R (_resuming_the_game) 294 0 R (_robot_handler) 198 0 R (_robot_stop_speed) 467 0 R (_robot_substitution) 522 0 R (_robot_too_close_to_opponent_defense_area) 451 0 R]
+/Names [(_playing_environment) 38 0 R (_pushing) 464 0 R (_radio_communication) 145 0 R (_red_card) 360 0 R (_referee) 167 0 R (_referee_commands) 255 0 R (_resuming_the_game) 294 0 R (_robot_handler) 198 0 R (_robot_stop_speed) 468 0 R (_robot_substitution) 523 0 R (_robot_too_close_to_opponent_defense_area) 452 0 R]
 >>
 endobj
 129 0 obj
@@ -11036,7 +11036,7 @@ endobj
 /Contents 135 0 R
 /Resources << /ProcSet [/PDF /Text /ImageB /ImageC /ImageI]
 /XObject << /I1 134 0 R
-/Stamp2 890 0 R
+/Stamp2 891 0 R
 >>
 /Font << /F5.0 48 0 R
 /F1.0 16 0 R
@@ -13754,7 +13754,7 @@ endobj
 /F1.0 16 0 R
 /F4.1 15 0 R
 >>
-/XObject << /Stamp1 889 0 R
+/XObject << /Stamp1 890 0 R
 >>
 >>
 /Annots [146 0 R 147 0 R 148 0 R 150 0 R 151 0 R 152 0 R]
@@ -14738,7 +14738,7 @@ endobj
 /F1.0 16 0 R
 /F5.0 48 0 R
 >>
-/XObject << /Stamp2 890 0 R
+/XObject << /Stamp2 891 0 R
 >>
 >>
 /Annots [157 0 R 158 0 R 159 0 R 160 0 R 161 0 R 162 0 R 163 0 R 164 0 R 165 0 R 166 0 R 168 0 R 169 0 R 170 0 R 171 0 R 172 0 R 173 0 R]
@@ -15776,7 +15776,7 @@ endobj
 /F1.0 16 0 R
 /F5.0 48 0 R
 >>
-/XObject << /Stamp1 889 0 R
+/XObject << /Stamp1 890 0 R
 >>
 >>
 /Annots [177 0 R 178 0 R 179 0 R 180 0 R 182 0 R 183 0 R 184 0 R 185 0 R 186 0 R 187 0 R 188 0 R 189 0 R 190 0 R 191 0 R 193 0 R 194 0 R]
@@ -16859,7 +16859,7 @@ endobj
 /F5.0 48 0 R
 /F4.1 15 0 R
 >>
-/XObject << /Stamp2 890 0 R
+/XObject << /Stamp2 891 0 R
 >>
 >>
 /Annots [199 0 R 200 0 R 201 0 R 202 0 R 204 0 R 205 0 R 207 0 R 208 0 R 209 0 R 210 0 R 211 0 R 213 0 R 215 0 R 216 0 R 218 0 R 219 0 R 220 0 R]
@@ -18538,7 +18538,7 @@ endobj
 /F1.0 16 0 R
 /F4.1 15 0 R
 >>
-/XObject << /Stamp1 889 0 R
+/XObject << /Stamp1 890 0 R
 >>
 >>
 /Annots [224 0 R 225 0 R 226 0 R 227 0 R 228 0 R 229 0 R 230 0 R 231 0 R 232 0 R 233 0 R 234 0 R 237 0 R]
@@ -19489,7 +19489,7 @@ endobj
 /F2.0 8 0 R
 /F5.0 48 0 R
 >>
-/XObject << /Stamp2 890 0 R
+/XObject << /Stamp2 891 0 R
 >>
 >>
 /Annots [240 0 R 241 0 R 242 0 R 243 0 R 244 0 R 245 0 R 246 0 R 249 0 R 250 0 R 251 0 R 252 0 R 253 0 R 258 0 R 259 0 R 260 0 R]
@@ -19556,7 +19556,7 @@ endobj
 endobj
 248 0 obj
 << /Limits [(_terminology) (standard-vision-pattern)]
-/Names [(_terminology) 564 0 R (_testing_the_network) 212 0 R (_throw_in) 376 0 R (_timeouts) 247 0 R (_tipping_over_or_dropping_parts) 465 0 R (_touch_line_crossing) 374 0 R (_unsporting_behavior) 488 0 R (_vision) 83 0 R (_vision_expert) 192 0 R (_vision_pattern) 130 0 R (_yellow_card) 346 0 R (field-dimensions-a) 45 0 R (field-dimensions-b) 51 0 R (goal-detail-a) 74 0 R (goal-detail-b) 77 0 R (standard-vision-colors) 143 0 R (standard-vision-pattern) 137 0 R]
+/Names [(_terminology) 565 0 R (_testing_the_network) 212 0 R (_throw_in) 376 0 R (_timeouts) 247 0 R (_tipping_over_or_dropping_parts) 466 0 R (_touch_line_crossing) 374 0 R (_unsporting_behavior) 489 0 R (_vision) 83 0 R (_vision_expert) 192 0 R (_vision_pattern) 130 0 R (_yellow_card) 346 0 R (field-dimensions-a) 45 0 R (field-dimensions-b) 51 0 R (goal-detail-a) 74 0 R (goal-detail-b) 77 0 R (standard-vision-colors) 143 0 R (standard-vision-pattern) 137 0 R]
 >>
 endobj
 249 0 obj
@@ -20421,7 +20421,7 @@ endobj
 /F2.0 8 0 R
 /F5.0 48 0 R
 >>
-/XObject << /Stamp1 889 0 R
+/XObject << /Stamp1 890 0 R
 >>
 >>
 /Annots [264 0 R 265 0 R 268 0 R 269 0 R 270 0 R 271 0 R 272 0 R 273 0 R 274 0 R 275 0 R 276 0 R 277 0 R]
@@ -20451,7 +20451,7 @@ endobj
 endobj
 267 0 obj
 << /Limits [(_choosing_team_colors) (_dimensions)]
-/Names [(_choosing_team_colors) 214 0 R (_committees) 18 0 R (_communication_flags) 104 0 R (_corner_kick) 385 0 R (_crashing) 462 0 R (_damaging_other_robots) 497 0 R (_damaging_the_field_or_the_ball) 500 0 R (_defender_too_close_to_ball) 473 0 R (_defense_area) 63 0 R (_differences_between_divisions) 753 0 R (_dimensions) 40 0 R]
+/Names [(_choosing_team_colors) 214 0 R (_committees) 18 0 R (_communication_flags) 104 0 R (_corner_kick) 385 0 R (_crashing) 463 0 R (_damaging_other_robots) 498 0 R (_damaging_the_field_or_the_ball) 501 0 R (_defender_too_close_to_ball) 474 0 R (_defense_area) 63 0 R (_differences_between_divisions) 754 0 R (_dimensions) 40 0 R]
 >>
 endobj
 268 0 obj
@@ -21621,7 +21621,7 @@ endobj
 /F2.0 8 0 R
 /F5.0 48 0 R
 >>
-/XObject << /Stamp2 890 0 R
+/XObject << /Stamp2 891 0 R
 >>
 >>
 /Annots [280 0 R 281 0 R 282 0 R 283 0 R 284 0 R 285 0 R 286 0 R 287 0 R 288 0 R 289 0 R 290 0 R 291 0 R 292 0 R 293 0 R 296 0 R 297 0 R 298 0 R]
@@ -22677,7 +22677,7 @@ endobj
 /F5.0 48 0 R
 /F1.0 16 0 R
 >>
-/XObject << /Stamp1 889 0 R
+/XObject << /Stamp1 890 0 R
 >>
 >>
 /Annots [302 0 R 303 0 R 304 0 R 305 0 R 306 0 R 307 0 R 309 0 R 310 0 R 311 0 R 312 0 R 313 0 R 314 0 R 315 0 R 318 0 R 319 0 R]
@@ -22798,7 +22798,7 @@ endobj
 endobj
 317 0 obj
 << /Limits [(_impartial_roles) (_penalty_mark)]
-/Names [(_impartial_roles) 156 0 R (_indirect_free_kick) 316 0 R (_kick_off) 301 0 R (_lack_of_progress) 404 0 R (_league_overview) 17 0 R (_local_organizing_committee) 33 0 R (_match_preparation) 203 0 R (_minor_offenses) 399 0 R (_multiple_defenders) 482 0 R (_normal_start) 295 0 R (_number_of_robots) 115 0 R (_offenses) 390 0 R (_organizing_committee) 31 0 R (_overview) 236 0 R (_penalty_kick) 327 0 R (_penalty_mark) 67 0 R]
+/Names [(_impartial_roles) 156 0 R (_indirect_free_kick) 316 0 R (_kick_off) 301 0 R (_lack_of_progress) 404 0 R (_league_overview) 17 0 R (_local_organizing_committee) 33 0 R (_match_preparation) 203 0 R (_minor_offenses) 399 0 R (_multiple_defenders) 483 0 R (_normal_start) 295 0 R (_number_of_robots) 115 0 R (_offenses) 390 0 R (_organizing_committee) 31 0 R (_overview) 236 0 R (_penalty_kick) 327 0 R (_penalty_mark) 67 0 R]
 >>
 endobj
 318 0 obj
@@ -23641,7 +23641,7 @@ endobj
 /F5.0 48 0 R
 /F2.0 8 0 R
 >>
-/XObject << /Stamp2 890 0 R
+/XObject << /Stamp2 891 0 R
 >>
 >>
 /Annots [322 0 R 323 0 R 325 0 R 326 0 R 328 0 R 329 0 R 330 0 R 331 0 R 332 0 R]
@@ -24711,7 +24711,7 @@ endobj
 /F5.0 48 0 R
 /F2.0 8 0 R
 >>
-/XObject << /Stamp1 889 0 R
+/XObject << /Stamp1 890 0 R
 >>
 >>
 /Annots [335 0 R 336 0 R 337 0 R 338 0 R 339 0 R 340 0 R 341 0 R 342 0 R 343 0 R 344 0 R 347 0 R 348 0 R 349 0 R 350 0 R 351 0 R 352 0 R]
@@ -25594,7 +25594,7 @@ endobj
 /F5.0 48 0 R
 /F2.0 8 0 R
 >>
-/XObject << /Stamp2 890 0 R
+/XObject << /Stamp2 891 0 R
 >>
 >>
 /Annots [355 0 R 356 0 R 357 0 R 358 0 R 359 0 R 361 0 R 362 0 R 363 0 R 365 0 R 366 0 R]
@@ -26268,7 +26268,7 @@ endobj
 /F5.0 48 0 R
 /F1.0 16 0 R
 >>
-/XObject << /Stamp1 889 0 R
+/XObject << /Stamp1 890 0 R
 >>
 >>
 /Annots [370 0 R 371 0 R 373 0 R 375 0 R 377 0 R 379 0 R 381 0 R]
@@ -27052,7 +27052,7 @@ endobj
 /F4.1 15 0 R
 /F2.0 8 0 R
 >>
-/XObject << /Stamp2 890 0 R
+/XObject << /Stamp2 891 0 R
 >>
 >>
 /Annots [384 0 R 386 0 R 388 0 R 389 0 R 391 0 R 392 0 R 393 0 R 394 0 R 395 0 R 396 0 R]
@@ -27148,7 +27148,7 @@ endobj
 >>
 endobj
 397 0 obj
-<< /Length 15856
+<< /Length 15908
 >>
 stream
 q
@@ -27198,7 +27198,7 @@ ET
 0.2588 0.5451 0.7922 scn
 0.2588 0.5451 0.7922 SCN
 
-1.1802 Tw
+0.5342 Tw
 
 BT
 48.24 742.866 Td
@@ -27213,12 +27213,12 @@ ET
 0.2 0.2 0.2 scn
 0.2 0.2 0.2 SCN
 
-1.1802 Tw
+0.5342 Tw
 
 BT
 69.0195 742.866 Td
 /F1.0 10.5 Tf
-<20666f7220746865206f70706f73696e67207465616d2e205468652066726565206b69636b2077696c6c2062652073686f742066726f6d2074686520706f736974696f6e20776865726520746865206f6666656e736520626567616e> Tj
+<20666f7220746865206f70706f73696e67207465616d2e205468652066726565206b69636b2077696c6c2062652073686f742066726f6d2074686520706f736974696f6e207768657265207468652062616c6c20776173206c6f6361746564> Tj
 ET
 
 
@@ -27231,7 +27231,7 @@ ET
 BT
 48.24 727.086 Td
 /F1.0 10.5 Tf
-<68617070656e696e67202873656520> Tj
+<7768656e20746865206f6666656e736520626567616e2068617070656e696e67202873656520> Tj
 ET
 
 0.0 0.0 0.0 SCN
@@ -27240,7 +27240,7 @@ ET
 0.2588 0.5451 0.7922 SCN
 
 BT
-126.8745 727.086 Td
+248.7375 727.086 Td
 /F1.0 10.5 Tf
 <746865206469726563742066726565206b69636b2072756c6573> Tj
 ET
@@ -27251,7 +27251,7 @@ ET
 0.2 0.2 0.2 SCN
 
 BT
-248.979 727.086 Td
+370.842 727.086 Td
 /F1.0 10.5 Tf
 <20666f72207468652065786163742062616c6c20706f736974696f6e2072756c6573292e> Tj
 ET
@@ -28328,7 +28328,7 @@ endobj
 /F5.0 48 0 R
 /F4.1 15 0 R
 >>
-/XObject << /Stamp1 889 0 R
+/XObject << /Stamp1 890 0 R
 >>
 >>
 /Annots [400 0 R 401 0 R 402 0 R 405 0 R 406 0 R 407 0 R 408 0 R 409 0 R 410 0 R 411 0 R 412 0 R 413 0 R 414 0 R 415 0 R 416 0 R 417 0 R 418 0 R 419 0 R 421 0 R 422 0 R 423 0 R 424 0 R 425 0 R 426 0 R 427 0 R 429 0 R]
@@ -28357,7 +28357,7 @@ endobj
 << /Border [0 0 0]
 /Dest (_direct_free_kick)
 /Subtype /Link
-/Rect [126.8745 724.02 248.979 738.3]
+/Rect [248.7375 724.02 370.842 738.3]
 /Type /Annot
 >>
 endobj
@@ -28558,7 +28558,7 @@ endobj
 >>
 endobj
 430 0 obj
-<< /Length 13626
+<< /Length 13403
 >>
 stream
 q
@@ -28887,12 +28887,12 @@ ET
 0.2 0.2 0.2 scn
 0.2 0.2 0.2 SCN
 
-0.3044 Tw
+0.9553 Tw
 
 BT
 48.24 465.486 Td
 /F1.0 10.5 Tf
-<77696c6c2062652073686f742066726f6d2074686520706f736974696f6e20776865726520746865206f6666656e736520626567616e2068617070656e696e67202873656520> Tj
+<77696c6c2062652073686f742066726f6d2074686520706f736974696f6e207768657265207468652062616c6c20776173206c6f6361746564207768656e20746865206f6666656e736520626567616e2068617070656e696e672028736565> Tj
 ET
 
 
@@ -28902,10 +28902,10 @@ ET
 0.2588 0.5451 0.7922 scn
 0.2588 0.5451 0.7922 SCN
 
-0.3044 Tw
+0.3779 Tw
 
 BT
-405.8157 465.486 Td
+48.24 449.706 Td
 /F1.0 10.5 Tf
 <746865206469726563742066726565206b69636b2072756c6573> Tj
 ET
@@ -28917,36 +28917,40 @@ ET
 0.2 0.2 0.2 scn
 0.2 0.2 0.2 SCN
 
-0.3044 Tw
+0.3779 Tw
 
 BT
-529.1376 465.486 Td
+171.856 449.706 Td
 /F1.0 10.5 Tf
-<20666f72> Tj
+<20666f72207468652065786163742062616c6c20706f736974696f6e2072756c6573292e2049662074686520666f756c2068617070656e6564207768696c65207468652062616c6c20697320> Tj
 ET
 
 
 0.0 Tw
 0.0 0.0 0.0 SCN
 0.0 0.0 0.0 scn
-0.2 0.2 0.2 scn
-0.2 0.2 0.2 SCN
+0.2588 0.5451 0.7922 scn
+0.2588 0.5451 0.7922 SCN
+
+0.3779 Tw
 
 BT
-48.24 449.706 Td
+530.6285 449.706 Td
 /F1.0 10.5 Tf
-<7468652065786163742062616c6c20706f736974696f6e2072756c6573292e2049662074686520666f756c2068617070656e6564207768696c65207468652062616c6c20697320> Tj
+<6f7574> Tj
 ET
 
+
+0.0 Tw
 0.0 0.0 0.0 SCN
 0.0 0.0 0.0 scn
 0.2588 0.5451 0.7922 scn
 0.2588 0.5451 0.7922 SCN
 
 BT
-381.027 449.706 Td
+48.24 433.926 Td
 /F1.0 10.5 Tf
-[<6f7574206f6620706c61> 20.0195 <79>] TJ
+[<6f6620706c61> 20.0195 <79>] TJ
 ET
 
 0.0 0.0 0.0 SCN
@@ -28955,7 +28959,7 @@ ET
 0.2 0.2 0.2 SCN
 
 BT
-434.1148 449.706 Td
+82.1968 433.926 Td
 /F1.0 10.5 Tf
 <2c206e6f2066726565206b69636b20697320676976656e2e> Tj
 ET
@@ -28966,7 +28970,7 @@ ET
 0.2 0.2 0.2 SCN
 
 BT
-48.24 421.926 Td
+48.24 406.146 Td
 /F1.0 10.5 Tf
 <457665727920746869726420666f756c206f66207468652073616d65207465616d20726573756c747320696e206120> Tj
 ET
@@ -28977,7 +28981,7 @@ ET
 0.2588 0.5451 0.7922 SCN
 
 BT
-276.3315 421.926 Td
+276.3315 406.146 Td
 /F1.0 10.5 Tf
 <79656c6c6f772063617264> Tj
 ET
@@ -28988,7 +28992,7 @@ ET
 0.2 0.2 0.2 SCN
 
 BT
-334.6485 421.926 Td
+334.6485 406.146 Td
 /F1.0 10.5 Tf
 <2e> Tj
 ET
@@ -28999,7 +29003,7 @@ ET
 0.2 0.2 0.2 SCN
 
 BT
-48.24 394.146 Td
+48.24 378.366 Td
 /F1.0 10.5 Tf
 <496e2063617365206f662073657665726520666f756c732c2074686520726566657265652063616e20616c736f206973737565206120> Tj
 ET
@@ -29010,7 +29014,7 @@ ET
 0.2588 0.5451 0.7922 SCN
 
 BT
-300.9435 394.146 Td
+300.9435 378.366 Td
 /F1.0 10.5 Tf
 <79656c6c6f772063617264> Tj
 ET
@@ -29021,7 +29025,7 @@ ET
 0.2 0.2 0.2 SCN
 
 BT
-359.2605 394.146 Td
+359.2605 378.366 Td
 /F1.0 10.5 Tf
 <206f72206120> Tj
 ET
@@ -29032,7 +29036,7 @@ ET
 0.2588 0.5451 0.7922 SCN
 
 BT
-384.324 394.146 Td
+384.324 378.366 Td
 /F1.0 10.5 Tf
 <7265642063617264> Tj
 ET
@@ -29043,7 +29047,7 @@ ET
 0.2 0.2 0.2 SCN
 
 BT
-426.492 394.146 Td
+426.492 378.366 Td
 /F1.0 10.5 Tf
 <2e> Tj
 ET
@@ -29054,7 +29058,7 @@ ET
 0.2 0.2 0.2 SCN
 
 BT
-48.24 366.366 Td
+48.24 350.586 Td
 /F1.0 10.5 Tf
 [<416c6c20666f756c7320617265206c69737465642062656c6f77> 69.8242 <2e>] TJ
 ET
@@ -29065,7 +29069,7 @@ ET
 0.2 0.2 0.2 SCN
 
 BT
-48.24 331.866 Td
+48.24 316.086 Td
 /F2.0 13 Tf
 [<382e322e312e2041747461636b> 20.0195 <65722054> 29.7852 <6f756368657320526f626f7420496e204f70706f6e656e7420446566656e73652041726561>] TJ
 ET
@@ -29078,7 +29082,7 @@ ET
 1.7094 Tw
 
 BT
-48.24 305.306 Td
+48.24 289.526 Td
 /F1.0 10.5 Tf
 <5768656e207468652062616c6c20> Tj
 ET
@@ -29093,7 +29097,7 @@ ET
 1.7094 Tw
 
 BT
-126.3747 305.306 Td
+126.3747 289.526 Td
 /F1.0 10.5 Tf
 [<696e20706c61> 20.0195 <79>] TJ
 ET
@@ -29108,7 +29112,7 @@ ET
 1.7094 Tw
 
 BT
-162.2299 305.306 Td
+162.2299 289.526 Td
 /F1.0 10.5 Tf
 [<2c206120726f626f74206d757374206e6f7420746f75636820616e> 20.0195 <79206f70706f6e656e7420726f626f7420696e7369646520746865206f70706f6e656e7420>] TJ
 ET
@@ -29123,7 +29127,7 @@ ET
 1.7094 Tw
 
 BT
-508.3685 305.306 Td
+508.3685 289.526 Td
 /F1.0 10.5 Tf
 <646566656e7365> Tj
 ET
@@ -29136,7 +29140,7 @@ ET
 0.2588 0.5451 0.7922 SCN
 
 BT
-48.24 289.526 Td
+48.24 273.746 Td
 /F1.0 10.5 Tf
 <61726561> Tj
 ET
@@ -29147,7 +29151,7 @@ ET
 0.2 0.2 0.2 SCN
 
 BT
-70.605 289.526 Td
+70.605 273.746 Td
 /F1.0 10.5 Tf
 <2e> Tj
 ET
@@ -29157,15 +29161,15 @@ ET
 q
 0.5 w
 0.9333 0.9333 0.9333 SCN
-108.24 273.71 m
-108.24 234.15 l
+108.24 257.93 m
+108.24 218.37 l
 S
 Q
 0.098 0.251 0.4863 scn
 0.098 0.251 0.4863 SCN
 
 BT
-66.24 244.93 Td
+66.24 229.15 Td
 /F4.1 24 Tf
 <21> Tj
 ET
@@ -29178,7 +29182,7 @@ ET
 1.0271 Tw
 
 BT
-120.24 257.746 Td
+120.24 241.966 Td
 /F1.0 10.5 Tf
 <5768656e207468652062616c6c20697320> Tj
 ET
@@ -29193,7 +29197,7 @@ ET
 1.0271 Tw
 
 BT
-208.1596 257.746 Td
+208.1596 241.966 Td
 /F1.0 10.5 Tf
 [<6f7574206f6620706c61> 20.0195 <79>] TJ
 ET
@@ -29208,7 +29212,7 @@ ET
 1.0271 Tw
 
 BT
-263.3017 257.746 Td
+263.3017 241.966 Td
 /F1.0 10.5 Tf
 <2c207468652072756c6520> Tj
 ET
@@ -29223,7 +29227,7 @@ ET
 1.0271 Tw
 
 BT
-313.6121 257.746 Td
+313.6121 241.966 Td
 /F1.0 10.5 Tf
 [<526f626f742054> 29.7852 <6f6f20436c6f73652054> 29.7852 <6f204f70706f6e656e7420446566656e73652041726561>] TJ
 ET
@@ -29238,7 +29242,7 @@ ET
 1.0271 Tw
 
 BT
-535.04 257.746 Td
+535.04 241.966 Td
 ET
 
 
@@ -29249,7 +29253,7 @@ ET
 0.2 0.2 0.2 SCN
 
 BT
-120.24 241.966 Td
+120.24 226.186 Td
 /F1.0 10.5 Tf
 <6170706c69657320696e73746561642e> Tj
 ET
@@ -29260,7 +29264,7 @@ ET
 0.2 0.2 0.2 SCN
 
 BT
-48.24 203.466 Td
+48.24 187.686 Td
 /F2.0 13 Tf
 [<382e322e322e20526f626f742054> 29.7852 <6f6f20436c6f73652054> 29.7852 <6f204f70706f6e656e7420446566656e73652041726561>] TJ
 ET
@@ -29273,7 +29277,7 @@ ET
 1.4797 Tw
 
 BT
-48.24 176.906 Td
+48.24 161.126 Td
 /F1.0 10.5 Tf
 <447572696e6720> Tj
 ET
@@ -29288,7 +29292,7 @@ ET
 1.4797 Tw
 
 BT
-87.4462 176.906 Td
+87.4462 161.126 Td
 /F1.0 10.5 Tf
 <73746f70> Tj
 ET
@@ -29303,7 +29307,7 @@ ET
 1.4797 Tw
 
 BT
-108.3727 176.906 Td
+108.3727 161.126 Td
 /F1.0 10.5 Tf
 <2c20> Tj
 ET
@@ -29318,7 +29322,7 @@ ET
 1.4797 Tw
 
 BT
-115.1969 176.906 Td
+115.1969 161.126 Td
 /F1.0 10.5 Tf
 <6469726563742066726565206b69636b73> Tj
 ET
@@ -29333,7 +29337,7 @@ ET
 1.4797 Tw
 
 BT
-198.3763 176.906 Td
+198.3763 161.126 Td
 /F1.0 10.5 Tf
 <20616e6420> Tj
 ET
@@ -29348,7 +29352,7 @@ ET
 1.4797 Tw
 
 BT
-225.8847 176.906 Td
+225.8847 161.126 Td
 /F1.0 10.5 Tf
 <696e6469726563742066726565206b69636b73> Tj
 ET
@@ -29363,7 +29367,7 @@ ET
 1.4797 Tw
 
 BT
-319.1861 176.906 Td
+319.1861 161.126 Td
 /F1.0 10.5 Tf
 <2c206265666f7265207468652062616c6c20> Tj
 ET
@@ -29378,7 +29382,7 @@ ET
 1.4797 Tw
 
 BT
-405.9759 176.906 Td
+405.9759 161.126 Td
 /F1.0 10.5 Tf
 [<68617320656e746572656420706c61> 20.0195 <79>] TJ
 ET
@@ -29393,7 +29397,7 @@ ET
 1.4797 Tw
 
 BT
-491.6751 176.906 Td
+491.6751 161.126 Td
 /F1.0 10.5 Tf
 <2c20616c6c20726f626f7473> Tj
 ET
@@ -29406,7 +29410,7 @@ ET
 0.2 0.2 0.2 SCN
 
 BT
-48.24 161.126 Td
+48.24 145.346 Td
 /F1.0 10.5 Tf
 [<6861766520746f206b> 20.0195 <656570206174206c6561737420302e32206d65746572732064697374616e636520746f20746865206f70706f6e656e7420>] TJ
 ET
@@ -29417,7 +29421,7 @@ ET
 0.2588 0.5451 0.7922 SCN
 
 BT
-332.6953 161.126 Td
+332.6953 145.346 Td
 /F1.0 10.5 Tf
 <646566656e73652061726561> Tj
 ET
@@ -29428,7 +29432,7 @@ ET
 0.2 0.2 0.2 SCN
 
 BT
-396.4513 161.126 Td
+396.4513 145.346 Td
 /F1.0 10.5 Tf
 <2e> Tj
 ET
@@ -29439,7 +29443,7 @@ ET
 0.2 0.2 0.2 SCN
 
 BT
-48.24 133.346 Td
+48.24 117.566 Td
 /F1.0 10.5 Tf
 [<54686572652069732061206772> 20.0195 <61636520706572696f64206f662032207365636f6e647320666f722074686520726f626f747320746f206d6f766520617761> 20.0195 <792066726f6d20746865206f70706f6e656e7420646566656e736520617265612e>] TJ
 ET
@@ -29450,7 +29454,7 @@ ET
 0.2 0.2 0.2 SCN
 
 BT
-48.24 98.846 Td
+48.24 83.066 Td
 /F2.0 13 Tf
 <382e322e332e2042616c6c20506c6163656d656e7420496e746572666572656e6365> Tj
 ET
@@ -29463,7 +29467,7 @@ ET
 0.6692 Tw
 
 BT
-48.24 72.286 Td
+48.24 56.506 Td
 /F1.0 10.5 Tf
 <447572696e6720> Tj
 ET
@@ -29478,7 +29482,7 @@ ET
 0.6692 Tw
 
 BT
-86.6357 72.286 Td
+86.6357 56.506 Td
 /F1.0 10.5 Tf
 <62616c6c20706c6163656d656e74> Tj
 ET
@@ -29493,24 +29497,13 @@ ET
 0.6692 Tw
 
 BT
-161.246 72.286 Td
+161.246 56.506 Td
 /F1.0 10.5 Tf
 [<2c20616c6c20726f626f7473206f6620746865206e6f6e2d706c6163696e67207465616d206861766520746f206b> 20.0195 <656570206174206c6561737420302e35206d65746572732064697374616e6365>] TJ
 ET
 
 
 0.0 Tw
-0.0 0.0 0.0 SCN
-0.0 0.0 0.0 scn
-0.2 0.2 0.2 scn
-0.2 0.2 0.2 SCN
-
-BT
-48.24 56.506 Td
-/F1.0 10.5 Tf
-<746f20746865206c696e65206265747765656e207468652062616c6c20616e642074686520706c6163656d656e7420706f736974696f6e202874686520666f7262696464656e206172656120666f726d732061207374616469756d207368617065292e> Tj
-ET
-
 0.0 0.0 0.0 SCN
 0.0 0.0 0.0 scn
 q
@@ -29551,10 +29544,10 @@ endobj
 /F1.0 16 0 R
 /F2.0 8 0 R
 >>
-/XObject << /Stamp2 890 0 R
+/XObject << /Stamp2 891 0 R
 >>
 >>
-/Annots [432 0 R 433 0 R 434 0 R 436 0 R 439 0 R 440 0 R 441 0 R 442 0 R 443 0 R 444 0 R 446 0 R 447 0 R 448 0 R 449 0 R 450 0 R 452 0 R 453 0 R 454 0 R 455 0 R 456 0 R 458 0 R]
+/Annots [432 0 R 433 0 R 434 0 R 436 0 R 439 0 R 440 0 R 441 0 R 442 0 R 443 0 R 444 0 R 445 0 R 447 0 R 448 0 R 449 0 R 450 0 R 451 0 R 453 0 R 454 0 R 455 0 R 456 0 R 457 0 R 459 0 R]
 >>
 endobj
 432 0 obj
@@ -29610,7 +29603,7 @@ endobj
 << /Border [0 0 0]
 /Dest (_direct_free_kick)
 /Subtype /Link
-/Rect [405.8157 462.42 529.1376 476.7]
+/Rect [48.24 446.64 171.856 460.92]
 /Type /Annot
 >>
 endobj
@@ -29618,15 +29611,15 @@ endobj
 << /Border [0 0 0]
 /Dest (_ball_in_and_out_of_play)
 /Subtype /Link
-/Rect [381.027 446.64 434.1148 460.92]
+/Rect [530.6285 446.64 547.04 460.92]
 /Type /Annot
 >>
 endobj
 442 0 obj
 << /Border [0 0 0]
-/Dest (_yellow_card)
+/Dest (_ball_in_and_out_of_play)
 /Subtype /Link
-/Rect [276.3315 418.86 334.6485 433.14]
+/Rect [48.24 430.86 82.1968 445.14]
 /Type /Annot
 >>
 endobj
@@ -29634,34 +29627,34 @@ endobj
 << /Border [0 0 0]
 /Dest (_yellow_card)
 /Subtype /Link
-/Rect [300.9435 391.08 359.2605 405.36]
+/Rect [276.3315 403.08 334.6485 417.36]
 /Type /Annot
 >>
 endobj
 444 0 obj
 << /Border [0 0 0]
-/Dest (_red_card)
+/Dest (_yellow_card)
 /Subtype /Link
-/Rect [384.324 391.08 426.492 405.36]
+/Rect [300.9435 375.3 359.2605 389.58]
 /Type /Annot
 >>
 endobj
 445 0 obj
-[431 0 R /XYZ 0 350.55 null]
-endobj
-446 0 obj
 << /Border [0 0 0]
-/Dest (_ball_in_and_out_of_play)
+/Dest (_red_card)
 /Subtype /Link
-/Rect [126.3747 302.24 162.2299 316.52]
+/Rect [384.324 375.3 426.492 389.58]
 /Type /Annot
 >>
 endobj
+446 0 obj
+[431 0 R /XYZ 0 334.77 null]
+endobj
 447 0 obj
 << /Border [0 0 0]
-/Dest (_defense_area)
+/Dest (_ball_in_and_out_of_play)
 /Subtype /Link
-/Rect [508.3685 302.24 547.04 316.52]
+/Rect [126.3747 286.46 162.2299 300.74]
 /Type /Annot
 >>
 endobj
@@ -29669,82 +29662,90 @@ endobj
 << /Border [0 0 0]
 /Dest (_defense_area)
 /Subtype /Link
-/Rect [48.24 286.46 70.605 300.74]
+/Rect [508.3685 286.46 547.04 300.74]
 /Type /Annot
 >>
 endobj
 449 0 obj
 << /Border [0 0 0]
-/Dest (_ball_in_and_out_of_play)
+/Dest (_defense_area)
 /Subtype /Link
-/Rect [208.1596 254.68 263.3017 268.96]
+/Rect [48.24 270.68 70.605 284.96]
 /Type /Annot
 >>
 endobj
 450 0 obj
 << /Border [0 0 0]
-/Dest (_robot_too_close_to_opponent_defense_area)
+/Dest (_ball_in_and_out_of_play)
 /Subtype /Link
-/Rect [313.6121 254.68 535.04 268.96]
+/Rect [208.1596 238.9 263.3017 253.18]
 /Type /Annot
 >>
 endobj
 451 0 obj
-[431 0 R /XYZ 0 222.15 null]
-endobj
-452 0 obj
 << /Border [0 0 0]
-/Dest (_stop)
+/Dest (_robot_too_close_to_opponent_defense_area)
 /Subtype /Link
-/Rect [87.4462 173.84 108.3727 188.12]
+/Rect [313.6121 238.9 535.04 253.18]
 /Type /Annot
 >>
 endobj
+452 0 obj
+[431 0 R /XYZ 0 206.37 null]
+endobj
 453 0 obj
 << /Border [0 0 0]
-/Dest (_direct_free_kick)
+/Dest (_stop)
 /Subtype /Link
-/Rect [115.1969 173.84 198.3763 188.12]
+/Rect [87.4462 158.06 108.3727 172.34]
 /Type /Annot
 >>
 endobj
 454 0 obj
 << /Border [0 0 0]
-/Dest (_indirect_free_kick)
+/Dest (_direct_free_kick)
 /Subtype /Link
-/Rect [225.8847 173.84 319.1861 188.12]
+/Rect [115.1969 158.06 198.3763 172.34]
 /Type /Annot
 >>
 endobj
 455 0 obj
 << /Border [0 0 0]
-/Dest (_resuming_the_game)
+/Dest (_indirect_free_kick)
 /Subtype /Link
-/Rect [405.9759 173.84 491.6751 188.12]
+/Rect [225.8847 158.06 319.1861 172.34]
 /Type /Annot
 >>
 endobj
 456 0 obj
 << /Border [0 0 0]
-/Dest (_defense_area)
+/Dest (_resuming_the_game)
 /Subtype /Link
-/Rect [332.6953 158.06 396.4513 172.34]
+/Rect [405.9759 158.06 491.6751 172.34]
 /Type /Annot
 >>
 endobj
 457 0 obj
-[431 0 R /XYZ 0 117.53 null]
-endobj
-458 0 obj
 << /Border [0 0 0]
-/Dest (_ball_placement)
+/Dest (_defense_area)
 /Subtype /Link
-/Rect [86.6357 69.22 161.246 83.5]
+/Rect [332.6953 142.28 396.4513 156.56]
 /Type /Annot
 >>
 endobj
+458 0 obj
+[431 0 R /XYZ 0 101.75 null]
+endobj
 459 0 obj
-<< /Length 9290
+<< /Border [0 0 0]
+/Dest (_ball_placement)
+/Subtype /Link
+/Rect [86.6357 53.44 161.246 67.72]
+/Type /Annot
+>>
+endobj
+460 0 obj
+<< /Length 9594
 >>
 stream
 q
@@ -29753,10 +29754,21 @@ q
 /DeviceRGB CS
 0.2 0.2 0.2 SCN
 
+BT
+48.24 794.676 Td
+/F1.0 10.5 Tf
+<746f20746865206c696e65206265747765656e207468652062616c6c20616e642074686520706c6163656d656e7420706f736974696f6e202874686520666f7262696464656e206172656120666f726d732061207374616469756d207368617065292e> Tj
+ET
+
+0.0 0.0 0.0 SCN
+0.0 0.0 0.0 scn
+0.2 0.2 0.2 scn
+0.2 0.2 0.2 SCN
+
 2.227 Tw
 
 BT
-48.24 793.926 Td
+48.24 766.896 Td
 /F1.0 10.5 Tf
 <4966206120726f626f74206f6620746865206e6f6e2d706c6163696e67207465616d20697320746f6f20636c6f736520746f20746865206c696e65206265747765656e207468652062616c6c20616e642074686520706c6163656d656e74> Tj
 ET
@@ -29771,7 +29783,7 @@ ET
 2.6695 Tw
 
 BT
-48.24 778.146 Td
+48.24 751.116 Td
 /F1.0 10.5 Tf
 <706f736974696f6e20666f72206d6f7265207468616e2032207365636f6e64732c20697420636f6d6d697473206120666f756c2e20496e207468697320636173652c2074686520706c6163656d656e742070726f636564757265206973> Tj
 ET
@@ -29784,7 +29796,7 @@ ET
 0.2 0.2 0.2 SCN
 
 BT
-48.24 762.366 Td
+48.24 735.336 Td
 /F1.0 10.5 Tf
 <7265737461727465642e> Tj
 ET
@@ -29794,15 +29806,15 @@ ET
 q
 0.5 w
 0.9333 0.9333 0.9333 SCN
-108.24 746.55 m
-108.24 691.21 l
+108.24 719.52 m
+108.24 664.18 l
 S
 Q
 0.098 0.251 0.4863 scn
 0.098 0.251 0.4863 SCN
 
 BT
-66.24 709.88 Td
+66.24 682.85 Td
 /F4.1 24 Tf
 <21> Tj
 ET
@@ -29815,7 +29827,7 @@ ET
 1.7848 Tw
 
 BT
-120.24 730.586 Td
+120.24 703.556 Td
 /F1.0 10.5 Tf
 <546869732072756c6520646f6573206e6f7420636f76657220616c6c206361736573206f662062616c6c20706c6163656d656e7420696e746572666572656e63652e2054686520> Tj
 ET
@@ -29830,7 +29842,7 @@ ET
 1.7848 Tw
 
 BT
-486.2152 730.586 Td
+486.2152 703.556 Td
 /F1.0 10.5 Tf
 <72656665726565> Tj
 ET
@@ -29845,7 +29857,7 @@ ET
 1.7848 Tw
 
 BT
-522.4507 730.586 Td
+522.4507 703.556 Td
 /F1.0 10.5 Tf
 <206973> Tj
 ET
@@ -29860,7 +29872,7 @@ ET
 1.1662 Tw
 
 BT
-120.24 714.806 Td
+120.24 687.776 Td
 /F1.0 10.5 Tf
 [<656e636f7572> 20.0195 <6167656420746f2063616c6c20666f756c7320696620746865206e6f6e2d706c6163696e67207465616d206973206f6276696f75736c7920696e746572666572696e67207769746820746865>] TJ
 ET
@@ -29873,7 +29885,7 @@ ET
 0.2 0.2 0.2 SCN
 
 BT
-120.24 699.026 Td
+120.24 671.996 Td
 /F1.0 10.5 Tf
 <62616c6c20706c6163656d656e742e> Tj
 ET
@@ -29884,7 +29896,7 @@ ET
 0.2 0.2 0.2 SCN
 
 BT
-48.24 660.526 Td
+48.24 633.496 Td
 /F2.0 13 Tf
 [<382e322e342e204372> 20.0195 <617368696e67>] TJ
 ET
@@ -29897,7 +29909,7 @@ ET
 0.9479 Tw
 
 BT
-48.24 633.966 Td
+48.24 606.936 Td
 /F1.0 10.5 Tf
 <417420746865206d6f6d656e74206f6620636f6c6c6973696f6e206f662074776f20726f626f7473206f6620646966666572656e74207465616d732c2074686520646966666572656e6365206f662074686520737065656420766563746f7273206f66> Tj
 ET
@@ -29912,7 +29924,7 @@ ET
 0.3597 Tw
 
 BT
-48.24 618.186 Td
+48.24 591.156 Td
 /F1.0 10.5 Tf
 [<626f746820726f626f74732069732074616b> 20.0195 <656e20616e642070726f6a6563746564206f6e746f20746865206c696e65207468617420697320646566696e65642062> 20.0195 <792074686520706f736974696f6e206f6620626f746820726f626f74732e20496620746865>] TJ
 ET
@@ -29927,7 +29939,7 @@ ET
 0.5088 Tw
 
 BT
-48.24 602.406 Td
+48.24 575.376 Td
 /F1.0 10.5 Tf
 <6c656e677468206f6620746869732070726f6a656374696f6e2069732067726561746572207468616e20312e35206d657465727320706572207365636f6e642c207468652066617374657220726f626f7420636f6d6d6974746564206120666f756c2e204966> Tj
 ET
@@ -29942,7 +29954,7 @@ ET
 0.7571 Tw
 
 BT
-48.24 586.626 Td
+48.24 559.596 Td
 /F1.0 10.5 Tf
 <746865206162736f6c75746520726f626f7420737065656420646966666572656e6365206973206c657373207468616e20302e33206d657465727320706572207365636f6e642c20626f746820636f6e64756374206120666f756c2062757420746865> Tj
 ET
@@ -29955,7 +29967,7 @@ ET
 0.2 0.2 0.2 SCN
 
 BT
-48.24 570.846 Td
+48.24 543.816 Td
 /F1.0 10.5 Tf
 <67616d652077696c6c206e6f742062652073746f707065642e> Tj
 ET
@@ -29966,7 +29978,7 @@ ET
 0.2 0.2 0.2 SCN
 
 BT
-48.24 536.346 Td
+48.24 509.316 Td
 /F2.0 13 Tf
 <382e322e352e2050757368696e67> Tj
 ET
@@ -29979,7 +29991,7 @@ ET
 0.4414 Tw
 
 BT
-48.24 509.786 Td
+48.24 482.756 Td
 /F1.0 10.5 Tf
 [<4120726f626f742070757368657320616e206f70706f6e656e7420726f626f7420696620626f746820726f626f7473206b> 20.0195 <65657020636f6e7461637420746f207468652062616c6c206f7220746f2065616368206f74686572207768696c6520746865>] TJ
 ET
@@ -29994,7 +30006,7 @@ ET
 2.0788 Tw
 
 BT
-48.24 494.006 Td
+48.24 466.976 Td
 /F1.0 10.5 Tf
 [<726f626f742065786572747320666f726365206f6e746f20746865206f70706f6e656e7420726f626f742c2073756368207468617420626f746820726f626f7473207472> 20.0195 <6176656c20746f776172647320746865206f70706f6e656e74>] TJ
 ET
@@ -30007,7 +30019,7 @@ ET
 0.2 0.2 0.2 SCN
 
 BT
-48.24 478.226 Td
+48.24 451.196 Td
 /F1.0 10.5 Tf
 <726f626f742e> Tj
 ET
@@ -30017,15 +30029,15 @@ ET
 q
 0.5 w
 0.9333 0.9333 0.9333 SCN
-108.24 462.41 m
-108.24 438.63 l
+108.24 435.38 m
+108.24 411.6 l
 S
 Q
 0.098 0.251 0.4863 scn
 0.098 0.251 0.4863 SCN
 
 BT
-66.35 441.6025 Td
+66.35 414.5725 Td
 /F4.1 23.779999999999973 Tf
 <21> Tj
 ET
@@ -30036,7 +30048,7 @@ ET
 0.2 0.2 0.2 SCN
 
 BT
-120.24 446.446 Td
+120.24 419.416 Td
 /F1.0 10.5 Tf
 <496620626f746820726f626f7473206172652070757368696e672065616368206f7468657220776974682073696d696c617220666f7263652c206e6f207465616d206973206174206661756c742e> Tj
 ET
@@ -30047,7 +30059,7 @@ ET
 0.2 0.2 0.2 SCN
 
 BT
-48.24 407.946 Td
+48.24 380.916 Td
 /F2.0 13 Tf
 <382e322e362e2042616c6c20486f6c64696e67> Tj
 ET
@@ -30058,7 +30070,7 @@ ET
 0.2 0.2 0.2 SCN
 
 BT
-48.24 381.386 Td
+48.24 354.356 Td
 /F1.0 10.5 Tf
 [<526f626f7473206d757374206e6f7420737572726f756e64207468652062616c6c20746f2070726576656e74206163636573732062> 20.0195 <79206f74686572732e>] TJ
 ET
@@ -30069,7 +30081,7 @@ ET
 0.2 0.2 0.2 SCN
 
 BT
-48.24 346.886 Td
+48.24 319.856 Td
 /F2.0 13 Tf
 <382e322e372e2054697070696e67204f766572204f722044726f7070696e67205061727473> Tj
 ET
@@ -30082,7 +30094,7 @@ ET
 1.6058 Tw
 
 BT
-48.24 320.326 Td
+48.24 293.296 Td
 /F1.0 10.5 Tf
 <4120726f626f74206d757374206e6f7420746970206f7665722c20627265616b206f722064726f70207061727473206f6e20746865206669656c64207468617420706f7365206120706f74656e7469616c2074687265617420746f206f74686572> Tj
 ET
@@ -30095,7 +30107,7 @@ ET
 0.2 0.2 0.2 SCN
 
 BT
-48.24 304.546 Td
+48.24 277.516 Td
 /F1.0 10.5 Tf
 <726f626f74732e> Tj
 ET
@@ -30106,7 +30118,7 @@ ET
 0.2 0.2 0.2 SCN
 
 BT
-48.24 276.766 Td
+48.24 249.736 Td
 /F1.0 10.5 Tf
 <4120726f626f742076696f6c6174696e6720746869732072756c652068617320746f20626520> Tj
 ET
@@ -30117,7 +30129,7 @@ ET
 0.2588 0.5451 0.7922 SCN
 
 BT
-226.719 276.766 Td
+226.719 249.736 Td
 /F1.0 10.5 Tf
 <7375627374697475746564> Tj
 ET
@@ -30128,7 +30140,7 @@ ET
 0.2 0.2 0.2 SCN
 
 BT
-282.432 276.766 Td
+282.432 249.736 Td
 /F1.0 10.5 Tf
 <2e> Tj
 ET
@@ -30138,15 +30150,15 @@ ET
 q
 0.5 w
 0.9333 0.9333 0.9333 SCN
-108.24 260.95 m
-108.24 221.39 l
+108.24 233.92 m
+108.24 194.36 l
 S
 Q
 0.098 0.251 0.4863 scn
 0.098 0.251 0.4863 SCN
 
 BT
-66.24 232.17 Td
+66.24 205.14 Td
 /F4.1 24 Tf
 <21> Tj
 ET
@@ -30159,7 +30171,7 @@ ET
 0.5773 Tw
 
 BT
-120.24 244.986 Td
+120.24 217.956 Td
 /F1.0 10.5 Tf
 [<4d6574616c207061727473202873637265777320666f72206578616d706c65292061732077656c6c206173206c61726765722070617274732067656e6572> 20.0195 <616c6c7920706f7365206120706f74656e7469616c>] TJ
 ET
@@ -30172,7 +30184,7 @@ ET
 0.2 0.2 0.2 SCN
 
 BT
-120.24 229.206 Td
+120.24 202.176 Td
 /F1.0 10.5 Tf
 <7468726561742c207665727920736d616c6c206e6f6e2d6d6574616c2070617274732028666f72206578616d706c652072756262657220737562776865656c2072696e67732920646f6ed5742e> Tj
 ET
@@ -30183,7 +30195,7 @@ ET
 0.2 0.2 0.2 SCN
 
 BT
-48.24 190.706 Td
+48.24 163.676 Td
 /F2.0 13 Tf
 <382e322e382e20526f626f742053746f70205370656564> Tj
 ET
@@ -30196,7 +30208,7 @@ ET
 0.1391 Tw
 
 BT
-48.24 164.146 Td
+48.24 137.116 Td
 /F1.0 10.5 Tf
 <4120726f626f74206d757374206e6f74206d6f766520666173746572207468616e20312e35206d657465727320706572207365636f6e6420647572696e6720> Tj
 ET
@@ -30211,7 +30223,7 @@ ET
 0.1391 Tw
 
 BT
-372.6166 164.146 Td
+372.6166 137.116 Td
 /F1.0 10.5 Tf
 <73746f70> Tj
 ET
@@ -30226,7 +30238,7 @@ ET
 0.1391 Tw
 
 BT
-393.5431 164.146 Td
+393.5431 137.116 Td
 /F1.0 10.5 Tf
 <2e20412076696f6c6174696f6e206f6620746869732072756c65206973206f6e6c79> Tj
 ET
@@ -30239,7 +30251,7 @@ ET
 0.2 0.2 0.2 SCN
 
 BT
-48.24 148.366 Td
+48.24 121.336 Td
 /F1.0 10.5 Tf
 <636f756e746564206f6e63652070657220726f626f7420616e642073746f70706167652e> Tj
 ET
@@ -30250,7 +30262,7 @@ ET
 0.2 0.2 0.2 SCN
 
 BT
-48.24 120.586 Td
+48.24 93.556 Td
 /F1.0 10.5 Tf
 [<54686572652069732061206772> 20.0195 <61636520706572696f64206f662032207365636f6e647320666f722074686520726f626f747320746f20736c6f7720646f776e2e>] TJ
 ET
@@ -30260,15 +30272,15 @@ ET
 q
 0.5 w
 0.9333 0.9333 0.9333 SCN
-108.24 104.77 m
-108.24 80.99 l
+108.24 77.74 m
+108.24 53.96 l
 S
 Q
 0.098 0.251 0.4863 scn
 0.098 0.251 0.4863 SCN
 
 BT
-66.35 83.9625 Td
+66.35 56.9325 Td
 /F4.1 23.779999999999973 Tf
 <21> Tj
 ET
@@ -30279,7 +30291,7 @@ ET
 0.2 0.2 0.2 SCN
 
 BT
-120.24 88.806 Td
+120.24 61.776 Td
 /F1.0 10.5 Tf
 <546869732072756c6520646f6573206e6f74206170706c7920746f20> Tj
 ET
@@ -30290,7 +30302,7 @@ ET
 0.2588 0.5451 0.7922 SCN
 
 BT
-255.2805 88.806 Td
+255.2805 61.776 Td
 /F1.0 10.5 Tf
 <62616c6c20706c6163656d656e74> Tj
 ET
@@ -30301,7 +30313,7 @@ ET
 0.2 0.2 0.2 SCN
 
 BT
-329.2215 88.806 Td
+329.2215 61.776 Td
 /F1.0 10.5 Tf
 <2e> Tj
 ET
@@ -30332,7 +30344,7 @@ Q
 
 endstream
 endobj
-460 0 obj
+461 0 obj
 << /Type /Page
 /Parent 3 0 R
 /MediaBox [0 0 595.28 841.89]
@@ -30340,66 +30352,66 @@ endobj
 /BleedBox [0 0 595.28 841.89]
 /TrimBox [0 0 595.28 841.89]
 /ArtBox [0 0 595.28 841.89]
-/Contents 459 0 R
+/Contents 460 0 R
 /Resources << /ProcSet [/PDF /Text /ImageB /ImageC /ImageI]
 /Font << /F1.0 16 0 R
 /F4.1 15 0 R
 /F2.0 8 0 R
 >>
-/XObject << /Stamp1 889 0 R
+/XObject << /Stamp1 890 0 R
 >>
 >>
-/Annots [461 0 R 466 0 R 468 0 R 469 0 R]
->>
-endobj
-461 0 obj
-<< /Border [0 0 0]
-/Dest (_referee)
-/Subtype /Link
-/Rect [486.2152 727.52 522.4507 741.8]
-/Type /Annot
+/Annots [462 0 R 467 0 R 469 0 R 470 0 R]
 >>
 endobj
 462 0 obj
-[460 0 R /XYZ 0 679.21 null]
+<< /Border [0 0 0]
+/Dest (_referee)
+/Subtype /Link
+/Rect [486.2152 700.49 522.4507 714.77]
+/Type /Annot
+>>
 endobj
 463 0 obj
-[460 0 R /XYZ 0 555.03 null]
+[461 0 R /XYZ 0 652.18 null]
 endobj
 464 0 obj
-[460 0 R /XYZ 0 426.63 null]
+[461 0 R /XYZ 0 528.0 null]
 endobj
 465 0 obj
-[460 0 R /XYZ 0 365.57 null]
+[461 0 R /XYZ 0 399.6 null]
 endobj
 466 0 obj
+[461 0 R /XYZ 0 338.54 null]
+endobj
+467 0 obj
 << /Border [0 0 0]
 /Dest (_robot_substitution)
 /Subtype /Link
-/Rect [226.719 273.7 282.432 287.98]
+/Rect [226.719 246.67 282.432 260.95]
 /Type /Annot
 >>
-endobj
-467 0 obj
-[460 0 R /XYZ 0 209.39 null]
 endobj
 468 0 obj
-<< /Border [0 0 0]
-/Dest (_stop)
-/Subtype /Link
-/Rect [372.6166 161.08 393.5431 175.36]
-/Type /Annot
->>
+[461 0 R /XYZ 0 182.36 null]
 endobj
 469 0 obj
 << /Border [0 0 0]
-/Dest (_ball_placement)
+/Dest (_stop)
 /Subtype /Link
-/Rect [255.2805 85.74 329.2215 100.02]
+/Rect [372.6166 134.05 393.5431 148.33]
 /Type /Annot
 >>
 endobj
 470 0 obj
+<< /Border [0 0 0]
+/Dest (_ball_placement)
+/Subtype /Link
+/Rect [255.2805 58.71 329.2215 72.99]
+/Type /Annot
+>>
+endobj
+471 0 obj
 << /Length 13394
 >>
 stream
@@ -31419,7 +31431,7 @@ Q
 
 endstream
 endobj
-471 0 obj
+472 0 obj
 << /Type /Page
 /Parent 3 0 R
 /MediaBox [0 0 595.28 841.89]
@@ -31427,19 +31439,19 @@ endobj
 /BleedBox [0 0 595.28 841.89]
 /TrimBox [0 0 595.28 841.89]
 /ArtBox [0 0 595.28 841.89]
-/Contents 470 0 R
+/Contents 471 0 R
 /Resources << /ProcSet [/PDF /Text /ImageB /ImageC /ImageI]
 /Font << /F4.1 15 0 R
 /F1.0 16 0 R
 /F2.0 8 0 R
 >>
-/XObject << /Stamp2 890 0 R
+/XObject << /Stamp2 891 0 R
 >>
 >>
-/Annots [472 0 R 474 0 R 475 0 R 476 0 R 477 0 R 478 0 R 479 0 R 480 0 R 481 0 R 483 0 R 484 0 R 485 0 R 486 0 R 489 0 R 490 0 R 491 0 R 492 0 R 493 0 R 494 0 R 495 0 R 496 0 R]
+/Annots [473 0 R 475 0 R 476 0 R 477 0 R 478 0 R 479 0 R 480 0 R 481 0 R 482 0 R 484 0 R 485 0 R 486 0 R 487 0 R 490 0 R 491 0 R 492 0 R 493 0 R 494 0 R 495 0 R 496 0 R 497 0 R]
 >>
 endobj
-472 0 obj
+473 0 obj
 << /Border [0 0 0]
 /Dest (_robot_substitution)
 /Subtype /Link
@@ -31447,10 +31459,10 @@ endobj
 /Type /Annot
 >>
 endobj
-473 0 obj
-[471 0 R /XYZ 0 738.55 null]
-endobj
 474 0 obj
+[472 0 R /XYZ 0 738.55 null]
+endobj
+475 0 obj
 << /Border [0 0 0]
 /Dest (_kick_off)
 /Subtype /Link
@@ -31458,7 +31470,7 @@ endobj
 /Type /Annot
 >>
 endobj
-475 0 obj
+476 0 obj
 << /Border [0 0 0]
 /Dest (_direct_free_kick)
 /Subtype /Link
@@ -31466,7 +31478,7 @@ endobj
 /Type /Annot
 >>
 endobj
-476 0 obj
+477 0 obj
 << /Border [0 0 0]
 /Dest (_direct_free_kick)
 /Subtype /Link
@@ -31474,7 +31486,7 @@ endobj
 /Type /Annot
 >>
 endobj
-477 0 obj
+478 0 obj
 << /Border [0 0 0]
 /Dest (_indirect_free_kick)
 /Subtype /Link
@@ -31482,7 +31494,7 @@ endobj
 /Type /Annot
 >>
 endobj
-478 0 obj
+479 0 obj
 << /Border [0 0 0]
 /Dest (_stop)
 /Subtype /Link
@@ -31490,7 +31502,7 @@ endobj
 /Type /Annot
 >>
 endobj
-479 0 obj
+480 0 obj
 << /Border [0 0 0]
 /Dest (_unsporting_behavior)
 /Subtype /Link
@@ -31498,7 +31510,7 @@ endobj
 /Type /Annot
 >>
 endobj
-480 0 obj
+481 0 obj
 << /Border [0 0 0]
 /Dest (_yellow_card)
 /Subtype /Link
@@ -31506,7 +31518,7 @@ endobj
 /Type /Annot
 >>
 endobj
-481 0 obj
+482 0 obj
 << /Border [0 0 0]
 /Dest (_stop)
 /Subtype /Link
@@ -31514,10 +31526,10 @@ endobj
 /Type /Annot
 >>
 endobj
-482 0 obj
-[471 0 R /XYZ 0 578.59 null]
-endobj
 483 0 obj
+[472 0 R /XYZ 0 578.59 null]
+endobj
+484 0 obj
 << /Border [0 0 0]
 /Dest (_fouls)
 /Subtype /Link
@@ -31525,7 +31537,7 @@ endobj
 /Type /Annot
 >>
 endobj
-484 0 obj
+485 0 obj
 << /Border [0 0 0]
 /Dest (_yellow_card)
 /Subtype /Link
@@ -31533,7 +31545,7 @@ endobj
 /Type /Annot
 >>
 endobj
-485 0 obj
+486 0 obj
 << /Border [0 0 0]
 /Dest (_direct_free_kick)
 /Subtype /Link
@@ -31541,7 +31553,7 @@ endobj
 /Type /Annot
 >>
 endobj
-486 0 obj
+487 0 obj
 << /Border [0 0 0]
 /Dest (_penalty_kick)
 /Subtype /Link
@@ -31549,13 +31561,13 @@ endobj
 /Type /Annot
 >>
 endobj
-487 0 obj
-[471 0 R /XYZ 0 390.85 null]
-endobj
 488 0 obj
-[471 0 R /XYZ 0 329.79 null]
+[472 0 R /XYZ 0 390.85 null]
 endobj
 489 0 obj
+[472 0 R /XYZ 0 329.79 null]
+endobj
+490 0 obj
 << /Border [0 0 0]
 /Dest (_yellow_card)
 /Subtype /Link
@@ -31563,7 +31575,7 @@ endobj
 /Type /Annot
 >>
 endobj
-490 0 obj
+491 0 obj
 << /Border [0 0 0]
 /Dest (_red_card)
 /Subtype /Link
@@ -31571,7 +31583,7 @@ endobj
 /Type /Annot
 >>
 endobj
-491 0 obj
+492 0 obj
 << /Border [0 0 0]
 /Dest (_penalty_kick)
 /Subtype /Link
@@ -31579,7 +31591,7 @@ endobj
 /Type /Annot
 >>
 endobj
-492 0 obj
+493 0 obj
 << /Border [0 0 0]
 /Dest (_forced_forfeit)
 /Subtype /Link
@@ -31587,7 +31599,7 @@ endobj
 /Type /Annot
 >>
 endobj
-493 0 obj
+494 0 obj
 << /Border [0 0 0]
 /Dest (_disqualification)
 /Subtype /Link
@@ -31595,7 +31607,7 @@ endobj
 /Type /Annot
 >>
 endobj
-494 0 obj
+495 0 obj
 << /Border [0 0 0]
 /Dest (_referee)
 /Subtype /Link
@@ -31603,7 +31615,7 @@ endobj
 /Type /Annot
 >>
 endobj
-495 0 obj
+496 0 obj
 << /Border [0 0 0]
 /Dest (_technical_committee)
 /Subtype /Link
@@ -31611,7 +31623,7 @@ endobj
 /Type /Annot
 >>
 endobj
-496 0 obj
+497 0 obj
 << /Border [0 0 0]
 /Dest (_organizing_committee)
 /Subtype /Link
@@ -31619,10 +31631,10 @@ endobj
 /Type /Annot
 >>
 endobj
-497 0 obj
-[471 0 R /XYZ 0 151.03 null]
-endobj
 498 0 obj
+[472 0 R /XYZ 0 151.03 null]
+endobj
+499 0 obj
 << /Length 12543
 >>
 stream
@@ -32543,7 +32555,7 @@ Q
 
 endstream
 endobj
-499 0 obj
+500 0 obj
 << /Type /Page
 /Parent 3 0 R
 /MediaBox [0 0 595.28 841.89]
@@ -32551,31 +32563,31 @@ endobj
 /BleedBox [0 0 595.28 841.89]
 /TrimBox [0 0 595.28 841.89]
 /ArtBox [0 0 595.28 841.89]
-/Contents 498 0 R
+/Contents 499 0 R
 /Resources << /ProcSet [/PDF /Text /ImageB /ImageC /ImageI]
 /Font << /F2.0 8 0 R
 /F1.0 16 0 R
 /F4.1 15 0 R
 /F5.0 48 0 R
 >>
-/XObject << /Stamp1 889 0 R
+/XObject << /Stamp1 890 0 R
 >>
 >>
-/Annots [503 0 R 504 0 R 505 0 R 506 0 R 507 0 R 509 0 R 510 0 R 511 0 R 512 0 R 513 0 R 514 0 R 515 0 R 516 0 R 517 0 R 519 0 R 520 0 R 521 0 R 523 0 R]
+/Annots [504 0 R 505 0 R 506 0 R 507 0 R 508 0 R 510 0 R 511 0 R 512 0 R 513 0 R 514 0 R 515 0 R 516 0 R 517 0 R 518 0 R 520 0 R 521 0 R 522 0 R 524 0 R]
 >>
-endobj
-500 0 obj
-[499 0 R /XYZ 0 841.89 null]
 endobj
 501 0 obj
-[499 0 R /XYZ 0 749.63 null]
+[500 0 R /XYZ 0 841.89 null]
 endobj
 502 0 obj
-<< /Limits [(_robots) (_technical_committee)]
-/Names [(_robots) 114 0 R (_rule_changes_during_competition) 561 0 R (_safety) 123 0 R (_sanctions) 345 0 R (_scoring_goals) 387 0 R (_shape) 127 0 R (_shared_software) 80 0 R (_shoot_out) 548 0 R (_showing_lack_of_respect) 501 0 R (_simultaneous_offenses) 508 0 R (_stop) 257 0 R (_stopping_the_game) 256 0 R (_team_specific_roles) 195 0 R (_technical_committee) 28 0 R]
->>
+[500 0 R /XYZ 0 749.63 null]
 endobj
 503 0 obj
+<< /Limits [(_robots) (_technical_committee)]
+/Names [(_robots) 114 0 R (_rule_changes_during_competition) 562 0 R (_safety) 123 0 R (_sanctions) 345 0 R (_scoring_goals) 387 0 R (_shape) 127 0 R (_shared_software) 80 0 R (_shoot_out) 549 0 R (_showing_lack_of_respect) 502 0 R (_simultaneous_offenses) 509 0 R (_stop) 257 0 R (_stopping_the_game) 256 0 R (_team_specific_roles) 195 0 R (_technical_committee) 28 0 R]
+>>
+endobj
+504 0 obj
 << /Border [0 0 0]
 /Dest (_referee)
 /Subtype /Link
@@ -32583,7 +32595,7 @@ endobj
 /Type /Annot
 >>
 endobj
-504 0 obj
+505 0 obj
 << /Border [0 0 0]
 /Dest (_impartial_roles)
 /Subtype /Link
@@ -32591,7 +32603,7 @@ endobj
 /Type /Annot
 >>
 endobj
-505 0 obj
+506 0 obj
 << /Border [0 0 0]
 /Dest (_referee)
 /Subtype /Link
@@ -32599,7 +32611,7 @@ endobj
 /Type /Annot
 >>
 endobj
-506 0 obj
+507 0 obj
 << /Border [0 0 0]
 /Dest (_impartial_roles)
 /Subtype /Link
@@ -32607,7 +32619,7 @@ endobj
 /Type /Annot
 >>
 endobj
-507 0 obj
+508 0 obj
 << /Border [0 0 0]
 /Dest (_referee)
 /Subtype /Link
@@ -32615,10 +32627,10 @@ endobj
 /Type /Annot
 >>
 endobj
-508 0 obj
-[499 0 R /XYZ 0 601.45 null]
-endobj
 509 0 obj
+[500 0 R /XYZ 0 601.45 null]
+endobj
+510 0 obj
 << /Border [0 0 0]
 /Dest (_stop)
 /Subtype /Link
@@ -32626,7 +32638,7 @@ endobj
 /Type /Annot
 >>
 endobj
-510 0 obj
+511 0 obj
 << /Border [0 0 0]
 /Dest (_resuming_the_game)
 /Subtype /Link
@@ -32634,7 +32646,7 @@ endobj
 /Type /Annot
 >>
 endobj
-511 0 obj
+512 0 obj
 << /Border [0 0 0]
 /Dest (_minor_offenses)
 /Subtype /Link
@@ -32642,7 +32654,7 @@ endobj
 /Type /Annot
 >>
 endobj
-512 0 obj
+513 0 obj
 << /Border [0 0 0]
 /Dest (_fouls)
 /Subtype /Link
@@ -32650,7 +32662,7 @@ endobj
 /Type /Annot
 >>
 endobj
-513 0 obj
+514 0 obj
 << /Border [0 0 0]
 /Dest (_penalty_kick)
 /Subtype /Link
@@ -32658,7 +32670,7 @@ endobj
 /Type /Annot
 >>
 endobj
-514 0 obj
+515 0 obj
 << /Border [0 0 0]
 /Dest (_unsporting_behavior)
 /Subtype /Link
@@ -32666,7 +32678,7 @@ endobj
 /Type /Annot
 >>
 endobj
-515 0 obj
+516 0 obj
 << /Border [0 0 0]
 /Dest (_yellow_card)
 /Subtype /Link
@@ -32674,7 +32686,7 @@ endobj
 /Type /Annot
 >>
 endobj
-516 0 obj
+517 0 obj
 << /Border [0 0 0]
 /Dest (_direct_free_kick)
 /Subtype /Link
@@ -32682,7 +32694,7 @@ endobj
 /Type /Annot
 >>
 endobj
-517 0 obj
+518 0 obj
 << /Border [0 0 0]
 /Dest (_indirect_free_kick)
 /Subtype /Link
@@ -32690,10 +32702,10 @@ endobj
 /Type /Annot
 >>
 endobj
-518 0 obj
-[499 0 R /XYZ 0 391.13 null]
-endobj
 519 0 obj
+[500 0 R /XYZ 0 391.13 null]
+endobj
+520 0 obj
 << /Border [0 0 0]
 /Dest (_stop)
 /Subtype /Link
@@ -32701,7 +32713,7 @@ endobj
 /Type /Annot
 >>
 endobj
-520 0 obj
+521 0 obj
 << /Border [0 0 0]
 /Dest (_crashing)
 /Subtype /Link
@@ -32709,7 +32721,7 @@ endobj
 /Type /Annot
 >>
 endobj
-521 0 obj
+522 0 obj
 << /Border [0 0 0]
 /Dest (_attacker_touches_robot_in_opponent_defense_area)
 /Subtype /Link
@@ -32717,10 +32729,10 @@ endobj
 /Type /Annot
 >>
 endobj
-522 0 obj
-[499 0 R /XYZ 0 140.039 null]
-endobj
 523 0 obj
+[500 0 R /XYZ 0 140.039 null]
+endobj
+524 0 obj
 << /Border [0 0 0]
 /Dest (_robot_handler)
 /Subtype /Link
@@ -32728,7 +32740,7 @@ endobj
 /Type /Annot
 >>
 endobj
-524 0 obj
+525 0 obj
 << /Length 15593
 >>
 stream
@@ -33885,7 +33897,7 @@ Q
 
 endstream
 endobj
-525 0 obj
+526 0 obj
 << /Type /Page
 /Parent 3 0 R
 /MediaBox [0 0 595.28 841.89]
@@ -33893,19 +33905,19 @@ endobj
 /BleedBox [0 0 595.28 841.89]
 /TrimBox [0 0 595.28 841.89]
 /ArtBox [0 0 595.28 841.89]
-/Contents 524 0 R
+/Contents 525 0 R
 /Resources << /ProcSet [/PDF /Text /ImageB /ImageC /ImageI]
 /Font << /F1.0 16 0 R
 /F5.0 48 0 R
 /F2.0 8 0 R
 >>
-/XObject << /Stamp2 890 0 R
+/XObject << /Stamp2 891 0 R
 >>
 >>
-/Annots [526 0 R 527 0 R 528 0 R 529 0 R 530 0 R 531 0 R 532 0 R 533 0 R 534 0 R 535 0 R 536 0 R 537 0 R 538 0 R 539 0 R 540 0 R 541 0 R 542 0 R 543 0 R 544 0 R 545 0 R 546 0 R 547 0 R 549 0 R]
+/Annots [527 0 R 528 0 R 529 0 R 530 0 R 531 0 R 532 0 R 533 0 R 534 0 R 535 0 R 536 0 R 537 0 R 538 0 R 539 0 R 540 0 R 541 0 R 542 0 R 543 0 R 544 0 R 545 0 R 546 0 R 547 0 R 548 0 R 550 0 R]
 >>
 endobj
-526 0 obj
+527 0 obj
 << /Border [0 0 0]
 /Dest (_robot_handler)
 /Subtype /Link
@@ -33913,7 +33925,7 @@ endobj
 /Type /Annot
 >>
 endobj
-527 0 obj
+528 0 obj
 << /Border [0 0 0]
 /Dest (_referee)
 /Subtype /Link
@@ -33921,7 +33933,7 @@ endobj
 /Type /Annot
 >>
 endobj
-528 0 obj
+529 0 obj
 << /Border [0 0 0]
 /Dest (_field_surface)
 /Subtype /Link
@@ -33929,7 +33941,7 @@ endobj
 /Type /Annot
 >>
 endobj
-529 0 obj
+530 0 obj
 << /Border [0 0 0]
 /Dest (_stopping_the_game)
 /Subtype /Link
@@ -33937,7 +33949,7 @@ endobj
 /Type /Annot
 >>
 endobj
-530 0 obj
+531 0 obj
 << /Border [0 0 0]
 /Dest (_robot_handler)
 /Subtype /Link
@@ -33945,7 +33957,7 @@ endobj
 /Type /Annot
 >>
 endobj
-531 0 obj
+532 0 obj
 << /Border [0 0 0]
 /Dest (_robot_handler)
 /Subtype /Link
@@ -33953,7 +33965,7 @@ endobj
 /Type /Annot
 >>
 endobj
-532 0 obj
+533 0 obj
 << /Border [0 0 0]
 /Dest (_robot_handler)
 /Subtype /Link
@@ -33961,7 +33973,7 @@ endobj
 /Type /Annot
 >>
 endobj
-533 0 obj
+534 0 obj
 << /Border [0 0 0]
 /Dest (_referee)
 /Subtype /Link
@@ -33969,7 +33981,7 @@ endobj
 /Type /Annot
 >>
 endobj
-534 0 obj
+535 0 obj
 << /Border [0 0 0]
 /Dest (_referee)
 /Subtype /Link
@@ -33977,7 +33989,7 @@ endobj
 /Type /Annot
 >>
 endobj
-535 0 obj
+536 0 obj
 << /Border [0 0 0]
 /Dest (_game_controller_operator)
 /Subtype /Link
@@ -33985,7 +33997,7 @@ endobj
 /Type /Annot
 >>
 endobj
-536 0 obj
+537 0 obj
 << /Border [0 0 0]
 /Dest (_game_controller_operator)
 /Subtype /Link
@@ -33993,7 +34005,7 @@ endobj
 /Type /Annot
 >>
 endobj
-537 0 obj
+538 0 obj
 << /Border [0 0 0]
 /Dest (_game_controller_operator)
 /Subtype /Link
@@ -34001,7 +34013,7 @@ endobj
 /Type /Annot
 >>
 endobj
-538 0 obj
+539 0 obj
 << /Border [0 0 0]
 /Dest (_stop)
 /Subtype /Link
@@ -34009,7 +34021,7 @@ endobj
 /Type /Annot
 >>
 endobj
-539 0 obj
+540 0 obj
 << /Border [0 0 0]
 /Dest (_robot_handler)
 /Subtype /Link
@@ -34017,7 +34029,7 @@ endobj
 /Type /Annot
 >>
 endobj
-540 0 obj
+541 0 obj
 << /Border [0 0 0]
 /Dest (_game_controller_operator)
 /Subtype /Link
@@ -34025,7 +34037,7 @@ endobj
 /Type /Annot
 >>
 endobj
-541 0 obj
+542 0 obj
 << /Border [0 0 0]
 /Dest (_game_controller)
 /Subtype /Link
@@ -34033,7 +34045,7 @@ endobj
 /Type /Annot
 >>
 endobj
-542 0 obj
+543 0 obj
 << /Border [0 0 0]
 /Dest (_game_controller)
 /Subtype /Link
@@ -34041,7 +34053,7 @@ endobj
 /Type /Annot
 >>
 endobj
-543 0 obj
+544 0 obj
 << /Border [0 0 0]
 /Dest (_game_controller)
 /Subtype /Link
@@ -34049,7 +34061,7 @@ endobj
 /Type /Annot
 >>
 endobj
-544 0 obj
+545 0 obj
 << /Border [0 0 0]
 /Dest (_yellow_card)
 /Subtype /Link
@@ -34057,7 +34069,7 @@ endobj
 /Type /Annot
 >>
 endobj
-545 0 obj
+546 0 obj
 << /Border [0 0 0]
 /Dest (_red_card)
 /Subtype /Link
@@ -34065,7 +34077,7 @@ endobj
 /Type /Annot
 >>
 endobj
-546 0 obj
+547 0 obj
 << /Border [0 0 0]
 /Dest (_game_controller)
 /Subtype /Link
@@ -34073,7 +34085,7 @@ endobj
 /Type /Annot
 >>
 endobj
-547 0 obj
+548 0 obj
 << /Border [0 0 0]
 /Dest (_halt)
 /Subtype /Link
@@ -34081,10 +34093,10 @@ endobj
 /Type /Annot
 >>
 endobj
-548 0 obj
-[525 0 R /XYZ 0 159.809 null]
-endobj
 549 0 obj
+[526 0 R /XYZ 0 159.809 null]
+endobj
+550 0 obj
 << /Border [0 0 0]
 /Dest (_penalty_kick)
 /Subtype /Link
@@ -34092,7 +34104,7 @@ endobj
 /Type /Annot
 >>
 endobj
-550 0 obj
+551 0 obj
 << /Length 11320
 >>
 stream
@@ -34831,7 +34843,7 @@ Q
 
 endstream
 endobj
-551 0 obj
+552 0 obj
 << /Type /Page
 /Parent 3 0 R
 /MediaBox [0 0 595.28 841.89]
@@ -34839,20 +34851,20 @@ endobj
 /BleedBox [0 0 595.28 841.89]
 /TrimBox [0 0 595.28 841.89]
 /ArtBox [0 0 595.28 841.89]
-/Contents 550 0 R
+/Contents 551 0 R
 /Resources << /ProcSet [/PDF /Text /ImageB /ImageC /ImageI]
 /Font << /F1.0 16 0 R
 /F4.1 15 0 R
 /F5.0 48 0 R
 /F2.0 8 0 R
 >>
-/XObject << /Stamp1 889 0 R
+/XObject << /Stamp1 890 0 R
 >>
 >>
-/Annots [552 0 R 553 0 R 554 0 R 555 0 R 556 0 R 559 0 R 560 0 R]
+/Annots [553 0 R 554 0 R 555 0 R 556 0 R 557 0 R 560 0 R 561 0 R]
 >>
 endobj
-552 0 obj
+553 0 obj
 << /Border [0 0 0]
 /Dest (_ball_manipulation)
 /Subtype /Link
@@ -34860,7 +34872,7 @@ endobj
 /Type /Annot
 >>
 endobj
-553 0 obj
+554 0 obj
 << /Border [0 0 0]
 /Dest (_ball_manipulation)
 /Subtype /Link
@@ -34868,7 +34880,7 @@ endobj
 /Type /Annot
 >>
 endobj
-554 0 obj
+555 0 obj
 << /Border [0 0 0]
 /Dest (_robot_substitution)
 /Subtype /Link
@@ -34876,7 +34888,7 @@ endobj
 /Type /Annot
 >>
 endobj
-555 0 obj
+556 0 obj
 << /Border [0 0 0]
 /Dest (_timeouts)
 /Subtype /Link
@@ -34884,7 +34896,7 @@ endobj
 /Type /Annot
 >>
 endobj
-556 0 obj
+557 0 obj
 << /Border [0 0 0]
 /Dest (_game_stages)
 /Subtype /Link
@@ -34892,15 +34904,15 @@ endobj
 /Type /Annot
 >>
 endobj
-557 0 obj
-[551 0 R /XYZ 0 620.439 null]
-endobj
 558 0 obj
-<< /Limits [(_direct_free_kick) (_field_markings)]
-/Names [(_direct_free_kick) 308 0 R (_disqualification) 369 0 R (_divisions) 34 0 R (_double_touch) 420 0 R (_dribbling_device) 129 0 R (_early_termination_at_a_score_of_10) 254 0 R (_emergency_stop) 557 0 R (_excessive_dribbling) 435 0 R (_executive_committee) 27 0 R (_field_lines) 57 0 R (_field_markings) 56 0 R]
->>
+[552 0 R /XYZ 0 620.439 null]
 endobj
 559 0 obj
+<< /Limits [(_direct_free_kick) (_field_markings)]
+/Names [(_direct_free_kick) 308 0 R (_disqualification) 369 0 R (_divisions) 34 0 R (_double_touch) 420 0 R (_dribbling_device) 129 0 R (_early_termination_at_a_score_of_10) 254 0 R (_emergency_stop) 558 0 R (_excessive_dribbling) 435 0 R (_executive_committee) 27 0 R (_field_lines) 57 0 R (_field_markings) 56 0 R]
+>>
+endobj
+560 0 obj
 << /Border [0 0 0]
 /Dest (Free Kick)
 /Subtype /Link
@@ -34908,7 +34920,7 @@ endobj
 /Type /Annot
 >>
 endobj
-560 0 obj
+561 0 obj
 << /Border [0 0 0]
 /Dest (_communication_flags)
 /Subtype /Link
@@ -34916,10 +34928,10 @@ endobj
 /Type /Annot
 >>
 endobj
-561 0 obj
-[551 0 R /XYZ 0 142.457 null]
-endobj
 562 0 obj
+[552 0 R /XYZ 0 142.457 null]
+endobj
+563 0 obj
 << /Length 24140
 >>
 stream
@@ -36834,7 +36846,7 @@ Q
 
 endstream
 endobj
-563 0 obj
+564 0 obj
 << /Type /Page
 /Parent 3 0 R
 /MediaBox [0 0 595.28 841.89]
@@ -36842,25 +36854,25 @@ endobj
 /BleedBox [0 0 595.28 841.89]
 /TrimBox [0 0 595.28 841.89]
 /ArtBox [0 0 595.28 841.89]
-/Contents 562 0 R
+/Contents 563 0 R
 /Resources << /ProcSet [/PDF /Text /ImageB /ImageC /ImageI]
 /Font << /F1.0 16 0 R
 /F2.0 8 0 R
 /F4.1 15 0 R
 >>
-/XObject << /Stamp2 890 0 R
+/XObject << /Stamp2 891 0 R
 >>
 >>
-/Annots [566 0 R 567 0 R 568 0 R 569 0 R 570 0 R 571 0 R 572 0 R 573 0 R 576 0 R 578 0 R 579 0 R 580 0 R 581 0 R 582 0 R 583 0 R 584 0 R 585 0 R 586 0 R 587 0 R 588 0 R 589 0 R 590 0 R 591 0 R 592 0 R 593 0 R 594 0 R]
+/Annots [567 0 R 568 0 R 569 0 R 570 0 R 571 0 R 572 0 R 573 0 R 574 0 R 577 0 R 579 0 R 580 0 R 581 0 R 582 0 R 583 0 R 584 0 R 585 0 R 586 0 R 587 0 R 588 0 R 589 0 R 590 0 R 591 0 R 592 0 R 593 0 R 594 0 R 595 0 R]
 >>
-endobj
-564 0 obj
-[563 0 R /XYZ 0 734.55 null]
 endobj
 565 0 obj
-[563 0 R /XYZ 0 689.03 null]
+[564 0 R /XYZ 0 734.55 null]
 endobj
 566 0 obj
+[564 0 R /XYZ 0 689.03 null]
+endobj
+567 0 obj
 << /Border [0 0 0]
 /Dest (_stopping_the_game)
 /Subtype /Link
@@ -36868,7 +36880,7 @@ endobj
 /Type /Annot
 >>
 endobj
-567 0 obj
+568 0 obj
 << /Border [0 0 0]
 /Dest (_resuming_the_game)
 /Subtype /Link
@@ -36876,7 +36888,7 @@ endobj
 /Type /Annot
 >>
 endobj
-568 0 obj
+569 0 obj
 << /Border [0 0 0]
 /Dest (_force_start)
 /Subtype /Link
@@ -36884,7 +36896,7 @@ endobj
 /Type /Annot
 >>
 endobj
-569 0 obj
+570 0 obj
 << /Border [0 0 0]
 /Dest (_kick_off)
 /Subtype /Link
@@ -36892,7 +36904,7 @@ endobj
 /Type /Annot
 >>
 endobj
-570 0 obj
+571 0 obj
 << /Border [0 0 0]
 /Dest (_direct_free_kick)
 /Subtype /Link
@@ -36900,7 +36912,7 @@ endobj
 /Type /Annot
 >>
 endobj
-571 0 obj
+572 0 obj
 << /Border [0 0 0]
 /Dest (_indirect_free_kick)
 /Subtype /Link
@@ -36908,7 +36920,7 @@ endobj
 /Type /Annot
 >>
 endobj
-572 0 obj
+573 0 obj
 << /Border [0 0 0]
 /Dest (_penalty_kick)
 /Subtype /Link
@@ -36916,7 +36928,7 @@ endobj
 /Type /Annot
 >>
 endobj
-573 0 obj
+574 0 obj
 << /Border [0 0 0]
 /Dest (_double_touch)
 /Subtype /Link
@@ -36924,15 +36936,15 @@ endobj
 /Type /Annot
 >>
 endobj
-574 0 obj
-[563 0 R /XYZ 0 526.05 null]
-endobj
 575 0 obj
-<< /Limits [(_ball_holding) (_choosing_side_and_kick_off)]
-/Names [(_ball_holding) 464 0 R (_ball_in_and_out_of_play) 565 0 R (_ball_leaves_the_field) 372 0 R (_ball_manipulation) 574 0 R (_ball_placement) 266 0 R (_ball_placement_interference) 457 0 R (_ball_speed) 437 0 R (_boundary_crossing) 487 0 R (_center_circle) 62 0 R (_choosing_keeper_id) 223 0 R (_choosing_side_and_kick_off) 217 0 R]
->>
+[564 0 R /XYZ 0 526.05 null]
 endobj
 576 0 obj
+<< /Limits [(_ball_holding) (_choosing_side_and_kick_off)]
+/Names [(_ball_holding) 465 0 R (_ball_in_and_out_of_play) 566 0 R (_ball_leaves_the_field) 372 0 R (_ball_manipulation) 575 0 R (_ball_placement) 266 0 R (_ball_placement_interference) 458 0 R (_ball_speed) 437 0 R (_boundary_crossing) 488 0 R (_center_circle) 62 0 R (_choosing_keeper_id) 223 0 R (_choosing_side_and_kick_off) 217 0 R]
+>>
+endobj
+577 0 obj
 << /Border [0 0 0]
 /Dest (_dribbling_device)
 /Subtype /Link
@@ -36940,10 +36952,10 @@ endobj
 /Type /Annot
 >>
 endobj
-577 0 obj
-[563 0 R /XYZ 0 442.41 null]
-endobj
 578 0 obj
+[564 0 R /XYZ 0 442.41 null]
+endobj
+579 0 obj
 << /Border [0 0 0]
 /Dest (_automatic_referee)
 /Subtype /Link
@@ -36951,7 +36963,7 @@ endobj
 /Type /Annot
 >>
 endobj
-579 0 obj
+580 0 obj
 << /Border [0 0 0]
 /Dest (_robots)
 /Subtype /Link
@@ -36959,7 +36971,7 @@ endobj
 /Type /Annot
 >>
 endobj
-580 0 obj
+581 0 obj
 << /Border [0 0 0]
 /Dest (_number_of_robots)
 /Subtype /Link
@@ -36967,7 +36979,7 @@ endobj
 /Type /Annot
 >>
 endobj
-581 0 obj
+582 0 obj
 << /Border [0 0 0]
 /Dest (_stop)
 /Subtype /Link
@@ -36975,7 +36987,7 @@ endobj
 /Type /Annot
 >>
 endobj
-582 0 obj
+583 0 obj
 << /Border [0 0 0]
 /Dest (_referee_commands)
 /Subtype /Link
@@ -36983,7 +36995,7 @@ endobj
 /Type /Annot
 >>
 endobj
-583 0 obj
+584 0 obj
 << /Border [0 0 0]
 /Dest (_kick_off)
 /Subtype /Link
@@ -36991,7 +37003,7 @@ endobj
 /Type /Annot
 >>
 endobj
-584 0 obj
+585 0 obj
 << /Border [0 0 0]
 /Dest (_kick_off)
 /Subtype /Link
@@ -36999,7 +37011,7 @@ endobj
 /Type /Annot
 >>
 endobj
-585 0 obj
+586 0 obj
 << /Border [0 0 0]
 /Dest (_normal_start)
 /Subtype /Link
@@ -37007,7 +37019,7 @@ endobj
 /Type /Annot
 >>
 endobj
-586 0 obj
+587 0 obj
 << /Border [0 0 0]
 /Dest (_ball_in_and_out_of_play)
 /Subtype /Link
@@ -37015,7 +37027,7 @@ endobj
 /Type /Annot
 >>
 endobj
-587 0 obj
+588 0 obj
 << /Border [0 0 0]
 /Dest (_stop)
 /Subtype /Link
@@ -37023,7 +37035,7 @@ endobj
 /Type /Annot
 >>
 endobj
-588 0 obj
+589 0 obj
 << /Border [0 0 0]
 /Dest (_force_start)
 /Subtype /Link
@@ -37031,7 +37043,7 @@ endobj
 /Type /Annot
 >>
 endobj
-589 0 obj
+590 0 obj
 << /Border [0 0 0]
 /Dest (_penalty_kick)
 /Subtype /Link
@@ -37039,7 +37051,7 @@ endobj
 /Type /Annot
 >>
 endobj
-590 0 obj
+591 0 obj
 << /Border [0 0 0]
 /Dest (_penalty_kick)
 /Subtype /Link
@@ -37047,7 +37059,7 @@ endobj
 /Type /Annot
 >>
 endobj
-591 0 obj
+592 0 obj
 << /Border [0 0 0]
 /Dest (_normal_start)
 /Subtype /Link
@@ -37055,7 +37067,7 @@ endobj
 /Type /Annot
 >>
 endobj
-592 0 obj
+593 0 obj
 << /Border [0 0 0]
 /Dest (_yellow_card)
 /Subtype /Link
@@ -37063,7 +37075,7 @@ endobj
 /Type /Annot
 >>
 endobj
-593 0 obj
+594 0 obj
 << /Border [0 0 0]
 /Dest (_ball_in_and_out_of_play)
 /Subtype /Link
@@ -37071,7 +37083,7 @@ endobj
 /Type /Annot
 >>
 endobj
-594 0 obj
+595 0 obj
 << /Border [0 0 0]
 /Dest (_penalty_kick)
 /Subtype /Link
@@ -37079,7 +37091,7 @@ endobj
 /Type /Annot
 >>
 endobj
-595 0 obj
+596 0 obj
 << /Length 44066
 >>
 stream
@@ -40683,7 +40695,7 @@ Q
 
 endstream
 endobj
-596 0 obj
+597 0 obj
 << /Type /Page
 /Parent 3 0 R
 /MediaBox [0 0 595.28 841.89]
@@ -40691,19 +40703,19 @@ endobj
 /BleedBox [0 0 595.28 841.89]
 /TrimBox [0 0 595.28 841.89]
 /ArtBox [0 0 595.28 841.89]
-/Contents 595 0 R
+/Contents 596 0 R
 /Resources << /ProcSet [/PDF /Text /ImageB /ImageC /ImageI]
 /Font << /F2.0 8 0 R
 /F1.0 16 0 R
 /F4.1 15 0 R
 >>
-/XObject << /Stamp1 889 0 R
+/XObject << /Stamp1 890 0 R
 >>
 >>
-/Annots [597 0 R 598 0 R 599 0 R 600 0 R 601 0 R 602 0 R 603 0 R 604 0 R 605 0 R 606 0 R 607 0 R 608 0 R 609 0 R 610 0 R 611 0 R 612 0 R 613 0 R 614 0 R 615 0 R 616 0 R 617 0 R 618 0 R 619 0 R 620 0 R 621 0 R 622 0 R 623 0 R 624 0 R 625 0 R 626 0 R 628 0 R 629 0 R 630 0 R 631 0 R 632 0 R 633 0 R 634 0 R 635 0 R 636 0 R 637 0 R 638 0 R 639 0 R 640 0 R 641 0 R 642 0 R 643 0 R 644 0 R 645 0 R 646 0 R 647 0 R 648 0 R 649 0 R 650 0 R 651 0 R 652 0 R 653 0 R 654 0 R 655 0 R 656 0 R 657 0 R 658 0 R 659 0 R 660 0 R 661 0 R 662 0 R 663 0 R 664 0 R 665 0 R]
+/Annots [598 0 R 599 0 R 600 0 R 601 0 R 602 0 R 603 0 R 604 0 R 605 0 R 606 0 R 607 0 R 608 0 R 609 0 R 610 0 R 611 0 R 612 0 R 613 0 R 614 0 R 615 0 R 616 0 R 617 0 R 618 0 R 619 0 R 620 0 R 621 0 R 622 0 R 623 0 R 624 0 R 625 0 R 626 0 R 627 0 R 629 0 R 630 0 R 631 0 R 632 0 R 633 0 R 634 0 R 635 0 R 636 0 R 637 0 R 638 0 R 639 0 R 640 0 R 641 0 R 642 0 R 643 0 R 644 0 R 645 0 R 646 0 R 647 0 R 648 0 R 649 0 R 650 0 R 651 0 R 652 0 R 653 0 R 654 0 R 655 0 R 656 0 R 657 0 R 658 0 R 659 0 R 660 0 R 661 0 R 662 0 R 663 0 R 664 0 R 665 0 R 666 0 R]
 >>
 endobj
-597 0 obj
+598 0 obj
 << /Border [0 0 0]
 /Dest (_ball_placement)
 /Subtype /Link
@@ -40711,7 +40723,7 @@ endobj
 /Type /Annot
 >>
 endobj
-598 0 obj
+599 0 obj
 << /Border [0 0 0]
 /Dest (_ball_placement)
 /Subtype /Link
@@ -40719,7 +40731,7 @@ endobj
 /Type /Annot
 >>
 endobj
-599 0 obj
+600 0 obj
 << /Border [0 0 0]
 /Dest (_stop)
 /Subtype /Link
@@ -40727,7 +40739,7 @@ endobj
 /Type /Annot
 >>
 endobj
-600 0 obj
+601 0 obj
 << /Border [0 0 0]
 /Dest (_indirect_free_kick)
 /Subtype /Link
@@ -40735,7 +40747,7 @@ endobj
 /Type /Annot
 >>
 endobj
-601 0 obj
+602 0 obj
 << /Border [0 0 0]
 /Dest (_indirect_free_kick)
 /Subtype /Link
@@ -40743,7 +40755,7 @@ endobj
 /Type /Annot
 >>
 endobj
-602 0 obj
+603 0 obj
 << /Border [0 0 0]
 /Dest (_ball_placement)
 /Subtype /Link
@@ -40751,7 +40763,7 @@ endobj
 /Type /Annot
 >>
 endobj
-603 0 obj
+604 0 obj
 << /Border [0 0 0]
 /Dest (_ball_placement)
 /Subtype /Link
@@ -40759,7 +40771,7 @@ endobj
 /Type /Annot
 >>
 endobj
-604 0 obj
+605 0 obj
 << /Border [0 0 0]
 /Dest (_stop)
 /Subtype /Link
@@ -40767,7 +40779,7 @@ endobj
 /Type /Annot
 >>
 endobj
-605 0 obj
+606 0 obj
 << /Border [0 0 0]
 /Dest (_ball_placement)
 /Subtype /Link
@@ -40775,7 +40787,7 @@ endobj
 /Type /Annot
 >>
 endobj
-606 0 obj
+607 0 obj
 << /Border [0 0 0]
 /Dest (_ball_placement)
 /Subtype /Link
@@ -40783,7 +40795,7 @@ endobj
 /Type /Annot
 >>
 endobj
-607 0 obj
+608 0 obj
 << /Border [0 0 0]
 /Dest (_ball_leaves_the_field)
 /Subtype /Link
@@ -40791,7 +40803,7 @@ endobj
 /Type /Annot
 >>
 endobj
-608 0 obj
+609 0 obj
 << /Border [0 0 0]
 /Dest (_throw_in)
 /Subtype /Link
@@ -40799,7 +40811,7 @@ endobj
 /Type /Annot
 >>
 endobj
-609 0 obj
+610 0 obj
 << /Border [0 0 0]
 /Dest (_ball_in_and_out_of_play)
 /Subtype /Link
@@ -40807,7 +40819,7 @@ endobj
 /Type /Annot
 >>
 endobj
-610 0 obj
+611 0 obj
 << /Border [0 0 0]
 /Dest (_stop)
 /Subtype /Link
@@ -40815,7 +40827,7 @@ endobj
 /Type /Annot
 >>
 endobj
-611 0 obj
+612 0 obj
 << /Border [0 0 0]
 /Dest (_indirect_free_kick)
 /Subtype /Link
@@ -40823,7 +40835,7 @@ endobj
 /Type /Annot
 >>
 endobj
-612 0 obj
+613 0 obj
 << /Border [0 0 0]
 /Dest (_indirect_free_kick)
 /Subtype /Link
@@ -40831,7 +40843,7 @@ endobj
 /Type /Annot
 >>
 endobj
-613 0 obj
+614 0 obj
 << /Border [0 0 0]
 /Dest (_goal_kick)
 /Subtype /Link
@@ -40839,7 +40851,7 @@ endobj
 /Type /Annot
 >>
 endobj
-614 0 obj
+615 0 obj
 << /Border [0 0 0]
 /Dest (_ball_in_and_out_of_play)
 /Subtype /Link
@@ -40847,7 +40859,7 @@ endobj
 /Type /Annot
 >>
 endobj
-615 0 obj
+616 0 obj
 << /Border [0 0 0]
 /Dest (_stop)
 /Subtype /Link
@@ -40855,7 +40867,7 @@ endobj
 /Type /Annot
 >>
 endobj
-616 0 obj
+617 0 obj
 << /Border [0 0 0]
 /Dest (_direct_free_kick)
 /Subtype /Link
@@ -40863,7 +40875,7 @@ endobj
 /Type /Annot
 >>
 endobj
-617 0 obj
+618 0 obj
 << /Border [0 0 0]
 /Dest (_direct_free_kick)
 /Subtype /Link
@@ -40871,7 +40883,7 @@ endobj
 /Type /Annot
 >>
 endobj
-618 0 obj
+619 0 obj
 << /Border [0 0 0]
 /Dest (_corner_kick)
 /Subtype /Link
@@ -40879,7 +40891,7 @@ endobj
 /Type /Annot
 >>
 endobj
-619 0 obj
+620 0 obj
 << /Border [0 0 0]
 /Dest (_ball_in_and_out_of_play)
 /Subtype /Link
@@ -40887,7 +40899,7 @@ endobj
 /Type /Annot
 >>
 endobj
-620 0 obj
+621 0 obj
 << /Border [0 0 0]
 /Dest (_stop)
 /Subtype /Link
@@ -40895,7 +40907,7 @@ endobj
 /Type /Annot
 >>
 endobj
-621 0 obj
+622 0 obj
 << /Border [0 0 0]
 /Dest (_direct_free_kick)
 /Subtype /Link
@@ -40903,7 +40915,7 @@ endobj
 /Type /Annot
 >>
 endobj
-622 0 obj
+623 0 obj
 << /Border [0 0 0]
 /Dest (_direct_free_kick)
 /Subtype /Link
@@ -40911,7 +40923,7 @@ endobj
 /Type /Annot
 >>
 endobj
-623 0 obj
+624 0 obj
 << /Border [0 0 0]
 /Dest (_scoring_goals)
 /Subtype /Link
@@ -40919,7 +40931,7 @@ endobj
 /Type /Annot
 >>
 endobj
-624 0 obj
+625 0 obj
 << /Border [0 0 0]
 /Dest (_ball_in_and_out_of_play)
 /Subtype /Link
@@ -40927,7 +40939,7 @@ endobj
 /Type /Annot
 >>
 endobj
-625 0 obj
+626 0 obj
 << /Border [0 0 0]
 /Dest (_stop)
 /Subtype /Link
@@ -40935,7 +40947,7 @@ endobj
 /Type /Annot
 >>
 endobj
-626 0 obj
+627 0 obj
 << /Border [0 0 0]
 /Dest (_kick_off)
 /Subtype /Link
@@ -40943,10 +40955,10 @@ endobj
 /Type /Annot
 >>
 endobj
-627 0 obj
-[596 0 R /XYZ 445.8255 416.1 null]
-endobj
 628 0 obj
+[597 0 R /XYZ 445.8255 416.1 null]
+endobj
+629 0 obj
 << /Border [0 0 0]
 /Dest (_footnotedef_1)
 /Subtype /Link
@@ -40954,7 +40966,7 @@ endobj
 /Type /Annot
 >>
 endobj
-629 0 obj
+630 0 obj
 << /Border [0 0 0]
 /Dest (_ball_in_and_out_of_play)
 /Subtype /Link
@@ -40962,7 +40974,7 @@ endobj
 /Type /Annot
 >>
 endobj
-630 0 obj
+631 0 obj
 << /Border [0 0 0]
 /Dest (_stop)
 /Subtype /Link
@@ -40970,7 +40982,7 @@ endobj
 /Type /Annot
 >>
 endobj
-631 0 obj
+632 0 obj
 << /Border [0 0 0]
 /Dest (_direct_free_kick)
 /Subtype /Link
@@ -40978,7 +40990,7 @@ endobj
 /Type /Annot
 >>
 endobj
-632 0 obj
+633 0 obj
 << /Border [0 0 0]
 /Dest (_direct_free_kick)
 /Subtype /Link
@@ -40986,7 +40998,7 @@ endobj
 /Type /Annot
 >>
 endobj
-633 0 obj
+634 0 obj
 << /Border [0 0 0]
 /Dest (_offenses)
 /Subtype /Link
@@ -40994,7 +41006,7 @@ endobj
 /Type /Annot
 >>
 endobj
-634 0 obj
+635 0 obj
 << /Border [0 0 0]
 /Dest (_minor_offenses)
 /Subtype /Link
@@ -41002,7 +41014,7 @@ endobj
 /Type /Annot
 >>
 endobj
-635 0 obj
+636 0 obj
 << /Border [0 0 0]
 /Dest (_aimless_kick_division_b_only)
 /Subtype /Link
@@ -41010,7 +41022,7 @@ endobj
 /Type /Annot
 >>
 endobj
-636 0 obj
+637 0 obj
 << /Border [0 0 0]
 /Dest (_ball_in_and_out_of_play)
 /Subtype /Link
@@ -41018,7 +41030,7 @@ endobj
 /Type /Annot
 >>
 endobj
-637 0 obj
+638 0 obj
 << /Border [0 0 0]
 /Dest (_stop)
 /Subtype /Link
@@ -41026,7 +41038,7 @@ endobj
 /Type /Annot
 >>
 endobj
-638 0 obj
+639 0 obj
 << /Border [0 0 0]
 /Dest (_indirect_free_kick)
 /Subtype /Link
@@ -41034,7 +41046,7 @@ endobj
 /Type /Annot
 >>
 endobj
-639 0 obj
+640 0 obj
 << /Border [0 0 0]
 /Dest (_indirect_free_kick)
 /Subtype /Link
@@ -41042,7 +41054,7 @@ endobj
 /Type /Annot
 >>
 endobj
-640 0 obj
+641 0 obj
 << /Border [0 0 0]
 /Dest (_lack_of_progress)
 /Subtype /Link
@@ -41050,7 +41062,7 @@ endobj
 /Type /Annot
 >>
 endobj
-641 0 obj
+642 0 obj
 << /Border [0 0 0]
 /Dest (_ball_in_and_out_of_play)
 /Subtype /Link
@@ -41058,7 +41070,7 @@ endobj
 /Type /Annot
 >>
 endobj
-642 0 obj
+643 0 obj
 << /Border [0 0 0]
 /Dest (_stop)
 /Subtype /Link
@@ -41066,7 +41078,7 @@ endobj
 /Type /Annot
 >>
 endobj
-643 0 obj
+644 0 obj
 << /Border [0 0 0]
 /Dest (_indirect_free_kick)
 /Subtype /Link
@@ -41074,7 +41086,7 @@ endobj
 /Type /Annot
 >>
 endobj
-644 0 obj
+645 0 obj
 << /Border [0 0 0]
 /Dest (_indirect_free_kick)
 /Subtype /Link
@@ -41082,7 +41094,7 @@ endobj
 /Type /Annot
 >>
 endobj
-645 0 obj
+646 0 obj
 << /Border [0 0 0]
 /Dest (_double_touch)
 /Subtype /Link
@@ -41090,7 +41102,7 @@ endobj
 /Type /Annot
 >>
 endobj
-646 0 obj
+647 0 obj
 << /Border [0 0 0]
 /Dest (_ball_in_and_out_of_play)
 /Subtype /Link
@@ -41098,7 +41110,7 @@ endobj
 /Type /Annot
 >>
 endobj
-647 0 obj
+648 0 obj
 << /Border [0 0 0]
 /Dest (_stop)
 /Subtype /Link
@@ -41106,7 +41118,7 @@ endobj
 /Type /Annot
 >>
 endobj
-648 0 obj
+649 0 obj
 << /Border [0 0 0]
 /Dest (_indirect_free_kick)
 /Subtype /Link
@@ -41114,7 +41126,7 @@ endobj
 /Type /Annot
 >>
 endobj
-649 0 obj
+650 0 obj
 << /Border [0 0 0]
 /Dest (_indirect_free_kick)
 /Subtype /Link
@@ -41122,7 +41134,7 @@ endobj
 /Type /Annot
 >>
 endobj
-650 0 obj
+651 0 obj
 << /Border [0 0 0]
 /Dest (_attacker_in_defense_area)
 /Subtype /Link
@@ -41130,7 +41142,7 @@ endobj
 /Type /Annot
 >>
 endobj
-651 0 obj
+652 0 obj
 << /Border [0 0 0]
 /Dest (_attacker_in_defense_area)
 /Subtype /Link
@@ -41138,7 +41150,7 @@ endobj
 /Type /Annot
 >>
 endobj
-652 0 obj
+653 0 obj
 << /Border [0 0 0]
 /Dest (_ball_in_and_out_of_play)
 /Subtype /Link
@@ -41146,7 +41158,7 @@ endobj
 /Type /Annot
 >>
 endobj
-653 0 obj
+654 0 obj
 << /Border [0 0 0]
 /Dest (_stop)
 /Subtype /Link
@@ -41154,7 +41166,7 @@ endobj
 /Type /Annot
 >>
 endobj
-654 0 obj
+655 0 obj
 << /Border [0 0 0]
 /Dest (_indirect_free_kick)
 /Subtype /Link
@@ -41162,7 +41174,7 @@ endobj
 /Type /Annot
 >>
 endobj
-655 0 obj
+656 0 obj
 << /Border [0 0 0]
 /Dest (_indirect_free_kick)
 /Subtype /Link
@@ -41170,7 +41182,7 @@ endobj
 /Type /Annot
 >>
 endobj
-656 0 obj
+657 0 obj
 << /Border [0 0 0]
 /Dest (_attacker_touches_robot_in_opponent_defense_area)
 /Subtype /Link
@@ -41178,7 +41190,7 @@ endobj
 /Type /Annot
 >>
 endobj
-657 0 obj
+658 0 obj
 << /Border [0 0 0]
 /Dest (_attacker_touches_robot_in_opponent_defense_area)
 /Subtype /Link
@@ -41186,7 +41198,7 @@ endobj
 /Type /Annot
 >>
 endobj
-658 0 obj
+659 0 obj
 << /Border [0 0 0]
 /Dest (_attacker_touches_robot_in_opponent_defense_area)
 /Subtype /Link
@@ -41194,7 +41206,7 @@ endobj
 /Type /Annot
 >>
 endobj
-659 0 obj
+660 0 obj
 << /Border [0 0 0]
 /Dest (_ball_in_and_out_of_play)
 /Subtype /Link
@@ -41202,7 +41214,7 @@ endobj
 /Type /Annot
 >>
 endobj
-660 0 obj
+661 0 obj
 << /Border [0 0 0]
 /Dest (_advantage_rule)
 /Subtype /Link
@@ -41210,7 +41222,7 @@ endobj
 /Type /Annot
 >>
 endobj
-661 0 obj
+662 0 obj
 << /Border [0 0 0]
 /Dest (_excessive_dribbling)
 /Subtype /Link
@@ -41218,7 +41230,7 @@ endobj
 /Type /Annot
 >>
 endobj
-662 0 obj
+663 0 obj
 << /Border [0 0 0]
 /Dest (_ball_in_and_out_of_play)
 /Subtype /Link
@@ -41226,7 +41238,7 @@ endobj
 /Type /Annot
 >>
 endobj
-663 0 obj
+664 0 obj
 << /Border [0 0 0]
 /Dest (_stop)
 /Subtype /Link
@@ -41234,7 +41246,7 @@ endobj
 /Type /Annot
 >>
 endobj
-664 0 obj
+665 0 obj
 << /Border [0 0 0]
 /Dest (_indirect_free_kick)
 /Subtype /Link
@@ -41242,7 +41254,7 @@ endobj
 /Type /Annot
 >>
 endobj
-665 0 obj
+666 0 obj
 << /Border [0 0 0]
 /Dest (_indirect_free_kick)
 /Subtype /Link
@@ -41250,7 +41262,7 @@ endobj
 /Type /Annot
 >>
 endobj
-666 0 obj
+667 0 obj
 << /Length 42615
 >>
 stream
@@ -44714,7 +44726,7 @@ Q
 
 endstream
 endobj
-667 0 obj
+668 0 obj
 << /Type /Page
 /Parent 3 0 R
 /MediaBox [0 0 595.28 841.89]
@@ -44722,19 +44734,19 @@ endobj
 /BleedBox [0 0 595.28 841.89]
 /TrimBox [0 0 595.28 841.89]
 /ArtBox [0 0 595.28 841.89]
-/Contents 666 0 R
+/Contents 667 0 R
 /Resources << /ProcSet [/PDF /Text /ImageB /ImageC /ImageI]
 /Font << /F2.0 8 0 R
 /F1.0 16 0 R
 /F4.1 15 0 R
 >>
-/XObject << /Stamp2 890 0 R
+/XObject << /Stamp2 891 0 R
 >>
 >>
-/Annots [668 0 R 669 0 R 670 0 R 671 0 R 672 0 R 673 0 R 674 0 R 675 0 R 676 0 R 677 0 R 678 0 R 679 0 R 680 0 R 681 0 R 682 0 R 683 0 R 684 0 R 685 0 R 686 0 R 687 0 R 688 0 R 689 0 R 690 0 R 691 0 R 692 0 R 693 0 R 694 0 R 695 0 R 696 0 R 697 0 R 698 0 R 699 0 R 700 0 R 701 0 R 702 0 R 703 0 R 704 0 R 705 0 R 706 0 R 707 0 R 708 0 R 709 0 R 710 0 R 711 0 R 712 0 R 713 0 R 714 0 R 715 0 R 716 0 R 717 0 R 718 0 R 719 0 R 720 0 R 721 0 R 722 0 R 723 0 R 724 0 R 725 0 R 726 0 R 727 0 R 728 0 R 729 0 R 730 0 R 731 0 R 732 0 R 733 0 R 734 0 R 735 0 R 736 0 R 737 0 R 738 0 R 739 0 R 740 0 R]
+/Annots [669 0 R 670 0 R 671 0 R 672 0 R 673 0 R 674 0 R 675 0 R 676 0 R 677 0 R 678 0 R 679 0 R 680 0 R 681 0 R 682 0 R 683 0 R 684 0 R 685 0 R 686 0 R 687 0 R 688 0 R 689 0 R 690 0 R 691 0 R 692 0 R 693 0 R 694 0 R 695 0 R 696 0 R 697 0 R 698 0 R 699 0 R 700 0 R 701 0 R 702 0 R 703 0 R 704 0 R 705 0 R 706 0 R 707 0 R 708 0 R 709 0 R 710 0 R 711 0 R 712 0 R 713 0 R 714 0 R 715 0 R 716 0 R 717 0 R 718 0 R 719 0 R 720 0 R 721 0 R 722 0 R 723 0 R 724 0 R 725 0 R 726 0 R 727 0 R 728 0 R 729 0 R 730 0 R 731 0 R 732 0 R 733 0 R 734 0 R 735 0 R 736 0 R 737 0 R 738 0 R 739 0 R 740 0 R 741 0 R]
 >>
 endobj
-668 0 obj
+669 0 obj
 << /Border [0 0 0]
 /Dest (_ball_speed)
 /Subtype /Link
@@ -44742,7 +44754,7 @@ endobj
 /Type /Annot
 >>
 endobj
-669 0 obj
+670 0 obj
 << /Border [0 0 0]
 /Dest (_ball_in_and_out_of_play)
 /Subtype /Link
@@ -44750,7 +44762,7 @@ endobj
 /Type /Annot
 >>
 endobj
-670 0 obj
+671 0 obj
 << /Border [0 0 0]
 /Dest (_stop)
 /Subtype /Link
@@ -44758,7 +44770,7 @@ endobj
 /Type /Annot
 >>
 endobj
-671 0 obj
+672 0 obj
 << /Border [0 0 0]
 /Dest (_indirect_free_kick)
 /Subtype /Link
@@ -44766,7 +44778,7 @@ endobj
 /Type /Annot
 >>
 endobj
-672 0 obj
+673 0 obj
 << /Border [0 0 0]
 /Dest (_indirect_free_kick)
 /Subtype /Link
@@ -44774,7 +44786,7 @@ endobj
 /Type /Annot
 >>
 endobj
-673 0 obj
+674 0 obj
 << /Border [0 0 0]
 /Dest (_offenses)
 /Subtype /Link
@@ -44782,7 +44794,7 @@ endobj
 /Type /Annot
 >>
 endobj
-674 0 obj
+675 0 obj
 << /Border [0 0 0]
 /Dest (_fouls)
 /Subtype /Link
@@ -44790,7 +44802,7 @@ endobj
 /Type /Annot
 >>
 endobj
-675 0 obj
+676 0 obj
 << /Border [0 0 0]
 /Dest (_fouls)
 /Subtype /Link
@@ -44798,7 +44810,7 @@ endobj
 /Type /Annot
 >>
 endobj
-676 0 obj
+677 0 obj
 << /Border [0 0 0]
 /Dest (_ball_in_and_out_of_play)
 /Subtype /Link
@@ -44806,7 +44818,7 @@ endobj
 /Type /Annot
 >>
 endobj
-677 0 obj
+678 0 obj
 << /Border [0 0 0]
 /Dest (_yellow_card)
 /Subtype /Link
@@ -44814,7 +44826,7 @@ endobj
 /Type /Annot
 >>
 endobj
-678 0 obj
+679 0 obj
 << /Border [0 0 0]
 /Dest (_attacker_touches_robot_in_opponent_defense_area)
 /Subtype /Link
@@ -44822,7 +44834,7 @@ endobj
 /Type /Annot
 >>
 endobj
-679 0 obj
+680 0 obj
 << /Border [0 0 0]
 /Dest (_attacker_touches_robot_in_opponent_defense_area)
 /Subtype /Link
@@ -44830,7 +44842,7 @@ endobj
 /Type /Annot
 >>
 endobj
-680 0 obj
+681 0 obj
 << /Border [0 0 0]
 /Dest (_attacker_touches_robot_in_opponent_defense_area)
 /Subtype /Link
@@ -44838,7 +44850,7 @@ endobj
 /Type /Annot
 >>
 endobj
-681 0 obj
+682 0 obj
 << /Border [0 0 0]
 /Dest (_ball_in_and_out_of_play)
 /Subtype /Link
@@ -44846,7 +44858,7 @@ endobj
 /Type /Annot
 >>
 endobj
-682 0 obj
+683 0 obj
 << /Border [0 0 0]
 /Dest (_stop)
 /Subtype /Link
@@ -44854,7 +44866,7 @@ endobj
 /Type /Annot
 >>
 endobj
-683 0 obj
+684 0 obj
 << /Border [0 0 0]
 /Dest (_indirect_free_kick)
 /Subtype /Link
@@ -44862,7 +44874,7 @@ endobj
 /Type /Annot
 >>
 endobj
-684 0 obj
+685 0 obj
 << /Border [0 0 0]
 /Dest (_indirect_free_kick)
 /Subtype /Link
@@ -44870,7 +44882,7 @@ endobj
 /Type /Annot
 >>
 endobj
-685 0 obj
+686 0 obj
 << /Border [0 0 0]
 /Dest (_robot_too_close_to_opponent_defense_area)
 /Subtype /Link
@@ -44878,7 +44890,7 @@ endobj
 /Type /Annot
 >>
 endobj
-686 0 obj
+687 0 obj
 << /Border [0 0 0]
 /Dest (_robot_too_close_to_opponent_defense_area)
 /Subtype /Link
@@ -44886,7 +44898,7 @@ endobj
 /Type /Annot
 >>
 endobj
-687 0 obj
+688 0 obj
 << /Border [0 0 0]
 /Dest (_ball_in_and_out_of_play)
 /Subtype /Link
@@ -44894,7 +44906,7 @@ endobj
 /Type /Annot
 >>
 endobj
-688 0 obj
+689 0 obj
 << /Border [0 0 0]
 /Dest (_stop)
 /Subtype /Link
@@ -44902,7 +44914,7 @@ endobj
 /Type /Annot
 >>
 endobj
-689 0 obj
+690 0 obj
 << /Border [0 0 0]
 /Dest (_direct_free_kick)
 /Subtype /Link
@@ -44910,7 +44922,7 @@ endobj
 /Type /Annot
 >>
 endobj
-690 0 obj
+691 0 obj
 << /Border [0 0 0]
 /Dest (_direct_free_kick)
 /Subtype /Link
@@ -44918,7 +44930,7 @@ endobj
 /Type /Annot
 >>
 endobj
-691 0 obj
+692 0 obj
 << /Border [0 0 0]
 /Dest (_ball_placement_interference)
 /Subtype /Link
@@ -44926,7 +44938,7 @@ endobj
 /Type /Annot
 >>
 endobj
-692 0 obj
+693 0 obj
 << /Border [0 0 0]
 /Dest (_ball_placement_interference)
 /Subtype /Link
@@ -44934,7 +44946,7 @@ endobj
 /Type /Annot
 >>
 endobj
-693 0 obj
+694 0 obj
 << /Border [0 0 0]
 /Dest (_ball_placement)
 /Subtype /Link
@@ -44942,7 +44954,7 @@ endobj
 /Type /Annot
 >>
 endobj
-694 0 obj
+695 0 obj
 << /Border [0 0 0]
 /Dest (_stop)
 /Subtype /Link
@@ -44950,7 +44962,7 @@ endobj
 /Type /Annot
 >>
 endobj
-695 0 obj
+696 0 obj
 << /Border [0 0 0]
 /Dest (_direct_free_kick)
 /Subtype /Link
@@ -44958,7 +44970,7 @@ endobj
 /Type /Annot
 >>
 endobj
-696 0 obj
+697 0 obj
 << /Border [0 0 0]
 /Dest (_direct_free_kick)
 /Subtype /Link
@@ -44966,7 +44978,7 @@ endobj
 /Type /Annot
 >>
 endobj
-697 0 obj
+698 0 obj
 << /Border [0 0 0]
 /Dest (_crashing)
 /Subtype /Link
@@ -44974,7 +44986,7 @@ endobj
 /Type /Annot
 >>
 endobj
-698 0 obj
+699 0 obj
 << /Border [0 0 0]
 /Dest (_stop)
 /Subtype /Link
@@ -44982,7 +44994,7 @@ endobj
 /Type /Annot
 >>
 endobj
-699 0 obj
+700 0 obj
 << /Border [0 0 0]
 /Dest (_direct_free_kick)
 /Subtype /Link
@@ -44990,7 +45002,7 @@ endobj
 /Type /Annot
 >>
 endobj
-700 0 obj
+701 0 obj
 << /Border [0 0 0]
 /Dest (_direct_free_kick)
 /Subtype /Link
@@ -44998,7 +45010,7 @@ endobj
 /Type /Annot
 >>
 endobj
-701 0 obj
+702 0 obj
 << /Border [0 0 0]
 /Dest (_crashing)
 /Subtype /Link
@@ -45006,7 +45018,7 @@ endobj
 /Type /Annot
 >>
 endobj
-702 0 obj
+703 0 obj
 << /Border [0 0 0]
 /Dest (_advantage_rule)
 /Subtype /Link
@@ -45014,7 +45026,7 @@ endobj
 /Type /Annot
 >>
 endobj
-703 0 obj
+704 0 obj
 << /Border [0 0 0]
 /Dest (_crashing)
 /Subtype /Link
@@ -45022,7 +45034,7 @@ endobj
 /Type /Annot
 >>
 endobj
-704 0 obj
+705 0 obj
 << /Border [0 0 0]
 /Dest (_pushing)
 /Subtype /Link
@@ -45030,7 +45042,7 @@ endobj
 /Type /Annot
 >>
 endobj
-705 0 obj
+706 0 obj
 << /Border [0 0 0]
 /Dest (_stop)
 /Subtype /Link
@@ -45038,7 +45050,7 @@ endobj
 /Type /Annot
 >>
 endobj
-706 0 obj
+707 0 obj
 << /Border [0 0 0]
 /Dest (_direct_free_kick)
 /Subtype /Link
@@ -45046,7 +45058,7 @@ endobj
 /Type /Annot
 >>
 endobj
-707 0 obj
+708 0 obj
 << /Border [0 0 0]
 /Dest (_direct_free_kick)
 /Subtype /Link
@@ -45054,7 +45066,7 @@ endobj
 /Type /Annot
 >>
 endobj
-708 0 obj
+709 0 obj
 << /Border [0 0 0]
 /Dest (_ball_holding)
 /Subtype /Link
@@ -45062,7 +45074,7 @@ endobj
 /Type /Annot
 >>
 endobj
-709 0 obj
+710 0 obj
 << /Border [0 0 0]
 /Dest (_ball_in_and_out_of_play)
 /Subtype /Link
@@ -45070,7 +45082,7 @@ endobj
 /Type /Annot
 >>
 endobj
-710 0 obj
+711 0 obj
 << /Border [0 0 0]
 /Dest (_stop)
 /Subtype /Link
@@ -45078,7 +45090,7 @@ endobj
 /Type /Annot
 >>
 endobj
-711 0 obj
+712 0 obj
 << /Border [0 0 0]
 /Dest (_direct_free_kick)
 /Subtype /Link
@@ -45086,7 +45098,7 @@ endobj
 /Type /Annot
 >>
 endobj
-712 0 obj
+713 0 obj
 << /Border [0 0 0]
 /Dest (_direct_free_kick)
 /Subtype /Link
@@ -45094,7 +45106,7 @@ endobj
 /Type /Annot
 >>
 endobj
-713 0 obj
+714 0 obj
 << /Border [0 0 0]
 /Dest (_tipping_over_or_dropping_parts)
 /Subtype /Link
@@ -45102,7 +45114,7 @@ endobj
 /Type /Annot
 >>
 endobj
-714 0 obj
+715 0 obj
 << /Border [0 0 0]
 /Dest (_tipping_over_or_dropping_parts)
 /Subtype /Link
@@ -45110,7 +45122,7 @@ endobj
 /Type /Annot
 >>
 endobj
-715 0 obj
+716 0 obj
 << /Border [0 0 0]
 /Dest (_stop)
 /Subtype /Link
@@ -45118,7 +45130,7 @@ endobj
 /Type /Annot
 >>
 endobj
-716 0 obj
+717 0 obj
 << /Border [0 0 0]
 /Dest (_direct_free_kick)
 /Subtype /Link
@@ -45126,7 +45138,7 @@ endobj
 /Type /Annot
 >>
 endobj
-717 0 obj
+718 0 obj
 << /Border [0 0 0]
 /Dest (_direct_free_kick)
 /Subtype /Link
@@ -45134,7 +45146,7 @@ endobj
 /Type /Annot
 >>
 endobj
-718 0 obj
+719 0 obj
 << /Border [0 0 0]
 /Dest (_robot_stop_speed)
 /Subtype /Link
@@ -45142,7 +45154,7 @@ endobj
 /Type /Annot
 >>
 endobj
-719 0 obj
+720 0 obj
 << /Border [0 0 0]
 /Dest (_stop)
 /Subtype /Link
@@ -45150,7 +45162,7 @@ endobj
 /Type /Annot
 >>
 endobj
-720 0 obj
+721 0 obj
 << /Border [0 0 0]
 /Dest (_stop)
 /Subtype /Link
@@ -45158,7 +45170,7 @@ endobj
 /Type /Annot
 >>
 endobj
-721 0 obj
+722 0 obj
 << /Border [0 0 0]
 /Dest (_direct_free_kick)
 /Subtype /Link
@@ -45166,7 +45178,7 @@ endobj
 /Type /Annot
 >>
 endobj
-722 0 obj
+723 0 obj
 << /Border [0 0 0]
 /Dest (_direct_free_kick)
 /Subtype /Link
@@ -45174,7 +45186,7 @@ endobj
 /Type /Annot
 >>
 endobj
-723 0 obj
+724 0 obj
 << /Border [0 0 0]
 /Dest (_defender_too_close_to_ball)
 /Subtype /Link
@@ -45182,7 +45194,7 @@ endobj
 /Type /Annot
 >>
 endobj
-724 0 obj
+725 0 obj
 << /Border [0 0 0]
 /Dest (_defender_too_close_to_ball)
 /Subtype /Link
@@ -45190,7 +45202,7 @@ endobj
 /Type /Annot
 >>
 endobj
-725 0 obj
+726 0 obj
 << /Border [0 0 0]
 /Dest (_ball_in_and_out_of_play)
 /Subtype /Link
@@ -45198,7 +45210,7 @@ endobj
 /Type /Annot
 >>
 endobj
-726 0 obj
+727 0 obj
 << /Border [0 0 0]
 /Dest (_stop)
 /Subtype /Link
@@ -45206,7 +45218,7 @@ endobj
 /Type /Annot
 >>
 endobj
-727 0 obj
+728 0 obj
 << /Border [0 0 0]
 /Dest (_direct_free_kick)
 /Subtype /Link
@@ -45214,7 +45226,7 @@ endobj
 /Type /Annot
 >>
 endobj
-728 0 obj
+729 0 obj
 << /Border [0 0 0]
 /Dest (_direct_free_kick)
 /Subtype /Link
@@ -45222,7 +45234,7 @@ endobj
 /Type /Annot
 >>
 endobj
-729 0 obj
+730 0 obj
 << /Border [0 0 0]
 /Dest (_multiple_defenders)
 /Subtype /Link
@@ -45230,7 +45242,7 @@ endobj
 /Type /Annot
 >>
 endobj
-730 0 obj
+731 0 obj
 << /Border [0 0 0]
 /Dest (_ball_in_and_out_of_play)
 /Subtype /Link
@@ -45238,7 +45250,7 @@ endobj
 /Type /Annot
 >>
 endobj
-731 0 obj
+732 0 obj
 << /Border [0 0 0]
 /Dest (_stop)
 /Subtype /Link
@@ -45246,7 +45258,7 @@ endobj
 /Type /Annot
 >>
 endobj
-732 0 obj
+733 0 obj
 << /Border [0 0 0]
 /Dest (_direct_free_kick)
 /Subtype /Link
@@ -45254,7 +45266,7 @@ endobj
 /Type /Annot
 >>
 endobj
-733 0 obj
+734 0 obj
 << /Border [0 0 0]
 /Dest (_direct_free_kick)
 /Subtype /Link
@@ -45262,7 +45274,7 @@ endobj
 /Type /Annot
 >>
 endobj
-734 0 obj
+735 0 obj
 << /Border [0 0 0]
 /Dest (_yellow_card)
 /Subtype /Link
@@ -45270,7 +45282,7 @@ endobj
 /Type /Annot
 >>
 endobj
-735 0 obj
+736 0 obj
 << /Border [0 0 0]
 /Dest (_multiple_defenders)
 /Subtype /Link
@@ -45278,7 +45290,7 @@ endobj
 /Type /Annot
 >>
 endobj
-736 0 obj
+737 0 obj
 << /Border [0 0 0]
 /Dest (_ball_in_and_out_of_play)
 /Subtype /Link
@@ -45286,7 +45298,7 @@ endobj
 /Type /Annot
 >>
 endobj
-737 0 obj
+738 0 obj
 << /Border [0 0 0]
 /Dest (_stop)
 /Subtype /Link
@@ -45294,7 +45306,7 @@ endobj
 /Type /Annot
 >>
 endobj
-738 0 obj
+739 0 obj
 << /Border [0 0 0]
 /Dest (_penalty_kick)
 /Subtype /Link
@@ -45302,7 +45314,7 @@ endobj
 /Type /Annot
 >>
 endobj
-739 0 obj
+740 0 obj
 << /Border [0 0 0]
 /Dest (_offenses)
 /Subtype /Link
@@ -45310,7 +45322,7 @@ endobj
 /Type /Annot
 >>
 endobj
-740 0 obj
+741 0 obj
 << /Border [0 0 0]
 /Dest (_unsporting_behavior)
 /Subtype /Link
@@ -45318,7 +45330,7 @@ endobj
 /Type /Annot
 >>
 endobj
-741 0 obj
+742 0 obj
 << /Length 15646
 >>
 stream
@@ -46622,7 +46634,7 @@ Q
 
 endstream
 endobj
-742 0 obj
+743 0 obj
 << /Type /Page
 /Parent 3 0 R
 /MediaBox [0 0 595.28 841.89]
@@ -46630,19 +46642,19 @@ endobj
 /BleedBox [0 0 595.28 841.89]
 /TrimBox [0 0 595.28 841.89]
 /ArtBox [0 0 595.28 841.89]
-/Contents 741 0 R
+/Contents 742 0 R
 /Resources << /ProcSet [/PDF /Text /ImageB /ImageC /ImageI]
 /Font << /F2.0 8 0 R
 /F1.0 16 0 R
 /F4.1 15 0 R
 >>
-/XObject << /Stamp1 889 0 R
+/XObject << /Stamp1 890 0 R
 >>
 >>
-/Annots [743 0 R 744 0 R 745 0 R 746 0 R 747 0 R 748 0 R 749 0 R 750 0 R 751 0 R 752 0 R 754 0 R 755 0 R 756 0 R 757 0 R 758 0 R 759 0 R 760 0 R 761 0 R 762 0 R 764 0 R]
+/Annots [744 0 R 745 0 R 746 0 R 747 0 R 748 0 R 749 0 R 750 0 R 751 0 R 752 0 R 753 0 R 755 0 R 756 0 R 757 0 R 758 0 R 759 0 R 760 0 R 761 0 R 762 0 R 763 0 R 765 0 R]
 >>
 endobj
-743 0 obj
+744 0 obj
 << /Border [0 0 0]
 /Dest (_stop)
 /Subtype /Link
@@ -46650,7 +46662,7 @@ endobj
 /Type /Annot
 >>
 endobj
-744 0 obj
+745 0 obj
 << /Border [0 0 0]
 /Dest (_yellow_card)
 /Subtype /Link
@@ -46658,7 +46670,7 @@ endobj
 /Type /Annot
 >>
 endobj
-745 0 obj
+746 0 obj
 << /Border [0 0 0]
 /Dest (_red_card)
 /Subtype /Link
@@ -46666,7 +46678,7 @@ endobj
 /Type /Annot
 >>
 endobj
-746 0 obj
+747 0 obj
 << /Border [0 0 0]
 /Dest (_penalty_kick)
 /Subtype /Link
@@ -46674,7 +46686,7 @@ endobj
 /Type /Annot
 >>
 endobj
-747 0 obj
+748 0 obj
 << /Border [0 0 0]
 /Dest (_forced_forfeit)
 /Subtype /Link
@@ -46682,7 +46694,7 @@ endobj
 /Type /Annot
 >>
 endobj
-748 0 obj
+749 0 obj
 << /Border [0 0 0]
 /Dest (_disqualification)
 /Subtype /Link
@@ -46690,7 +46702,7 @@ endobj
 /Type /Annot
 >>
 endobj
-749 0 obj
+750 0 obj
 << /Border [0 0 0]
 /Dest (_robot_substitution)
 /Subtype /Link
@@ -46698,7 +46710,7 @@ endobj
 /Type /Annot
 >>
 endobj
-750 0 obj
+751 0 obj
 << /Border [0 0 0]
 /Dest (_robot_substitution)
 /Subtype /Link
@@ -46706,7 +46718,7 @@ endobj
 /Type /Annot
 >>
 endobj
-751 0 obj
+752 0 obj
 << /Border [0 0 0]
 /Dest (_halt)
 /Subtype /Link
@@ -46714,7 +46726,7 @@ endobj
 /Type /Annot
 >>
 endobj
-752 0 obj
+753 0 obj
 << /Border [0 0 0]
 /Dest (_stop)
 /Subtype /Link
@@ -46722,10 +46734,10 @@ endobj
 /Type /Annot
 >>
 endobj
-753 0 obj
-[742 0 R /XYZ 0 603.87 null]
-endobj
 754 0 obj
+[743 0 R /XYZ 0 603.87 null]
+endobj
+755 0 obj
 << /Border [0 0 0]
 /Dest (_divisions)
 /Subtype /Link
@@ -46733,7 +46745,7 @@ endobj
 /Type /Annot
 >>
 endobj
-755 0 obj
+756 0 obj
 << /Border [0 0 0]
 /Dest (_divisions)
 /Subtype /Link
@@ -46741,7 +46753,7 @@ endobj
 /Type /Annot
 >>
 endobj
-756 0 obj
+757 0 obj
 << /Border [0 0 0]
 /Dest (_dimensions)
 /Subtype /Link
@@ -46749,7 +46761,7 @@ endobj
 /Type /Annot
 >>
 endobj
-757 0 obj
+758 0 obj
 << /Border [0 0 0]
 /Dest (_goals)
 /Subtype /Link
@@ -46757,7 +46769,7 @@ endobj
 /Type /Annot
 >>
 endobj
-758 0 obj
+759 0 obj
 << /Border [0 0 0]
 /Dest (_shoot_out)
 /Subtype /Link
@@ -46765,7 +46777,7 @@ endobj
 /Type /Annot
 >>
 endobj
-759 0 obj
+760 0 obj
 << /Border [0 0 0]
 /Dest (_number_of_robots)
 /Subtype /Link
@@ -46773,7 +46785,7 @@ endobj
 /Type /Annot
 >>
 endobj
-760 0 obj
+761 0 obj
 << /Border [0 0 0]
 /Dest (_ball_placement)
 /Subtype /Link
@@ -46781,7 +46793,7 @@ endobj
 /Type /Annot
 >>
 endobj
-761 0 obj
+762 0 obj
 << /Border [0 0 0]
 /Dest (_aimless_kick_division_b_only)
 /Subtype /Link
@@ -46789,7 +46801,7 @@ endobj
 /Type /Annot
 >>
 endobj
-762 0 obj
+763 0 obj
 << /Border [0 0 0]
 /Dest (_lack_of_progress)
 /Subtype /Link
@@ -46797,10 +46809,10 @@ endobj
 /Type /Annot
 >>
 endobj
-763 0 obj
-[742 0 R /XYZ 48.24 367.7586 null]
-endobj
 764 0 obj
+[743 0 R /XYZ 48.24 367.7586 null]
+endobj
+765 0 obj
 << /Border [0 0 0]
 /Dest (_footnoteref_1)
 /Subtype /Link
@@ -46808,7 +46820,7 @@ endobj
 /Type /Annot
 >>
 endobj
-765 0 obj
+766 0 obj
 << /Border [0 0 0]
 /Dest (_league_overview)
 /Subtype /Link
@@ -46816,7 +46828,7 @@ endobj
 /Type /Annot
 >>
 endobj
-766 0 obj
+767 0 obj
 << /Border [0 0 0]
 /Dest (_league_overview)
 /Subtype /Link
@@ -46824,7 +46836,7 @@ endobj
 /Type /Annot
 >>
 endobj
-767 0 obj
+768 0 obj
 << /Border [0 0 0]
 /Dest (_committees)
 /Subtype /Link
@@ -46832,7 +46844,7 @@ endobj
 /Type /Annot
 >>
 endobj
-768 0 obj
+769 0 obj
 << /Border [0 0 0]
 /Dest (_committees)
 /Subtype /Link
@@ -46840,7 +46852,7 @@ endobj
 /Type /Annot
 >>
 endobj
-769 0 obj
+770 0 obj
 << /Border [0 0 0]
 /Dest (_divisions)
 /Subtype /Link
@@ -46848,7 +46860,7 @@ endobj
 /Type /Annot
 >>
 endobj
-770 0 obj
+771 0 obj
 << /Border [0 0 0]
 /Dest (_divisions)
 /Subtype /Link
@@ -46856,7 +46868,7 @@ endobj
 /Type /Annot
 >>
 endobj
-771 0 obj
+772 0 obj
 << /Border [0 0 0]
 /Dest (_playing_environment)
 /Subtype /Link
@@ -46864,7 +46876,7 @@ endobj
 /Type /Annot
 >>
 endobj
-772 0 obj
+773 0 obj
 << /Border [0 0 0]
 /Dest (_playing_environment)
 /Subtype /Link
@@ -46872,7 +46884,7 @@ endobj
 /Type /Annot
 >>
 endobj
-773 0 obj
+774 0 obj
 << /Border [0 0 0]
 /Dest (_field_setup)
 /Subtype /Link
@@ -46880,7 +46892,7 @@ endobj
 /Type /Annot
 >>
 endobj
-774 0 obj
+775 0 obj
 << /Border [0 0 0]
 /Dest (_field_setup)
 /Subtype /Link
@@ -46888,7 +46900,7 @@ endobj
 /Type /Annot
 >>
 endobj
-775 0 obj
+776 0 obj
 << /Border [0 0 0]
 /Dest (_ball)
 /Subtype /Link
@@ -46896,7 +46908,7 @@ endobj
 /Type /Annot
 >>
 endobj
-776 0 obj
+777 0 obj
 << /Border [0 0 0]
 /Dest (_ball)
 /Subtype /Link
@@ -46904,7 +46916,7 @@ endobj
 /Type /Annot
 >>
 endobj
-777 0 obj
+778 0 obj
 << /Border [0 0 0]
 /Dest (_shared_software)
 /Subtype /Link
@@ -46912,7 +46924,7 @@ endobj
 /Type /Annot
 >>
 endobj
-778 0 obj
+779 0 obj
 << /Border [0 0 0]
 /Dest (_shared_software)
 /Subtype /Link
@@ -46920,7 +46932,7 @@ endobj
 /Type /Annot
 >>
 endobj
-779 0 obj
+780 0 obj
 << /Border [0 0 0]
 /Dest (_communication_flags)
 /Subtype /Link
@@ -46928,7 +46940,7 @@ endobj
 /Type /Annot
 >>
 endobj
-780 0 obj
+781 0 obj
 << /Border [0 0 0]
 /Dest (_communication_flags)
 /Subtype /Link
@@ -46936,7 +46948,7 @@ endobj
 /Type /Annot
 >>
 endobj
-781 0 obj
+782 0 obj
 << /Border [0 0 0]
 /Dest (_robots)
 /Subtype /Link
@@ -46944,7 +46956,7 @@ endobj
 /Type /Annot
 >>
 endobj
-782 0 obj
+783 0 obj
 << /Border [0 0 0]
 /Dest (_robots)
 /Subtype /Link
@@ -46952,7 +46964,7 @@ endobj
 /Type /Annot
 >>
 endobj
-783 0 obj
+784 0 obj
 << /Border [0 0 0]
 /Dest (_number_of_robots)
 /Subtype /Link
@@ -46960,7 +46972,7 @@ endobj
 /Type /Annot
 >>
 endobj
-784 0 obj
+785 0 obj
 << /Border [0 0 0]
 /Dest (_number_of_robots)
 /Subtype /Link
@@ -46968,7 +46980,7 @@ endobj
 /Type /Annot
 >>
 endobj
-785 0 obj
+786 0 obj
 << /Border [0 0 0]
 /Dest (_hardware_and_software_constraints)
 /Subtype /Link
@@ -46976,7 +46988,7 @@ endobj
 /Type /Annot
 >>
 endobj
-786 0 obj
+787 0 obj
 << /Border [0 0 0]
 /Dest (_hardware_and_software_constraints)
 /Subtype /Link
@@ -46984,7 +46996,7 @@ endobj
 /Type /Annot
 >>
 endobj
-787 0 obj
+788 0 obj
 << /Border [0 0 0]
 /Dest (_game_structure)
 /Subtype /Link
@@ -46992,7 +47004,7 @@ endobj
 /Type /Annot
 >>
 endobj
-788 0 obj
+789 0 obj
 << /Border [0 0 0]
 /Dest (_game_structure)
 /Subtype /Link
@@ -47000,7 +47012,7 @@ endobj
 /Type /Annot
 >>
 endobj
-789 0 obj
+790 0 obj
 << /Border [0 0 0]
 /Dest (_impartial_roles)
 /Subtype /Link
@@ -47008,7 +47020,7 @@ endobj
 /Type /Annot
 >>
 endobj
-790 0 obj
+791 0 obj
 << /Border [0 0 0]
 /Dest (_impartial_roles)
 /Subtype /Link
@@ -47016,7 +47028,7 @@ endobj
 /Type /Annot
 >>
 endobj
-791 0 obj
+792 0 obj
 << /Border [0 0 0]
 /Dest (_team_specific_roles)
 /Subtype /Link
@@ -47024,7 +47036,7 @@ endobj
 /Type /Annot
 >>
 endobj
-792 0 obj
+793 0 obj
 << /Border [0 0 0]
 /Dest (_team_specific_roles)
 /Subtype /Link
@@ -47032,7 +47044,7 @@ endobj
 /Type /Annot
 >>
 endobj
-793 0 obj
+794 0 obj
 << /Border [0 0 0]
 /Dest (_match_preparation)
 /Subtype /Link
@@ -47040,7 +47052,7 @@ endobj
 /Type /Annot
 >>
 endobj
-794 0 obj
+795 0 obj
 << /Border [0 0 0]
 /Dest (_match_preparation)
 /Subtype /Link
@@ -47048,7 +47060,7 @@ endobj
 /Type /Annot
 >>
 endobj
-795 0 obj
+796 0 obj
 << /Border [0 0 0]
 /Dest (_game_stages)
 /Subtype /Link
@@ -47056,7 +47068,7 @@ endobj
 /Type /Annot
 >>
 endobj
-796 0 obj
+797 0 obj
 << /Border [0 0 0]
 /Dest (_game_stages)
 /Subtype /Link
@@ -47064,7 +47076,7 @@ endobj
 /Type /Annot
 >>
 endobj
-797 0 obj
+798 0 obj
 << /Border [0 0 0]
 /Dest (_referee_commands)
 /Subtype /Link
@@ -47072,7 +47084,7 @@ endobj
 /Type /Annot
 >>
 endobj
-798 0 obj
+799 0 obj
 << /Border [0 0 0]
 /Dest (_referee_commands)
 /Subtype /Link
@@ -47080,7 +47092,7 @@ endobj
 /Type /Annot
 >>
 endobj
-799 0 obj
+800 0 obj
 << /Border [0 0 0]
 /Dest (_stopping_the_game)
 /Subtype /Link
@@ -47088,7 +47100,7 @@ endobj
 /Type /Annot
 >>
 endobj
-800 0 obj
+801 0 obj
 << /Border [0 0 0]
 /Dest (_stopping_the_game)
 /Subtype /Link
@@ -47096,7 +47108,7 @@ endobj
 /Type /Annot
 >>
 endobj
-801 0 obj
+802 0 obj
 << /Border [0 0 0]
 /Dest (_ball_placement)
 /Subtype /Link
@@ -47104,7 +47116,7 @@ endobj
 /Type /Annot
 >>
 endobj
-802 0 obj
+803 0 obj
 << /Border [0 0 0]
 /Dest (_ball_placement)
 /Subtype /Link
@@ -47112,7 +47124,7 @@ endobj
 /Type /Annot
 >>
 endobj
-803 0 obj
+804 0 obj
 << /Border [0 0 0]
 /Dest (_resuming_the_game)
 /Subtype /Link
@@ -47120,7 +47132,7 @@ endobj
 /Type /Annot
 >>
 endobj
-804 0 obj
+805 0 obj
 << /Border [0 0 0]
 /Dest (_resuming_the_game)
 /Subtype /Link
@@ -47128,7 +47140,7 @@ endobj
 /Type /Annot
 >>
 endobj
-805 0 obj
+806 0 obj
 << /Border [0 0 0]
 /Dest (_sanctions)
 /Subtype /Link
@@ -47136,7 +47148,7 @@ endobj
 /Type /Annot
 >>
 endobj
-806 0 obj
+807 0 obj
 << /Border [0 0 0]
 /Dest (_sanctions)
 /Subtype /Link
@@ -47144,7 +47156,7 @@ endobj
 /Type /Annot
 >>
 endobj
-807 0 obj
+808 0 obj
 << /Border [0 0 0]
 /Dest (_ball_leaves_the_field)
 /Subtype /Link
@@ -47152,7 +47164,7 @@ endobj
 /Type /Annot
 >>
 endobj
-808 0 obj
+809 0 obj
 << /Border [0 0 0]
 /Dest (_ball_leaves_the_field)
 /Subtype /Link
@@ -47160,7 +47172,7 @@ endobj
 /Type /Annot
 >>
 endobj
-809 0 obj
+810 0 obj
 << /Border [0 0 0]
 /Dest (_touch_line_crossing)
 /Subtype /Link
@@ -47168,7 +47180,7 @@ endobj
 /Type /Annot
 >>
 endobj
-810 0 obj
+811 0 obj
 << /Border [0 0 0]
 /Dest (_touch_line_crossing)
 /Subtype /Link
@@ -47176,7 +47188,7 @@ endobj
 /Type /Annot
 >>
 endobj
-811 0 obj
+812 0 obj
 << /Border [0 0 0]
 /Dest (_goal_line_crossing)
 /Subtype /Link
@@ -47184,7 +47196,7 @@ endobj
 /Type /Annot
 >>
 endobj
-812 0 obj
+813 0 obj
 << /Border [0 0 0]
 /Dest (_goal_line_crossing)
 /Subtype /Link
@@ -47192,7 +47204,7 @@ endobj
 /Type /Annot
 >>
 endobj
-813 0 obj
+814 0 obj
 << /Border [0 0 0]
 /Dest (_scoring_goals)
 /Subtype /Link
@@ -47200,7 +47212,7 @@ endobj
 /Type /Annot
 >>
 endobj
-814 0 obj
+815 0 obj
 << /Border [0 0 0]
 /Dest (_scoring_goals)
 /Subtype /Link
@@ -47208,7 +47220,7 @@ endobj
 /Type /Annot
 >>
 endobj
-815 0 obj
+816 0 obj
 << /Border [0 0 0]
 /Dest (_offenses)
 /Subtype /Link
@@ -47216,7 +47228,7 @@ endobj
 /Type /Annot
 >>
 endobj
-816 0 obj
+817 0 obj
 << /Border [0 0 0]
 /Dest (_offenses)
 /Subtype /Link
@@ -47224,7 +47236,7 @@ endobj
 /Type /Annot
 >>
 endobj
-817 0 obj
+818 0 obj
 << /Border [0 0 0]
 /Dest (_minor_offenses)
 /Subtype /Link
@@ -47232,7 +47244,7 @@ endobj
 /Type /Annot
 >>
 endobj
-818 0 obj
+819 0 obj
 << /Border [0 0 0]
 /Dest (_minor_offenses)
 /Subtype /Link
@@ -47240,7 +47252,7 @@ endobj
 /Type /Annot
 >>
 endobj
-819 0 obj
+820 0 obj
 << /Border [0 0 0]
 /Dest (_fouls)
 /Subtype /Link
@@ -47248,7 +47260,7 @@ endobj
 /Type /Annot
 >>
 endobj
-820 0 obj
+821 0 obj
 << /Border [0 0 0]
 /Dest (_fouls)
 /Subtype /Link
@@ -47256,7 +47268,7 @@ endobj
 /Type /Annot
 >>
 endobj
-821 0 obj
+822 0 obj
 << /Border [0 0 0]
 /Dest (_unsporting_behavior)
 /Subtype /Link
@@ -47264,7 +47276,7 @@ endobj
 /Type /Annot
 >>
 endobj
-822 0 obj
+823 0 obj
 << /Border [0 0 0]
 /Dest (_unsporting_behavior)
 /Subtype /Link
@@ -47272,7 +47284,7 @@ endobj
 /Type /Annot
 >>
 endobj
-823 0 obj
+824 0 obj
 << /Border [0 0 0]
 /Dest (_simultaneous_offenses)
 /Subtype /Link
@@ -47280,7 +47292,7 @@ endobj
 /Type /Annot
 >>
 endobj
-824 0 obj
+825 0 obj
 << /Border [0 0 0]
 /Dest (_simultaneous_offenses)
 /Subtype /Link
@@ -47288,7 +47300,7 @@ endobj
 /Type /Annot
 >>
 endobj
-825 0 obj
+826 0 obj
 << /Border [0 0 0]
 /Dest (_advantage_rule)
 /Subtype /Link
@@ -47296,7 +47308,7 @@ endobj
 /Type /Annot
 >>
 endobj
-826 0 obj
+827 0 obj
 << /Border [0 0 0]
 /Dest (_advantage_rule)
 /Subtype /Link
@@ -47304,7 +47316,7 @@ endobj
 /Type /Annot
 >>
 endobj
-827 0 obj
+828 0 obj
 << /Border [0 0 0]
 /Dest (_robot_substitution)
 /Subtype /Link
@@ -47312,7 +47324,7 @@ endobj
 /Type /Annot
 >>
 endobj
-828 0 obj
+829 0 obj
 << /Border [0 0 0]
 /Dest (_robot_substitution)
 /Subtype /Link
@@ -47320,7 +47332,7 @@ endobj
 /Type /Annot
 >>
 endobj
-829 0 obj
+830 0 obj
 << /Border [0 0 0]
 /Dest (_shoot_out)
 /Subtype /Link
@@ -47328,7 +47340,7 @@ endobj
 /Type /Annot
 >>
 endobj
-830 0 obj
+831 0 obj
 << /Border [0 0 0]
 /Dest (_shoot_out)
 /Subtype /Link
@@ -47336,7 +47348,7 @@ endobj
 /Type /Annot
 >>
 endobj
-831 0 obj
+832 0 obj
 << /Border [0 0 0]
 /Dest (_emergency_stop)
 /Subtype /Link
@@ -47344,7 +47356,7 @@ endobj
 /Type /Annot
 >>
 endobj
-832 0 obj
+833 0 obj
 << /Border [0 0 0]
 /Dest (_emergency_stop)
 /Subtype /Link
@@ -47352,7 +47364,7 @@ endobj
 /Type /Annot
 >>
 endobj
-833 0 obj
+834 0 obj
 << /Border [0 0 0]
 /Dest (_rule_changes_during_competition)
 /Subtype /Link
@@ -47360,7 +47372,7 @@ endobj
 /Type /Annot
 >>
 endobj
-834 0 obj
+835 0 obj
 << /Border [0 0 0]
 /Dest (_rule_changes_during_competition)
 /Subtype /Link
@@ -47368,7 +47380,7 @@ endobj
 /Type /Annot
 >>
 endobj
-835 0 obj
+836 0 obj
 << /Border [0 0 0]
 /Dest (_terminology)
 /Subtype /Link
@@ -47376,7 +47388,7 @@ endobj
 /Type /Annot
 >>
 endobj
-836 0 obj
+837 0 obj
 << /Border [0 0 0]
 /Dest (_terminology)
 /Subtype /Link
@@ -47384,7 +47396,7 @@ endobj
 /Type /Annot
 >>
 endobj
-837 0 obj
+838 0 obj
 << /Border [0 0 0]
 /Dest (_ball_in_and_out_of_play)
 /Subtype /Link
@@ -47392,7 +47404,7 @@ endobj
 /Type /Annot
 >>
 endobj
-838 0 obj
+839 0 obj
 << /Border [0 0 0]
 /Dest (_ball_in_and_out_of_play)
 /Subtype /Link
@@ -47400,7 +47412,7 @@ endobj
 /Type /Annot
 >>
 endobj
-839 0 obj
+840 0 obj
 << /Border [0 0 0]
 /Dest (_ball_manipulation)
 /Subtype /Link
@@ -47408,7 +47420,7 @@ endobj
 /Type /Annot
 >>
 endobj
-840 0 obj
+841 0 obj
 << /Border [0 0 0]
 /Dest (_ball_manipulation)
 /Subtype /Link
@@ -47416,7 +47428,7 @@ endobj
 /Type /Annot
 >>
 endobj
-841 0 obj
+842 0 obj
 << /Border [0 0 0]
 /Dest (_game_event_table)
 /Subtype /Link
@@ -47424,7 +47436,7 @@ endobj
 /Type /Annot
 >>
 endobj
-842 0 obj
+843 0 obj
 << /Border [0 0 0]
 /Dest (_game_event_table)
 /Subtype /Link
@@ -47432,7 +47444,7 @@ endobj
 /Type /Annot
 >>
 endobj
-843 0 obj
+844 0 obj
 << /Border [0 0 0]
 /Dest (_differences_between_divisions)
 /Subtype /Link
@@ -47440,7 +47452,7 @@ endobj
 /Type /Annot
 >>
 endobj
-844 0 obj
+845 0 obj
 << /Border [0 0 0]
 /Dest (_differences_between_divisions)
 /Subtype /Link
@@ -47448,390 +47460,390 @@ endobj
 /Type /Annot
 >>
 endobj
-845 0 obj
+846 0 obj
 << /Type /Outlines
 /Count 42
-/First 846 0 R
-/Last 887 0 R
->>
-endobj
-846 0 obj
-<< /Title <feff00520075006c006500730020006f0066002000740068006500200052006f0062006f00430075007000200053006d0061006c006c002000530069007a00650020004c00650061006700750065>
-/Parent 845 0 R
-/Count 0
-/Next 847 0 R
-/Dest [7 0 R /XYZ 0 841.89 null]
+/First 847 0 R
+/Last 888 0 R
 >>
 endobj
 847 0 obj
-<< /Title <feff005400610062006c00650020006f006600200043006f006e00740065006e00740073>
-/Parent 845 0 R
+<< /Title <feff00520075006c006500730020006f0066002000740068006500200052006f0062006f00430075007000200053006d0061006c006c002000530069007a00650020004c00650061006700750065>
+/Parent 846 0 R
 /Count 0
 /Next 848 0 R
-/Prev 846 0 R
 /Dest [7 0 R /XYZ 0 841.89 null]
 >>
 endobj
 848 0 obj
-<< /Title <feff0031002e0020004c006500610067007500650020004f0076006500720076006900650077>
-/Parent 845 0 R
-/Count 2
-/First 849 0 R
-/Last 850 0 R
-/Next 851 0 R
+<< /Title <feff005400610062006c00650020006f006600200043006f006e00740065006e00740073>
+/Parent 846 0 R
+/Count 0
+/Next 849 0 R
 /Prev 847 0 R
-/Dest [10 0 R /XYZ 0 555.33 null]
+/Dest [7 0 R /XYZ 0 841.89 null]
 >>
 endobj
 849 0 obj
-<< /Title <feff0031002e0031002e00200043006f006d006d006900740074006500650073>
-/Parent 848 0 R
-/Count 0
-/Next 850 0 R
-/Dest [10 0 R /XYZ 0 509.81 null]
+<< /Title <feff0031002e0020004c006500610067007500650020004f0076006500720076006900650077>
+/Parent 846 0 R
+/Count 2
+/First 850 0 R
+/Last 851 0 R
+/Next 852 0 R
+/Prev 848 0 R
+/Dest [10 0 R /XYZ 0 555.33 null]
 >>
 endobj
 850 0 obj
-<< /Title <feff0031002e0032002e0020004400690076006900730069006f006e0073>
-/Parent 848 0 R
+<< /Title <feff0031002e0031002e00200043006f006d006d006900740074006500650073>
+/Parent 849 0 R
 /Count 0
-/Prev 849 0 R
-/Dest [30 0 R /XYZ 0 593.89 null]
+/Next 851 0 R
+/Dest [10 0 R /XYZ 0 509.81 null]
 >>
 endobj
 851 0 obj
-<< /Title <feff0032002e00200050006c006100790069006e006700200045006e007600690072006f006e006d0065006e0074>
-/Parent 845 0 R
-/Count 4
-/First 852 0 R
-/Last 855 0 R
-/Next 856 0 R
-/Prev 848 0 R
-/Dest [30 0 R /XYZ 0 324.23 null]
+<< /Title <feff0031002e0032002e0020004400690076006900730069006f006e0073>
+/Parent 849 0 R
+/Count 0
+/Prev 850 0 R
+/Dest [30 0 R /XYZ 0 593.89 null]
 >>
 endobj
 852 0 obj
-<< /Title <feff0032002e0031002e0020004600690065006c0064002000530065007400750070>
-/Parent 851 0 R
-/Count 0
-/Next 853 0 R
-/Dest [30 0 R /XYZ 0 278.71 null]
+<< /Title <feff0032002e00200050006c006100790069006e006700200045006e007600690072006f006e006d0065006e0074>
+/Parent 846 0 R
+/Count 4
+/First 853 0 R
+/Last 856 0 R
+/Next 857 0 R
+/Prev 849 0 R
+/Dest [30 0 R /XYZ 0 324.23 null]
 >>
 endobj
 853 0 obj
-<< /Title <feff0032002e0032002e002000420061006c006c>
-/Parent 851 0 R
+<< /Title <feff0032002e0031002e0020004600690065006c0064002000530065007400750070>
+/Parent 852 0 R
 /Count 0
 /Next 854 0 R
-/Prev 852 0 R
-/Dest [76 0 R /XYZ 0 665.8081 null]
+/Dest [30 0 R /XYZ 0 278.71 null]
 >>
 endobj
 854 0 obj
-<< /Title <feff0032002e0033002e002000530068006100720065006400200053006f006600740077006100720065>
-/Parent 851 0 R
+<< /Title <feff0032002e0032002e002000420061006c006c>
+/Parent 852 0 R
 /Count 0
 /Next 855 0 R
 /Prev 853 0 R
-/Dest [76 0 R /XYZ 0 554.3881 null]
+/Dest [76 0 R /XYZ 0 665.8081 null]
 >>
 endobj
 855 0 obj
-<< /Title <feff0032002e0034002e00200043006f006d006d0075006e00690063006100740069006f006e00200046006c006100670073>
-/Parent 851 0 R
+<< /Title <feff0032002e0033002e002000530068006100720065006400200053006f006600740077006100720065>
+/Parent 852 0 R
 /Count 0
+/Next 856 0 R
 /Prev 854 0 R
-/Dest [94 0 R /XYZ 0 539.78 null]
+/Dest [76 0 R /XYZ 0 554.3881 null]
 >>
 endobj
 856 0 obj
-<< /Title <feff0033002e00200052006f0062006f00740073>
-/Parent 845 0 R
-/Count 2
-/First 857 0 R
-/Last 858 0 R
-/Next 859 0 R
-/Prev 851 0 R
-/Dest [94 0 R /XYZ 0 337.46 null]
+<< /Title <feff0032002e0034002e00200043006f006d006d0075006e00690063006100740069006f006e00200046006c006100670073>
+/Parent 852 0 R
+/Count 0
+/Prev 855 0 R
+/Dest [94 0 R /XYZ 0 539.78 null]
 >>
 endobj
 857 0 obj
-<< /Title <feff0033002e0031002e0020004e0075006d0062006500720020004f006600200052006f0062006f00740073>
-/Parent 856 0 R
-/Count 0
-/Next 858 0 R
-/Dest [94 0 R /XYZ 0 291.94 null]
+<< /Title <feff0033002e00200052006f0062006f00740073>
+/Parent 846 0 R
+/Count 2
+/First 858 0 R
+/Last 859 0 R
+/Next 860 0 R
+/Prev 852 0 R
+/Dest [94 0 R /XYZ 0 337.46 null]
 >>
 endobj
 858 0 obj
-<< /Title <feff0033002e0032002e00200048006100720064007700610072006500200041006e006400200053006f00660074007700610072006500200043006f006e00730074007200610069006e00740073>
-/Parent 856 0 R
+<< /Title <feff0033002e0031002e0020004e0075006d0062006500720020004f006600200052006f0062006f00740073>
+/Parent 857 0 R
 /Count 0
-/Prev 857 0 R
-/Dest [94 0 R /XYZ 0 176.74 null]
+/Next 859 0 R
+/Dest [94 0 R /XYZ 0 291.94 null]
 >>
 endobj
 859 0 obj
-<< /Title <feff0034002e002000470061006d00650020005300740072007500630074007500720065>
-/Parent 845 0 R
-/Count 4
-/First 860 0 R
-/Last 863 0 R
-/Next 864 0 R
-/Prev 856 0 R
-/Dest [154 0 R /XYZ 0 841.89 null]
+<< /Title <feff0033002e0032002e00200048006100720064007700610072006500200041006e006400200053006f00660074007700610072006500200043006f006e00730074007200610069006e00740073>
+/Parent 857 0 R
+/Count 0
+/Prev 858 0 R
+/Dest [94 0 R /XYZ 0 176.74 null]
 >>
 endobj
 860 0 obj
-<< /Title <feff0034002e0031002e00200049006d007000610072007400690061006c00200052006f006c00650073>
-/Parent 859 0 R
-/Count 0
-/Next 861 0 R
-/Dest [154 0 R /XYZ 0 765.17 null]
+<< /Title <feff0034002e002000470061006d00650020005300740072007500630074007500720065>
+/Parent 846 0 R
+/Count 4
+/First 861 0 R
+/Last 864 0 R
+/Next 865 0 R
+/Prev 857 0 R
+/Dest [154 0 R /XYZ 0 841.89 null]
 >>
 endobj
 861 0 obj
-<< /Title <feff0034002e0032002e0020005400650061006d002d0053007000650063006900660069006300200052006f006c00650073>
-/Parent 859 0 R
+<< /Title <feff0034002e0031002e00200049006d007000610072007400690061006c00200052006f006c00650073>
+/Parent 860 0 R
 /Count 0
 /Next 862 0 R
-/Prev 860 0 R
-/Dest [175 0 R /XYZ 0 131.157 null]
+/Dest [154 0 R /XYZ 0 765.17 null]
 >>
 endobj
 862 0 obj
-<< /Title <feff0034002e0033002e0020004d00610074006300680020005000720065007000610072006100740069006f006e>
-/Parent 859 0 R
+<< /Title <feff0034002e0032002e0020005400650061006d002d0053007000650063006900660069006300200052006f006c00650073>
+/Parent 860 0 R
 /Count 0
 /Next 863 0 R
 /Prev 861 0 R
-/Dest [197 0 R /XYZ 0 584.179 null]
+/Dest [175 0 R /XYZ 0 131.157 null]
 >>
 endobj
 863 0 obj
-<< /Title <feff0034002e0034002e002000470061006d00650020005300740061006700650073>
-/Parent 859 0 R
+<< /Title <feff0034002e0033002e0020004d00610074006300680020005000720065007000610072006100740069006f006e>
+/Parent 860 0 R
 /Count 0
+/Next 864 0 R
 /Prev 862 0 R
-/Dest [222 0 R /XYZ 0 521.83 null]
+/Dest [197 0 R /XYZ 0 584.179 null]
 >>
 endobj
 864 0 obj
-<< /Title <feff0035002e0020005200650066006500720065006500200043006f006d006d0061006e00640073>
-/Parent 845 0 R
-/Count 4
-/First 865 0 R
-/Last 868 0 R
-/Next 869 0 R
-/Prev 859 0 R
-/Dest [239 0 R /XYZ 0 375.6 null]
+<< /Title <feff0034002e0034002e002000470061006d00650020005300740061006700650073>
+/Parent 860 0 R
+/Count 0
+/Prev 863 0 R
+/Dest [222 0 R /XYZ 0 521.83 null]
 >>
 endobj
 865 0 obj
-<< /Title <feff0035002e0031002e002000530074006f007000700069006e00670020005400680065002000470061006d0065>
-/Parent 864 0 R
-/Count 0
-/Next 866 0 R
-/Dest [239 0 R /XYZ 0 330.08 null]
+<< /Title <feff0035002e0020005200650066006500720065006500200043006f006d006d0061006e00640073>
+/Parent 846 0 R
+/Count 4
+/First 866 0 R
+/Last 869 0 R
+/Next 870 0 R
+/Prev 860 0 R
+/Dest [239 0 R /XYZ 0 375.6 null]
 >>
 endobj
 866 0 obj
-<< /Title <feff0035002e0032002e002000420061006c006c00200050006c006100630065006d0065006e0074>
-/Parent 864 0 R
+<< /Title <feff0035002e0031002e002000530074006f007000700069006e00670020005400680065002000470061006d0065>
+/Parent 865 0 R
 /Count 0
 /Next 867 0 R
-/Prev 865 0 R
-/Dest [262 0 R /XYZ 0 517.578 null]
+/Dest [239 0 R /XYZ 0 330.08 null]
 >>
 endobj
 867 0 obj
-<< /Title <feff0035002e0033002e00200052006500730075006d0069006e00670020005400680065002000470061006d0065>
-/Parent 864 0 R
+<< /Title <feff0035002e0032002e002000420061006c006c00200050006c006100630065006d0065006e0074>
+/Parent 865 0 R
 /Count 0
 /Next 868 0 R
 /Prev 866 0 R
-/Dest [279 0 R /XYZ 0 273.83 null]
+/Dest [262 0 R /XYZ 0 517.578 null]
 >>
 endobj
 868 0 obj
-<< /Title <feff0035002e0034002e002000530061006e006300740069006f006e0073>
-/Parent 864 0 R
+<< /Title <feff0035002e0033002e00200052006500730075006d0069006e00670020005400680065002000470061006d0065>
+/Parent 865 0 R
 /Count 0
+/Next 869 0 R
 /Prev 867 0 R
-/Dest [334 0 R /XYZ 0 337.299 null]
+/Dest [279 0 R /XYZ 0 273.83 null]
 >>
 endobj
 869 0 obj
-<< /Title <feff0036002e002000420061006c006c0020004c0065006100760065007300200054006800650020004600690065006c0064>
-/Parent 845 0 R
-/Count 2
-/First 870 0 R
-/Last 871 0 R
-/Next 872 0 R
-/Prev 864 0 R
-/Dest [368 0 R /XYZ 0 608.748 null]
+<< /Title <feff0035002e0034002e002000530061006e006300740069006f006e0073>
+/Parent 865 0 R
+/Count 0
+/Prev 868 0 R
+/Dest [334 0 R /XYZ 0 337.299 null]
 >>
 endobj
 870 0 obj
-<< /Title <feff0036002e0031002e00200054006f0075006300680020004c0069006e0065002000430072006f007300730069006e0067>
-/Parent 869 0 R
-/Count 0
-/Next 871 0 R
-/Dest [368 0 R /XYZ 0 503.888 null]
+<< /Title <feff0036002e002000420061006c006c0020004c0065006100760065007300200054006800650020004600690065006c0064>
+/Parent 846 0 R
+/Count 2
+/First 871 0 R
+/Last 872 0 R
+/Next 873 0 R
+/Prev 865 0 R
+/Dest [368 0 R /XYZ 0 608.748 null]
 >>
 endobj
 871 0 obj
-<< /Title <feff0036002e0032002e00200047006f0061006c0020004c0069006e0065002000430072006f007300730069006e0067>
-/Parent 869 0 R
+<< /Title <feff0036002e0031002e00200054006f0075006300680020004c0069006e0065002000430072006f007300730069006e0067>
+/Parent 870 0 R
 /Count 0
-/Prev 870 0 R
-/Dest [368 0 R /XYZ 0 249.866 null]
+/Next 872 0 R
+/Dest [368 0 R /XYZ 0 503.888 null]
 >>
 endobj
 872 0 obj
-<< /Title <feff0037002e002000530063006f00720069006e006700200047006f0061006c0073>
-/Parent 845 0 R
+<< /Title <feff0036002e0032002e00200047006f0061006c0020004c0069006e0065002000430072006f007300730069006e0067>
+/Parent 870 0 R
 /Count 0
-/Next 873 0 R
-/Prev 869 0 R
-/Dest [383 0 R /XYZ 0 522.1095 null]
+/Prev 871 0 R
+/Dest [368 0 R /XYZ 0 249.866 null]
 >>
 endobj
 873 0 obj
-<< /Title <feff0038002e0020004f006600660065006e007300650073>
-/Parent 845 0 R
-/Count 5
-/First 874 0 R
-/Last 878 0 R
-/Next 879 0 R
-/Prev 872 0 R
-/Dest [383 0 R /XYZ 0 260.5695 null]
+<< /Title <feff0037002e002000530063006f00720069006e006700200047006f0061006c0073>
+/Parent 846 0 R
+/Count 0
+/Next 874 0 R
+/Prev 870 0 R
+/Dest [383 0 R /XYZ 0 522.1095 null]
 >>
 endobj
 874 0 obj
-<< /Title <feff0038002e0031002e0020004d0069006e006f00720020004f006600660065006e007300650073>
-/Parent 873 0 R
-/Count 0
-/Next 875 0 R
-/Dest [398 0 R /XYZ 0 841.89 null]
+<< /Title <feff0038002e0020004f006600660065006e007300650073>
+/Parent 846 0 R
+/Count 5
+/First 875 0 R
+/Last 879 0 R
+/Next 880 0 R
+/Prev 873 0 R
+/Dest [383 0 R /XYZ 0 260.5695 null]
 >>
 endobj
 875 0 obj
-<< /Title <feff0038002e0032002e00200046006f0075006c0073>
-/Parent 873 0 R
+<< /Title <feff0038002e0031002e0020004d0069006e006f00720020004f006600660065006e007300650073>
+/Parent 874 0 R
 /Count 0
 /Next 876 0 R
-/Prev 874 0 R
-/Dest [431 0 R /XYZ 0 533.31 null]
+/Dest [398 0 R /XYZ 0 841.89 null]
 >>
 endobj
 876 0 obj
-<< /Title <feff0038002e0033002e00200055006e00730070006f007200740069006e00670020004200650068006100760069006f0072>
-/Parent 873 0 R
+<< /Title <feff0038002e0032002e00200046006f0075006c0073>
+/Parent 874 0 R
 /Count 0
 /Next 877 0 R
 /Prev 875 0 R
-/Dest [471 0 R /XYZ 0 329.79 null]
+/Dest [431 0 R /XYZ 0 533.31 null]
 >>
 endobj
 877 0 obj
-<< /Title <feff0038002e0034002e002000530069006d0075006c00740061006e0065006f007500730020004f006600660065006e007300650073>
-/Parent 873 0 R
+<< /Title <feff0038002e0033002e00200055006e00730070006f007200740069006e00670020004200650068006100760069006f0072>
+/Parent 874 0 R
 /Count 0
 /Next 878 0 R
 /Prev 876 0 R
-/Dest [499 0 R /XYZ 0 601.45 null]
+/Dest [472 0 R /XYZ 0 329.79 null]
 >>
 endobj
 878 0 obj
-<< /Title <feff0038002e0035002e00200041006400760061006e0074006100670065002000520075006c0065>
-/Parent 873 0 R
+<< /Title <feff0038002e0034002e002000530069006d0075006c00740061006e0065006f007500730020004f006600660065006e007300650073>
+/Parent 874 0 R
 /Count 0
+/Next 879 0 R
 /Prev 877 0 R
-/Dest [499 0 R /XYZ 0 391.13 null]
+/Dest [500 0 R /XYZ 0 601.45 null]
 >>
 endobj
 879 0 obj
-<< /Title <feff0039002e00200052006f0062006f007400200053007500620073007400690074007500740069006f006e>
-/Parent 845 0 R
+<< /Title <feff0038002e0035002e00200041006400760061006e0074006100670065002000520075006c0065>
+/Parent 874 0 R
 /Count 0
-/Next 880 0 R
-/Prev 873 0 R
-/Dest [499 0 R /XYZ 0 140.039 null]
+/Prev 878 0 R
+/Dest [500 0 R /XYZ 0 391.13 null]
 >>
 endobj
 880 0 obj
-<< /Title <feff00310030002e002000530068006f006f0074002d004f00750074>
-/Parent 845 0 R
+<< /Title <feff0039002e00200052006f0062006f007400200053007500620073007400690074007500740069006f006e>
+/Parent 846 0 R
 /Count 0
 /Next 881 0 R
-/Prev 879 0 R
-/Dest [525 0 R /XYZ 0 159.809 null]
+/Prev 874 0 R
+/Dest [500 0 R /XYZ 0 140.039 null]
 >>
 endobj
 881 0 obj
-<< /Title <feff00310031002e00200045006d0065007200670065006e00630079002000730074006f0070>
-/Parent 845 0 R
+<< /Title <feff00310030002e002000530068006f006f0074002d004f00750074>
+/Parent 846 0 R
 /Count 0
 /Next 882 0 R
 /Prev 880 0 R
-/Dest [551 0 R /XYZ 0 620.439 null]
+/Dest [526 0 R /XYZ 0 159.809 null]
 >>
 endobj
 882 0 obj
-<< /Title <feff00310032002e002000520075006c00650020004300680061006e00670065007300200044007500720069006e006700200043006f006d007000650074006900740069006f006e>
-/Parent 845 0 R
+<< /Title <feff00310031002e00200045006d0065007200670065006e00630079002000730074006f0070>
+/Parent 846 0 R
 /Count 0
 /Next 883 0 R
 /Prev 881 0 R
-/Dest [551 0 R /XYZ 0 142.457 null]
+/Dest [552 0 R /XYZ 0 620.439 null]
 >>
 endobj
 883 0 obj
-<< /Title <feff0041007000700065006e00640069007800200041003a0020005400650072006d0069006e006f006c006f00670079>
-/Parent 845 0 R
-/Count 2
-/First 884 0 R
-/Last 885 0 R
-/Next 886 0 R
+<< /Title <feff00310032002e002000520075006c00650020004300680061006e00670065007300200044007500720069006e006700200043006f006d007000650074006900740069006f006e>
+/Parent 846 0 R
+/Count 0
+/Next 884 0 R
 /Prev 882 0 R
-/Dest [563 0 R /XYZ 0 734.55 null]
+/Dest [552 0 R /XYZ 0 142.457 null]
 >>
 endobj
 884 0 obj
-<< /Title <feff0041002e0031002e002000420061006c006c00200049006e00200041006e00640020004f007500740020004f006600200050006c00610079>
-/Parent 883 0 R
-/Count 0
-/Next 885 0 R
-/Dest [563 0 R /XYZ 0 689.03 null]
+<< /Title <feff0041007000700065006e00640069007800200041003a0020005400650072006d0069006e006f006c006f00670079>
+/Parent 846 0 R
+/Count 2
+/First 885 0 R
+/Last 886 0 R
+/Next 887 0 R
+/Prev 883 0 R
+/Dest [564 0 R /XYZ 0 734.55 null]
 >>
 endobj
 885 0 obj
-<< /Title <feff0041002e0032002e002000420061006c006c0020004d0061006e006900700075006c006100740069006f006e>
-/Parent 883 0 R
+<< /Title <feff0041002e0031002e002000420061006c006c00200049006e00200041006e00640020004f007500740020004f006600200050006c00610079>
+/Parent 884 0 R
 /Count 0
-/Prev 884 0 R
-/Dest [563 0 R /XYZ 0 526.05 null]
+/Next 886 0 R
+/Dest [564 0 R /XYZ 0 689.03 null]
 >>
 endobj
 886 0 obj
-<< /Title <feff0041007000700065006e00640069007800200042003a002000470061006d00650020004500760065006e00740020005400610062006c0065>
-/Parent 845 0 R
+<< /Title <feff0041002e0032002e002000420061006c006c0020004d0061006e006900700075006c006100740069006f006e>
+/Parent 884 0 R
 /Count 0
-/Next 887 0 R
-/Prev 883 0 R
-/Dest [563 0 R /XYZ 0 442.41 null]
+/Prev 885 0 R
+/Dest [564 0 R /XYZ 0 526.05 null]
 >>
 endobj
 887 0 obj
-<< /Title <feff0041007000700065006e00640069007800200043003a00200044006900660066006500720065006e0063006500730020004200650074007700650065006e0020004400690076006900730069006f006e0073>
-/Parent 845 0 R
+<< /Title <feff0041007000700065006e00640069007800200042003a002000470061006d00650020004500760065006e00740020005400610062006c0065>
+/Parent 846 0 R
 /Count 0
-/Prev 886 0 R
-/Dest [742 0 R /XYZ 0 603.87 null]
+/Next 888 0 R
+/Prev 884 0 R
+/Dest [564 0 R /XYZ 0 442.41 null]
 >>
 endobj
 888 0 obj
+<< /Title <feff0041007000700065006e00640069007800200043003a00200044006900660066006500720065006e0063006500730020004200650074007700650065006e0020004400690076006900730069006f006e0073>
+/Parent 846 0 R
+/Count 0
+/Prev 887 0 R
+/Dest [743 0 R /XYZ 0 603.87 null]
+>>
+endobj
+889 0 obj
 << /Nums [0 << /P (1)
 >> 1 << /P (2)
 >> 2 << /P (3)
@@ -47870,34 +47882,6 @@ endobj
 >>]
 >>
 endobj
-889 0 obj
-<< /Type /XObject
-/Subtype /Form
-/BBox [0 0 595.28 841.89]
-/Length 162
->>
-stream
-q
-/DeviceRGB cs
-0.0 0.0 0.0 scn
-/DeviceRGB CS
-0.0 0.0 0.0 SCN
-1 w
-0 J
-0 j
-[] 0 d
-q
-0.25 w
-/DeviceRGB CS
-0.8667 0.8667 0.8667 SCN
-48.24 30.0 m
-547.04 30.0 l
-S
-Q
-Q
-
-endstream
-endobj
 890 0 obj
 << /Type /XObject
 /Subtype /Form
@@ -47927,6 +47911,34 @@ Q
 endstream
 endobj
 891 0 obj
+<< /Type /XObject
+/Subtype /Form
+/BBox [0 0 595.28 841.89]
+/Length 162
+>>
+stream
+q
+/DeviceRGB cs
+0.0 0.0 0.0 scn
+/DeviceRGB CS
+0.0 0.0 0.0 SCN
+1 w
+0 J
+0 j
+[] 0 d
+q
+0.25 w
+/DeviceRGB CS
+0.8667 0.8667 0.8667 SCN
+48.24 30.0 m
+547.04 30.0 l
+S
+Q
+Q
+
+endstream
+endobj
+892 0 obj
 << /Length1 15740
 /Length 10156
 /Filter [/FlateDecode]
@@ -47986,10 +47998,10 @@ _'˘±’PÔÏlC◊Ã˙f˝Áv¨ch	3{&.nv¬F≠^xÍ‹¬?ÏSÖjˆ˜Ñ$æa\∂ú=©mµ7DËjËa?P‡üã—™4“û≈
 &–KÈ"ÿ∞|<å«˝∑i8–fS®Œ1}',p7T*¸QyŒÿ¨Ñﬂ&qsÊYôâêå©∫aOñg§√À=},$´!_Ù©ê’„fg¶=≥¨o˝•ñ‹ñºgœ0X±ëiÛæÑÏø9ìO´~lG˘®«Õ2VTÉÍ=≥ﬁÅ¡ê⁄ßÄU9H{UöPE∞ËaºÅ÷)AõŸøh]à®ÓÙ6v0çm´ºÖQ–ëñ•Û‹¬ÜÒ™"l¿=CBùêˆ*≤JÄ@◊@Ö©*ÖkH†BëÄq8*Î÷U•¥6Ë≈— #îM{ÓË8∂Ωå)èuΩÍ∫En|∂	|™ÎTöM‰c6–MG'Ü'Ñ¨ÍªHD†¿Ü#±zOfµJ{ô ”√”°äV/+´Œ"Qepˆâ⁄µsYkâ≤@MH›ãVô°£j©rCµ\˚F≥ÓñÓ˙≈nzV»4vÃ≤Ãô(C»•PÍ◊fv«Ò›Æ¸∞¬Ì†gô˙ÅY¶√[™‚¿∂{∑©ÓdÁJDç∏±≥ lÇ¿WuÜ¡˜∑ù©¿˜w¨Úæ$Aàæø”˚<Åâj_UœôLËÛæD√æ¬Q	ñ ŸÕ6XNÌ–r„U/U ¥ÉÎ•8◊Ó?áG.“0Í?GDhíE4*B´‡hÏ¨î<:ÜXÔ°X˚‹’3<ÎÎa})@h¯áCò)%0Âg0¡èâò@U(ñ©bÈ.ñÓä–˘,] ûÅÿl∫sV‚aæL6≥Ø⁄ÿ˜éÕº≥Hâfxgyo-II5†TÙ BürÔ2o\√≤H˝ˇ’G¯˝ÿÄﬁÇØæﬂˆ˘æ·˚◊|˛tõÎP¯f+¨%·‹z£∑ñòƒŒ[ü!&AcΩ∑õÄ‘üø%Œí,=˛Waç~xgâ$_¯ØoÅè¡Ÿ∑R˘≤5R…>G}L}M»>_∆WÒﬂ‰_"∂AAÅ¿^pûxú8¿˛jt€q>ı!ı)Q@àgâ◊6.¨„˝;Ô´π√˝H5ü
 endstream
 endobj
-892 0 obj
+893 0 obj
 << /Type /FontDescriptor
 /FontName /f8275d+NotoSerif-Bold
-/FontFile2 891 0 R
+/FontFile2 892 0 R
 /FontBBox [-212 -250 1306 1058]
 /Flags 6
 /StemV 0
@@ -48000,7 +48012,7 @@ endobj
 /XHeight 1098
 >>
 endobj
-893 0 obj
+894 0 obj
 << /Length 1286
 /Filter [/FlateDecode]
 >>
@@ -48010,10 +48022,10 @@ xúe◊Àn€FÜ·ΩÆBÀtHs&√@ënºËu{st‘í +ﬂ}˘Ω§i ∆/âúyæ_√!u¯ÙÙ””˘tﬂ~ª]ÍsøÔ«È‹n˝Ì
 ø‚ÌJº‚ÌJº‚Ìäπ‚Ì‚¨xªØxªØxáê+ﬁ!√äwπ‚BÆxábÆxáê+ﬁÅÔr≈;‡‡2‰ÕkÁŒúÒJºY≥eºYÜå7+|ú∆xãoSäå7+[∆õe»õ◊öyﬁ¢oV˚ÚÊµñ-„≠åã∑ÈÄ"ØÂ˛R¶Wç*ñ”4XqîÍCô^J˙[(£‡Æ^É1¬¬ª¢y]ï°»kπ}ºYM-x•˙Î»VÊzê∑Ã˛ [YE„VºY≥’Ÿ_}/7◊*ØY%´ÍØe„≠”´q+˝›:˜›.‚ø7ôJ„ã»€E°/â3Y(Yô*AàW	Rı›VJSÉ™Ç∂·:(u@c°D±]a*’Ìf)§9J≠ÒÊ)•o,#⁄\ÿZ>MçU°€\ÿjPS„{HS„ÁM™ïÙjªà∑í{fkîå∞yG·âm[z*EÔsaÎ›>ä&Ó”´”˙Ùj%uº‹Ó;•2^êù∆W√[’ﬂŒ¬ÆÚv˙[æœ˛2ÓÏØ≤u˙[ï¢≥Pö:ŸÁ¬VÃ°ß’Ö>ºMÜ¡Bi2.ƒ¶â«‹Ë‘á!Ø·Òd»kπ`Üºñ=oÃëqWﬁïwdJF(îL164ﬁU†—)ôx0E˙~ÍÒZ? æ=∂◊/∑€ˆƒŒØ’ıê~:˜o?$Æó´Œ“ˇøÁÜÛO
 endstream
 endobj
-894 0 obj
+895 0 obj
 [259 600 600 600 600 600 600 600 399 399 600 600 600 310 293 600 559 559 559 559 559 559 559 559 559 559 304 600 600 600 600 600 600 752 671 667 767 652 621 769 818 400 600 733 653 952 788 787 638 600 707 585 652 747 698 600 600 692 600 600 600 600 600 600 600 599 648 526 648 570 407 560 666 352 600 636 352 985 666 612 645 647 522 487 404 666 605 855 645 579 528 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600]
 endobj
-895 0 obj
+896 0 obj
 << /Length1 7116
 /Length 4858
 /Filter [/FlateDecode]
@@ -48040,10 +48052,10 @@ e¬ù>
 îtÔ¯—Y?¨¯A≥aêeûÛ®@˜aQkxÑ˙◊∂ ”i.f[Ãh•¨H‹v€§ıË◊¬à“∑ÇM=¬ºh‹•||»»µq£‹˚‹+‹‹o∏1›Êæ{ΩÛˆT!∑˛Aw ø·˛Å;Œ·9G8'∑ó€≈=,Ò≈p£É1èÍπø8¬Ìh'áπürΩÌµC#ü‡÷ªWLÂçìÎÁ∏«9,‹¿y8ﬁ´‹Wƒ5˚~ﬁ‹#æOÅ!n5‡7åö7®æı√È2XiÁ∫ÄK5◊À≠ì0»èz·XJQ!§VöÃÑJâôc∫'Ω	e_°8Ò¨Ω¥≈,ú®≥ﬁEàˇ\vKN1£ÁœΩs¯¡ìº5E¢]ﬁW1~∆˜j≠"œ´è$˙ö"Z7v¯ñEy›^_Dõá‡ídà MSd•Ài‹Ëã ∂"ñΩÂ>ˆÛ^kå)˘l`f#ãÚÚ#ƒ–‰ˆ÷∞>}~DfJa"∞u¯Ú#r%’≥˙≠ﬁSﬂÒ•ûw.ıø|©¨>ïÁç‘nÙ	>ã2,ÓÓÃè(Øf‡=∞;≥ßª;5ÇÄç“j¶ r<E‘*¶§ ?c`~B7πlòà,´Åe"ÚÏ∆ryßÉ”~ÜäSız_Í¥0sã3∫a¨(]bj¢8∆òﬂ	Í,20%ÑaÍÿZˇz∆À˙Do1›∂f¶ô∫ÈZ?;ÕL≥¬v,eq &ËGGêNÄ&^ÿ©|&EØOef¶¡@‘ “¥K≤È¥ÀÃHõ≥å∑©-U¡>Ô4(‘¿N≥Ãt√4Îß"	ÌÚ#â‘jê[E†ıò¶Î_øn°&îTc %¶wS≥5ÿieÑqyÀRﬂÄ≠·r`á”âõŒ%Bí_ä‹Ó•_∑óÌÈYg*tòuÇÂnÔiàÁ™~ÁiÃ`Ë"LdI0m~/ù!P∞|ÚÈ}Ïk∏¬D√KWO∂¸/y*I0
 endstream
 endobj
-896 0 obj
+897 0 obj
 << /Type /FontDescriptor
 /FontName /964711+mplus1mn-regular
-/FontFile2 895 0 R
+/FontFile2 896 0 R
 /FontBBox [0 -270 1000 1025]
 /Flags 4
 /StemV 0
@@ -48054,7 +48066,7 @@ endobj
 /XHeight 0
 >>
 endobj
-897 0 obj
+898 0 obj
 << /Length 1286
 /Filter [/FlateDecode]
 >>
@@ -48064,10 +48076,10 @@ xúe◊Àn€FÜ·ΩÆBÀtHs&√@ënºËu{st‘í +ﬂ}˘Ω§i ∆/âúyæ_√!u¯ÙÙ””˘tﬂ~ª]ÍsøÔ«È‹n˝Ì
 ø‚ÌJº‚ÌJº‚Ìäπ‚Ì‚¨xªØxªØxáê+ﬁ!√äwπ‚BÆxábÆxáê+ﬁÅÔr≈;‡‡2‰ÕkÁŒúÒJºY≥eºYÜå7+|ú∆xãoSäå7+[∆õe»õ◊öyﬁ¢oV˚ÚÊµñ-„≠åã∑ÈÄ"ØÂ˛R¶Wç*ñ”4XqîÍCô^J˙[(£‡Æ^É1¬¬ª¢y]ï°»kπ}ºYM-x•˙Î»VÊzê∑Ã˛ [YE„VºY≥’Ÿ_}/7◊*ØY%´ÍØe„≠”´q+˝›:˜›.‚ø7ôJ„ã»€E°/â3Y(Yô*AàW	Rı›VJSÉ™Ç∂·:(u@c°D±]a*’Ìf)§9J≠ÒÊ)•o,#⁄\ÿZ>MçU°€\ÿjPS„{HS„ÁM™ïÙjªà∑í{fkîå∞yG·âm[z*EÔsaÎ›>ä&Ó”´”˙Ùj%uº‹Ó;•2^êù∆W√[’ﬂŒ¬ÆÚv˙[æœ˛2ÓÏØ≤u˙[ï¢≥Pö:ŸÁ¬VÃ°ß’Ö>ºMÜ¡Bi2.ƒ¶â«‹Ë‘á!Ø·Òd»kπ`Üºñ=oÃëqWﬁïwdJF(îL164ﬁU†—)ôx0E˙~ÍÒZ? æ=∂◊/∑€ˆƒŒØ’ıê~:˜o?$Æó´Œ“ˇøÁÜÛO
 endstream
 endobj
-898 0 obj
+899 0 obj
 [500 364 500 364 364 364 364 364 364 364 364 500 364 500 500 500 500 500 500 500 500 500 500 500 500 364 500 364 500 500 500 364 364 500 500 364 364 500 500 364 500 500 500 364 364 364 500 500 364 364 500 500 364 500 364 500 364 500 500 364 364 364 364 364 364 500 500 500 500 500 500 500 500 500 500 500 500 500 500 500 500 500 500 500 500 500 500 500 364 500 500 364 364 364 364 364 364 364 364 364 364 364 364 364 364 364 364 364 364 364 364 364 364 364 364 364 364 364 364 364 364 364 364 364 364 364 364 364 364 364 364 364 364 364 364 364 364 364 364 364 364 364 364 364 364 364 364 364 364 364 364 364 364 364 364 364 364 364 364 364 364 364 364 364 364 364 364 364 364 364 364 364 364 364 364 364 364 364 364 364 364 364 364 364 364 364 364 364 364 364 364 364 364 364 364 364 364 364 364 364 364 364 364 364 364 364 364 364 364 364 364 364 364 364 364 364 364 364 364 364 364 364 364 364]
 endobj
-899 0 obj
+900 0 obj
 << /Length1 2300
 /Length 1067
 /Filter [/FlateDecode]
@@ -48080,10 +48092,10 @@ x$˚o
 ≤Ö“®9>qÄ˘Ó Ï 9~Äπö•-Yßá=Õ¶+Õu‹3£•’Mß©yñØÕäÊ;Nc±ÓÎ0G˜Ã2˜ßÈ-ˆhnìSèáÂÚä8C«4(ç¬1y@≠[\√ T!Èœ“±H:>Ë5ﬂwΩ…|æJAÑ∫Èÿº®|2È—ôÚÙUEåmÁ◊π˚)W¥ªÀŸm)=˚U?Øê¯ª}¸¬˘ˇº˚ˆªùØ>Äé‡ë\ø˙uV»\˚^˚+È˛@PŸ|Cˇ¿√mª
 endstream
 endobj
-900 0 obj
+901 0 obj
 << /Type /FontDescriptor
 /FontName /041c68+FontAwesome5Free-Solid
-/FontFile2 899 0 R
+/FontFile2 900 0 R
 /FontBBox [-39 -148 1291 900]
 /Flags 4
 /StemV 0
@@ -48094,7 +48106,7 @@ endobj
 /XHeight 314
 >>
 endobj
-901 0 obj
+902 0 obj
 << /Length 237
 /Filter [/FlateDecode]
 >>
@@ -48102,10 +48114,10 @@ stream
 xú]ê±nƒ Üwû¬„›pÇ§ÌE™ÆKÜ^´¶} &Ej 9d»€◊pß´‘Î∑ÏÔ◊èÂyxÇœ ﬂ)ö38,·72Œ>à¶ÎMæuµöE'!˜5„2°ÎÑ¸‡·öiá√≥çÖ|#ã‰√áØÛ»˝∏•ÙÉÜJÙ=XtlÙ™”E/≤bß¡Ú‹Á˝ƒÃﬂ∆Áû⁄⁄7◊0&Z\ì6H:Ã(:•˙Œπ^`∞ˇFèW`rÊ[ìËZ^Tä+ÀÜı§ãlãT¶»á*mı∫Q≈µ¸˚û÷lD¥ß&,Ÿ|¿˚˝RLÖ*Ô°9ut
 endstream
 endobj
-902 0 obj
+903 0 obj
 [1000 1000 1000 687 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000]
 endobj
-903 0 obj
+904 0 obj
 << /Length1 17104
 /Length 10668
 /Filter [/FlateDecode]
@@ -48146,10 +48158,10 @@ ICH∑nZ[Âv∑∂uWU*5ö}Fù;î´™PÖ¿“-ÆpKñÏ8Åéé±3ﬁXºˇr8HÊÜ}›n⁄œ.“UããG‹≤tw*WÈN›
 TäP	ëXR ú⁄° ⁄+_∂"tP®eÇPÇúM†I}4åÜ.SZ∏èFçÒ–¨ç¸@K±c cıUÏ0—œ]=cã=ƒ∆Q4H˛±sêgπà)q∞;êsñªÉ∏rB/%ÙR]LË∞çı{√´∏?«Í…ˆŸilv÷ÁEóDW◊oN2ıHéDhÂ∫∞áπzÊÂ¸¶õôˇ€ü‘wÛCÙ#Xµ}"‹€!oüG˜˜ÀËC¯€	‰˜6˙5˙âP?Öé†◊	áCÜ;˛ø∑—{ê©˚xÌDÁæ¢˚~»È/†w–ÔÒ´¥a†-†√Ë8ÆEÀ|e·K0Ö9t\Ë-ö™ Ô†ê~#+äºbX ^‰|ÕØ‚»ìøF˛ß—ÇóvbZ"pkÄ5∆i@@~”∞:l›¿ÙuÙ$⁄èv¿ä∞ÿK)]Z˙äZπâ^@œ†À^j;:‰Ω{ΩMØXANÔ	◊.¥ï\ƒr˛⁄éˆSgô/DàíSR±\%˛ë¯}j?Âíà%ï`W®g©3‰Mé¬ï∏ä˘àπNÂP©‘3‘Âïù+É¢ﬂä>ˇˇ˙Â
 endstream
 endobj
-904 0 obj
+905 0 obj
 << /Type /FontDescriptor
 /FontName /c431c0+NotoSerif
-/FontFile2 903 0 R
+/FontFile2 904 0 R
 /FontBBox [-212 -250 1246 1047]
 /Flags 6
 /StemV 0
@@ -48160,7 +48172,7 @@ endobj
 /XHeight 1098
 >>
 endobj
-905 0 obj
+906 0 obj
 << /Length 1286
 /Filter [/FlateDecode]
 >>
@@ -48170,10 +48182,10 @@ xúe◊Àn€FÜ·ΩÆBÀtHs&√@ënºËu{st‘í +ﬂ}˘Ω§i ∆/âúyæ_√!u¯ÙÙ””˘tﬂ~ª]ÍsøÔ«È‹n˝Ì
 ø‚ÌJº‚ÌJº‚Ìäπ‚Ì‚¨xªØxªØxáê+ﬁ!√äwπ‚BÆxábÆxáê+ﬁÅÔr≈;‡‡2‰ÕkÁŒúÒJºY≥eºYÜå7+|ú∆xãoSäå7+[∆õe»õ◊öyﬁ¢oV˚ÚÊµñ-„≠åã∑ÈÄ"ØÂ˛R¶Wç*ñ”4XqîÍCô^J˙[(£‡Æ^É1¬¬ª¢y]ï°»kπ}ºYM-x•˙Î»VÊzê∑Ã˛ [YE„VºY≥’Ÿ_}/7◊*ØY%´ÍØe„≠”´q+˝›:˜›.‚ø7ôJ„ã»€E°/â3Y(Yô*AàW	Rı›VJSÉ™Ç∂·:(u@c°D±]a*’Ìf)§9J≠ÒÊ)•o,#⁄\ÿZ>MçU°€\ÿjPS„{HS„ÁM™ïÙjªà∑í{fkîå∞yG·âm[z*EÔsaÎ›>ä&Ó”´”˙Ùj%uº‹Ó;•2^êù∆W√[’ﬂŒ¬ÆÚv˙[æœ˛2ÓÏØ≤u˙[ï¢≥Pö:ŸÁ¬VÃ°ß’Ö>ºMÜ¡Bi2.ƒ¶â«‹Ë‘á!Ø·Òd»kπ`Üºñ=oÃëqWﬁïwdJF(îL164ﬁU†—)ôx0E˙~ÍÒZ? æ=∂◊/∑€ˆƒŒØ’ıê~:˜o?$Æó´Œ“ˇøÁÜÛO
 endstream
 endobj
-906 0 obj
+907 0 obj
 [259 500 500 500 500 895 500 500 346 346 500 500 250 310 250 288 559 559 559 559 559 559 559 559 559 559 286 500 500 500 500 500 500 705 653 613 727 623 589 713 792 367 500 700 623 937 763 742 604 500 655 543 612 716 674 1046 500 625 500 359 500 359 500 500 500 562 613 492 613 535 369 538 634 319 299 584 310 944 645 577 613 613 471 451 352 634 579 861 578 564 511 500 500 500 500 500 500 500 500 500 500 500 500 500 500 500 500 500 500 500 500 500 500 500 500 500 500 500 500 500 500 500 500 500 500 500 500 500 500 500 500 500 500 361 500 500 500 500 500 500 500 500 500 500 500 559 500 500 500 500 500 500 500 500 500 500 500 500 500 500 500 500 500 500 500 500 500 500 500 500 259 500 500 500 500 500 500 500 450 450 500 250 500 500 500 500 500 500 500 500 500 500 500 500 500 500 500 500 500 500 500 500 500 500 500 500 500 500 500 500 500 500 500 500 500 500 500 500 500 500 500 500 500 500]
 endobj
-907 0 obj
+908 0 obj
 << /Length1 10492
 /Length 6727
 /Filter [/FlateDecode]
@@ -48211,10 +48223,10 @@ A-F\”Ñ>M?€XKiy– ‚lÂEE∏Vç^ ôBñÙ©)q-Ù˙Bí¢4¸lÿ>f¡‹ ˇ[·é|Ít±$%˙j(ÈB‰:‰
 ˝Nªà“.GªæC|=úmˆ†w—ÁxÀŒ	∏‡ﬁèK–ß≤%éG;Ëh"Ââ‡[Œmìè‡EûÏ®â›Ã!TÕ>£0∫é¿>E˛é[vÏ ßá´æ_Uﬁ∆ÙuÙ<Zãñçñ¶xÌ∆(:¯7¥ÌECﬂ≤Ë=|ùß£√Ë}€¡JD‚-]ëp◊£cî De∫ÚàÚ=f5”¶ö´*UºÆxã`vQüF„|lÊŒpü1YL23Ä¢ÇÀÉó$ù‚≈◊˝+Og
 endstream
 endobj
-908 0 obj
+909 0 obj
 << /Type /FontDescriptor
 /FontName /99f3ff+NotoSerif-Italic
-/FontFile2 907 0 R
+/FontFile2 908 0 R
 /FontBBox [-254 -250 1238 1047]
 /Flags 70
 /StemV 0
@@ -48225,7 +48237,7 @@ endobj
 /XHeight 1098
 >>
 endobj
-909 0 obj
+910 0 obj
 << /Length 1286
 /Filter [/FlateDecode]
 >>
@@ -48235,11 +48247,11 @@ xúe◊Àn€FÜ·ΩÆBÀtHs&√@ënºËu{st‘í +ﬂ}˘Ω§i ∆/âúyæ_√!u¯ÙÙ””˘tﬂ~ª]ÍsøÔ«È‹n˝Ì
 ø‚ÌJº‚ÌJº‚Ìäπ‚Ì‚¨xªØxªØxáê+ﬁ!√äwπ‚BÆxábÆxáê+ﬁÅÔr≈;‡‡2‰ÕkÁŒúÒJºY≥eºYÜå7+|ú∆xãoSäå7+[∆õe»õ◊öyﬁ¢oV˚ÚÊµñ-„≠åã∑ÈÄ"ØÂ˛R¶Wç*ñ”4XqîÍCô^J˙[(£‡Æ^É1¬¬ª¢y]ï°»kπ}ºYM-x•˙Î»VÊzê∑Ã˛ [YE„VºY≥’Ÿ_}/7◊*ØY%´ÍØe„≠”´q+˝›:˜›.‚ø7ôJ„ã»€E°/â3Y(Yô*AàW	Rı›VJSÉ™Ç∂·:(u@c°D±]a*’Ìf)§9J≠ÒÊ)•o,#⁄\ÿZ>MçU°€\ÿjPS„{HS„ÁM™ïÙjªà∑í{fkîå∞yG·âm[z*EÔsaÎ›>ä&Ó”´”˙Ùj%uº‹Ó;•2^êù∆W√[’ﬂŒ¬ÆÚv˙[æœ˛2ÓÏØ≤u˙[ï¢≥Pö:ŸÁ¬VÃ°ß’Ö>ºMÜ¡Bi2.ƒ¶â«‹Ë‘á!Ø·Òd»kπ`Üºñ=oÃëqWﬁïwdJF(îL164ﬁU†—)ôx0E˙~ÍÒZ? æ=∂◊/∑€ˆƒŒØ’ıê~:˜o?$Æó´Œ“ˇøÁÜÛO
 endstream
 endobj
-910 0 obj
+911 0 obj
 [259 600 600 600 600 600 600 600 600 600 600 600 600 600 250 600 600 559 559 559 559 559 559 600 600 600 600 600 600 600 600 600 600 705 653 626 725 600 589 600 600 600 600 600 600 600 600 600 620 600 600 543 612 729 674 600 600 600 600 600 600 600 600 600 600 579 600 486 579 493 317 556 599 304 600 568 304 895 599 574 600 600 467 463 368 599 538 600 600 527 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600]
 endobj
 xref
-0 911
+0 912
 0000000000 65535 f 
 0000000015 00000 n 
 0000000258 00000 n 
@@ -48638,524 +48650,525 @@ xref
 0000434549 00000 n 
 0000434693 00000 n 
 0000434837 00000 n 
-0000450748 00000 n 
-0000451336 00000 n 
-0000451382 00000 n 
-0000451515 00000 n 
-0000451645 00000 n 
-0000451776 00000 n 
-0000451822 00000 n 
-0000451868 00000 n 
-0000452002 00000 n 
-0000452127 00000 n 
-0000452258 00000 n 
-0000452387 00000 n 
-0000452521 00000 n 
-0000452650 00000 n 
-0000452790 00000 n 
-0000452924 00000 n 
-0000453056 00000 n 
-0000453183 00000 n 
-0000453317 00000 n 
-0000453445 00000 n 
-0000453584 00000 n 
-0000453711 00000 n 
-0000453843 00000 n 
-0000453889 00000 n 
-0000454029 00000 n 
-0000454154 00000 n 
-0000454286 00000 n 
-0000454421 00000 n 
-0000454548 00000 n 
-0000454672 00000 n 
-0000454811 00000 n 
-0000454857 00000 n 
-0000454984 00000 n 
-0000468665 00000 n 
-0000469200 00000 n 
-0000469340 00000 n 
-0000469495 00000 n 
-0000469650 00000 n 
-0000469696 00000 n 
-0000469828 00000 n 
-0000469874 00000 n 
-0000469920 00000 n 
-0000470052 00000 n 
-0000470184 00000 n 
-0000470323 00000 n 
-0000470451 00000 n 
-0000470579 00000 n 
-0000470702 00000 n 
-0000470748 00000 n 
-0000470888 00000 n 
-0000471015 00000 n 
-0000471139 00000 n 
-0000471279 00000 n 
-0000471434 00000 n 
-0000471480 00000 n 
-0000471600 00000 n 
-0000471733 00000 n 
-0000471868 00000 n 
-0000472002 00000 n 
-0000472131 00000 n 
-0000472177 00000 n 
-0000472303 00000 n 
-0000481647 00000 n 
-0000482046 00000 n 
-0000482169 00000 n 
-0000482215 00000 n 
-0000482261 00000 n 
-0000482307 00000 n 
-0000482353 00000 n 
-0000482485 00000 n 
+0000450800 00000 n 
+0000451388 00000 n 
+0000451434 00000 n 
+0000451567 00000 n 
+0000451697 00000 n 
+0000451828 00000 n 
+0000451874 00000 n 
+0000451920 00000 n 
+0000452054 00000 n 
+0000452179 00000 n 
+0000452310 00000 n 
+0000452439 00000 n 
+0000452573 00000 n 
+0000452702 00000 n 
+0000452842 00000 n 
+0000452976 00000 n 
+0000453108 00000 n 
+0000453235 00000 n 
+0000453369 00000 n 
+0000453497 00000 n 
+0000453636 00000 n 
+0000453763 00000 n 
+0000453895 00000 n 
+0000453941 00000 n 
+0000454081 00000 n 
+0000454206 00000 n 
+0000454338 00000 n 
+0000454473 00000 n 
+0000454600 00000 n 
+0000454724 00000 n 
+0000454863 00000 n 
+0000454909 00000 n 
+0000455036 00000 n 
+0000468494 00000 n 
+0000469037 00000 n 
+0000469177 00000 n 
+0000469332 00000 n 
+0000469487 00000 n 
+0000469533 00000 n 
+0000469665 00000 n 
+0000469711 00000 n 
+0000469757 00000 n 
+0000469889 00000 n 
+0000470018 00000 n 
+0000470156 00000 n 
+0000470292 00000 n 
+0000470420 00000 n 
+0000470547 00000 n 
+0000470669 00000 n 
+0000470715 00000 n 
+0000470855 00000 n 
+0000470982 00000 n 
+0000471106 00000 n 
+0000471245 00000 n 
+0000471399 00000 n 
+0000471445 00000 n 
+0000471565 00000 n 
+0000471698 00000 n 
+0000471833 00000 n 
+0000471967 00000 n 
+0000472096 00000 n 
+0000472142 00000 n 
+0000472269 00000 n 
+0000481917 00000 n 
+0000482316 00000 n 
+0000482440 00000 n 
+0000482486 00000 n 
 0000482531 00000 n 
-0000482652 00000 n 
-0000482782 00000 n 
-0000496231 00000 n 
-0000496766 00000 n 
-0000496900 00000 n 
-0000496946 00000 n 
-0000497071 00000 n 
-0000497202 00000 n 
-0000497331 00000 n 
-0000497465 00000 n 
-0000497585 00000 n 
-0000497720 00000 n 
-0000497847 00000 n 
-0000497967 00000 n 
-0000498013 00000 n 
-0000498134 00000 n 
-0000498261 00000 n 
-0000498392 00000 n 
-0000498521 00000 n 
-0000498567 00000 n 
-0000498613 00000 n 
-0000498741 00000 n 
-0000498866 00000 n 
-0000498995 00000 n 
-0000499126 00000 n 
-0000499254 00000 n 
-0000499377 00000 n 
-0000499510 00000 n 
-0000499645 00000 n 
-0000499691 00000 n 
-0000512289 00000 n 
-0000512813 00000 n 
-0000512859 00000 n 
-0000512905 00000 n 
-0000513343 00000 n 
-0000513466 00000 n 
-0000513596 00000 n 
-0000513720 00000 n 
-0000513852 00000 n 
-0000513974 00000 n 
-0000514020 00000 n 
-0000514141 00000 n 
-0000514275 00000 n 
-0000514405 00000 n 
-0000514527 00000 n 
-0000514655 00000 n 
-0000514790 00000 n 
-0000514913 00000 n 
-0000515045 00000 n 
-0000515180 00000 n 
-0000515226 00000 n 
-0000515341 00000 n 
-0000515465 00000 n 
-0000515628 00000 n 
-0000515675 00000 n 
-0000515805 00000 n 
-0000531453 00000 n 
-0000532004 00000 n 
-0000532133 00000 n 
-0000532257 00000 n 
-0000532387 00000 n 
-0000532521 00000 n 
-0000532649 00000 n 
-0000532776 00000 n 
-0000532903 00000 n 
-0000533026 00000 n 
-0000533150 00000 n 
-0000533289 00000 n 
-0000533427 00000 n 
-0000533565 00000 n 
-0000533686 00000 n 
-0000533817 00000 n 
-0000533960 00000 n 
-0000534090 00000 n 
-0000534224 00000 n 
-0000534357 00000 n 
-0000534486 00000 n 
-0000534613 00000 n 
-0000534747 00000 n 
-0000534869 00000 n 
-0000534916 00000 n 
-0000535045 00000 n 
-0000546420 00000 n 
-0000546856 00000 n 
-0000546988 00000 n 
-0000547117 00000 n 
-0000547251 00000 n 
-0000547376 00000 n 
-0000547505 00000 n 
-0000547552 00000 n 
-0000547940 00000 n 
-0000548067 00000 n 
-0000548204 00000 n 
-0000548251 00000 n 
-0000572446 00000 n 
-0000573021 00000 n 
-0000573067 00000 n 
-0000573113 00000 n 
-0000573246 00000 n 
-0000573380 00000 n 
-0000573508 00000 n 
-0000573631 00000 n 
-0000573763 00000 n 
-0000573897 00000 n 
-0000574025 00000 n 
-0000574150 00000 n 
-0000574196 00000 n 
-0000574613 00000 n 
-0000574746 00000 n 
-0000574792 00000 n 
-0000574926 00000 n 
-0000575047 00000 n 
-0000575176 00000 n 
-0000575295 00000 n 
-0000575425 00000 n 
-0000575546 00000 n 
-0000575670 00000 n 
-0000575796 00000 n 
-0000575934 00000 n 
-0000576053 00000 n 
-0000576181 00000 n 
-0000576304 00000 n 
-0000576431 00000 n 
-0000576555 00000 n 
-0000576679 00000 n 
-0000576814 00000 n 
-0000576937 00000 n 
-0000621058 00000 n 
-0000621969 00000 n 
-0000622097 00000 n 
-0000622227 00000 n 
-0000622346 00000 n 
-0000622480 00000 n 
-0000622612 00000 n 
-0000622740 00000 n 
-0000622870 00000 n 
-0000622989 00000 n 
-0000623117 00000 n 
-0000623247 00000 n 
-0000623383 00000 n 
-0000623504 00000 n 
-0000623642 00000 n 
-0000623761 00000 n 
-0000623895 00000 n 
-0000624028 00000 n 
-0000624148 00000 n 
-0000624285 00000 n 
-0000624403 00000 n 
-0000624534 00000 n 
-0000624664 00000 n 
-0000624788 00000 n 
-0000624926 00000 n 
-0000625045 00000 n 
-0000625177 00000 n 
-0000625308 00000 n 
-0000625436 00000 n 
-0000625573 00000 n 
-0000625691 00000 n 
-0000625814 00000 n 
-0000625866 00000 n 
-0000625999 00000 n 
-0000626137 00000 n 
-0000626256 00000 n 
-0000626388 00000 n 
-0000626519 00000 n 
-0000626642 00000 n 
-0000626771 00000 n 
-0000626912 00000 n 
-0000627049 00000 n 
-0000627167 00000 n 
-0000627300 00000 n 
-0000627433 00000 n 
-0000627562 00000 n 
-0000627700 00000 n 
-0000627819 00000 n 
-0000627953 00000 n 
-0000628086 00000 n 
-0000628211 00000 n 
-0000628348 00000 n 
-0000628466 00000 n 
-0000628599 00000 n 
-0000628731 00000 n 
-0000628869 00000 n 
-0000629006 00000 n 
-0000629144 00000 n 
-0000629263 00000 n 
-0000629397 00000 n 
-0000629530 00000 n 
-0000629691 00000 n 
-0000629851 00000 n 
-0000630009 00000 n 
-0000630147 00000 n 
+0000482576 00000 n 
+0000482622 00000 n 
+0000482755 00000 n 
+0000482801 00000 n 
+0000482922 00000 n 
+0000483051 00000 n 
+0000496500 00000 n 
+0000497035 00000 n 
+0000497169 00000 n 
+0000497215 00000 n 
+0000497340 00000 n 
+0000497471 00000 n 
+0000497600 00000 n 
+0000497734 00000 n 
+0000497854 00000 n 
+0000497989 00000 n 
+0000498116 00000 n 
+0000498236 00000 n 
+0000498282 00000 n 
+0000498403 00000 n 
+0000498530 00000 n 
+0000498661 00000 n 
+0000498790 00000 n 
+0000498836 00000 n 
+0000498882 00000 n 
+0000499010 00000 n 
+0000499135 00000 n 
+0000499264 00000 n 
+0000499395 00000 n 
+0000499523 00000 n 
+0000499646 00000 n 
+0000499779 00000 n 
+0000499914 00000 n 
+0000499960 00000 n 
+0000512558 00000 n 
+0000513082 00000 n 
+0000513128 00000 n 
+0000513174 00000 n 
+0000513612 00000 n 
+0000513735 00000 n 
+0000513865 00000 n 
+0000513989 00000 n 
+0000514121 00000 n 
+0000514243 00000 n 
+0000514289 00000 n 
+0000514410 00000 n 
+0000514544 00000 n 
+0000514674 00000 n 
+0000514796 00000 n 
+0000514924 00000 n 
+0000515059 00000 n 
+0000515182 00000 n 
+0000515314 00000 n 
+0000515449 00000 n 
+0000515495 00000 n 
+0000515610 00000 n 
+0000515734 00000 n 
+0000515897 00000 n 
+0000515944 00000 n 
+0000516074 00000 n 
+0000531722 00000 n 
+0000532273 00000 n 
+0000532402 00000 n 
+0000532526 00000 n 
+0000532656 00000 n 
+0000532790 00000 n 
+0000532918 00000 n 
+0000533045 00000 n 
+0000533172 00000 n 
+0000533295 00000 n 
+0000533419 00000 n 
+0000533558 00000 n 
+0000533696 00000 n 
+0000533834 00000 n 
+0000533955 00000 n 
+0000534086 00000 n 
+0000534229 00000 n 
+0000534359 00000 n 
+0000534493 00000 n 
+0000534626 00000 n 
+0000534755 00000 n 
+0000534882 00000 n 
+0000535016 00000 n 
+0000535138 00000 n 
+0000535185 00000 n 
+0000535314 00000 n 
+0000546689 00000 n 
+0000547125 00000 n 
+0000547257 00000 n 
+0000547386 00000 n 
+0000547520 00000 n 
+0000547645 00000 n 
+0000547774 00000 n 
+0000547821 00000 n 
+0000548209 00000 n 
+0000548336 00000 n 
+0000548473 00000 n 
+0000548520 00000 n 
+0000572715 00000 n 
+0000573290 00000 n 
+0000573336 00000 n 
+0000573382 00000 n 
+0000573515 00000 n 
+0000573649 00000 n 
+0000573777 00000 n 
+0000573900 00000 n 
+0000574032 00000 n 
+0000574166 00000 n 
+0000574294 00000 n 
+0000574419 00000 n 
+0000574465 00000 n 
+0000574882 00000 n 
+0000575015 00000 n 
+0000575061 00000 n 
+0000575195 00000 n 
+0000575316 00000 n 
+0000575445 00000 n 
+0000575564 00000 n 
+0000575694 00000 n 
+0000575815 00000 n 
+0000575939 00000 n 
+0000576065 00000 n 
+0000576203 00000 n 
+0000576322 00000 n 
+0000576450 00000 n 
+0000576573 00000 n 
+0000576700 00000 n 
+0000576824 00000 n 
+0000576948 00000 n 
+0000577083 00000 n 
+0000577206 00000 n 
+0000621327 00000 n 
+0000622238 00000 n 
+0000622366 00000 n 
+0000622496 00000 n 
+0000622615 00000 n 
+0000622749 00000 n 
+0000622881 00000 n 
+0000623009 00000 n 
+0000623139 00000 n 
+0000623258 00000 n 
+0000623386 00000 n 
+0000623516 00000 n 
+0000623652 00000 n 
+0000623773 00000 n 
+0000623911 00000 n 
+0000624030 00000 n 
+0000624164 00000 n 
+0000624297 00000 n 
+0000624417 00000 n 
+0000624554 00000 n 
+0000624672 00000 n 
+0000624803 00000 n 
+0000624933 00000 n 
+0000625057 00000 n 
+0000625195 00000 n 
+0000625314 00000 n 
+0000625446 00000 n 
+0000625577 00000 n 
+0000625705 00000 n 
+0000625842 00000 n 
+0000625960 00000 n 
+0000626083 00000 n 
+0000626135 00000 n 
+0000626268 00000 n 
+0000626406 00000 n 
+0000626525 00000 n 
+0000626657 00000 n 
+0000626788 00000 n 
+0000626911 00000 n 
+0000627040 00000 n 
+0000627181 00000 n 
+0000627318 00000 n 
+0000627436 00000 n 
+0000627569 00000 n 
+0000627702 00000 n 
+0000627831 00000 n 
+0000627969 00000 n 
+0000628088 00000 n 
+0000628222 00000 n 
+0000628355 00000 n 
+0000628480 00000 n 
+0000628617 00000 n 
+0000628735 00000 n 
+0000628868 00000 n 
+0000629000 00000 n 
+0000629138 00000 n 
+0000629275 00000 n 
+0000629413 00000 n 
+0000629532 00000 n 
+0000629666 00000 n 
+0000629799 00000 n 
+0000629960 00000 n 
+0000630120 00000 n 
 0000630278 00000 n 
-0000630409 00000 n 
-0000630545 00000 n 
-0000630662 00000 n 
-0000630794 00000 n 
-0000630925 00000 n 
-0000673595 00000 n 
-0000674546 00000 n 
-0000674670 00000 n 
-0000674808 00000 n 
-0000674927 00000 n 
-0000675061 00000 n 
-0000675193 00000 n 
-0000675315 00000 n 
-0000675436 00000 n 
-0000675557 00000 n 
-0000675695 00000 n 
-0000675821 00000 n 
-0000675981 00000 n 
-0000676141 00000 n 
-0000676301 00000 n 
-0000676438 00000 n 
-0000676556 00000 n 
-0000676689 00000 n 
-0000676821 00000 n 
-0000676975 00000 n 
-0000677128 00000 n 
-0000677266 00000 n 
-0000677385 00000 n 
-0000677517 00000 n 
-0000677648 00000 n 
-0000677788 00000 n 
-0000677927 00000 n 
-0000678056 00000 n 
-0000678174 00000 n 
-0000678305 00000 n 
-0000678435 00000 n 
-0000678556 00000 n 
-0000678675 00000 n 
-0000678807 00000 n 
-0000678938 00000 n 
-0000679059 00000 n 
-0000679190 00000 n 
-0000679310 00000 n 
-0000679429 00000 n 
-0000679547 00000 n 
-0000679678 00000 n 
-0000679809 00000 n 
-0000679934 00000 n 
-0000680072 00000 n 
-0000680191 00000 n 
-0000680323 00000 n 
-0000680454 00000 n 
-0000680597 00000 n 
-0000680739 00000 n 
-0000680857 00000 n 
-0000680988 00000 n 
-0000681118 00000 n 
-0000681247 00000 n 
-0000681367 00000 n 
-0000681486 00000 n 
-0000681618 00000 n 
-0000681749 00000 n 
-0000681889 00000 n 
-0000682027 00000 n 
-0000682165 00000 n 
-0000682284 00000 n 
-0000682416 00000 n 
-0000682546 00000 n 
-0000682676 00000 n 
-0000682813 00000 n 
-0000682931 00000 n 
-0000683062 00000 n 
-0000683193 00000 n 
-0000683320 00000 n 
-0000683451 00000 n 
+0000630416 00000 n 
+0000630547 00000 n 
+0000630678 00000 n 
+0000630814 00000 n 
+0000630931 00000 n 
+0000631063 00000 n 
+0000631194 00000 n 
+0000673864 00000 n 
+0000674815 00000 n 
+0000674939 00000 n 
+0000675077 00000 n 
+0000675196 00000 n 
+0000675330 00000 n 
+0000675462 00000 n 
+0000675584 00000 n 
+0000675705 00000 n 
+0000675826 00000 n 
+0000675964 00000 n 
+0000676090 00000 n 
+0000676250 00000 n 
+0000676410 00000 n 
+0000676570 00000 n 
+0000676707 00000 n 
+0000676825 00000 n 
+0000676958 00000 n 
+0000677090 00000 n 
+0000677244 00000 n 
+0000677397 00000 n 
+0000677535 00000 n 
+0000677654 00000 n 
+0000677786 00000 n 
+0000677917 00000 n 
+0000678057 00000 n 
+0000678196 00000 n 
+0000678325 00000 n 
+0000678443 00000 n 
+0000678574 00000 n 
+0000678704 00000 n 
+0000678825 00000 n 
+0000678944 00000 n 
+0000679076 00000 n 
+0000679207 00000 n 
+0000679328 00000 n 
+0000679459 00000 n 
+0000679579 00000 n 
+0000679698 00000 n 
+0000679816 00000 n 
+0000679947 00000 n 
+0000680078 00000 n 
+0000680203 00000 n 
+0000680341 00000 n 
+0000680460 00000 n 
+0000680592 00000 n 
+0000680723 00000 n 
+0000680866 00000 n 
+0000681008 00000 n 
+0000681126 00000 n 
+0000681257 00000 n 
+0000681387 00000 n 
+0000681516 00000 n 
+0000681636 00000 n 
+0000681755 00000 n 
+0000681887 00000 n 
+0000682018 00000 n 
+0000682158 00000 n 
+0000682296 00000 n 
+0000682434 00000 n 
+0000682553 00000 n 
+0000682685 00000 n 
+0000682815 00000 n 
+0000682945 00000 n 
+0000683082 00000 n 
+0000683200 00000 n 
+0000683331 00000 n 
+0000683462 00000 n 
 0000683589 00000 n 
-0000683708 00000 n 
-0000683837 00000 n 
-0000683959 00000 n 
-0000684094 00000 n 
-0000699795 00000 n 
-0000700322 00000 n 
-0000700441 00000 n 
-0000700569 00000 n 
-0000700691 00000 n 
-0000700817 00000 n 
-0000700945 00000 n 
-0000701075 00000 n 
-0000701209 00000 n 
-0000701339 00000 n 
-0000701456 00000 n 
-0000701575 00000 n 
-0000701621 00000 n 
-0000701744 00000 n 
-0000701867 00000 n 
-0000701993 00000 n 
-0000702115 00000 n 
-0000702239 00000 n 
-0000702372 00000 n 
-0000702502 00000 n 
-0000702643 00000 n 
-0000702776 00000 n 
-0000702828 00000 n 
-0000702958 00000 n 
-0000703087 00000 n 
-0000703217 00000 n 
-0000703341 00000 n 
-0000703466 00000 n 
-0000703588 00000 n 
-0000703712 00000 n 
-0000703845 00000 n 
-0000703979 00000 n 
-0000704104 00000 n 
-0000704230 00000 n 
-0000704346 00000 n 
-0000704465 00000 n 
-0000704593 00000 n 
-0000704723 00000 n 
-0000704856 00000 n 
-0000704990 00000 n 
-0000705109 00000 n 
-0000705230 00000 n 
-0000705360 00000 n 
-0000705491 00000 n 
-0000705638 00000 n 
-0000705786 00000 n 
-0000705914 00000 n 
-0000706042 00000 n 
-0000706170 00000 n 
-0000706299 00000 n 
-0000706432 00000 n 
-0000706565 00000 n 
-0000706696 00000 n 
-0000706827 00000 n 
-0000706952 00000 n 
-0000707077 00000 n 
-0000707207 00000 n 
-0000707337 00000 n 
-0000707467 00000 n 
-0000707598 00000 n 
-0000707725 00000 n 
-0000707853 00000 n 
-0000707984 00000 n 
-0000708115 00000 n 
-0000708238 00000 n 
-0000708361 00000 n 
-0000708495 00000 n 
+0000683720 00000 n 
+0000683858 00000 n 
+0000683977 00000 n 
+0000684106 00000 n 
+0000684228 00000 n 
+0000684363 00000 n 
+0000700064 00000 n 
+0000700591 00000 n 
+0000700710 00000 n 
+0000700838 00000 n 
+0000700960 00000 n 
+0000701086 00000 n 
+0000701214 00000 n 
+0000701344 00000 n 
+0000701478 00000 n 
+0000701608 00000 n 
+0000701725 00000 n 
+0000701844 00000 n 
+0000701890 00000 n 
+0000702013 00000 n 
+0000702136 00000 n 
+0000702262 00000 n 
+0000702384 00000 n 
+0000702508 00000 n 
+0000702641 00000 n 
+0000702771 00000 n 
+0000702912 00000 n 
+0000703045 00000 n 
+0000703097 00000 n 
+0000703227 00000 n 
+0000703356 00000 n 
+0000703486 00000 n 
+0000703610 00000 n 
+0000703735 00000 n 
+0000703857 00000 n 
+0000703981 00000 n 
+0000704114 00000 n 
+0000704248 00000 n 
+0000704373 00000 n 
+0000704499 00000 n 
+0000704615 00000 n 
+0000704734 00000 n 
+0000704862 00000 n 
+0000704992 00000 n 
+0000705125 00000 n 
+0000705259 00000 n 
+0000705378 00000 n 
+0000705499 00000 n 
+0000705629 00000 n 
+0000705760 00000 n 
+0000705907 00000 n 
+0000706055 00000 n 
+0000706183 00000 n 
+0000706311 00000 n 
+0000706439 00000 n 
+0000706568 00000 n 
+0000706701 00000 n 
+0000706834 00000 n 
+0000706965 00000 n 
+0000707096 00000 n 
+0000707221 00000 n 
+0000707346 00000 n 
+0000707476 00000 n 
+0000707606 00000 n 
+0000707736 00000 n 
+0000707867 00000 n 
+0000707994 00000 n 
+0000708122 00000 n 
+0000708253 00000 n 
+0000708384 00000 n 
+0000708507 00000 n 
 0000708630 00000 n 
-0000708763 00000 n 
-0000708896 00000 n 
-0000709027 00000 n 
-0000709159 00000 n 
-0000709286 00000 n 
-0000709413 00000 n 
-0000709535 00000 n 
-0000709657 00000 n 
-0000709784 00000 n 
-0000709912 00000 n 
-0000710031 00000 n 
-0000710150 00000 n 
-0000710283 00000 n 
-0000710416 00000 n 
-0000710551 00000 n 
-0000710686 00000 n 
-0000710814 00000 n 
-0000710942 00000 n 
-0000711072 00000 n 
-0000711203 00000 n 
-0000711323 00000 n 
-0000711444 00000 n 
-0000711569 00000 n 
-0000711695 00000 n 
-0000711839 00000 n 
-0000711984 00000 n 
-0000712109 00000 n 
-0000712234 00000 n 
-0000712371 00000 n 
-0000712508 00000 n 
-0000712638 00000 n 
-0000712769 00000 n 
-0000712899 00000 n 
-0000713029 00000 n 
-0000713172 00000 n 
-0000713315 00000 n 
-0000713393 00000 n 
-0000713654 00000 n 
-0000713845 00000 n 
-0000714070 00000 n 
-0000714240 00000 n 
-0000714406 00000 n 
-0000714647 00000 n 
-0000714821 00000 n 
-0000714983 00000 n 
-0000715189 00000 n 
-0000715395 00000 n 
-0000715584 00000 n 
-0000715778 00000 n 
-0000716040 00000 n 
-0000716262 00000 n 
-0000716453 00000 n 
-0000716675 00000 n 
-0000716889 00000 n 
-0000717064 00000 n 
-0000717293 00000 n 
-0000717492 00000 n 
-0000717694 00000 n 
-0000717907 00000 n 
-0000718075 00000 n 
-0000718326 00000 n 
-0000718534 00000 n 
-0000718738 00000 n 
-0000718929 00000 n 
-0000719129 00000 n 
-0000719316 00000 n 
-0000719481 00000 n 
-0000719702 00000 n 
-0000719931 00000 n 
-0000720118 00000 n 
-0000720328 00000 n 
-0000720506 00000 n 
-0000720704 00000 n 
-0000720970 00000 n 
-0000721216 00000 n 
-0000721439 00000 n 
-0000721638 00000 n 
-0000721875 00000 n 
-0000722150 00000 n 
-0000722757 00000 n 
-0000723028 00000 n 
-0000723299 00000 n 
-0000733548 00000 n 
-0000733769 00000 n 
-0000735132 00000 n 
-0000736047 00000 n 
-0000740996 00000 n 
-0000741211 00000 n 
-0000742574 00000 n 
-0000743489 00000 n 
-0000744647 00000 n 
-0000744871 00000 n 
-0000745184 00000 n 
-0000746322 00000 n 
-0000757083 00000 n 
-0000757299 00000 n 
-0000758662 00000 n 
-0000759578 00000 n 
-0000766397 00000 n 
-0000766623 00000 n 
-0000767986 00000 n 
+0000708764 00000 n 
+0000708899 00000 n 
+0000709032 00000 n 
+0000709165 00000 n 
+0000709296 00000 n 
+0000709428 00000 n 
+0000709555 00000 n 
+0000709682 00000 n 
+0000709804 00000 n 
+0000709926 00000 n 
+0000710053 00000 n 
+0000710181 00000 n 
+0000710300 00000 n 
+0000710419 00000 n 
+0000710552 00000 n 
+0000710685 00000 n 
+0000710820 00000 n 
+0000710955 00000 n 
+0000711083 00000 n 
+0000711211 00000 n 
+0000711341 00000 n 
+0000711472 00000 n 
+0000711592 00000 n 
+0000711713 00000 n 
+0000711838 00000 n 
+0000711964 00000 n 
+0000712108 00000 n 
+0000712253 00000 n 
+0000712378 00000 n 
+0000712503 00000 n 
+0000712640 00000 n 
+0000712777 00000 n 
+0000712907 00000 n 
+0000713038 00000 n 
+0000713168 00000 n 
+0000713298 00000 n 
+0000713441 00000 n 
+0000713584 00000 n 
+0000713662 00000 n 
+0000713923 00000 n 
+0000714114 00000 n 
+0000714339 00000 n 
+0000714509 00000 n 
+0000714675 00000 n 
+0000714916 00000 n 
+0000715090 00000 n 
+0000715252 00000 n 
+0000715458 00000 n 
+0000715664 00000 n 
+0000715853 00000 n 
+0000716047 00000 n 
+0000716309 00000 n 
+0000716531 00000 n 
+0000716722 00000 n 
+0000716944 00000 n 
+0000717158 00000 n 
+0000717333 00000 n 
+0000717562 00000 n 
+0000717761 00000 n 
+0000717963 00000 n 
+0000718176 00000 n 
+0000718344 00000 n 
+0000718595 00000 n 
+0000718803 00000 n 
+0000719007 00000 n 
+0000719198 00000 n 
+0000719398 00000 n 
+0000719585 00000 n 
+0000719750 00000 n 
+0000719971 00000 n 
+0000720200 00000 n 
+0000720387 00000 n 
+0000720597 00000 n 
+0000720775 00000 n 
+0000720973 00000 n 
+0000721239 00000 n 
+0000721485 00000 n 
+0000721708 00000 n 
+0000721907 00000 n 
+0000722144 00000 n 
+0000722419 00000 n 
+0000723026 00000 n 
+0000723297 00000 n 
+0000723568 00000 n 
+0000733817 00000 n 
+0000734038 00000 n 
+0000735401 00000 n 
+0000736316 00000 n 
+0000741265 00000 n 
+0000741480 00000 n 
+0000742843 00000 n 
+0000743758 00000 n 
+0000744916 00000 n 
+0000745140 00000 n 
+0000745453 00000 n 
+0000746591 00000 n 
+0000757352 00000 n 
+0000757568 00000 n 
+0000758931 00000 n 
+0000759847 00000 n 
+0000766666 00000 n 
+0000766892 00000 n 
+0000768255 00000 n 
 trailer
-<< /Size 911
+<< /Size 912
 /Root 2 0 R
 /Info 1 0 R
 >>
 startxref
-768901
+769170
 %%EOF
