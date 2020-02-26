@@ -699,19 +699,7 @@ The numbers in the figures below show the distances in millimeters.
 <div class="sect4">
 <h5 id="_penalty_mark">Penalty Mark</h5>
 <div class="paragraph">
-<p>For each field half the penalty mark is 1.2 meters for division A and 1 meter for division B, from the midpoint between the goalposts and equidistant to them, thus coinciding with the outer edge of the defense area.</p>
-</div>
-<div class="admonitionblock note">
-<table>
-<tr>
-<td class="icon">
-<i class="fa icon-note" title="Note"></i>
-</td>
-<td class="content">
-The penalty mark does not need to be painted since it coincides with the intersection of the defense area and the mid-line.
-</td>
-</tr>
-</table>
+<p>For each field half the penalty mark is on the <a href="#_additional_lines">mid-line</a> (not halfway line), 8 meters (division A) or 6 meters (division B) away from the opponent goal center.</p>
 </div>
 </div>
 </div>
@@ -1486,7 +1474,7 @@ If the opposing team fails to place the ball or no team can place the ball, it i
 </div>
 <div class="paragraph">
 <div class="title">Usage</div>
-<p>Normal start is used for <a href="#_kick_off">kick-offs</a>, <a href="#_penalty_kick">penalty kicks</a> and <a href="#_shoot_out">shoot-out</a>.</p>
+<p>Normal start is used for <a href="#_kick_off">kick-offs</a> and <a href="#_penalty_kick">penalty kicks</a>.</p>
 </div>
 </div>
 <div class="sect3">
@@ -1585,22 +1573,84 @@ In association football, it is sufficient if any player (including the keeper) t
 <h4 id="_penalty_kick">5.3.6. Penalty Kick</h4>
 <div class="paragraph">
 <div class="title">Definition</div>
-<p>To initiate a penalty kick, the stop command has to be sent and the ball has to be placed on the <a href="#_penalty_mark">penalty mark</a> by the human <a href="#_referee">referee</a>.</p>
+<p>The procedure of a penalty kick is as follows:</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>The ball is placed by the human referee on the <a href="#_penalty_mark">penalty mark</a>.</p>
+</li>
+<li>
+<p>When the <a href="#_penalty_kick">penalty</a> command is issued</p>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>The defending keeper has to move to the goal line and keep touching it</p>
+</li>
+<li>
+<p>One attacking robot is allowed to approach the ball but not touch the ball</p>
+</li>
+<li>
+<p>All other robots have to be 1m behind the ball such that they do not interfere the penalty kick procedure at any time.</p>
+</li>
+</ol>
+</div>
+</li>
+<li>
+<p>When the <a href="#_normal_start">normal start</a> command is issued, the attacker is allowed to <a href="#_ball_manipulation">manipulate the ball</a>. The ball has to only move towards the opponent goal, as measured by its x coordinate in the coordinate system of <a href="#_vision">SSL-Vision</a>.</p>
+</li>
+<li>
+<p>When the ball is <a href="#_ball_in_and_out_of_play">in play</a>, the defending keeper may move freely again</p>
+</li>
+</ol>
 </div>
 <div class="paragraph">
-<p>When the penalty command is issued, one attacking robot is allowed to approach but not touch the ball. This robot will be referred to as the kicker. The defending keeper has to touch the goal line. All other robots have to move behind a line parallel to the goal line and 0.4 meters behind the penalty mark. When these constraints are met, the referee may continue with a <a href="#_normal_start">normal start</a> command.</p>
+<p>A goal is awarded if:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>the ball touches the inner surface of a goal wall or the ground of the goal of the defending team in less than 10 seconds, starting from when the <a href="#_normal_start">normal start</a> command is issued</p>
+</li>
+<li>
+<p>the defending team violates any rule</p>
+</li>
+</ul>
 </div>
 <div class="paragraph">
-<p>When the <a href="#_normal_start">normal start</a> command is issued, the kicker is allowed to shoot the ball. A goal may be scored directly from the penalty kick.</p>
+<p>A goal is not awarded if:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>the ball crosses any <a href="#_field_lines">field lines</a> outside the goal</p>
+</li>
+<li>
+<p>the defending keeper touches the ball such that the ball speed vector changes direction by at least 90 degrees in 2D space</p>
+</li>
+<li>
+<p>the attacking team violates any rule</p>
+</li>
+</ul>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+The restrictions defined for <a href="#_scoring_goals">scoring goals</a>, including the ball height limit of 0.15 meters, do not apply here.
+Other rules like the <a href="#_excessive_dribbling">excessive dribbling</a> limitation for example do.
+</td>
+</tr>
+</table>
 </div>
 <div class="paragraph">
 <p>When the ball is <a href="#_ball_in_and_out_of_play">in play</a>, the kicker may not touch the ball until it has been touched by another robot or the game has been stopped (see <a href="#_double_touch">double touch</a>). Also, the restrictions regarding the robot positions are lifted.</p>
 </div>
 <div class="paragraph">
 <p>Additional time is allowed for a penalty kick to be taken at the end of each half or at the end of periods of overtime.</p>
-</div>
-<div class="paragraph">
-<p>The penalty kick is retaken if the attacking team infringes the rules and the ball enters the goal or the defending team infringes the rules and the ball does not enter the goal.</p>
 </div>
 <div class="paragraph">
 <div class="title">Usage</div>
@@ -1817,7 +1867,7 @@ In division B, the <a href="#_aimless_kick_division_b_only">aimless kick rule</a
 <i class="fa icon-note" title="Note"></i>
 </td>
 <td class="content">
-During <a href="#_shoot_out">shoot-out</a>, these additional rules do not apply.
+During <a href="#_penalty_kick">penalty kicks</a>, these additional rules do not apply.
 </td>
 </tr>
 </table>
@@ -2338,73 +2388,17 @@ If the team is not connected to the game controller or does not reply within 0.2
 <div class="sectionbody">
 <div class="paragraph">
 <div class="title">Definition</div>
-<p>Both teams alternately attempt to score a goal until each team has performed 5 attempts. If both teams have the same score after those 5 attempts, each team takes another attempt in the same order as before until the score of the two teams is different.</p>
+<p>Both teams alternately attempt to score a goal with a <a href="#_penalty_kick">penalty kick</a> until each team has performed 5 attempts.
+If both teams have the same score after those 5 attempts, each team takes another attempt in the same order as before until the score of the two teams is different.</p>
 </div>
 <div class="paragraph">
-<p>Only one attacking robot and one keeper is allowed per team. During a shoot-out attempt, the attacking robot and the opponent keeper are the only ones allowed to move and <a href="#_ball_manipulation">manipulate the ball</a>. Other robots are not allowed to interfere.</p>
+<p>Only one attacking robot and one keeper is allowed per team.
+During a shoot-out attempt, the attacking robot and the opponent keeper are the only ones allowed to move and <a href="#_ball_manipulation">manipulate the ball</a>.
+Other robots are not allowed to interfere.</p>
 </div>
 <div class="paragraph">
-<p>The procedure of a shoot-out attempt is as follows:</p>
-</div>
-<div class="olist arabic">
-<ol class="arabic">
-<li>
-<p>The ball is placed by the human referee on the <a href="#_additional_lines">mid-line</a> (not halfway line), 8 meters (division A) or 6 meters (division B) away from the opponent goal.</p>
-</li>
-<li>
-<p>When the <a href="#_penalty_kick">penalty</a> command is issued, the defending keeper has to move to the goal line and keep touching it.</p>
-</li>
-<li>
-<p>When the <a href="#_normal_start">normal start</a> command is issued, the attacker is allowed to <a href="#_ball_manipulation">manipulate the ball</a>. The ball has to only move towards the opponent goal, as measured by its x coordinate in the coordinate system of <a href="#_vision">SSL-Vision</a>.</p>
-</li>
-<li>
-<p>When the ball is <a href="#_ball_in_and_out_of_play">in play</a>, the defending keeper may move freely again, analogous to a <a href="#_penalty_kick">penalty kick</a>.</p>
-</li>
-</ol>
-</div>
-<div class="paragraph">
-<p>A goal is awarded if:</p>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p>the ball touches the inner surface of a goal wall or the ground of the goal of the defending team in less than 10 seconds, starting from when the <a href="#_normal_start">normal start</a> command is issued</p>
-</li>
-<li>
-<p>the defending team violates any rule</p>
-</li>
-</ul>
-</div>
-<div class="paragraph">
-<p>A goal is not awarded if:</p>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p>the ball crosses any <a href="#_field_lines">field lines</a> outside the goal</p>
-</li>
-<li>
-<p>the defending keeper touches the ball such that the ball speed vector changes direction by at least 90 degrees in 2D space</p>
-</li>
-<li>
-<p>the attacking team violates any rule</p>
-</li>
-</ul>
-</div>
-<div class="admonitionblock note">
-<table>
-<tr>
-<td class="icon">
-<i class="fa icon-note" title="Note"></i>
-</td>
-<td class="content">
-The restrictions defined for <a href="#_scoring_goals">scoring goals</a> do not apply here. This explicitly includes the ball height limit of 0.15 meters. Other rules like the <a href="#_excessive_dribbling">excessive dribbling</a> limitation for example do.
-</td>
-</tr>
-</table>
-</div>
-<div class="paragraph">
-<p>Robots may be <a href="#_robot_substitution">substituted</a> between shoot-out attempts. The new robot may be put in right away.</p>
+<p>Robots may be <a href="#_robot_substitution">substituted</a> between shoot-out attempts.
+The new robot may be put in right away.</p>
 </div>
 <div class="admonitionblock note">
 <table>
@@ -2989,7 +2983,7 @@ Note that the information shown in this table here is incomplete. Please read th
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2020-02-26 20:21:41 UTC
+Last updated 2020-02-26 20:23:22 UTC
 </div>
 </div>
 </body>
