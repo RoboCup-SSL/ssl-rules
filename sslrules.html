@@ -777,7 +777,7 @@ The numbers in the figures below show the distances in millimeters.
 It is operated by the <a href="#_game_controller_operator">game controller operator</a>. The software translates decisions of the <a href="#_referee">referee</a> and the <a href="#_automatic_referee">automatic referee</a> into Ethernet communication signals that are broadcast to the network. It maintains the state of the game, tracks all events and acts as a proxy between all participating parties in the game.</p>
 </div>
 <div class="paragraph">
-<p>The game-controller has a network interface for the playing teams. They can automatically change their keeper id when the ball is <a href="#_ball_in_and_out_of_play">out of play</a>, they can signal a robot substitution intent for the next opportunity and they can reply to requests of the <a href="#_advantage_rule">advantage rule</a>.</p>
+<p>The game-controller has a network interface for the playing teams. They can automatically <a href="#_choosing_keeper_id">change their keeper id</a>, they can signal a robot substitution intent for the next opportunity and they can reply to requests of the <a href="#_advantage_rule">advantage rule</a>.</p>
 </div>
 </div>
 <div class="sect3">
@@ -1135,6 +1135,31 @@ While obtaining the game result sheet, the referee can also take an official <a 
 <h4 id="_choosing_keeper_id">4.3.5. Choosing Keeper Id</h4>
 <div class="paragraph">
 <p>The <a href="#_referee">referee</a> asks both <a href="#_robot_handler">robot handlers</a> which robot they will use as the keeper and forwards this information to the <a href="#_game_controller_operator">game controller operator</a>.</p>
+</div>
+<div class="paragraph">
+<p>The keeper id can be changed anytime during the game if the ball is either <a href="#_ball_in_and_out_of_play">out of play</a> or in the opponent&#8217;s field half by:</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Using the <a href="#_game_controller">game controller</a> network interface</p>
+</li>
+<li>
+<p>Asking the <a href="#_game_controller_operator">game controller operator</a> to change it in the <a href="#_game_controller">game controller</a>. The <a href="#_game_controller_operator">game controller operator</a> must not change the keeper id until the ball is at a valid position.</p>
+</li>
+</ol>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+Teams should only ask for a change once the requirements are met. The <a href="#_game_controller_operator">game controller operator</a> is responsible for complying to the rules.
+</td>
+</tr>
+</table>
 </div>
 <div class="admonitionblock note">
 <table>
@@ -2827,7 +2852,7 @@ Note that the information shown in this table here is incomplete. Please read th
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2020-02-26 20:00:26 UTC
+Last updated 2020-02-26 20:07:36 UTC
 </div>
 </div>
 </body>

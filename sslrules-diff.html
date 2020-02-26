@@ -1213,7 +1213,7 @@ The numbers in the figures below show the distances in millimeters.
 It is operated by the <a href="#_game_controller_operator">game controller operator</a>. The software translates decisions of the <a href="#_referee">referee</a> and the <a href="#_automatic_referee">automatic referee</a> into Ethernet communication signals that are broadcast to the network. It maintains the state of the game, tracks all events and acts as a proxy between all participating parties in the game.</p>
 </div>
 <div class="paragraph">
-<p>The game-controller has a network interface for the playing teams. They can automatically change their keeper id when the ball is <a href="#_ball_in_and_out_of_play">out of play</a>, they can signal a robot substitution intent for the next opportunity and they can reply to requests of the <a href="#_advantage_rule">advantage rule</a>.</p>
+<p>The game-controller has a network interface for the playing teams. They can automatically <a href="#_choosing_keeper_id">change their keeper <span class="diff_delete">id </span><span class="diff_delete">when </span><span class="diff_delete">the </span><span class="diff_delete">ball </span><span class="diff_delete">is </span><a href="#_ball_in_and_out_of_play"><span class="diff_delete">out </span><span class="diff_delete">of </span><span class="diff_delete">play</span><span class="diff_insert">id</span></a>, they can signal a robot substitution intent for the next opportunity and they can reply to requests of the <a href="#_advantage_rule">advantage rule</a>.</p>
 </div>
 </div>
 <div class="sect3">
@@ -1571,6 +1571,31 @@ While obtaining the game result sheet, the referee can also take an official <a 
 <h4 id="_choosing_keeper_id">4.3.5. Choosing Keeper Id</h4>
 <div class="paragraph">
 <p>The <a href="#_referee">referee</a> asks both <a href="#_robot_handler">robot handlers</a> which robot they will use as the keeper and forwards this information to the <a href="#_game_controller_operator">game controller operator</a>.</p>
+</div>
+<div class="paragraph">
+<p><span class="diff_insert">The </span><span class="diff_insert">keeper </span><span class="diff_insert">id </span><span class="diff_insert">can </span><span class="diff_insert">be </span><span class="diff_insert">changed </span><span class="diff_insert">anytime </span><span class="diff_insert">during </span><span class="diff_insert">the </span><span class="diff_insert">game </span><span class="diff_insert">if </span><span class="diff_insert">the </span><span class="diff_insert">ball </span><span class="diff_insert">is </span><span class="diff_insert">either </span><a href="#_ball_in_and_out_of_play"><span class="diff_insert">out </span><span class="diff_insert">of </span><span class="diff_insert">play</span></a> <span class="diff_insert">or </span><span class="diff_insert">in </span><span class="diff_insert">the </span><span class="diff_insert">opponent&#8217;s </span><span class="diff_insert">field </span><span class="diff_insert">half </span><span class="diff_insert">by:</span></p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p><span class="diff_insert">Using </span><span class="diff_insert">the </span><a href="#_game_controller"><span class="diff_insert">game </span><span class="diff_insert">controller</span></a> <span class="diff_insert">network </span><span class="diff_insert">interface</span></p>
+</li>
+<li>
+<p><span class="diff_insert">Asking </span><span class="diff_insert">the </span><a href="#_game_controller_operator"><span class="diff_insert">game </span><span class="diff_insert">controller </span><span class="diff_insert">operator</span></a> <span class="diff_insert">to </span><span class="diff_insert">change </span><span class="diff_insert">it </span><span class="diff_insert">in </span><span class="diff_insert">the </span><a href="#_game_controller"><span class="diff_insert">game </span><span class="diff_insert">controller</span></a><span class="diff_insert">. </span><span class="diff_insert">The </span><a href="#_game_controller_operator"><span class="diff_insert">game </span><span class="diff_insert">controller </span><span class="diff_insert">operator</span></a> <span class="diff_insert">must </span><span class="diff_insert">not </span><span class="diff_insert">change </span><span class="diff_insert">the </span><span class="diff_insert">keeper </span><span class="diff_insert">id </span><span class="diff_insert">until </span><span class="diff_insert">the </span><span class="diff_insert">ball </span><span class="diff_insert">is </span><span class="diff_insert">at </span><span class="diff_insert">a </span><span class="diff_insert">valid </span><span class="diff_insert">position.</span></p>
+</li>
+</ol>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content"><span class="diff_insert">
+Teams </span><span class="diff_insert">should </span><span class="diff_insert">only </span><span class="diff_insert">ask </span><span class="diff_insert">for </span><span class="diff_insert">a </span><span class="diff_insert">change </span><span class="diff_insert">once </span><span class="diff_insert">the </span><span class="diff_insert">requirements </span><span class="diff_insert">are </span><span class="diff_insert">met. </span><span class="diff_insert">The </span><a href="#_game_controller_operator"><span class="diff_insert">game </span><span class="diff_insert">controller </span><span class="diff_insert">operator</span></a> <span class="diff_insert">is </span><span class="diff_insert">responsible </span><span class="diff_insert">for </span><span class="diff_insert">complying </span><span class="diff_insert">to </span><span class="diff_insert">the </span><span class="diff_insert">rules.
+</span></td>
+</tr>
+</table>
 </div>
 <div class="admonitionblock note">
 <table>
@@ -3263,7 +3288,7 @@ Note that the information shown in this table here is incomplete. Please read th
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2020-02-26 <span class="diff_delete">19:49:06 </span><span class="diff_insert">20:00:26 </span>UTC
+Last updated 2020-02-26 <span class="diff_delete">19:49:06 </span><span class="diff_insert">20:07:36 </span>UTC
 </div>
 </div>
 </body>
