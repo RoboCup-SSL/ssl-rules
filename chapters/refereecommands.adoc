@@ -76,7 +76,7 @@ After the ball has been placed, the game is resumed using one of the following c
 For two-staged referee commands, when normal start is sent, an attacker may <<Ball Manipulation, manipulate the ball>>. A match cannot be resumed directly via normal start.
 
 .Usage
-Normal start is used for <<Kick-Off, kick-offs>>, <<Penalty Kick, penalty kicks>> and <<Shoot-Out, shoot-out>>.
+Normal start is used for <<Kick-Off, kick-offs>> and <<Penalty Kick, penalty kicks>>.
 
 ==== Kick-Off
 .Definition
@@ -128,17 +128,33 @@ It can also be used to resume the game when the game had to be stopped and no te
 
 ==== Penalty Kick
 .Definition
-To initiate a penalty kick, the stop command has to be sent and the ball has to be placed on the <<Penalty Mark, penalty mark>> by the human <<Referee, referee>>.
+The procedure of a penalty kick is as follows:
 
-When the penalty command is issued, one attacking robot is allowed to approach but not touch the ball. This robot will be referred to as the kicker. The defending keeper has to touch the goal line. All other robots have to move behind a line parallel to the goal line and 0.4 meters behind the penalty mark. When these constraints are met, the referee may continue with a <<Normal Start, normal start>> command.
+. The ball is placed by the human referee on the <<Penalty Mark, penalty mark>>.
+. When the <<Penalty Kick, penalty>> command is issued
+.. The defending keeper has to move to the goal line and keep touching it
+.. One attacking robot is allowed to approach the ball but not touch the ball
+.. All other robots have to be 1m behind the ball such that they do not interfere the penalty kick procedure at any time.
+. When the <<Normal Start, normal start>> command is issued, the attacker is allowed to <<Ball Manipulation, manipulate the ball>>. The ball has to only move towards the opponent goal, as measured by its x coordinate in the coordinate system of <<Vision, SSL-Vision>>.
+. When the ball is <<Ball In And Out Of Play, in play>>, the defending keeper may move freely again
 
-When the <<Normal Start, normal start>> command is issued, the kicker is allowed to shoot the ball. A goal may be scored directly from the penalty kick.
+A goal is awarded if:
+
+* the ball touches the inner surface of a goal wall or the ground of the goal of the defending team in less than 10 seconds, starting from when the <<Normal Start, normal start>> command is issued
+* the defending team violates any rule
+
+A goal is not awarded if:
+
+* the ball crosses any <<Field Lines, field lines>> outside the goal
+* the defending keeper touches the ball such that the ball speed vector changes direction by at least 90 degrees in 2D space
+* the attacking team violates any rule
+
+NOTE: The restrictions defined for <<Scoring Goals, scoring goals>>, including the ball height limit of 0.15 meters, do not apply here.
+Other rules like the <<Excessive Dribbling, excessive dribbling>> limitation for example do.
 
 When the ball is <<Ball In And Out Of Play, in play>>, the kicker may not touch the ball until it has been touched by another robot or the game has been stopped (see <<Double Touch, double touch>>). Also, the restrictions regarding the robot positions are lifted.
 
 Additional time is allowed for a penalty kick to be taken at the end of each half or at the end of periods of overtime.
-
-The penalty kick is retaken if the attacking team infringes the rules and the ball enters the goal or the defending team infringes the rules and the ball does not enter the goal.
 
 .Usage
 Penalty Kicks are used to punish teams that received multiple <<Yellow Card, yellow cards>>, as well as to punish <<Unsporting Behavior, unsporting behavior>> and <<Multiple Defenders, multiple defenders>>.

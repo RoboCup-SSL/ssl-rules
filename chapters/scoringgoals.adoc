@@ -6,6 +6,6 @@ Additionally, the goal is only valid if
 * It is not shot directly from an <<Indirect Free Kick, indirect free kick>>
 * The height of the ball did not exceed 0.15 meters after the last touch of an attacker
 
-NOTE: During <<Shoot-Out, shoot-out>>, these additional rules do not apply.
+NOTE: During <<Penalty Kick, penalty kicks>>, these additional rules do not apply.
 
 If the goal is considered invalid, the game will be continued as if the ball crossed the goal line outside the goal.
