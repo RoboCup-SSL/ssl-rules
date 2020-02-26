@@ -1,0 +1,26 @@
+== Emergency stop
+
+This rule only applies to Division A.
+
+.Definition
+A team can ask to stop the game immediately after a grace period of 10 seconds or at the next stoppage, whichever happens first regardless of the current situation.
+It will receive a yellow card for this and must take a timeout immediately.
+If the team is out of timeouts, it is still allowed to remove robots from the field, but can not use any remaining timeout time.
+
+NOTE: This rule is supposed to be used in extreme situations only, e.g. a software crash or when robots are damaging themselves significantly.
+
+When the game is stopped due to this rule, there are three possibilities that may have happened:
+
+. The grace period has passed and the game is stopped.
+. The human referee stopped the game earlier.
+. The game is stopped earlier due to the ball leaving the field or because of a foul.
+
+For these possibilities there are two methods to proceed the game:
+
+. For *1* and *2*, the game is continued with a <<Free Kick, free kick>> for the opposing team.
+. For *3*, the game is continued like after a regular timeout.
+
+.Usage
+An emergency stop intent can be made using <<Communication Flags, communication flags>>.
+
+NOTE: The referee may stop the game earlier if there is no promising play in action.
