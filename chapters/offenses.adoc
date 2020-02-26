@@ -107,6 +107,9 @@ If a robot other than the keeper touches the ball while being partially inside i
 
 If a robot other than the keeper touches the ball while being entirely inside its own defense area, the game is stopped and a <<Penalty Kick, penalty kick>> is awarded to the other team. The foul counter is not increased.
 
+==== Boundary Crossing
+A robot must not kick the ball over the field boundary such that the ball leaves the field.
+
 
 === Unsporting Behavior
 Unsporting behavior can lead to <<Yellow Card, yellow cards>>, <<Red Card, red cards>>, <<Penalty Kick, penalty kicks>>, a <<Forced Forfeit, forced forfeit>> or a <<Disqualification, disqualification>>. The human <<Referee, referee>> chooses an appropriate sanction, depending on the severity of the offense.
