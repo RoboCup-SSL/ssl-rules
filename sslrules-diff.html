@@ -1095,7 +1095,7 @@ The numbers in the figures below show the distances in millimeters.
 <p>The playing surface is green felt mat or carpet. The floor under the carpet is level, flat, and hard.</p>
 </div>
 <div class="paragraph">
-<p>The field surface will continue for 0.7 meters beyond the <a href="#_field_lines">field lines</a> on all sides. The outer 0.4 meters of this runoff area, separated from the robot area by a 0.1 meters tall wall, is used as a designated walking area for the <a href="#_referee">referee</a> and the <a href="#_assistant_referee">assistant referee</a>.</p>
+<p>The field surface will continue for 0.7 meters beyond the <a href="#_field_lines">field lines</a> on all sides. The outer 0.4 meters of this runoff area, separated from the robot area by a 0.1 meters tall wall, is used as a designated walking area for the <a href="#_referee">referee</a> and the <a href="#_assistant_referee">assistant referee</a><span class="diff_delete">.</span><span class="diff_insert">. </span><span class="diff_insert">The </span><span class="diff_insert">remaining </span><span class="diff_insert">0.3 </span><span class="diff_insert">meters </span><span class="diff_insert">are </span><span class="diff_insert">the </span><span class="diff_insert">field </span><span class="diff_insert">margins.</span></p>
 </div>
 </div>
 <div class="sect3">
@@ -1514,7 +1514,10 @@ advice of an assistant referee, provided that he has not restarted play.</p>
 <p>The robot handler asks the referee for <a href="#_timeouts">timeouts</a> if necessary.</p>
 </li>
 <li>
-<p>The robot handler asks the referee for the permission to substitute a robot in the next stoppage and, if the referee agrees, <a href="#_robot_substitution">substitutes the robot</a>.</p>
+<p>The robot handler <span class="diff_insert">can </span><a href="#_robot_substitution"><span class="diff_insert">substitute </span><span class="diff_insert">a </span><span class="diff_insert">robot </span><span class="diff_insert">during </span><span class="diff_insert">game </span><span class="diff_insert">play</span></a><span class="diff_insert">.</span></p>
+</li>
+<li>
+<p><span class="diff_insert">The </span><span class="diff_insert">robot </span><span class="diff_insert">handler </span>asks the referee for the permission to substitute a robot in the next stoppage and, if the referee agrees, <a href="#_robot_substitution">substitutes the robot</a>.</p>
 </li>
 <li>
 <p>The robot handler voices concerns of the team (for example network issues or vision problems).</p>
@@ -2668,23 +2671,37 @@ If the team is not connected to the game controller or does not reply within 0.2
 <div class="title">Definition</div>
 <p>Robots are substituted by the <a href="#_robot_handler">robot handler</a> of the respective team. No other team member is allowed to take robots out or put robots in.</p>
 </div>
+<div class="paragraph">
+<p><span class="diff_insert">The </span><a href="#_robot_handler"><span class="diff_insert">robot </span><span class="diff_insert">handler</span></a> <span class="diff_insert">should </span><span class="diff_insert">prefer </span><span class="diff_insert">to </span><span class="diff_insert">use </span><span class="diff_insert">long </span><span class="diff_insert">sleeves </span><span class="diff_insert">and </span><span class="diff_insert">colors </span><span class="diff_insert">that </span><span class="diff_insert">won&#8217;t </span><span class="diff_insert">interfere </span><span class="diff_insert">with </span><span class="diff_insert">the </span><span class="diff_insert">vision </span><span class="diff_insert">system.</span></p>
+</div>
+<div class="paragraph">
+<p><span class="diff_insert">Robots </span><span class="diff_insert">can </span><span class="diff_insert">always </span><span class="diff_insert">be </span><span class="diff_insert">substituted </span><span class="diff_insert">during </span><span class="diff_insert">game </span><span class="diff_insert">play </span><span class="diff_insert">without </span><span class="diff_insert">notifying </span><span class="diff_insert">the </span><a href="#_referee"><span class="diff_insert">referee</span></a> <span class="diff_insert">if </span><span class="diff_insert">all </span><span class="diff_insert">the </span><span class="diff_insert">following </span><span class="diff_insert">conditions </span><span class="diff_insert">are </span><span class="diff_insert">met:</span></p>
+</div>
 <div class="olist arabic">
 <ol class="arabic">
 <li>
-<p>A <a href="#_robot_handler">robot handler</a> who&#8217;s team is marked for robot substitution performs at least one of the following operations in the given order.</p>
+<p><span class="diff_delete">A </span><a href="#_robot_handler"><span class="diff_insert">The </span>robot <span class="diff_delete">handler</span></a> <span class="diff_delete">who&#8217;s </span><span class="diff_delete">team </span>is <span class="diff_delete">marked </span><span class="diff_delete">for </span><span class="diff_delete">robot </span><span class="diff_delete">substitution </span><span class="diff_delete">performs </span>at least <span class="diff_delete">one </span><span class="diff_delete">of </span><span class="diff_insert">partially </span><span class="diff_insert">inside </span>the <span class="diff_delete">following </span><span class="diff_delete">operations </span><span class="diff_delete">in </span><span class="diff_delete">the </span><span class="diff_delete">given </span><span class="diff_delete">order.</span></p>
 <div class="olist loweralpha">
 <ol class="loweralpha" type="a">
 <li>
-<p>Put robots in. The maximum allowed number of robots of the team on the field must not be exceeded.</p>
+<p><span class="diff_delete">Put </span><span class="diff_delete">robots </span><span class="diff_delete">in. </span><span class="diff_delete">The </span><span class="diff_delete">maximum </span><span class="diff_delete">allowed </span><span class="diff_delete">number </span><span class="diff_delete">of </span><span class="diff_delete">robots </span><span class="diff_delete">of </span><span class="diff_delete">the </span><span class="diff_delete">team </span><span class="diff_delete">on </span><span class="diff_delete">the </span><a href="#_field_surface">field <span class="diff_delete">must </span><span class="diff_delete">not </span><span class="diff_delete">be </span><span class="diff_delete">exceeded.</span><span class="diff_insert">margin</span></a><span class="diff_insert">.</span></p>
 </li>
 <li>
-<p>Take robots out. If a robot that is taken out is closer than 1 meter to the intersection of the halfway line with one of the touch lines, another robot can be put in right away. Otherwise the robot handler has to wait until the next substitution opportunity.</p>
+<p><span class="diff_delete">Take </span><span class="diff_delete">robots </span><span class="diff_delete">out. </span><span class="diff_delete">If </span><span class="diff_insert">The </span><span class="diff_insert">robot </span><span class="diff_insert">is </span><span class="diff_insert">at </span>a <span class="diff_delete">robot </span><span class="diff_delete">that </span><span class="diff_delete">is </span><span class="diff_delete">taken </span><span class="diff_delete">out </span><span class="diff_delete">is </span><span class="diff_delete">closer </span><span class="diff_delete">than </span><span class="diff_delete">1 </span><span class="diff_delete">meter </span><span class="diff_delete">to </span><span class="diff_delete">the </span><span class="diff_delete">intersection </span><span class="diff_delete">of </span><span class="diff_insert">distance </span><span class="diff_insert">from </span>the halfway line <span class="diff_delete">with </span><span class="diff_delete">one </span><span class="diff_delete">of </span><span class="diff_insert">that </span><span class="diff_insert">must </span><span class="diff_insert">not </span><span class="diff_insert">exceed </span><span class="diff_insert">1 </span><span class="diff_insert">meter.</span></p>
+</li>
+<li>
+<p><span class="diff_insert">The </span><span class="diff_insert">ball </span><span class="diff_insert">must </span><span class="diff_insert">be </span><span class="diff_insert">at </span><span class="diff_insert">least </span><span class="diff_insert">2 </span><span class="diff_insert">meters </span><span class="diff_insert">away </span><span class="diff_insert">from </span>the <span class="diff_delete">touch </span><span class="diff_delete">lines, </span><span class="diff_delete">another </span><span class="diff_delete">robot </span><span class="diff_delete">can </span><span class="diff_delete">be </span><span class="diff_delete">put </span><span class="diff_delete">in </span><span class="diff_delete">right </span><span class="diff_delete">away. </span><span class="diff_delete">Otherwise </span><span class="diff_delete">the </span><span class="diff_delete">robot </span><span class="diff_delete">handler </span><span class="diff_delete">has </span><span class="diff_delete">to </span><span class="diff_delete">wait </span><span class="diff_delete">until </span><span class="diff_delete">the </span><span class="diff_delete">next </span><span class="diff_delete">substitution </span><span class="diff_delete">opportunity.</span><span class="diff_insert">halfway </span><span class="diff_insert">line.</span></p>
 </li>
 </ol>
 </div>
 </li>
+<li><div class="paragraph">
+<p><span class="diff_delete">If </span><span class="diff_delete">one </span><span class="diff_delete">of </span><span class="diff_delete">the </span><span class="diff_insert">Additionally, </span>robots <span class="diff_insert">can </span><span class="diff_insert">be </span>taken out <span class="diff_delete">is </span><span class="diff_delete">the </span><span class="diff_delete">keeper, </span><span class="diff_insert">from </span><span class="diff_insert">any </span><span class="diff_insert">position </span><span class="diff_insert">during </span><a href="#_stopping_the_game"><span class="diff_insert">game </span><span class="diff_insert">stoppage</span></a> <span class="diff_insert">by </span>the <a href="#_robot_handler">robot handler</a> <span class="diff_delete">tells </span><span class="diff_insert">using </span>the <a href="#_game_controller_operator"><span class="diff_delete">game </span><span class="diff_delete">controller </span><span class="diff_delete">operator</span><span class="diff_insert">procedure </span><span class="diff_insert">below:</span></p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
 <li>
-<p>If one of the robots taken out is the keeper, the <a href="#_robot_handler">robot handler</a> tells the <a href="#_game_controller_operator">game controller operator</a> the id of the robot that takes over the keeper role.</p>
+<p><span class="diff_insert">The </span><a href="#_robot_handler"><span class="diff_insert">robot </span><span class="diff_insert">handler</span></a> <span class="diff_delete">the </span><span class="diff_delete">id </span><span class="diff_delete">of </span><span class="diff_delete">the </span><span class="diff_delete">robot </span><span class="diff_delete">that </span>takes <span class="diff_delete">over </span><span class="diff_delete">the </span><span class="diff_delete">keeper </span><span class="diff_delete">role.</span><span class="diff_insert">robots </span><span class="diff_insert">out.</span></p>
 </li>
 <li>
 <p>The <a href="#_robot_handler">robot handler</a> informs the <a href="#_referee">referee</a> when done.</p>
@@ -2696,6 +2713,9 @@ If the team is not connected to the game controller or does not reply within 0.2
 <p>The <a href="#_game_controller_operator">game controller operator</a> performs a <a href="#_stop">stop</a> followed by continuing the game.</p>
 </li>
 </ol>
+</div>
+<div class="paragraph">
+<p><span class="diff_insert">The </span><span class="diff_insert">maximum </span><span class="diff_insert">allowed </span><span class="diff_insert">number </span><span class="diff_insert">of </span><span class="diff_insert">robots </span><span class="diff_insert">of </span><span class="diff_insert">the </span><span class="diff_insert">team </span><span class="diff_insert">on </span><span class="diff_insert">the </span><span class="diff_insert">field </span><span class="diff_insert">must </span><span class="diff_insert">not </span><span class="diff_insert">be </span><span class="diff_insert">exceeded </span><span class="diff_insert">at </span><span class="diff_insert">any </span><span class="diff_insert">time.</span></p>
 </div>
 <div class="paragraph">
 <div class="title">Usage</div>
@@ -3288,7 +3308,7 @@ Note that the information shown in this table here is incomplete. Please read th
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2020-02-26 <span class="diff_delete">19:49:06 </span><span class="diff_insert">20:07:36 </span>UTC
+Last updated 2020-02-26 <span class="diff_delete">19:49:06 </span><span class="diff_insert">20:13:50 </span>UTC
 </div>
 </div>
 </body>
