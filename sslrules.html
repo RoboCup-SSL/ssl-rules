@@ -457,6 +457,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#_field_setup">2.1. Field Setup</a></li>
 <li><a href="#_ball">2.2. Ball</a></li>
 <li><a href="#_shared_software">2.3. Shared Software</a></li>
+<li><a href="#_communication_flags">2.4. Communication Flags</a></li>
 </ul>
 </li>
 <li><a href="#_robots">3. Robots</a>
@@ -785,6 +786,22 @@ At least one automatic referee is required per game. If more than one automatic 
 <div class="paragraph">
 <p>Existing implementations can be found on Github: <a href="https://github.com/RoboCup-SSL/ssl-autorefs" class="bare">https://github.com/RoboCup-SSL/ssl-autorefs</a>.</p>
 </div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_communication_flags">2.4. Communication Flags</h3>
+<div class="paragraph">
+<p>The communication flags are used to avoid gesturing and yelling with the <a href="#_referee">referee</a> during a match.
+These flags are responsible for communicating various intents, such as: <a href="#_timeouts">timeouts</a>, <a href="#_emergency_stop">emergency stops</a>, <a href="#_robot_substitution">manual robot substitution</a> and <a href="#Challenge flags">challenges</a>.</p>
+</div>
+<div class="paragraph">
+<p>The <a href="#_referee">referee</a> or <a href="#_game_controller_operator">game controller operator</a> has to acknowledge the communication flag.
+Any gesturing and yelling will be considered <a href="#_unsporting_behavior">unsporting behavior</a>, punished by a <a href="#Red card">red card</a> after the first warning.</p>
+</div>
+<div class="paragraph">
+<p>The communication flags are provided by the organizers of the competition.
+A remote control software or device can be provided and replace physical flags.
+Any other solution that the organizers find feasible can also be used.</p>
 </div>
 </div>
 </div>
@@ -2473,7 +2490,7 @@ This rule is supposed to be used in extreme situations only, e.g. a software cra
 </div>
 <div class="paragraph">
 <div class="title">Usage</div>
-<p>An emergency stop intent can be made using <a href="#Communication Flags">communication flags</a>.</p>
+<p>An emergency stop intent can be made using <a href="#_communication_flags">communication flags</a>.</p>
 </div>
 <div class="admonitionblock note">
 <table>
@@ -2983,7 +3000,7 @@ Note that the information shown in this table here is incomplete. Please read th
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2020-02-26 20:23:22 UTC
+Last updated 2020-02-26 20:25:11 UTC
 </div>
 </div>
 </body>
