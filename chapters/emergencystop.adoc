@@ -23,4 +23,4 @@ For these possibilities there are two methods to proceed the game:
 .Usage
 An emergency stop intent can be made using <<Communication Flags, communication flags>>.
 
-NOTE: The referee may to stop the game earlier if there is no promising play in action.
+NOTE: The referee may stop the game earlier if there is no promising play in action.
