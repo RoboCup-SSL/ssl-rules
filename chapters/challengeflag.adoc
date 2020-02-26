@@ -5,12 +5,12 @@ A challenge flag allows teams to challenge a decision of the referee:
 . If referees decision was correct, team loses a timeout.
 . If referees decision was incorrect, the correct decision is applied and the team doesn't lose a timeout.
 
-NOTE: In both cases the team loses one flag.
+NOTE: The flag is consumed in both cases.
 
 Only one ruling may be challenged at a time.
 
 The team must have at least one timeout left before using a challenge flag.
 
-Each team will receive two flags at the start of the game.
+Each team will receive *three flags* at the start of the game.
 
 NOTE: This rule is inspired by challenge flags in American football.
