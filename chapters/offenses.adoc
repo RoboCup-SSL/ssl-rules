@@ -4,7 +4,7 @@ Offenses are divided into multiple categories according to the seriousness of th
 NOTE: Rule of thumb: Minor offenses are infringements of the rules committed by an attacking robot while the ball is <<Ball In And Out Of Play, in play>>. Fouls are infringements of the rules committed by a defender or while the ball is <<Ball In And Out Of Play, out of play>> or infringements that may harm the humans, the robots or the field.
 
 === Minor Offenses
-Minor offenses are violations of the rules that result in a stoppage and a subsequent <<Indirect Free Kick, indirect free kick>> for the opposing team. The free kick will be shot from the position where the offense began happening (see <<Direct Free Kick, the direct free kick rules>> for the exact ball position rules).
+Minor offenses are violations of the rules that result in a stoppage and a subsequent <<Indirect Free Kick, indirect free kick>> for the opposing team. The free kick will be shot from the position where the ball was located when the offense began happening (see <<Direct Free Kick, the direct free kick rules>> for the exact ball position rules).
 
 All minor offenses are listed below.
 
@@ -41,7 +41,7 @@ NOTE: Dribblers can still be used to dribble large distances with the ball as lo
 A robot must not accelerate the ball faster than 6.5 meters per second in 3D space.
 
 === Fouls
-Fouls are violations of the rules that result in a <<Direct Free Kick, direct free kick>> for the opposing team. The free kick will be shot from the position where the offense began happening (see <<Direct Free Kick, the direct free kick rules>> for the exact ball position rules). If the foul happened while the ball is <<Ball In And Out Of Play, out of play>>, no free kick is given.
+Fouls are violations of the rules that result in a <<Direct Free Kick, direct free kick>> for the opposing team. The free kick will be shot from the position where the ball was located when the offense began happening (see <<Direct Free Kick, the direct free kick rules>> for the exact ball position rules). If the foul happened while the ball is <<Ball In And Out Of Play, out of play>>, no free kick is given.
 
 Every third foul of the same team results in a <<Yellow Card, yellow card>>.
 
@@ -106,6 +106,9 @@ NOTE: This rule does not use the standard sanctions defined for <<Fouls, fouls>>
 If a robot other than the keeper touches the ball while being partially inside its own defense area, the game is stopped, the robot receives a <<Yellow Card, yellow card>> and the opponent team resumes the game with a <<Direct Free Kick, direct free kick>>. The foul counter is not increased.
 
 If a robot other than the keeper touches the ball while being entirely inside its own defense area, the game is stopped and a <<Penalty Kick, penalty kick>> is awarded to the other team. The foul counter is not increased.
+
+==== Boundary Crossing
+A robot must not kick the ball over the field boundary such that the ball leaves the field.
 
 
 === Unsporting Behavior
