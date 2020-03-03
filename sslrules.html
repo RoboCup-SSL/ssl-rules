@@ -1386,6 +1386,28 @@ The automatic ball placement is the preferred way to place the ball at the desig
 If this is not possible, the <a href="#_referee">referee</a> places the ball manually.</p>
 </div>
 <div class="paragraph">
+<p>No ball placement is required if all of the following constraints are fulfilled:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>The ball is closer than 1m to the designated position.</p>
+</li>
+<li>
+<p>The ball is inside the field.</p>
+</li>
+<li>
+<p>The ball is at least 0.7m away from any defense area.</p>
+</li>
+<li>
+<p>The ball is stationary.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>In this case, the game can be continued as soon as all robots keep the required distance for <a href="#_stop">stop</a>.</p>
+</div>
+<div class="paragraph">
 <p>A ball is considered placed successfully by the robots if</p>
 </div>
 <div class="ulist">
@@ -1412,6 +1434,9 @@ If this is not possible, the <a href="#_referee">referee</a> places the ball man
 The game will be continued by the <a href="#_game_controller">game controller</a> as soon as the ball is successfully placed, but not earlier than 2 seconds after the ball placement command has been issued.
 A failed placement will result in a free kick for the opposing team.
 If this team failed to place the ball as well, the ball is placed by the <a href="#_referee">referee</a> and game continues with the original command.</p>
+</div>
+<div class="paragraph">
+<p>For each team a ball placement failure counter is incremented on each placement failure and decremented for successful placements. It can not get negative.</p>
 </div>
 <div class="paragraph">
 <p>The non-placing team must not <a href="#_ball_placement_interference">interfere the ball placement task</a>.</p>
@@ -1441,7 +1466,7 @@ If this team failed to place the ball as well, the ball is placed by the <a href
 <p>The <a href="#_referee">referee</a> can decide to disable automatic ball placement for the rest of the game. TC/OC must agree with this decision</p>
 </li>
 <li>
-<p>When a team has failed to place the ball 5 times in a row, it is not allowed to place the ball for the rest of the game half. All free kicks that were a result of the ball leaving the field, are awarded to the opposing team. For all other rule violations or when both teams failed to place the ball, the ball is placed by the <a href="#_referee">referee</a></p>
+<p>When a teams placement failure counter reached 5, it is not allowed to place the ball for the rest of the game half. All free kicks that were a result of the ball leaving the field, are awarded to the opposing team. For all other rule violations or when both teams failed to place the ball, the ball is placed by the <a href="#_referee">referee</a></p>
 </li>
 <li>
 <p>If no team can place the ball, the ball is placed by the <a href="#_referee">referee</a> or the <a href="#_assistant_referee">assistant referee</a>. Both the referee as well as the assistant referee are advised to use a so-called ball handler (a long, preferably black stick-like device) to move the ball.</p>
@@ -1455,7 +1480,7 @@ If this team failed to place the ball as well, the ball is placed by the <a href
 <i class="fa icon-note" title="Note"></i>
 </td>
 <td class="content">
-If the ball is already at the placement position (for example after a failed free kick by the other team), the ball placement can be successful without a robot manipulating the ball. This could lead to the counter for failed attempts resetting without a contribution by the placing team.
+The ball may still be moving when the placement command is issued.
 </td>
 </tr>
 </table>
@@ -1467,7 +1492,19 @@ If the ball is already at the placement position (for example after a failed fre
 <i class="fa icon-note" title="Note"></i>
 </td>
 <td class="content">
-The ball may still be moving when the placement command is issued.
+The game commences directly after ball placement. The team receiving the ball may shoot immediately and leave the opposing team little time to arrange defensive actions if needed.
+</td>
+</tr>
+</table>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+It is allowed to enter the defense area during ball placement.
 </td>
 </tr>
 </table>
@@ -3011,7 +3048,7 @@ Note that the information shown in this table here is incomplete. Please read th
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2020-03-03 20:50:47 UTC
+Last updated 2020-03-03 20:51:29 UTC
 </div>
 </div>
 </body>

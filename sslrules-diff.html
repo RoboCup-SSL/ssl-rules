@@ -1834,6 +1834,28 @@ The automatic ball placement is the preferred way to place the ball at the desig
 If this is not possible, the <a href="#_referee">referee</a> places the ball manually.</p>
 </div>
 <div class="paragraph">
+<p><span class="diff_insert">No </span><span class="diff_insert">ball </span><span class="diff_insert">placement </span><span class="diff_insert">is </span><span class="diff_insert">required </span><span class="diff_insert">if </span><span class="diff_insert">all </span><span class="diff_insert">of </span><span class="diff_insert">the </span><span class="diff_insert">following </span><span class="diff_insert">constraints </span><span class="diff_insert">are </span><span class="diff_insert">fulfilled:</span></p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><span class="diff_insert">The </span><span class="diff_insert">ball </span><span class="diff_insert">is </span><span class="diff_insert">closer </span><span class="diff_insert">than </span><span class="diff_insert">1m </span><span class="diff_insert">to </span><span class="diff_insert">the </span><span class="diff_insert">designated </span><span class="diff_insert">position.</span></p>
+</li>
+<li>
+<p><span class="diff_insert">The </span><span class="diff_insert">ball </span><span class="diff_insert">is </span><span class="diff_insert">inside </span><span class="diff_insert">the </span><span class="diff_insert">field.</span></p>
+</li>
+<li>
+<p><span class="diff_insert">The </span><span class="diff_insert">ball </span><span class="diff_insert">is </span><span class="diff_insert">at </span><span class="diff_insert">least </span><span class="diff_insert">0.7m </span><span class="diff_insert">away </span><span class="diff_insert">from </span><span class="diff_insert">any </span><span class="diff_insert">defense </span><span class="diff_insert">area.</span></p>
+</li>
+<li>
+<p><span class="diff_insert">The </span><span class="diff_insert">ball </span><span class="diff_insert">is </span><span class="diff_insert">stationary.</span></p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><span class="diff_insert">In </span><span class="diff_insert">this </span><span class="diff_insert">case, </span><span class="diff_insert">the </span><span class="diff_insert">game </span><span class="diff_insert">can </span><span class="diff_insert">be </span><span class="diff_insert">continued </span><span class="diff_insert">as </span><span class="diff_insert">soon </span><span class="diff_insert">as </span><span class="diff_insert">all </span><span class="diff_insert">robots </span><span class="diff_insert">keep </span><span class="diff_insert">the </span><span class="diff_insert">required </span><span class="diff_insert">distance </span><span class="diff_insert">for </span><a href="#_stop"><span class="diff_insert">stop</span></a><span class="diff_insert">.</span></p>
+</div>
+<div class="paragraph">
 <p>A ball is considered placed successfully by the robots if</p>
 </div>
 <div class="ulist">
@@ -1860,6 +1882,9 @@ If this is not possible, the <a href="#_referee">referee</a> places the ball man
 The game will be continued by the <a href="#_game_controller">game controller</a> as soon as the ball is successfully placed, but not earlier than 2 seconds after the ball placement command has been issued.
 A failed placement will result in <span class="diff_delete">an </span><span class="diff_delete">indirect </span><span class="diff_insert">a </span>free kick for the opposing team.
 If this team failed to place the ball as well, the ball is placed by the <a href="#_referee">referee</a> and game continues with the original command.</p>
+</div>
+<div class="paragraph">
+<p><span class="diff_insert">For </span><span class="diff_insert">each </span><span class="diff_insert">team </span><span class="diff_insert">a </span><span class="diff_insert">ball </span><span class="diff_insert">placement </span><span class="diff_insert">failure </span><span class="diff_insert">counter </span><span class="diff_insert">is </span><span class="diff_insert">incremented </span><span class="diff_insert">on </span><span class="diff_insert">each </span><span class="diff_insert">placement </span><span class="diff_insert">failure </span><span class="diff_insert">and </span><span class="diff_insert">decremented </span><span class="diff_insert">for </span><span class="diff_insert">successful </span><span class="diff_insert">placements. </span><span class="diff_insert">It </span><span class="diff_insert">can </span><span class="diff_insert">not </span><span class="diff_insert">get </span><span class="diff_insert">negative.</span></p>
 </div>
 <div class="paragraph">
 <p>The non-placing team must not <a href="#_ball_placement_interference">interfere the ball placement task</a>.</p>
@@ -1889,7 +1914,7 @@ If this team failed to place the ball as well, the ball is placed by the <a href
 <p>The <a href="#_referee">referee</a> can decide to disable automatic ball placement for the rest of the game. TC/OC must agree with this decision</p>
 </li>
 <li>
-<p>When a team has failed to place the ball 5 times in a row, it is not allowed to place the ball for the rest of the game half. All free kicks that were a result of the ball leaving the field, are awarded to the opposing team. For all other rule violations or when both teams failed to place the ball, the ball is placed by the <a href="#_referee">referee</a></p>
+<p>When a <span class="diff_delete">team </span><span class="diff_delete">has </span><span class="diff_delete">failed </span><span class="diff_delete">to </span><span class="diff_delete">place </span><span class="diff_delete">the </span><span class="diff_delete">ball </span><span class="diff_delete">5 </span><span class="diff_delete">times </span><span class="diff_delete">in </span><span class="diff_delete">a </span><span class="diff_delete">row, </span><span class="diff_insert">teams </span><span class="diff_insert">placement </span><span class="diff_insert">failure </span><span class="diff_insert">counter </span><span class="diff_insert">reached </span><span class="diff_insert">5, </span>it is not allowed to place the ball for the rest of the game half. All free kicks that were a result of the ball leaving the field, are awarded to the opposing team. For all other rule violations or when both teams failed to place the ball, the ball is placed by the <a href="#_referee">referee</a></p>
 </li>
 <li>
 <p>If no team can place the ball, the ball is placed by the <a href="#_referee">referee</a> or the <a href="#_assistant_referee">assistant referee</a>. Both the referee as well as the assistant referee are advised to use a so-called ball handler (a long, preferably black stick-like device) to move the ball.</p>
@@ -1902,9 +1927,11 @@ If this team failed to place the ball as well, the ball is placed by the <a href
 <td class="icon">
 <i class="fa icon-note" title="Note"></i>
 </td>
-<td class="content">
-If the ball is already at the placement position (for example after a failed free kick by the other team), the ball placement can be successful without a robot manipulating the ball. This could lead to the counter for failed attempts resetting without a contribution by the placing team.
-</td>
+<td class="content"><span class="diff_delete">
+If </span><span class="diff_delete">the </span><span class="diff_insert">
+The </span>ball <span class="diff_delete">is </span><span class="diff_delete">already </span><span class="diff_delete">at </span><span class="diff_insert">may </span><span class="diff_insert">still </span><span class="diff_insert">be </span><span class="diff_insert">moving </span><span class="diff_insert">when </span>the placement <span class="diff_delete">position </span><span class="diff_delete">(for </span><span class="diff_delete">example </span><span class="diff_delete">after </span><span class="diff_delete">a </span><span class="diff_delete">failed </span><span class="diff_delete">free </span><span class="diff_delete">kick </span><span class="diff_delete">by </span><span class="diff_delete">the </span><span class="diff_delete">other </span><span class="diff_delete">team), </span><span class="diff_delete">the </span><span class="diff_delete">ball </span><span class="diff_delete">placement </span><span class="diff_delete">can </span><span class="diff_delete">be </span><span class="diff_delete">successful </span><span class="diff_delete">without </span><span class="diff_delete">a </span><span class="diff_delete">robot </span><span class="diff_delete">manipulating </span><span class="diff_delete">the </span><span class="diff_delete">ball. </span><span class="diff_delete">This </span><span class="diff_delete">could </span><span class="diff_delete">lead </span><span class="diff_delete">to </span><span class="diff_delete">the </span><span class="diff_delete">counter </span><span class="diff_delete">for </span><span class="diff_delete">failed </span><span class="diff_delete">attempts </span><span class="diff_delete">resetting </span><span class="diff_delete">without </span><span class="diff_delete">a </span><span class="diff_delete">contribution </span><span class="diff_delete">by </span><span class="diff_delete">the </span><span class="diff_delete">placing </span><span class="diff_delete">team.
+</span><span class="diff_insert">command </span><span class="diff_insert">is </span><span class="diff_insert">issued.
+</span></td>
 </tr>
 </table>
 </div>
@@ -1915,8 +1942,21 @@ If the ball is already at the placement position (for example after a failed fre
 <i class="fa icon-note" title="Note"></i>
 </td>
 <td class="content">
-The ball may still be moving when the placement command is issued.
+The <span class="diff_insert">game </span><span class="diff_insert">commences </span><span class="diff_insert">directly </span><span class="diff_insert">after </span><span class="diff_insert">ball </span><span class="diff_insert">placement. </span><span class="diff_insert">The </span><span class="diff_insert">team </span><span class="diff_insert">receiving </span><span class="diff_insert">the </span>ball may <span class="diff_delete">still </span><span class="diff_delete">be </span><span class="diff_delete">moving </span><span class="diff_delete">when </span><span class="diff_insert">shoot </span><span class="diff_insert">immediately </span><span class="diff_insert">and </span><span class="diff_insert">leave </span>the <span class="diff_delete">placement </span><span class="diff_delete">command </span><span class="diff_insert">opposing </span><span class="diff_insert">team </span><span class="diff_insert">little </span><span class="diff_insert">time </span><span class="diff_insert">to </span><span class="diff_insert">arrange </span><span class="diff_insert">defensive </span><span class="diff_insert">actions </span><span class="diff_insert">if </span><span class="diff_insert">needed.
+</span></td>
+</tr>
+</table>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
 </td>
+<td class="content"><span class="diff_insert">
+It </span>is <span class="diff_delete">issued.
+</span><span class="diff_insert">allowed </span><span class="diff_insert">to </span><span class="diff_insert">enter </span><span class="diff_insert">the </span><span class="diff_insert">defense </span><span class="diff_insert">area </span><span class="diff_insert">during </span><span class="diff_insert">ball </span><span class="diff_insert">placement.
+</span></td>
 </tr>
 </table>
 </div>
@@ -3571,7 +3611,7 @@ Note that the information shown in this table here is incomplete. Please read th
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated <span class="diff_delete">2020-02-26 </span><span class="diff_delete">19:49:06 </span><span class="diff_insert">2020-03-03 </span><span class="diff_insert">20:50:47 </span>UTC
+Last updated <span class="diff_delete">2020-02-26 </span><span class="diff_delete">19:49:06 </span><span class="diff_insert">2020-03-03 </span><span class="diff_insert">20:51:29 </span>UTC
 </div>
 </div>
 </body>
