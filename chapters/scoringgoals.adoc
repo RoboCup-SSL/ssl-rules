@@ -3,7 +3,6 @@ A goal is scored if the ball enters the goal between the goal posts, provided th
 
 Additionally, the goal is only valid if
 
-* It is not shot directly from an <<Indirect Free Kick, indirect free kick>>
 * The height of the ball did not exceed 0.15 meters after the last touch of an attacker
 
 NOTE: During <<Penalty Kick, penalty kicks>>, these additional rules do not apply.
