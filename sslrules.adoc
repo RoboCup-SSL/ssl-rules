@@ -38,6 +38,8 @@ include::chapters/shootout.adoc[]
 
 include::chapters/emergencystop.adoc[]
 
+include::chapters/challengeflag.adoc[]
+
 include::chapters/rulechanges.adoc[]
 
 include::chapters/appendix.adoc[]
