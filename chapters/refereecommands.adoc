@@ -29,6 +29,15 @@ After the game was stopped, the ball must be placed on the appropriate position,
 The automatic ball placement is the preferred way to place the ball at the designated position on the field by the robots of the teams without human interaction.
 If this is not possible, the <<Referee, referee>> places the ball manually.
 
+No ball placement is required if all of the following constraints are fulfilled:
+
+* The ball is closer than 1m to the designated position.
+* The ball is inside the field.
+* The ball is at least 0.7m away from any defense area.
+* The ball is stationary.
+
+In this case, the game can be continued as soon as all robots keep the required distance for <<Stop, stop>>.
+
 A ball is considered placed successfully by the robots if
 
 * no more than 30 seconds passed since the placement command
@@ -42,6 +51,8 @@ The game will be continued by the <<Game Controller, game controller>> as soon a
 A failed placement will result in a free kick for the opposing team.
 If this team failed to place the ball as well, the ball is placed by the <<Referee, referee>> and game continues with the original command.
 
+For each team a ball placement failure counter is incremented on each placement failure and decremented for successful placements. It can not get negative.
+
 The non-placing team must not <<Ball Placement Interference, interfere the ball placement task>>.
 
 .Usage
@@ -53,12 +64,14 @@ When the ball goes <<Ball In And Out Of Play, out of play>>, the following rules
 . The ball must be visible and must not be inside a field corner, a goal corner or behind the goal, before the ball placement starts
 . The <<Referee, referee>> can decide to place the ball manually at any time
 . The <<Referee, referee>> can decide to disable automatic ball placement for the rest of the game. TC/OC must agree with this decision
-. When a team has failed to place the ball 5 times in a row, it is not allowed to place the ball for the rest of the game half. All free kicks that were a result of the ball leaving the field, are awarded to the opposing team. For all other rule violations or when both teams failed to place the ball, the ball is placed by the <<Referee, referee>>
+. When a teams placement failure counter reached 5, it is not allowed to place the ball for the rest of the game half. All free kicks that were a result of the ball leaving the field, are awarded to the opposing team. For all other rule violations or when both teams failed to place the ball, the ball is placed by the <<Referee, referee>>
 . If no team can place the ball, the ball is placed by the <<Referee, referee>> or the <<Assistant Referee, assistant referee>>. Both the referee as well as the assistant referee are advised to use a so-called ball handler (a long, preferably black stick-like device) to move the ball.
 
-NOTE: If the ball is already at the placement position (for example after a failed free kick by the other team), the ball placement can be successful without a robot manipulating the ball. This could lead to the counter for failed attempts resetting without a contribution by the placing team.
-
 NOTE: The ball may still be moving when the placement command is issued.
+
+NOTE: The game commences directly after ball placement. The team receiving the ball may shoot immediately and leave the opposing team little time to arrange defensive actions if needed.
+
+NOTE: It is allowed to enter the defense area during ball placement.
 
 Ball placement is mandatory for all teams in division A.
 Teams in division B may decide, at any time before or during the game, not to place the ball for the rest of the game by talking to the <<Referee, referee>>, who in turn tells the <<Game Controller Operator, game controller operator>> to disable ball placement for this team.
@@ -68,8 +81,6 @@ If the opposing team fails to place the ball or no team can place the ball, it i
 
 === Resuming The Game
 After the ball has been placed, the game is resumed using one of the following commands.
-
-// In division A, the ball will be placed automatically by the robots if the following command is a free kick or force start (see <<Ball Placement>>).
 
 ==== Normal Start
 .Definition
