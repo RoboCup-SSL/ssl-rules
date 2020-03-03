@@ -29,18 +29,29 @@ After the game was stopped, the ball must be placed on the appropriate position,
 The automatic ball placement is the preferred way to place the ball at the designated position on the field by the robots of the teams without human interaction.
 If this is not possible, the <<Referee, referee>> places the ball manually.
 
+No ball placement is required if all of the following constraints are fulfilled:
+
+* The ball is closer than 1m to the designated position.
+* The ball is inside the field.
+* The ball is at least 0.7m away from any defense area.
+* The ball is stationary.
+
+In this case, the game can be continued as soon as all robots keep the required distance for <<Stop, stop>>.
+
 A ball is considered placed successfully by the robots if
 
 * no more than 30 seconds passed since the placement command
-* there is no robot within 0.05 meters distance to the ball if the next command is an <<Indirect Free Kick, indirect free kick>> or <<Direct Free Kick, direct free kick>> for the placing team
+* there is no robot within 0.05 meters distance to the ball if the next command is a <<Free Kick, free kick>> for the placing team
 * there is no robot within 0.5 meters distance to the ball if the next command is a <<Force Start, force start>>
 * the ball is stationary
 * the ball is at a position within 0.15 meters radius from the requested position
 
 No further commands will be issued by the <<Game Controller, game controller>> until the automatic placement is complete.
 The game will be continued by the <<Game Controller, game controller>> as soon as the ball is successfully placed, but not earlier than 2 seconds after the ball placement command has been issued.
-A failed placement will result in an indirect free kick for the opposing team.
+A failed placement will result in a free kick for the opposing team.
 If this team failed to place the ball as well, the ball is placed by the <<Referee, referee>> and game continues with the original command.
+
+For each team a ball placement failure counter is incremented on each placement failure and decremented for successful placements. It can not get negative.
 
 The non-placing team must not <<Ball Placement Interference, interfere the ball placement task>>.
 
@@ -48,17 +59,19 @@ The non-placing team must not <<Ball Placement Interference, interfere the ball 
 When the ball goes <<Ball In And Out Of Play, out of play>>, the following rules decide, if automatic ball placement is applied:
 
 . The <<Referee, referee>> has to place the ball for all kickoffs and all penalty kicks
-. For an <<Indirect Free Kick, indirect free kick>> or <<Direct Free Kick, direct free kick>>, the team that brings the ball <<Ball In And Out Of Play, into play>> must place the ball
+. For a <<Free Kick, free kick>>, the team that brings the ball <<Ball In And Out Of Play, into play>> must place the ball
 . For a <<Force Start, force start>>, a team is drawn by chance and must place the ball
 . The ball must be visible and must not be inside a field corner, a goal corner or behind the goal, before the ball placement starts
 . The <<Referee, referee>> can decide to place the ball manually at any time
 . The <<Referee, referee>> can decide to disable automatic ball placement for the rest of the game. TC/OC must agree with this decision
-. When a team has failed to place the ball 5 times in a row, it is not allowed to place the ball for the rest of the game half. All free kicks that were a result of the ball leaving the field, are awarded to the opposing team. For all other rule violations or when both teams failed to place the ball, the ball is placed by the <<Referee, referee>>
+. When a teams placement failure counter reached 5, it is not allowed to place the ball for the rest of the game half. All free kicks that were a result of the ball leaving the field, are awarded to the opposing team. For all other rule violations or when both teams failed to place the ball, the ball is placed by the <<Referee, referee>>
 . If no team can place the ball, the ball is placed by the <<Referee, referee>> or the <<Assistant Referee, assistant referee>>. Both the referee as well as the assistant referee are advised to use a so-called ball handler (a long, preferably black stick-like device) to move the ball.
 
-NOTE: If the ball is already at the placement position (for example after a failed free kick by the other team), the ball placement can be successful without a robot manipulating the ball. This could lead to the counter for failed attempts resetting without a contribution by the placing team.
-
 NOTE: The ball may still be moving when the placement command is issued.
+
+NOTE: The game commences directly after ball placement. The team receiving the ball may shoot immediately and leave the opposing team little time to arrange defensive actions if needed.
+
+NOTE: It is allowed to enter the defense area during ball placement.
 
 Ball placement is mandatory for all teams in division A.
 Teams in division B may decide, at any time before or during the game, not to place the ball for the rest of the game by talking to the <<Referee, referee>>, who in turn tells the <<Game Controller Operator, game controller operator>> to disable ball placement for this team.
@@ -69,14 +82,12 @@ If the opposing team fails to place the ball or no team can place the ball, it i
 === Resuming The Game
 After the ball has been placed, the game is resumed using one of the following commands.
 
-// In division A, the ball will be placed automatically by the robots if the following command is a free kick or force start (see <<Ball Placement>>).
-
 ==== Normal Start
 .Definition
 For two-staged referee commands, when normal start is sent, an attacker may <<Ball Manipulation, manipulate the ball>>. A match cannot be resumed directly via normal start.
 
 .Usage
-Normal start is used for <<Kick-Off, kick-offs>>, <<Penalty Kick, penalty kicks>> and <<Shoot-Out, shoot-out>>.
+Normal start is used for <<Kick-Off, kick-offs>> and <<Penalty Kick, penalty kicks>>.
 
 ==== Kick-Off
 .Definition
@@ -93,29 +104,16 @@ Both half times as well as both overtime periods (if needed) start with a kick-o
 
 Additionally, after a goal has been scored, the receiving team restarts the game with a kick-off.
 
-==== Direct Free Kick
+==== Free Kick
 .Definition
 The ball placement position for a free kick depends on the event that led to the free kick. This position is valid if there is at least 0.2 meters distance to all <<Field Lines, field lines>> and 1 meter distance to either <<Defense Area, defense area>>. If an event requires the ball to be placed at a position that contravenes this rule, it has to be placed at the closest valid position instead.
 
-When the direct free kick command is issued, robots of the attacking team are allowed to approach the ball while robots of the defending team still have to stay at least 0.5 meters distance away from the ball (the same distance as in stop). One robot of the attacking team is allowed to shoot the ball. This robot will be referred to as the kicker. A goal may be scored directly from the direct free kick.
+When the free kick command is issued, robots of the attacking team are allowed to approach the ball while robots of the defending team still have to stay at least 0.5 meters distance away from the ball (the same distance as in stop). One robot of the attacking team is allowed to shoot the ball. This robot will be referred to as the kicker. A goal may be scored directly from the free kick.
 
 When the ball is <<Ball In And Out Of Play, in play>>, the kicker may not touch the ball until it has been touched by another robot or the game has been stopped (see <<Double Touch, double touch>>). Also, the restrictions regarding the robot positions are lifted.
 
 .Usage
-Direct free kicks are used to restart the game after a <<Fouls, foul>> has occured. Additionally, <<Goal Kick, goal kicks>> and <<Corner Kick, corner kicks>> are mapped to direct free kicks.
-
-==== Indirect Free Kick
-.Definition
-An indirect free kick behaves like a <<Direct Free Kick,direct free kick>>, except: After an indirect free kick, a goal can only be scored if the ball touches a robot of the attacking team after the ball <<Resuming The Game, entered play>> and before it entering the goal of the defending team. If the ball enters the goal of the defending team without touching an attacking robot, it will be treated like it crossed the goal line outside the goal.
-
-If the ball enters the goal of the attacking team (an own goal), a goal will be awarded to the defending team.
-
-NOTE: Scoring a goal from an indirect free kick does not require more than one attacking robot. The goal can also be shot by the same robot that kicked the free kick if a robot of the defending team touches the ball before the attacker shoots the goal.
-
-NOTE: In association football, it is sufficient if any player (including the keeper) touches the ball before it enters the goal. To discourage the teams to shoot directly at the goal and hope that the keeper touches it, the rules of the Small Size League require a second touch of an attacking robot.
-
-.Usage
-Indirect free kicks are used to restart the game after a <<Minor Offenses, minor offense>> has occured. Additionally, <<Throw-In, throw-ins>> are mapped to indirect free kicks.
+free kicks are used to restart the game after a <<Fouls, foul>> has occurred. Additionally, <<Goal Kick, goal kicks>> and <<Corner Kick, corner kicks>> are mapped to free kicks.
 
 ==== Force Start
 .Definition
@@ -128,17 +126,33 @@ It can also be used to resume the game when the game had to be stopped and no te
 
 ==== Penalty Kick
 .Definition
-To initiate a penalty kick, the stop command has to be sent and the ball has to be placed on the <<Penalty Mark, penalty mark>> by the human <<Referee, referee>>.
+The procedure of a penalty kick is as follows:
 
-When the penalty command is issued, one attacking robot is allowed to approach but not touch the ball. This robot will be referred to as the kicker. The defending keeper has to touch the goal line. All other robots have to move behind a line parallel to the goal line and 0.4 meters behind the penalty mark. When these constraints are met, the referee may continue with a <<Normal Start, normal start>> command.
+. The ball is placed by the human referee on the <<Penalty Mark, penalty mark>>.
+. When the <<Penalty Kick, penalty>> command is issued
+.. The defending keeper has to move to the goal line and keep touching it
+.. One attacking robot is allowed to approach the ball but not touch the ball
+.. All other robots have to be 1m behind the ball such that they do not interfere the penalty kick procedure at any time.
+. When the <<Normal Start, normal start>> command is issued, the attacker is allowed to <<Ball Manipulation, manipulate the ball>>. The ball has to only move towards the opponent goal, as measured by its x coordinate in the coordinate system of <<Vision, SSL-Vision>>.
+. When the ball is <<Ball In And Out Of Play, in play>>, the defending keeper may move freely again
 
-When the <<Normal Start, normal start>> command is issued, the kicker is allowed to shoot the ball. A goal may be scored directly from the penalty kick.
+A goal is awarded if:
+
+* the ball touches the inner surface of a goal wall or the ground of the goal of the defending team in less than 10 seconds, starting from when the <<Normal Start, normal start>> command is issued
+* the defending team violates any rule
+
+A goal is not awarded if:
+
+* the ball crosses any <<Field Lines, field lines>> outside the goal
+* the defending keeper touches the ball such that the ball speed vector changes direction by at least 90 degrees in 2D space
+* the attacking team violates any rule
+
+NOTE: The restrictions defined for <<Scoring Goals, scoring goals>>, including the ball height limit of 0.15 meters, do not apply here.
+Other rules like the <<Excessive Dribbling, excessive dribbling>> limitation for example do.
 
 When the ball is <<Ball In And Out Of Play, in play>>, the kicker may not touch the ball until it has been touched by another robot or the game has been stopped (see <<Double Touch, double touch>>). Also, the restrictions regarding the robot positions are lifted.
 
 Additional time is allowed for a penalty kick to be taken at the end of each half or at the end of periods of overtime.
-
-The penalty kick is retaken if the attacking team infringes the rules and the ball enters the goal or the defending team infringes the rules and the ball does not enter the goal.
 
 .Usage
 Penalty Kicks are used to punish <<Unsporting Behavior, unsporting behavior>> and <<Multiple Defenders, multiple defenders>>.
@@ -148,11 +162,18 @@ Penalty Kicks are used to punish <<Unsporting Behavior, unsporting behavior>> an
 
 ==== Yellow Card
 .Definition
-A yellow card can only be given during <<Halt, halt>>.
 
-If the yellow card is shown as a result of <<Unsporting Behavior, unsporting behavior>>, the referee may decide to immediately <<Halt, halt>> the match. In this case, the match continues with a direct free kick for the other team.
+If the yellow card is shown as a result of <<Unsporting Behavior, unsporting behavior>>, the referee may decide to immediately <<Halt, halt>> the match. In this case, the match continues with a free kick for the other team.
 
-Upon receipt of a yellow card, the number of robots allowed on the field for the penalized team decreases by one. If, after this decrease, the team has more robots than permitted on the field, a robot must be <<Robot Substitution, taken out>> before <<Resuming The Game, play resumes>>. The penalized team can choose the robot to remove.
+Upon receipt of a yellow card, the number of robots allowed on the field for the penalized team decreases by one. If, after this decrease, the team has more robots than permitted on the field, a robot must be <<Robot Substitution, taken out>>.
+
+A yellow card does not lead to a stop automatically. If the the ball is <<Ball In And Out Of Play, in play>>, the team will have 10 seconds to <<Robot Substitution, automatically remove the robot>>. If a robot is not taken out within time, the game is stopped for <<Robot Substitution, manual substitution>>.
+
+NOTE: This rule implies that after receiving a yellow card, the game might not be automatically stopped. However, the game will be stopped if the foul that led to the yellow card causes a game stoppage, e.g. dropping parts. Therefore, if one of those fouls occurred, the team is allowed to manually remove the robot.
+
+NOTE: In 2020 no penalty will be given to the team that couldn't get the robot out of the field in time. Thus, the game shall be restarted using a force start. However, in 2021, if the robot gets manually substituted, the ball is placed on the mid line and 1.5 meters away from the teams defense area and the opposing team gets a free kick.
+
+A team cannot score a goal while having more than the allowed number of robots on the field.
 
 After 120 seconds of playing time (measured by the game controller), the yellow card expires and the number of allowed robots is increased by one. The team may <<Robot Substitution, put a robot back in>> during the next opportunity.
 
@@ -165,7 +186,7 @@ Yellow cards can also be given by the referee to punish <<Fouls, fouls>> or <<Un
 
 ==== Red Card
 .Definition
-A red card behaves like a <<Yellow Card, yellow card>>, exept: It does not expire until the end of the game.
+A red card behaves like a <<Yellow Card, yellow card>>, except: It does not expire until the end of the game.
 
 .Usage
 Red cards are given by the referee to punish severe <<Fouls, fouls>> or <<Unsporting Behavior,unsporting behavior>>.

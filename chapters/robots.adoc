@@ -1,7 +1,7 @@
 == Robots
 
 === Number Of Robots
-A match is played by two teams, with each team consisting of not more than 8 robots in division A and not more than 6 robots in division B, one of which may be the keeper. Each robot must be clearly numbered according to its vision pattern so that the referee can identify it during the match. The id of the keeper must be chosen before the match starts (see <<Choosing Keeper Id>>).
+A match is played by two teams, with each team consisting of not more than 11 robots in division A and not more than 6 robots in division B, one of which may be the keeper. Each robot must be clearly numbered according to its vision pattern so that the referee can identify it during the match. The id of the keeper must be chosen before the match starts (see <<Choosing Keeper Id>>).
 
 === Hardware And Software Constraints
 The <<Referee, referee>> may force a team to remove a robot from the field if it does not satisfy the rules. Members of the <<Technical Committee, technical committee>> may also check the hardware and software constraints of robots at any point of the tournament.
@@ -41,7 +41,7 @@ NOTE: Teams are encouraged to prefer color assignments with ids 0 to 7 because t
 
 .Standard Vision Pattern Colors
 [[standard-vision-colors]]
-image::standard_colors2010.png[width=500]
+image::standard_colors2010.svg[width=500]
 
 ==== Radio Communication
 Participants using wireless communications must notify the <<Organizing Committee, organizing committee>> of the method of wireless communication, power, and frequency. The <<Organizing Committee, organizing committee>> must be notified of any change after registration as soon as possible. In order to avoid interference, a team must be able to select from two carrier frequencies before the match. The type of wireless communication has to follow legal regulations of the country where the competition is held. Compliance with local laws is the responsibility of the competing teams, not the RoboCup Federation.
