@@ -55,38 +55,45 @@ Chapter <<Scoring Goals>>:
 | Invalid Goal | <<Ball In And Out Of Play, ball in play>> | <<Stop>>, then <<Free Kick>> | icon:check[role="green"]
 |===
 
-Chapter <<Offenses>>, section <<Minor Offenses>>:
+Chapter <<Rule Violations>>, section <<Stopping Offenses>>:
 |===
 | Event | Applicability | Command | AutoRef
 
 | <<Aimless Kick [small]#(_division B only_)#, Aimless Kick>> | <<Ball In And Out Of Play, ball in play>> | <<Stop>>, then <<Free Kick>> | icon:check[role="green"]
-| <<Lack Of Progress>> | <<Ball In And Out Of Play, ball in play>> | <<Stop>>, then <<Free Kick>> | icon:check[role="green"]
+| <<Lack Of Progress>> during <<Kick-Off>>, <<Free Kick>> | <<Ball In And Out Of Play, ball in play>> | Ball is considered in-play and manipulatable by both teams | icon:check[role="green"]
+| <<Lack Of Progress>> ball in <<Defense Area, defense area>> | <<Ball In And Out Of Play, ball in play>> | <<Indirect Free Kick, indirect free kick>> | icon:check[role="green"]
+| <<Lack Of Progress>>, otherwise | <<Ball In And Out Of Play, ball in play>> | <<Stop>>, then <<Force Start>> | icon:check[role="green"]
 | <<Double Touch>> | <<Ball In And Out Of Play, ball in play>> | <<Stop>>, then <<Free Kick>> | icon:check[role="green"]
-| <<Attacker In Defense Area>> | <<Ball In And Out Of Play, ball in play>> | <<Stop>>, then <<Free Kick>> | icon:check[role="green"]
-| <<Attacker Touches Robot In Opponent Defense Area>> skipped | <<Ball In And Out Of Play, ball in play>> | no command | icon:check[role="green"] (<<Advantage Rule>>)
-| <<Excessive Dribbling>> | <<Ball In And Out Of Play, ball in play>> | <<Stop>>, then <<Free Kick>> | icon:check[role="green"]
-| <<Ball Speed>> | <<Ball In And Out Of Play, ball in play>> | <<Stop>>, then <<Free Kick>> | icon:check[role="green"]
 |===
 
 
-Chapter <<Offenses>>, section <<Fouls>>:
+Chapter <<Reul Violations>>, section <<Stopping Fouls>>:
 |===
 | Event | Applicability | Command | AutoRef
-
-| Multiple <<Fouls>> | <<Ball In And Out Of Play, ball out of play>> | <<Yellow Card>> | icon:times[role="red"] (handled by the game controller)
-| <<Attacker Touches Robot In Opponent Defense Area>> | <<Ball In And Out Of Play, ball in play>> | <<Stop>>, then <<Free Kick>> | icon:check[role="green"]
+| Multiple <<Fouls>> | <<Ball In And Out Of Play, ball out of play>> |
+  <<Yellow Card>> | icon:times[role="red"] (handled by the game
+  controller)
 | <<Robot Too Close To Opponent Defense Area>> | <<Ball In And Out Of Play, ball out of play>> | <<Stop>>, then <<Free Kick>> | icon:check[role="green"]
-| <<Ball Placement Interference>> | during <<Ball Placement>> | <<Stop>>, then <<Free Kick>> | icon:check[role="green"]
-| <<Crashing>> | always | <<Stop>>, then <<Free Kick>> | icon:check[role="green"]
-| <<Crashing>> skipped | always | no command | icon:check[role="green"] (<<Advantage Rule>>)
-| <<Crashing>> draw | always | no command | icon:check[role="green"]
 | <<Pushing>> | always | <<Stop>>, then <<Free Kick>> | icon:times[role="red"]
 | <<Ball Holding>> | <<Ball In And Out Of Play, ball in play>> | <<Stop>>, then <<Free Kick>> | icon:check[role="green"]
 | <<Tipping Over Or Dropping Parts>> | always | <<Stop>>, then <<Free Kick>> | icon:times[role="red"]
 | <<Robot Stop Speed>> | during <<Stop>> | <<Stop>>, then <<Free Kick>> | icon:check[role="green"]
-| <<Defender Too Close To Ball>> | <<Ball In And Out Of Play, ball out of play>> | <<Stop>>, then <<Free Kick>> | icon:check[role="green"]
 | <<Multiple Defenders>> partially | <<Ball In And Out Of Play, ball in play>> | <<Stop>>, then <<Free Kick>>, <<Yellow Card>> | icon:check[role="green"]
 | <<Multiple Defenders>> entirely | <<Ball In And Out Of Play, ball in play>> | <<Stop>>, then <<Penalty Kick>> | icon:check[role="green"]
+| <<Boundary Crossing>> | <<Ball In And Out Of Play, ball in play>> |<<Stop>> then  <<Free Kick>> | 
+|===
+
+
+Chapter <<Rule Violations>> section <<No Stop Fouls>>:
+
+|===
+| <<Attacker In Defense Area>> | <<Ball In And Out Of Play, ball in play>> | <<No Stop Fouls, No goal timer>> increase | icon:check[role="green"]
+| <<Attacker Touches Robot In Opponent Defense Area>> skipped | <<Ball In And Out Of Play, ball in play>> | <<No Stop Fouls, No goal timer>> increase | icon:check[role="green"]
+| <<Excessive Dribbling>> | <<Ball In And Out Of Play, ball in play>> | <<No Stop Fouls, No goal timer>> increase| icon:check[role="green"]
+| <<Ball Speed>> | <<Ball In And Out Of Play, ball in play>> | <<No Stop Fouls, No goal timer>> increase| icon:check[role="green"]
+| <<Defender Too Close To Ball>> | <<Ball In And Out Of Play, ball out of play>> | <<No Stop Fouls, No goal timer>> increase | icon:check[role="green"]
+| <<Crashing>> | always | <<No Stop Fouls, No goal timer>> increase | icon:check[role="green"]
+| <<Crashing>> draw | always | no command | icon:check[role="green"]
 |===
 
 Chapter <<Offenses>>, section <<Unsporting Behavior>>:
@@ -114,3 +121,4 @@ This is a complete list of differences between <<Divisions, division>> A and <<D
 * The automatic <<Ball Placement, ball placement>> procedure is mandatory for division A and optional for division B.
 * The <<Aimless Kick [small]#(_division B only_)#, aimless kick>> rule only applies to division B.
 * There is a smaller time window in division A for taking a free kick before <<Lack Of Progress, lack of progress>> is called.
+* Division A has a shorter <<Lack Of Progress, lack of progress>> timeout in some situations

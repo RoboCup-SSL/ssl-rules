@@ -1,24 +1,95 @@
-== Offenses
-Offenses are divided into multiple categories according to the seriousness of the offense: <<Minor Offenses, minor offenses>>, <<Fouls, fouls>> and <<Unsporting Behavior, unsporting behavior>>.
+== Rule Violations
 
-NOTE: Rule of thumb: Minor offenses are infringements of the rules committed by an attacking robot while the ball is <<Ball In And Out Of Play, in play>>. Fouls are infringements of the rules committed by a defender or while the ball is <<Ball In And Out Of Play, out of play>> or infringements that may harm the humans, the robots or the field.
+Rule violations can be broadly divided into two categories:
+<<Offenses>> and <<Fouls>>. The main difference being that fouls
+increase the <<Foul Counter, foul counter>> which can lead to
+additional penalties, such as <<Yellow Card, yellow cards>>.
 
-=== Minor Offenses
-Minor offenses are violations of the rules that result in a stoppage and a subsequent <<Free Kick, free kick>> for the opposing team. The free kick will be shot from the position where the ball was located when the offense began happening (see <<Free Kick, the free kick rules>> for the exact ball position rules).
+There are two broad classesof punishments for rule violations:
 
-All minor offenses are listed below.
+- <<Stop, stop>> followed by a <<Free Kick, free kick>>
+- Increase the <<No Stop Foul, no goal timer>>
+
+Additionally, some violations are handled specially based on the
+referee's discretion including, but not limited to, <<Unsporting
+Behavior, unsporting behavior>> and <<Damaging Other Robots, damaging
+other robots>>.
+
+The remainder of this section is broken down as follow:
+
+- <<Stopping Offenses>>
+- <<Fouls>>
+  - <<Stopping Fouls>>
+  - <<No Stop Fouls>>
+- <<Ball Placement Violations>>
+- <<General Violations>>
+
+NOTE: Regardless, of the prescribed penalties in this section, if a
+foul is severe or repeated, the referee can choose to immediately
+issue a <<Yellow Card, yellow card>> or in extreme cases a <<Red Card,
+red card>>.
+
+=== Simultaneous Offenses
+If the game is <<Stop, stopped>> and a team is allowed to <<Resuming The Game, resume the game>>, <<Minor Offenses, minor offenses>> and <<Fouls, fouls>> of this team's opponent don't affect the method and position of the resumption of the game, except if the resulting method is a <<Penalty Kick, penalty kick>>.
+
+If a team exploits this rule, the referee may punish this team for <<Unsporting Behavior,unsporting behavior>> by issuing a <<Yellow Card, yellow card>>.
+
+NOTE: This rule is in place to prevent teams from purposely committing offenses in order to relocate the opponent <<Free Kick,free kick>> to a more favorable position.
+
+
+=== Stopping Offenses
+
+These Offenses result in a <<Stop, stop>> followed by a <<Free Kick, free kick>>. The rules for ball placement of the
+kick are described in <<Free Kick, the free kick rules>>.
+
 
 ==== Aimless Kick [small]#(_division B only_)#
 A kick is aimless when after the ball touched a robot, it subsequently crossed the midline and then its opponent's goal line outside the goal without touching another robot. A kick-off kick cannot be aimless, as the ball is located at the midline and does therefore not cross it.
 
 ==== Lack Of Progress
-There is a lack of progress if only one team is allowed to <<Ball Manipulation, manipulate the ball>> (<<Kick-Off, kick-off>>, <<Free Kick, free kick>>, <<Penalty Kick, penalty kick>>) and does not bring the ball <<Ball In And Out Of Play, into play>> in time. The time limit is 5 seconds for <<Free Kick, free kicks>> in division A and 10 seconds in all other cases.
 
-There is also a lack of progress if the ball is inside a team's <<Defense Area, defense area>> for 10 seconds, since the keeper is the only robot that is allowed to <<Ball Manipulation, manipulate the ball>>.
+There is a lack of progress if only one team is allowed to <<Ball
+Manipulation, manipulate the ball>> (<<Kick-Off, kick-off>>, <<Direct
+Free Kick, direct free kick>>, <<Indirect Free Kick, indirect free
+kick>>, <<Penalty Kick, penalty kick>>) and does not bring the ball
+<<Ball In And Out Of Play, into play>> in time. The time before lack
+of progress is called is described in the table: <<lack-of-progress-timings>>.
 
-NOTE: If both teams are allowed to manipulate the ball, and thus no team is at fault, the referee may stop the game and issue a <<Force Start, force start>> command.
+[frame="topbot",options="header"]
+.Lack Of Progress Timings
+[[lack-of-progress-timings]]
+|=============================================================================
+| Situation                                                                   | Div A Time | Div B Time
+| <<Kick-Off, kick-off>>                                                     | 10 s       | 10 s
+| <<Penalty Kick, penalty kick>>                                          | 10 s       | 10 s               
+| <<Direct Free Kick, direct free kick>>                                 | 5 s        | 10 s        
+| <<Indirect Free Kick, indirect free kick>>                            | 5 s        | 10 s                  
+| Ball inside <<Defense Area, defense area>>                              | 5 s        | 10 s                  
+| Both teams can manipulate, no progress                                      | 5 s        | 10 s                  
+| Neither team can bring ball <<Ball In And Out Of Play, into play>>  | 5 s        | 10 s                  
+|=============================================================================
 
-NOTE: If both teams are clearly unable to bring the ball <<Ball In And Out Of Play, into play>> without violating the rules, the referee may issue a <<Force Start, force start>> command instead of an <<Free Kick, free kick>> for the other team.
+
+If there is a lack of progress due to the ball being inside a team's
+<<Defense Area, defense area>> past the timeout, then a <<Indirect Free
+Kick, indirect free kick>> is issued for the attacking team.
+
+In the case of <<Kick-Off, kick-off>>, <<Direct Free Kick, direct free
+kick>>, <<Indirect Free Kick, indirect free kick>>, after the time
+expires the ball is considered <<Ball In And Out Of Play, in play>>
+and both teams may manipulate the ball.
+
+In all other cases a <<Stop, stop>> is issued followed by a <<Force Start,
+forced start>>
+This includes situations where both teams can manipulate the ball, but
+the referee determines that no progress is being made.
+
+==== Double Touch
+When the ball is brought <<Ball In And Out Of Play, into play>> following a <<Kick-Off, kick-off>>, <<Direct Free Kick, direct free kick>>, <<Indirect Free Kick, indirect free kick>> or <<Penalty Kick, penalty kick>>, the kicker is not allowed to touch the ball until it has been touched by another robot or the game has been stopped.
+
+The ball must have moved at least 0.05 meters to be considered as <<Ball In And Out Of Play, in play>>.
+
+NOTE: It is understood that the ball may be bumped by the robot multiple times over a short distance while the kick is being taken. This is why a distance of 0.05 meters is used to decide whether a robot violates this rule or not. Remaining in contact with the ball for more than 0.05 meters also counts as double touch, even though technically the robot only touched the ball once.
 
 ==== Double Touch
 When the ball is brought <<Ball In And Out Of Play, into play>> following a <<Kick-Off, kick-off>>, <<Free Kick, free kick>> or <<Penalty Kick, penalty kick>>, the kicker is not allowed to touch the ball until it has been touched by another robot or the game has been stopped.
@@ -27,126 +98,155 @@ The ball must have moved at least 0.05 meters to be considered as <<Ball In And 
 
 NOTE: It is understood that the ball may be bumped by the robot multiple times over a short distance while the kick is being taken. This is why a distance of 0.05 meters is used to decide whether a robot violates this rule or not. Remaining in contact with the ball for more than 0.05 meters also counts as double touch, even though technically the robot only touched the ball once.
 
-==== Attacker In Defense Area
-A robot must not touch the ball while being partially or fully inside the opponent <<Defense Area, defense area>>.
-
-NOTE: When the ball is <<Ball In And Out Of Play, out of play>>, the more strict rule <<Robot Too Close To Opponent Defense Area>> applies instead.
-
-==== Excessive Dribbling
-A robot must not <<Dribbling Device, dribble>> the ball further than 1 meter, measured linearly from the ball location where the dribbling started. A robot begins dribbling when it makes contact with the ball and stops dribbling when there is an observable separation between the ball and the robot.
-
-NOTE: Dribblers can still be used to dribble large distances with the ball as long as the robot periodically loses possession, such as kicking the ball ahead of it as human soccer players often do.
-
-==== Ball Speed
-A robot must not accelerate the ball faster than 6.5 meters per second in 3D space.
 
 === Fouls
-Fouls are violations of the rules that result in a <<Free Kick, free kick>> for the opposing team. The free kick will be shot from the position where the ball was located when the offense began happening (see <<Free Kick, the free kick rules>> for the exact ball position rules). If the foul happened while the ball is <<Ball In And Out Of Play, out of play>>, no free kick is given.
 
-Every third foul of the same team results in a <<Yellow Card, yellow card>>.
+The number of fouls per team is tracked by a counter. Each foul will
+increase the counter by one. Every third increase to the foul counter
+causes a <<Yellow Card, yellow card>> to be awarded.
 
-In case of severe fouls, the referee can also issue a <<Yellow Card, yellow card>> or a <<Red Card, red card>>.
+Every violation in this section and its subsections increase the foul
+counter.
 
-All fouls are listed below.
+Fouls are further subdivided into <<Stopping Fouls>> and <<No Stop
+Fouls>>. Stopping fouls cause a <<Stop, stop>> to be issued and the
+game to resume with a <<Free Kick, free kick>>. No stop
+fouls do not cause a change in the game state, however, time is added
+to a <<No Stop Foul, no goal timer>>.
 
-==== Attacker Touches Robot In Opponent Defense Area
-When the ball <<Ball In And Out Of Play, in play>>, a robot must not touch any opponent robot inside the opponent <<Defense Area, defense area>>.
 
-NOTE: When the ball is <<Ball In And Out Of Play, out of play>>, the rule <<Robot Too Close To Opponent Defense Area>> applies instead.
+==== Stopping Fouls
 
-==== Robot Too Close To Opponent Defense Area
+Fouls in this section cause the game to <<Stop, stop>> and then resume
+with a <<Fre Kick, free kick>>. Like other fouls, this
+also increases the <<Fouls, foul counter>>.
+
+
+===== Robot Too Close To Opponent Defense Area
 During <<Stop, stop>> and <<Free Kick, free kicks>>, before the ball <<Resuming The Game, has entered play>>, all robots have to keep at least 0.2 meters distance to the opponent <<Defense Area, defense area>>.
 
 There is a grace period of 2 seconds for the robots to move away from the opponent defense area.
 
-==== Ball Placement Interference
-During <<Ball Placement, ball placement>>, all robots of the non-placing team have to keep at least 0.5 meters distance to the line between the ball and the placement position (the forbidden area forms a stadium shape).
-
-If a robot of the non-placing team is too close to the line between the ball and the placement position for more than 2 seconds, it commits a foul.
-In this case, the placement procedure is restarted.
-
-NOTE: This rule does not cover all cases of ball placement interference. The <<Referee, referee>> is encouraged to call fouls if the non-placing team is obviously interfering with the ball placement.
-
-==== Crashing
-At the moment of collision of two robots of different teams, the difference of the speed vectors of both robots is taken and projected onto the line that is defined by the position of both robots. If the length of this projection is greater than 1.5 meters per second, the faster robot committed a foul. If the absolute robot speed difference is less than 0.3 meters per second, both conduct a foul but the game will not be stopped.
-
-==== Pushing
+===== Pushing
 A robot pushes an opponent robot if both robots keep contact to the ball or to each other while the robot exerts force onto the opponent robot, such that both robots travel towards the opponent robot.
 
 NOTE: If both robots are pushing each other with similar force, no team is at fault.
 
-==== Ball Holding
+===== Ball Holding
 Robots must not surround the ball to prevent access by others.
 
-==== Tipping Over Or Dropping Parts
+===== Tipping Over Or Dropping Parts
 A robot must not tip over, break or drop parts on the field that pose a potential threat to other robots.
 
 A robot violating this rule has to be <<Robot Substitution, substituted>>.
 
 NOTE: Metal parts (screws for example) as well as larger parts generally pose a potential threat, very small non-metal parts (for example rubber subwheel rings) don't.
 
-==== Robot Stop Speed
+===== Robot Stop Speed
 A robot must not move faster than 1.5 meters per second during <<Stop, stop>>. A violation of this rule is only counted once per robot and stoppage.
 
 There is a grace period of 2 seconds for the robots to slow down.
 
 NOTE: This rule does not apply to <<Ball Placement, ball placement>>.
 
-NOTE: Since the stop command is used for manual ball placement and <<Robot Substitution, robot substitution>>, the intention of the robot speed limit is to avoid robots harming the people on the field.
+NOTE: Since the stop command is used for manual ball placement and
+<<Robot Substitution, robot substitution>>, the intention of the robot
+speed limit is to avoid robots harming the people on the field.
 
-==== Defender Too Close To Ball
-A robot's distance to the ball must be at least 0.5 meters during an opponent <<Kick-Off, kick-off>> or <<Free Kick, free kick>>.
-The game is resumed with the same command that was issued before the foul.
-
-NOTE: During <<Stop, stop>>, there is no automatic sanction for being too close to the ball. The referee may still punish a team for <<Unsporting Behavior,unsporting behavior>> by issuing a <<Yellow Card, yellow card>> if it does not respect the required distance. See <<Stop, stop>> for further explanation.
-
-==== Multiple Defenders
+===== Multiple Defenders
 NOTE: This rule does not use the standard sanctions defined for <<Fouls, fouls>>.
 
 If a robot other than the keeper touches the ball while being partially inside its own defense area, the game is stopped, the robot receives a <<Yellow Card, yellow card>> and the opponent team resumes the game with a <<Free Kick, free kick>>. The foul counter is not increased.
 
-If a robot other than the keeper touches the ball while being entirely inside its own defense area, the game is stopped and a <<Penalty Kick, penalty kick>> is awarded to the other team. The foul counter is not increased.
+If a robot other than the keeper touches the ball while being entirely
+inside its own defense area, the game is stopped and a <<Penalty Kick,
+penalty kick>> is awarded to the other team. The foul counter is not
+increased.
 
-==== Boundary Crossing
+===== Boundary Crossing
 A robot must not kick the ball over the field boundary such that the ball leaves the field.
 
 
-=== Unsporting Behavior
+==== No Stop Fouls
+
+Violations in this section are fouls, but they do not cause a <<Stop,
+stop>>. Instead, the game continues but time is added to a per-team no
+goal timer. Any goal scored by the team while this timer has time
+remaining is <<Scoring Goals, considered invalid>>.
+
+Each violation adds 2 seconds to the timer. The timer is cleared if
+the opposing team scores a <<Scoring Goals, valid goal>> causing a
+<<Kick-Off, kick-off>>. The timer is also cleared at half-time and at
+overtime.
+
+The same no stop foul cannot be triggered again until the foul
+condition has stopped being violated or there has been 1 second since
+the foul was first triggered. This is to allow teams to adjust their
+robots' positions, ball speed or any other property that is causing
+the violation before being penalized additional times.
+
+===== Attacker In Defense Area
+A robot must not touch the ball while being partially or fully inside the opponent <<Defense Area, defense area>>.
+
+NOTE: When the ball is <<Ball In And Out Of Play, out of play>>, the more strict rule <<Robot Too Close To Opponent Defense Area>> applies instead.
+
+===== Excessive Dribbling
+A robot must not <<Dribbling Device, dribble>> the ball further than 1 meter, measured linearly from the ball location where the dribbling started. A robot begins dribbling when it makes contact with the ball and stops dribbling when there is an observable separation between the ball and the robot.
+
+NOTE: Dribblers can still be used to dribble large distances with the ball as long as the robot periodically loses possession, such as kicking the ball ahead of it as human soccer players often do.
+
+===== Ball Speed
+A robot must not accelerate the ball faster than 6.5 meters per second in 3D space.
+
+===== Defender Too Close To Ball
+A robot's distance to the ball must be at least 0.5 meters during an opponent <<Kick-Off, kick-off>>, <<Free Kick, free kick>>.
+The game is resumed with the same command that was issued before the foul.
+
+NOTE: During <<Stop, stop>>, there is no automatic sanction for being too close to the ball. The referee may still punish a team for <<Unsporting Behavior,unsporting behavior>> by issuing a <<Yellow Card, yellow card>> if it does not respect the required distance. See <<Stop, stop>> for further explanation.
+
+===== Attacker Touches Robot In Opponent Defense Area
+When the ball <<Ball In And Out Of Play, in play>>, a robot must not touch any opponent robot inside the opponent <<Defense Area, defense area>>.
+
+NOTE: When the ball is <<Ball In And Out Of Play, out of play>>, the rule <<Robot Too Close To Opponent Defense Area>> applies instead.
+
+
+===== Crashing
+At the moment of collision of two robots of different teams, the difference of the speed vectors of both robots is taken and projected onto the line that is defined by the position of both robots. If the length of this projection is greater than 1.5 meters per second, the faster robot committed a foul. If the absolute robot speed difference is less than 0.3 meters per second, both conduct a foul but the game will not be stopped.
+
+
+=== Ball Placement Violations
+
+==== Ball Placement Interference
+During <<Ball Placement, ball placement>>, all robots of the non-placing team have to keep at least 0.5 meters distance to the line between the ball and the placement position (the forbidden area forms a stadium shape).
+
+
+If a robot of the non-placing team is too close to the line between
+the ball and the placement position for more than 2 seconds, it
+commits a foul. In this case, 10 seconds are added to the ball
+placement timer
+
+NOTE: This rule does not cover all cases of ball placement interference. The <<Referee, referee>> is encouraged to call fouls if the non-placing team is obviously interfering with the ball placement.
+
+
+=== General Violations
+
+
+==== Unsporting Behavior
 Unsporting behavior can lead to <<Yellow Card, yellow cards>>, <<Red Card, red cards>>, <<Penalty Kick, penalty kicks>>, a <<Forced Forfeit, forced forfeit>> or a <<Disqualification, disqualification>>. The human <<Referee, referee>> chooses an appropriate sanction, depending on the severity of the offense.
 
 NOTE: If the referee is not sure which sanction to choose, he may confer with members of the <<Technical Committee, technical committee>> or the <<Organizing Committee, organizing committee>>.
 
 Some examples of unsporting behavior are listed below.
 
-==== Damaging Other Robots
+===== Damaging Other Robots
 It is not allowed to damage or modify robots of other teams.
 
-==== Damaging The Field Or The Ball
+===== Damaging The Field Or The Ball
 It is not allowed to damage or modify the field or the ball.
 
-==== Showing Lack Of Respect
+===== Showing Lack Of Respect
 A team member must show appropriate respect to everyone involved in the game. Infringements of this rule include but are not limited to:
 
 * insulting the opponent, the <<Referee, referee>> or other persons holding an <<Impartial Roles, impartial role>>
 * annoying the <<Referee, referee>> or other persons holding an <<Impartial Roles, impartial role>>
 * not obeying the orders of the <<Referee, referee>>
-
-=== Simultaneous Offenses
-If the game is <<Stop, stopped>> and a team is allowed to <<Resuming The Game, resume the game>>, <<Minor Offenses, minor offenses>> and <<Fouls, fouls>> of this team's opponent don't affect the method and position of the resumption of the game, except if the resulting method is a <<Penalty Kick, penalty kick>>.
-
-If a team exploits this rule, the referee may punish this team for <<Unsporting Behavior,unsporting behavior>> by issuing a <<Yellow Card, yellow card>>.
-
-NOTE: This rule is in place to prevent teams from purposely committing offenses in order to relocate the opponent <<Free Kick, free kick>> to a more favorable position.
-
-=== Advantage Rule
-In certain situations, stopping the game because of a foul may have a disadvantage to the opposing team.
-As these situations are not easy to detect automatically, the opposing team is asked if it likes to continue the game.
-In this case, the game is not stopped and no free kick is awarded at any time.
-The foul counter is still incremented and any resulting cards are given when the game is <<Stop,stopped>>.
-
-.Fouls that are considered
-
-* <<Crashing>>, if not both teams committed the foul
-* <<Attacker Touches Robot In Opponent Defense Area>>
-
-NOTE: If the team is not connected to the game controller or does not reply within 0.2 seconds, the decision of the team defaults to stopping the game.
