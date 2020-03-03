@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="generator" content="Asciidoctor 2.0.10">
-<meta name="author" content="2020-02-26">
+<meta name="author" content="2020-03-03">
 <title>Rules of the RoboCup Small Size League</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
 <style>
@@ -441,7 +441,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div id="header">
 <h1>Rules of the RoboCup Small Size League</h1>
 <div class="details">
-<span id="author" class="author">2020-02-26</span><br>
+<span id="author" class="author">2020-03-03</span><br>
 </div>
 <div id="toc" class="toc">
 <div id="toctitle">Table of Contents</div>
@@ -1393,7 +1393,7 @@ If this is not possible, the <a href="#_referee">referee</a> places the ball man
 <p>no more than 30 seconds passed since the placement command</p>
 </li>
 <li>
-<p>there is no robot within 0.05 meters distance to the ball if the next command is an <a href="#_indirect_free_kick">indirect free kick</a> or <a href="#_direct_free_kick">direct free kick</a> for the placing team</p>
+<p>there is no robot within 0.05 meters distance to the ball if the next command is a <a href="#_free_kick">free kick</a> for the placing team</p>
 </li>
 <li>
 <p>there is no robot within 0.5 meters distance to the ball if the next command is a <a href="#_force_start">force start</a></p>
@@ -1409,7 +1409,7 @@ If this is not possible, the <a href="#_referee">referee</a> places the ball man
 <div class="paragraph">
 <p>No further commands will be issued by the <a href="#_game_controller">game controller</a> until the automatic placement is complete.
 The game will be continued by the <a href="#_game_controller">game controller</a> as soon as the ball is successfully placed, but not earlier than 2 seconds after the ball placement command has been issued.
-A failed placement will result in an indirect free kick for the opposing team.
+A failed placement will result in a free kick for the opposing team.
 If this team failed to place the ball as well, the ball is placed by the <a href="#_referee">referee</a> and game continues with the original command.</p>
 </div>
 <div class="paragraph">
@@ -1425,7 +1425,7 @@ If this team failed to place the ball as well, the ball is placed by the <a href
 <p>The <a href="#_referee">referee</a> has to place the ball for all kickoffs and all penalty kicks</p>
 </li>
 <li>
-<p>For an <a href="#_indirect_free_kick">indirect free kick</a> or <a href="#_direct_free_kick">direct free kick</a>, the team that brings the ball <a href="#_ball_in_and_out_of_play">into play</a> must place the ball</p>
+<p>For a <a href="#_free_kick">free kick</a>, the team that brings the ball <a href="#_ball_in_and_out_of_play">into play</a> must place the ball</p>
 </li>
 <li>
 <p>For a <a href="#_force_start">force start</a>, a team is drawn by chance and must place the ball</p>
@@ -1518,62 +1518,24 @@ If the opposing team fails to place the ball or no team can place the ball, it i
 </div>
 </div>
 <div class="sect3">
-<h4 id="_direct_free_kick">5.3.3. Direct Free Kick</h4>
+<h4 id="_free_kick">5.3.3. Free Kick</h4>
 <div class="paragraph">
 <div class="title">Definition</div>
 <p>The ball placement position for a free kick depends on the event that led to the free kick. This position is valid if there is at least 0.2 meters distance to all <a href="#_field_lines">field lines</a> and 1 meter distance to either <a href="#_defense_area">defense area</a>. If an event requires the ball to be placed at a position that contravenes this rule, it has to be placed at the closest valid position instead.</p>
 </div>
 <div class="paragraph">
-<p>When the direct free kick command is issued, robots of the attacking team are allowed to approach the ball while robots of the defending team still have to stay at least 0.5 meters distance away from the ball (the same distance as in stop). One robot of the attacking team is allowed to shoot the ball. This robot will be referred to as the kicker. A goal may be scored directly from the direct free kick.</p>
+<p>When the free kick command is issued, robots of the attacking team are allowed to approach the ball while robots of the defending team still have to stay at least 0.5 meters distance away from the ball (the same distance as in stop). One robot of the attacking team is allowed to shoot the ball. This robot will be referred to as the kicker. A goal may be scored directly from the free kick.</p>
 </div>
 <div class="paragraph">
 <p>When the ball is <a href="#_ball_in_and_out_of_play">in play</a>, the kicker may not touch the ball until it has been touched by another robot or the game has been stopped (see <a href="#_double_touch">double touch</a>). Also, the restrictions regarding the robot positions are lifted.</p>
 </div>
 <div class="paragraph">
 <div class="title">Usage</div>
-<p>Direct free kicks are used to restart the game after a <a href="#_fouls">foul</a> has occurred. Additionally, <a href="#_goal_kick">goal kicks</a> and <a href="#_corner_kick">corner kicks</a> are mapped to direct free kicks.</p>
+<p>free kicks are used to restart the game after a <a href="#_fouls">foul</a> has occurred. Additionally, <a href="#_goal_kick">goal kicks</a> and <a href="#_corner_kick">corner kicks</a> are mapped to free kicks.</p>
 </div>
 </div>
 <div class="sect3">
-<h4 id="_indirect_free_kick">5.3.4. Indirect Free Kick</h4>
-<div class="paragraph">
-<div class="title">Definition</div>
-<p>An indirect free kick behaves like a <a href="#_direct_free_kick">direct free kick</a>, except: After an indirect free kick, a goal can only be scored if the ball touches a robot of the attacking team after the ball <a href="#_resuming_the_game">entered play</a> and before it entering the goal of the defending team. If the ball enters the goal of the defending team without touching an attacking robot, it will be treated like it crossed the goal line outside the goal.</p>
-</div>
-<div class="paragraph">
-<p>If the ball enters the goal of the attacking team (an own goal), a goal will be awarded to the defending team.</p>
-</div>
-<div class="admonitionblock note">
-<table>
-<tr>
-<td class="icon">
-<i class="fa icon-note" title="Note"></i>
-</td>
-<td class="content">
-Scoring a goal from an indirect free kick does not require more than one attacking robot. The goal can also be shot by the same robot that kicked the free kick if a robot of the defending team touches the ball before the attacker shoots the goal.
-</td>
-</tr>
-</table>
-</div>
-<div class="admonitionblock note">
-<table>
-<tr>
-<td class="icon">
-<i class="fa icon-note" title="Note"></i>
-</td>
-<td class="content">
-In association football, it is sufficient if any player (including the keeper) touches the ball before it enters the goal. To discourage the teams to shoot directly at the goal and hope that the keeper touches it, the rules of the Small Size League require a second touch of an attacking robot.
-</td>
-</tr>
-</table>
-</div>
-<div class="paragraph">
-<div class="title">Usage</div>
-<p>Indirect free kicks are used to restart the game after a <a href="#_minor_offenses">minor offense</a> has occurred. Additionally, <a href="#_throw_in">throw-ins</a> are mapped to indirect free kicks.</p>
-</div>
-</div>
-<div class="sect3">
-<h4 id="_force_start">5.3.5. Force Start</h4>
+<h4 id="_force_start">5.3.4. Force Start</h4>
 <div class="paragraph">
 <div class="title">Definition</div>
 <p>When the force start command is issued, the game is immediately resumed and both teams are allowed to approach and <a href="#_ball_manipulation">manipulate the ball</a> again.</p>
@@ -1587,7 +1549,7 @@ In association football, it is sufficient if any player (including the keeper) t
 </div>
 </div>
 <div class="sect3">
-<h4 id="_penalty_kick">5.3.6. Penalty Kick</h4>
+<h4 id="_penalty_kick">5.3.5. Penalty Kick</h4>
 <div class="paragraph">
 <div class="title">Definition</div>
 <p>The procedure of a penalty kick is as follows:</p>
@@ -1681,7 +1643,7 @@ Other rules like the <a href="#_excessive_dribbling">excessive dribbling</a> lim
 <h4 id="_yellow_card">5.4.1. Yellow Card</h4>
 <div class="paragraph">
 <div class="title">Definition</div>
-<p>If the yellow card is shown as a result of <a href="#_unsporting_behavior">unsporting behavior</a>, the referee may decide to immediately <a href="#_halt">halt</a> the match. In this case, the match continues with a direct free kick for the other team.</p>
+<p>If the yellow card is shown as a result of <a href="#_unsporting_behavior">unsporting behavior</a>, the referee may decide to immediately <a href="#_halt">halt</a> the match. In this case, the match continues with a free kick for the other team.</p>
 </div>
 <div class="paragraph">
 <p>Upon receipt of a yellow card, the number of robots allowed on the field for the penalized team decreases by one. If, after this decrease, the team has more robots than permitted on the field, a robot must be <a href="#_robot_substitution">taken out</a>.</p>
@@ -1802,7 +1764,7 @@ For example, serious violent contact by the robots or disrespectful behavior tow
 <p>The ball has to be placed 0.2 meters perpendicular to the touch line where the ball crossed the touch line. Its distance to the goal lines must be at least 0.2 meters.</p>
 </div>
 <div class="paragraph">
-<p>After the ball has been placed, an <a href="#_indirect_free_kick">indirect free kick</a> is awarded to the opponent of the team that last touched the ball before it left the field.</p>
+<p>After the ball has been placed, an <a href="#_free_kick">free kick</a> is awarded to the opponent of the team that last touched the ball before it left the field.</p>
 </div>
 <div class="paragraph">
 <div class="title">Usage</div>
@@ -1822,7 +1784,7 @@ For example, serious violent contact by the robots or disrespectful behavior tow
 <p>The ball has to be placed 0.2 meters from the closest touch line and 1 meter from the goal line.</p>
 </div>
 <div class="paragraph">
-<p>After the ball has been placed, a <a href="#_direct_free_kick">direct free kick</a> is awarded to the opponent of the team that last touched the ball before it left the field.</p>
+<p>After the ball has been placed, a <a href="#_free_kick">free kick</a> is awarded to the opponent of the team that last touched the ball before it left the field.</p>
 </div>
 <div class="paragraph">
 <div class="title">Usage</div>
@@ -1848,7 +1810,7 @@ In division B, the <a href="#_aimless_kick_division_b_only">aimless kick rule</a
 <p>The ball has to be placed 0.2 meters from the closest touch line and 0.2 meters from the goal line.</p>
 </div>
 <div class="paragraph">
-<p>After the ball has been placed, a <a href="#_direct_free_kick">direct free kick</a> is awarded to the opponent of the team that last touched the ball before it left the field.</p>
+<p>After the ball has been placed, a <a href="#_free_kick">free kick</a> is awarded to the opponent of the team that last touched the ball before it left the field.</p>
 </div>
 <div class="paragraph">
 <div class="title">Usage</div>
@@ -1869,9 +1831,6 @@ In division B, the <a href="#_aimless_kick_division_b_only">aimless kick rule</a
 </div>
 <div class="ulist">
 <ul>
-<li>
-<p>It is not shot directly from an <a href="#_indirect_free_kick">indirect free kick</a></p>
-</li>
 <li>
 <p>The height of the ball did not exceed 0.15 meters after the last touch of an attacker</p>
 </li>
@@ -1915,7 +1874,7 @@ Rule of thumb: Minor offenses are infringements of the rules committed by an att
 <div class="sect2">
 <h3 id="_minor_offenses">8.1. Minor Offenses</h3>
 <div class="paragraph">
-<p>Minor offenses are violations of the rules that result in a stoppage and a subsequent <a href="#_indirect_free_kick">indirect free kick</a> for the opposing team. The free kick will be shot from the position where the ball was located when the offense began happening (see <a href="#_direct_free_kick">the direct free kick rules</a> for the exact ball position rules).</p>
+<p>Minor offenses are violations of the rules that result in a stoppage and a subsequent <a href="#_free_kick">free kick</a> for the opposing team. The free kick will be shot from the position where the ball was located when the offense began happening (see <a href="#_free_kick">the free kick rules</a> for the exact ball position rules).</p>
 </div>
 <div class="paragraph">
 <p>All minor offenses are listed below.</p>
@@ -1929,7 +1888,7 @@ Rule of thumb: Minor offenses are infringements of the rules committed by an att
 <div class="sect3">
 <h4 id="_lack_of_progress">8.1.2. Lack Of Progress</h4>
 <div class="paragraph">
-<p>There is a lack of progress if only one team is allowed to <a href="#_ball_manipulation">manipulate the ball</a> (<a href="#_kick_off">kick-off</a>, <a href="#_direct_free_kick">direct free kick</a>, <a href="#_indirect_free_kick">indirect free kick</a>, <a href="#_penalty_kick">penalty kick</a>) and does not bring the ball <a href="#_ball_in_and_out_of_play">into play</a> in time. The time limit is 5 seconds for <a href="#_indirect_free_kick">indirect free kicks</a> and <a href="#_direct_free_kick">direct free kicks</a> in division A and 10 seconds in all other cases.</p>
+<p>There is a lack of progress if only one team is allowed to <a href="#_ball_manipulation">manipulate the ball</a> (<a href="#_kick_off">kick-off</a>, <a href="#_free_kick">free kick</a>, <a href="#_penalty_kick">penalty kick</a>) and does not bring the ball <a href="#_ball_in_and_out_of_play">into play</a> in time. The time limit is 5 seconds for <a href="#_free_kick">free kicks</a> in division A and 10 seconds in all other cases.</p>
 </div>
 <div class="paragraph">
 <p>There is also a lack of progress if the ball is inside a team&#8217;s <a href="#_defense_area">defense area</a> for 10 seconds, since the keeper is the only robot that is allowed to <a href="#_ball_manipulation">manipulate the ball</a>.</p>
@@ -1953,7 +1912,7 @@ If both teams are allowed to manipulate the ball, and thus no team is at fault, 
 <i class="fa icon-note" title="Note"></i>
 </td>
 <td class="content">
-If both teams are clearly unable to bring the ball <a href="#_ball_in_and_out_of_play">into play</a> without violating the rules, the referee may issue a <a href="#_force_start">force start</a> command instead of an <a href="#_indirect_free_kick">indirect free kick</a> for the other team.
+If both teams are clearly unable to bring the ball <a href="#_ball_in_and_out_of_play">into play</a> without violating the rules, the referee may issue a <a href="#_force_start">force start</a> command instead of an <a href="#_free_kick">free kick</a> for the other team.
 </td>
 </tr>
 </table>
@@ -1962,7 +1921,7 @@ If both teams are clearly unable to bring the ball <a href="#_ball_in_and_out_of
 <div class="sect3">
 <h4 id="_double_touch">8.1.3. Double Touch</h4>
 <div class="paragraph">
-<p>When the ball is brought <a href="#_ball_in_and_out_of_play">into play</a> following a <a href="#_kick_off">kick-off</a>, <a href="#_direct_free_kick">direct free kick</a>, <a href="#_indirect_free_kick">indirect free kick</a> or <a href="#_penalty_kick">penalty kick</a>, the kicker is not allowed to touch the ball until it has been touched by another robot or the game has been stopped.</p>
+<p>When the ball is brought <a href="#_ball_in_and_out_of_play">into play</a> following a <a href="#_kick_off">kick-off</a>, <a href="#_free_kick">free kick</a> or <a href="#_penalty_kick">penalty kick</a>, the kicker is not allowed to touch the ball until it has been touched by another robot or the game has been stopped.</p>
 </div>
 <div class="paragraph">
 <p>The ball must have moved at least 0.05 meters to be considered as <a href="#_ball_in_and_out_of_play">in play</a>.</p>
@@ -2026,7 +1985,7 @@ Dribblers can still be used to dribble large distances with the ball as long as 
 <div class="sect2">
 <h3 id="_fouls">8.2. Fouls</h3>
 <div class="paragraph">
-<p>Fouls are violations of the rules that result in a <a href="#_direct_free_kick">direct free kick</a> for the opposing team. The free kick will be shot from the position where the ball was located when the offense began happening (see <a href="#_direct_free_kick">the direct free kick rules</a> for the exact ball position rules). If the foul happened while the ball is <a href="#_ball_in_and_out_of_play">out of play</a>, no free kick is given.</p>
+<p>Fouls are violations of the rules that result in a <a href="#_free_kick">free kick</a> for the opposing team. The free kick will be shot from the position where the ball was located when the offense began happening (see <a href="#_free_kick">the free kick rules</a> for the exact ball position rules). If the foul happened while the ball is <a href="#_ball_in_and_out_of_play">out of play</a>, no free kick is given.</p>
 </div>
 <div class="paragraph">
 <p>Every third foul of the same team results in a <a href="#_yellow_card">yellow card</a>.</p>
@@ -2058,7 +2017,7 @@ When the ball is <a href="#_ball_in_and_out_of_play">out of play</a>, the rule <
 <div class="sect3">
 <h4 id="_robot_too_close_to_opponent_defense_area">8.2.2. Robot Too Close To Opponent Defense Area</h4>
 <div class="paragraph">
-<p>During <a href="#_stop">stop</a>, <a href="#_direct_free_kick">direct free kicks</a> and <a href="#_indirect_free_kick">indirect free kicks</a>, before the ball <a href="#_resuming_the_game">has entered play</a>, all robots have to keep at least 0.2 meters distance to the opponent <a href="#_defense_area">defense area</a>.</p>
+<p>During <a href="#_stop">stop</a> and <a href="#_free_kick">free kicks</a>, before the ball <a href="#_resuming_the_game">has entered play</a>, all robots have to keep at least 0.2 meters distance to the opponent <a href="#_defense_area">defense area</a>.</p>
 </div>
 <div class="paragraph">
 <p>There is a grace period of 2 seconds for the robots to move away from the opponent defense area.</p>
@@ -2173,7 +2132,7 @@ Since the stop command is used for manual ball placement and <a href="#_robot_su
 <div class="sect3">
 <h4 id="_defender_too_close_to_ball">8.2.9. Defender Too Close To Ball</h4>
 <div class="paragraph">
-<p>A robot&#8217;s distance to the ball must be at least 0.5 meters during an opponent <a href="#_kick_off">kick-off</a>, <a href="#_direct_free_kick">direct free kick</a> or <a href="#_indirect_free_kick">indirect free kick</a>.
+<p>A robot&#8217;s distance to the ball must be at least 0.5 meters during an opponent <a href="#_kick_off">kick-off</a> or <a href="#_free_kick">free kick</a>.
 The game is resumed with the same command that was issued before the foul.</p>
 </div>
 <div class="admonitionblock note">
@@ -2204,7 +2163,7 @@ This rule does not use the standard sanctions defined for <a href="#_fouls">foul
 </table>
 </div>
 <div class="paragraph">
-<p>If a robot other than the keeper touches the ball while being partially inside its own defense area, the game is stopped, the robot receives a <a href="#_yellow_card">yellow card</a> and the opponent team resumes the game with a <a href="#_direct_free_kick">direct free kick</a>. The foul counter is not increased.</p>
+<p>If a robot other than the keeper touches the ball while being partially inside its own defense area, the game is stopped, the robot receives a <a href="#_yellow_card">yellow card</a> and the opponent team resumes the game with a <a href="#_free_kick">free kick</a>. The foul counter is not increased.</p>
 </div>
 <div class="paragraph">
 <p>If a robot other than the keeper touches the ball while being entirely inside its own defense area, the game is stopped and a <a href="#_penalty_kick">penalty kick</a> is awarded to the other team. The foul counter is not increased.</p>
@@ -2284,7 +2243,7 @@ If the referee is not sure which sanction to choose, he may confer with members 
 <i class="fa icon-note" title="Note"></i>
 </td>
 <td class="content">
-This rule is in place to prevent teams from purposely committing offenses in order to relocate the opponent <a href="#_direct_free_kick">direct free kick</a> or <a href="#_indirect_free_kick">indirect free kick</a> to a more favorable position.
+This rule is in place to prevent teams from purposely committing offenses in order to relocate the opponent <a href="#_free_kick">free kick</a> to a more favorable position.
 </td>
 </tr>
 </table>
@@ -2295,7 +2254,7 @@ This rule is in place to prevent teams from purposely committing offenses in ord
 <div class="paragraph">
 <p>In certain situations, stopping the game because of a foul may have a disadvantage to the opposing team.
 As these situations are not easy to detect automatically, the opposing team is asked if it likes to continue the game.
-In this case, the game is not stopped and no direct kick is awarded at any time.
+In this case, the game is not stopped and no free kick is awarded at any time.
 The foul counter is still incremented and any resulting cards are given when the game is <a href="#_stop">stopped</a>.</p>
 </div>
 <div class="ulist">
@@ -2481,7 +2440,7 @@ This rule is supposed to be used in extreme situations only, e.g. a software cra
 <div class="olist arabic">
 <ol class="arabic">
 <li>
-<p>For <strong>1</strong> and <strong>2</strong>, the game is continued with a <a href="#Free Kick">free kick</a> for the opposing team.</p>
+<p>For <strong>1</strong> and <strong>2</strong>, the game is continued with a <a href="#_free_kick">free kick</a> for the opposing team.</p>
 </li>
 <li>
 <p>For <strong>3</strong>, the game is continued like after a regular timeout.</p>
@@ -2537,7 +2496,7 @@ If a rule is found to cause significant negative impact to the competition, the 
 <p>When the match is <a href="#_stopping_the_game">stopped</a>, the ball is considered <strong>out of play</strong> until it has been brought into play.</p>
 </div>
 <div class="paragraph">
-<p>When the match is <a href="#_resuming_the_game">resumed</a>, the ball is considered <strong>in play</strong> until the next stoppage occurs. The match is resumed when <a href="#_force_start">force start</a> has been issued or the ball moved at least 0.05 meters following a <a href="#_kick_off">kick-off</a>, <a href="#_direct_free_kick">direct free kick</a>, <a href="#_indirect_free_kick">indirect free kick</a> or <a href="#_penalty_kick">penalty kick</a>.</p>
+<p>When the match is <a href="#_resuming_the_game">resumed</a>, the ball is considered <strong>in play</strong> until the next stoppage occurs. The match is resumed when <a href="#_force_start">force start</a> has been issued or the ball moved at least 0.05 meters following a <a href="#_kick_off">kick-off</a>, <a href="#_free_kick">free kick</a> or <a href="#_penalty_kick">penalty kick</a>.</p>
 </div>
 <div class="admonitionblock note">
 <table>
@@ -2651,7 +2610,7 @@ Note that the information shown in this table here is incomplete. Please read th
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_ball_placement">Ball Placement</a> failed by team in favor</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">during <a href="#_ball_placement">Ball Placement</a></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_stop">Stop</a>, then <a href="#_indirect_free_kick">Indirect Free Kick</a> (div A) / previous command (div B)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_stop">Stop</a>, then <a href="#_free_kick">Free Kick</a> (div A) / previous command (div B)</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="icon green"><i class="fa fa-check"></i></span></p></td>
 </tr>
 <tr>
@@ -2690,19 +2649,19 @@ Note that the information shown in this table here is incomplete. Please read th
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_throw_in">Throw-In</a></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_ball_in_and_out_of_play">ball in play</a></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_stop">Stop</a>, then <a href="#_indirect_free_kick">Indirect Free Kick</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_stop">Stop</a>, then <a href="#_free_kick">Free Kick</a></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="icon green"><i class="fa fa-check"></i></span></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_goal_kick">Goal Kick</a></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_ball_in_and_out_of_play">ball in play</a></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_stop">Stop</a>, then <a href="#_direct_free_kick">Direct Free Kick</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_stop">Stop</a>, then <a href="#_free_kick">Free Kick</a></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="icon green"><i class="fa fa-check"></i></span></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_corner_kick">Corner Kick</a></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_ball_in_and_out_of_play">ball in play</a></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_stop">Stop</a>, then <a href="#_direct_free_kick">Direct Free Kick</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_stop">Stop</a>, then <a href="#_free_kick">Free Kick</a></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="icon green"><i class="fa fa-check"></i></span></p></td>
 </tr>
 </tbody>
@@ -2735,7 +2694,7 @@ Note that the information shown in this table here is incomplete. Please read th
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Invalid Goal</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_ball_in_and_out_of_play">ball in play</a></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_stop">Stop</a>, then <a href="#_direct_free_kick">Direct Free Kick</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_stop">Stop</a>, then <a href="#_free_kick">Free Kick</a></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="icon green"><i class="fa fa-check"></i></span></p></td>
 </tr>
 </tbody>
@@ -2762,25 +2721,25 @@ Note that the information shown in this table here is incomplete. Please read th
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_aimless_kick_division_b_only">Aimless Kick</a></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_ball_in_and_out_of_play">ball in play</a></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_stop">Stop</a>, then <a href="#_indirect_free_kick">Indirect Free Kick</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_stop">Stop</a>, then <a href="#_free_kick">Free Kick</a></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="icon green"><i class="fa fa-check"></i></span></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_lack_of_progress">Lack Of Progress</a></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_ball_in_and_out_of_play">ball in play</a></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_stop">Stop</a>, then <a href="#_indirect_free_kick">Indirect Free Kick</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_stop">Stop</a>, then <a href="#_free_kick">Free Kick</a></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="icon green"><i class="fa fa-check"></i></span></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_double_touch">Double Touch</a></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_ball_in_and_out_of_play">ball in play</a></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_stop">Stop</a>, then <a href="#_indirect_free_kick">Indirect Free Kick</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_stop">Stop</a>, then <a href="#_free_kick">Free Kick</a></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="icon green"><i class="fa fa-check"></i></span></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_attacker_in_defense_area">Attacker In Defense Area</a></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_ball_in_and_out_of_play">ball in play</a></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_stop">Stop</a>, then <a href="#_indirect_free_kick">Indirect Free Kick</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_stop">Stop</a>, then <a href="#_free_kick">Free Kick</a></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="icon green"><i class="fa fa-check"></i></span></p></td>
 </tr>
 <tr>
@@ -2792,13 +2751,13 @@ Note that the information shown in this table here is incomplete. Please read th
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_excessive_dribbling">Excessive Dribbling</a></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_ball_in_and_out_of_play">ball in play</a></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_stop">Stop</a>, then <a href="#_indirect_free_kick">Indirect Free Kick</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_stop">Stop</a>, then <a href="#_free_kick">Free Kick</a></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="icon green"><i class="fa fa-check"></i></span></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_ball_speed">Ball Speed</a></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_ball_in_and_out_of_play">ball in play</a></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_stop">Stop</a>, then <a href="#_indirect_free_kick">Indirect Free Kick</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_stop">Stop</a>, then <a href="#_free_kick">Free Kick</a></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="icon green"><i class="fa fa-check"></i></span></p></td>
 </tr>
 </tbody>
@@ -2831,25 +2790,25 @@ Note that the information shown in this table here is incomplete. Please read th
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_attacker_touches_robot_in_opponent_defense_area">Attacker Touches Robot In Opponent Defense Area</a></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_ball_in_and_out_of_play">ball in play</a></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_stop">Stop</a>, then <a href="#_indirect_free_kick">Indirect Free Kick</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_stop">Stop</a>, then <a href="#_free_kick">Free Kick</a></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="icon green"><i class="fa fa-check"></i></span></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_robot_too_close_to_opponent_defense_area">Robot Too Close To Opponent Defense Area</a></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_ball_in_and_out_of_play">ball out of play</a></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_stop">Stop</a>, then <a href="#_direct_free_kick">Direct Free Kick</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_stop">Stop</a>, then <a href="#_free_kick">Free Kick</a></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="icon green"><i class="fa fa-check"></i></span></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_ball_placement_interference">Ball Placement Interference</a></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">during <a href="#_ball_placement">Ball Placement</a></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_stop">Stop</a>, then <a href="#_direct_free_kick">Direct Free Kick</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_stop">Stop</a>, then <a href="#_free_kick">Free Kick</a></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="icon green"><i class="fa fa-check"></i></span></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_crashing">Crashing</a></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">always</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_stop">Stop</a>, then <a href="#_direct_free_kick">Direct Free Kick</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_stop">Stop</a>, then <a href="#_free_kick">Free Kick</a></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="icon green"><i class="fa fa-check"></i></span></p></td>
 </tr>
 <tr>
@@ -2867,37 +2826,37 @@ Note that the information shown in this table here is incomplete. Please read th
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_pushing">Pushing</a></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">always</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_stop">Stop</a>, then <a href="#_direct_free_kick">Direct Free Kick</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_stop">Stop</a>, then <a href="#_free_kick">Free Kick</a></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="icon red"><i class="fa fa-times"></i></span></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_ball_holding">Ball Holding</a></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_ball_in_and_out_of_play">ball in play</a></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_stop">Stop</a>, then <a href="#_direct_free_kick">Direct Free Kick</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_stop">Stop</a>, then <a href="#_free_kick">Free Kick</a></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="icon green"><i class="fa fa-check"></i></span></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_tipping_over_or_dropping_parts">Tipping Over Or Dropping Parts</a></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">always</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_stop">Stop</a>, then <a href="#_direct_free_kick">Direct Free Kick</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_stop">Stop</a>, then <a href="#_free_kick">Free Kick</a></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="icon red"><i class="fa fa-times"></i></span></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_robot_stop_speed">Robot Stop Speed</a></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">during <a href="#_stop">Stop</a></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_stop">Stop</a>, then <a href="#_direct_free_kick">Direct Free Kick</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_stop">Stop</a>, then <a href="#_free_kick">Free Kick</a></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="icon green"><i class="fa fa-check"></i></span></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_defender_too_close_to_ball">Defender Too Close To Ball</a></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_ball_in_and_out_of_play">ball out of play</a></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_stop">Stop</a>, then <a href="#_direct_free_kick">Direct Free Kick</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_stop">Stop</a>, then <a href="#_free_kick">Free Kick</a></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="icon green"><i class="fa fa-check"></i></span></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_multiple_defenders">Multiple Defenders</a> partially</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_ball_in_and_out_of_play">ball in play</a></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_stop">Stop</a>, then <a href="#_direct_free_kick">Direct Free Kick</a>, <a href="#_yellow_card">Yellow Card</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_stop">Stop</a>, then <a href="#_free_kick">Free Kick</a>, <a href="#_yellow_card">Yellow Card</a></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="icon green"><i class="fa fa-check"></i></span></p></td>
 </tr>
 <tr>
@@ -3000,7 +2959,7 @@ Note that the information shown in this table here is incomplete. Please read th
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2020-02-26 20:29:44 UTC
+Last updated 2020-03-03 20:49:45 UTC
 </div>
 </div>
 </body>
