@@ -157,6 +157,20 @@ Additional time is allowed for a penalty kick to be taken at the end of each hal
 Penalty Kicks are used to punish teams that received multiple <<Yellow Card, yellow cards>>, as well as to punish <<Unsporting Behavior, unsporting behavior>> and <<Multiple Defenders, multiple defenders>>.
 
 
+=== Ball In And Out Of Play
+When the match is <<Stopping The Game, stopped>>, the ball is considered *out of play* until it has been brought into play.
+
+When the match is <<Resuming The Game, resumed>>, the ball is considered *in play* until the next stoppage occurs.
+The match is resumed when
+
+* <<Force Start, force start>> has been issued.
+* the ball moved at least 0.05 meters following a <<Kick-Off, kick-off>>, <<Free Kick, free kick>> or <<Penalty Kick, penalty kick>>.
+* 10 seconds passed following a <<Kick-Off, kick-off>>.
+* 5 seconds (Division A) or 10 seconds (Division B) passed following a <<Free Kick, free kick>>.
+
+NOTE: see <<Double Touch, double touch>> for the rationale of the 0.05 meter distance
+
+
 === Sanctions
 
 ==== Yellow Card
