@@ -51,7 +51,7 @@ A kick is aimless when after the ball touched a robot, it subsequently crossed t
 There is a lack of progress if only one team is allowed to <<Ball
 Manipulation, manipulate the ball>> (<<Kick-Off, kick-off>>, <<Direct
 Free Kick, direct free kick>>, <<Indirect Free Kick, indirect free
-kick>>, <<Penalty Kick, penalty kick>>) and does not bring the ball
+kick>>) and does not bring the ball
 <<Ball In And Out Of Play, into play>> in time. The time before lack
 of progress is called is described in the table: <<lack-of-progress-timings>>.
 
@@ -61,7 +61,6 @@ of progress is called is described in the table: <<lack-of-progress-timings>>.
 |=============================================================================
 | Situation                                                           | Div A Time | Div B Time
 | <<Kick-Off, kick-off>>                                              | 10 s       | 10 s
-| <<Penalty Kick, penalty kick>>                                      | 10 s       | 10 s
 | <<Free Kick, free kick>>                                            |  5 s       | 10 s
 | Ball inside <<Defense Area, defense area>>                          |  5 s       | 10 s
 | Both teams can manipulate, no progress                              |  5 s       | 10 s
@@ -85,7 +84,7 @@ the referee determines that no progress is being made.
 
 
 ==== Double Touch
-When the ball is brought <<Ball In And Out Of Play, into play>> following a <<Kick-Off, kick-off>>, <<Free Kick, free kick>> or <<Penalty Kick, penalty kick>>, the kicker is not allowed to touch the ball until it has been touched by another robot or the game has been stopped.
+When the ball is brought <<Ball In And Out Of Play, into play>> following a <<Kick-Off, kick-off>> or <<Free Kick, free kick>>, the kicker is not allowed to touch the ball until it has been touched by another robot or the game has been stopped.
 
 The ball must have moved at least 0.05 meters to be considered as <<Ball In And Out Of Play, in play>>.
 

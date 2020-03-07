@@ -131,14 +131,15 @@ The procedure of a penalty kick is as follows:
 . The ball is placed by the human referee on the <<Penalty Mark, penalty mark>>.
 . When the <<Penalty Kick, penalty>> command is issued
 .. The defending keeper has to move to the goal line and keep touching it
-.. One attacking robot is allowed to approach the ball but not touch the ball
+.. One attacking robot is allowed to approach the ball but not allowed to touch the ball
 .. All other robots have to be 1m behind the ball such that they do not interfere the penalty kick procedure at any time.
 . When the <<Normal Start, normal start>> command is issued, the attacker is allowed to <<Ball Manipulation, manipulate the ball>>. The ball has to only move towards the opponent goal, as measured by its x coordinate in the coordinate system of <<Vision, SSL-Vision>>.
 . When the ball is <<Ball In And Out Of Play, in play>>, the defending keeper may move freely again
+. If the ball is still <<Ball In And Out Of Play, in play>> after 10 seconds, the game is stopped and then continued by a <<Goal Kick, goal kick>> for the defending team.
 
 A goal is awarded if:
 
-* the ball touches the inner surface of a goal wall or the ground of the goal of the defending team in less than 10 seconds, starting from when the <<Normal Start, normal start>> command is issued
+* the ball touches the inner surface of a goal wall or the ground of the goal of the defending team, starting from when the <<Normal Start, normal start>> command is issued
 * the defending team violates any rule
 
 A goal is not awarded if:
@@ -149,8 +150,6 @@ A goal is not awarded if:
 
 NOTE: The restrictions defined for <<Scoring Goals, scoring goals>>, including the ball height limit of 0.15 meters, do not apply here.
 Other rules like the <<Excessive Dribbling, excessive dribbling>> limitation for example do.
-
-When the ball is <<Ball In And Out Of Play, in play>>, the kicker may not touch the ball until it has been touched by another robot or the game has been stopped (see <<Double Touch, double touch>>). Also, the restrictions regarding the robot positions are lifted.
 
 Additional time is allowed for a penalty kick to be taken at the end of each half or at the end of periods of overtime.
 
