@@ -74,8 +74,8 @@ All <<Stopping Fouls>> result in:
 |===
 
 
-=== Events For No Stop Fouls
-All <<No Stop Fouls>> result in:
+=== Events For Non Stopping Fouls
+All <<Non Stopping Fouls>> result in:
 
 * Incrementing the foul counter.
 * Increasing the no goal timer.

@@ -71,7 +71,7 @@ A robot must not kick the ball over the field boundary such that the ball leaves
 The ball must not be kept in the <<Defense Area, defense area>> for more than
 5 seconds (Division A) or 10 seconds (Division B).
 
-==== No Stop Fouls
+==== Non Stopping Fouls
 Violations in this section are fouls, but they do not cause a <<Stop,
 stop>>. Instead, the game continues but time is added to a per-team no
 goal timer. Any goal scored by the team while this timer has time
