@@ -46,40 +46,10 @@ kick are described in <<Free Kick, the free kick rules>>.
 ==== Aimless Kick [small]#(_division B only_)#
 A kick is aimless when after the ball touched a robot, it subsequently crossed the midline and then its opponent's goal line outside the goal without touching another robot. A kick-off kick cannot be aimless, as the ball is located at the midline and does therefore not cross it.
 
-==== Lack Of Progress
-
-There is a lack of progress if only one team is allowed to <<Ball
-Manipulation, manipulate the ball>> (<<Kick-Off, kick-off>>, <<Free Kick, free kick>>)
-and does not bring the ball <<Ball In And Out Of Play, into play>> in time.
-The time before lack of progress is called is described in the table: <<lack-of-progress-timings>>.
-
-[frame="topbot",options="header"]
-.Lack Of Progress Timings
-[[lack-of-progress-timings]]
-// TODO move a table with all timings to the appendix
-|=============================================================================
-| Situation                                                           | Div A Time | Div B Time
-| <<Kick-Off, kick-off>>                                              | 10 s       | 10 s
-| <<Free Kick, free kick>>                                            |  5 s       | 10 s
-| Ball inside <<Defense Area, defense area>>                          |  5 s       | 10 s
-| Both teams can manipulate, no progress                              |  5 s       | 10 s
-| Neither team can bring ball <<Ball In And Out Of Play, into play>>  |  5 s       | 10 s
-|=============================================================================
-
-
-If there is a lack of progress due to the ball being inside a team's
-<<Defense Area, defense area>> past the timeout, then a <<Free
-Kick, free kick>> is issued for the attacking team.
-
-In the case of <<Kick-Off, kick-off>> and <<Free Kick, free kick>>, after the time
-expires the ball is considered <<Ball In And Out Of Play, in play>>
-and both teams may manipulate the ball.
-
-In all other cases a <<Stop, stop>> is issued followed by a <<Force Start,
-forced start>>
-This includes situations where both teams can manipulate the ball, but
-the referee determines that no progress is being made.
-
+==== No Progress In Game
+If there is no progress in the game while both teams are allowed to
+<<Ball Manipulation, manipulate the ball>>, the game is <<Stop, stopped>>
+and continued by a <<Force Start, forced start>>.
 
 ==== Double Touch
 When the ball is brought <<Ball In And Out Of Play, into play>> following a <<Kick-Off, kick-off>> or <<Free Kick, free kick>>, the kicker is not allowed to touch the ball until it has been touched by another robot or the game has been stopped.
@@ -149,6 +119,9 @@ increased.
 ===== Boundary Crossing
 A robot must not kick the ball over the field boundary such that the ball leaves the field.
 
+===== Keeper Held Ball
+The ball must not be kept in the <<Defense Area, defense area>> for more than
+5 seconds (Division A) or 10 seconds (Division B).
 
 ==== No Stop Fouls
 
