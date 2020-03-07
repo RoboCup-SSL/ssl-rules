@@ -1,4 +1,4 @@
-== Rule Violations
+== Offenses
 === No Progress In Game
 If there is no progress in the game while both teams are allowed to
 <<Ball Manipulation, manipulate the ball>>, the game is <<Stop, stopped>>

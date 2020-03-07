@@ -47,7 +47,7 @@ Chapter <<Scoring Goals>>:
 | Invalid Goal | <<Ball In And Out Of Play, ball in play>> | <<Stop>>, then <<Free Kick>> | icon:check[role="green"]
 |===
 
-Chapter <<Rule Violations>>, section <<Stopping Offenses>>:
+Chapter <<Offenses>>, section <<Stopping Offenses>>:
 |===
 | Event | Applicability | Command | AutoRef
 
@@ -59,7 +59,7 @@ Chapter <<Rule Violations>>, section <<Stopping Offenses>>:
 |===
 
 
-Chapter <<Rule Violations>>, section <<Stopping Fouls>>:
+Chapter <<Offenses>>, section <<Stopping Fouls>>:
 |===
 | Event | Applicability | Command | AutoRef
 
@@ -74,7 +74,7 @@ Chapter <<Rule Violations>>, section <<Stopping Fouls>>:
 |===
 
 
-Chapter <<Rule Violations>>, section <<No Stop Fouls>>:
+Chapter <<Offenses>>, section <<No Stop Fouls>>:
 
 |===
 | Event | Applicability | Command | AutoRef
@@ -89,7 +89,7 @@ Chapter <<Rule Violations>>, section <<No Stop Fouls>>:
 | <<Crashing>> draw | always | no command | icon:check[role="green"]
 |===
 
-Chapter <<Rule Violations>>, section <<General Violations>>:
+Chapter <<Offenses>>, section <<General Violations>>:
 
 |===
 | Event | Applicability | Command | AutoRef
