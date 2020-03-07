@@ -30,7 +30,7 @@ NOTE: Note that the information shown in this table here is incomplete. Please r
 | <<Throw-In>> | <<Ball In And Out Of Play, ball in play>> | <<Stop>> -> <<Free Kick>> | auto referee
 | <<Goal Kick>> | <<Ball In And Out Of Play, ball in play>> | <<Stop>> -> <<Free Kick>> | auto referee
 | <<Corner Kick>> | <<Ball In And Out Of Play, ball in play>> | <<Stop>> -> <<Free Kick>> | auto referee
-| <<Aimless Kick [small]#(_division B only_)#, Aimless Kick>> | <<Ball In And Out Of Play, ball in play>> | <<Stop>> -> <<Free Kick>> | auto referee
+| <<aimless-kick>> | <<Ball In And Out Of Play, ball in play>> | <<Stop>> -> <<Free Kick>> | auto referee
 |===
 
 
@@ -117,5 +117,5 @@ This is a complete list of differences between <<Divisions, division>> A and <<D
 * Division A plays on a <<Dimensions, larger field>> with <<Goals, larger goals>> than division B. As a result, the <<Shoot-Out, shoot-out>> is taken from a greater distance as well.
 * Division A plays with <<Number Of Robots, more robots>> than division B.
 * The automatic <<Ball Placement, ball placement>> procedure is mandatory for division A and optional for division B.
-* The <<Aimless Kick [small]#(_Division B only_)#, aimless kick>> rule only applies to division B.
+* The <<aimless-kick, aimless kick>> rule only applies to division B.
 * Division A has shorter timeouts in some situations
