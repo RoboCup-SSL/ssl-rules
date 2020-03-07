@@ -8,7 +8,7 @@ Touch lines are the long <<Field Lines, field lines>> at both sides of the playi
 .Definition
 The ball has to be placed 0.2 meters perpendicular to the touch line where the ball crossed the touch line. Its distance to the goal lines must be at least 0.2 meters.
 
-After the ball has been placed, an <<Free Kick, free kick>> is awarded to the opponent of the team that last touched the ball before it left the field.
+After the ball has been placed, a <<Free Kick, free kick>> is awarded to the opponent of the team that last touched the ball before it left the field.
 
 .Usage
 A throw-in is used to restart the game after the ball left the field by crossing the touch line.
