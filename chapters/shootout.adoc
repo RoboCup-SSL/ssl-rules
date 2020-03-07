@@ -1,33 +1,17 @@
 == Shoot-Out
+
 .Definition
-Both teams alternately attempt to score a goal until each team has performed 5 attempts. If both teams have the same score after those 5 attempts, each team takes another attempt in the same order as before until the score of the two teams is different.
+Both teams alternately attempt to score a goal with a <<Penalty Kick, penalty kick>> until each team has performed 5 attempts.
+If both teams have the same score after those 5 attempts, each team takes another attempt in the same order as before until the score of the two teams is different.
 
-Only one attacking robot and one keeper is allowed per team. During a shoot-out attempt, the attacking robot and the opponent keeper are the only ones allowed to move and <<Ball Manipulation, manipulate the ball>>. Other robots are not allowed to interfere.
+Only one attacking robot and one keeper is allowed per team.
+During a shoot-out attempt, the attacking robot and the opponent keeper are the only ones allowed to move and <<Ball Manipulation, manipulate the ball>>.
+Other robots are not allowed to interfere.
 
-The procedure of a shoot-out attempt is as follows:
-
-. The ball is placed by the human referee on the <<Additional Lines, mid-line>> (not halfway line), 8 meters (division A) or 6 meters (division B) away from the opponent goal.
-. When the <<Penalty Kick, penalty>> command is issued, the defending keeper has to move to the goal line and keep touching it.
-. When the <<Normal Start, normal start>> command is issued, the attacker is allowed to <<Ball Manipulation, manipulate the ball>>. The ball has to only move towards the opponent goal, as measured by its x coordinate in the coordinate system of <<Vision, SSL-Vision>>.
-. When the ball is <<Ball In And Out Of Play, in play>>, the defending keeper may move freely again, analogous to a <<Penalty Kick, penalty kick>>.
-
-A goal is awarded if:
-
-* the ball touches the inner surface of a goal wall or the ground of the goal of the defending team in less than 10 seconds, starting from when the <<Normal Start, normal start>> command is issued
-* the defending team violates any rule
-
-A goal is not awarded if:
-
-* the ball crosses any <<Field Lines, field lines>> outside the goal
-* the defending keeper touches the ball such that the ball speed vector changes direction by at least 90 degrees in 2D space
-* the attacking team violates any rule
-
-NOTE: The restrictions defined for <<Scoring Goals, scoring goals>> do not apply here. This explicitly includes the ball height limit of 0.15 meters. Other rules like the <<Excessive Dribbling, excessive dribbling>> limitation for example do.
-
-Robots may be <<Robot Substitution, substituted>> between shoot-out attempts. The new robot may be put in right away.
+Robots may be <<Robot Substitution, substituted>> between shoot-out attempts.
+The new robot may be put in right away.
 
 NOTE: Note that <<Timeouts, timeouts>> are not allowed during shoot-out.
 
 .Usage
 Shoot-Out is used to determine the winner of an elimination match if both teams scored the same amount of goals in previous <<Game Stages, game stages>>.
-

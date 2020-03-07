@@ -24,7 +24,7 @@ image::double-size-field.svg[]
 ==== Field Surface
 The playing surface is green felt mat or carpet. The floor under the carpet is level, flat, and hard.
 
-The field surface will continue for 0.7 meters beyond the <<Field Lines, field lines>> on all sides. The outer 0.4 meters of this runoff area, separated from the robot area by a 0.1 meters tall wall, is used as a designated walking area for the <<Referee, referee>> and the <<Assistant Referee, assistant referee>>.
+The field surface will continue for 0.7 meters beyond the <<Field Lines, field lines>> on all sides. The outer 0.4 meters of this runoff area, separated from the robot area by a 0.1 meters tall wall, is used as a designated walking area for the <<Referee, referee>> and the <<Assistant Referee, assistant referee>>. The remaining 0.3 meters are the field margins.
 
 
 ==== Field Markings
@@ -46,9 +46,8 @@ A defense area is defined as a rectangle touching the goal lines centrally in fr
 
 
 ===== Penalty Mark
-For each field half the penalty mark is 1.2 meters for division A and 1 meter for division B, from the midpoint between the goalposts and equidistant to them, thus coinciding with the outer edge of the defense area.
+For each field half the penalty mark is on the <<Additional Lines, mid-line>> (not halfway line), 8 meters (division A) or 6 meters (division B) away from the opponent goal center.
 
-NOTE: The penalty mark does not need to be painted since it coincides with the intersection of the defense area and the mid-line.
 
 ==== Goals
 Goals must be placed on the center of each goal line and anchored securely to the field surface. They consist of two 0.16 meters high vertical side walls joined at the back by a 0.16 meters high vertical rear wall. The inner face of the goal has to be covered with an energy absorbing material such as foam to help absorb ball impacts and lessen the speed of deflections. The goal walls, edges, and tops are white in color.
@@ -82,7 +81,7 @@ Besides the shared vision equipment, teams are not allowed to mount their own ca
 A game is controlled by the community-maintained ssl-game-controller (https://github.com/RoboCup-SSL/ssl-game-controller).
 It is operated by the <<Game Controller Operator, game controller operator>>. The software translates decisions of the <<Referee, referee>> and the <<Automatic Referee, automatic referee>> into Ethernet communication signals that are broadcast to the network. It maintains the state of the game, tracks all events and acts as a proxy between all participating parties in the game.
 
-The game-controller has a network interface for the playing teams. They can automatically change their keeper id when the ball is <<Ball In And Out Of Play, out of play>>, they can signal a robot substitution intent for the next opportunity and they can reply to requests of the <<Advantage Rule, advantage rule>>.
+The game-controller has a network interface for the playing teams. They can automatically <<Choosing Keeper Id, change their keeper id>>, they can signal a robot substitution intent for the next opportunity and they can reply to requests of the <<Advantage Rule, advantage rule>>.
 
 ==== Automatic Referee
 One or more automatic referee applications can supervise a game and report <<Offenses, offenses>> to the <<Game Controller, game controller>>.
@@ -93,3 +92,15 @@ New automatic referee implementations can be provided, given that the source cod
 The <<Game Event Table>> shows which game events an automatic referee implementation must be able to detect.
 
 Existing implementations can be found on Github: https://github.com/RoboCup-SSL/ssl-autorefs.
+
+=== Communication Flags
+
+The communication flags are used to avoid gesturing and yelling with the <<Referee, referee>> during a match.
+These flags are responsible for communicating various intents, such as: <<Timeouts, timeouts>>, <<Emergency stop, emergency stops>>, <<Robot Substitution, manual robot substitution>> and <<Challenge flags, challenges>>.
+
+The <<Referee, referee>> or <<Game Controller Operator, game controller operator>> has to acknowledge the communication flag.
+Any gesturing and yelling will be considered <<Unsporting Behavior, unsporting behavior>>, punished by a <<Red card, red card>> after the first warning.
+
+The communication flags are provided by the organizers of the competition.
+A remote control software or device can be provided and replace physical flags.
+Any other solution that the organizers find feasible can also be used.

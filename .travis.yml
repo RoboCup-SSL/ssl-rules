@@ -2,6 +2,8 @@ if: branch = master
 
 sudo: required
 
+language: python
+
 services:
   - docker
 
@@ -9,8 +11,11 @@ before_install:
   - mkdir -p output
   - docker pull asciidoctor/docker-asciidoctor
 
+install:
+  - pip install htmldiffer
+
 script:
-  - docker run -v $TRAVIS_BUILD_DIR:/documents/ asciidoctor/docker-asciidoctor asciidoctor sslrules.adoc
+  - docker run -v $TRAVIS_BUILD_DIR:/documents/ asciidoctor/docker-asciidoctor asciidoctor -a data-uri sslrules.adoc
   - docker run -v $TRAVIS_BUILD_DIR:/documents/ asciidoctor/docker-asciidoctor asciidoctor-pdf sslrules.adoc
 
 after_error:
@@ -25,10 +30,9 @@ after_script:
   - git clone https://${GH_REF} --single-branch --branch gh-pages $TRAVIS_BUILD_DIR/gh-pages
   - cd $TRAVIS_BUILD_DIR/gh-pages
   - cp ../*.html ../*.pdf .
-  - mkdir -p images
-  - cp ../images/*.png ../images/*.svg images/
+  - python ../diffRules.py ./2019/sslrules.html ./sslrules.html > sslrules-diff.html
   - git config user.name "TravisCI"
   - git config user.email "build-pipeline@travis-ci.org"
-  - git add images *.html *.pdf
+  - git add *.html *.pdf
   - git commit -m "Update GitHub Pages"
   - git push "https://${GH_TOKEN}@${GH_REF}" gh-pages
