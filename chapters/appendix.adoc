@@ -70,23 +70,24 @@ Chapter <<Rule Violations>>, section <<Stopping Offenses>>:
 Chapter <<Reul Violations>>, section <<Stopping Fouls>>:
 |===
 | Event | Applicability | Command | AutoRef
-| Multiple <<Fouls>> | <<Ball In And Out Of Play, ball out of play>> |
-  <<Yellow Card>> | icon:times[role="red"] (handled by the game
-  controller)
-| <<Robot Too Close To Opponent Defense Area>> | <<Ball In And Out Of Play, ball out of play>> | <<Stop>>, then <<Free Kick>> | icon:check[role="green"]
+
+| <<Robot Too Close To Opponent Defense Area>> | during <<Stop>> and <<Free Kick>> | <<Stop>>, then <<Free Kick>> | icon:check[role="green"]
 | <<Pushing>> | always | <<Stop>>, then <<Free Kick>> | icon:times[role="red"]
 | <<Ball Holding>> | <<Ball In And Out Of Play, ball in play>> | <<Stop>>, then <<Free Kick>> | icon:check[role="green"]
 | <<Tipping Over Or Dropping Parts>> | always | <<Stop>>, then <<Free Kick>> | icon:times[role="red"]
 | <<Robot Stop Speed>> | during <<Stop>> | <<Stop>>, then <<Free Kick>> | icon:check[role="green"]
 | <<Multiple Defenders>> partially | <<Ball In And Out Of Play, ball in play>> | <<Stop>>, then <<Free Kick>>, <<Yellow Card>> | icon:check[role="green"]
 | <<Multiple Defenders>> entirely | <<Ball In And Out Of Play, ball in play>> | <<Stop>>, then <<Penalty Kick>> | icon:check[role="green"]
-| <<Boundary Crossing>> | <<Ball In And Out Of Play, ball in play>> |<<Stop>> then  <<Free Kick>> | 
+| <<Boundary Crossing>> | <<Ball In And Out Of Play, ball in play>> |<<Stop>> then  <<Free Kick>> |
 |===
 
 
-Chapter <<Rule Violations>> section <<No Stop Fouls>>:
+Chapter <<Rule Violations>>, section <<No Stop Fouls>>:
 
 |===
+| Event | Applicability | Command | AutoRef
+
+| Multiple <<Fouls>> | <<Ball In And Out Of Play, ball out of play>> | <<Yellow Card>> | icon:times[role="red"] (handled by the game controller)
 | <<Attacker In Defense Area>> | <<Ball In And Out Of Play, ball in play>> | <<No Stop Fouls, No goal timer>> increase | icon:check[role="green"]
 | <<Attacker Touches Robot In Opponent Defense Area>> skipped | <<Ball In And Out Of Play, ball in play>> | <<No Stop Fouls, No goal timer>> increase | icon:check[role="green"]
 | <<Excessive Dribbling>> | <<Ball In And Out Of Play, ball in play>> | <<No Stop Fouls, No goal timer>> increase| icon:check[role="green"]
@@ -96,7 +97,7 @@ Chapter <<Rule Violations>> section <<No Stop Fouls>>:
 | <<Crashing>> draw | always | no command | icon:check[role="green"]
 |===
 
-Chapter <<Offenses>>, section <<Unsporting Behavior>>:
+Chapter <<Rule Violations>>, section <<General Violations>>:
 
 |===
 | Event | Applicability | Command | AutoRef
