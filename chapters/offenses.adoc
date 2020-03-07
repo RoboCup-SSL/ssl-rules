@@ -62,7 +62,7 @@ of progress is called is described in the table: <<lack-of-progress-timings>>.
 | Situation                                                           | Div A Time | Div B Time
 | <<Kick-Off, kick-off>>                                              | 10 s       | 10 s
 | <<Penalty Kick, penalty kick>>                                      | 10 s       | 10 s
-| <<Free Kick, free kick>>                                     |  5 s       | 10 s
+| <<Free Kick, free kick>>                                            |  5 s       | 10 s
 | Ball inside <<Defense Area, defense area>>                          |  5 s       | 10 s
 | Both teams can manipulate, no progress                              |  5 s       | 10 s
 | Neither team can bring ball <<Ball In And Out Of Play, into play>>  |  5 s       | 10 s
@@ -70,8 +70,8 @@ of progress is called is described in the table: <<lack-of-progress-timings>>.
 
 
 If there is a lack of progress due to the ball being inside a team's
-<<Defense Area, defense area>> past the timeout, then a <<Indirect Free
-Kick, indirect free kick>> is issued for the attacking team.
+<<Defense Area, defense area>> past the timeout, then a <<Free
+Kick, free kick>> is issued for the attacking team.
 
 In the case of <<Kick-Off, kick-off>>, <<Direct Free Kick, direct free
 kick>>, <<Indirect Free Kick, indirect free kick>>, after the time
