@@ -1,6 +1,6 @@
 == Offenses
 === No Progress In Game
-If there is no progress in the game while both teams are allowed to
+If there is no progress in the game for 5 seconds (Division A) or 10 seconds (Division B) while both teams are allowed to
 <<Ball Manipulation, manipulate the ball>>, the game is <<Stop, stopped>>
 and continued by a <<Force Start, forced start>>.
 
