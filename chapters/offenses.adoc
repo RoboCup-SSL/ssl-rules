@@ -101,18 +101,11 @@ causes a <<Yellow Card, yellow card>> to be awarded.
 Every violation in this section and its subsections increase the foul
 counter.
 
-Fouls are further subdivided into <<Stopping Fouls>> and <<No Stop
-Fouls>>. Stopping fouls cause a <<Stop, stop>> to be issued and the
-game to resume with a <<Free Kick, free kick>>. No stop
-fouls do not cause a change in the game state, however, time is added
-to a <<No Stop Foul, no goal timer>>.
-
 
 ==== Stopping Fouls
 
 Fouls in this section cause the game to <<Stop, stop>> and then resume
-with a <<Fre Kick, free kick>>. Like other fouls, this
-also increases the <<Fouls, foul counter>>.
+with a <<Free Kick, free kick>>.
 
 
 ===== Robot Too Close To Opponent Defense Area
@@ -168,9 +161,8 @@ goal timer. Any goal scored by the team while this timer has time
 remaining is <<Scoring Goals, considered invalid>>.
 
 Each violation adds 2 seconds to the timer. The timer is cleared if
-the opposing team scores a <<Scoring Goals, valid goal>> causing a
-<<Kick-Off, kick-off>>. The timer is also cleared at half-time and at
-overtime.
+the opposing team scores a <<Scoring Goals, valid goal>>.
+The timer is also cleared at half-time and at overtime.
 
 The same no stop foul cannot be triggered again until the foul
 condition has stopped being violated or there has been 1 second since
