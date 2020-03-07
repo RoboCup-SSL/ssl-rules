@@ -67,7 +67,7 @@ Chapter <<Rule Violations>>, section <<Stopping Offenses>>:
 |===
 
 
-Chapter <<Reul Violations>>, section <<Stopping Fouls>>:
+Chapter <<Rule Violations>>, section <<Stopping Fouls>>:
 |===
 | Event | Applicability | Command | AutoRef
 
