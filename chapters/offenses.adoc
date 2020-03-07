@@ -59,14 +59,13 @@ of progress is called is described in the table: <<lack-of-progress-timings>>.
 .Lack Of Progress Timings
 [[lack-of-progress-timings]]
 |=============================================================================
-| Situation                                                                   | Div A Time | Div B Time
-| <<Kick-Off, kick-off>>                                                     | 10 s       | 10 s
-| <<Penalty Kick, penalty kick>>                                          | 10 s       | 10 s               
-| <<Direct Free Kick, direct free kick>>                                 | 5 s        | 10 s        
-| <<Indirect Free Kick, indirect free kick>>                            | 5 s        | 10 s                  
-| Ball inside <<Defense Area, defense area>>                              | 5 s        | 10 s                  
-| Both teams can manipulate, no progress                                      | 5 s        | 10 s                  
-| Neither team can bring ball <<Ball In And Out Of Play, into play>>  | 5 s        | 10 s                  
+| Situation                                                           | Div A Time | Div B Time
+| <<Kick-Off, kick-off>>                                              | 10 s       | 10 s
+| <<Penalty Kick, penalty kick>>                                      | 10 s       | 10 s
+| <<Free Kick, free kick>>                                     |  5 s       | 10 s
+| Ball inside <<Defense Area, defense area>>                          |  5 s       | 10 s
+| Both teams can manipulate, no progress                              |  5 s       | 10 s
+| Neither team can bring ball <<Ball In And Out Of Play, into play>>  |  5 s       | 10 s
 |=============================================================================
 
 
@@ -84,12 +83,6 @@ forced start>>
 This includes situations where both teams can manipulate the ball, but
 the referee determines that no progress is being made.
 
-==== Double Touch
-When the ball is brought <<Ball In And Out Of Play, into play>> following a <<Kick-Off, kick-off>>, <<Direct Free Kick, direct free kick>>, <<Indirect Free Kick, indirect free kick>> or <<Penalty Kick, penalty kick>>, the kicker is not allowed to touch the ball until it has been touched by another robot or the game has been stopped.
-
-The ball must have moved at least 0.05 meters to be considered as <<Ball In And Out Of Play, in play>>.
-
-NOTE: It is understood that the ball may be bumped by the robot multiple times over a short distance while the kick is being taken. This is why a distance of 0.05 meters is used to decide whether a robot violates this rule or not. Remaining in contact with the ball for more than 0.05 meters also counts as double touch, even though technically the robot only touched the ball once.
 
 ==== Double Touch
 When the ball is brought <<Ball In And Out Of Play, into play>> following a <<Kick-Off, kick-off>>, <<Free Kick, free kick>> or <<Penalty Kick, penalty kick>>, the kicker is not allowed to touch the ball until it has been touched by another robot or the game has been stopped.
