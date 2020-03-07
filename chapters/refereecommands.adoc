@@ -120,9 +120,10 @@ free kicks are used to restart the game after a <<Fouls, foul>> has occurred. Ad
 When the force start command is issued, the game is immediately resumed and both teams are allowed to approach and <<Ball Manipulation, manipulate the ball>> again.
 
 .Usage
-The referee can issue a stop command followed by force start if there is a clear lack of progress for at least 10 seconds while both teams are allowed to approach and <<Ball Manipulation, manipulate the ball>>.
+A neutral forced start is used in situations where no team is clearly in favor, such as:
 
-It can also be used to resume the game when the game had to be stopped and no team or both teams are at fault.
+* the game had to be stopped without a specific reason.
+* both teams are at fault.
 
 ==== Penalty Kick
 .Definition
