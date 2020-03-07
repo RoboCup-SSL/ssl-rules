@@ -18,7 +18,7 @@ There is also a lack of progress if the ball is inside a team's <<Defense Area, 
 
 NOTE: If both teams are allowed to manipulate the ball, and thus no team is at fault, the referee may stop the game and issue a <<Force Start, force start>> command.
 
-NOTE: If both teams are clearly unable to bring the ball <<Ball In And Out Of Play, into play>> without violating the rules, the referee may issue a <<Force Start, force start>> command instead of an <<Free Kick, free kick>> for the other team.
+NOTE: If both teams are clearly unable to bring the ball <<Ball In And Out Of Play, into play>> without violating the rules, the referee may issue a <<Force Start, force start>> command instead of a <<Free Kick, free kick>> for the other team.
 
 ==== Double Touch
 When the ball is brought <<Ball In And Out Of Play, into play>> following a <<Kick-Off, kick-off>>, <<Free Kick, free kick>> or <<Penalty Kick, penalty kick>>, the kicker is not allowed to touch the ball until it has been touched by another robot or the game has been stopped.
