@@ -54,17 +54,6 @@ A robot violating this rule has to be <<Robot Substitution, substituted>>.
 
 NOTE: Metal parts (screws for example) as well as larger parts generally pose a potential threat, very small non-metal parts (for example rubber subwheel rings) don't.
 
-===== Robot Stop Speed
-A robot must not move faster than 1.5 meters per second during <<Stop, stop>>. A violation of this rule is only counted once per robot and stoppage.
-
-There is a grace period of 2 seconds for the robots to slow down.
-
-NOTE: This rule does not apply to <<Ball Placement, ball placement>>.
-
-NOTE: Since the stop command is used for manual ball placement and
-<<Robot Substitution, robot substitution>>, the intention of the robot
-speed limit is to avoid robots harming the people on the field.
-
 ===== Multiple Defenders
 NOTE: This rule does not use the standard sanctions defined for <<Fouls, fouls>>.
 
@@ -126,6 +115,17 @@ NOTE: When the ball is <<Ball In And Out Of Play, out of play>>, the rule <<Robo
 
 ===== Crashing
 At the moment of collision of two robots of different teams, the difference of the speed vectors of both robots is taken and projected onto the line that is defined by the position of both robots. If the length of this projection is greater than 1.5 meters per second, the faster robot committed a foul. If the absolute robot speed difference is less than 0.3 meters per second, both conduct a foul.
+
+===== Robot Stop Speed
+A robot must not move faster than 1.5 meters per second during <<Stop, stop>>. A violation of this rule is only counted once per robot and stoppage.
+
+There is a grace period of 2 seconds for the robots to slow down.
+
+NOTE: This rule does not apply to <<Ball Placement, ball placement>>.
+
+NOTE: Since the stop command is used for manual ball placement and
+<<Robot Substitution, robot substitution>>, the intention of the robot
+speed limit is to avoid robots harming the people on the field.
 
 ===== Ball Placement Interference
 During <<Ball Placement, ball placement>>, all robots of the non-placing team have to keep at least 0.5 meters distance to the line between the ball and the placement position (the forbidden area forms a stadium shape).
