@@ -60,8 +60,8 @@ Chapter <<Rule Violations>>, section <<Stopping Offenses>>:
 | Event | Applicability | Command | AutoRef
 
 | <<Aimless Kick [small]#(_division B only_)#, Aimless Kick>> | <<Ball In And Out Of Play, ball in play>> | <<Stop>>, then <<Free Kick>> | icon:check[role="green"]
-| <<Lack Of Progress>> during <<Kick-Off>>, <<Free Kick>> | <<Ball In And Out Of Play, ball in play>> | Ball is considered in-play and manipulatable by both teams | icon:check[role="green"]
-| <<Lack Of Progress>> ball in <<Defense Area, defense area>> | <<Ball In And Out Of Play, ball in play>> | <<Indirect Free Kick, indirect free kick>> | icon:check[role="green"]
+| <<Lack Of Progress>> during <<Kick-Off>>, <<Free Kick>> | <<Ball In And Out Of Play, ball in play>> | Ball is considered in-play and manipulable by both teams | icon:check[role="green"]
+| <<Lack Of Progress>> ball in <<Defense Area, defense area>> | <<Ball In And Out Of Play, ball in play>> | <<Free Kick, free kick>> | icon:check[role="green"]
 | <<Lack Of Progress>>, otherwise | <<Ball In And Out Of Play, ball in play>> | <<Stop>>, then <<Force Start>> | icon:check[role="green"]
 | <<Double Touch>> | <<Ball In And Out Of Play, ball in play>> | <<Stop>>, then <<Free Kick>> | icon:check[role="green"]
 |===

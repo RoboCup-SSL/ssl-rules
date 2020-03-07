@@ -49,11 +49,9 @@ A kick is aimless when after the ball touched a robot, it subsequently crossed t
 ==== Lack Of Progress
 
 There is a lack of progress if only one team is allowed to <<Ball
-Manipulation, manipulate the ball>> (<<Kick-Off, kick-off>>, <<Direct
-Free Kick, direct free kick>>, <<Indirect Free Kick, indirect free
-kick>>) and does not bring the ball
-<<Ball In And Out Of Play, into play>> in time. The time before lack
-of progress is called is described in the table: <<lack-of-progress-timings>>.
+Manipulation, manipulate the ball>> (<<Kick-Off, kick-off>>, <<Free Kick, free kick>>)
+and does not bring the ball <<Ball In And Out Of Play, into play>> in time.
+The time before lack of progress is called is described in the table: <<lack-of-progress-timings>>.
 
 [frame="topbot",options="header"]
 .Lack Of Progress Timings
@@ -72,8 +70,7 @@ If there is a lack of progress due to the ball being inside a team's
 <<Defense Area, defense area>> past the timeout, then a <<Free
 Kick, free kick>> is issued for the attacking team.
 
-In the case of <<Kick-Off, kick-off>>, <<Direct Free Kick, direct free
-kick>>, <<Indirect Free Kick, indirect free kick>>, after the time
+In the case of <<Kick-Off, kick-off>> and <<Free Kick, free kick>>, after the time
 expires the ball is considered <<Ball In And Out Of Play, in play>>
 and both teams may manipulate the ball.
 
