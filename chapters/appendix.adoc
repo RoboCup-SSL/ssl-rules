@@ -86,10 +86,23 @@ All <<Non Stopping Fouls>> result in:
 | <<Attacker In Defense Area>> | <<Ball In And Out Of Play, ball in play>> | - | auto referee
 | <<Excessive Dribbling>> | <<Ball In And Out Of Play, ball in play>> | - | auto referee
 | <<Ball Speed>> | <<Ball In And Out Of Play, ball in play>> | - | auto referee
-| <<Defender Too Close To Ball>> | <<Ball In And Out Of Play, ball out of play>> | - | auto referee
 | <<Attacker Touches Robot In Opponent Defense Area>> | <<Ball In And Out Of Play, ball in play>> | - | auto referee
 | <<Crashing>> | always | - | auto referee
 | <<Crashing>> draw | always | - | auto referee
+|===
+
+
+=== Events For Fouls While Ball Out Of Play
+All <<Fouls While Ball Out Of Play>> result in:
+
+* Incrementing the foul counter.
+* Repeated every 2 seconds, if still committed.
+* Only once per foul, team and 2 seconds.
+
+|===
+| Event | Applicability | Action | Handled By
+
+| <<Defender Too Close To Ball>> | <<Ball In And Out Of Play, ball out of play>> | - | auto referee
 | <<Robot Stop Speed>> | during <<Stop>> | - | auto referee
 | <<Ball Placement Interference>> | during <<Ball Placement>> | placement timer increased by 10 seconds | auto referee
 |===
