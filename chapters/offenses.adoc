@@ -16,6 +16,26 @@ NOTE: It is understood that the ball may be bumped by the robot multiple times o
 This is why a distance of 0.05 meters is used to decide whether a robot violates this rule or not.
 Remaining in contact with the ball for more than 0.05 meters also counts as double touch, even though technically the robot only touched the ball once.
 
+=== Unsporting Behavior
+Unsporting behavior can lead to <<Yellow Card, yellow cards>>, <<Red Card, red cards>>, <<Penalty Kick, penalty kicks>>, a <<Forced Forfeit, forced forfeit>> or a <<Disqualification, disqualification>>. The human <<Referee, referee>> chooses an appropriate sanction, depending on the severity of the offense.
+
+NOTE: If the referee is not sure which sanction to choose, he may confer with members of the <<Technical Committee, technical committee>> or the <<Organizing Committee, organizing committee>>.
+
+Some examples of unsporting behavior are listed below.
+
+==== Damaging Other Robots
+It is not allowed to damage or modify robots of other teams.
+
+==== Damaging The Field Or The Ball
+It is not allowed to damage or modify the field or the ball.
+
+==== Showing Lack Of Respect
+A team member must show appropriate respect to everyone involved in the game. Infringements of this rule include but are not limited to:
+
+* insulting the opponent, the <<Referee, referee>> or other persons holding an <<Impartial Roles, impartial role>>
+* annoying the <<Referee, referee>> or other persons holding an <<Impartial Roles, impartial role>>
+* not obeying the orders of the <<Referee, referee>>
+
 === Fouls
 The number of fouls per team is tracked by a counter. Each foul will
 increase the counter by one. Every third increase to the foul counter
@@ -147,23 +167,3 @@ placement timer.
 
 NOTE: This rule does not cover all cases of ball placement interference.
 The <<Referee, referee>> is encouraged to call fouls if the non-placing team is obviously interfering with the ball placement.
-
-=== Unsporting Behavior
-Unsporting behavior can lead to <<Yellow Card, yellow cards>>, <<Red Card, red cards>>, <<Penalty Kick, penalty kicks>>, a <<Forced Forfeit, forced forfeit>> or a <<Disqualification, disqualification>>. The human <<Referee, referee>> chooses an appropriate sanction, depending on the severity of the offense.
-
-NOTE: If the referee is not sure which sanction to choose, he may confer with members of the <<Technical Committee, technical committee>> or the <<Organizing Committee, organizing committee>>.
-
-Some examples of unsporting behavior are listed below.
-
-==== Damaging Other Robots
-It is not allowed to damage or modify robots of other teams.
-
-==== Damaging The Field Or The Ball
-It is not allowed to damage or modify the field or the ball.
-
-==== Showing Lack Of Respect
-A team member must show appropriate respect to everyone involved in the game. Infringements of this rule include but are not limited to:
-
-* insulting the opponent, the <<Referee, referee>> or other persons holding an <<Impartial Roles, impartial role>>
-* annoying the <<Referee, referee>> or other persons holding an <<Impartial Roles, impartial role>>
-* not obeying the orders of the <<Referee, referee>>
