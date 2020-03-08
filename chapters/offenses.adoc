@@ -133,7 +133,7 @@ NOTE: When the ball is <<Ball In And Out Of Play, out of play>>, the rule <<Robo
 ===== Crashing
 At the moment of collision of two robots of different teams, the difference of the speed vectors of both robots is taken and projected onto the line that is defined by the position of both robots. If the length of this projection is greater than 1.5 meters per second, the faster robot committed a foul. If the absolute robot speed difference is less than 0.3 meters per second, both conduct a foul.
 
-==== Fouls During Stop
+==== Fouls While Ball Out Of Play
 Fouls in this section can only occur when the ball is <<Ball In And Out Of Play, out of play>>.
 
 Each foul has a grace period of 2 seconds per team until it is raised again.
