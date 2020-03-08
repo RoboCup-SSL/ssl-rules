@@ -72,8 +72,8 @@ The ball must not be kept in the <<Defense Area, defense area>> for more than
 5 seconds (Division A) or 10 seconds (Division B).
 
 ==== Non Stopping Fouls
-Violations in this section are fouls, but they do not cause a <<Stop,
-stop>>. Instead, the game continues but time is added to a per-team no
+Fouls in this section do not cause a <<Stop, stop>>.
+Instead, the game continues but time is added to a per-team no
 goal timer. Any goal scored by the team while this timer has time
 remaining is <<Scoring Goals, considered invalid>>.
 
@@ -101,9 +101,6 @@ NOTE: Dribblers can still be used to dribble large distances with the ball as lo
 ===== Ball Speed
 A robot must not accelerate the ball faster than 6.5 meters per second in 3D space.
 
-===== Defender Too Close To Ball
-A robot's distance to the ball must be at least 0.5 meters during an opponent <<Kick-Off, kick-off>> or <<Free Kick, free kick>>.
-
 The <<Referee, human referee>> may decide to repeat the <<Kick-Off, kick-off>> or <<Free Kick, free kick>> on significant disturbances.
 
 NOTE: During <<Stop, stop>>, there is no automatic sanction for being too close to the ball. The referee may still punish a team for <<Unsporting Behavior,unsporting behavior>> by issuing a <<Yellow Card, yellow card>> if it does not respect the required distance. See <<Stop, stop>> for further explanation.
@@ -115,6 +112,19 @@ NOTE: When the ball is <<Ball In And Out Of Play, out of play>>, the rule <<Robo
 
 ===== Crashing
 At the moment of collision of two robots of different teams, the difference of the speed vectors of both robots is taken and projected onto the line that is defined by the position of both robots. If the length of this projection is greater than 1.5 meters per second, the faster robot committed a foul. If the absolute robot speed difference is less than 0.3 meters per second, both conduct a foul.
+
+==== Fouls During Stop
+Fouls in this section can only occur when the ball is <<Ball In And Out Of Play, out of play>>.
+
+Each foul has a grace period of 2 seconds per team until it is raised again.
+
+NOTE: If multiple robots commit the same foul within 2 seconds, only the first foul counts.
+
+NOTE: If a robot keeps committing a foul, it will be punished again after the grace period.
+
+===== Defender Too Close To Ball
+A robot's distance to the ball must be at least 0.5 meters during an opponent <<Kick-Off, kick-off>> or <<Free Kick, free kick>>.
+While the foul is being committed, the timer of the opponent team for bringing the ball into play is reset.
 
 ===== Robot Stop Speed
 A robot must not move faster than 1.5 meters per second during <<Stop, stop>>. A violation of this rule is only counted once per robot and stoppage.
