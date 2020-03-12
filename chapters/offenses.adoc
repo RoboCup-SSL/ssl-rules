@@ -121,10 +121,6 @@ NOTE: Dribblers can still be used to dribble large distances with the ball as lo
 ===== Ball Speed
 A robot must not accelerate the ball faster than 6.5 meters per second in 3D space.
 
-The <<Referee, human referee>> may decide to repeat the <<Kick-Off, kick-off>> or <<Free Kick, free kick>> on significant disturbances.
-
-NOTE: During <<Stop, stop>>, there is no automatic sanction for being too close to the ball. The referee may still punish a team for <<Unsporting Behavior,unsporting behavior>> by issuing a <<Yellow Card, yellow card>> if it does not respect the required distance. See <<Stop, stop>> for further explanation.
-
 ===== Attacker Touches Robot In Opponent Defense Area
 When the ball is <<Ball In And Out Of Play, in play>>, a robot must not touch any opponent robot inside the opponent <<Defense Area, defense area>>.
 
@@ -145,6 +141,10 @@ NOTE: If a robot keeps committing a foul, it will be punished again after the gr
 ===== Defender Too Close To Ball
 A robot's distance to the ball must be at least 0.5 meters during an opponent <<Kick-Off, kick-off>> or <<Free Kick, free kick>>.
 While the foul is being committed, the timer of the opponent team for bringing the ball into play is reset.
+
+The <<Referee, human referee>> may decide to repeat the <<Kick-Off, kick-off>> or <<Free Kick, free kick>> on significant disturbances.
+
+NOTE: During <<Stop, stop>>, there is no automatic sanction for being too close to the ball. The referee may still punish a team for <<Unsporting Behavior,unsporting behavior>> by issuing a <<Yellow Card, yellow card>> if it does not respect the required distance. See <<Stop, stop>> for further explanation.
 
 ===== Robot Stop Speed
 A robot must not move faster than 1.5 meters per second during <<Stop, stop>>. A violation of this rule is only counted once per robot and stoppage.
