@@ -41,8 +41,7 @@ The number of fouls per team is tracked by a counter. Each foul will
 increase the counter by one. Every third increase to the foul counter
 causes a <<Yellow Card, yellow card>> to be awarded.
 
-Every violation in this section and its subsections increase the foul
-counter.
+Violations in this section and its subsections increase the foul counter if not stated otherwise.
 
 NOTE: Regardless, of the prescribed penalties in this section, if a
 foul is severe or repeated, the referee can choose to immediately
