@@ -58,7 +58,7 @@ NOTE: Note that the information shown in this table here is incomplete. Please r
 === Events For Stopping Fouls
 All <<Stopping Fouls>> result in:
 
-* Incrementing the foul counter.
+* Incrementing the foul counter (except for <<Multiple Defenders>>).
 
 |===
 | Event | Applicability | Action | Handled By
@@ -67,10 +67,10 @@ All <<Stopping Fouls>> result in:
 | <<Pushing>> | always | <<Stop>> -> <<Free Kick>> | referee -> game controller
 | <<Ball Holding>> | <<Ball In And Out Of Play, ball in play>> | <<Stop>> -> <<Free Kick>> | referee -> game controller
 | <<Tipping Over Or Dropping Parts>> | always | <<Stop>> -> <<Free Kick>> | referee -> game controller
-| <<Multiple Defenders>> partially | <<Ball In And Out Of Play, ball in play>> | <<Stop>> -> <<Yellow Card>> -> <<Free Kick>> | auto referee
-| <<Multiple Defenders>> entirely | <<Ball In And Out Of Play, ball in play>> | <<Stop>> -> <<Penalty Kick>> | auto referee
+| <<Multiple Defenders>> | <<Ball In And Out Of Play, ball in play>> | <<Stop>> -> <<Penalty Kick>> | auto referee
 | <<Boundary Crossing>> | <<Ball In And Out Of Play, ball in play>> | <<Stop>> -> <<Free Kick>> | auto referee
 | <<Keeper Held Ball>> in <<Defense Area, defense area>> | <<Ball In And Out Of Play, ball in play>> | <<Stop>> -> <<Free Kick>> | auto referee
+| <<Excessive Dribbling>> | <<Ball In And Out Of Play, ball in play>> | <<Stop>> -> <<Free Kick>> | auto referee
 |===
 
 
@@ -78,13 +78,12 @@ All <<Stopping Fouls>> result in:
 All <<Non Stopping Fouls>> result in:
 
 * Incrementing the foul counter.
-* Increasing the no goal timer.
+* Repeated every 2 seconds, if still committed without interruption.
 
 |===
 | Event | Applicability | Action | Handled By
 
-| <<Attacker In Defense Area>> | <<Ball In And Out Of Play, ball in play>> | - | auto referee
-| <<Excessive Dribbling>> | <<Ball In And Out Of Play, ball in play>> | - | auto referee
+| <<Attacker Touched Ball In Opponent Defense Area>> | <<Ball In And Out Of Play, ball in play>> | - | auto referee
 | <<Ball Speed>> | <<Ball In And Out Of Play, ball in play>> | - | auto referee
 | <<Attacker Touches Robot In Opponent Defense Area>> | <<Ball In And Out Of Play, ball in play>> | - | auto referee
 | <<Crashing>> | always | - | auto referee

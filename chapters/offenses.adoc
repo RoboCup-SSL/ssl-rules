@@ -76,11 +76,12 @@ NOTE: Metal parts (screws for example) as well as larger parts generally pose a 
 ===== Multiple Defenders
 NOTE: This rule does not use the standard sanctions defined for <<Fouls, fouls>>.
 
-If a robot other than the keeper touches the ball while being partially inside its own defense area, the game is stopped, the robot receives a <<Yellow Card, yellow card>> and the opponent team resumes the game with a <<Free Kick, free kick>>. The foul counter is not increased.
+Robots other than the keeper must maintain best-effort to fully stay outside the own defense area.
+Infraction of this rule can be rated as unsporting behavior.
 
 If a robot other than the keeper touches the ball while being entirely
 inside its own defense area, the game is stopped and a <<Penalty Kick,
-penalty kick>> is awarded to the other team. The foul counter is not
+penalty kick>> is awarded to the other team. The foul counter is *not*
 increased.
 
 ===== Boundary Crossing
@@ -90,40 +91,26 @@ A robot must not kick the ball over the field boundary such that the ball leaves
 The ball must not be kept in the <<Defense Area, defense area>> for more than
 5 seconds (Division A) or 10 seconds (Division B).
 
-==== Non Stopping Fouls
-Fouls in this section do not cause a <<Stop, stop>>.
-Instead, the game continues but time is added to a per-team no
-goal timer. Any goal scored by the team while this timer has time
-remaining is <<Scoring Goals, considered invalid>>.
-
-Each violation adds 2 seconds to the timer. The timer is cleared
-
-* if the opposing team scores a <<Scoring Goals, valid goal>>.
-* at half-time and at overtime.
-
-The same no stop foul cannot be triggered again until the foul
-condition has stopped being violated or there has been 1 second since
-the foul was first triggered. This is to allow teams to adjust their
-robots' positions, ball speed or any other property that is causing
-the violation before being penalized additional times.
-
-===== Attacker In Defense Area
-A robot must not touch the ball while being partially or fully inside the opponent <<Defense Area, defense area>>.
-
-NOTE: When the ball is <<Ball In And Out Of Play, out of play>>, the more strict rule <<Robot Too Close To Opponent Defense Area>> applies instead.
-
 ===== Excessive Dribbling
 A robot must not <<Dribbling Device, dribble>> the ball further than 1 meter, measured linearly from the ball location where the dribbling started. A robot begins dribbling when it makes contact with the ball and stops dribbling when there is an observable separation between the ball and the robot.
 
 NOTE: Dribblers can still be used to dribble large distances with the ball as long as the robot periodically loses possession, such as kicking the ball ahead of it as human soccer players often do.
 
+==== Non Stopping Fouls
+Fouls in this section do not cause a <<Stop, stop>>.
+Instead, the game continues normally.
+
+The same no stop foul cannot be triggered again until the foul
+condition has stopped being violated or there has been 2 seconds since
+the foul was first triggered. This is to allow teams to adjust their
+robots' positions, ball speed or any other property that is causing
+the violation before being penalized additional times.
+
+===== Attacker Touched Ball In Opponent Defense Area
+The ball must not be touched while being partially or fully inside the opponent <<Defense Area, defense area>>.
+
 ===== Ball Speed
 A robot must not accelerate the ball faster than 6.5 meters per second in 3D space.
-
-===== Attacker Touches Robot In Opponent Defense Area
-When the ball is <<Ball In And Out Of Play, in play>>, a robot must not touch any opponent robot inside the opponent <<Defense Area, defense area>>.
-
-NOTE: When the ball is <<Ball In And Out Of Play, out of play>>, the rule <<Robot Too Close To Opponent Defense Area>> applies instead.
 
 ===== Crashing
 At the moment of collision of two robots of different teams, the difference of the speed vectors of both robots is taken and projected onto the line that is defined by the position of both robots. If the length of this projection is greater than 1.5 meters per second, the faster robot committed a foul. If the absolute robot speed difference is less than 0.3 meters per second, both conduct a foul.
