@@ -7,6 +7,6 @@ Additionally, the goal is only valid if
 * The ball was not located in the opponent defense area when the goal kick started.
 * The ball did not exceed the ball speed limit during the goal kick.
 
-NOTE: During <<Penalty Kick, penalty kicks>>, these additional rules do not apply.
+NOTE: During <<Penalty Kick, penalty kicks>>, more specific rules apply.
 
 If the goal is considered invalid, the game will be continued as if the ball crossed the goal line outside the goal.
