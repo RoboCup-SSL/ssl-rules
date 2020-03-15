@@ -36,6 +36,8 @@ A team member must show appropriate respect to everyone involved in the game. In
 * annoying the <<Referee, referee>> or other persons holding an <<Impartial Roles, impartial role>>
 * not obeying the orders of the <<Referee, referee>>
 
+
+
 === Fouls
 The number of fouls per team is tracked by a counter. Each foul will
 increase the counter by one. Every third increase to the foul counter
@@ -47,6 +49,8 @@ NOTE: Regardless, of the prescribed penalties in this section, if a
 foul is severe or repeated, the referee can choose to immediately
 issue a <<Yellow Card, yellow card>> or in extreme cases a <<Red Card,
 red card>>.
+
+
 
 ==== Stopping Fouls
 Fouls in this section cause the game to <<Stop, stop>> and then resume
@@ -96,6 +100,8 @@ A robot must not <<Dribbling Device, dribble>> the ball further than 1 meter, me
 
 NOTE: Dribblers can still be used to dribble large distances with the ball as long as the robot periodically loses possession, such as kicking the ball ahead of it as human soccer players often do.
 
+
+
 ==== Non Stopping Fouls
 Fouls in this section do not cause a <<Stop, stop>>.
 Instead, the game continues normally.
@@ -114,6 +120,8 @@ A robot must not accelerate the ball faster than 6.5 meters per second in 3D spa
 
 ===== Crashing
 At the moment of collision of two robots of different teams, the difference of the speed vectors of both robots is taken and projected onto the line that is defined by the position of both robots. If the length of this projection is greater than 1.5 meters per second, the faster robot committed a foul. If the absolute robot speed difference is less than 0.3 meters per second, both conduct a foul.
+
+
 
 ==== Fouls While Ball Out Of Play
 Fouls in this section can only occur when the ball is <<Ball In And Out Of Play, out of play>>.

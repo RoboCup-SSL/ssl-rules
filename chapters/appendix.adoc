@@ -85,7 +85,6 @@ All <<Non Stopping Fouls>> result in:
 
 | <<Attacker Touched Ball In Opponent Defense Area>> | <<Ball In And Out Of Play, ball in play>> | - | auto referee
 | <<Ball Speed>> | <<Ball In And Out Of Play, ball in play>> | - | auto referee
-| <<Attacker Touches Robot In Opponent Defense Area>> | <<Ball In And Out Of Play, ball in play>> | - | auto referee
 | <<Crashing>> | always | - | auto referee
 | <<Crashing>> draw | always | - | auto referee
 |===
