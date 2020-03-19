@@ -1,4 +1,4 @@
-== Challenge Flag
+== Challenge Flags
 
 A challenge flag allows teams to challenge a decision of the referee:
 

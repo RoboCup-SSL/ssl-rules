@@ -1,13 +1,5 @@
 [appendix]
 == Terminology
-=== Ball In And Out Of Play
-When the match is <<Stopping The Game, stopped>>, the ball is considered *out of play* until it has been brought into play.
-
-When the match is <<Resuming The Game, resumed>>, the ball is considered *in play* until the next stoppage occurs. The match is resumed when <<Force Start, force start>> has been issued or the ball moved at least 0.05 meters following a <<Kick-Off, kick-off>>, <<Free Kick, free kick>> or <<Penalty Kick, penalty kick>>.
-
-NOTE: see <<Double Touch, double touch>> for the rationale of the 0.05 meter distance
-
-
 === Ball Manipulation
 Shooting and <<Dribbling Device, dribbling>> is considered as manipulating the ball, the ball accidentally bouncing off the hull is not.
 
@@ -18,91 +10,115 @@ The game event table is a compilation of the different game events and their con
 
 NOTE: Note that the information shown in this table here is incomplete. Please read the sections of the respective events for the full definitions.
 
-Chapter <<Robots>>:
+=== Events For Match Proceeding
 |===
-| Event | Applicability | Command | AutoRef
+| Event | Applicability | Command | Handled By
 
-| <<Number Of Robots>> exceeded | always | <<Stop>> | icon:check[role="green"]
-|===
-
-Chapter <<Referee Commands>>:
-|===
-| Event | Applicability | Command | AutoRef
-
-| <<Kick-Off>> prepared | during <<Kick-Off>> | <<Normal Start>> | icon:check[role="green"]
-| No Progress | <<Ball In And Out Of Play, ball in play>> | <<Stop>>, then <<Force Start>> | icon:check[role="green"]
-| <<Penalty Kick>> prepared | during <<Penalty Kick>> | <<Normal Start>> | icon:check[role="green"]
-| Multiple <<Yellow Card, Yellow Cards>> | always | <<Red Card>> | icon:times[role="red"] (handled by the game controller)
-| <<Ball Placement>> failed by team in favor | during <<Ball Placement>> | <<Stop>>, then <<Free Kick>> (div A) / previous command (div B) | icon:check[role="green"]
-| <<Ball Placement>> failed by opponent | during <<Ball Placement>> | <<Stop>> | icon:check[role="green"]
-| <<Ball Placement>> successful | during <<Ball Placement>> | continue | icon:check[role="green"]
-|===
-
-Chapter <<Ball Leaves The Field>>:
-|===
-| Event | Applicability | Command | AutoRef
-
-| <<Throw-In>> | <<Ball In And Out Of Play, ball in play>> | <<Stop>>, then <<Free Kick>> | icon:check[role="green"]
-| <<Goal Kick>> | <<Ball In And Out Of Play, ball in play>> | <<Stop>>, then <<Free Kick>> | icon:check[role="green"]
-| <<Corner Kick>> | <<Ball In And Out Of Play, ball in play>> | <<Stop>>, then <<Free Kick>> | icon:check[role="green"]
-|===
-
-Chapter <<Scoring Goals>>:
-|===
-| Event | Applicability | Command | AutoRef
-
-| Goal | <<Ball In And Out Of Play, ball in play>> | <<Stop>>, then <<Kick-Off>> | (icon:check[role="green"]) footnote:[the game controller operator has to continue the game]
-| Invalid Goal | <<Ball In And Out Of Play, ball in play>> | <<Stop>>, then <<Free Kick>> | icon:check[role="green"]
-|===
-
-Chapter <<Offenses>>, section <<Minor Offenses>>:
-|===
-| Event | Applicability | Command | AutoRef
-
-| <<Aimless Kick [small]#(_division B only_)#, Aimless Kick>> | <<Ball In And Out Of Play, ball in play>> | <<Stop>>, then <<Free Kick>> | icon:check[role="green"]
-| <<Lack Of Progress>> | <<Ball In And Out Of Play, ball in play>> | <<Stop>>, then <<Free Kick>> | icon:check[role="green"]
-| <<Double Touch>> | <<Ball In And Out Of Play, ball in play>> | <<Stop>>, then <<Free Kick>> | icon:check[role="green"]
-| <<Attacker In Defense Area>> | <<Ball In And Out Of Play, ball in play>> | <<Stop>>, then <<Free Kick>> | icon:check[role="green"]
-| <<Attacker Touches Robot In Opponent Defense Area>> skipped | <<Ball In And Out Of Play, ball in play>> | no command | icon:check[role="green"] (<<Advantage Rule>>)
-| <<Excessive Dribbling>> | <<Ball In And Out Of Play, ball in play>> | <<Stop>>, then <<Free Kick>> | icon:check[role="green"]
-| <<Ball Speed>> | <<Ball In And Out Of Play, ball in play>> | <<Stop>>, then <<Free Kick>> | icon:check[role="green"]
+| Prepared | during <<Kick-Off>>, <<Penalty Kick>> | <<Normal Start>> | auto referee
+| <<Ball Placement>> failed by team in favor | during <<Ball Placement>> | <<Stop>> -> <<Free Kick>> (div A) / previous command (div B) | auto referee
+| <<Ball Placement>> failed by opponent | during <<Ball Placement>> | <<Stop>> | auto referee
+| <<Ball Placement>> successful | during <<Ball Placement>> | continue | auto referee
+| <<Robot Substitution>> Intent | always | <<Halt>> (after next stoppage), then <<Stop>> | game controller
+| <<Number Of Robots>> exceeded | always | <<Stop>> | auto referee
 |===
 
 
-Chapter <<Offenses>>, section <<Fouls>>:
+=== Events For Ball Leaving The Field
 |===
-| Event | Applicability | Command | AutoRef
+| Event | Applicability | Command | Handled By
 
-| Multiple <<Fouls>> | <<Ball In And Out Of Play, ball out of play>> | <<Yellow Card>> | icon:times[role="red"] (handled by the game controller)
-| <<Attacker Touches Robot In Opponent Defense Area>> | <<Ball In And Out Of Play, ball in play>> | <<Stop>>, then <<Free Kick>> | icon:check[role="green"]
-| <<Robot Too Close To Opponent Defense Area>> | <<Ball In And Out Of Play, ball out of play>> | <<Stop>>, then <<Free Kick>> | icon:check[role="green"]
-| <<Ball Placement Interference>> | during <<Ball Placement>> | <<Stop>>, then <<Free Kick>> | icon:check[role="green"]
-| <<Crashing>> | always | <<Stop>>, then <<Free Kick>> | icon:check[role="green"]
-| <<Crashing>> skipped | always | no command | icon:check[role="green"] (<<Advantage Rule>>)
-| <<Crashing>> draw | always | no command | icon:check[role="green"]
-| <<Pushing>> | always | <<Stop>>, then <<Free Kick>> | icon:times[role="red"]
-| <<Ball Holding>> | <<Ball In And Out Of Play, ball in play>> | <<Stop>>, then <<Free Kick>> | icon:check[role="green"]
-| <<Tipping Over Or Dropping Parts>> | always | <<Stop>>, then <<Free Kick>> | icon:times[role="red"]
-| <<Robot Stop Speed>> | during <<Stop>> | <<Stop>>, then <<Free Kick>> | icon:check[role="green"]
-| <<Defender Too Close To Ball>> | <<Ball In And Out Of Play, ball out of play>> | <<Stop>>, then <<Free Kick>> | icon:check[role="green"]
-| <<Multiple Defenders>> partially | <<Ball In And Out Of Play, ball in play>> | <<Stop>>, then <<Free Kick>>, <<Yellow Card>> | icon:check[role="green"]
-| <<Multiple Defenders>> entirely | <<Ball In And Out Of Play, ball in play>> | <<Stop>>, then <<Penalty Kick>> | icon:check[role="green"]
+| <<Throw-In>> | <<Ball In And Out Of Play, ball in play>> | <<Stop>> -> <<Free Kick>> | auto referee
+| <<Goal Kick>> | <<Ball In And Out Of Play, ball in play>> | <<Stop>> -> <<Free Kick>> | auto referee
+| <<Corner Kick>> | <<Ball In And Out Of Play, ball in play>> | <<Stop>> -> <<Free Kick>> | auto referee
+| <<aimless-kick, Aimless Kick>> | <<Ball In And Out Of Play, ball in play>> | <<Stop>> -> <<Free Kick>> | auto referee
 |===
 
-Chapter <<Offenses>>, section <<Unsporting Behavior>>:
+
+=== Events For Scoring Goals
+|===
+| Event | Applicability | Command | Handled By
+
+| <<Scoring Goals, Goal>> | <<Ball In And Out Of Play, ball in play>> | <<Stop>> -> <<Kick-Off>> | (auto referee) footnote:[the game controller operator has to continue the game]
+| <<Scoring Goals, Invalid Goal>> | <<Ball In And Out Of Play, ball in play>> | <<Stop>> -> <<Free Kick>> | auto referee
+|===
+
+
+=== Events For Offenses
+|===
+| Event | Applicability | Command | Handled By
+
+| <<No Progress In Game>> | <<Ball In And Out Of Play, ball in play>> | <<Stop>> -> <<Force Start>> | auto referee
+| <<Double Touch>> | <<Ball In And Out Of Play, ball in play>> | <<Stop>> -> <<Free Kick>> | auto referee
+| <<Unsporting Behavior>> | always | <<Stop>> -> <<Yellow Card>>, <<Red Card>>, <<Penalty Kick>>, <<Forced Forfeit>> or <<Disqualification>> | referee -> game controller
+| Multiple <<Fouls>> | always | <<Yellow Card>> | game controller
+| Multiple <<Yellow Card, Yellow Cards>> | always | <<Red Card>> | game controller
+|===
+
+
+=== Events For Stopping Fouls
+All <<Stopping Fouls>> result in:
+
+* Incrementing the foul counter (except for <<Multiple Defenders>>).
 
 |===
-| Event | Applicability | Command | AutoRef
+| Event | Applicability | Action | Handled By
 
-| Unsporting Behavior | always | <<Stop>>, then <<Yellow Card>>, <<Red Card>>, <<Penalty Kick>>, <<Forced Forfeit>> or <<Disqualification>> | icon:times[role="red"]
+| <<Robot Too Close To Opponent Defense Area>> | during <<Stop>> and <<Free Kick>> | <<Stop>> -> <<Free Kick>> | auto referee
+| <<Pushing>> | always | <<Stop>> -> <<Free Kick>> | referee -> game controller
+| <<Ball Holding>> | <<Ball In And Out Of Play, ball in play>> | <<Stop>> -> <<Free Kick>> | referee -> game controller
+| <<Tipping Over Or Dropping Parts>> | always | <<Stop>> -> <<Free Kick>> | referee -> game controller
+| <<Multiple Defenders>> | <<Ball In And Out Of Play, ball in play>> | <<Stop>> -> <<Penalty Kick>> | auto referee
+| <<Boundary Crossing>> | <<Ball In And Out Of Play, ball in play>> | <<Stop>> -> <<Free Kick>> | auto referee
+| <<Keeper Held Ball>> in <<Defense Area, defense area>> | <<Ball In And Out Of Play, ball in play>> | <<Stop>> -> <<Free Kick>> | auto referee
+| <<Excessive Dribbling>> | <<Ball In And Out Of Play, ball in play>> | <<Stop>> -> <<Free Kick>> | auto referee
 |===
 
-Chapter <<Robot Substitution>>:
-|===
-| Event | Applicability | Command | AutoRef
 
-| <<Robot Substitution>> Intent | always | <<Halt>> (after next stoppage), then <<Stop>> | icon:times[role="red"]
+=== Events For Non Stopping Fouls
+All <<Non Stopping Fouls>> result in:
+
+* Incrementing the foul counter.
+* Repeated every 2 seconds, if still committed without interruption.
+
 |===
+| Event | Applicability | Action | Handled By
+
+| <<Attacker Touched Ball In Opponent Defense Area>> | <<Ball In And Out Of Play, ball in play>> | - | auto referee
+| <<Ball Speed>> | <<Ball In And Out Of Play, ball in play>> | - | auto referee
+| <<Crashing>> | always | - | auto referee
+| <<Crashing>> draw | always | - | auto referee
+|===
+
+
+=== Events For Fouls While Ball Out Of Play
+All <<Fouls While Ball Out Of Play>> result in:
+
+* Incrementing the foul counter.
+* Repeated every 2 seconds, if still committed.
+* Only once per foul, team and 2 seconds.
+
+|===
+| Event | Applicability | Action | Handled By
+
+| <<Defender Too Close To Ball>> | <<Ball In And Out Of Play, ball out of play>> | - | auto referee
+| <<Robot Stop Speed>> | during <<Stop>> | - | auto referee
+| <<Ball Placement Interference>> | during <<Ball Placement>> | placement timer increased by 10 seconds | auto referee
+|===
+
+
+[appendix]
+== Overview of Timings
+|===
+| Situation                                                           | Div A Time | Div B Time
+
+| Remove robot for <<Yellow Card>>                                    | 10 s       | 10 s
+| <<Penalty Kick, penalty kick>>                                      | 10 s       | 10 s
+| <<Kick-Off, kick-off>>                                              | 10 s       | 10 s
+| <<Free Kick, free kick>>                                            |  5 s       | 10 s
+| <<Keeper Held Ball>> inside <<Defense Area>>                        |  5 s       | 10 s
+| <<No Progress In Game>>                                             |  5 s       | 10 s
+|===
+
 
 [appendix]
 == Differences Between Divisions
@@ -112,5 +128,5 @@ This is a complete list of differences between <<Divisions, division>> A and <<D
 * Division A plays on a <<Dimensions, larger field>> with <<Goals, larger goals>> than division B. As a result, the <<Shoot-Out, shoot-out>> is taken from a greater distance as well.
 * Division A plays with <<Number Of Robots, more robots>> than division B.
 * The automatic <<Ball Placement, ball placement>> procedure is mandatory for division A and optional for division B.
-* The <<Aimless Kick [small]#(_division B only_)#, aimless kick>> rule only applies to division B.
-* There is a smaller time window in division A for taking a free kick before <<Lack Of Progress, lack of progress>> is called.
+* The <<aimless-kick, aimless kick>> rule only applies to division B.
+* Division A has shorter timeouts in some situations

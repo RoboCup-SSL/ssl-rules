@@ -3,6 +3,7 @@
 = Rules of the RoboCup Small Size League
 {docdate}
 :toc:
+:toclevels: 4
 
 // add icons from fontawesome in a up-to-date version
 ifdef::basebackend-html[]
