@@ -32,7 +32,7 @@ Chapter <<Referee Commands>>:
 | <<Kick-Off>> prepared | during <<Kick-Off>> | <<Normal Start>> | icon:check[role="green"]
 | No Progress | <<Ball In And Out Of Play, ball in play>> | <<Stop>>, then <<Force Start>> | icon:check[role="green"]
 | <<Penalty Kick>> prepared | during <<Penalty Kick>> | <<Normal Start>> | icon:check[role="green"]
-| Multiple <<Yellow Card, Yellow Cards>> | <<Ball In And Out Of Play, ball out of play>> | <<Penalty Kick>> | icon:times[role="red"] (handled by the game controller)
+| Multiple <<Yellow Card, Yellow Cards>> | always | <<Red Card>> | icon:times[role="red"] (handled by the game controller)
 | <<Ball Placement>> failed by team in favor | during <<Ball Placement>> | <<Stop>>, then <<Free Kick>> (div A) / previous command (div B) | icon:check[role="green"]
 | <<Ball Placement>> failed by opponent | during <<Ball Placement>> | <<Stop>> | icon:check[role="green"]
 | <<Ball Placement>> successful | during <<Ball Placement>> | continue | icon:check[role="green"]
