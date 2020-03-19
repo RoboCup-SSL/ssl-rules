@@ -47,7 +47,7 @@ NOTE: Note that the information shown in this table here is incomplete. Please r
 |===
 | Event | Applicability | Command | Handled By
 
-| Multiple <<Yellow Card, Yellow Cards>> | always | <<Stop>> -> <<Penalty Kick>> | game controller
+| Multiple <<Yellow Card, Yellow Cards>> | always | <<Read Card>> | game controller
 | <<No Progress In Game>> | <<Ball In And Out Of Play, ball in play>> | <<Stop>> -> <<Force Start>> | auto referee
 | <<Double Touch>> | <<Ball In And Out Of Play, ball in play>> | <<Stop>> -> <<Free Kick>> | auto referee
 | Multiple <<Fouls>> | always | <<Yellow Card>> | game controller
