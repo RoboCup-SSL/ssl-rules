@@ -100,7 +100,7 @@ All <<Fouls While Ball Out Of Play>> result in:
 |===
 | Event | Applicability | Action | Handled By
 
-| <<Defender Too Close To Ball>> | <<Ball In And Out Of Play, ball out of play>> | - | auto referee
+| <<Defender Too Close To Ball>> | <<Ball In And Out Of Play, ball out of play>> | timer for bringing the ball into play is reset | auto referee
 | <<Robot Stop Speed>> | during <<Stop>> | - | auto referee
 | <<Ball Placement Interference>> | during <<Ball Placement>> | placement timer increased by 10 seconds | auto referee
 |===
