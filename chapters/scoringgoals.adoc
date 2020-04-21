@@ -6,6 +6,9 @@ provided that:
 * The height of the ball did not exceed 0.15 meters after the last touch of the teams robots.
 * The team did not commit any rule infringements since the teams robots last touched the ball.
 
+NOTE: "The team" refers to the scoring team that is awarded a goal, not the team that kicked the ball.
+For example, an own goal is not possible while the opponent team has too many robots on the field.
+
 NOTE: During <<Penalty Kick, penalty kicks>>, more specific rules apply.
 
 If the goal is considered invalid, the game will be continued as if the ball crossed the goal line outside the goal.
