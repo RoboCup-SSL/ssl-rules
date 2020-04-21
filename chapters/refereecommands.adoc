@@ -48,7 +48,7 @@ A ball is considered placed successfully by the robots if
 
 No further commands will be issued by the <<Game Controller, game controller>> until the automatic placement is complete.
 The game will be continued by the <<Game Controller, game controller>> as soon as the ball is successfully placed, but not earlier than 2 seconds after the ball placement command has been issued.
-A failed placement will result in a free kick for the opposing team.
+A failed placement will result in a <<Free Kick, free kick>> for the opposing team.
 If this team failed to place the ball as well, the ball is placed by the <<Referee, referee>> and game continues with the original command.
 
 For each team a ball placement failure counter is incremented on each placement failure and decremented for successful placements. It can not get negative.
