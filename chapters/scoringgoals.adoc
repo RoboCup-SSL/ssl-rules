@@ -1,11 +1,10 @@
 == Scoring Goals
-A goal is scored if the ball enters the goal between the goal posts, provided that no rule infringement has been committed in the play immediately preceding this event, by the team scoring the goal.
+A team scores a goal when the ball fully enters the opponent goal between the goal posts,
+provided that:
 
-Additionally, the goal is only valid if
-
-* The height of the ball did not exceed 0.15 meters after the last touch of an attacker.
-* The ball was not located in the opponent defense area when the goal kick started.
-* The ball did not exceed the ball speed limit during the goal kick.
+* The team did not exceed the allowed number of robots when the ball entered the goal.
+* The height of the ball did not exceed 0.15 meters after the last touch of the teams robots.
+* The team did not commit any rule infringements since the teams robots last touched the ball.
 
 NOTE: During <<Penalty Kick, penalty kicks>>, more specific rules apply.
 
