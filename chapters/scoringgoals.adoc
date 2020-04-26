@@ -4,7 +4,7 @@ provided that:
 
 * The team did not exceed the allowed number of robots when the ball entered the goal.
 * The height of the ball did not exceed 0.15 meters after the last touch of the teams robots.
-* The team did not commit any rule infringements since the teams robots last touched the ball.
+* The team did not commit any <<Non Stopping Fouls, non stopping foul>> since the teams robots last touched the ball.
 
 NOTE: "The team" refers to the scoring team that is awarded a goal, not the team that kicked the ball.
 For example, an own goal is not possible while the opponent team has too many robots on the field.
