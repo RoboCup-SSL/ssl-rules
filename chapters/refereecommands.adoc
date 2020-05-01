@@ -130,24 +130,29 @@ A neutral forced start is used in situations where no team is clearly in favor, 
 The procedure of a penalty kick is as follows:
 
 . The ball is placed by the human referee on the <<Penalty Mark, penalty mark>>.
-. When the <<Penalty Kick, penalty>> command is issued
-.. The defending keeper has to move to the goal line and keep touching it
-.. One attacking robot is allowed to approach the ball but not allowed to touch the ball
-.. All other robots have to be 1m behind the ball such that they do not interfere the penalty kick procedure at any time.
+. When the <<Penalty Kick, penalty>> command is issued:
+.. The defending keeper has to move to the goal line and keep touching it.
+.. One attacking robot is allowed to approach the ball but not allowed to touch the ball.
+. Throughout the penalty kick procedure, all other robots have to be 1m behind the ball such that they do not interfere the penalty kick procedure.
 . When the <<Normal Start, normal start>> command is issued, the attacker is allowed to <<Ball Manipulation, manipulate the ball>>. The ball has to only move towards the opponent goal, as measured by its x coordinate in the coordinate system of <<Vision, SSL-Vision>>.
-. When the ball is <<Ball In And Out Of Play, in play>>, the defending keeper may move freely again
-. If the ball is still <<Ball In And Out Of Play, in play>> after 10 seconds, the game is stopped and then continued by a <<Goal Kick, goal kick>> for the defending team.
+. When the ball is <<Ball In And Out Of Play, in play>>, the defending keeper may move freely again.
+. If the ball is still <<Ball In And Out Of Play, in play>> after 10 seconds, the game is <<Stop, stopped>>.
 
 A goal is awarded if:
 
-* the ball touches the inner surface of a goal wall or the ground of the goal of the defending team, starting from when the <<Normal Start, normal start>> command is issued
-* the defending team violates any rule
+* the ball touches the inner surface of a goal wall or the ground of the goal of the defending team, starting from when the <<Normal Start, normal start>> command is issued.
+* the defending team commits any <<Fouls, foul>>.
+
+The game is continued with a <<Kick-Off, kick-off>> when a goal is awarded.
 
 A goal is not awarded if:
 
-* the ball crosses any <<Field Lines, field lines>> outside the goal
-* the defending keeper touches the ball such that the ball speed vector changes direction by at least 90 degrees in 2D space
-* the attacking team violates any rule
+* the ball crosses any <<Field Lines, field lines>> outside the goal.
+* the defending keeper touches the ball such that the ball speed vector changes direction by at least 90 degrees in 2D space.
+* the attacking team violates any rule.
+* the ball is still <<Ball In And Out Of Play, in play>> after 10 seconds.
+
+The game is continued by a <<Goal Kick, goal kick>> for the defending team when a goal is not awarded.
 
 NOTE: The restrictions defined for <<Scoring Goals, scoring goals>>, including the ball height limit of 0.15 meters, do not apply here.
 Other rules like the <<Excessive Dribbling, excessive dribbling>> limitation for example do.
