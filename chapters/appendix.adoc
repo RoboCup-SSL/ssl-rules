@@ -52,7 +52,7 @@ All <<Stopping Fouls>> result in:
 | <<Robot Too Close To Opponent Defense Area>> | during <<Stop>> and <<Free Kick>> | <<Stop>> -> <<Free Kick>> | auto referee
 | <<Multiple Defenders>> | <<Ball In And Out Of Play, ball in play>> | <<Stop>> -> <<Penalty Kick>> | auto referee
 | <<Boundary Crossing>> | <<Ball In And Out Of Play, ball in play>> | <<Stop>> -> <<Free Kick>> | auto referee
-| <<Keeper Held Ball>> in <<Defense Area, defense area>> | <<Ball In And Out Of Play, ball in play>> | <<Stop>> -> <<Free Kick>> | auto referee
+| <<Keeper Held Ball>> in <<Defense Area, defense area>> | <<Ball In And Out Of Play, ball in play>> | <<Stop>> -> <<Free Kick>> | game controller
 | <<Excessive Dribbling>> | <<Ball In And Out Of Play, ball in play>> | <<Stop>> -> <<Free Kick>> | auto referee
 
 | <<Pushing>> | always | <<Stop>> -> <<Free Kick>> | referee -> game controller
