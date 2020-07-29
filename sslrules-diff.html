@@ -1073,13 +1073,15 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </li>
 <li><a href="#_game_event_table">Appendix B: Game Event Table</a>
 <ul class="sectlevel2">
-<li><a href="#_events_for_match_proceeding">B.1. Events For Match Proceeding</a></li>
-<li><a href="#_events_for_ball_leaving_the_field">B.2. Events For Ball Leaving The Field</a></li>
-<li><a href="#_events_for_scoring_goals">B.3. Events For Scoring Goals</a></li>
-<li><a href="#_events_for_offenses">B.4. Events For Offenses</a></li>
-<li><a href="#_events_for_stopping_fouls">B.5. Events For Stopping Fouls</a></li>
-<li><a href="#_events_for_non_stopping_fouls">B.6. Events For Non Stopping Fouls</a></li>
-<li><a href="#_events_for_fouls_while_ball_out_of_play">B.7. Events For Fouls While Ball Out Of Play</a></li>
+<li><a href="#_events_for_match_proceeding"><a href="#_events_for_ball_leaving_the_field">B.1. <span class="diff_delete">Events </span><span class="diff_delete">For </span><span class="diff_delete">Match </span><span class="diff_delete">Proceeding</span></a></li>
+<li><a href="#_events_for_ball_leaving_the_field"><span class="diff_delete">B.2. </span>Events For Ball Leaving The Field</a></li>
+<li><a href="#_events_for_scoring_goals"><span class="diff_delete">B.3. </span><span class="diff_insert">B.2. </span>Events For Scoring Goals</a></li>
+<li><a href="#_events_for_offenses"><span class="diff_delete">B.4. </span><span class="diff_insert">B.3. </span>Events For Offenses</a></li>
+<li><a href="#_events_for_stopping_fouls"><span class="diff_delete">B.5. </span><span class="diff_insert">B.4. </span>Events For Stopping Fouls</a></li>
+<li><a href="#_events_for_non_stopping_fouls"><span class="diff_delete">B.6. </span><span class="diff_insert">B.5. </span>Events For Non Stopping Fouls</a></li>
+<li><a href="#_events_for_fouls_while_ball_out_of_play"><span class="diff_delete">B.7. </span><span class="diff_insert">B.6. </span>Events For Fouls While Ball Out Of Play</a></li>
+<li><a href="#_events_for_scoring_goals_2"><span class="diff_insert">B.7. </span><span class="diff_insert">Events </span><span class="diff_insert">For </span><span class="diff_insert">Scoring </span><span class="diff_insert">Goals</span></a></li>
+<li><a href="#_other_events"><span class="diff_insert">B.8. </span><span class="diff_insert">Other </span><span class="diff_insert">events</span></a></li>
 </ul>
 </li>
 <li><a href="#_overview_of_timings">Appendix C: Overview of Timings</a></li>
@@ -1342,7 +1344,7 @@ The numbers in the figures below show the distances in millimeters.
 It is operated by the <a href="#_game_controller_operator">game controller operator</a>. The software translates decisions of the <a href="#_referee">referee</a> and the <a href="#_automatic_referee">automatic referee</a> into Ethernet communication signals that are broadcast to the network. It maintains the state of the game, tracks all events and acts as a proxy between all participating parties in the game.</p>
 </div>
 <div class="paragraph">
-<p>The game-controller has a network interface for the playing teams. They can automatically <a href="#_choosing_keeper_id">change their keeper id</a> and they can signal a robot substitution intent for the next opportunity.</p>
+<p>The <span class="diff_delete">game-controller </span><span class="diff_insert">game </span><span class="diff_insert">controller </span>has a network interface for the playing teams. They can automatically <a href="#_choosing_keeper_id">change their keeper id</a> and they can signal a robot substitution intent for the next opportunity.</p>
 </div>
 </div>
 <div class="sect3">
@@ -2006,7 +2008,7 @@ If this is not possible, the <a href="#_referee">referee</a> places the ball man
 <div class="paragraph">
 <p>No further commands will be issued by the <a href="#_game_controller">game controller</a> until the automatic placement is complete.
 The game will be continued by the <a href="#_game_controller">game controller</a> as soon as the ball is successfully placed, but not earlier than 2 seconds after the ball placement command has been issued.
-A failed placement will result in a free kick for the opposing team.
+A failed placement will result in a <a href="#_free_kick">free <span class="diff_delete">kick </span><span class="diff_insert">kick</span></a> for the opposing team.
 If this team failed to place the ball as well, the ball is placed by the <a href="#_referee">referee</a> and game continues with the original command.</p>
 </div>
 <div class="paragraph">
@@ -2143,7 +2145,7 @@ If the opposing team fails to place the ball or no team can place the ball, it i
 </div>
 <div class="paragraph">
 <div class="title">Usage</div>
-<p>free kicks are used to restart the game after a <a href="#_fouls">foul</a> has occurred. Additionally, <a href="#_goal_kick">goal kicks</a> and <a href="#_corner_kick">corner kicks</a> are mapped to free kicks.</p>
+<p><span class="diff_delete">free </span><span class="diff_insert">Free </span>kicks are used to restart the game after a <a href="#_fouls">foul</a> has occurred. Additionally, <a href="#_goal_kick">goal kicks</a> and <a href="#_corner_kick">corner kicks</a> are mapped to free kicks.</p>
 </div>
 </div>
 <div class="sect3">
@@ -2860,8 +2862,9 @@ If a robot keeps committing a foul, it will be punished again after the grace pe
 <div class="sect4">
 <h5 id="_defender_too_close_to_ball">Defender Too Close To Ball</h5>
 <div class="paragraph">
-<p>A robot&#8217;s distance to the ball must be at least 0.5 meters during an opponent <a href="#_kick_off">kick-off</a> or <a href="#_free_kick">free kick</a>.
-While the foul is being committed, the timer of the opponent team for bringing the ball into play is reset.</p>
+<p>A robot&#8217;s distance to the ball must be at least 0.5 meters during an opponent <a href="#_kick_off">kick-off</a> or <a href="#_free_kick">free kick</a><span class="diff_delete">.
+While </span><span class="diff_insert">.
+When </span>the foul is <span class="diff_delete">being </span>committed, the timer of the opponent team for bringing the ball into play is reset.</p>
 </div>
 <div class="paragraph">
 <p>The <a href="#_referee">human referee</a> may decide to repeat the <a href="#_kick_off">kick-off</a> or <a href="#_free_kick">free kick</a> on significant disturbances.</p>
@@ -2989,7 +2992,7 @@ The <a href="#_referee">referee</a> is encouraged to call fouls if the non-placi
 </ol>
 </div>
 <div class="paragraph">
-<p>The maximum allowed number of robots of the team on the field must not be exceeded at any time.</p>
+<p>The maximum allowed number of robots of the team on the field must not be exceeded at any <span class="diff_delete">time.</span><span class="diff_insert">time </span><span class="diff_insert">when </span><span class="diff_insert">putting </span><span class="diff_insert">robots </span><span class="diff_insert">in.</span></p>
 </div>
 <div class="paragraph">
 <div class="title">Usage</div>
@@ -3228,7 +3231,7 @@ Note that the information shown in this table here is incomplete. Please read th
 </table>
 </div>
 <div class="sect2">
-<h3 id="_events_for_match_proceeding">B.1. Events For Match Proceeding</h3>
+<h3 id="_events_for_match_proceeding"><h3 id="_events_for_ball_leaving_the_field">B.1. <span class="diff_delete">Events </span><span class="diff_delete">For </span><span class="diff_delete">Match </span><span class="diff_delete">Proceeding</span></h3>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
 <col style="width: 25%;">
@@ -3238,54 +3241,54 @@ Note that the information shown in this table here is incomplete. Please read th
 </colgroup>
 <thead>
 <tr>
-<th class="tableblock halign-left valign-top">Event</th>
-<th class="tableblock halign-left valign-top">Applicability</th>
-<th class="tableblock halign-left valign-top">Command</th>
-<th class="tableblock halign-left valign-top">Handled By</th>
+<th class="tableblock halign-left valign-top"><span class="diff_delete">Event</span></th>
+<th class="tableblock halign-left valign-top"><span class="diff_delete">Applicability</span></th>
+<th class="tableblock halign-left valign-top"><span class="diff_delete">Command</span></th>
+<th class="tableblock halign-left valign-top"><span class="diff_delete">Handled </span><span class="diff_delete">By</span></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Prepared</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">during <a href="#_kick_off">Kick-Off</a>, <a href="#_penalty_kick">Penalty Kick</a></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_normal_start">Normal Start</a></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">auto referee</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="diff_delete">Prepared</span></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="diff_delete">during </span><a href="#_kick_off"><span class="diff_delete">Kick-Off</span></a><span class="diff_delete">, </span><a href="#_penalty_kick"><span class="diff_delete">Penalty </span><span class="diff_delete">Kick</span></a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_normal_start"><span class="diff_delete">Normal </span><span class="diff_delete">Start</span></a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="diff_delete">auto </span><span class="diff_delete">referee</span></p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_ball_placement">Ball Placement</a> failed by team in favor</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">during <a href="#_ball_placement">Ball Placement</a></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_stop">Stop</a> &#8594; <a href="#_free_kick">Free Kick</a> (div A) / previous command (div B)</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">auto referee</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_ball_placement"><span class="diff_delete">Ball </span><span class="diff_delete">Placement</span></a> <span class="diff_delete">failed </span><span class="diff_delete">by </span><span class="diff_delete">team </span><span class="diff_delete">in </span><span class="diff_delete">favor</span></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="diff_delete">during </span><a href="#_ball_placement"><span class="diff_delete">Ball </span><span class="diff_delete">Placement</span></a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_stop"><span class="diff_delete">Stop</span></a> <span class="diff_delete">&#8594; </span><a href="#_free_kick"><span class="diff_delete">Free </span><span class="diff_delete">Kick</span></a> <span class="diff_delete">(div </span><span class="diff_delete">A) </span><span class="diff_delete">/ </span><span class="diff_delete">previous </span><span class="diff_delete">command </span><span class="diff_delete">(div </span><span class="diff_delete">B)</span></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="diff_delete">auto </span><span class="diff_delete">referee</span></p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_ball_placement">Ball Placement</a> failed by opponent</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">during <a href="#_ball_placement">Ball Placement</a></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_stop">Stop</a></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">auto referee</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_ball_placement"><span class="diff_delete">Ball </span><span class="diff_delete">Placement</span></a> <span class="diff_delete">failed </span><span class="diff_delete">by </span><span class="diff_delete">opponent</span></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="diff_delete">during </span><a href="#_ball_placement"><span class="diff_delete">Ball </span><span class="diff_delete">Placement</span></a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_stop"><span class="diff_delete">Stop</span></a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="diff_delete">auto </span><span class="diff_delete">referee</span></p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_ball_placement">Ball Placement</a> successful</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">during <a href="#_ball_placement">Ball Placement</a></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">continue</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">auto referee</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_ball_placement"><span class="diff_delete">Ball </span><span class="diff_delete">Placement</span></a> <span class="diff_delete">successful</span></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="diff_delete">during </span><a href="#_ball_placement"><span class="diff_delete">Ball </span><span class="diff_delete">Placement</span></a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="diff_delete">continue</span></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="diff_delete">auto </span><span class="diff_delete">referee</span></p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_robot_substitution">Robot Substitution</a> Intent</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">always</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_halt">Halt</a> (after next stoppage), then <a href="#_stop">Stop</a></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">game controller</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_robot_substitution"><span class="diff_delete">Robot </span><span class="diff_delete">Substitution</span></a> <span class="diff_delete">Intent</span></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="diff_delete">always</span></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_halt"><span class="diff_delete">Halt</span></a> <span class="diff_delete">(after </span><span class="diff_delete">next </span><span class="diff_delete">stoppage), </span><span class="diff_delete">then </span><a href="#_stop"><span class="diff_delete">Stop</span></a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="diff_delete">game </span><span class="diff_delete">controller</span></p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_number_of_robots">Number Of Robots</a> exceeded</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">always</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_stop">Stop</a></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">auto referee</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_number_of_robots"><span class="diff_delete">Number </span><span class="diff_delete">Of </span><span class="diff_delete">Robots</span></a> <span class="diff_delete">exceeded</span></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="diff_delete">always</span></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_stop"><span class="diff_delete">Stop</span></a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="diff_delete">auto </span><span class="diff_delete">referee</span></p></td>
 </tr>
 </tbody>
 </table>
 </div>
 <div class="sect2">
-<h3 id="_events_for_ball_leaving_the_field">B.2. Events For Ball Leaving The Field</h3>
+<h3 id="_events_for_ball_leaving_the_field"><span class="diff_delete">B.2. </span>Events For Ball Leaving The Field</h3>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
 <col style="width: 25%;">
@@ -3303,19 +3306,19 @@ Note that the information shown in this table here is incomplete. Please read th
 </thead>
 <tbody>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_throw_in">Throw-In</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_throw_in"><span class="diff_delete">Throw-In</span><a href="#_touch_line_crossing"><span class="diff_insert">Touch </span><span class="diff_insert">Line </span><span class="diff_insert">Crossing</span></a></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_ball_in_and_out_of_play">ball in play</a></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_stop">Stop</a> &#8594; <a href="#_free_kick">Free Kick</a></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">auto referee</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_goal_kick">Goal Kick</a></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_ball_in_and_out_of_play">ball in play</a></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_stop">Stop</a> &#8594; <a href="#_free_kick">Free Kick</a></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">auto referee</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_goal_kick"><a href="#_goal_line_crossing">Goal <span class="diff_delete">Kick</span></a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_ball_in_and_out_of_play"><span class="diff_delete">ball </span><span class="diff_delete">in </span><span class="diff_delete">play</span></a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_stop"><span class="diff_delete">Stop</span></a> <span class="diff_delete">&#8594; </span><a href="#_free_kick"><span class="diff_delete">Free </span><span class="diff_delete">Kick</span></a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="diff_delete">auto </span><span class="diff_delete">referee</span></p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_corner_kick">Corner Kick</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_corner_kick"><span class="diff_delete">Corner </span><span class="diff_delete">Kick</span><span class="diff_insert">Line </span><span class="diff_insert">Crossing</span></a></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_ball_in_and_out_of_play">ball in play</a></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_stop">Stop</a> &#8594; <a href="#_free_kick">Free Kick</a></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">auto referee</p></td>
@@ -3330,7 +3333,7 @@ Note that the information shown in this table here is incomplete. Please read th
 </table>
 </div>
 <div class="sect2">
-<h3 id="_events_for_scoring_goals">B.3. Events For Scoring Goals</h3>
+<h3 id="_events_for_scoring_goals"><span class="diff_delete">B.3. </span><span class="diff_insert">B.2. </span>Events For Scoring Goals</h3>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
 <col style="width: 25%;">
@@ -3348,22 +3351,28 @@ Note that the information shown in this table here is incomplete. Please read th
 </thead>
 <tbody>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_scoring_goals">Goal</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_scoring_goals"><span class="diff_insert">Possible </span>Goal</a></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_ball_in_and_out_of_play">ball in play</a></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_stop">Stop</a> &#8594; <a href="#_kick_off">Kick-Off</a></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">(auto referee) <sup class="footnote">[<a id="_footnoteref_1" class="footnote" href="#_footnotedef_1" title="View footnote.">1</a>]</sup></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="diff_delete">(auto </span><span class="diff_delete">referee) </span><sup class="footnote"><span class="diff_delete">[</span><a id="_footnoteref_1" class="footnote" href="#_footnotedef_1" title="View footnote."><span class="diff_delete">1</span><span class="diff_insert">auto </span><span class="diff_insert">referee</span></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_scoring_goals"><span class="diff_insert">Goal</span></a><span class="diff_delete">]</span></sup></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_ball_in_and_out_of_play"><span class="diff_insert">ball </span><span class="diff_insert">in </span><span class="diff_insert">play</span></a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_stop"><span class="diff_insert">Stop</span></a> <span class="diff_insert">&#8594; </span><a href="#_kick_off"><span class="diff_insert">Kick-Off</span></a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="diff_insert">referee </span><span class="diff_insert">&#8594; </span><span class="diff_insert">game </span><span class="diff_insert">controller</span></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_scoring_goals">Invalid Goal</a></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_ball_in_and_out_of_play">ball in play</a></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_stop">Stop</a> &#8594; <a href="#_free_kick">Free Kick</a></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">auto referee</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="diff_delete">auto </span><span class="diff_delete">referee</span><span class="diff_insert">game </span><span class="diff_insert">controller</span></p></td>
 </tr>
 </tbody>
 </table>
 </div>
 <div class="sect2">
-<h3 id="_events_for_offenses">B.4. Events For Offenses</h3>
+<h3 id="_events_for_offenses"><span class="diff_delete">B.4. </span><span class="diff_insert">B.3. </span>Events For Offenses</h3>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
 <col style="width: 25%;">
@@ -3414,7 +3423,7 @@ Note that the information shown in this table here is incomplete. Please read th
 </table>
 </div>
 <div class="sect2">
-<h3 id="_events_for_stopping_fouls">B.5. Events For Stopping Fouls</h3>
+<h3 id="_events_for_stopping_fouls"><span class="diff_delete">B.5. </span><span class="diff_insert">B.4. </span>Events For Stopping Fouls</h3>
 <div class="paragraph">
 <p>All <a href="#_stopping_fouls">Stopping Fouls</a> result in:</p>
 </div>
@@ -3444,6 +3453,30 @@ Note that the information shown in this table here is incomplete. Please read th
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_robot_too_close_to_opponent_defense_area">Robot Too Close To Opponent Defense Area</a></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">during <a href="#_stop">Stop</a> and <a href="#_free_kick">Free Kick</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_stop"><span class="diff_insert">Stop</span></a> <span class="diff_insert">&#8594; </span><a href="#_free_kick"><span class="diff_insert">Free </span><span class="diff_insert">Kick</span></a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="diff_insert">auto </span><span class="diff_insert">referee</span></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_multiple_defenders"><span class="diff_insert">Multiple </span><span class="diff_insert">Defenders</span></a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_ball_in_and_out_of_play"><span class="diff_insert">ball </span><span class="diff_insert">in </span><span class="diff_insert">play</span></a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_stop"><span class="diff_insert">Stop</span></a> <span class="diff_insert">&#8594; </span><a href="#_penalty_kick"><span class="diff_insert">Penalty </span><span class="diff_insert">Kick</span></a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="diff_insert">auto </span><span class="diff_insert">referee</span></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_boundary_crossing"><span class="diff_insert">Boundary </span><span class="diff_insert">Crossing</span></a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_ball_in_and_out_of_play"><span class="diff_insert">ball </span><span class="diff_insert">in </span><span class="diff_insert">play</span></a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_stop"><span class="diff_insert">Stop</span></a> <span class="diff_insert">&#8594; </span><a href="#_free_kick"><span class="diff_insert">Free </span><span class="diff_insert">Kick</span></a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="diff_insert">auto </span><span class="diff_insert">referee</span></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_keeper_held_ball"><span class="diff_insert">Keeper </span><span class="diff_insert">Held </span><span class="diff_insert">Ball</span></a> <span class="diff_insert">in </span><a href="#_defense_area"><span class="diff_insert">defense </span><span class="diff_insert">area</span></a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_ball_in_and_out_of_play"><span class="diff_insert">ball </span><span class="diff_insert">in </span><span class="diff_insert">play</span></a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_stop"><span class="diff_insert">Stop</span></a> <span class="diff_insert">&#8594; </span><a href="#_free_kick"><span class="diff_insert">Free </span><span class="diff_insert">Kick</span></a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="diff_insert">game </span><span class="diff_insert">controller</span></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_excessive_dribbling"><span class="diff_insert">Excessive </span><span class="diff_insert">Dribbling</span></a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_ball_in_and_out_of_play"><span class="diff_insert">ball </span><span class="diff_insert">in </span><span class="diff_insert">play</span></a></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_stop">Stop</a> &#8594; <a href="#_free_kick">Free Kick</a></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">auto referee</p></td>
 </tr>
@@ -3466,34 +3499,34 @@ Note that the information shown in this table here is incomplete. Please read th
 <td class="tableblock halign-left valign-top"><p class="tableblock">referee &#8594; game controller</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_multiple_defenders">Multiple Defenders</a></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_ball_in_and_out_of_play">ball in play</a></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_stop">Stop</a> &#8594; <a href="#_penalty_kick">Penalty Kick</a></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">auto referee</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_multiple_defenders"><span class="diff_delete">Multiple </span><span class="diff_delete">Defenders</span></a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_ball_in_and_out_of_play"><span class="diff_delete">ball </span><span class="diff_delete">in </span><span class="diff_delete">play</span></a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_stop"><span class="diff_delete">Stop</span></a> <span class="diff_delete">&#8594; </span><a href="#_penalty_kick"><span class="diff_delete">Penalty </span><span class="diff_delete">Kick</span></a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="diff_delete">auto </span><span class="diff_delete">referee</span></p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_boundary_crossing">Boundary Crossing</a></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_ball_in_and_out_of_play">ball in play</a></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_stop">Stop</a> &#8594; <a href="#_free_kick">Free Kick</a></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">auto referee</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_boundary_crossing"><span class="diff_delete">Boundary </span><span class="diff_delete">Crossing</span></a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_ball_in_and_out_of_play"><span class="diff_delete">ball </span><span class="diff_delete">in </span><span class="diff_delete">play</span></a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_stop"><span class="diff_delete">Stop</span></a> <span class="diff_delete">&#8594; </span><a href="#_free_kick"><span class="diff_delete">Free </span><span class="diff_delete">Kick</span></a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="diff_delete">auto </span><span class="diff_delete">referee</span></p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_keeper_held_ball">Keeper Held Ball</a> in <a href="#_defense_area">defense area</a></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_ball_in_and_out_of_play">ball in play</a></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_stop">Stop</a> &#8594; <a href="#_free_kick">Free Kick</a></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">auto referee</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_keeper_held_ball"><span class="diff_delete">Keeper </span><span class="diff_delete">Held </span><span class="diff_delete">Ball</span></a> <span class="diff_delete">in </span><a href="#_defense_area"><span class="diff_delete">defense </span><span class="diff_delete">area</span></a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_ball_in_and_out_of_play"><span class="diff_delete">ball </span><span class="diff_delete">in </span><span class="diff_delete">play</span></a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_stop"><span class="diff_delete">Stop</span></a> <span class="diff_delete">&#8594; </span><a href="#_free_kick"><span class="diff_delete">Free </span><span class="diff_delete">Kick</span></a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="diff_delete">auto </span><span class="diff_delete">referee</span></p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_excessive_dribbling">Excessive Dribbling</a></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_ball_in_and_out_of_play">ball in play</a></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_stop">Stop</a> &#8594; <a href="#_free_kick">Free Kick</a></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">auto referee</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_excessive_dribbling"><span class="diff_delete">Excessive </span><span class="diff_delete">Dribbling</span></a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_ball_in_and_out_of_play"><span class="diff_delete">ball </span><span class="diff_delete">in </span><span class="diff_delete">play</span></a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_stop"><span class="diff_delete">Stop</span></a> <span class="diff_delete">&#8594; </span><a href="#_free_kick"><span class="diff_delete">Free </span><span class="diff_delete">Kick</span></a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="diff_delete">auto </span><span class="diff_delete">referee</span></p></td>
 </tr>
 </tbody>
 </table>
 </div>
 <div class="sect2">
-<h3 id="_events_for_non_stopping_fouls">B.6. Events For Non Stopping Fouls</h3>
+<h3 id="_events_for_non_stopping_fouls"><span class="diff_delete">B.6. </span><span class="diff_insert">B.5. </span>Events For Non Stopping Fouls</h3>
 <div class="paragraph">
 <p>All <a href="#_non_stopping_fouls">Non Stopping Fouls</a> result in:</p>
 </div>
@@ -3551,7 +3584,7 @@ Note that the information shown in this table here is incomplete. Please read th
 </table>
 </div>
 <div class="sect2">
-<h3 id="_events_for_fouls_while_ball_out_of_play">B.7. Events For Fouls While Ball Out Of Play</h3>
+<h3 id="_events_for_fouls_while_ball_out_of_play"><span class="diff_delete">B.7. </span><span class="diff_insert">B.6. </span>Events For Fouls While Ball Out Of Play</h3>
 <div class="paragraph">
 <p>All <a href="#_fouls_while_ball_out_of_play">Fouls While Ball Out Of Play</a> result in:</p>
 </div>
@@ -3587,7 +3620,7 @@ Note that the information shown in this table here is incomplete. Please read th
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_defender_too_close_to_ball">Defender Too Close To Ball</a></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_ball_in_and_out_of_play">ball out of play</a></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">-</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="diff_delete">-</span><span class="diff_insert">timer </span><span class="diff_insert">for </span><span class="diff_insert">bringing </span><span class="diff_insert">the </span><span class="diff_insert">ball </span><span class="diff_insert">into </span><span class="diff_insert">play </span><span class="diff_insert">is </span><span class="diff_insert">reset</span></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">auto referee</p></td>
 </tr>
 <tr>
@@ -3601,6 +3634,132 @@ Note that the information shown in this table here is incomplete. Please read th
 <td class="tableblock halign-left valign-top"><p class="tableblock">during <a href="#_ball_placement">Ball Placement</a></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">placement timer increased by 10 seconds</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">auto referee</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="sect2">
+<h3 id="_events_for_scoring_goals_2"><span class="diff_insert">B.7. </span><span class="diff_insert">Events </span><span class="diff_insert">For </span><span class="diff_insert">Scoring </span><span class="diff_insert">Goals</span></h3>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 25%;">
+<col style="width: 25%;">
+<col style="width: 25%;">
+<col style="width: 25%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top"><span class="diff_insert">Event</span></th>
+<th class="tableblock halign-left valign-top"><span class="diff_insert">Applicability</span></th>
+<th class="tableblock halign-left valign-top"><span class="diff_insert">Command</span></th>
+<th class="tableblock halign-left valign-top"><span class="diff_insert">Handled </span><span class="diff_insert">By</span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_scoring_goals"><span class="diff_insert">Possible </span><span class="diff_insert">Goal</span></a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_ball_in_and_out_of_play"><span class="diff_insert">ball </span><span class="diff_insert">in </span><span class="diff_insert">play</span></a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_halt"><span class="diff_insert">Halt</span></a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="diff_insert">auto </span><span class="diff_insert">referee</span></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_scoring_goals"><span class="diff_insert">Goal</span></a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_ball_in_and_out_of_play"><span class="diff_insert">ball </span><span class="diff_insert">in </span><span class="diff_insert">play</span></a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_stop"><span class="diff_insert">Stop</span></a> <span class="diff_insert">&#8594; </span><a href="#_kick_off"><span class="diff_insert">Kick-Off</span></a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="diff_insert">referee </span><span class="diff_insert">&#8594; </span><span class="diff_insert">game </span><span class="diff_insert">controller</span></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_scoring_goals"><span class="diff_insert">Invalid </span><span class="diff_insert">Goal</span></a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_ball_in_and_out_of_play"><span class="diff_insert">ball </span><span class="diff_insert">in </span><span class="diff_insert">play</span></a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_stop"><span class="diff_insert">Stop</span></a> <span class="diff_insert">&#8594; </span><a href="#_free_kick"><span class="diff_insert">Free </span><span class="diff_insert">Kick</span></a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="diff_insert">game </span><span class="diff_insert">controller</span></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="sect2">
+<h3 id="_other_events"><span class="diff_insert">B.8. </span><span class="diff_insert">Other </span><span class="diff_insert">events</span></h3>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 25%;">
+<col style="width: 25%;">
+<col style="width: 25%;">
+<col style="width: 25%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top"><span class="diff_insert">Event</span></th>
+<th class="tableblock halign-left valign-top"><span class="diff_insert">Applicability</span></th>
+<th class="tableblock halign-left valign-top"><span class="diff_insert">Command</span></th>
+<th class="tableblock halign-left valign-top"><span class="diff_insert">Handled </span><span class="diff_insert">By</span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_double_touch"><span class="diff_insert">Double </span><span class="diff_insert">Touch</span></a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_ball_in_and_out_of_play"><span class="diff_insert">ball </span><span class="diff_insert">in </span><span class="diff_insert">play</span></a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_stop"><span class="diff_insert">Stop</span></a> <span class="diff_insert">&#8594; </span><a href="#_free_kick"><span class="diff_insert">Free </span><span class="diff_insert">Kick</span></a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="diff_insert">auto </span><span class="diff_insert">referee</span></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_ball_placement"><span class="diff_insert">Ball </span><span class="diff_insert">Placement</span></a> <span class="diff_insert">successful</span></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="diff_insert">during </span><a href="#_ball_placement"><span class="diff_insert">Ball </span><span class="diff_insert">Placement</span></a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="diff_insert">continue</span></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="diff_insert">auto </span><span class="diff_insert">referee</span></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_penalty_kick"><span class="diff_insert">Penalty </span><span class="diff_insert">Kick</span></a> <span class="diff_insert">failed</span></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="diff_insert">during </span><a href="#_penalty_kick"><span class="diff_insert">Penalty </span><span class="diff_insert">Kick</span></a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_stop"><span class="diff_insert">Stop</span></a> <span class="diff_insert">&#8594; </span><a href="#_free_kick"><span class="diff_insert">Free </span><span class="diff_insert">Kick</span></a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="diff_insert">auto </span><span class="diff_insert">referee, </span><span class="diff_insert">game </span><span class="diff_insert">controller</span></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_no_progress_in_game"><span class="diff_insert">No </span><span class="diff_insert">Progress </span><span class="diff_insert">In </span><span class="diff_insert">Game</span></a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_ball_in_and_out_of_play"><span class="diff_insert">ball </span><span class="diff_insert">in </span><span class="diff_insert">play</span></a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_stop"><span class="diff_insert">Stop</span></a> <span class="diff_insert">&#8594; </span><a href="#_force_start"><span class="diff_insert">Force </span><span class="diff_insert">Start</span></a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="diff_insert">game </span><span class="diff_insert">controller</span></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_ball_placement"><span class="diff_insert">Ball </span><span class="diff_insert">Placement</span></a> <span class="diff_insert">failed </span><span class="diff_insert">by </span><span class="diff_insert">team </span><span class="diff_insert">in </span><span class="diff_insert">favor</span></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="diff_insert">during </span><a href="#_ball_placement"><span class="diff_insert">Ball </span><span class="diff_insert">Placement</span></a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_stop"><span class="diff_insert">Stop</span></a> <span class="diff_insert">&#8594; </span><a href="#_free_kick"><span class="diff_insert">Free </span><span class="diff_insert">Kick</span></a> <span class="diff_insert">(div </span><span class="diff_insert">A) </span><span class="diff_insert">/ </span><span class="diff_insert">previous </span><span class="diff_insert">command </span><span class="diff_insert">(div </span><span class="diff_insert">B)</span></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="diff_insert">game </span><span class="diff_insert">controller</span></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_ball_placement"><span class="diff_insert">Ball </span><span class="diff_insert">Placement</span></a> <span class="diff_insert">failed </span><span class="diff_insert">by </span><span class="diff_insert">opponent</span></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="diff_insert">during </span><a href="#_ball_placement"><span class="diff_insert">Ball </span><span class="diff_insert">Placement</span></a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_stop"><span class="diff_insert">Stop</span></a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="diff_insert">game </span><span class="diff_insert">controller</span></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="diff_insert">Multiple </span><a href="#_fouls"><span class="diff_insert">Fouls</span></a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="diff_insert">always</span></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_yellow_card"><span class="diff_insert">Yellow </span><span class="diff_insert">Card</span></a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="diff_insert">game </span><span class="diff_insert">controller</span></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="diff_insert">Multiple </span><a href="#_yellow_card"><span class="diff_insert">Yellow </span><span class="diff_insert">Cards</span></a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="diff_insert">always</span></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_red_card"><span class="diff_insert">Red </span><span class="diff_insert">Card</span></a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="diff_insert">game </span><span class="diff_insert">controller</span></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_robot_substitution"><span class="diff_insert">Robot </span><span class="diff_insert">Substitution</span></a> <span class="diff_insert">Intent</span></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="diff_insert">always</span></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_halt"><span class="diff_insert">Halt</span></a> <span class="diff_insert">(after </span><span class="diff_insert">next </span><span class="diff_insert">stoppage), </span><span class="diff_insert">then </span><a href="#_stop"><span class="diff_insert">Stop</span></a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="diff_insert">game </span><span class="diff_insert">controller</span></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_number_of_robots"><span class="diff_insert">Number </span><span class="diff_insert">Of </span><span class="diff_insert">Robots</span></a> <span class="diff_insert">exceeded</span></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="diff_insert">always</span></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_stop"><span class="diff_insert">Stop</span></a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="diff_insert">game </span><span class="diff_insert">controller</span></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_unsporting_behavior"><span class="diff_insert">Unsporting </span><span class="diff_insert">Behavior</span></a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="diff_insert">always</span></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#_stop"><span class="diff_insert">Stop</span></a> <span class="diff_insert">&#8594; </span><a href="#_yellow_card"><span class="diff_insert">Yellow </span><span class="diff_insert">Card</span></a><span class="diff_insert">, </span><a href="#_red_card"><span class="diff_insert">Red </span><span class="diff_insert">Card</span></a><span class="diff_insert">, </span><a href="#_penalty_kick"><span class="diff_insert">Penalty </span><span class="diff_insert">Kick</span></a><span class="diff_insert">, </span><a href="#_forced_forfeit"><span class="diff_insert">Forced </span><span class="diff_insert">Forfeit</span></a> <span class="diff_insert">or </span><a href="#_disqualification"><span class="diff_insert">Disqualification</span></a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="diff_insert">referee </span><span class="diff_insert">&#8594; </span><span class="diff_insert">game </span><span class="diff_insert">controller</span></p></td>
 </tr>
 </tbody>
 </table>
@@ -3689,12 +3848,12 @@ Note that the information shown in this table here is incomplete. Please read th
 <div id="footnotes">
 <hr>
 <div class="footnote" id="_footnotedef_1">
-<a href="#_footnoteref_1">1</a>. the game controller operator has to continue the game
-</div>
+<a href="#_footnoteref_1"><span class="diff_delete">1</span></a><span class="diff_delete">. </span><span class="diff_delete">the </span><span class="diff_delete">game </span><span class="diff_delete">controller </span><span class="diff_delete">operator </span><span class="diff_delete">has </span><span class="diff_delete">to </span><span class="diff_delete">continue </span><span class="diff_delete">the </span><span class="diff_delete">game
+</span></div>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated <span class="diff_delete">2020-03-19 </span><span class="diff_delete">19:24:45 </span><span class="diff_insert">2020-07-29 </span><span class="diff_insert">11:51:24 </span>UTC
+Last updated <span class="diff_delete">2020-03-19 </span><span class="diff_delete">19:24:45 </span><span class="diff_insert">2020-07-29 </span><span class="diff_insert">11:52:42 </span>UTC
 </div>
 </div>
 </body>
