@@ -1743,29 +1743,29 @@ If the opposing team fails to place the ball or no team can place the ball, it i
 <p>The ball is placed by the human referee on the <a href="#_penalty_mark">penalty mark</a>.</p>
 </li>
 <li>
-<p>When the <a href="#_penalty_kick">penalty</a> command is issued</p>
+<p>When the <a href="#_penalty_kick">penalty</a> command is issued:</p>
 <div class="olist loweralpha">
 <ol class="loweralpha" type="a">
 <li>
-<p>The defending keeper has to move to the goal line and keep touching it</p>
+<p>The defending keeper has to move to the goal line and keep touching it.</p>
 </li>
 <li>
-<p>One attacking robot is allowed to approach the ball but not allowed to touch the ball</p>
-</li>
-<li>
-<p>All other robots have to be 1m behind the ball such that they do not interfere the penalty kick procedure at any time.</p>
+<p>One attacking robot is allowed to approach the ball but not allowed to touch the ball.</p>
 </li>
 </ol>
 </div>
 </li>
 <li>
+<p>Throughout the penalty kick procedure, all other robots have to be 1m behind the ball such that they do not interfere the penalty kick procedure.</p>
+</li>
+<li>
 <p>When the <a href="#_normal_start">normal start</a> command is issued, the attacker is allowed to <a href="#_ball_manipulation">manipulate the ball</a>. The ball has to only move towards the opponent goal, as measured by its x coordinate in the coordinate system of <a href="#_vision">SSL-Vision</a>.</p>
 </li>
 <li>
-<p>When the ball is <a href="#_ball_in_and_out_of_play">in play</a>, the defending keeper may move freely again</p>
+<p>When the ball is <a href="#_ball_in_and_out_of_play">in play</a>, the defending keeper may move freely again.</p>
 </li>
 <li>
-<p>If the ball is still <a href="#_ball_in_and_out_of_play">in play</a> after 10 seconds, the game is stopped and then continued by a <a href="#_goal_kick">goal kick</a> for the defending team.</p>
+<p>If the ball is still <a href="#_ball_in_and_out_of_play">in play</a> after 10 seconds, the game is <a href="#_stop">stopped</a>.</p>
 </li>
 </ol>
 </div>
@@ -1775,12 +1775,15 @@ If the opposing team fails to place the ball or no team can place the ball, it i
 <div class="ulist">
 <ul>
 <li>
-<p>the ball touches the inner surface of a goal wall or the ground of the goal of the defending team, starting from when the <a href="#_normal_start">normal start</a> command is issued</p>
+<p>the ball touches the inner surface of a goal wall or the ground of the goal of the defending team, starting from when the <a href="#_normal_start">normal start</a> command is issued.</p>
 </li>
 <li>
-<p>the defending team violates any rule</p>
+<p>the defending team commits any <a href="#_fouls">foul</a>.</p>
 </li>
 </ul>
+</div>
+<div class="paragraph">
+<p>The game is continued with a <a href="#_kick_off">kick-off</a> when a goal is awarded.</p>
 </div>
 <div class="paragraph">
 <p>A goal is not awarded if:</p>
@@ -1788,15 +1791,21 @@ If the opposing team fails to place the ball or no team can place the ball, it i
 <div class="ulist">
 <ul>
 <li>
-<p>the ball crosses any <a href="#_field_lines">field lines</a> outside the goal</p>
+<p>the ball crosses any <a href="#_field_lines">field lines</a> outside the goal.</p>
 </li>
 <li>
-<p>the defending keeper touches the ball such that the ball speed vector changes direction by at least 90 degrees in 2D space</p>
+<p>the defending keeper touches the ball such that the ball speed vector changes direction by at least 90 degrees in 2D space.</p>
 </li>
 <li>
-<p>the attacking team violates any rule</p>
+<p>the attacking team violates any rule.</p>
+</li>
+<li>
+<p>the ball is still <a href="#_ball_in_and_out_of_play">in play</a> after 10 seconds.</p>
 </li>
 </ul>
+</div>
+<div class="paragraph">
+<p>The game is continued by a <a href="#_goal_kick">goal kick</a> for the defending team when a goal is not awarded.</p>
 </div>
 <div class="admonitionblock note">
 <table>
@@ -3229,7 +3238,7 @@ Note that the information shown in this table here is incomplete. Please read th
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2020-07-29 11:44:09 UTC
+Last updated 2020-07-29 11:50:37 UTC
 </div>
 </div>
 </body>

@@ -2179,17 +2179,20 @@ If the opposing team fails to place the ball or no team can place the ball, it i
 <p>The ball is placed by the human referee on the <a href="#_penalty_mark">penalty mark</a>.</p>
 </li>
 <li>
-<p>When the <a href="#_penalty_kick">penalty</a> command is issued</p>
+<p>When the <a href="#_penalty_kick">penalty</a> command is <span class="diff_delete">issued</span><span class="diff_insert">issued:</span></p>
 <div class="olist loweralpha">
 <ol class="loweralpha" type="a">
 <li>
-<p>The defending keeper has to move to the goal line and keep touching it</p>
+<p>The defending keeper has to move to the goal line and keep touching <span class="diff_delete">it</span><span class="diff_insert">it.</span></p>
 </li>
 <li>
-<p>One attacking robot is allowed to approach the ball but not allowed to touch the ball</p>
+<p>One attacking robot is allowed to approach the ball but not allowed to touch the <span class="diff_delete">ball</span><span class="diff_insert">ball.</span></p>
+</li>
+</ol>
+</div>
 </li>
 <li>
-<p>All other robots have to be 1m behind the ball such that they do not interfere the penalty kick procedure at any time.</p>
+<p><span class="diff_delete">All </span><span class="diff_insert">Throughout </span><span class="diff_insert">the </span><span class="diff_insert">penalty </span><span class="diff_insert">kick </span><span class="diff_insert">procedure, </span><span class="diff_insert">all </span>other robots have to be 1m behind the ball such that they do not interfere the penalty kick <span class="diff_delete">procedure </span><span class="diff_delete">at </span><span class="diff_delete">any </span><span class="diff_delete">time.</span><span class="diff_insert">procedure.</span></p>
 </li>
 </ol>
 </div>
@@ -2198,10 +2201,10 @@ If the opposing team fails to place the ball or no team can place the ball, it i
 <p>When the <a href="#_normal_start">normal start</a> command is issued, the attacker is allowed to <a href="#_ball_manipulation">manipulate the ball</a>. The ball has to only move towards the opponent goal, as measured by its x coordinate in the coordinate system of <a href="#_vision">SSL-Vision</a>.</p>
 </li>
 <li>
-<p>When the ball is <a href="#_ball_in_and_out_of_play">in play</a>, the defending keeper may move freely again</p>
+<p>When the ball is <a href="#_ball_in_and_out_of_play">in play</a>, the defending keeper may move freely <span class="diff_delete">again</span><span class="diff_insert">again.</span></p>
 </li>
 <li>
-<p>If the ball is still <a href="#_ball_in_and_out_of_play">in play</a> after 10 seconds, the game is stopped and then continued by a <a href="#_goal_kick">goal kick</a> for the defending team.</p>
+<p>If the ball is still <a href="#_ball_in_and_out_of_play">in play</a> after 10 seconds, the game is <span class="diff_delete">stopped </span><span class="diff_delete">and </span><span class="diff_delete">then </span><span class="diff_delete">continued </span><span class="diff_delete">by </span><span class="diff_delete">a </span><a href="#_goal_kick"><span class="diff_delete">goal </span><span class="diff_delete">kick</span><a href="#_stop"><span class="diff_insert">stopped</span></a> <span class="diff_delete">for </span><span class="diff_delete">the </span><span class="diff_delete">defending </span><span class="diff_delete">team.</span><span class="diff_insert">.</span></p>
 </li>
 </ol>
 </div>
@@ -2211,12 +2214,15 @@ If the opposing team fails to place the ball or no team can place the ball, it i
 <div class="ulist">
 <ul>
 <li>
-<p>the ball touches the inner surface of a goal wall or the ground of the goal of the defending team, starting from when the <a href="#_normal_start">normal start</a> command is issued</p>
+<p>the ball touches the inner surface of a goal wall or the ground of the goal of the defending team, starting from when the <a href="#_normal_start">normal start</a> command is <span class="diff_delete">issued</span><span class="diff_insert">issued.</span></p>
 </li>
 <li>
-<p>the defending team violates any rule</p>
+<p>the defending team <span class="diff_delete">violates </span><span class="diff_insert">commits </span>any <span class="diff_delete">rule</span><a href="#_fouls"><span class="diff_insert">foul</span></a><span class="diff_insert">.</span></p>
 </li>
 </ul>
+</div>
+<div class="paragraph">
+<p><span class="diff_insert">The </span><span class="diff_insert">game </span><span class="diff_insert">is </span><span class="diff_insert">continued </span><span class="diff_insert">with </span><span class="diff_insert">a </span><a href="#_kick_off"><span class="diff_insert">kick-off</span></a> <span class="diff_insert">when </span><span class="diff_insert">a </span><span class="diff_insert">goal </span><span class="diff_insert">is </span><span class="diff_insert">awarded.</span></p>
 </div>
 <div class="paragraph">
 <p>A goal is not awarded if:</p>
@@ -2224,15 +2230,21 @@ If the opposing team fails to place the ball or no team can place the ball, it i
 <div class="ulist">
 <ul>
 <li>
-<p>the ball crosses any <a href="#_field_lines">field lines</a> outside the goal</p>
+<p>the ball crosses any <a href="#_field_lines">field lines</a> outside the <span class="diff_delete">goal</span><span class="diff_insert">goal.</span></p>
 </li>
 <li>
-<p>the defending keeper touches the ball such that the ball speed vector changes direction by at least 90 degrees in 2D space</p>
+<p>the defending keeper touches the ball such that the ball speed vector changes direction by at least 90 degrees in 2D <span class="diff_delete">space</span><span class="diff_insert">space.</span></p>
 </li>
 <li>
-<p>the attacking team violates any rule</p>
+<p>the attacking team violates any <span class="diff_delete">rule</span><span class="diff_insert">rule.</span></p>
+</li>
+<li>
+<p><span class="diff_insert">the </span><span class="diff_insert">ball </span><span class="diff_insert">is </span><span class="diff_insert">still </span><a href="#_ball_in_and_out_of_play"><span class="diff_insert">in </span><span class="diff_insert">play</span></a> <span class="diff_insert">after </span><span class="diff_insert">10 </span><span class="diff_insert">seconds.</span></p>
 </li>
 </ul>
+</div>
+<div class="paragraph">
+<p><span class="diff_insert">The </span><span class="diff_insert">game </span><span class="diff_insert">is </span><span class="diff_insert">continued </span><span class="diff_insert">by </span><span class="diff_insert">a </span><a href="#_goal_kick"><span class="diff_insert">goal </span><span class="diff_insert">kick</span></a> <span class="diff_insert">for </span><span class="diff_insert">the </span><span class="diff_insert">defending </span><span class="diff_insert">team </span><span class="diff_insert">when </span><span class="diff_insert">a </span><span class="diff_insert">goal </span><span class="diff_insert">is </span><span class="diff_insert">not </span><span class="diff_insert">awarded.</span></p>
 </div>
 <div class="admonitionblock note">
 <table>
@@ -3665,7 +3677,7 @@ Note that the information shown in this table here is incomplete. Please read th
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated <span class="diff_delete">2020-03-19 </span><span class="diff_delete">19:24:45 </span><span class="diff_insert">2020-07-29 </span><span class="diff_insert">11:44:09 </span>UTC
+Last updated <span class="diff_delete">2020-03-19 </span><span class="diff_delete">19:24:45 </span><span class="diff_insert">2020-07-29 </span><span class="diff_insert">11:50:37 </span>UTC
 </div>
 </div>
 </body>
