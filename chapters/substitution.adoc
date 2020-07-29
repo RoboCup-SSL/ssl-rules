@@ -17,7 +17,7 @@ Additionally, robots can be taken out from any position during <<Stopping The Ga
 . When both teams finished the robot substitution, the <<Referee, referee>> informs the <<Game Controller Operator, game controller operator>>.
 . The <<Game Controller Operator, game controller operator>> performs a <<Stop, stop>> followed by continuing the game.
 
-The maximum allowed number of robots of the team on the field must not be exceeded at any time.
+The maximum allowed number of robots of the team on the field must not be exceeded at any time when putting robots in.
 
 .Usage
 Robots can be substituted for any reason. There is no limit on the number of substitutions.

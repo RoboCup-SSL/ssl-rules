@@ -48,7 +48,7 @@ A ball is considered placed successfully by the robots if
 
 No further commands will be issued by the <<Game Controller, game controller>> until the automatic placement is complete.
 The game will be continued by the <<Game Controller, game controller>> as soon as the ball is successfully placed, but not earlier than 2 seconds after the ball placement command has been issued.
-A failed placement will result in a free kick for the opposing team.
+A failed placement will result in a <<Free Kick, free kick>> for the opposing team.
 If this team failed to place the ball as well, the ball is placed by the <<Referee, referee>> and game continues with the original command.
 
 For each team a ball placement failure counter is incremented on each placement failure and decremented for successful placements. It can not get negative.
@@ -113,7 +113,7 @@ When the free kick command is issued, robots of the attacking team are allowed t
 When the ball is <<Ball In And Out Of Play, in play>>, the kicker may not touch the ball until it has been touched by another robot or the game has been stopped (see <<Double Touch, double touch>>). Also, the restrictions regarding the robot positions are lifted.
 
 .Usage
-free kicks are used to restart the game after a <<Fouls, foul>> has occurred. Additionally, <<Goal Kick, goal kicks>> and <<Corner Kick, corner kicks>> are mapped to free kicks.
+Free kicks are used to restart the game after a <<Fouls, foul>> has occurred. Additionally, <<Goal Kick, goal kicks>> and <<Corner Kick, corner kicks>> are mapped to free kicks.
 
 ==== Force Start
 .Definition

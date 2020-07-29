@@ -3,33 +3,18 @@
 === Ball Manipulation
 Shooting and <<Dribbling Device, dribbling>> is considered as manipulating the ball, the ball accidentally bouncing off the hull is not.
 
-
 [appendix]
 == Game Event Table
 The game event table is a compilation of the different game events and their consequences. It also lists what all <<Automatic Referee>> implementations must be capable of handling.
 
 NOTE: Note that the information shown in this table here is incomplete. Please read the sections of the respective events for the full definitions.
 
-=== Events For Match Proceeding
-|===
-| Event | Applicability | Command | Handled By
-
-| Prepared | during <<Kick-Off>>, <<Penalty Kick>> | <<Normal Start>> | auto referee
-| <<Ball Placement>> failed by team in favor | during <<Ball Placement>> | <<Stop>> -> <<Free Kick>> (div A) / previous command (div B) | auto referee
-| <<Ball Placement>> failed by opponent | during <<Ball Placement>> | <<Stop>> | auto referee
-| <<Ball Placement>> successful | during <<Ball Placement>> | continue | auto referee
-| <<Robot Substitution>> Intent | always | <<Halt>> (after next stoppage), then <<Stop>> | game controller
-| <<Number Of Robots>> exceeded | always | <<Stop>> | auto referee
-|===
-
-
 === Events For Ball Leaving The Field
 |===
 | Event | Applicability | Command | Handled By
 
-| <<Throw-In>> | <<Ball In And Out Of Play, ball in play>> | <<Stop>> -> <<Free Kick>> | auto referee
-| <<Goal Kick>> | <<Ball In And Out Of Play, ball in play>> | <<Stop>> -> <<Free Kick>> | auto referee
-| <<Corner Kick>> | <<Ball In And Out Of Play, ball in play>> | <<Stop>> -> <<Free Kick>> | auto referee
+| <<Touch Line Crossing>> | <<Ball In And Out Of Play, ball in play>> | <<Stop>> -> <<Free Kick>> | auto referee
+| <<Goal Line Crossing>> | <<Ball In And Out Of Play, ball in play>> | <<Stop>> -> <<Free Kick>> | auto referee
 | <<aimless-kick, Aimless Kick>> | <<Ball In And Out Of Play, ball in play>> | <<Stop>> -> <<Free Kick>> | auto referee
 |===
 
@@ -38,8 +23,9 @@ NOTE: Note that the information shown in this table here is incomplete. Please r
 |===
 | Event | Applicability | Command | Handled By
 
-| <<Scoring Goals, Goal>> | <<Ball In And Out Of Play, ball in play>> | <<Stop>> -> <<Kick-Off>> | (auto referee) footnote:[the game controller operator has to continue the game]
-| <<Scoring Goals, Invalid Goal>> | <<Ball In And Out Of Play, ball in play>> | <<Stop>> -> <<Free Kick>> | auto referee
+| <<Scoring Goals, Possible Goal>> | <<Ball In And Out Of Play, ball in play>> | <<Stop>> -> <<Kick-Off>> | auto referee
+| <<Scoring Goals, Goal>> | <<Ball In And Out Of Play, ball in play>> | <<Stop>> -> <<Kick-Off>> | referee -> game controller
+| <<Scoring Goals, Invalid Goal>> | <<Ball In And Out Of Play, ball in play>> | <<Stop>> -> <<Free Kick>> | game controller
 |===
 
 
@@ -64,13 +50,14 @@ All <<Stopping Fouls>> result in:
 | Event | Applicability | Action | Handled By
 
 | <<Robot Too Close To Opponent Defense Area>> | during <<Stop>> and <<Free Kick>> | <<Stop>> -> <<Free Kick>> | auto referee
+| <<Multiple Defenders>> | <<Ball In And Out Of Play, ball in play>> | <<Stop>> -> <<Penalty Kick>> | auto referee
+| <<Boundary Crossing>> | <<Ball In And Out Of Play, ball in play>> | <<Stop>> -> <<Free Kick>> | auto referee
+| <<Keeper Held Ball>> in <<Defense Area, defense area>> | <<Ball In And Out Of Play, ball in play>> | <<Stop>> -> <<Free Kick>> | game controller
+| <<Excessive Dribbling>> | <<Ball In And Out Of Play, ball in play>> | <<Stop>> -> <<Free Kick>> | auto referee
+
 | <<Pushing>> | always | <<Stop>> -> <<Free Kick>> | referee -> game controller
 | <<Ball Holding>> | <<Ball In And Out Of Play, ball in play>> | <<Stop>> -> <<Free Kick>> | referee -> game controller
 | <<Tipping Over Or Dropping Parts>> | always | <<Stop>> -> <<Free Kick>> | referee -> game controller
-| <<Multiple Defenders>> | <<Ball In And Out Of Play, ball in play>> | <<Stop>> -> <<Penalty Kick>> | auto referee
-| <<Boundary Crossing>> | <<Ball In And Out Of Play, ball in play>> | <<Stop>> -> <<Free Kick>> | auto referee
-| <<Keeper Held Ball>> in <<Defense Area, defense area>> | <<Ball In And Out Of Play, ball in play>> | <<Stop>> -> <<Free Kick>> | auto referee
-| <<Excessive Dribbling>> | <<Ball In And Out Of Play, ball in play>> | <<Stop>> -> <<Free Kick>> | auto referee
 |===
 
 
@@ -100,9 +87,40 @@ All <<Fouls While Ball Out Of Play>> result in:
 |===
 | Event | Applicability | Action | Handled By
 
-| <<Defender Too Close To Ball>> | <<Ball In And Out Of Play, ball out of play>> | - | auto referee
+| <<Defender Too Close To Ball>> | <<Ball In And Out Of Play, ball out of play>> | timer for bringing the ball into play is reset | auto referee
 | <<Robot Stop Speed>> | during <<Stop>> | - | auto referee
 | <<Ball Placement Interference>> | during <<Ball Placement>> | placement timer increased by 10 seconds | auto referee
+|===
+
+
+=== Events For Scoring Goals
+|===
+| Event | Applicability | Command | Handled By
+
+| <<Scoring Goals, Possible Goal>> | <<Ball In And Out Of Play, ball in play>> | <<Halt>> | auto referee
+| <<Scoring Goals, Goal>> | <<Ball In And Out Of Play, ball in play>> | <<Stop>> -> <<Kick-Off>> | referee -> game controller
+| <<Scoring Goals, Invalid Goal>> | <<Ball In And Out Of Play, ball in play>> | <<Stop>> -> <<Free Kick>> | game controller
+|===
+
+
+=== Other events
+
+|===
+| Event | Applicability | Command | Handled By
+
+| <<Double Touch>> | <<Ball In And Out Of Play, ball in play>> | <<Stop>> -> <<Free Kick>> | auto referee
+| <<Ball Placement>> successful | during <<Ball Placement>> | continue | auto referee
+| <<Penalty Kick>> failed | during <<Penalty Kick>> | <<Stop>> -> <<Free Kick>> | auto referee, game controller
+
+| <<No Progress In Game>> | <<Ball In And Out Of Play, ball in play>> | <<Stop>> -> <<Force Start>> | game controller
+| <<Ball Placement>> failed by team in favor | during <<Ball Placement>> | <<Stop>> -> <<Free Kick>> (div A) / previous command (div B) | game controller
+| <<Ball Placement>> failed by opponent | during <<Ball Placement>> | <<Stop>> | game controller
+| Multiple <<Fouls>> | always | <<Yellow Card>> | game controller
+| Multiple <<Yellow Card, Yellow Cards>> | always | <<Red Card>> | game controller
+| <<Robot Substitution>> Intent | always | <<Halt>> (after next stoppage), then <<Stop>> | game controller
+| <<Number Of Robots>> exceeded | always | <<Stop>> | game controller
+
+| <<Unsporting Behavior>> | always | <<Stop>> -> <<Yellow Card>>, <<Red Card>>, <<Penalty Kick>>, <<Forced Forfeit>> or <<Disqualification>> | referee -> game controller
 |===
 
 
