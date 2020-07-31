@@ -19,28 +19,6 @@ NOTE: Note that the information shown in this table here is incomplete. Please r
 |===
 
 
-=== Events For Scoring Goals
-|===
-| Event | Applicability | Command | Handled By
-
-| <<Scoring Goals, Possible Goal>> | <<Ball In And Out Of Play, ball in play>> | <<Stop>> -> <<Kick-Off>> | auto referee
-| <<Scoring Goals, Goal>> | <<Ball In And Out Of Play, ball in play>> | <<Stop>> -> <<Kick-Off>> | referee -> game controller
-| <<Scoring Goals, Invalid Goal>> | <<Ball In And Out Of Play, ball in play>> | <<Stop>> -> <<Free Kick>> | game controller
-|===
-
-
-=== Events For Offenses
-|===
-| Event | Applicability | Command | Handled By
-
-| <<No Progress In Game>> | <<Ball In And Out Of Play, ball in play>> | <<Stop>> -> <<Force Start>> | auto referee
-| <<Double Touch>> | <<Ball In And Out Of Play, ball in play>> | <<Stop>> -> <<Free Kick>> | auto referee
-| <<Unsporting Behavior>> | always | <<Stop>> -> <<Yellow Card>>, <<Red Card>>, <<Penalty Kick>>, <<Forced Forfeit>> or <<Disqualification>> | referee -> game controller
-| Multiple <<Fouls>> | always | <<Yellow Card>> | game controller
-| Multiple <<Yellow Card, Yellow Cards>> | always | <<Red Card>> | game controller
-|===
-
-
 === Events For Stopping Fouls
 All <<Stopping Fouls>> result in:
 
