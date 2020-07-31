@@ -95,8 +95,10 @@ All <<Fouls While Ball Out Of Play>> result in:
 | <<Ball Placement>> failed by opponent | during <<Ball Placement>> | <<Stop>> | game controller
 | Multiple <<Fouls>> | always | <<Yellow Card>> | game controller
 | Multiple <<Yellow Card, Yellow Cards>> | always | <<Red Card>> | game controller
-| <<Robot Substitution>> Intent | always | <<Halt>> (after next stoppage), then <<Stop>> | game controller
+| Perform manual <<Robot Substitution>> | during <<Stop>> | <<Halt>> (after next stoppage), then <<Stop>> | game controller
 | <<Number Of Robots>> exceeded | always | <<Stop>> | game controller
+| Raise <<Challenge Flags, Challenge flag>> | always | <<Stop>> | remote control -> game controller
+| Perform <<Emergency stop>> | always | <<Halt>> | remote control -> game controller
 
 | <<Unsporting Behavior>> | always | <<Stop>> -> <<Yellow Card>>, <<Red Card>>, <<Penalty Kick>>, <<Forced Forfeit>> or <<Disqualification>> | referee -> game controller
 |===
