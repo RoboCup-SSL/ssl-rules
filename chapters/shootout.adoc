@@ -4,14 +4,18 @@
 Both teams alternately attempt to score a goal with a <<Penalty Kick, penalty kick>> until each team has performed 5 attempts.
 If both teams have the same score after those 5 attempts, each team takes another attempt in the same order as before until the score of the two teams is different.
 
-Only one attacking robot and one keeper is allowed per team.
+Only up to one attacking robot and one keeper is allowed per team.
 During a shoot-out attempt, the attacking robot and the opponent keeper are the only ones allowed to move and <<Ball Manipulation, manipulate the ball>>.
 Other robots are not allowed to interfere.
+
+If a team is clearly not able to prepare for a <<Penalty Kick, penalty kick>>, a goal is automatically awarded to the opposing team.
 
 Robots may be <<Robot Substitution, substituted>> between shoot-out attempts.
 The new robot may be put in right away.
 
 NOTE: Note that <<Timeouts, timeouts>> are not allowed during shoot-out.
+
+NOTE: The human referee can give both teams a certain amount of time (like 5min) to change their system at any time, if there is no clear progress in determining a winner (like after 10 shoot-outs, or if both teams time out doing shoot-outs). This can be applied multiple times, if needed, to eventually determine a winner.
 
 .Usage
 Shoot-Out is used to determine the winner of an elimination match if both teams scored the same amount of goals in previous <<Game Stages, game stages>>.
