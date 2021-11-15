@@ -186,7 +186,8 @@ If the yellow card is shown as a result of <<Unsporting Behavior, unsporting beh
 
 Upon receipt of a yellow card, the number of robots allowed on the field for the penalized team decreases by one. If, after this decrease, the team has more robots than permitted on the field, a robot must be <<Robot Substitution, taken out>>.
 
-A yellow card does not lead to a stop automatically. If the the ball is <<Ball In And Out Of Play, in play>>, the team will have 10 seconds to <<Robot Substitution, automatically remove the robot>>. If a robot is not taken out within time, the game is stopped for <<Robot Substitution, manual substitution>>.
+A yellow card does not lead to a stop automatically. If the ball is <<Ball In And Out Of Play, in play>>, the team will have 10 seconds to <<Robot Substitution, automatically remove the robot>>. If a robot is not taken out within time, the game is stopped for <<Robot Substitution, manual substitution>>.
+The 10 seconds can be extended indefinitely by the other team by sending an advance choice to the <<Game Controller, game controller>>.
 
 NOTE: This rule implies that after receiving a yellow card, the game might not be automatically stopped. However, the game will be stopped if the foul that led to the yellow card causes a game stoppage, e.g. dropping parts. Therefore, if one of those fouls occurred, the team is allowed to manually remove the robot.
 
