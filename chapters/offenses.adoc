@@ -83,7 +83,7 @@ NOTE: This rule does not use the standard sanctions defined for <<Fouls, fouls>>
 Robots other than the keeper must maintain best-effort to fully stay outside the own defense area.
 Infraction of this rule can be rated as unsporting behavior.
 
-If a robot other than the keeper touches the ball while being entirely
+If a robot other than the keeper touches the ball while this robot is entirely
 inside its own defense area, the game is stopped and a <<Penalty Kick,
 penalty kick>> is awarded to the other team. The foul counter is *not*
 increased.
