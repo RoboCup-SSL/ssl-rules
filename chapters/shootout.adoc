@@ -15,7 +15,10 @@ The new robot may be put in right away.
 
 NOTE: Note that <<Timeouts, timeouts>> are not allowed during shoot-out.
 
-NOTE: The human referee can give both teams a certain amount of time (like 5min) to change their system at any time, if there is no clear progress in determining a winner (like after 10 shoot-outs, or if both teams time out doing shoot-outs). This can be applied multiple times, if needed, to eventually determine a winner.
+NOTE: If there is no clear progress in determining a winner
+(after 10 shoot-outs, if both teams time out doing shoot-outs, or if both teams cannot prepare and execute the penalty kick),
+the human referee can give both teams a certain amount of time (like 5min) to change their system.
+This time can be applied multiple times, if needed, to eventually determine a winner.
 
 .Usage
 Shoot-Out is used to determine the winner of an elimination match if both teams scored the same amount of goals in previous <<Game Stages, game stages>>.
