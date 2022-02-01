@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="generator" content="Asciidoctor 2.0.17">
-<meta name="author" content="2022-01-19">
+<meta name="author" content="2022-02-01">
 <title>Rules of the RoboCup Small Size League</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
 <style>
@@ -441,7 +441,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div id="header">
 <h1>Rules of the RoboCup Small Size League</h1>
 <div class="details">
-<span id="author" class="author">2022-01-19</span><br>
+<span id="author" class="author">2022-02-01</span><br>
 </div>
 <div id="toc" class="toc">
 <div id="toctitle">Table of Contents</div>
@@ -905,7 +905,7 @@ The numbers in the figures below show the distances in millimeters.
 It is operated by the <a href="#_game_controller_operator">game controller operator</a>. The software translates decisions of the <a href="#_referee">referee</a> and the <a href="#_automatic_referee">automatic referee</a> into Ethernet communication signals that are broadcast to the network. It maintains the state of the game, tracks all events and acts as a proxy between all participating parties in the game.</p>
 </div>
 <div class="paragraph">
-<p>The game controller has a network interface for the playing teams. They can automatically <a href="#_choosing_keeper_id">change their keeper id</a> and they can signal a robot substitution intent for the next opportunity.</p>
+<p>The game controller has a network interface for the playing teams. They can automatically <a href="#_choosing_keeper_id">change their keeper id</a>, they can signal a robot substitution intent for the next opportunity, and they can send an advantage choice for handling game stopping after yellow cards.</p>
 </div>
 </div>
 <div class="sect3">
@@ -1878,7 +1878,8 @@ see <a href="#_double_touch">double touch</a> for the rationale of the 0.05 mete
 <p>Upon receipt of a yellow card, the number of robots allowed on the field for the penalized team decreases by one. If, after this decrease, the team has more robots than permitted on the field, a robot must be <a href="#_robot_substitution">taken out</a>.</p>
 </div>
 <div class="paragraph">
-<p>A yellow card does not lead to a stop automatically. If the the ball is <a href="#_ball_in_and_out_of_play">in play</a>, the team will have 10 seconds to <a href="#_robot_substitution">automatically remove the robot</a>. If a robot is not taken out within time, the game is stopped for <a href="#_robot_substitution">manual substitution</a>.</p>
+<p>A yellow card does not lead to a stop automatically. If the ball is <a href="#_ball_in_and_out_of_play">in play</a>, the team will have 10 seconds to <a href="#_robot_substitution">automatically remove the robot</a>. If a robot is not taken out within time, the game is stopped for <a href="#_robot_substitution">manual substitution</a>.
+The 10 seconds can be extended indefinitely by the other team by sending an advance choice to the <a href="#_game_controller">game controller</a>.</p>
 </div>
 <div class="admonitionblock note">
 <table>
@@ -2310,7 +2311,7 @@ This rule does not use the standard sanctions defined for <a href="#_fouls">foul
 Infraction of this rule can be rated as unsporting behavior.</p>
 </div>
 <div class="paragraph">
-<p>If a robot other than the keeper touches the ball while being entirely
+<p>If a robot other than the keeper touches the ball while this robot is entirely
 inside its own defense area, the game is stopped and a <a href="#_penalty_kick">penalty kick</a> is awarded to the other team. The foul counter is <strong>not</strong>
 increased.</p>
 </div>
@@ -3233,7 +3234,7 @@ Note that the information shown in this table here is incomplete. Please read th
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2022-01-19 18:32:42 UTC
+Last updated 2022-02-01 19:32:36 UTC
 </div>
 </div>
 </body>
