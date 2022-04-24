@@ -191,7 +191,7 @@ The 10 seconds can be extended indefinitely by the other team by sending an adva
 
 NOTE: This rule implies that after receiving a yellow card, the game might not be automatically stopped. However, the game will be stopped if the foul that led to the yellow card causes a game stoppage, e.g. dropping parts. Therefore, if one of those fouls occurred, the team is allowed to manually remove the robot.
 
-NOTE: In 2020 no penalty will be given to the team that couldn't get the robot out of the field in time. Thus, the game shall be restarted using a force start. However, in 2021, if the robot gets manually substituted, the ball is placed on the mid line and 1.5 meters away from the teams defense area and the opposing team gets a free kick.
+NOTE: No penalty will be given to the team that couldn't get the robot out of the field in time. Thus, the game shall be restarted using a force start. However, in the future (probably 2023) this will change: If the robot gets manually substituted, the ball is placed on the mid line and 1.5 meters away from the teams defense area and the opposing team gets a free kick.
 
 A team cannot score a goal while having more than the allowed number of robots on the field.
 
