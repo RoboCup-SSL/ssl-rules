@@ -95,6 +95,26 @@ Individual game events can be disabled completely or in some automatic referee i
 
 Existing implementations can be found on Github: https://github.com/RoboCup-SSL/ssl-autorefs.
 
+==== Remote Control
+A remote control for each team can optionally be provided by the tournament organizers.
+It is a physical device that allows entering the following commands:
+
+- Raise a challenge flag
+- Request a timeout
+- Request robot substitution
+- Request emergency stop
+- Change the keeper id
+
+It may also provide feedback information, like:
+
+- Number of yellow cards and when they are due
+- Number of robots currently allowed
+- Number of robots currently on the field
+
+The remote control may only be used by the <Robot Handler, robot handler>. There is always only one remote control per team, per match.
+
+The official implementation for the league can be found on GitHub: https://github.com/RoboCup-SSL/ssl-remote-control.
+
 === Communication Flags
 
 The communication flags are used to avoid gesturing and yelling with the <<Referee, referee>> during a match.
@@ -104,5 +124,5 @@ The <<Referee, referee>> or <<Game Controller Operator, game controller operator
 Any gesturing and yelling will be considered <<Unsporting Behavior, unsporting behavior>>, punished by a <<Red Card, red card>> after the first warning.
 
 The communication flags are provided by the organizers of the competition.
-A remote control software or device can be provided and replace physical flags.
+A <<Remote Control, remote control>> software or device can be provided and replace physical flags.
 Any other solution that the organizers find feasible can also be used.
