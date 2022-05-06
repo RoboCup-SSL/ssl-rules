@@ -440,7 +440,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="generator" content="Asciidoctor 2.0.17">
-<meta name="author" content="2022-04-03">
+<meta name="author" content="2022-05-06">
 <title>Rules of the RoboCup Small Size League</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
 <style>
@@ -876,7 +876,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div id="header">
 <h1>Rules of the RoboCup Small Size League</h1>
 <div class="details">
-<span id="author" class="author"><span class="diff_delete">2021-06-06</span><span class="diff_insert">2022-04-03</span></span><br>
+<span id="author" class="author"><span class="diff_delete">2021-06-06</span><span class="diff_insert">2022-05-06</span></span><br>
 </div>
 <div id="toc" class="toc">
 <div id="toctitle">Table of Contents</div>
@@ -918,6 +918,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#_vision">2.3.1. Vision</a></li>
 <li><a href="#_game_controller">2.3.2. Game Controller</a></li>
 <li><a href="#_automatic_referee">2.3.3. Automatic Referee</a></li>
+<li><a href="#_remote_control"><span class="diff_insert">2.3.4. </span><span class="diff_insert">Remote </span><span class="diff_insert">Control</span></a></li>
 </ul>
 </li>
 <li><a href="#_communication_flags">2.4. Communication Flags</a></li>
@@ -1362,6 +1363,54 @@ Individual game events can be disabled completely or in some automatic referee i
 <p>Existing implementations can be found on Github: <a href="https://github.com/RoboCup-SSL/ssl-autorefs" class="bare">https://github.com/RoboCup-SSL/ssl-autorefs</a>.</p>
 </div>
 </div>
+<div class="sect3">
+<h4 id="_remote_control"><span class="diff_insert">2.3.4. </span><span class="diff_insert">Remote </span><span class="diff_insert">Control</span></h4>
+<div class="paragraph">
+<p><span class="diff_insert">A </span><span class="diff_insert">remote </span><span class="diff_insert">control </span><span class="diff_insert">for </span><span class="diff_insert">each </span><span class="diff_insert">team </span><span class="diff_insert">can </span><span class="diff_insert">optionally </span><span class="diff_insert">be </span><span class="diff_insert">provided </span><span class="diff_insert">by </span><span class="diff_insert">the </span><span class="diff_insert">tournament </span><span class="diff_insert">organizers.
+It </span><span class="diff_insert">is </span><span class="diff_insert">a </span><span class="diff_insert">physical </span><span class="diff_insert">device </span><span class="diff_insert">that </span><span class="diff_insert">allows </span><span class="diff_insert">entering </span><span class="diff_insert">the </span><span class="diff_insert">following </span><span class="diff_insert">commands:</span></p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><span class="diff_insert">Raise </span><span class="diff_insert">a </span><span class="diff_insert">challenge </span><span class="diff_insert">flag</span></p>
+</li>
+<li>
+<p><span class="diff_insert">Request </span><span class="diff_insert">a </span><span class="diff_insert">timeout</span></p>
+</li>
+<li>
+<p><span class="diff_insert">Request </span><span class="diff_insert">robot </span><span class="diff_insert">substitution</span></p>
+</li>
+<li>
+<p><span class="diff_insert">Request </span><span class="diff_insert">emergency </span><span class="diff_insert">stop</span></p>
+</li>
+<li>
+<p><span class="diff_insert">Change </span><span class="diff_insert">the </span><span class="diff_insert">keeper </span><span class="diff_insert">id</span></p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><span class="diff_insert">It </span><span class="diff_insert">may </span><span class="diff_insert">also </span><span class="diff_insert">provide </span><span class="diff_insert">feedback </span><span class="diff_insert">information, </span><span class="diff_insert">like:</span></p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><span class="diff_insert">Number </span><span class="diff_insert">of </span><span class="diff_insert">yellow </span><span class="diff_insert">cards </span><span class="diff_insert">and </span><span class="diff_insert">when </span><span class="diff_insert">they </span><span class="diff_insert">are </span><span class="diff_insert">due</span></p>
+</li>
+<li>
+<p><span class="diff_insert">Number </span><span class="diff_insert">of </span><span class="diff_insert">robots </span><span class="diff_insert">currently </span><span class="diff_insert">allowed</span></p>
+</li>
+<li>
+<p><span class="diff_insert">Number </span><span class="diff_insert">of </span><span class="diff_insert">robots </span><span class="diff_insert">currently </span><span class="diff_insert">on </span><span class="diff_insert">the </span><span class="diff_insert">field</span></p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><span class="diff_insert">The </span><span class="diff_insert">remote </span><span class="diff_insert">control </span><span class="diff_insert">may </span><span class="diff_insert">only </span><span class="diff_insert">be </span><span class="diff_insert">used </span><span class="diff_insert">by </span><span class="diff_insert">the </span><span class="diff_insert">&lt;Robot </span><span class="diff_insert">Handler, </span><span class="diff_insert">robot </span><span class="diff_insert">handler&gt;. </span><span class="diff_insert">There </span><span class="diff_insert">is </span><span class="diff_insert">always </span><span class="diff_insert">only </span><span class="diff_insert">one </span><span class="diff_insert">remote </span><span class="diff_insert">control </span><span class="diff_insert">per </span><span class="diff_insert">team, </span><span class="diff_insert">per </span><span class="diff_insert">match.</span></p>
+</div>
+<div class="paragraph">
+<p><span class="diff_insert">The </span><span class="diff_insert">official </span><span class="diff_insert">implementation </span><span class="diff_insert">for </span><span class="diff_insert">the </span><span class="diff_insert">league </span><span class="diff_insert">can </span><span class="diff_insert">be </span><span class="diff_insert">found </span><span class="diff_insert">on </span><span class="diff_insert">GitHub: </span><a href="https://github.com/RoboCup-SSL/ssl-remote-control" class="bare"><span class="diff_insert">https://github.com/RoboCup-SSL/ssl-remote-control</span></a><span class="diff_insert">.</span></p>
+</div>
+</div>
 </div>
 <div class="sect2">
 <h3 id="_communication_flags">2.4. Communication Flags</h3>
@@ -1375,7 +1424,7 @@ Any gesturing and yelling will be considered <a href="#_unsporting_behavior">uns
 </div>
 <div class="paragraph">
 <p>The communication flags are provided by the organizers of the competition.
-A remote control software or device can be provided and replace physical flags.
+A <a href="#_remote_control">remote <span class="diff_delete">control </span><span class="diff_insert">control</span></a> software or device can be provided and replace physical flags.
 Any other solution that the organizers find feasible can also be used.</p>
 </div>
 </div>
@@ -2351,8 +2400,9 @@ This rule implies that after receiving a yellow card, the game might not be auto
 <td class="icon">
 <i class="fa icon-note" title="Note"></i>
 </td>
-<td class="content">
-In 2020 no penalty will be given to the team that couldn&#8217;t get the robot out of the field in time. Thus, the game shall be restarted using a force start. However, in 2021, if the robot gets manually substituted, the ball is placed on the mid line and 1.5 meters away from the teams defense area and the opposing team gets a free kick.
+<td class="content"><span class="diff_delete">
+In </span><span class="diff_delete">2020 </span><span class="diff_delete">no </span><span class="diff_insert">
+No </span>penalty will be given to the team that couldn&#8217;t get the robot out of the field in time. Thus, the game shall be restarted using a force start. However, in <span class="diff_delete">2021, </span><span class="diff_delete">if </span><span class="diff_insert">the </span><span class="diff_insert">future </span><span class="diff_insert">(probably </span><span class="diff_insert">2023) </span><span class="diff_insert">this </span><span class="diff_insert">will </span><span class="diff_insert">change: </span><span class="diff_insert">If </span>the robot gets manually substituted, the ball is placed on the mid line and 1.5 meters away from the teams defense area and the opposing team gets a free kick.
 </td>
 </tr>
 </table>
@@ -2961,7 +3011,7 @@ The <a href="#_referee">referee</a> is encouraged to call fouls if the non-placi
 <p>The <a href="#_robot_handler">robot handler</a> should prefer to use long sleeves and colors that won&#8217;t interfere with the vision system.</p>
 </div>
 <div class="paragraph">
-<p>Robots can always be substituted during game play without notifying the <a href="#_referee">referee</a> if all the following conditions are met:</p>
+<p>Robots can always be <span class="diff_delete">substituted </span><span class="diff_insert">taken </span><span class="diff_insert">in </span><span class="diff_insert">and </span><span class="diff_insert">out </span>during game play without notifying the <a href="#_referee">referee</a> if all the following conditions are met:</p>
 </div>
 <div class="olist arabic">
 <ol class="arabic">
@@ -2977,10 +3027,19 @@ The <a href="#_referee">referee</a> is encouraged to call fouls if the non-placi
 </ol>
 </div>
 <div class="paragraph">
-<p>Additionally, robots can be taken out from any position during <a href="#_stopping_the_game">game stoppage</a> by the <a href="#_robot_handler">robot handler</a> using the procedure below:</p>
+<p>Additionally, robots can be taken out from any position <span class="diff_delete">during </span><a href="#_stopping_the_game"><span class="diff_delete">game </span><span class="diff_delete">stoppage</span></a> <span class="diff_delete">by </span><span class="diff_delete">the </span><a href="#_robot_handler"><span class="diff_delete">robot </span><span class="diff_delete">handler</span></a> <span class="diff_insert">on </span><span class="diff_insert">request </span>using the procedure below:</p>
 </div>
 <div class="olist arabic">
 <ol class="arabic">
+<li>
+<p><span class="diff_insert">The </span><a href="#_robot_handler"><span class="diff_insert">robot </span><span class="diff_insert">handler</span></a> <span class="diff_insert">requests </span><span class="diff_insert">robot </span><span class="diff_insert">substitution </span><span class="diff_insert">at </span><span class="diff_insert">any </span><span class="diff_insert">time.</span></p>
+</li>
+<li>
+<p><span class="diff_insert">The </span><a href="#_game_controller"><span class="diff_insert">game </span><span class="diff_insert">controller</span></a> <span class="diff_insert">will </span><a href="#_halt"><span class="diff_insert">halt</span></a> <span class="diff_insert">the </span><span class="diff_insert">game </span><span class="diff_insert">at </span><span class="diff_insert">the </span><span class="diff_insert">next </span><span class="diff_insert">opportunity.</span></p>
+</li>
+<li>
+<p><span class="diff_insert">The </span><a href="#_robot_handler"><span class="diff_insert">robot </span><span class="diff_insert">handler</span></a> <span class="diff_insert">may </span><span class="diff_insert">enter </span><span class="diff_insert">the </span><span class="diff_insert">field </span><span class="diff_insert">and </span><span class="diff_insert">touch </span><span class="diff_insert">robots </span><span class="diff_insert">now, </span><span class="diff_insert">as </span><span class="diff_insert">long </span><span class="diff_insert">as </span><span class="diff_insert">the </span><span class="diff_insert">game </span><span class="diff_insert">is </span><span class="diff_insert">still </span><a href="#_halt"><span class="diff_insert">halted</span></a><span class="diff_insert">.</span></p>
+</li>
 <li>
 <p>The <a href="#_robot_handler">robot handler</a> takes robots out.</p>
 </li>
@@ -3011,7 +3070,10 @@ The <a href="#_referee">referee</a> is encouraged to call fouls if the non-placi
 <p>A <a href="#_robot_handler">robot handler</a> by informing the <a href="#_game_controller_operator">game controller operator</a> who in turn enters the intent into the <a href="#_game_controller">game controller</a>.</p>
 </li>
 <li>
-<p>A team software by sending a request to the <a href="#_game_controller">game controller</a>.</p>
+<p>A <a href="#_robot_handler"><span class="diff_insert">robot </span><span class="diff_insert">handler</span></a> <span class="diff_insert">by </span><span class="diff_insert">using </span><span class="diff_insert">the </span><a href="#_remote_control"><span class="diff_insert">remote </span><span class="diff_insert">control</span></a><span class="diff_insert">, </span><span class="diff_insert">if </span><span class="diff_insert">provided.</span></p>
+</li>
+<li>
+<p><span class="diff_insert">A </span>team software by sending a request to the <a href="#_game_controller">game controller</a>.</p>
 </li>
 <li>
 <p>The <a href="#_game_controller">game controller</a> itself if a team exceeds the maximum number of robots (for example after a team receives a <a href="#_yellow_card">yellow</a> or <a href="#_red_card">red card</a>).</p>
@@ -3019,7 +3081,7 @@ The <a href="#_referee">referee</a> is encouraged to call fouls if the non-placi
 </ol>
 </div>
 <div class="paragraph">
-<p>If the game was halted due to a substitution intent by a team, at least one substitution (taking a robot out or putting one in) must be performed by this team. A substitution intent can be revoked unless the game was not already halted for substitution.</p>
+<p>If the game was halted due to a substitution intent by a team, at least one <span class="diff_delete">substitution </span><span class="diff_delete">(taking </span><span class="diff_delete">a </span>robot <span class="diff_delete">out </span><span class="diff_delete">or </span><span class="diff_delete">putting </span><span class="diff_delete">one </span><span class="diff_delete">in) </span>must be <span class="diff_delete">performed </span><span class="diff_insert">taken </span><span class="diff_insert">out </span>by this team. A substitution intent can be revoked unless the game was not already halted for substitution.</p>
 </div>
 <div class="paragraph">
 <p>If a robot substitution intent for either team is present just before the game would continue after ball placement, the <a href="#_game_controller">game controller</a> automatically <a href="#_halt">halts</a> the game.</p>
@@ -3704,7 +3766,7 @@ Note that the information shown in this table here is incomplete. Please read th
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated <span class="diff_delete">2021-06-06 </span><span class="diff_delete">10:09:33 </span><span class="diff_insert">2022-04-03 </span><span class="diff_insert">14:17:15 </span>UTC
+Last updated <span class="diff_delete">2021-06-06 </span><span class="diff_delete">10:09:33 </span><span class="diff_insert">2022-05-06 </span><span class="diff_insert">15:56:18 </span>UTC
 </div>
 </div>
 </body>
