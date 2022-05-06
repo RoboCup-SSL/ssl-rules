@@ -111,7 +111,7 @@ It may also provide feedback information, like:
 - Number of robots currently allowed
 - Number of robots currently on the field
 
-The remote control may only be used by the <Robot Handler, robot handler>. There is always only one remote control per team, per match.
+The remote control may only be used by the <<Robot Handler, robot handler>>. There is always only one remote control per team, per match.
 
 The official implementation for the league can be found on GitHub: https://github.com/RoboCup-SSL/ssl-remote-control.
 
