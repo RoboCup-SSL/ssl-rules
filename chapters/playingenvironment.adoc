@@ -24,7 +24,7 @@ image::double-size-field.svg[]
 ==== Field Surface
 The playing surface is green felt mat or carpet. The floor under the carpet is level, flat, and hard.
 
-The field surface will continue for 0.7 meters beyond the <<Field Lines, field lines>> on all sides. The outer 0.4 meters of this runoff area, separated from the robot area by a 0.1 meters tall wall, is used as a designated walking area for the <<Referee, referee>> and the <<Assistant Referee, assistant referee>>. The remaining 0.3 meters are the field margins.
+The field surface will continue for 0.7 meters beyond the <<Field Lines, field lines>> on all sides. The outer 0.4 meters of this runoff area, separated from the robot area by a 0.1 meters tall black wall, is used as a designated walking area for the <<Referee, referee>> and the <<Assistant Referee, assistant referee>>. The remaining 0.3 meters are the field margins.
 
 
 ==== Field Markings
@@ -51,7 +51,7 @@ The penalty mark defines the point from which a team executes a penalty kick aga
 
 
 ==== Goals
-Goals must be placed on the center of each goal line and anchored securely to the field surface. They consist of two 0.16 meters high vertical side walls joined at the back by a 0.16 meters high vertical rear wall. The inner face of the goal has to be covered with an energy absorbing material such as foam to help absorb ball impacts and lessen the speed of deflections. The goal walls, edges, and tops are white in color.
+Goals must be placed on the center of each goal line and anchored securely to the field surface. They consist of two 0.16 meters high vertical side walls joined at the back by a 0.16 meters high vertical rear wall. The inner face of the goal has to be covered with an energy absorbing material such as foam to help absorb ball impacts and lessen the speed of deflections. The inner goal walls are white, the outer goal walls, edges, and tops are black.
 
 The distance between the side walls is 1.8 meters for division A and 1 meter for division B, and the goal is 0.18 meters deep. The goal walls are 0.02 meters thick and touch the goal line, but do not overlap or encroach on the field lines or the field. <<goal-detail-a, Figure 3>> and <<goal-detail-b, figure 4>> show these details for division A and division B respectively.
 
