@@ -47,7 +47,7 @@ A defense area is defined as a rectangle touching the goal lines centrally in fr
 
 
 ===== Penalty Mark
-For each field half the penalty mark is on the <<Additional Lines, mid-line>> (not halfway line), 8 meters (division A) or 6 meters (division B) away from the opponent goal center.
+The penalty mark defines the point from which a team executes a penalty kick against the opponent goal. It is located on the <<Additional Lines, mid-line>> (not halfway line) and 8 meters (division A) or 6 meters (division B) away from the opponent's goal center.
 
 
 ==== Goals
