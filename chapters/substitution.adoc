@@ -7,8 +7,8 @@ The <<Robot Handler, robot handler>> should prefer to use long sleeves and color
 Robots can always be taken in and out during game play without notifying the <<Referee, referee>> if all the following conditions are met:
 
 . The robot is at least partially inside the <<Field Surface, field margin>>.
-. The robot is at a distance from the halfway line that must not exceed 1 meter.
-. The ball must be at least 2 meters away from the halfway line.
+. The robot is at a distance from the <<Halfway Line, halfway line>> that must not exceed 1 meter.
+. The ball must be at least 2 meters away from the <<Halfway Line, halfway line>>.
 
 Additionally, robots can be taken out from any position on request using the procedure below:
 
