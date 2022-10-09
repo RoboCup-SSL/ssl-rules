@@ -34,20 +34,24 @@ Distances between lines are measured from their centers.
 ===== Field Lines
 The playing area is defined by four field lines. The two longer field lines are called touch lines. The two shorter field lines are called goal lines.
 
-===== Additional Lines
-The field of play is divided into two halves by a halfway line that runs along the width of the field and through the center of the field. The halfway line is parallel to the goal lines.
+===== Halfway Line
+The field of play is divided into two halves by a  halfway line that runs along the width of the field and through the center of the field.
+The  halfway line is parallel to the goal lines.
 
-A mid-line runs along the length of the field, passing through the center of the field. The mid-line is parallel to the touch lines. This line is used to provide adequate features for the geometry calibration of the <<Vision, vision software>>.
+===== Goal-to-Goal Line
+The goal-to-goal line runs along the length of the field, passing through the center of the goals and the field. The goal-to-goal line is parallel to the touch lines.
+
+NOTE: This line is used to provide adequate features for the geometry calibration of the <<Vision, vision software>> and for optional local localisation of robots.
 
 ===== Center Circle
-The center mark is indicated at the midpoint of the halfway line. A circle with a diameter of 1 meter is marked around it for both divisions.
+The center circle is located at the center of the field with a diameter of 1 meter.
+The center is at the crossing of the <<Halfway Line, halfway line>> and the <<Goal-to-Goal Line, goal-to-goal line>>.
 
 ===== Defense Area
 A defense area is defined as a rectangle touching the goal lines centrally in front of both <<Goals, goals>>. The size of the defense area is 3.6 meters times 1.8 meters for division A and 2 meters times 1 meter for division B, as shown in figures <<field-dimensions-a, 1>> and <<field-dimensions-b, 2>> respectively.
 
-
 ===== Penalty Mark
-The penalty mark defines the point from which a team executes a penalty kick against the opponent goal. It is located on the <<Additional Lines, mid-line>> (not halfway line) and 8 meters (division A) or 6 meters (division B) away from the opponent's goal center.
+The penalty mark defines the point from which a team executes a penalty kick against the opponent goal. It is located on the <<Goal-to-Goal Line, goal-to-goal line>> and 8 meters (division A) or 6 meters (division B) away from the opponent's goal center.
 
 
 ==== Goals

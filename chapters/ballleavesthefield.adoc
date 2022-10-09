@@ -46,4 +46,4 @@ After the ball has been placed, a <<Free Kick, free kick>> is awarded to the opp
 .Usage
 A kick is aimless when after the ball touched a robot, it subsequently crossed the halfline and then its opponent's goal line outside the goal without touching another robot.
 
-A kick-off kick cannot be aimless, as the ball is located at the midline and does therefore not cross it.
+A kick-off kick cannot be aimless, as the ball is located on the <<Halfway Line, halfway line>> and does therefore not cross it.
