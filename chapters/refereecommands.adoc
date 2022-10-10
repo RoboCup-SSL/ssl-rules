@@ -21,6 +21,8 @@ The halt command allows the referee to interrupt the game immediately whenever a
 also used to recalibrate the vision software during a game if the vision expert considers it necessary and the referee agrees and for <<Robot Substitution, robot substitution>>. Additionally, the referee is free to issue the halt command at will.
 
 The halt command is always followed up by stop.
+Enough preparation time should be given to teams, before the game is continued.
+The <<Game Controller, game controller>> will wait for up to 10 seconds after a halt command, but the game can be continued if robots are prepared already.
 
 
 === Ball Placement
