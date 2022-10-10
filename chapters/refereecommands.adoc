@@ -17,10 +17,12 @@ When the halt command is issued, no robot is allowed to move or <<Ball Manipulat
 There is a grace period of 2 seconds for the robots to brake.
 
 .Usage
-The halt command allows the referee to interrupt the game immediately whenever an emergency occurs (for example when a robot gets out of contol). It is
+The halt command allows the referee to interrupt the game immediately whenever an emergency occurs (for example when a robot gets out of control). It is
 also used to recalibrate the vision software during a game if the vision expert considers it necessary and the referee agrees and for <<Robot Substitution, robot substitution>>. Additionally, the referee is free to issue the halt command at will.
 
 The halt command is always followed up by stop.
+
+NOTE: As a rule of thumb, the game should always be halted when humans other than the referees are entering the field.
 
 
 === Ball Placement
@@ -28,6 +30,8 @@ The halt command is always followed up by stop.
 After the game was stopped, the ball must be placed on the appropriate position, depending on the event that occurred.
 The automatic ball placement is the preferred way to place the ball at the designated position on the field by the robots of the teams without human interaction.
 If this is not possible, the <<Referee, referee>> places the ball manually.
+
+NOTE: During manual ball placement, the game should be in <<Stop, stop>> to allow robots to prepare for game continuation.
 
 No ball placement is required if all of the following constraints are fulfilled:
 
