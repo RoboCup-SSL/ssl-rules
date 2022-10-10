@@ -899,6 +899,10 @@ The numbers in the figures below show the distances in millimeters.
 <div class="paragraph">
 <p>Besides the shared vision equipment, teams are not allowed to mount their own cameras or other external sensors, unless specifically announced or permitted by the respective competition organizers.</p>
 </div>
+<div class="paragraph">
+<p>SSL-Vision defines an additional <a href="https://github.com/RoboCup-SSL/ssl-vision/blob/master/src/shared/proto/messages_robocup_ssl_wrapper_tracked.proto">tracker protocol</a> that contains filtered and enriched tracking data. Messages are not published by SSL-Vision itself, but for example by some <a href="#_automatic_referee">automatic referees</a>.
+It is meant to be used by the <a href="#_game_controller">game controller</a> and by teams that do not yet have their own sophisticated filter.</p>
+</div>
 </div>
 <div class="sect3">
 <h4 id="_game_controller">2.3.2. Game Controller</h4>
@@ -3329,7 +3333,7 @@ Note that the information shown in this table here is incomplete. Please read th
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2022-10-10 16:57:29 UTC
+Last updated 2022-10-10 18:00:04 UTC
 </div>
 </div>
 </body>
