@@ -82,6 +82,9 @@ Each field is provided with a shared central vision server and a set of shared c
 
 Besides the shared vision equipment, teams are not allowed to mount their own cameras or other external sensors, unless specifically announced or permitted by the respective competition organizers.
 
+SSL-Vision defines an additional https://github.com/RoboCup-SSL/ssl-vision/blob/master/src/shared/proto/messages_robocup_ssl_wrapper_tracked.proto[tracker protocol] that contains filtered and enriched tracking data. Messages are not published by SSL-Vision itself, but for example by some <<Automatic Referee, automatic referees>>.
+It is meant to be used by the <<Game Controller, game controller>> and by teams that do not yet have their own sophisticated filter.
+
 ==== Game Controller
 A game is controlled by the community-maintained ssl-game-controller (https://github.com/RoboCup-SSL/ssl-game-controller).
 It is operated by the <<Game Controller Operator, game controller operator>>. The software translates decisions of the <<Referee, referee>> and the <<Automatic Referee, automatic referee>> into Ethernet communication signals that are broadcast to the network. It maintains the state of the game, tracks all events and acts as a proxy between all participating parties in the game.
