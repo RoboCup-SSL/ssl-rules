@@ -4,26 +4,24 @@
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="generator" content="Asciidoctor 2.0.15">
-<meta name="author" content="2021-06-06">
+<meta name="generator" content="Asciidoctor 2.0.17">
+<meta name="author" content="2022-07-11">
 <title>Rules of the RoboCup Small Size League</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
 <style>
-/* Asciidoctor default stylesheet | MIT License | https://asciidoctor.org */
-/* Uncomment @import statement to use as custom stylesheet */
-/*@import "https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700";*/
-article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section{display:block}
-audio,video{display:inline-block}
-audio:not([controls]){display:none;height:0}
-html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}
+/*! Asciidoctor default stylesheet | MIT License | https://asciidoctor.org */
+/* Uncomment the following line when using as a custom stylesheet */
+/* @import "https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700"; */
+html{font-family:sans-serif;-webkit-text-size-adjust:100%}
 a{background:none}
 a:focus{outline:thin dotted}
 a:active,a:hover{outline:0}
 h1{font-size:2em;margin:.67em 0}
-abbr[title]{border-bottom:1px dotted}
 b,strong{font-weight:bold}
+abbr{font-size:.9em}
+abbr[title]{cursor:help;border-bottom:1px dotted #dddddf;text-decoration:none}
 dfn{font-style:italic}
-hr{-moz-box-sizing:content-box;box-sizing:content-box;height:0}
+hr{height:0}
 mark{background:#ff0;color:#000}
 code,kbd,pre,samp{font-family:monospace;font-size:1em}
 pre{white-space:pre-wrap}
@@ -35,20 +33,22 @@ sub{bottom:-.25em}
 img{border:0}
 svg:not(:root){overflow:hidden}
 figure{margin:0}
+audio,video{display:inline-block}
+audio:not([controls]){display:none;height:0}
 fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}
 legend{border:0;padding:0}
 button,input,select,textarea{font-family:inherit;font-size:100%;margin:0}
 button,input{line-height:normal}
 button,select{text-transform:none}
-button,html input[type="button"],input[type="reset"],input[type="submit"]{-webkit-appearance:button;cursor:pointer}
+button,html input[type=button],input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer}
 button[disabled],html input[disabled]{cursor:default}
-input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0}
+input[type=checkbox],input[type=radio]{padding:0}
 button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}
 textarea{overflow:auto;vertical-align:top}
 table{border-collapse:collapse;border-spacing:0}
-*,*::before,*::after{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box}
+*,::before,::after{box-sizing:border-box}
 html,body{font-size:100%}
-body{background:#fff;color:rgba(0,0,0,.8);padding:0;margin:0;font-family:"Noto Serif","DejaVu Serif",serif;font-weight:400;font-style:normal;line-height:1;position:relative;cursor:auto;tab-size:4;word-wrap:anywhere;-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased}
+body{background:#fff;color:rgba(0,0,0,.8);padding:0;margin:0;font-family:"Noto Serif","DejaVu Serif",serif;line-height:1;position:relative;cursor:auto;-moz-tab-size:4;-o-tab-size:4;tab-size:4;word-wrap:anywhere;-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased}
 a:hover{cursor:pointer}
 img,object,embed{max-width:100%;height:auto}
 object,embed{height:100%}
@@ -68,7 +68,7 @@ div,dl,dt,dd,ul,ol,li,h1,h2,h3,#toctitle,.sidebarblock>.content>.title,h4,h5,h6,
 a{color:#2156a5;text-decoration:underline;line-height:inherit}
 a:hover,a:focus{color:#1d4b8f}
 a img{border:0}
-p{font-family:inherit;font-weight:400;font-size:1em;line-height:1.6;margin-bottom:1.25em;text-rendering:optimizeLegibility}
+p{line-height:1.6;margin-bottom:1.25em;text-rendering:optimizeLegibility}
 p aside{font-size:.875em;line-height:1.35;font-style:italic}
 h1,h2,h3,#toctitle,.sidebarblock>.content>.title,h4,h5,h6{font-family:"Open Sans","DejaVu Sans",sans-serif;font-weight:300;font-style:normal;color:#ba3925;text-rendering:optimizeLegibility;margin-top:1em;margin-bottom:.5em;line-height:1.0125em}
 h1 small,h2 small,h3 small,#toctitle small,.sidebarblock>.content>.title small,h4 small,h5 small,h6 small{font-size:60%;color:#e99b8f;line-height:0}
@@ -77,14 +77,14 @@ h2{font-size:1.6875em}
 h3,#toctitle,.sidebarblock>.content>.title{font-size:1.375em}
 h4,h5{font-size:1.125em}
 h6{font-size:1em}
-hr{border:solid #dddddf;border-width:1px 0 0;clear:both;margin:1.25em 0 1.1875em;height:0}
+hr{border:solid #dddddf;border-width:1px 0 0;clear:both;margin:1.25em 0 1.1875em}
 em,i{font-style:italic;line-height:inherit}
 strong,b{font-weight:bold;line-height:inherit}
 small{font-size:60%;line-height:inherit}
 code{font-family:"Droid Sans Mono","DejaVu Sans Mono",monospace;font-weight:400;color:rgba(0,0,0,.9)}
-ul,ol,dl{font-size:1em;line-height:1.6;margin-bottom:1.25em;list-style-position:outside;font-family:inherit}
+ul,ol,dl{line-height:1.6;margin-bottom:1.25em;list-style-position:outside;font-family:inherit}
 ul,ol{margin-left:1.5em}
-ul li ul,ul li ol{margin-left:1.25em;margin-bottom:0;font-size:1em}
+ul li ul,ul li ol{margin-left:1.25em;margin-bottom:0}
 ul.square li ul,ul.circle li ul,ul.disc li ul{list-style:inherit}
 ul.square{list-style-type:square}
 ul.circle{list-style-type:circle}
@@ -92,8 +92,6 @@ ul.disc{list-style-type:disc}
 ol li ul,ol li ol{margin-left:1.25em;margin-bottom:0}
 dl dt{margin-bottom:.3125em;font-weight:bold}
 dl dd{margin-bottom:1.25em}
-abbr,acronym{text-transform:uppercase;font-size:90%;color:rgba(0,0,0,.8);border-bottom:1px dotted #ddd;cursor:help}
-abbr{text-transform:none}
 blockquote{margin:0 0 1.25em;padding:.5625em 1.25em 0 1.1875em;border-left:1px solid #ddd}
 blockquote,blockquote p{line-height:1.6;color:rgba(0,0,0,.85)}
 @media screen and (min-width:768px){h1,h2,h3,#toctitle,.sidebarblock>.content>.title,h4,h5,h6{line-height:1.2}
@@ -101,7 +99,7 @@ h1{font-size:2.75em}
 h2{font-size:2.3125em}
 h3,#toctitle,.sidebarblock>.content>.title{font-size:1.6875em}
 h4{font-size:1.4375em}}
-table{background:#fff;margin-bottom:1.25em;border:solid 1px #dedede;word-wrap:normal}
+table{background:#fff;margin-bottom:1.25em;border:1px solid #dedede;word-wrap:normal}
 table thead,table tfoot{background:#f7f8f7}
 table thead tr th,table thead tr td,table tfoot tr th,table tfoot tr td{padding:.5em .625em .625em;font-size:inherit;color:rgba(0,0,0,.8);text-align:left}
 table tr th,table tr td{padding:.5625em .625em;font-size:inherit;color:rgba(0,0,0,.8)}
@@ -116,7 +114,7 @@ h1 strong,h2 strong,h3 strong,#toctitle strong,.sidebarblock>.content>.title str
 :not(pre).nobreak{word-wrap:normal}
 :not(pre).nowrap{white-space:nowrap}
 :not(pre).pre-wrap{white-space:pre-wrap}
-:not(pre):not([class^=L])>code{font-size:.9375em;font-style:normal!important;letter-spacing:0;padding:.1em .5ex;word-spacing:-.15em;background:#f7f7f8;-webkit-border-radius:4px;border-radius:4px;line-height:1.45;text-rendering:optimizeSpeed}
+:not(pre):not([class^=L])>code{font-size:.9375em;font-style:normal!important;letter-spacing:0;padding:.1em .5ex;word-spacing:-.15em;background:#f7f7f8;border-radius:4px;line-height:1.45;text-rendering:optimizeSpeed}
 pre{color:rgba(0,0,0,.9);font-family:"Droid Sans Mono","DejaVu Sans Mono",monospace;line-height:1.45;text-rendering:optimizeSpeed}
 pre code,pre pre{color:inherit;font-size:inherit;line-height:inherit}
 pre>code{display:block}
@@ -124,7 +122,7 @@ pre.nowrap,pre.nowrap pre{white-space:pre;word-wrap:normal}
 em em{font-style:normal}
 strong strong{font-weight:400}
 .keyseq{color:rgba(51,51,51,.8)}
-kbd{font-family:"Droid Sans Mono","DejaVu Sans Mono",monospace;display:inline-block;color:rgba(0,0,0,.8);font-size:.65em;line-height:1.45;background:#f7f7f7;border:1px solid #ccc;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 1px 0 rgba(0,0,0,.2),0 0 0 .1em white inset;box-shadow:0 1px 0 rgba(0,0,0,.2),0 0 0 .1em #fff inset;margin:0 .15em;padding:.2em .5em;vertical-align:middle;position:relative;top:-.1em;white-space:nowrap}
+kbd{font-family:"Droid Sans Mono","DejaVu Sans Mono",monospace;display:inline-block;color:rgba(0,0,0,.8);font-size:.65em;line-height:1.45;background:#f7f7f7;border:1px solid #ccc;border-radius:3px;box-shadow:0 1px 0 rgba(0,0,0,.2),inset 0 0 0 .1em #fff;margin:0 .15em;padding:.2em .5em;vertical-align:middle;position:relative;top:-.1em;white-space:nowrap}
 .keyseq kbd:first-child{margin-left:0}
 .keyseq kbd:last-child{margin-right:0}
 .menuseq,.menuref{color:#000}
@@ -136,7 +134,7 @@ b.button::before,b.button::after{position:relative;top:-1px;font-weight:400}
 b.button::before{content:"[";padding:0 3px 0 2px}
 b.button::after{content:"]";padding:0 2px 0 3px}
 p a>code:hover{color:rgba(0,0,0,.9)}
-#header,#content,#footnotes,#footer{width:100%;margin-left:auto;margin-right:auto;margin-top:0;margin-bottom:0;max-width:62.5em;*zoom:1;position:relative;padding-left:.9375em;padding-right:.9375em}
+#header,#content,#footnotes,#footer{width:100%;margin:0 auto;max-width:62.5em;*zoom:1;position:relative;padding-left:.9375em;padding-right:.9375em}
 #header::before,#header::after,#content::before,#content::after,#footnotes::before,#footnotes::after,#footer::before,#footer::after{content:" ";display:table}
 #header::after,#content::after,#footnotes::after,#footer::after{clear:both}
 #content{margin-top:1.25em}
@@ -144,7 +142,7 @@ p a>code:hover{color:rgba(0,0,0,.9)}
 #header>h1:first-child{color:rgba(0,0,0,.85);margin-top:2.25rem;margin-bottom:0}
 #header>h1:first-child+#toc{margin-top:8px;border-top:1px solid #dddddf}
 #header>h1:only-child,body.toc2 #header>h1:nth-last-child(2){border-bottom:1px solid #dddddf;padding-bottom:8px}
-#header .details{border-bottom:1px solid #dddddf;line-height:1.45;padding-top:.25em;padding-bottom:.25em;padding-left:.25em;color:rgba(0,0,0,.6);display:-ms-flexbox;display:-webkit-flex;display:flex;-ms-flex-flow:row wrap;-webkit-flex-flow:row wrap;flex-flow:row wrap}
+#header .details{border-bottom:1px solid #dddddf;line-height:1.45;padding-top:.25em;padding-bottom:.25em;padding-left:.25em;color:rgba(0,0,0,.6);display:flex;flex-flow:row wrap}
 #header .details span:first-child{margin-left:-.125em}
 #header .details span.email a{color:rgba(0,0,0,.85)}
 #header .details br{display:none}
@@ -178,11 +176,11 @@ body.toc2.toc-right #toc.toc2{border-right-width:0;border-left:1px solid #e7e7e9
 #toc.toc2>ul{font-size:.95em}
 #toc.toc2 ul ul{padding-left:1.25em}
 body.toc2.toc-right{padding-left:0;padding-right:20em}}
-#content #toc{border-style:solid;border-width:1px;border-color:#e0e0dc;margin-bottom:1.25em;padding:1.25em;background:#f8f8f7;-webkit-border-radius:4px;border-radius:4px}
+#content #toc{border:1px solid #e0e0dc;margin-bottom:1.25em;padding:1.25em;background:#f8f8f7;border-radius:4px}
 #content #toc>:first-child{margin-top:0}
 #content #toc>:last-child{margin-bottom:0}
 #footer{max-width:none;background:rgba(0,0,0,.8);padding:1.25em}
-#footer-text{color:rgba(255,255,255,.8);line-height:1.44}
+#footer-text{color:hsla(0,0%,100%,.8);line-height:1.44}
 #content{margin-bottom:.625em}
 .sect1{padding-bottom:.625em}
 @media screen and (min-width:768px){#content{margin-bottom:1.25em}
@@ -195,29 +193,33 @@ body.toc2.toc-right{padding-left:0;padding-right:20em}}
 #content h1>a.link,h2>a.link,h3>a.link,#toctitle>a.link,.sidebarblock>.content>.title>a.link,h4>a.link,h5>a.link,h6>a.link{color:#ba3925;text-decoration:none}
 #content h1>a.link:hover,h2>a.link:hover,h3>a.link:hover,#toctitle>a.link:hover,.sidebarblock>.content>.title>a.link:hover,h4>a.link:hover,h5>a.link:hover,h6>a.link:hover{color:#a53221}
 details,.audioblock,.imageblock,.literalblock,.listingblock,.stemblock,.videoblock{margin-bottom:1.25em}
-details>summary:first-of-type{cursor:pointer;display:list-item;outline:none;margin-bottom:.75em}
+details{margin-left:1.25rem}
+details>summary{cursor:pointer;display:block;position:relative;line-height:1.6;margin-bottom:.625rem;outline:none;-webkit-tap-highlight-color:transparent}
+details>summary::-webkit-details-marker{display:none}
+details>summary::before{content:"";border:solid transparent;border-left:solid;border-width:.3em 0 .3em .5em;position:absolute;top:.5em;left:-1.25rem;transform:translateX(15%)}
+details[open]>summary::before{border:solid transparent;border-top:solid;border-width:.5em .3em 0;transform:translateY(15%)}
+details>summary::after{content:"";width:1.25rem;height:1em;position:absolute;top:.3em;left:-1.25rem}
 .admonitionblock td.content>.title,.audioblock>.title,.exampleblock>.title,.imageblock>.title,.listingblock>.title,.literalblock>.title,.stemblock>.title,.openblock>.title,.paragraph>.title,.quoteblock>.title,table.tableblock>.title,.verseblock>.title,.videoblock>.title,.dlist>.title,.olist>.title,.ulist>.title,.qlist>.title,.hdlist>.title{text-rendering:optimizeLegibility;text-align:left;font-family:"Noto Serif","DejaVu Serif",serif;font-size:1rem;font-style:italic}
 table.tableblock.fit-content>caption.title{white-space:nowrap;width:0}
-.paragraph.lead>p,#preamble>.sectionbody>[class="paragraph"]:first-of-type p{font-size:1.21875em;line-height:1.6;color:rgba(0,0,0,.85)}
-table.tableblock #preamble>.sectionbody>[class="paragraph"]:first-of-type p{font-size:inherit}
+.paragraph.lead>p,#preamble>.sectionbody>[class=paragraph]:first-of-type p{font-size:1.21875em;line-height:1.6;color:rgba(0,0,0,.85)}
 .admonitionblock>table{border-collapse:separate;border:0;background:none;width:100%}
 .admonitionblock>table td.icon{text-align:center;width:80px}
 .admonitionblock>table td.icon img{max-width:none}
 .admonitionblock>table td.icon .title{font-weight:bold;font-family:"Open Sans","DejaVu Sans",sans-serif;text-transform:uppercase}
 .admonitionblock>table td.content{padding-left:1.125em;padding-right:1.25em;border-left:1px solid #dddddf;color:rgba(0,0,0,.6);word-wrap:anywhere}
 .admonitionblock>table td.content>:last-child>:last-child{margin-bottom:0}
-.exampleblock>.content{border-style:solid;border-width:1px;border-color:#e6e6e6;margin-bottom:1.25em;padding:1.25em;background:#fff;-webkit-border-radius:4px;border-radius:4px}
+.exampleblock>.content{border:1px solid #e6e6e6;margin-bottom:1.25em;padding:1.25em;background:#fff;border-radius:4px}
 .exampleblock>.content>:first-child{margin-top:0}
 .exampleblock>.content>:last-child{margin-bottom:0}
-.sidebarblock{border-style:solid;border-width:1px;border-color:#dbdbd6;margin-bottom:1.25em;padding:1.25em;background:#f3f3f2;-webkit-border-radius:4px;border-radius:4px}
+.sidebarblock{border:1px solid #dbdbd6;margin-bottom:1.25em;padding:1.25em;background:#f3f3f2;border-radius:4px}
 .sidebarblock>:first-child{margin-top:0}
 .sidebarblock>:last-child{margin-bottom:0}
 .sidebarblock>.content>.title{color:#7a2518;margin-top:0;text-align:center}
 .exampleblock>.content>:last-child>:last-child,.exampleblock>.content .olist>ol>li:last-child>:last-child,.exampleblock>.content .ulist>ul>li:last-child>:last-child,.exampleblock>.content .qlist>ol>li:last-child>:last-child,.sidebarblock>.content>:last-child>:last-child,.sidebarblock>.content .olist>ol>li:last-child>:last-child,.sidebarblock>.content .ulist>ul>li:last-child>:last-child,.sidebarblock>.content .qlist>ol>li:last-child>:last-child{margin-bottom:0}
-.literalblock pre,.listingblock>.content>pre{-webkit-border-radius:4px;border-radius:4px;overflow-x:auto;padding:1em;font-size:.8125em}
+.literalblock pre,.listingblock>.content>pre{border-radius:4px;overflow-x:auto;padding:1em;font-size:.8125em}
 @media screen and (min-width:768px){.literalblock pre,.listingblock>.content>pre{font-size:.90625em}}
 @media screen and (min-width:1280px){.literalblock pre,.listingblock>.content>pre{font-size:1em}}
-.literalblock pre,.listingblock>.content>pre:not(.highlight),.listingblock>.content>pre[class="highlight"],.listingblock>.content>pre[class^="highlight "]{background:#f7f7f8}
+.literalblock pre,.listingblock>.content>pre:not(.highlight),.listingblock>.content>pre[class=highlight],.listingblock>.content>pre[class^="highlight "]{background:#f7f7f8}
 .literalblock.output pre{color:#f7f7f8;background:rgba(0,0,0,.9)}
 .listingblock>.content{position:relative}
 .listingblock code[data-lang]::before{display:none;content:attr(data-lang);position:absolute;font-size:.75em;top:.425rem;right:.5rem;line-height:1;text-transform:uppercase;color:inherit;opacity:.5}
@@ -225,7 +227,7 @@ table.tableblock #preamble>.sectionbody>[class="paragraph"]:first-of-type p{font
 .listingblock.terminal pre .command::before{content:attr(data-prompt);padding-right:.5em;color:inherit;opacity:.5}
 .listingblock.terminal pre .command:not([data-prompt])::before{content:"$"}
 .listingblock pre.highlightjs{padding:0}
-.listingblock pre.highlightjs>code{padding:1em;-webkit-border-radius:4px;border-radius:4px}
+.listingblock pre.highlightjs>code{padding:1em;border-radius:4px}
 .listingblock pre.prettyprint{border-width:0}
 .prettyprint{background:#f7f7f8}
 pre.prettyprint .linenums{line-height:1.45;margin-left:2em}
@@ -235,9 +237,8 @@ pre.prettyprint li:not(:first-child) code[data-lang]::before{display:none}
 table.linenotable{border-collapse:separate;border:0;margin-bottom:0;background:none}
 table.linenotable td[class]{color:inherit;vertical-align:top;padding:0;line-height:inherit;white-space:normal}
 table.linenotable td.code{padding-left:.75em}
-table.linenotable td.linenos{border-right:1px solid currentColor;opacity:.35;padding-right:.5em}
-pre.pygments .lineno{border-right:1px solid currentColor;opacity:.35;display:inline-block;margin-right:.75em}
-pre.pygments .lineno::before{content:"";margin-right:-.125em}
+table.linenotable td.linenos,pre.pygments .linenos{border-right:1px solid;opacity:.35;padding-right:.5em;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}
+pre.pygments span.linenos{display:inline-block;margin-right:.75em}
 .quoteblock{margin:0 1em 1.25em 1.5em;display:table}
 .quoteblock:not(.excerpt)>.title{margin-left:-1.5em;margin-bottom:.75em}
 .quoteblock blockquote,.quoteblock p{color:rgba(0,0,0,.85);font-size:1.15rem;line-height:1.75;word-spacing:.1em;letter-spacing:0;font-style:italic;text-align:justify}
@@ -246,7 +247,7 @@ pre.pygments .lineno::before{content:"";margin-right:-.125em}
 .quoteblock blockquote>.paragraph:last-child p{margin-bottom:0}
 .quoteblock .attribution{margin-top:.75em;margin-right:.5ex;text-align:right}
 .verseblock{margin:0 1em 1.25em}
-.verseblock pre{font-family:"Open Sans","DejaVu Sans",sans;font-size:1.15rem;color:rgba(0,0,0,.85);font-weight:300;text-rendering:optimizeLegibility}
+.verseblock pre{font-family:"Open Sans","DejaVu Sans",sans-serif;font-size:1.15rem;color:rgba(0,0,0,.85);font-weight:300;text-rendering:optimizeLegibility}
 .verseblock pre strong{font-weight:400}
 .verseblock .attribution{margin-top:1.25rem;margin-left:.5ex}
 .quoteblock .attribution,.verseblock .attribution{font-size:.9375em;line-height:1.45;font-style:italic}
@@ -274,7 +275,7 @@ table.frame-none>colgroup+*>:first-child>*,table.frame-sides>colgroup+*>:first-c
 table.frame-none>:last-child>:last-child>*,table.frame-sides>:last-child>:last-child>*{border-bottom-width:0}
 table.frame-none>*>tr>:first-child,table.frame-ends>*>tr>:first-child{border-left-width:0}
 table.frame-none>*>tr>:last-child,table.frame-ends>*>tr>:last-child{border-right-width:0}
-table.stripes-all tr,table.stripes-odd tr:nth-of-type(odd),table.stripes-even tr:nth-of-type(even),table.stripes-hover tr:hover{background:#f8f8f7}
+table.stripes-all>*>tr,table.stripes-odd>*>tr:nth-of-type(odd),table.stripes-even>*>tr:nth-of-type(even),table.stripes-hover>*>tr:hover{background:#f8f8f7}
 th.halign-left,td.halign-left{text-align:left}
 th.halign-right,td.halign-right{text-align:right}
 th.halign-center,td.halign-center{text-align:center}
@@ -290,14 +291,15 @@ ol{margin-left:1.75em}
 ul li ol{margin-left:1.5em}
 dl dd{margin-left:1.125em}
 dl dd:last-child,dl dd:last-child>:last-child{margin-bottom:0}
-ol>li p,ul>li p,ul dd,ol dd,.olist .olist,.ulist .ulist,.ulist .olist,.olist .ulist{margin-bottom:.625em}
+li p,ul dd,ol dd,.olist .olist,.ulist .ulist,.ulist .olist,.olist .ulist{margin-bottom:.625em}
 ul.checklist,ul.none,ol.none,ul.no-bullet,ol.no-bullet,ol.unnumbered,ul.unstyled,ol.unstyled{list-style-type:none}
 ul.no-bullet,ol.no-bullet,ol.unnumbered{margin-left:.625em}
 ul.unstyled,ol.unstyled{margin-left:0}
-ul.checklist{margin-left:.625em}
-ul.checklist li>p:first-child>.fa-square-o:first-child,ul.checklist li>p:first-child>.fa-check-square-o:first-child{width:1.25em;font-size:.8em;position:relative;bottom:.125em}
-ul.checklist li>p:first-child>input[type="checkbox"]:first-child{margin-right:.25em}
-ul.inline{display:-ms-flexbox;display:-webkit-box;display:flex;-ms-flex-flow:row wrap;-webkit-flex-flow:row wrap;flex-flow:row wrap;list-style:none;margin:0 0 .625em -1.25em}
+li>p:empty:only-child::before{content:"";display:inline-block}
+ul.checklist>li>p:first-child{margin-left:-1em}
+ul.checklist>li>p:first-child>.fa-square-o:first-child,ul.checklist>li>p:first-child>.fa-check-square-o:first-child{width:1.25em;font-size:.8em;position:relative;bottom:.125em}
+ul.checklist>li>p:first-child>input[type=checkbox]:first-child{margin-right:.25em}
+ul.inline{display:flex;flex-flow:row wrap;list-style:none;margin:0 0 .625em -1.25em}
 ul.inline>li{margin-left:1.25em}
 .unstyled dl dt{font-weight:400;font-style:normal}
 ol.arabic{list-style-type:decimal}
@@ -316,7 +318,7 @@ td.hdlist2{word-wrap:anywhere}
 .colist td:not([class]):first-child{padding:.4em .75em 0;line-height:1;vertical-align:top}
 .colist td:not([class]):first-child img{max-width:none}
 .colist td:not([class]):last-child{padding:.25em 0}
-.thumb,.th{line-height:0;display:inline-block;border:solid 4px #fff;-webkit-box-shadow:0 0 0 1px #ddd;box-shadow:0 0 0 1px #ddd}
+.thumb,.th{line-height:0;display:inline-block;border:4px solid #fff;box-shadow:0 0 0 1px #ddd}
 .imageblock.left{margin:.25em .625em 1.25em 0}
 .imageblock.right{margin:.25em 0 1.25em .625em}
 .imageblock>.title{margin-bottom:0}
@@ -336,8 +338,6 @@ sup.footnote a:active,sup.footnoteref a:active{text-decoration:underline}
 #footnotes .footnote a:first-of-type{font-weight:bold;text-decoration:none;margin-left:-1.05em}
 #footnotes .footnote:last-of-type{margin-bottom:0}
 #content #footnotes{margin-top:-.625em;margin-bottom:0;padding:.75em 0}
-.gist .file-data>table{border:0;background:#fff;width:100%;margin-bottom:0}
-.gist .file-data>table td.line-data{width:99%}
 div.unbreakable{page-break-inside:avoid}
 .big{font-size:larger}
 .small{font-size:smaller}
@@ -384,7 +384,7 @@ a span.icon>.fa{cursor:inherit}
 .admonitionblock td.icon .icon-warning::before{content:"\f071";color:#bf6900}
 .admonitionblock td.icon .icon-caution::before{content:"\f06d";color:#bf3400}
 .admonitionblock td.icon .icon-important::before{content:"\f06a";color:#bf0000}
-.conum[data-value]{display:inline-block;color:#fff!important;background:rgba(0,0,0,.8);-webkit-border-radius:50%;border-radius:50%;text-align:center;font-size:.75em;width:1.67em;height:1.67em;line-height:1.67em;font-family:"Open Sans","DejaVu Sans",sans-serif;font-style:normal;font-weight:bold}
+.conum[data-value]{display:inline-block;color:#fff!important;background:rgba(0,0,0,.8);border-radius:50%;text-align:center;font-size:.75em;width:1.67em;height:1.67em;line-height:1.67em;font-family:"Open Sans","DejaVu Sans",sans-serif;font-style:normal;font-weight:bold}
 .conum[data-value] *{color:#fff!important}
 .conum[data-value]+b{display:none}
 .conum[data-value]::after{content:attr(data-value)}
@@ -392,19 +392,20 @@ pre .conum[data-value]{position:relative;top:-.125em}
 b.conum *{color:inherit!important}
 .conum:not([data-value]):empty{display:none}
 dt,th.tableblock,td.content,div.footnote{text-rendering:optimizeLegibility}
-h1,h2,p,td.content,span.alt{letter-spacing:-.01em}
+h1,h2,p,td.content,span.alt,summary{letter-spacing:-.01em}
 p strong,td.content strong,div.footnote strong{letter-spacing:-.005em}
-p,blockquote,dt,td.content,span.alt{font-size:1.0625rem}
+p,blockquote,dt,td.content,span.alt,summary{font-size:1.0625rem}
 p{margin-bottom:1.25rem}
 .sidebarblock p,.sidebarblock dt,.sidebarblock td.content,p.tableblock{font-size:1em}
-.exampleblock>.content{background:#fffef7;border-color:#e0e0dc;-webkit-box-shadow:0 1px 4px #e0e0dc;box-shadow:0 1px 4px #e0e0dc}
+.exampleblock>.content{background:#fffef7;border-color:#e0e0dc;box-shadow:0 1px 4px #e0e0dc}
 .print-only{display:none!important}
 @page{margin:1.25cm .75cm}
-@media print{*{-webkit-box-shadow:none!important;box-shadow:none!important;text-shadow:none!important}
+@media print{*{box-shadow:none!important;text-shadow:none!important}
 html{font-size:80%}
 a{color:inherit!important;text-decoration:underline!important}
 a.bare,a[href^="#"],a[href^="mailto:"]{text-decoration:none!important}
 a[href^="http:"]:not(.bare)::after,a[href^="https:"]:not(.bare)::after{content:"(" attr(href) ")";display:inline-block;font-size:.875em;padding-left:.25em}
+abbr[title]{border-bottom:1px dotted}
 abbr[title]::after{content:" (" attr(title) ")"}
 pre,blockquote,tr,img,object,svg{page-break-inside:avoid}
 thead{display:table-header-group}
@@ -428,7 +429,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 .print-only{display:block!important}
 .hide-for-print{display:none!important}
 .show-for-print{display:inherit!important}}
-@media print,amzn-kf8{#header>h1:first-child{margin-top:1.25rem}
+@media amzn-kf8,print{#header>h1:first-child{margin-top:1.25rem}
 .sect1{padding:0!important}
 .sect1+.sect1{border:0}
 #footer{background:none}
@@ -440,7 +441,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="generator" content="Asciidoctor 2.0.17">
-<meta name="author" content="2022-07-11">
+<meta name="author" content="2022-10-10">
 <title>Rules of the RoboCup Small Size League</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
 <style>
@@ -876,7 +877,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div id="header">
 <h1>Rules of the RoboCup Small Size League</h1>
 <div class="details">
-<span id="author" class="author"><span class="diff_delete">2021-06-06</span><span class="diff_insert">2022-07-11</span></span><br>
+<span id="author" class="author"><span class="diff_delete">2022-07-11</span><span class="diff_insert">2022-10-10</span></span><br>
 </div>
 <div id="toc" class="toc">
 <div id="toctitle">Table of Contents</div>
@@ -918,7 +919,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#_vision">2.3.1. Vision</a></li>
 <li><a href="#_game_controller">2.3.2. Game Controller</a></li>
 <li><a href="#_automatic_referee">2.3.3. Automatic Referee</a></li>
-<li><a href="#_remote_control"><span class="diff_insert">2.3.4. </span><span class="diff_insert">Remote </span><span class="diff_insert">Control</span></a></li>
+<li><a href="#_remote_control">2.3.4. Remote Control</a></li>
 </ul>
 </li>
 <li><a href="#_communication_flags">2.4. Communication Flags</a></li>
@@ -1202,7 +1203,7 @@ Divisions allow for more radical advancements in the Small Size League without d
 <p>The exact field dimensions and the field markings at the venue may vary by up to ±10% in each linear dimension.</p>
 </div>
 <div class="paragraph">
-<p>The two figures below show the dimensions of the field, the goals and special field areas, measured in <span class="diff_delete">millimeters. </span><span class="diff_insert">millimeters </span><span class="diff_insert">between </span><span class="diff_insert">the </span><span class="diff_insert">line </span><span class="diff_insert">centers. </span> <a href="#field-dimensions-a">Figure 1</a> shows the dimensions for division A and  <a href="#field-dimensions-b">figure 2</a> for division B.</p>
+<p>The two figures below show the dimensions of the field, the goals and special field areas, measured in millimeters between the line centers.  <a href="#field-dimensions-a">Figure 1</a> shows the dimensions for division A and  <a href="#field-dimensions-b">figure 2</a> for division B.</p>
 </div>
 <div class="admonitionblock note">
 <table>
@@ -1211,9 +1212,8 @@ Divisions allow for more radical advancements in the Small Size League without d
 <i class="fa icon-note" title="Note"></i>
 </td>
 <td class="content">
-The numbers in the figures below show the distances in <span class="diff_delete">millimeters.
-</span><span class="diff_insert">millimeters </span><span class="diff_insert">between </span><span class="diff_insert">the </span><span class="diff_insert">line </span><span class="diff_insert">centers.
-</span></td>
+The numbers in the figures below show the distances in millimeters between the line centers.
+</td>
 </tr>
 </table>
 </div>
@@ -1242,8 +1242,8 @@ The numbers in the figures below show the distances in <span class="diff_delete"
 <div class="sect3">
 <h4 id="_field_markings">2.1.3. Field Markings</h4>
 <div class="paragraph">
-<p>The field of play is marked with lines. All lines are 0.01 meters wide and white (paint, spray, white carpet or strong tape). Lines belong to the areas of which they are <span class="diff_delete">boundaries.</span><span class="diff_insert">boundaries.
-Distances </span><span class="diff_insert">between </span><span class="diff_insert">lines </span><span class="diff_insert">are </span><span class="diff_insert">measured </span><span class="diff_insert">from </span><span class="diff_insert">their </span><span class="diff_insert">centers.</span></p>
+<p>The field of play is marked with lines. All lines are 0.01 meters wide and white (paint, spray, white carpet or strong tape). Lines belong to the areas of which they are boundaries.
+Distances between lines are measured from their centers.</p>
 </div>
 <div class="sect4">
 <h5 id="_field_lines">Field Lines</h5>
@@ -1343,7 +1343,7 @@ The numbers in the figures below show the distances in millimeters.
 It is operated by the <a href="#_game_controller_operator">game controller operator</a>. The software translates decisions of the <a href="#_referee">referee</a> and the <a href="#_automatic_referee">automatic referee</a> into Ethernet communication signals that are broadcast to the network. It maintains the state of the game, tracks all events and acts as a proxy between all participating parties in the game.</p>
 </div>
 <div class="paragraph">
-<p>The game controller has a network interface for the playing teams. They can automatically <a href="#_choosing_keeper_id">change their keeper id</a> <span class="diff_delete">and </span><span class="diff_insert">, </span>they can signal a robot substitution intent for the next <span class="diff_delete">opportunity.</span><span class="diff_insert">opportunity, </span><span class="diff_insert">and </span><span class="diff_insert">they </span><span class="diff_insert">can </span><span class="diff_insert">send </span><span class="diff_insert">an </span><span class="diff_insert">advantage </span><span class="diff_insert">choice </span><span class="diff_insert">for </span><span class="diff_insert">handling </span><span class="diff_insert">game </span><span class="diff_insert">stopping </span><span class="diff_insert">after </span><span class="diff_insert">yellow </span><span class="diff_insert">cards.</span></p>
+<p>The game controller has a network interface for the playing teams. They can automatically <a href="#_choosing_keeper_id">change their keeper id</a>, they can signal a robot substitution intent for the next opportunity, and they can send an advantage choice for handling game stopping after yellow cards.</p>
 </div>
 </div>
 <div class="sect3">
@@ -1364,51 +1364,51 @@ Individual game events can be disabled completely or in some automatic referee i
 </div>
 </div>
 <div class="sect3">
-<h4 id="_remote_control"><span class="diff_insert">2.3.4. </span><span class="diff_insert">Remote </span><span class="diff_insert">Control</span></h4>
+<h4 id="_remote_control">2.3.4. Remote Control</h4>
 <div class="paragraph">
-<p><span class="diff_insert">A </span><span class="diff_insert">remote </span><span class="diff_insert">control </span><span class="diff_insert">for </span><span class="diff_insert">each </span><span class="diff_insert">team </span><span class="diff_insert">can </span><span class="diff_insert">optionally </span><span class="diff_insert">be </span><span class="diff_insert">provided </span><span class="diff_insert">by </span><span class="diff_insert">the </span><span class="diff_insert">tournament </span><span class="diff_insert">organizers.
-It </span><span class="diff_insert">is </span><span class="diff_insert">a </span><span class="diff_insert">physical </span><span class="diff_insert">device </span><span class="diff_insert">that </span><span class="diff_insert">allows </span><span class="diff_insert">entering </span><span class="diff_insert">the </span><span class="diff_insert">following </span><span class="diff_insert">commands:</span></p>
+<p>A remote control for each team can optionally be provided by the tournament organizers.
+It is a physical device that allows entering the following commands:</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p><span class="diff_insert">Raise </span><span class="diff_insert">a </span><span class="diff_insert">challenge </span><span class="diff_insert">flag</span></p>
+<p>Raise a challenge flag</p>
 </li>
 <li>
-<p><span class="diff_insert">Request </span><span class="diff_insert">a </span><span class="diff_insert">timeout</span></p>
+<p>Request a timeout</p>
 </li>
 <li>
-<p><span class="diff_insert">Request </span><span class="diff_insert">robot </span><span class="diff_insert">substitution</span></p>
+<p>Request robot substitution</p>
 </li>
 <li>
-<p><span class="diff_insert">Request </span><span class="diff_insert">emergency </span><span class="diff_insert">stop</span></p>
+<p>Request emergency stop</p>
 </li>
 <li>
-<p><span class="diff_insert">Change </span><span class="diff_insert">the </span><span class="diff_insert">keeper </span><span class="diff_insert">id</span></p>
+<p>Change the keeper id</p>
 </li>
 </ul>
 </div>
 <div class="paragraph">
-<p><span class="diff_insert">It </span><span class="diff_insert">may </span><span class="diff_insert">also </span><span class="diff_insert">provide </span><span class="diff_insert">feedback </span><span class="diff_insert">information, </span><span class="diff_insert">like:</span></p>
+<p>It may also provide feedback information, like:</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p><span class="diff_insert">Number </span><span class="diff_insert">of </span><span class="diff_insert">yellow </span><span class="diff_insert">cards </span><span class="diff_insert">and </span><span class="diff_insert">when </span><span class="diff_insert">they </span><span class="diff_insert">are </span><span class="diff_insert">due</span></p>
+<p>Number of yellow cards and when they are due</p>
 </li>
 <li>
-<p><span class="diff_insert">Number </span><span class="diff_insert">of </span><span class="diff_insert">robots </span><span class="diff_insert">currently </span><span class="diff_insert">allowed</span></p>
+<p>Number of robots currently allowed</p>
 </li>
 <li>
-<p><span class="diff_insert">Number </span><span class="diff_insert">of </span><span class="diff_insert">robots </span><span class="diff_insert">currently </span><span class="diff_insert">on </span><span class="diff_insert">the </span><span class="diff_insert">field</span></p>
+<p>Number of robots currently on the field</p>
 </li>
 </ul>
 </div>
 <div class="paragraph">
-<p><span class="diff_insert">The </span><span class="diff_insert">remote </span><span class="diff_insert">control </span><span class="diff_insert">may </span><span class="diff_insert">only </span><span class="diff_insert">be </span><span class="diff_insert">used </span><span class="diff_insert">by </span><span class="diff_insert">the </span><a href="#_robot_handler"><span class="diff_insert">robot </span><span class="diff_insert">handler</span></a><span class="diff_insert">. </span><span class="diff_insert">There </span><span class="diff_insert">is </span><span class="diff_insert">always </span><span class="diff_insert">only </span><span class="diff_insert">one </span><span class="diff_insert">remote </span><span class="diff_insert">control </span><span class="diff_insert">per </span><span class="diff_insert">team, </span><span class="diff_insert">per </span><span class="diff_insert">match.</span></p>
+<p>The remote control may only be used by the <a href="#_robot_handler">robot handler</a>. There is always only one remote control per team, per match.</p>
 </div>
 <div class="paragraph">
-<p><span class="diff_insert">The </span><span class="diff_insert">official </span><span class="diff_insert">implementation </span><span class="diff_insert">for </span><span class="diff_insert">the </span><span class="diff_insert">league </span><span class="diff_insert">can </span><span class="diff_insert">be </span><span class="diff_insert">found </span><span class="diff_insert">on </span><span class="diff_insert">GitHub: </span><a href="https://github.com/RoboCup-SSL/ssl-remote-control" class="bare"><span class="diff_insert">https://github.com/RoboCup-SSL/ssl-remote-control</span></a><span class="diff_insert">.</span></p>
+<p>The official implementation for the league can be found on GitHub: <a href="https://github.com/RoboCup-SSL/ssl-remote-control" class="bare">https://github.com/RoboCup-SSL/ssl-remote-control</a>.</p>
 </div>
 </div>
 </div>
@@ -1424,7 +1424,7 @@ Any gesturing and yelling will be considered <a href="#_unsporting_behavior">uns
 </div>
 <div class="paragraph">
 <p>The communication flags are provided by the organizers of the competition.
-A <a href="#_remote_control">remote <span class="diff_delete">control </span><span class="diff_insert">control</span></a> software or device can be provided and replace physical flags.
+A <a href="#_remote_control">remote control</a> software or device can be provided and replace physical flags.
 Any other solution that the organizers find feasible can also be used.</p>
 </div>
 </div>
@@ -1947,9 +1947,9 @@ For example, a team may take 3 timeouts of 60 seconds duration and thereafter ha
 <div class="sect3">
 <h4 id="_early_termination_at_a_score_of_10">4.4.3. Early Termination At A Score Of 10</h4>
 <div class="paragraph">
-<p><span class="diff_delete">When </span><span class="diff_insert">Before </span><span class="diff_insert">the </span><a href="#_shoot_out"><span class="diff_insert">shoot-out</span></a> <span class="diff_insert">stage, </span><span class="diff_insert">when </span>a team manages to shoot 10 <span class="diff_delete">goals, </span><span class="diff_delete">the </span><span class="diff_insert">goals,
-the </span>match is automatically terminated <span class="diff_delete">and </span><span class="diff_insert">as </span><span class="diff_insert">soon </span><span class="diff_insert">as </span>the <span class="diff_insert">goal </span><span class="diff_insert">difference </span><span class="diff_insert">is </span><span class="diff_insert">greater </span><span class="diff_insert">than </span><span class="diff_insert">one </span><span class="diff_insert">and
-the </span>team with more goals is declared the <span class="diff_delete">winner, </span><span class="diff_delete">regardless </span><span class="diff_insert">winner.</span></p>
+<p>Before the <a href="#_shoot_out">shoot-out</a> stage, when a team manages to shoot 10 goals,
+the match is automatically terminated as soon as the goal difference is greater than one and
+the team with more goals is declared the winner.</p>
 </div>
 <div class="admonitionblock note">
 <table>
@@ -1957,10 +1957,10 @@ the </span>team with more goals is declared the <span class="diff_delete">winner
 <td class="icon">
 <i class="fa icon-note" title="Note"></i>
 </td>
-<td class="content"><span class="diff_insert">
-During </span><span class="diff_insert">the </span><span class="diff_insert">group </span><span class="diff_insert">phase, </span><span class="diff_insert">the </span><span class="diff_insert">number </span>of <span class="diff_insert">goals </span><span class="diff_insert">scored </span><span class="diff_insert">is </span><span class="diff_insert">used </span><span class="diff_insert">as </span><span class="diff_insert">tie-breaker, </span><span class="diff_insert">so </span>the <span class="diff_delete">current </span><span class="diff_insert">absolute </span><span class="diff_insert">number </span><span class="diff_insert">of </span><span class="diff_insert">goals </span><span class="diff_insert">matter </span><span class="diff_insert">for </span><span class="diff_insert">overall </span><span class="diff_insert">scoring.
-The </span><span class="diff_insert">rule </span><span class="diff_insert">applies </span><span class="diff_insert">to </span><span class="diff_insert">all </span>game <span class="diff_delete">stage.</span></p><span class="diff_insert">types </span><span class="diff_insert">for </span><span class="diff_insert">simplicity.
-</span></td>
+<td class="content">
+During the group phase, the number of goals scored is used as tie-breaker, so the absolute number of goals matter for overall scoring.
+The rule applies to all game types for simplicity.
+</td>
 </tr>
 </table>
 </div>
@@ -2379,8 +2379,8 @@ see <a href="#_double_touch">double touch</a> for the rationale of the 0.05 mete
 <p>Upon receipt of a yellow card, the number of robots allowed on the field for the penalized team decreases by one. If, after this decrease, the team has more robots than permitted on the field, a robot must be <a href="#_robot_substitution">taken out</a>.</p>
 </div>
 <div class="paragraph">
-<p>A yellow card does not lead to a stop automatically. If the <span class="diff_delete">the </span>ball is <a href="#_ball_in_and_out_of_play">in play</a>, the team will have 10 seconds to <a href="#_robot_substitution">automatically remove the robot</a>. If a robot is not taken out within time, the game is stopped for <a href="#_robot_substitution">manual substitution</a><span class="diff_insert">.
-The </span><span class="diff_insert">10 </span><span class="diff_insert">seconds </span><span class="diff_insert">can </span><span class="diff_insert">be </span><span class="diff_insert">extended </span><span class="diff_insert">indefinitely </span><span class="diff_insert">by </span><span class="diff_insert">the </span><span class="diff_insert">other </span><span class="diff_insert">team </span><span class="diff_insert">by </span><span class="diff_insert">sending </span><span class="diff_insert">an </span><span class="diff_insert">advance </span><span class="diff_insert">choice </span><span class="diff_insert">to </span><span class="diff_insert">the </span><a href="#_game_controller"><span class="diff_insert">game </span><span class="diff_insert">controller</span></a>.</p>
+<p>A yellow card does not lead to a stop automatically. If the ball is <a href="#_ball_in_and_out_of_play">in play</a>, the team will have 10 seconds to <a href="#_robot_substitution">automatically remove the robot</a>. If a robot is not taken out within time, the game is stopped for <a href="#_robot_substitution">manual substitution</a>.
+The 10 seconds can be extended indefinitely by the other team by sending an advance choice to the <a href="#_game_controller">game controller</a>.</p>
 </div>
 <div class="admonitionblock note">
 <table>
@@ -2400,9 +2400,8 @@ This rule implies that after receiving a yellow card, the game might not be auto
 <td class="icon">
 <i class="fa icon-note" title="Note"></i>
 </td>
-<td class="content"><span class="diff_delete">
-In </span><span class="diff_delete">2020 </span><span class="diff_delete">no </span><span class="diff_insert">
-No </span>penalty will be given to the team that couldn&#8217;t get the robot out of the field in time. Thus, the game shall be restarted using a force start. However, in <span class="diff_delete">2021, </span><span class="diff_delete">if </span><span class="diff_insert">the </span><span class="diff_insert">future </span><span class="diff_insert">(probably </span><span class="diff_insert">2023) </span><span class="diff_insert">this </span><span class="diff_insert">will </span><span class="diff_insert">change: </span><span class="diff_insert">If </span>the robot gets manually substituted, the ball is placed on the mid line and 1.5 meters away from the teams defense area and the opposing team gets a free kick.
+<td class="content">
+No penalty will be given to the team that couldn&#8217;t get the robot out of the field in time. Thus, the game shall be restarted using a force start. However, in the future (probably 2023) this will change: If the robot gets manually substituted, the ball is placed on the mid line and 1.5 meters away from the teams defense area and the opposing team gets a free kick.
 </td>
 </tr>
 </table>
@@ -2560,7 +2559,7 @@ In division B, the <a href="#aimless-kick">aimless kick rule</a> might apply ins
 </div>
 <div class="paragraph">
 <div class="title">Usage</div>
-<p>A kick is aimless when after the ball touched a robot, it subsequently crossed the <span class="diff_delete">midline </span><span class="diff_insert">halfline </span>and then its opponent&#8217;s goal line outside the goal without touching another robot.</p>
+<p>A kick is aimless when after the ball touched a robot, it subsequently crossed the halfline and then its opponent&#8217;s goal line outside the goal without touching another robot.</p>
 </div>
 <div class="paragraph">
 <p>A kick-off kick cannot be aimless, as the ball is located at the midline and does therefore not cross it.</p>
@@ -2585,7 +2584,7 @@ provided that:</p>
 <p>The height of the ball did not exceed 0.15 meters after the last touch of the teams robots.</p>
 </li>
 <li>
-<p>The team did not commit any <a href="#_non_stopping_fouls">non stopping foul</a> <span class="diff_delete">since </span><span class="diff_insert">in </span>the <span class="diff_delete">teams </span><span class="diff_delete">robots </span>last <span class="diff_delete">touched </span><span class="diff_insert">two </span><span class="diff_insert">seconds </span><span class="diff_insert">before </span>the <span class="diff_delete">ball.</span><span class="diff_insert">ball </span><span class="diff_insert">entered </span><span class="diff_insert">the </span><span class="diff_insert">goal.</span></p>
+<p>The team did not commit any <a href="#_non_stopping_fouls">non stopping foul</a> in the last two seconds before the ball entered the goal.</p>
 </li>
 </ul>
 </div>
@@ -2813,7 +2812,7 @@ This rule does not use the standard sanctions defined for <a href="#_fouls">foul
 Infraction of this rule can be rated as unsporting behavior.</p>
 </div>
 <div class="paragraph">
-<p>If a robot other than the keeper touches the ball while <span class="diff_delete">being </span><span class="diff_insert">this </span><span class="diff_insert">robot </span><span class="diff_insert">is </span>entirely
+<p>If a robot other than the keeper touches the ball while this robot is entirely
 inside its own defense area, the game is stopped and a <a href="#_penalty_kick">penalty kick</a> is awarded to the other team. The foul counter is <strong>not</strong>
 increased.</p>
 </div>
@@ -3011,7 +3010,7 @@ The <a href="#_referee">referee</a> is encouraged to call fouls if the non-placi
 <p>The <a href="#_robot_handler">robot handler</a> should prefer to use long sleeves and colors that won&#8217;t interfere with the vision system.</p>
 </div>
 <div class="paragraph">
-<p>Robots can always be <span class="diff_delete">substituted </span><span class="diff_insert">taken </span><span class="diff_insert">in </span><span class="diff_insert">and </span><span class="diff_insert">out </span>during game play without notifying the <a href="#_referee">referee</a> if all the following conditions are met:</p>
+<p>Robots can always be taken in and out during game play without notifying the <a href="#_referee">referee</a> if all the following conditions are met:</p>
 </div>
 <div class="olist arabic">
 <ol class="arabic">
@@ -3027,18 +3026,18 @@ The <a href="#_referee">referee</a> is encouraged to call fouls if the non-placi
 </ol>
 </div>
 <div class="paragraph">
-<p>Additionally, robots can be taken out from any position <span class="diff_delete">during </span><a href="#_stopping_the_game"><span class="diff_delete">game </span><span class="diff_delete">stoppage</span></a> <span class="diff_delete">by </span><span class="diff_delete">the </span><a href="#_robot_handler"><span class="diff_delete">robot </span><span class="diff_delete">handler</span></a> <span class="diff_insert">on </span><span class="diff_insert">request </span>using the procedure below:</p>
+<p>Additionally, robots can be taken out from any position on request using the procedure below:</p>
 </div>
 <div class="olist arabic">
 <ol class="arabic">
 <li>
-<p><span class="diff_insert">The </span><a href="#_robot_handler"><span class="diff_insert">robot </span><span class="diff_insert">handler</span></a> <span class="diff_insert">requests </span><span class="diff_insert">robot </span><span class="diff_insert">substitution </span><span class="diff_insert">at </span><span class="diff_insert">any </span><span class="diff_insert">time.</span></p>
+<p>The <a href="#_robot_handler">robot handler</a> requests robot substitution at any time.</p>
 </li>
 <li>
-<p><span class="diff_insert">The </span><a href="#_game_controller"><span class="diff_insert">game </span><span class="diff_insert">controller</span></a> <span class="diff_insert">will </span><a href="#_halt"><span class="diff_insert">halt</span></a> <span class="diff_insert">the </span><span class="diff_insert">game </span><span class="diff_insert">at </span><span class="diff_insert">the </span><span class="diff_insert">next </span><span class="diff_insert">opportunity.</span></p>
+<p>The <a href="#_game_controller">game controller</a> will <a href="#_halt">halt</a> the game at the next opportunity.</p>
 </li>
 <li>
-<p><span class="diff_insert">The </span><a href="#_robot_handler"><span class="diff_insert">robot </span><span class="diff_insert">handler</span></a> <span class="diff_insert">may </span><span class="diff_insert">enter </span><span class="diff_insert">the </span><span class="diff_insert">field </span><span class="diff_insert">and </span><span class="diff_insert">touch </span><span class="diff_insert">robots </span><span class="diff_insert">now, </span><span class="diff_insert">as </span><span class="diff_insert">long </span><span class="diff_insert">as </span><span class="diff_insert">the </span><span class="diff_insert">game </span><span class="diff_insert">is </span><span class="diff_insert">still </span><a href="#_halt"><span class="diff_insert">halted</span></a><span class="diff_insert">.</span></p>
+<p>The <a href="#_robot_handler">robot handler</a> may enter the field and touch robots now, as long as the game is still <a href="#_halt">halted</a>.</p>
 </li>
 <li>
 <p>The <a href="#_robot_handler">robot handler</a> takes robots out.</p>
@@ -3070,10 +3069,10 @@ The <a href="#_referee">referee</a> is encouraged to call fouls if the non-placi
 <p>A <a href="#_robot_handler">robot handler</a> by informing the <a href="#_game_controller_operator">game controller operator</a> who in turn enters the intent into the <a href="#_game_controller">game controller</a>.</p>
 </li>
 <li>
-<p>A <a href="#_robot_handler"><span class="diff_insert">robot </span><span class="diff_insert">handler</span></a> <span class="diff_insert">by </span><span class="diff_insert">using </span><span class="diff_insert">the </span><a href="#_remote_control"><span class="diff_insert">remote </span><span class="diff_insert">control</span></a><span class="diff_insert">, </span><span class="diff_insert">if </span><span class="diff_insert">provided.</span></p>
+<p>A <a href="#_robot_handler">robot handler</a> by using the <a href="#_remote_control">remote control</a>, if provided.</p>
 </li>
 <li>
-<p><span class="diff_insert">A </span>team software by sending a request to the <a href="#_game_controller">game controller</a>.</p>
+<p>A team software by sending a request to the <a href="#_game_controller">game controller</a>.</p>
 </li>
 <li>
 <p>The <a href="#_game_controller">game controller</a> itself if a team exceeds the maximum number of robots (for example after a team receives a <a href="#_yellow_card">yellow</a> or <a href="#_red_card">red card</a>).</p>
@@ -3081,7 +3080,7 @@ The <a href="#_referee">referee</a> is encouraged to call fouls if the non-placi
 </ol>
 </div>
 <div class="paragraph">
-<p>If the game was halted due to a substitution intent by a team, at least one <span class="diff_delete">substitution </span><span class="diff_delete">(taking </span><span class="diff_delete">a </span>robot <span class="diff_delete">out </span><span class="diff_delete">or </span><span class="diff_delete">putting </span><span class="diff_delete">one </span><span class="diff_delete">in) </span>must be <span class="diff_delete">performed </span><span class="diff_insert">taken </span><span class="diff_insert">out </span>by this team. A substitution intent can be revoked unless the game was not already halted for substitution.</p>
+<p>If the game was halted due to a substitution intent by a team, at least one robot must be taken out by this team. A substitution intent can be revoked unless the game was not already halted for substitution.</p>
 </div>
 <div class="paragraph">
 <p>If a robot substitution intent for either team is present just before the game would continue after ball placement, the <a href="#_game_controller">game controller</a> automatically <a href="#_halt">halts</a> the game.</p>
@@ -3097,12 +3096,12 @@ The <a href="#_referee">referee</a> is encouraged to call fouls if the non-placi
 If both teams have the same score after those 5 attempts, each team takes another attempt in the same order as before until the score of the two teams is different.</p>
 </div>
 <div class="paragraph">
-<p>Only <span class="diff_insert">up </span><span class="diff_insert">to </span>one attacking robot and one keeper is allowed per team.
+<p>Only up to one attacking robot and one keeper is allowed per team.
 During a shoot-out attempt, the attacking robot and the opponent keeper are the only ones allowed to move and <a href="#_ball_manipulation">manipulate the ball</a>.
 Other robots are not allowed to interfere.</p>
 </div>
 <div class="paragraph">
-<p><span class="diff_insert">If </span><span class="diff_insert">a </span><span class="diff_insert">team </span><span class="diff_insert">is </span><span class="diff_insert">clearly </span><span class="diff_insert">not </span><span class="diff_insert">able </span><span class="diff_insert">to </span><span class="diff_insert">prepare </span><span class="diff_insert">for </span><span class="diff_insert">a </span><a href="#_penalty_kick"><span class="diff_insert">penalty </span><span class="diff_insert">kick</span></a><span class="diff_insert">, </span><span class="diff_insert">a </span><span class="diff_insert">goal </span><span class="diff_insert">is </span><span class="diff_insert">automatically </span><span class="diff_insert">awarded </span><span class="diff_insert">to </span><span class="diff_insert">the </span><span class="diff_insert">opposing </span><span class="diff_insert">team.</span></p>
+<p>If a team is clearly not able to prepare for a <a href="#_penalty_kick">penalty kick</a>, a goal is automatically awarded to the opposing team.</p>
 </div>
 <div class="paragraph">
 <p>Robots may be <a href="#_robot_substitution">substituted</a> between shoot-out attempts.
@@ -3126,12 +3125,12 @@ Note that <a href="#_timeouts">timeouts</a> are not allowed during shoot-out.
 <td class="icon">
 <i class="fa icon-note" title="Note"></i>
 </td>
-<td class="content"><span class="diff_insert">
-If </span><span class="diff_insert">there </span><span class="diff_insert">is </span><span class="diff_insert">no </span><span class="diff_insert">clear </span><span class="diff_insert">progress </span><span class="diff_insert">in </span><span class="diff_insert">determining </span><span class="diff_insert">a </span><span class="diff_insert">winner
-(after </span><span class="diff_insert">10 </span><span class="diff_insert">shoot-outs, </span><span class="diff_insert">if </span><span class="diff_insert">both </span><span class="diff_insert">teams </span><span class="diff_insert">time </span><span class="diff_insert">out </span><span class="diff_insert">doing </span><span class="diff_insert">shoot-outs, </span><span class="diff_insert">or </span><span class="diff_insert">if </span><span class="diff_insert">both </span><span class="diff_insert">teams </span><span class="diff_insert">cannot </span><span class="diff_insert">prepare </span><span class="diff_insert">and </span><span class="diff_insert">execute </span><span class="diff_insert">the </span><span class="diff_insert">penalty </span><span class="diff_insert">kick),
-the </span><span class="diff_insert">human </span><span class="diff_insert">referee </span><span class="diff_insert">can </span><span class="diff_insert">give </span><span class="diff_insert">both </span><span class="diff_insert">teams </span><span class="diff_insert">a </span><span class="diff_insert">certain </span><span class="diff_insert">amount </span><span class="diff_insert">of </span><span class="diff_insert">time </span><span class="diff_insert">(like </span><span class="diff_insert">5min) </span><span class="diff_insert">to </span><span class="diff_insert">change </span><span class="diff_insert">their </span><span class="diff_insert">system.
-This </span><span class="diff_insert">time </span><span class="diff_insert">can </span><span class="diff_insert">be </span><span class="diff_insert">applied </span><span class="diff_insert">multiple </span><span class="diff_insert">times, </span><span class="diff_insert">if </span><span class="diff_insert">needed, </span><span class="diff_insert">to </span><span class="diff_insert">eventually </span><span class="diff_insert">determine </span><span class="diff_insert">a </span><span class="diff_insert">winner.
-</span></td>
+<td class="content">
+If there is no clear progress in determining a winner
+(after 10 shoot-outs, if both teams time out doing shoot-outs, or if both teams cannot prepare and execute the penalty kick),
+the human referee can give both teams a certain amount of time (like 5min) to change their system.
+This time can be applied multiple times, if needed, to eventually determine a winner.
+</td>
 </tr>
 </table>
 </div>
@@ -3766,7 +3765,7 @@ Note that the information shown in this table here is incomplete. Please read th
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated <span class="diff_delete">2021-06-06 </span><span class="diff_delete">10:09:33 </span><span class="diff_insert">2022-07-11 </span><span class="diff_insert">17:58:20 </span>UTC
+Last updated <span class="diff_delete">2022-07-11 </span><span class="diff_delete">17:58:20 </span><span class="diff_insert">2022-10-10 </span><span class="diff_insert">16:57:29 </span>UTC
 </div>
 </div>
 </body>
