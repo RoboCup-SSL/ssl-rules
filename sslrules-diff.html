@@ -440,8 +440,8 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="generator" content="Asciidoctor 2.0.17">
-<meta name="author" content="2022-10-10">
+<meta name="generator" content="Asciidoctor 2.0.18">
+<meta name="author" content="2022-10-24">
 <title>Rules of the RoboCup Small Size League</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
 <style>
@@ -521,10 +521,10 @@ code{font-family:"Droid Sans Mono","DejaVu Sans Mono",monospace;font-weight:400;
 ul,ol,dl{line-height:1.6;margin-bottom:1.25em;list-style-position:outside;font-family:inherit}
 ul,ol{margin-left:1.5em}
 ul li ul,ul li ol{margin-left:1.25em;margin-bottom:0}
-ul.square li ul,ul.circle li ul,ul.disc li ul{list-style:inherit}
-ul.square{list-style-type:square}
 ul.circle{list-style-type:circle}
 ul.disc{list-style-type:disc}
+ul.square{list-style-type:square}
+ul.circle ul:not([class]),ul.disc ul:not([class]),ul.square ul:not([class]){list-style:inherit}
 ol li ul,ol li ol{margin-left:1.25em;margin-bottom:0}
 dl dt{margin-bottom:.3125em;font-weight:bold}
 dl dd{margin-bottom:1.25em}
@@ -877,7 +877,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div id="header">
 <h1>Rules of the RoboCup Small Size League</h1>
 <div class="details">
-<span id="author" class="author"><span class="diff_delete">2022-07-11</span><span class="diff_insert">2022-10-10</span></span><br>
+<span id="author" class="author"><span class="diff_delete">2022-07-11</span><span class="diff_insert">2022-10-24</span></span><br>
 </div>
 <div id="toc" class="toc">
 <div id="toctitle">Table of Contents</div>
@@ -1236,7 +1236,7 @@ The numbers in the figures below show the distances in millimeters between the l
 <p>The playing surface is green felt mat or carpet. The floor under the carpet is level, flat, and hard.</p>
 </div>
 <div class="paragraph">
-<p>The field surface will continue for 0.7 meters beyond the <a href="#_field_lines">field lines</a> on all sides. The outer 0.4 meters of this runoff area, separated from the robot area by a 0.1 meters tall wall, is used as a designated walking area for the <a href="#_referee">referee</a> and the <a href="#_assistant_referee">assistant referee</a>. The remaining 0.3 meters are the field margins.</p>
+<p>The field surface will continue for 0.7 meters beyond the <a href="#_field_lines">field lines</a> on all sides. The outer 0.4 meters of this runoff area, separated from the robot area by a 0.1 meters tall <span class="diff_insert">black </span>wall, is used as a designated walking area for the <a href="#_referee">referee</a> and the <a href="#_assistant_referee">assistant referee</a>. The remaining 0.3 meters are the field margins.</p>
 </div>
 </div>
 <div class="sect3">
@@ -1275,14 +1275,14 @@ Distances between lines are measured from their centers.</p>
 <div class="sect4">
 <h5 id="_penalty_mark">Penalty Mark</h5>
 <div class="paragraph">
-<p>For each field half the penalty mark is on the <a href="#_additional_lines">mid-line</a> (not halfway line), 8 meters (division A) or 6 meters (division B) away from the opponent goal center.</p>
+<p><span class="diff_delete">For </span><span class="diff_delete">each </span><span class="diff_delete">field </span><span class="diff_delete">half </span><span class="diff_delete">the </span><span class="diff_insert">The </span>penalty mark <span class="diff_insert">defines </span><span class="diff_insert">the </span><span class="diff_insert">point </span><span class="diff_insert">from </span><span class="diff_insert">which </span><span class="diff_insert">a </span><span class="diff_insert">team </span><span class="diff_insert">executes </span><span class="diff_insert">a </span><span class="diff_insert">penalty </span><span class="diff_insert">kick </span><span class="diff_insert">against </span><span class="diff_insert">the </span><span class="diff_insert">opponent </span><span class="diff_insert">goal. </span><span class="diff_insert">It </span>is <span class="diff_insert">located </span>on the <a href="#_additional_lines">mid-line</a> (not halfway <span class="diff_delete">line), </span><span class="diff_insert">line) </span><span class="diff_insert">and </span>8 meters (division A) or 6 meters (division B) away from the <span class="diff_delete">opponent </span><span class="diff_insert">opponent&#8217;s </span>goal center.</p>
 </div>
 </div>
 </div>
 <div class="sect3">
 <h4 id="_goals">2.1.4. Goals</h4>
 <div class="paragraph">
-<p>Goals must be placed on the center of each goal line and anchored securely to the field surface. They consist of two 0.16 meters high vertical side walls joined at the back by a 0.16 meters high vertical rear wall. The inner face of the goal has to be covered with an energy absorbing material such as foam to help absorb ball impacts and lessen the speed of deflections. The goal walls, edges, and tops are white in color.</p>
+<p>Goals must be placed on the center of each goal line and anchored securely to the field surface. They consist of two 0.16 meters high vertical side walls joined at the back by a 0.16 meters high vertical rear wall. The inner face of the goal has to be covered with an energy absorbing material such as foam to help absorb ball impacts and lessen the speed of deflections. The <span class="diff_insert">inner </span><span class="diff_insert">goal </span><span class="diff_insert">walls </span><span class="diff_insert">are </span><span class="diff_insert">white, </span><span class="diff_insert">the </span><span class="diff_insert">outer </span>goal walls, edges, and tops are <span class="diff_delete">white </span><span class="diff_delete">in </span><span class="diff_delete">color.</span><span class="diff_insert">black.</span></p>
 </div>
 <div class="paragraph">
 <p>The distance between the side walls is 1.8 meters for division A and 1 meter for division B, and the goal is 0.18 meters deep. The goal walls are 0.02 meters thick and touch the goal line, but do not overlap or encroach on the field lines or the field. <a href="#goal-detail-a">Figure 3</a> and <a href="#goal-detail-b">figure 4</a> show these details for division A and division B respectively.</p>
@@ -3765,7 +3765,7 @@ Note that the information shown in this table here is incomplete. Please read th
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated <span class="diff_delete">2022-07-11 </span><span class="diff_delete">17:58:20 </span><span class="diff_insert">2022-10-10 </span><span class="diff_insert">18:02:33 </span>UTC
+Last updated <span class="diff_delete">2022-07-11 </span><span class="diff_delete">17:58:20 </span><span class="diff_insert">2022-10-24 </span><span class="diff_insert">14:38:41 </span>UTC
 </div>
 </div>
 </body>
