@@ -35,7 +35,7 @@ Distances between lines are measured from their centers.
 The playing area is defined by four field lines. The two longer field lines are called touch lines. The two shorter field lines are called goal lines.
 
 ===== Halfway Line
-The field of play is divided into two halves by a  halfway line that runs along the width of the field and through the center of the field.
+The field of play is divided into two halves by a halfway line that runs along the width of the field and through the center of the field.
 The  halfway line is parallel to the goal lines.
 
 ===== Goal-to-Goal Line
