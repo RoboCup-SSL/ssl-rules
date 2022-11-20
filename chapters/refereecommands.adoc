@@ -1,5 +1,7 @@
 == Referee Commands
 
+An overview of the referee commands and how they interact with the game state, is given in <<Game States>>.
+
 === Stopping The Game
 ==== Stop
 .Definition

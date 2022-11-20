@@ -4,6 +4,78 @@
 Shooting and <<Dribbling Device, dribbling>> is considered as manipulating the ball, the ball accidentally bouncing off the hull is not.
 
 [appendix]
+== Game States
+
+[plantuml, target=game-states, format=svg]
+....
+@startuml
+
+state Halted {
+    state Halt {
+    }
+    state Timeout {
+    }
+}
+
+state Stopped {
+    state Stop {
+    }
+    state BallPlacement {
+    }
+    state PrepareKickoff {
+    }
+    state PreparePenalty {
+    }
+}
+
+state Running {
+    state Run {
+    }
+    state FreeKick {
+    }
+    state Kickoff {
+    }
+    state Penalty {
+    }
+}
+
+Halt: Robots are not allowed to move
+Timeout: Both teams can do what ever they want
+Stop: Both teams have to keep distance to the ball
+PrepareKickoff: Teams have to move to their sides
+BallPlacement: One team places the ball,\nthe other keeps distance to ball
+PreparePenalty: Keeper on goal line,\nattacker behind ball,\nother robots on legal positions
+Kickoff: One team may kick the ball\nwithin 5 (A) or 10 (B) seconds
+FreeKick: One team may kick the ball\nwithin 5 (A) or 10 (B) seconds
+Penalty: Execute a penalty kick within 10 seconds
+Run: Both teams may manipulate the ball
+
+[*] -> Halt: Halt
+
+Halt --> Stop: Stop
+Stop --> Timeout: Timeout
+Timeout --> Stop: Stop
+
+Stop --> BallPlacement: Ball Placement
+BallPlacement --> Stop: Stop
+
+Stop --> PrepareKickoff: PrepareKickoff
+PrepareKickoff --> Kickoff: NormalStart
+Kickoff --> Run: after x seconds or if ball moved
+
+Stop --> FreeKick: FreeKick
+FreeKick --> Run: after x seconds or if ball moved
+
+Stop --> Run: ForceStart
+
+Stop --> PreparePenalty: PreparePenalty
+PreparePenalty --> Penalty: NormalStart
+Penalty --> Stop: after 10 seconds
+
+@enduml
+....
+
+[appendix]
 == Game Event Table
 The game event table is a compilation of the different game events and their consequences. It also lists what all <<Automatic Referee>> implementations must be capable of handling.
 
