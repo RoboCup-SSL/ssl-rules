@@ -19,7 +19,12 @@ Remaining in contact with the ball for more than 0.05 meters also counts as doub
 === Unsporting Behavior
 Unsporting behavior can lead to <<Yellow Card, yellow cards>>, <<Red Card, red cards>>, <<Penalty Kick, penalty kicks>>, a <<Forced Forfeit, forced forfeit>> or a <<Disqualification, disqualification>>. The human <<Referee, referee>> chooses an appropriate sanction, depending on the severity of the offense.
 
-NOTE: If the referee is not sure which sanction to choose, he may confer with members of the <<Technical Committee, technical committee>> or the <<Organizing Committee, organizing committee>>.
+For minor infringements, a <<Yellow Card>> is adequate,
+while on more severe infringements, that gave the team an advantage, a <<Red Card>> or <<Penalty Kick>> can be issued.
+
+For harder sanctions, the referee is advised to refer to members of the <<Technical Committee, technical committee>> or the <<Organizing Committee, organizing committee>>.
+
+NOTE: If the referee is not sure which sanction to choose, he may confer with the <<Assistant Referee, assistant referee>> and members of the <<Technical Committee, technical committee>> or the <<Organizing Committee, organizing committee>>.
 
 Some examples of unsporting behavior are listed below.
 
@@ -28,6 +33,13 @@ It is not allowed to damage or modify robots of other teams.
 
 ==== Damaging The Field Or The Ball
 It is not allowed to damage or modify the field or the ball.
+
+==== Disrespect Procedures
+Not following defined procedures repetitively, like for example:
+
+* <<Robot Handler, Robot handler>> puts a robot on the field, while it is not allowed
+* Robots do not keep required distance to the ball during stop
+* Keeper is not on the goal line during a <<Penalty Kick, penalty kick>>
 
 ==== Showing Lack Of Respect
 A team member must show appropriate respect to everyone involved in the game. Infringements of this rule include but are not limited to:
