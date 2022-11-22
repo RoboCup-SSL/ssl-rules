@@ -9,7 +9,6 @@ Shooting and <<Dribbling Device, dribbling>> is considered as manipulating the b
 [plantuml, target=game-states, format=svg]
 ....
 @startuml
-
 state Halted {
     state Halt {
     }
@@ -50,7 +49,7 @@ FreeKick: One team may kick the ball\nwithin 5 (A) or 10 (B) seconds
 Penalty: Execute a penalty kick within 10 seconds
 Run: Both teams may manipulate the ball
 
-[*] -> Halt: Halt
+[*] -> Halt: (from any state) Halt
 
 Halt --> Stop: Stop
 Stop --> Timeout: Timeout
@@ -71,7 +70,6 @@ Stop --> Run: ForceStart
 Stop --> PreparePenalty: PreparePenalty
 PreparePenalty --> Penalty: NormalStart
 Penalty --> Stop: after 10 seconds
-
 @enduml
 ....
 
