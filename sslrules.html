@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="generator" content="Asciidoctor 2.0.18">
-<meta name="author" content="2022-11-19">
+<meta name="author" content="2022-11-22">
 <title>Rules of the RoboCup Small Size League</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
 <style>
@@ -441,7 +441,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div id="header">
 <h1>Rules of the RoboCup Small Size League</h1>
 <div class="details">
-<span id="author" class="author">2022-11-19</span><br>
+<span id="author" class="author">2022-11-22</span><br>
 </div>
 <div id="toc" class="toc">
 <div id="toctitle">Table of Contents</div>
@@ -916,6 +916,10 @@ The numbers in the figures below show the distances in millimeters.
 </div>
 <div class="paragraph">
 <p>Besides the shared vision equipment, teams are not allowed to mount their own cameras or other external sensors, unless specifically announced or permitted by the respective competition organizers.</p>
+</div>
+<div class="paragraph">
+<p>SSL-Vision defines an additional <a href="https://github.com/RoboCup-SSL/ssl-vision/blob/master/src/shared/proto/messages_robocup_ssl_wrapper_tracked.proto">tracker protocol</a> that contains filtered and enriched tracking data. Messages are not published by SSL-Vision itself, but for example by some <a href="#_automatic_referee">automatic referees</a>.
+It is meant to be used by the <a href="#_game_controller">game controller</a> and by teams that do not yet have their own sophisticated filter.</p>
 </div>
 </div>
 <div class="sect3">
@@ -1589,11 +1593,25 @@ If the ball moves very quickly, it is hard to always keep the required distance 
 </div>
 <div class="paragraph">
 <div class="title">Usage</div>
-<p>The halt command allows the referee to interrupt the game immediately whenever an emergency occurs (for example when a robot gets out of contol). It is
+<p>The halt command allows the referee to interrupt the game immediately whenever an emergency occurs (for example when a robot gets out of control). It is
 also used to recalibrate the vision software during a game if the vision expert considers it necessary and the referee agrees and for <a href="#_robot_substitution">robot substitution</a>. Additionally, the referee is free to issue the halt command at will.</p>
 </div>
 <div class="paragraph">
-<p>The halt command is always followed up by stop.</p>
+<p>The halt command is always followed up by stop.
+Enough preparation time should be given to teams, before the game is continued.
+The <a href="#_game_controller">game controller</a> will wait for up to 10 seconds after a halt command, but the game can be continued if robots are prepared already.</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+As a rule of thumb, the game should always be halted when humans other than the referees are entering the field.
+</td>
+</tr>
+</table>
 </div>
 </div>
 </div>
@@ -1604,6 +1622,18 @@ also used to recalibrate the vision software during a game if the vision expert 
 <p>After the game was stopped, the ball must be placed on the appropriate position, depending on the event that occurred.
 The automatic ball placement is the preferred way to place the ball at the designated position on the field by the robots of the teams without human interaction.
 If this is not possible, the <a href="#_referee">referee</a> places the ball manually.</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+During manual ball placement, the game should be in <a href="#_stop">stop</a> to allow robots to prepare for game continuation.
+</td>
+</tr>
+</table>
 </div>
 <div class="paragraph">
 <p>No ball placement is required if all of the following constraints are fulfilled:</p>
@@ -3360,7 +3390,7 @@ Note that the information shown in this table here is incomplete. Please read th
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2022-11-19 17:08:22 UTC
+Last updated 2022-11-22 07:48:21 UTC
 </div>
 </div>
 </body>

@@ -441,7 +441,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="generator" content="Asciidoctor 2.0.18">
-<meta name="author" content="2022-11-19">
+<meta name="author" content="2022-11-22">
 <title>Rules of the RoboCup Small Size League</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
 <style>
@@ -877,7 +877,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div id="header">
 <h1>Rules of the RoboCup Small Size League</h1>
 <div class="details">
-<span id="author" class="author"><span class="diff_delete">2022-07-11</span><span class="diff_insert">2022-11-19</span></span><br>
+<span id="author" class="author"><span class="diff_delete">2022-07-11</span><span class="diff_insert">2022-11-22</span></span><br>
 </div>
 <div id="toc" class="toc">
 <div id="toctitle">Table of Contents</div>
@@ -1352,6 +1352,10 @@ The numbers in the figures below show the distances in millimeters.
 </div>
 <div class="paragraph">
 <p>Besides the shared vision equipment, teams are not allowed to mount their own cameras or other external sensors, unless specifically announced or permitted by the respective competition organizers.</p>
+</div>
+<div class="paragraph">
+<p><span class="diff_insert">SSL-Vision </span><span class="diff_insert">defines </span><span class="diff_insert">an </span><span class="diff_insert">additional </span><a href="https://github.com/RoboCup-SSL/ssl-vision/blob/master/src/shared/proto/messages_robocup_ssl_wrapper_tracked.proto"><span class="diff_insert">tracker </span><span class="diff_insert">protocol</span></a> <span class="diff_insert">that </span><span class="diff_insert">contains </span><span class="diff_insert">filtered </span><span class="diff_insert">and </span><span class="diff_insert">enriched </span><span class="diff_insert">tracking </span><span class="diff_insert">data. </span><span class="diff_insert">Messages </span><span class="diff_insert">are </span><span class="diff_insert">not </span><span class="diff_insert">published </span><span class="diff_insert">by </span><span class="diff_insert">SSL-Vision </span><span class="diff_insert">itself, </span><span class="diff_insert">but </span><span class="diff_insert">for </span><span class="diff_insert">example </span><span class="diff_insert">by </span><span class="diff_insert">some </span><a href="#_automatic_referee"><span class="diff_insert">automatic </span><span class="diff_insert">referees</span></a><span class="diff_insert">.
+It </span><span class="diff_insert">is </span><span class="diff_insert">meant </span><span class="diff_insert">to </span><span class="diff_insert">be </span><span class="diff_insert">used </span><span class="diff_insert">by </span><span class="diff_insert">the </span><a href="#_game_controller"><span class="diff_insert">game </span><span class="diff_insert">controller</span></a> <span class="diff_insert">and </span><span class="diff_insert">by </span><span class="diff_insert">teams </span><span class="diff_insert">that </span><span class="diff_insert">do </span><span class="diff_insert">not </span><span class="diff_insert">yet </span><span class="diff_insert">have </span><span class="diff_insert">their </span><span class="diff_insert">own </span><span class="diff_insert">sophisticated </span><span class="diff_insert">filter.</span></p>
 </div>
 </div>
 <div class="sect3">
@@ -2025,11 +2029,25 @@ If the ball moves very quickly, it is hard to always keep the required distance 
 </div>
 <div class="paragraph">
 <div class="title">Usage</div>
-<p>The halt command allows the referee to interrupt the game immediately whenever an emergency occurs (for example when a robot gets out of contol). It is
+<p>The halt command allows the referee to interrupt the game immediately whenever an emergency occurs (for example when a robot gets out of <span class="diff_delete">contol). </span><span class="diff_insert">control). </span>It is
 also used to recalibrate the vision software during a game if the vision expert considers it necessary and the referee agrees and for <a href="#_robot_substitution">robot substitution</a>. Additionally, the referee is free to issue the halt command at will.</p>
 </div>
 <div class="paragraph">
-<p>The halt command is always followed up by stop.</p>
+<p>The halt command is always followed up by <span class="diff_delete">stop.</span><span class="diff_insert">stop.
+Enough </span><span class="diff_insert">preparation </span><span class="diff_insert">time </span><span class="diff_insert">should </span><span class="diff_insert">be </span><span class="diff_insert">given </span><span class="diff_insert">to </span><span class="diff_insert">teams, </span><span class="diff_insert">before </span><span class="diff_insert">the </span><span class="diff_insert">game </span><span class="diff_insert">is </span><span class="diff_insert">continued.
+The </span><a href="#_game_controller"><span class="diff_insert">game </span><span class="diff_insert">controller</span></a> <span class="diff_insert">will </span><span class="diff_insert">wait </span><span class="diff_insert">for </span><span class="diff_insert">up </span><span class="diff_insert">to </span><span class="diff_insert">10 </span><span class="diff_insert">seconds </span><span class="diff_insert">after </span><span class="diff_insert">a </span><span class="diff_insert">halt </span><span class="diff_insert">command, </span><span class="diff_insert">but </span><span class="diff_insert">the </span><span class="diff_insert">game </span><span class="diff_insert">can </span><span class="diff_insert">be </span><span class="diff_insert">continued </span><span class="diff_insert">if </span><span class="diff_insert">robots </span><span class="diff_insert">are </span><span class="diff_insert">prepared </span><span class="diff_insert">already.</span></p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content"><span class="diff_insert">
+As </span><span class="diff_insert">a </span><span class="diff_insert">rule </span><span class="diff_insert">of </span><span class="diff_insert">thumb, </span><span class="diff_insert">the </span><span class="diff_insert">game </span><span class="diff_insert">should </span><span class="diff_insert">always </span><span class="diff_insert">be </span><span class="diff_insert">halted </span><span class="diff_insert">when </span><span class="diff_insert">humans </span><span class="diff_insert">other </span><span class="diff_insert">than </span><span class="diff_insert">the </span><span class="diff_insert">referees </span><span class="diff_insert">are </span><span class="diff_insert">entering </span><span class="diff_insert">the </span><span class="diff_insert">field.
+</span></td>
+</tr>
+</table>
 </div>
 </div>
 </div>
@@ -2040,6 +2058,18 @@ also used to recalibrate the vision software during a game if the vision expert 
 <p>After the game was stopped, the ball must be placed on the appropriate position, depending on the event that occurred.
 The automatic ball placement is the preferred way to place the ball at the designated position on the field by the robots of the teams without human interaction.
 If this is not possible, the <a href="#_referee">referee</a> places the ball manually.</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content"><span class="diff_insert">
+During </span><span class="diff_insert">manual </span><span class="diff_insert">ball </span><span class="diff_insert">placement, </span><span class="diff_insert">the </span><span class="diff_insert">game </span><span class="diff_insert">should </span><span class="diff_insert">be </span><span class="diff_insert">in </span><a href="#_stop"><span class="diff_insert">stop</span></a> <span class="diff_insert">to </span><span class="diff_insert">allow </span><span class="diff_insert">robots </span><span class="diff_insert">to </span><span class="diff_insert">prepare </span><span class="diff_insert">for </span><span class="diff_insert">game </span><span class="diff_insert">continuation.
+</span></td>
+</tr>
+</table>
 </div>
 <div class="paragraph">
 <p>No ball placement is required if all of the following constraints are fulfilled:</p>
@@ -3796,7 +3826,7 @@ Note that the information shown in this table here is incomplete. Please read th
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated <span class="diff_delete">2022-07-11 </span><span class="diff_delete">17:58:20 </span><span class="diff_insert">2022-11-19 </span><span class="diff_insert">17:08:22 </span>UTC
+Last updated <span class="diff_delete">2022-07-11 </span><span class="diff_delete">17:58:20 </span><span class="diff_insert">2022-11-22 </span><span class="diff_insert">07:48:21 </span>UTC
 </div>
 </div>
 </body>
