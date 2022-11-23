@@ -39,7 +39,7 @@ Not following defined procedures repetitively, like for example:
 
 * <<Robot Handler, Robot handler>> puts a robot on the field, while it is not allowed
 * Robots do not keep required distance to the ball during stop
-* Keeper is not on the goal line during a <<Penalty Kick, penalty kick>>
+* Robots do not conform to the positioning rules during a <<Penalty Kick, penalty kick>> and need to be moved or removed manually
 
 ==== Showing Lack Of Respect
 A team member must show appropriate respect to everyone involved in the game. Infringements of this rule include but are not limited to:
