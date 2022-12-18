@@ -84,61 +84,61 @@ NOTE: The information shown in this table here may be incomplete. Please read th
 || Event | Applicability | Consequence | Increments Foul Counter | Initiated By
 
 6+| *While Match is Running*
-|| <<No Progress In Game>> | <<Ball In And Out Of Play, ball in play>> | <<Stop>> -> <<Force Start>> | no | game controller
-|| <<Double Touch>> | <<Ball In And Out Of Play, ball in play>> | <<Stop>> -> <<Free Kick>> | no | auto referee
+|| <<No Progress In Game, NO_PROGRESS_IN_GAME>> | <<Ball In And Out Of Play, ball in play>> | <<Stop>> -> <<Force Start>> | no | game controller
+|| <<Double Touch, ATTACKER_DOUBLE_TOUCHED_BALL>> | <<Ball In And Out Of Play, ball in play>> | <<Stop>> -> <<Free Kick>> | no | auto referee
 
 | 5+| *Ball Leaving the Field*
-|| <<Scoring Goals, Possible Goal>> | <<Ball In And Out Of Play, ball in play>> | <<Halt>> | no | auto referee
-|| <<Touch Line Crossing>> | <<Ball In And Out Of Play, ball in play>> | <<Stop>> -> <<Free Kick>> | no | auto referee
-|| <<Goal Line Crossing>> | <<Ball In And Out Of Play, ball in play>> | <<Stop>> -> <<Free Kick>> | no | auto referee
-|| <<aimless-kick, Aimless Kick>> | <<Ball In And Out Of Play, ball in play>> | <<Stop>> -> <<Free Kick>> | no | auto referee
+|| <<Scoring Goals, POSSIBLE_GOAL>> | <<Ball In And Out Of Play, ball in play>> | <<Halt>> | no | auto referee
+|| <<Touch Line Crossing, BALL_LEFT_FIELD_TOUCH_LINE>> | <<Ball In And Out Of Play, ball in play>> | <<Stop>> -> <<Free Kick>> | no | auto referee
+|| <<Goal Line Crossing, BALL_LEFT_FIELD_GOAL_LINE>> | <<Ball In And Out Of Play, ball in play>> | <<Stop>> -> <<Free Kick>> | no | auto referee
+|| <<aimless-kick, AIMLESS_KICK>> | <<Ball In And Out Of Play, ball in play>> | <<Stop>> -> <<Free Kick>> | no | auto referee
 
 | 5+| *Fouls*
-|| <<Multiple Defenders>> | <<Ball In And Out Of Play, ball in play>> | <<Stop>> -> <<Penalty Kick>> | no | auto referee
-|| <<Keeper Held Ball>> in <<Defense Area, defense area>> | <<Ball In And Out Of Play, ball in play>> | <<Stop>> -> <<Free Kick>> | yes | game controller
-|| <<Boundary Crossing>> | <<Ball In And Out Of Play, ball in play>> | <<Stop>> -> <<Free Kick>> | yes | auto referee
-|| <<Excessive Dribbling>> | <<Ball In And Out Of Play, ball in play>> | <<Stop>> -> <<Free Kick>> | yes | auto referee
-|| <<Attacker Touched Ball In Opponent Defense Area>> | <<Ball In And Out Of Play, ball in play>> | - | yes | auto referee
-|| <<Ball Speed>> | <<Ball In And Out Of Play, ball in play>> | - | yes | auto referee
+|| <<Multiple Defenders, DEFENDER_IN_DEFENSE_AREA>> | <<Ball In And Out Of Play, ball in play>> | <<Stop>> -> <<Penalty Kick>> | no | auto referee
+|| <<Keeper Held Ball, KEEPER_HELD_BALL>> | <<Ball In And Out Of Play, ball in play>> | <<Stop>> -> <<Free Kick>> | yes | game controller
+|| <<Boundary Crossing, BOUNDARY_CROSSING>> | <<Ball In And Out Of Play, ball in play>> | <<Stop>> -> <<Free Kick>> | yes | auto referee
+|| <<Excessive Dribbling, BOT_DRIBBLED_BALL_TOO_FAR>> | <<Ball In And Out Of Play, ball in play>> | <<Stop>> -> <<Free Kick>> | yes | auto referee
+|| <<Attacker Touched Ball In Opponent Defense Area, ATTACKER_TOUCHED_BALL_IN_DEFENSE_AREA>> | <<Ball In And Out Of Play, ball in play>> | - | yes | auto referee
+|| <<Ball Speed, BOT_KICKED_BALL_TOO_FAST>> | <<Ball In And Out Of Play, ball in play>> | - | yes | auto referee
 
 | 5+| *Penalty Kick*
-|| <<Penalty Kick>> failed | during <<Penalty Kick>> | <<Stop>> -> <<Free Kick>> | no | auto referee, game controller
+|| <<Penalty Kick, PENALTY_KICK_FAILED>> | during <<Penalty Kick>> | <<Stop>> -> <<Free Kick>> | no | auto referee, game controller
 
 6+| *Always*
-|| <<Crashing>> | always | - | yes | auto referee
-|| <<Crashing>> draw | always | - | yes | auto referee
+|| <<Crashing, BOT_CRASH_UNIQUE>> | always | - | yes | auto referee
+|| <<Crashing, BOT_CRASH_DRAWN>> | always | - | yes | auto referee
 
 6+| *During Free Kick and While Match is Stop*
-|| <<Robot Too Close To Opponent Defense Area>> | during <<Stop>> and <<Free Kick>> | <<Stop>> -> <<Free Kick>> | yes | auto referee
+|| <<Robot Too Close To Opponent Defense Area, ATTACKER_TOO_CLOSE_TO_DEFENSE_AREA>> | during <<Stop>> and <<Free Kick>> | <<Stop>> -> <<Free Kick>> | yes | auto referee
 
 6+| *While Match is Stopped*
 
 | 5+| *Fouls*
-|| <<Robot Stop Speed>> | during <<Stop>> | - | yes | auto referee
-|| <<Defender Too Close To Ball>> | <<Ball In And Out Of Play, ball out of play>> | timer for bringing the ball into play is reset | yes | auto referee
+|| <<Robot Stop Speed, BOT_TOO_FAST_IN_STOP>> | during <<Stop>> | - | yes | auto referee
+|| <<Defender Too Close To Ball, DEFENDER_TOO_CLOSE_TO_KICK_POINT>> | <<Ball In And Out Of Play, ball out of play>> | timer for bringing the ball into play is reset | yes | auto referee
 
 | 5+| *Ball Placement*
-|| <<Ball Placement Interference>> | during <<Ball Placement>> | placement timer increased by 10 seconds | no | auto referee
-|| <<Ball Placement>> successful | during <<Ball Placement>> | continue | no | auto referee
-|| <<Ball Placement>> failed by team in favor | during <<Ball Placement>> | <<Stop>> -> <<Free Kick>> (div A) / previous command (div B) | no | game controller
-|| <<Ball Placement>> failed by opponent | during <<Ball Placement>> | <<Stop>> | no | game controller
+|| <<Ball Placement Interference, BOT_INTERFERED_PLACEMENT>> | during <<Ball Placement>> | placement timer increased by 10 seconds | no | auto referee
+|| <<Ball Placement, PLACEMENT_SUCCEEDED>> | during <<Ball Placement>> | continue | no | auto referee
+|| <<Ball Placement, PLACEMENT_FAILED>> by team in favor | during <<Ball Placement>> | <<Stop>> -> <<Free Kick>> (div A) / previous command (div B) | no | game controller
+|| <<Ball Placement, PLACEMENT_FAILED>> by opponent | during <<Ball Placement>> | <<Stop>> | no | game controller
 
 6+| *Informational*
-|| Multiple <<Fouls>> | - | <<Yellow Card>> | no | game controller
-|| Multiple <<Yellow Card, Yellow Cards>> | - | <<Red Card>> | no | game controller
-|| <<Number Of Robots>> exceeded | - | <<Stop>> | no | game controller
-|| <<Scoring Goals, Invalid Goal>> | - | <<Stop>> -> <<Free Kick>> | no | game controller
-|| Perform manual <<Robot Substitution>> | during <<Stop>> | <<Halt>> (after next stoppage), then <<Stop>> | no | remote control
-|| Raise <<Challenge Flags, Challenge flag>> | always | - | no | remote control
-|| Perform <<Emergency stop>> | always | <<Halt>> | no | remote control
+|| <<Fouls, MULTIPLE_FOULS>> | - | <<Yellow Card>> | no | game controller
+|| <<Yellow Card, MULTIPLE_CARDS>> | - | <<Red Card>> | no | game controller
+|| <<Number Of Robots, TOO_MANY_ROBOTS>> | - | <<Stop>> | no | game controller
+|| <<Scoring Goals, INVALID_GOAL>> | - | <<Stop>> -> <<Free Kick>> | no | game controller
+|| <<Robot Substitution, BOT_SUBSTITUTION>> | during <<Stop>> | <<Halt>> (after next stoppage), then <<Stop>> | no | remote control
+|| <<Challenge Flags, CHALLENGE_FLAG>> | always | - | no | remote control
+|| <<Emergency stop, EMERGENCY_STOP>> | always | <<Halt>> | no | remote control
 
 6+| *Manual*
-|| <<Scoring Goals, Goal>> | - | <<Stop>> -> <<Kick-Off>> | no | human referee
-|| <<Pushing>> | always | <<Stop>> -> <<Free Kick>> | yes | human referee
-|| <<Ball Holding>> | <<Ball In And Out Of Play, ball in play>> | <<Stop>> -> <<Free Kick>> | yes | human referee
-|| <<Tipping Over Or Dropping Parts>> | always | <<Stop>> -> <<Free Kick>> | yes | human referee
-|| <<Unsporting Behavior, Minor Unsporting Behavior>> | always | <<Stop>> -> <<Yellow Card>> | no | human referee
-|| <<Unsporting Behavior, Major Unsporting Behavior>> | always | <<Stop>> -> <<Red Card>> | no | human referee
+|| <<Scoring Goals, GOAL>> | - | <<Stop>> -> <<Kick-Off>> | no | human referee
+|| <<Pushing, BOT_PUSHED_BOT>> | always | <<Stop>> -> <<Free Kick>> | yes | human referee
+|| <<Ball Holding, BOT_HELD_BALL_DELIBERATELY>> | <<Ball In And Out Of Play, ball in play>> | <<Stop>> -> <<Free Kick>> | yes | human referee
+|| <<Tipping Over Or Dropping Parts, BOT_TIPPED_OVER>> | always | <<Stop>> -> <<Free Kick>> | yes | human referee
+|| <<Unsporting Behavior, UNSPORTING_BEHAVIOR_MINOR>> | always | <<Stop>> -> <<Yellow Card>> | no | human referee
+|| <<Unsporting Behavior,UNSPORTING_BEHAVIOR_MAJOR>> | always | <<Stop>> -> <<Red Card>> | no | human referee
 
 |===
 
