@@ -127,4 +127,5 @@ This is a complete list of differences between <<Divisions, division>> A and <<D
 * Division A plays with <<Number Of Robots, more robots>> than division B.
 * The automatic <<Ball Placement, ball placement>> procedure is mandatory for division A and optional for division B.
 * The <<aimless-kick, aimless kick>> rule only applies to division B.
-* Division A has shorter timeouts in some situations
+* Division A has shorter timeouts in some situations.
+* <<Emergency stop>> only applies to division A.
