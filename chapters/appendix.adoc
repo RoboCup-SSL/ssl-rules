@@ -142,6 +142,7 @@ NOTE: The information shown in this table here may be incomplete. Please read th
 
 |===
 
+A visualized graph of the game events is stored as https://raw.githubusercontent.com/RoboCup-SSL/ssl-rules/master/images/SSL_Game_Events.graphml[graphml] and can be viewed at https://www.yworks.com/yed-live/?file=https://raw.githubusercontent.com/RoboCup-SSL/ssl-rules/master/images/SSL_Game_Events.graphml[yed-live].
 
 [appendix]
 == Overview of Timings
