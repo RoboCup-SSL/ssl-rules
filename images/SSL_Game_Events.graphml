@@ -2188,7 +2188,7 @@
 				<y:RectD X="1030.7566598962321" Y="-952" Width="390" Height="60"/>
 			</data>
 			<data key="d7">
-				<yjs:ShapeNodeStyle stroke="{y:GraphMLReference 16}" fill="#FFE2E26F" shape="ROUND_RECTANGLE"/>
+				<yjs:ShapeNodeStyle stroke="{y:GraphMLReference 16}" fill="#FFA3D64D" shape="ROUND_RECTANGLE"/>
 			</data>
 			<data key="d8">
 				<y:ViewState>
