@@ -130,7 +130,7 @@ NOTE: The information shown in this table here may be incomplete. Please read th
 || <<Scoring Goals, INVALID_GOAL>> | - | <<Stop>> -> <<Free Kick>> | no | game controller
 || <<Robot Substitution, BOT_SUBSTITUTION>> | during <<Stop>> | <<Halt>> (after next stoppage), then <<Stop>> | no | remote control
 || <<Challenge Flags, CHALLENGE_FLAG>> | always | - | no | remote control
-|| <<Emergency stop, EMERGENCY_STOP>> | always | <<Halt>> | no | remote control
+|| <<Emergency stop, EMERGENCY_STOP>> | always | <<Halt>> -> <<Timeouts, Timeout>> + <<Yellow Card>> | no | remote control
 
 6+| *Manual*
 || <<Scoring Goals, GOAL>> | - | <<Stop>> -> <<Kick-Off>> | no | human referee
