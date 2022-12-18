@@ -1,7 +1,5 @@
 == Emergency stop
 
-This rule only applies to Division A.
-
 .Definition
 A team can ask to stop the game immediately after a grace period of 10 seconds or at the next stoppage, whichever happens first regardless of the current situation.
 It will receive a yellow card for this and must take a timeout immediately.
