@@ -131,7 +131,7 @@
 				</x:List>
 			</data>
 			<data key="d5">
-				<y:RectD X="418.28427124746213" Y="-2774" Width="374" Height="1276"/>
+				<y:RectD X="473.99494936611654" Y="-1434" Width="374" Height="1276"/>
 			</data>
 			<data key="d7">
 				<yjs:GroupNodeStyle tabWidth="126" tabHeight="20" tabInset="3" tabPosition="TOP_TRAILING" groupIcon="MINUS" iconForegroundFill="{y:GraphMLReference 1}" iconOffset="2" hitTransparentContentArea="true" tabBackgroundFill="{y:GraphMLReference 2}" contentAreaFill="{y:GraphMLReference 3}" tabFill="{y:GraphMLReference 4}" stroke="{y:GraphMLReference 5}"/>
@@ -170,7 +170,7 @@
 						</x:List>
 					</data>
 					<data key="d5">
-						<y:RectD X="448.28427124746213" Y="-2657" Width="314" Height="364"/>
+						<y:RectD X="503.99494936611654" Y="-619" Width="314" Height="364"/>
 					</data>
 					<data key="d7">
 						<yjs:GroupNodeStyle tabWidth="169" tabHeight="20" tabInset="3" tabPosition="TOP_TRAILING" groupIcon="MINUS" iconForegroundFill="{y:GraphMLReference 1}" iconOffset="2" hitTransparentContentArea="true" tabBackgroundFill="{y:GraphMLReference 2}" contentAreaFill="{y:GraphMLReference 3}" tabFill="{y:GraphMLReference 4}" stroke="{y:GraphMLReference 5}"/>
@@ -202,7 +202,7 @@
 								</x:List>
 							</data>
 							<data key="d5">
-								<y:RectD X="455.28427124746213" Y="-2360" Width="300" Height="60"/>
+								<y:RectD X="510.99494936611654" Y="-592" Width="300" Height="60"/>
 							</data>
 							<data key="d7">
 								<yjs:ShapeNodeStyle stroke="{y:GraphMLReference 8}" fill="{y:GraphMLReference 9}" shape="ROUND_RECTANGLE"/>
@@ -235,7 +235,7 @@
 								</x:List>
 							</data>
 							<data key="d5">
-								<y:RectD X="455.28427124746213" Y="-2540" Width="300" Height="60"/>
+								<y:RectD X="510.99494936611654" Y="-412" Width="300" Height="60"/>
 							</data>
 							<data key="d7">
 								<yjs:ShapeNodeStyle stroke="{y:GraphMLReference 8}" fill="{y:GraphMLReference 9}" shape="ROUND_RECTANGLE"/>
@@ -268,7 +268,7 @@
 								</x:List>
 							</data>
 							<data key="d5">
-								<y:RectD X="455.28427124746213" Y="-2630" Width="300" Height="60"/>
+								<y:RectD X="510.99494936611654" Y="-322" Width="300" Height="60"/>
 							</data>
 							<data key="d7">
 								<yjs:ShapeNodeStyle stroke="{y:GraphMLReference 8}" fill="{y:GraphMLReference 9}" shape="ROUND_RECTANGLE"/>
@@ -301,7 +301,7 @@
 								</x:List>
 							</data>
 							<data key="d5">
-								<y:RectD X="455.28427124746213" Y="-2450" Width="300" Height="60"/>
+								<y:RectD X="510.99494936611654" Y="-502" Width="300" Height="60"/>
 							</data>
 							<data key="d7">
 								<yjs:ShapeNodeStyle stroke="{y:GraphMLReference 8}" fill="{y:GraphMLReference 9}" shape="ROUND_RECTANGLE"/>
@@ -343,7 +343,7 @@
 						</x:List>
 					</data>
 					<data key="d5">
-						<y:RectD X="455.28427124746213" Y="-1689" Width="300" Height="60"/>
+						<y:RectD X="510.99494936611654" Y="-1407" Width="300" Height="60"/>
 					</data>
 					<data key="d7">
 						<yjs:ShapeNodeStyle stroke="{y:GraphMLReference 8}" fill="{y:GraphMLReference 9}" shape="ROUND_RECTANGLE"/>
@@ -383,7 +383,7 @@
 						</x:List>
 					</data>
 					<data key="d5">
-						<y:RectD X="455.28427124746213" Y="-2747" Width="300" Height="60"/>
+						<y:RectD X="510.99494936611654" Y="-225" Width="300" Height="60"/>
 					</data>
 					<data key="d7">
 						<yjs:ShapeNodeStyle stroke="{y:GraphMLReference 8}" fill="{y:GraphMLReference 9}" shape="ROUND_RECTANGLE"/>
@@ -423,7 +423,7 @@
 						</x:List>
 					</data>
 					<data key="d5">
-						<y:RectD X="448.28427124746213" Y="-2263" Width="314" Height="544"/>
+						<y:RectD X="503.99494936611654" Y="-1193" Width="314" Height="544"/>
 					</data>
 					<data key="d7">
 						<yjs:GroupNodeStyle tabWidth="62" tabHeight="20" tabInset="3" tabPosition="TOP_TRAILING" groupIcon="MINUS" iconForegroundFill="{y:GraphMLReference 1}" iconOffset="2" hitTransparentContentArea="true" tabBackgroundFill="{y:GraphMLReference 2}" contentAreaFill="{y:GraphMLReference 3}" tabFill="{y:GraphMLReference 4}" stroke="{y:GraphMLReference 5}"/>
@@ -455,7 +455,7 @@
 								</x:List>
 							</data>
 							<data key="d5">
-								<y:RectD X="455.28427124746213" Y="-2146" Width="300" Height="60"/>
+								<y:RectD X="510.99494936611654" Y="-806" Width="300" Height="60"/>
 							</data>
 							<data key="d7">
 								<yjs:ShapeNodeStyle stroke="{y:GraphMLReference 8}" fill="{y:GraphMLReference 9}" shape="ROUND_RECTANGLE"/>
@@ -463,12 +463,12 @@
 							<port name="p0"/>
 							<port name="p1">
 								<data key="d16">
-									<y:FreeNodePortLocationModelParameter Ratio="1,0.25"/>
+									<y:FreeNodePortLocationModelParameter Ratio="1,0.75"/>
 								</data>
 							</port>
 							<port name="p2">
 								<data key="d16">
-									<y:FreeNodePortLocationModelParameter Ratio="1,0.75"/>
+									<y:FreeNodePortLocationModelParameter Ratio="1,0.25"/>
 								</data>
 							</port>
 							<port name="p3">
@@ -494,7 +494,7 @@
 								</x:List>
 							</data>
 							<data key="d5">
-								<y:RectD X="455.28427124746213" Y="-1966" Width="300" Height="60"/>
+								<y:RectD X="510.99494936611654" Y="-896" Width="300" Height="60"/>
 							</data>
 							<data key="d7">
 								<yjs:ShapeNodeStyle stroke="{y:GraphMLReference 8}" fill="{y:GraphMLReference 9}" shape="ROUND_RECTANGLE"/>
@@ -502,12 +502,12 @@
 							<port name="p0"/>
 							<port name="p1">
 								<data key="d16">
-									<y:FreeNodePortLocationModelParameter Ratio="1,0.25"/>
+									<y:FreeNodePortLocationModelParameter Ratio="1,0.75"/>
 								</data>
 							</port>
 							<port name="p2">
 								<data key="d16">
-									<y:FreeNodePortLocationModelParameter Ratio="1,0.75"/>
+									<y:FreeNodePortLocationModelParameter Ratio="1,0.25"/>
 								</data>
 							</port>
 							<port name="p3">
@@ -533,19 +533,19 @@
 								</x:List>
 							</data>
 							<data key="d5">
-								<y:RectD X="455.28427124746213" Y="-2056" Width="300" Height="60"/>
+								<y:RectD X="510.99494936611654" Y="-1076" Width="300" Height="60"/>
 							</data>
 							<data key="d7">
 								<yjs:ShapeNodeStyle stroke="{y:GraphMLReference 8}" fill="{y:GraphMLReference 9}" shape="ROUND_RECTANGLE"/>
 							</data>
 							<port name="p0">
 								<data key="d16">
-									<y:FreeNodePortLocationModelParameter Ratio="1,0.25"/>
+									<y:FreeNodePortLocationModelParameter Ratio="1,0.75"/>
 								</data>
 							</port>
 							<port name="p1">
 								<data key="d16">
-									<y:FreeNodePortLocationModelParameter Ratio="1,0.75"/>
+									<y:FreeNodePortLocationModelParameter Ratio="1,0.25"/>
 								</data>
 							</port>
 							<port name="p2">
@@ -576,7 +576,7 @@
 								</x:List>
 							</data>
 							<data key="d5">
-								<y:RectD X="455.28427124746213" Y="-2236" Width="300" Height="60"/>
+								<y:RectD X="510.99494936611654" Y="-716" Width="300" Height="60"/>
 							</data>
 							<data key="d7">
 								<yjs:ShapeNodeStyle stroke="{y:GraphMLReference 8}" fill="{y:GraphMLReference 9}" shape="ROUND_RECTANGLE"/>
@@ -615,7 +615,7 @@
 								</x:List>
 							</data>
 							<data key="d5">
-								<y:RectD X="455.28427124746213" Y="-1876" Width="300" Height="60"/>
+								<y:RectD X="510.99494936611654" Y="-1166" Width="300" Height="60"/>
 							</data>
 							<data key="d7">
 								<yjs:ShapeNodeStyle stroke="{y:GraphMLReference 8}" fill="{y:GraphMLReference 9}" shape="ROUND_RECTANGLE"/>
@@ -653,7 +653,7 @@
 								</x:List>
 							</data>
 							<data key="d5">
-								<y:RectD X="455.28427124746213" Y="-1786" Width="300" Height="60"/>
+								<y:RectD X="510.99494936611654" Y="-986" Width="300" Height="60"/>
 							</data>
 							<data key="d7">
 								<yjs:ShapeNodeStyle stroke="{y:GraphMLReference 8}" fill="{y:GraphMLReference 9}" shape="ROUND_RECTANGLE"/>
@@ -696,7 +696,7 @@
 						</x:List>
 					</data>
 					<data key="d5">
-						<y:RectD X="448.28427124746213" Y="-1599" Width="314" Height="94"/>
+						<y:RectD X="503.99494936611654" Y="-1317" Width="314" Height="94"/>
 					</data>
 					<data key="d7">
 						<yjs:GroupNodeStyle tabWidth="108" tabHeight="20" tabInset="3" tabPosition="TOP_TRAILING" groupIcon="MINUS" iconForegroundFill="{y:GraphMLReference 1}" iconOffset="2" hitTransparentContentArea="true" tabBackgroundFill="{y:GraphMLReference 2}" contentAreaFill="{y:GraphMLReference 3}" tabFill="{y:GraphMLReference 4}" stroke="{y:GraphMLReference 5}"/>
@@ -728,7 +728,7 @@
 								</x:List>
 							</data>
 							<data key="d5">
-								<y:RectD X="455.28427124746213" Y="-1572" Width="300" Height="60"/>
+								<y:RectD X="510.99494936611654" Y="-1290" Width="300" Height="60"/>
 							</data>
 							<data key="d7">
 								<yjs:ShapeNodeStyle stroke="{y:GraphMLReference 8}" fill="{y:GraphMLReference 9}" shape="ROUND_RECTANGLE"/>
@@ -740,12 +740,12 @@
 							</port>
 							<port name="p1">
 								<data key="d16">
-									<y:FreeNodePortLocationModelParameter Ratio="0,0.75"/>
+									<y:FreeNodePortLocationModelParameter Ratio="0,0.25"/>
 								</data>
 							</port>
 							<port name="p2">
 								<data key="d16">
-									<y:FreeNodePortLocationModelParameter Ratio="0,0.25"/>
+									<y:FreeNodePortLocationModelParameter Ratio="0,0.75"/>
 								</data>
 							</port>
 						</node>
@@ -770,7 +770,7 @@
 				</x:List>
 			</data>
 			<data key="d5">
-				<y:RectD X="418.28427124746213" Y="-1468" Width="374" Height="218"/>
+				<y:RectD X="473.99494936611654" Y="-1682" Width="374" Height="218"/>
 			</data>
 			<data key="d7">
 				<yjs:GroupNodeStyle tabWidth="73" tabHeight="20" tabInset="3" tabPosition="TOP_TRAILING" groupIcon="MINUS" iconForegroundFill="{y:GraphMLReference 1}" iconOffset="2" hitTransparentContentArea="true" tabBackgroundFill="{y:GraphMLReference 2}" contentAreaFill="{y:GraphMLReference 3}" tabFill="{y:GraphMLReference 4}" stroke="{y:GraphMLReference 5}"/>
@@ -793,7 +793,7 @@
 						</x:List>
 					</data>
 					<data key="d5">
-						<y:RectD X="448.28427124746213" Y="-1441" Width="314" Height="184"/>
+						<y:RectD X="503.99494936611654" Y="-1655" Width="314" Height="184"/>
 					</data>
 					<data key="d7">
 						<yjs:GroupNodeStyle tabWidth="62" tabHeight="20" tabInset="3" tabPosition="TOP_TRAILING" groupIcon="MINUS" iconForegroundFill="{y:GraphMLReference 1}" iconOffset="2" hitTransparentContentArea="true" tabBackgroundFill="{y:GraphMLReference 2}" contentAreaFill="{y:GraphMLReference 3}" tabFill="{y:GraphMLReference 4}" stroke="{y:GraphMLReference 5}"/>
@@ -816,7 +816,7 @@
 								</x:List>
 							</data>
 							<data key="d5">
-								<y:RectD X="455.28427124746213" Y="-1324" Width="300" Height="60"/>
+								<y:RectD X="510.99494936611654" Y="-1628" Width="300" Height="60"/>
 							</data>
 							<data key="d7">
 								<yjs:ShapeNodeStyle stroke="{y:GraphMLReference 8}" fill="{y:GraphMLReference 9}" shape="ROUND_RECTANGLE"/>
@@ -849,7 +849,7 @@
 								</x:List>
 							</data>
 							<data key="d5">
-								<y:RectD X="455.28427124746213" Y="-1414" Width="300" Height="60"/>
+								<y:RectD X="510.99494936611654" Y="-1538" Width="300" Height="60"/>
 							</data>
 							<data key="d7">
 								<yjs:ShapeNodeStyle stroke="{y:GraphMLReference 8}" fill="{y:GraphMLReference 9}" shape="ROUND_RECTANGLE"/>
@@ -886,7 +886,7 @@
 				</x:List>
 			</data>
 			<data key="d5">
-				<y:RectD X="418.28427124746213" Y="-2932" Width="374" Height="128"/>
+				<y:RectD X="473.99494936611654" Y="-128" Width="374" Height="128"/>
 			</data>
 			<data key="d7">
 				<yjs:GroupNodeStyle tabWidth="223" tabHeight="20" tabInset="3" tabPosition="TOP_TRAILING" groupIcon="MINUS" iconForegroundFill="{y:GraphMLReference 1}" iconOffset="2" hitTransparentContentArea="true" tabBackgroundFill="{y:GraphMLReference 2}" contentAreaFill="{y:GraphMLReference 3}" tabFill="{y:GraphMLReference 4}" stroke="{y:GraphMLReference 5}"/>
@@ -914,7 +914,7 @@
 						</x:List>
 					</data>
 					<data key="d5">
-						<y:RectD X="448.28427124746213" Y="-2905" Width="314" Height="94"/>
+						<y:RectD X="503.99494936611654" Y="-101" Width="314" Height="94"/>
 					</data>
 					<data key="d7">
 						<yjs:GroupNodeStyle tabWidth="62" tabHeight="20" tabInset="3" tabPosition="TOP_TRAILING" groupIcon="MINUS" iconForegroundFill="{y:GraphMLReference 1}" iconOffset="2" hitTransparentContentArea="true" tabBackgroundFill="{y:GraphMLReference 2}" contentAreaFill="{y:GraphMLReference 3}" tabFill="{y:GraphMLReference 4}" stroke="{y:GraphMLReference 5}"/>
@@ -937,14 +937,14 @@
 								</x:List>
 							</data>
 							<data key="d5">
-								<y:RectD X="455.28427124746213" Y="-2878" Width="300" Height="60"/>
+								<y:RectD X="510.99494936611654" Y="-74" Width="300" Height="60"/>
 							</data>
 							<data key="d7">
 								<yjs:ShapeNodeStyle stroke="{y:GraphMLReference 8}" fill="{y:GraphMLReference 9}" shape="ROUND_RECTANGLE"/>
 							</data>
 							<port name="p0">
 								<data key="d16">
-									<y:FreeNodePortLocationModelParameter Ratio="1,0.75"/>
+									<y:FreeNodePortLocationModelParameter Ratio="1,0.25"/>
 								</data>
 							</port>
 							<port name="p1">
@@ -954,7 +954,7 @@
 							</port>
 							<port name="p2">
 								<data key="d16">
-									<y:FreeNodePortLocationModelParameter Ratio="1,0.25"/>
+									<y:FreeNodePortLocationModelParameter Ratio="1,0.75"/>
 								</data>
 							</port>
 						</node>
@@ -979,7 +979,7 @@
 				</x:List>
 			</data>
 			<data key="d5">
-				<y:RectD X="418.28427124746213" Y="-1220" Width="374" Height="522"/>
+				<y:RectD X="473.99494936611654" Y="-2234" Width="374" Height="522"/>
 			</data>
 			<data key="d7">
 				<yjs:GroupNodeStyle tabWidth="126" tabHeight="20" tabInset="3" tabPosition="TOP_TRAILING" groupIcon="MINUS" iconForegroundFill="{y:GraphMLReference 1}" iconOffset="2" hitTransparentContentArea="true" tabBackgroundFill="{y:GraphMLReference 2}" contentAreaFill="{y:GraphMLReference 3}" tabFill="{y:GraphMLReference 4}" stroke="{y:GraphMLReference 5}"/>
@@ -1002,7 +1002,7 @@
 						</x:List>
 					</data>
 					<data key="d5">
-						<y:RectD X="448.28427124746213" Y="-1193" Width="314" Height="184"/>
+						<y:RectD X="503.99494936611654" Y="-1903" Width="314" Height="184"/>
 					</data>
 					<data key="d7">
 						<yjs:GroupNodeStyle tabWidth="62" tabHeight="20" tabInset="3" tabPosition="TOP_TRAILING" groupIcon="MINUS" iconForegroundFill="{y:GraphMLReference 1}" iconOffset="2" hitTransparentContentArea="true" tabBackgroundFill="{y:GraphMLReference 2}" contentAreaFill="{y:GraphMLReference 3}" tabFill="{y:GraphMLReference 4}" stroke="{y:GraphMLReference 5}"/>
@@ -1025,7 +1025,7 @@
 								</x:List>
 							</data>
 							<data key="d5">
-								<y:RectD X="455.28427124746213" Y="-1166" Width="300" Height="60"/>
+								<y:RectD X="510.99494936611654" Y="-1786" Width="300" Height="60"/>
 							</data>
 							<data key="d7">
 								<yjs:ShapeNodeStyle stroke="{y:GraphMLReference 8}" fill="{y:GraphMLReference 9}" shape="ROUND_RECTANGLE"/>
@@ -1058,14 +1058,14 @@
 								</x:List>
 							</data>
 							<data key="d5">
-								<y:RectD X="455.28427124746213" Y="-1076" Width="300" Height="60"/>
+								<y:RectD X="510.99494936611654" Y="-1876" Width="300" Height="60"/>
 							</data>
 							<data key="d7">
 								<yjs:ShapeNodeStyle stroke="{y:GraphMLReference 8}" fill="{y:GraphMLReference 9}" shape="ROUND_RECTANGLE"/>
 							</data>
 							<port name="p0">
 								<data key="d16">
-									<y:FreeNodePortLocationModelParameter Ratio="1,0.25"/>
+									<y:FreeNodePortLocationModelParameter Ratio="1,0.75"/>
 								</data>
 							</port>
 							<port name="p1">
@@ -1075,7 +1075,7 @@
 							</port>
 							<port name="p2">
 								<data key="d16">
-									<y:FreeNodePortLocationModelParameter Ratio="1,0.75"/>
+									<y:FreeNodePortLocationModelParameter Ratio="1,0.25"/>
 								</data>
 							</port>
 						</node>
@@ -1098,7 +1098,7 @@
 						</x:List>
 					</data>
 					<data key="d5">
-						<y:RectD X="448.28427124746213" Y="-979" Width="314" Height="274"/>
+						<y:RectD X="503.99494936611654" Y="-2207" Width="314" Height="274"/>
 					</data>
 					<data key="d7">
 						<yjs:GroupNodeStyle tabWidth="126" tabHeight="20" tabInset="3" tabPosition="TOP_TRAILING" groupIcon="MINUS" iconForegroundFill="{y:GraphMLReference 1}" iconOffset="2" hitTransparentContentArea="true" tabBackgroundFill="{y:GraphMLReference 2}" contentAreaFill="{y:GraphMLReference 3}" tabFill="{y:GraphMLReference 4}" stroke="{y:GraphMLReference 5}"/>
@@ -1130,7 +1130,7 @@
 								</x:List>
 							</data>
 							<data key="d5">
-								<y:RectD X="455.28427124746213" Y="-862" Width="300" Height="60"/>
+								<y:RectD X="510.99494936611654" Y="-2000" Width="300" Height="60"/>
 							</data>
 							<data key="d7">
 								<yjs:ShapeNodeStyle stroke="{y:GraphMLReference 8}" fill="{y:GraphMLReference 9}" shape="ROUND_RECTANGLE"/>
@@ -1163,7 +1163,7 @@
 								</x:List>
 							</data>
 							<data key="d5">
-								<y:RectD X="455.28427124746213" Y="-952" Width="300" Height="60"/>
+								<y:RectD X="510.99494936611654" Y="-2180" Width="300" Height="60"/>
 							</data>
 							<data key="d7">
 								<yjs:ShapeNodeStyle stroke="{y:GraphMLReference 8}" fill="{y:GraphMLReference 9}" shape="ROUND_RECTANGLE"/>
@@ -1196,7 +1196,7 @@
 								</x:List>
 							</data>
 							<data key="d5">
-								<y:RectD X="455.28427124746213" Y="-772" Width="300" Height="60"/>
+								<y:RectD X="510.99494936611654" Y="-2090" Width="300" Height="60"/>
 							</data>
 							<data key="d7">
 								<yjs:ShapeNodeStyle stroke="{y:GraphMLReference 8}" fill="{y:GraphMLReference 9}" shape="ROUND_RECTANGLE"/>
@@ -1233,7 +1233,7 @@
 				</x:List>
 			</data>
 			<data key="d5">
-				<y:RectD X="1030.7566598962321" Y="-551" Width="390" Height="60"/>
+				<y:RectD X="1086.4673380148865" Y="-2725" Width="439.2433401037679" Height="60"/>
 			</data>
 			<data key="d7">
 				<yjs:ShapeNodeStyle stroke="{y:GraphMLReference 16}" fill="#FFA3D64D" shape="ROUND_RECTANGLE"/>
@@ -1271,7 +1271,7 @@
 				</x:List>
 			</data>
 			<data key="d5">
-				<y:RectD X="2447.7190737607184" Y="-1584.857738095238" Width="390" Height="201.6392857142855"/>
+				<y:RectD X="2511.8477631085025" Y="-1745.1434523809523" Width="390" Height="201.6392857142855"/>
 			</data>
 			<data key="d7">
 				<yjs:ShapeNodeStyle stroke="{y:GraphMLReference 16}" fill="#FFA3D64D" shape="ROUND_RECTANGLE"/>
@@ -1283,7 +1283,7 @@
 			</data>
 			<port name="p0">
 				<data key="d16">
-					<y:FreeNodePortLocationModelParameter Ratio="0,0.25"/>
+					<y:FreeNodePortLocationModelParameter Ratio="0,0.75"/>
 				</data>
 				<data key="d18">
 					<y:ViewState>
@@ -1293,7 +1293,7 @@
 			</port>
 			<port name="p1">
 				<data key="d16">
-					<y:FreeNodePortLocationModelParameter Ratio="0,0.75"/>
+					<y:FreeNodePortLocationModelParameter Ratio="0,0.25"/>
 				</data>
 				<data key="d18">
 					<y:ViewState>
@@ -1323,7 +1323,7 @@
 				</x:List>
 			</data>
 			<data key="d5">
-				<y:RectD X="2447.7190737607184" Y="-1353.2184523809524" Width="390" Height="201.6392857142855"/>
+				<y:RectD X="2511.8477631085025" Y="-1513.5041666666666" Width="390" Height="201.6392857142855"/>
 			</data>
 			<data key="d7">
 				<yjs:ShapeNodeStyle stroke="{y:GraphMLReference 16}" fill="#FFA3D64D" shape="ROUND_RECTANGLE"/>
@@ -1335,7 +1335,7 @@
 			</data>
 			<port name="p0">
 				<data key="d16">
-					<y:FreeNodePortLocationModelParameter Ratio="0,0.16666666666666705"/>
+					<y:FreeNodePortLocationModelParameter Ratio="0,0.8333333333333329"/>
 				</data>
 				<data key="d18">
 					<y:ViewState>
@@ -1359,7 +1359,7 @@
 			</port>
 			<port name="p2">
 				<data key="d16">
-					<y:FreeNodePortLocationModelParameter Ratio="0,0.8333333333333329"/>
+					<y:FreeNodePortLocationModelParameter Ratio="0,0.16666666666666705"/>
 				</data>
 				<data key="d18">
 					<y:ViewState>
@@ -1389,7 +1389,7 @@
 				</x:List>
 			</data>
 			<data key="d5">
-				<y:RectD X="2447.7190737607184" Y="-2846.251537698413" Width="390" Height="1231.3935515873018"/>
+				<y:RectD X="2511.8477631085025" Y="-1281.8646329365079" Width="390" Height="1231.3935515873018"/>
 			</data>
 			<data key="d7">
 				<yjs:ShapeNodeStyle stroke="{y:GraphMLReference 16}" fill="#FFA3D64D" shape="ROUND_RECTANGLE"/>
@@ -1401,7 +1401,7 @@
 			</data>
 			<port name="p0">
 				<data key="d16">
-					<y:FreeNodePortLocationModelParameter Ratio="0,0.26923076923076905"/>
+					<y:FreeNodePortLocationModelParameter Ratio="0,0.7307692307692308"/>
 				</data>
 				<data key="d18">
 					<y:ViewState>
@@ -1411,7 +1411,7 @@
 			</port>
 			<port name="p1">
 				<data key="d16">
-					<y:FreeNodePortLocationModelParameter Ratio="0,0.19230769230769215"/>
+					<y:FreeNodePortLocationModelParameter Ratio="0,0.8076923076923076"/>
 				</data>
 				<data key="d18">
 					<y:ViewState>
@@ -1421,7 +1421,7 @@
 			</port>
 			<port name="p2">
 				<data key="d16">
-					<y:FreeNodePortLocationModelParameter Ratio="0,0.34615384615384626"/>
+					<y:FreeNodePortLocationModelParameter Ratio="0,0.653846153846154"/>
 				</data>
 				<data key="d18">
 					<y:ViewState>
@@ -1455,7 +1455,7 @@
 			</port>
 			<port name="p6">
 				<data key="d16">
-					<y:FreeNodePortLocationModelParameter Ratio="0,0.5"/>
+					<y:FreeNodePortLocationModelParameter Ratio="0,0.423076923076923"/>
 				</data>
 				<data key="d18">
 					<y:ViewState>
@@ -1469,7 +1469,7 @@
 			</port>
 			<port name="p7">
 				<data key="d16">
-					<y:FreeNodePortLocationModelParameter Ratio="0,0.42307692307692313"/>
+					<y:FreeNodePortLocationModelParameter Ratio="0,0.576923076923077"/>
 				</data>
 				<data key="d18">
 					<y:ViewState>
@@ -1483,7 +1483,7 @@
 			</port>
 			<port name="p8">
 				<data key="d16">
-					<y:FreeNodePortLocationModelParameter Ratio="0,0.5769230769230769"/>
+					<y:FreeNodePortLocationModelParameter Ratio="0,0.5"/>
 				</data>
 				<data key="d18">
 					<y:ViewState>
@@ -1535,7 +1535,7 @@
 			</port>
 			<port name="p12">
 				<data key="d16">
-					<y:FreeNodePortLocationModelParameter Ratio="0,0.6538461538461541"/>
+					<y:FreeNodePortLocationModelParameter Ratio="0,0.3461538461538461"/>
 				</data>
 				<data key="d18">
 					<y:ViewState>
@@ -1549,7 +1549,7 @@
 			</port>
 			<port name="p13">
 				<data key="d16">
-					<y:FreeNodePortLocationModelParameter Ratio="0,0.9615384615384616"/>
+					<y:FreeNodePortLocationModelParameter Ratio="0,0.1153846153846153"/>
 				</data>
 				<data key="d18">
 					<y:ViewState>
@@ -1563,7 +1563,7 @@
 			</port>
 			<port name="p14">
 				<data key="d16">
-					<y:FreeNodePortLocationModelParameter Ratio="0,0.8846153846153847"/>
+					<y:FreeNodePortLocationModelParameter Ratio="0,0.038461538461538436"/>
 				</data>
 				<data key="d18">
 					<y:ViewState>
@@ -1577,7 +1577,7 @@
 			</port>
 			<port name="p15">
 				<data key="d16">
-					<y:FreeNodePortLocationModelParameter Ratio="0,0.8076923076923075"/>
+					<y:FreeNodePortLocationModelParameter Ratio="0,0.19230769230769215"/>
 				</data>
 				<data key="d18">
 					<y:ViewState>
@@ -1591,7 +1591,7 @@
 			</port>
 			<port name="p16">
 				<data key="d16">
-					<y:FreeNodePortLocationModelParameter Ratio="0,0.730769230769231"/>
+					<y:FreeNodePortLocationModelParameter Ratio="0,0.2692307692307691"/>
 				</data>
 				<data key="d18">
 					<y:ViewState>
@@ -1605,7 +1605,7 @@
 			</port>
 			<port name="p17">
 				<data key="d16">
-					<y:FreeNodePortLocationModelParameter Ratio="0,0.1153846153846153"/>
+					<y:FreeNodePortLocationModelParameter Ratio="0,0.8846153846153847"/>
 				</data>
 				<data key="d18">
 					<y:ViewState>
@@ -1619,7 +1619,7 @@
 			</port>
 			<port name="p18">
 				<data key="d16">
-					<y:FreeNodePortLocationModelParameter Ratio="0,0.038461538461538436"/>
+					<y:FreeNodePortLocationModelParameter Ratio="0,0.9615384615384616"/>
 				</data>
 				<data key="d18">
 					<y:ViewState>
@@ -1649,7 +1649,7 @@
 				</x:List>
 			</data>
 			<data key="d5">
-				<y:RectD X="1030.7566598962321" Y="-2236" Width="390" Height="60"/>
+				<y:RectD X="1101.4673380148865" Y="-716" Width="409.2433401037679" Height="60"/>
 			</data>
 			<data key="d7">
 				<yjs:ShapeNodeStyle stroke="{y:GraphMLReference 16}" fill="#FFA3D64D" shape="ROUND_RECTANGLE"/>
@@ -1691,7 +1691,7 @@
 				</x:List>
 			</data>
 			<data key="d5">
-				<y:RectD X="1030.7566598962321" Y="-1583.5" Width="390" Height="511.5"/>
+				<y:RectD X="1086.4673380148865" Y="-1820" Width="439.2433401037679" Height="511.5"/>
 			</data>
 			<data key="d7">
 				<yjs:ShapeNodeStyle stroke="{y:GraphMLReference 16}" fill="{y:GraphMLReference 17}" shape="ROUND_RECTANGLE"/>
@@ -1703,7 +1703,7 @@
 			</data>
 			<port name="p0">
 				<data key="d16">
-					<y:FreeNodePortLocationModelParameter Ratio="0,0.11538461538461528"/>
+					<y:FreeNodePortLocationModelParameter Ratio="0,0.8846153846153847"/>
 				</data>
 				<data key="d18">
 					<y:ViewState>
@@ -1717,7 +1717,7 @@
 			</port>
 			<port name="p1">
 				<data key="d16">
-					<y:FreeNodePortLocationModelParameter Ratio="0,0.26923076923076944"/>
+					<y:FreeNodePortLocationModelParameter Ratio="0,0.8076923076923078"/>
 				</data>
 				<data key="d18">
 					<y:ViewState>
@@ -1731,7 +1731,7 @@
 			</port>
 			<port name="p2">
 				<data key="d16">
-					<y:FreeNodePortLocationModelParameter Ratio="0,0.19230769230769212"/>
+					<y:FreeNodePortLocationModelParameter Ratio="0,0.6538461538461537"/>
 				</data>
 				<data key="d18">
 					<y:ViewState>
@@ -1755,7 +1755,7 @@
 			</port>
 			<port name="p4">
 				<data key="d16">
-					<y:FreeNodePortLocationModelParameter Ratio="0,0.3461538461538463"/>
+					<y:FreeNodePortLocationModelParameter Ratio="0,0.5769230769230769"/>
 				</data>
 				<data key="d18">
 					<y:ViewState>
@@ -1769,7 +1769,7 @@
 			</port>
 			<port name="p5">
 				<data key="d16">
-					<y:FreeNodePortLocationModelParameter Ratio="0,0.42307692307692313"/>
+					<y:FreeNodePortLocationModelParameter Ratio="0,0.7307692307692306"/>
 				</data>
 				<data key="d18">
 					<y:ViewState>
@@ -1783,7 +1783,7 @@
 			</port>
 			<port name="p6">
 				<data key="d16">
-					<y:FreeNodePortLocationModelParameter Ratio="0,0.5769230769230769"/>
+					<y:FreeNodePortLocationModelParameter Ratio="0,0.42307692307692313"/>
 				</data>
 				<data key="d18">
 					<y:ViewState>
@@ -1811,7 +1811,7 @@
 			</port>
 			<port name="p8">
 				<data key="d16">
-					<y:FreeNodePortLocationModelParameter Ratio="0,0.03846153846153843"/>
+					<y:FreeNodePortLocationModelParameter Ratio="0,0.9615384615384616"/>
 				</data>
 				<data key="d18">
 					<y:ViewState>
@@ -1825,7 +1825,7 @@
 			</port>
 			<port name="p9">
 				<data key="d16">
-					<y:FreeNodePortLocationModelParameter Ratio="0,0.6538461538461537"/>
+					<y:FreeNodePortLocationModelParameter Ratio="0,0.3461538461538463"/>
 				</data>
 				<data key="d18">
 					<y:ViewState>
@@ -1839,7 +1839,7 @@
 			</port>
 			<port name="p10">
 				<data key="d16">
-					<y:FreeNodePortLocationModelParameter Ratio="0,0.7307692307692306"/>
+					<y:FreeNodePortLocationModelParameter Ratio="0,0.26923076923076944"/>
 				</data>
 				<data key="d18">
 					<y:ViewState>
@@ -1853,7 +1853,7 @@
 			</port>
 			<port name="p11">
 				<data key="d16">
-					<y:FreeNodePortLocationModelParameter Ratio="0,0.9615384615384616"/>
+					<y:FreeNodePortLocationModelParameter Ratio="0,0.11538461538461528"/>
 				</data>
 				<data key="d18">
 					<y:ViewState>
@@ -1867,7 +1867,7 @@
 			</port>
 			<port name="p12">
 				<data key="d16">
-					<y:FreeNodePortLocationModelParameter Ratio="0,0.8846153846153847"/>
+					<y:FreeNodePortLocationModelParameter Ratio="0,0.03846153846153843"/>
 				</data>
 				<data key="d18">
 					<y:ViewState>
@@ -1881,7 +1881,7 @@
 			</port>
 			<port name="p13">
 				<data key="d16">
-					<y:FreeNodePortLocationModelParameter Ratio="0,0.8076923076923078"/>
+					<y:FreeNodePortLocationModelParameter Ratio="0,0.19230769230769212"/>
 				</data>
 				<data key="d18">
 					<y:ViewState>
@@ -1939,7 +1939,7 @@
 				</x:List>
 			</data>
 			<data key="d5">
-				<y:RectD X="2447.7190737607184" Y="-1121.5791666666664" Width="390" Height="201.6392857142855"/>
+				<y:RectD X="2511.8477631085025" Y="-1976.782738095238" Width="390" Height="201.6392857142855"/>
 			</data>
 			<data key="d7">
 				<yjs:ShapeNodeStyle stroke="{y:GraphMLReference 16}" fill="{y:GraphMLReference 17}" shape="ROUND_RECTANGLE"/>
@@ -1951,7 +1951,7 @@
 			</data>
 			<port name="p0">
 				<data key="d16">
-					<y:FreeNodePortLocationModelParameter Ratio="0,0.875"/>
+					<y:FreeNodePortLocationModelParameter Ratio="0,0.125"/>
 				</data>
 				<data key="d18">
 					<y:ViewState>
@@ -1975,7 +1975,7 @@
 			</port>
 			<port name="p2">
 				<data key="d16">
-					<y:FreeNodePortLocationModelParameter Ratio="0,0.375"/>
+					<y:FreeNodePortLocationModelParameter Ratio="0,0.625"/>
 				</data>
 				<data key="d18">
 					<y:ViewState>
@@ -2003,7 +2003,7 @@
 			</port>
 			<port name="p4">
 				<data key="d16">
-					<y:FreeNodePortLocationModelParameter Ratio="0,0.625"/>
+					<y:FreeNodePortLocationModelParameter Ratio="0,0.375"/>
 				</data>
 				<data key="d18">
 					<y:ViewState>
@@ -2013,7 +2013,7 @@
 			</port>
 			<port name="p5">
 				<data key="d16">
-					<y:FreeNodePortLocationModelParameter Ratio="0,0.125"/>
+					<y:FreeNodePortLocationModelParameter Ratio="0,0.875"/>
 				</data>
 				<data key="d18">
 					<y:ViewState>
@@ -2043,7 +2043,7 @@
 				</x:List>
 			</data>
 			<data key="d5">
-				<y:RectD X="2447.7190737607184" Y="-278.2295634920634" Width="390" Height="201.6392857142855"/>
+				<y:RectD X="2511.8477631085025" Y="-2925.409722222222" Width="390" Height="201.6392857142855"/>
 			</data>
 			<data key="d7">
 				<yjs:ShapeNodeStyle stroke="{y:GraphMLReference 16}" fill="{y:GraphMLReference 17}" shape="ROUND_RECTANGLE"/>
@@ -2055,7 +2055,7 @@
 			</data>
 			<port name="p0">
 				<data key="d16">
-					<y:FreeNodePortLocationModelParameter Ratio="0,0.75"/>
+					<y:FreeNodePortLocationModelParameter Ratio="0,0.25"/>
 				</data>
 				<data key="d18">
 					<y:ViewState>
@@ -2083,7 +2083,7 @@
 			</port>
 			<port name="p2">
 				<data key="d16">
-					<y:FreeNodePortLocationModelParameter Ratio="0,0.25"/>
+					<y:FreeNodePortLocationModelParameter Ratio="0,0.75"/>
 				</data>
 				<data key="d18">
 					<y:ViewState>
@@ -2147,7 +2147,7 @@
 				</x:List>
 			</data>
 			<data key="d5">
-				<y:RectD X="1030.7566598962321" Y="-862" Width="390" Height="60"/>
+				<y:RectD X="1086.4673380148865" Y="-2000" Width="439.2433401037679" Height="60"/>
 			</data>
 			<data key="d7">
 				<yjs:ShapeNodeStyle stroke="{y:GraphMLReference 16}" fill="{y:GraphMLReference 25}" shape="ROUND_RECTANGLE"/>
@@ -2185,7 +2185,7 @@
 				</x:List>
 			</data>
 			<data key="d5">
-				<y:RectD X="1030.7566598962321" Y="-952" Width="390" Height="60"/>
+				<y:RectD X="1086.4673380148865" Y="-2180" Width="439.2433401037679" Height="60"/>
 			</data>
 			<data key="d7">
 				<yjs:ShapeNodeStyle stroke="{y:GraphMLReference 16}" fill="#FFA3D64D" shape="ROUND_RECTANGLE"/>
@@ -2215,7 +2215,7 @@
 			<data key="d4">
 				<x:List>
 					<y:Label LayoutParameter="{y:GraphMLReference 7}">
-						<y:Label.Text><![CDATA[Place ball by other team or human]]></y:Label.Text>
+						<y:Label.Text><![CDATA[Stop -> Place ball by other team or human]]></y:Label.Text>
 						<y:Label.Style>
 							<yjs:DefaultLabelStyle verticalTextAlignment="CENTER" horizontalTextAlignment="CENTER" textFill="BLACK" textSize="22">
 								<yjs:DefaultLabelStyle.font>
@@ -2227,10 +2227,10 @@
 				</x:List>
 			</data>
 			<data key="d5">
-				<y:RectD X="1030.7566598962321" Y="-772" Width="390" Height="60"/>
+				<y:RectD X="1086.4673380148865" Y="-2090" Width="439.2433401037679" Height="60"/>
 			</data>
 			<data key="d7">
-				<yjs:ShapeNodeStyle stroke="{y:GraphMLReference 16}" fill="#FFE2E26F" shape="ROUND_RECTANGLE"/>
+				<yjs:ShapeNodeStyle stroke="{y:GraphMLReference 16}" fill="#FFA3D64D" shape="ROUND_RECTANGLE"/>
 			</data>
 			<data key="d8">
 				<y:ViewState>
@@ -2269,7 +2269,7 @@
 				</x:List>
 			</data>
 			<data key="d5">
-				<y:RectD X="410.28427124746213" Y="-668" Width="390" Height="60"/>
+				<y:RectD X="465.99494936611654" Y="-2324" Width="390" Height="60"/>
 			</data>
 			<data key="d7">
 				<yjs:ShapeNodeStyle stroke="{y:GraphMLReference 16}" fill="#FFE2C96F" shape="ROUND_RECTANGLE"/>
@@ -2301,7 +2301,7 @@
 			</port>
 			<port name="p2">
 				<data key="d16">
-					<y:FreeNodePortLocationModelParameter Ratio="0,0.75"/>
+					<y:FreeNodePortLocationModelParameter Ratio="0,0.25"/>
 				</data>
 				<data key="d18">
 					<y:ViewState>
@@ -2329,7 +2329,7 @@
 			</port>
 			<port name="p4">
 				<data key="d16">
-					<y:FreeNodePortLocationModelParameter Ratio="0,0.25"/>
+					<y:FreeNodePortLocationModelParameter Ratio="0,0.75"/>
 				</data>
 				<data key="d18">
 					<y:ViewState>
@@ -2355,7 +2355,7 @@
 				</x:List>
 			</data>
 			<data key="d5">
-				<y:RectD X="1609.7566598962321" Y="-1954.7472222222223" Width="314" Height="1533.7472222222223"/>
+				<y:RectD X="1714.7106781186544" Y="-2383" Width="314" Height="1455"/>
 			</data>
 			<data key="d7">
 				<yjs:GroupNodeStyle tabWidth="223" tabHeight="20" tabInset="3" tabPosition="TOP_TRAILING" groupIcon="MINUS" iconForegroundFill="{y:GraphMLReference 1}" iconOffset="2" hitTransparentContentArea="true" tabBackgroundFill="{y:GraphMLReference 2}" contentAreaFill="{y:GraphMLReference 3}" tabFill="{y:GraphMLReference 4}" stroke="{y:GraphMLReference 5}"/>
@@ -2371,7 +2371,7 @@
 						</x:List>
 					</data>
 					<data key="d5">
-						<y:RectD X="1616.7566598962321" Y="-1357.75" Width="300" Height="60"/>
+						<y:RectD X="1721.7106781186544" Y="-1594.25" Width="300" Height="60"/>
 					</data>
 					<data key="d7">
 						<yjs:ShapeNodeStyle stroke="{y:GraphMLReference 8}" fill="{y:GraphMLReference 9}" shape="ROUND_RECTANGLE"/>
@@ -2402,7 +2402,7 @@
 						</x:List>
 					</data>
 					<data key="d5">
-						<y:RectD X="1616.7566598962321" Y="-488" Width="300" Height="60"/>
+						<y:RectD X="1721.7106781186544" Y="-2356" Width="300" Height="60"/>
 					</data>
 					<data key="d7">
 						<yjs:ShapeNodeStyle stroke="{y:GraphMLReference 8}" fill="{y:GraphMLReference 9}" shape="ROUND_RECTANGLE"/>
@@ -2419,7 +2419,7 @@
 					</port>
 					<port name="p2">
 						<data key="d16">
-							<y:FreeNodePortLocationModelParameter Ratio="1,0.75"/>
+							<y:FreeNodePortLocationModelParameter Ratio="1,0.25"/>
 						</data>
 					</port>
 					<port name="p3">
@@ -2429,7 +2429,7 @@
 					</port>
 					<port name="p4">
 						<data key="d16">
-							<y:FreeNodePortLocationModelParameter Ratio="1,0.25"/>
+							<y:FreeNodePortLocationModelParameter Ratio="1,0.75"/>
 						</data>
 					</port>
 				</node>
@@ -2443,7 +2443,7 @@
 						</x:List>
 					</data>
 					<data key="d5">
-						<y:RectD X="1616.7566598962321" Y="-1927.7472222222223" Width="300" Height="60"/>
+						<y:RectD X="1721.7106781186544" Y="-1265" Width="300" Height="60"/>
 					</data>
 					<data key="d7">
 						<yjs:ShapeNodeStyle stroke="{y:GraphMLReference 8}" fill="{y:GraphMLReference 9}" shape="ROUND_RECTANGLE"/>
@@ -2484,7 +2484,7 @@
 						</x:List>
 					</data>
 					<data key="d5">
-						<y:RectD X="1616.7566598962321" Y="-668" Width="300" Height="60"/>
+						<y:RectD X="1721.7106781186544" Y="-2266" Width="300" Height="60"/>
 					</data>
 					<data key="d7">
 						<yjs:ShapeNodeStyle stroke="{y:GraphMLReference 8}" fill="{y:GraphMLReference 9}" shape="ROUND_RECTANGLE"/>
@@ -2520,7 +2520,7 @@
 						</x:List>
 					</data>
 					<data key="d5">
-						<y:RectD X="1616.7566598962321" Y="-1816.5" Width="300" Height="60"/>
+						<y:RectD X="1721.7106781186544" Y="-1085" Width="300" Height="60"/>
 					</data>
 					<data key="d7">
 						<yjs:ShapeNodeStyle stroke="{y:GraphMLReference 8}" fill="{y:GraphMLReference 9}" shape="ROUND_RECTANGLE"/>
@@ -2556,7 +2556,7 @@
 						</x:List>
 					</data>
 					<data key="d5">
-						<y:RectD X="1616.7566598962321" Y="-1636.5" Width="300" Height="60"/>
+						<y:RectD X="1721.7106781186544" Y="-995" Width="300" Height="60"/>
 					</data>
 					<data key="d7">
 						<yjs:ShapeNodeStyle stroke="{y:GraphMLReference 8}" fill="{y:GraphMLReference 9}" shape="ROUND_RECTANGLE"/>
@@ -2587,7 +2587,7 @@
 						</x:List>
 					</data>
 					<data key="d5">
-						<y:RectD X="1616.7566598962321" Y="-1726.5" Width="300" Height="60"/>
+						<y:RectD X="1721.7106781186544" Y="-1175" Width="300" Height="60"/>
 					</data>
 					<data key="d7">
 						<yjs:ShapeNodeStyle stroke="{y:GraphMLReference 8}" fill="{y:GraphMLReference 9}" shape="ROUND_RECTANGLE"/>
@@ -2599,7 +2599,7 @@
 					</port>
 					<port name="p1">
 						<data key="d16">
-							<y:FreeNodePortLocationModelParameter Ratio="1,0.75"/>
+							<y:FreeNodePortLocationModelParameter Ratio="1,0.25"/>
 						</data>
 					</port>
 					<port name="p2">
@@ -2614,7 +2614,7 @@
 					</port>
 					<port name="p4">
 						<data key="d16">
-							<y:FreeNodePortLocationModelParameter Ratio="1,0.25"/>
+							<y:FreeNodePortLocationModelParameter Ratio="1,0.75"/>
 						</data>
 					</port>
 				</node>
@@ -2640,7 +2640,7 @@
 				</x:List>
 			</data>
 			<data key="d5">
-				<y:RectD X="418.28427124746213" Y="-578" Width="374" Height="578"/>
+				<y:RectD X="473.99494936611654" Y="-2932" Width="374" Height="578"/>
 			</data>
 			<data key="d7">
 				<yjs:GroupNodeStyle tabWidth="223" tabHeight="20" tabInset="3" tabPosition="TOP_TRAILING" groupIcon="MINUS" iconForegroundFill="{y:GraphMLReference 1}" iconOffset="2" hitTransparentContentArea="true" tabBackgroundFill="{y:GraphMLReference 2}" contentAreaFill="{y:GraphMLReference 3}" tabFill="{y:GraphMLReference 4}" stroke="{y:GraphMLReference 5}"/>
@@ -2656,7 +2656,7 @@
 						</x:List>
 					</data>
 					<data key="d5">
-						<y:RectD X="455.28427124746213" Y="-551" Width="300" Height="60"/>
+						<y:RectD X="510.99494936611654" Y="-2725" Width="300" Height="60"/>
 					</data>
 					<data key="d7">
 						<yjs:ShapeNodeStyle stroke="{y:GraphMLReference 8}" fill="{y:GraphMLReference 9}" shape="ROUND_RECTANGLE"/>
@@ -2689,7 +2689,7 @@
 						</x:List>
 					</data>
 					<data key="d5">
-						<y:RectD X="455.28427124746213" Y="-67" Width="300" Height="60"/>
+						<y:RectD X="510.99494936611654" Y="-2815" Width="300" Height="60"/>
 					</data>
 					<data key="d7">
 						<yjs:ShapeNodeStyle stroke="{y:GraphMLReference 8}" fill="{y:GraphMLReference 9}" shape="ROUND_RECTANGLE"/>
@@ -2722,7 +2722,7 @@
 						</x:List>
 					</data>
 					<data key="d5">
-						<y:RectD X="455.28427124746213" Y="-157" Width="300" Height="60"/>
+						<y:RectD X="510.99494936611654" Y="-2905" Width="300" Height="60"/>
 					</data>
 					<data key="d7">
 						<yjs:ShapeNodeStyle stroke="{y:GraphMLReference 8}" fill="{y:GraphMLReference 9}" shape="ROUND_RECTANGLE"/>
@@ -2758,7 +2758,7 @@
 						</x:List>
 					</data>
 					<data key="d5">
-						<y:RectD X="448.28427124746213" Y="-461" Width="314" Height="274"/>
+						<y:RectD X="503.99494936611654" Y="-2635" Width="314" Height="274"/>
 					</data>
 					<data key="d7">
 						<yjs:GroupNodeStyle tabWidth="223" tabHeight="20" tabInset="3" tabPosition="TOP_TRAILING" groupIcon="MINUS" iconForegroundFill="{y:GraphMLReference 1}" iconOffset="2" hitTransparentContentArea="true" tabBackgroundFill="{y:GraphMLReference 2}" contentAreaFill="{y:GraphMLReference 3}" tabFill="{y:GraphMLReference 4}" stroke="{y:GraphMLReference 5}"/>
@@ -2774,19 +2774,19 @@
 								</x:List>
 							</data>
 							<data key="d5">
-								<y:RectD X="455.28427124746213" Y="-254" Width="300" Height="60"/>
+								<y:RectD X="510.99494936611654" Y="-2518" Width="300" Height="60"/>
 							</data>
 							<data key="d7">
 								<yjs:ShapeNodeStyle stroke="{y:GraphMLReference 8}" fill="{y:GraphMLReference 9}" shape="ROUND_RECTANGLE"/>
 							</data>
 							<port name="p0">
 								<data key="d16">
-									<y:FreeNodePortLocationModelParameter Ratio="1,0.75"/>
+									<y:FreeNodePortLocationModelParameter Ratio="1,0.25"/>
 								</data>
 							</port>
 							<port name="p1">
 								<data key="d16">
-									<y:FreeNodePortLocationModelParameter Ratio="1,0.25"/>
+									<y:FreeNodePortLocationModelParameter Ratio="1,0.75"/>
 								</data>
 							</port>
 							<port name="p2">
@@ -2805,19 +2805,19 @@
 								</x:List>
 							</data>
 							<data key="d5">
-								<y:RectD X="455.28427124746213" Y="-344" Width="300" Height="60"/>
+								<y:RectD X="510.99494936611654" Y="-2608" Width="300" Height="60"/>
 							</data>
 							<data key="d7">
 								<yjs:ShapeNodeStyle stroke="{y:GraphMLReference 8}" fill="{y:GraphMLReference 9}" shape="ROUND_RECTANGLE"/>
 							</data>
 							<port name="p0">
 								<data key="d16">
-									<y:FreeNodePortLocationModelParameter Ratio="1,0.75"/>
+									<y:FreeNodePortLocationModelParameter Ratio="1,0.25"/>
 								</data>
 							</port>
 							<port name="p1">
 								<data key="d16">
-									<y:FreeNodePortLocationModelParameter Ratio="1,0.25"/>
+									<y:FreeNodePortLocationModelParameter Ratio="1,0.75"/>
 								</data>
 							</port>
 							<port name="p2">
@@ -2836,19 +2836,19 @@
 								</x:List>
 							</data>
 							<data key="d5">
-								<y:RectD X="455.28427124746213" Y="-434" Width="300" Height="60"/>
+								<y:RectD X="510.99494936611654" Y="-2428" Width="300" Height="60"/>
 							</data>
 							<data key="d7">
 								<yjs:ShapeNodeStyle stroke="{y:GraphMLReference 8}" fill="{y:GraphMLReference 9}" shape="ROUND_RECTANGLE"/>
 							</data>
 							<port name="p0">
 								<data key="d16">
-									<y:FreeNodePortLocationModelParameter Ratio="1,0.75"/>
+									<y:FreeNodePortLocationModelParameter Ratio="1,0.25"/>
 								</data>
 							</port>
 							<port name="p1">
 								<data key="d16">
-									<y:FreeNodePortLocationModelParameter Ratio="1,0.25"/>
+									<y:FreeNodePortLocationModelParameter Ratio="1,0.75"/>
 								</data>
 							</port>
 							<port name="p2">
@@ -2890,7 +2890,7 @@
 				</x:List>
 			</data>
 			<data key="d5">
-				<y:RectD X="1105.7566598962321" Y="-2450" Width="240" Height="60"/>
+				<y:RectD X="1186.0890080667705" Y="-502" Width="240" Height="60"/>
 			</data>
 			<data key="d7">
 				<yjs:ShapeNodeStyle stroke="{y:GraphMLReference 16}" fill="#FF6FE2D2" shape="ROUND_RECTANGLE"/>
@@ -2945,19 +2945,19 @@
 				</x:List>
 			</data>
 			<data key="d5">
-				<y:RectD X="0" Y="-404" Width="180" Height="180"/>
+				<y:RectD X="0" Y="-2668" Width="180" Height="180"/>
 			</data>
 			<data key="d7">
 				<demostyle:AssetNodeStyle assetName="usericon_female5a.svg" clipMode="outline"/>
 			</data>
 			<port name="p0">
 				<data key="d16">
-					<y:FreeNodePortLocationModelParameter Ratio="1,0.0714285714285716"/>
+					<y:FreeNodePortLocationModelParameter Ratio="1,0.9285714285714296"/>
 				</data>
 			</port>
 			<port name="p1">
 				<data key="d16">
-					<y:FreeNodePortLocationModelParameter Ratio="1,0.3571428571428571"/>
+					<y:FreeNodePortLocationModelParameter Ratio="1,0.7857142857142865"/>
 				</data>
 			</port>
 			<port name="p2">
@@ -2967,22 +2967,22 @@
 			</port>
 			<port name="p3">
 				<data key="d16">
-					<y:FreeNodePortLocationModelParameter Ratio="1,0.6428571428571426"/>
+					<y:FreeNodePortLocationModelParameter Ratio="1,0.6428571428571432"/>
 				</data>
 			</port>
 			<port name="p4">
 				<data key="d16">
-					<y:FreeNodePortLocationModelParameter Ratio="1,0.9285714285714286"/>
+					<y:FreeNodePortLocationModelParameter Ratio="1,0.21428571428571355"/>
 				</data>
 			</port>
 			<port name="p5">
 				<data key="d16">
-					<y:FreeNodePortLocationModelParameter Ratio="1,0.7857142857142858"/>
+					<y:FreeNodePortLocationModelParameter Ratio="1,0.07142857142857034"/>
 				</data>
 			</port>
 			<port name="p6">
 				<data key="d16">
-					<y:FreeNodePortLocationModelParameter Ratio="1,0.2142857142857142"/>
+					<y:FreeNodePortLocationModelParameter Ratio="1,0.35714285714285676"/>
 				</data>
 			</port>
 		</node>
@@ -2996,7 +2996,7 @@
 				</x:List>
 			</data>
 			<data key="d5">
-				<y:RectD X="1135.7566598962321" Y="-1816.5" Width="180" Height="180"/>
+				<y:RectD X="1216.0890080667705" Y="-1115" Width="180" Height="180"/>
 			</data>
 			<data key="d7">
 				<demostyle:AssetNodeStyle assetName="usericon_male3a.svg" clipMode="outline"/>
@@ -3023,12 +3023,12 @@
 			</port>
 			<port name="p4">
 				<data key="d16">
-					<y:FreeNodePortLocationModelParameter Ratio="1,0.5"/>
+					<y:FreeNodePortLocationModelParameter Ratio="1,0.16666666666666666"/>
 				</data>
 			</port>
 			<port name="p5">
 				<data key="d16">
-					<y:FreeNodePortLocationModelParameter Ratio="1,0.16666666666666666"/>
+					<y:FreeNodePortLocationModelParameter Ratio="1,0.5"/>
 				</data>
 			</port>
 		</node>
@@ -3037,8 +3037,9 @@
 			<data key="d4">
 				<x:List>
 					<y:Label LayoutParameter="{y:GraphMLReference 7}">
-						<y:Label.Text><![CDATA[Team has 10s to remove robots
-(unless other team flags advantage)]]></y:Label.Text>
+						<y:Label.Text><![CDATA[If there are too many robots on the field,
+10 s have passed since yellow card and
+other team flags no advantage]]></y:Label.Text>
 						<y:Label.Style>
 							<yjs:DefaultLabelStyle verticalTextAlignment="CENTER" horizontalTextAlignment="CENTER" textFill="BLACK" textSize="22">
 								<yjs:DefaultLabelStyle.font>
@@ -3050,7 +3051,7 @@
 				</x:List>
 			</data>
 			<data key="d5">
-				<y:RectD X="1030.7566598962321" Y="-1948.9942460317461" Width="390" Height="102.4940476190477"/>
+				<y:RectD X="1086.4673380148865" Y="-1278.4999007936508" Width="439.2433401037679" Height="133.4998015873016"/>
 			</data>
 			<data key="d7">
 				<yjs:ShapeNodeStyle stroke="{y:GraphMLReference 16}" fill="#FFE2C96F" shape="ROUND_RECTANGLE"/>
@@ -3154,44 +3155,44 @@
 				</x:List>
 			</data>
 			<data key="d5">
-				<y:RectD X="0" Y="-2021" Width="180" Height="180"/>
+				<y:RectD X="0" Y="-961" Width="180" Height="180"/>
 			</data>
 			<data key="d7">
 				<demostyle:AssetNodeStyle assetName="server.svg" clipMode="outline"/>
 			</data>
 			<port name="p0">
 				<data key="d16">
-					<y:FreeNodePortLocationModelParameter Ratio="1,0.08333333333333333"/>
+					<y:FreeNodePortLocationModelParameter Ratio="1,0.9166666666666666"/>
 				</data>
 			</port>
 			<port name="p1">
 				<data key="d16">
-					<y:FreeNodePortLocationModelParameter Ratio="1,0.3055555555555556"/>
+					<y:FreeNodePortLocationModelParameter Ratio="1,0.6944444444444444"/>
 				</data>
 			</port>
 			<port name="p2">
 				<data key="d16">
-					<y:FreeNodePortLocationModelParameter Ratio="1,0.19444444444444445"/>
+					<y:FreeNodePortLocationModelParameter Ratio="1,0.8055555555555556"/>
 				</data>
 			</port>
 			<port name="p3">
 				<data key="d16">
-					<y:FreeNodePortLocationModelParameter Ratio="1,0.1388888888888889"/>
+					<y:FreeNodePortLocationModelParameter Ratio="1,0.8611111111111112"/>
 				</data>
 			</port>
 			<port name="p4">
 				<data key="d16">
-					<y:FreeNodePortLocationModelParameter Ratio="1,0.25"/>
+					<y:FreeNodePortLocationModelParameter Ratio="1,0.75"/>
 				</data>
 			</port>
 			<port name="p5">
 				<data key="d16">
-					<y:FreeNodePortLocationModelParameter Ratio="1,0.4166666666666667"/>
+					<y:FreeNodePortLocationModelParameter Ratio="1,0.5833333333333334"/>
 				</data>
 			</port>
 			<port name="p6">
 				<data key="d16">
-					<y:FreeNodePortLocationModelParameter Ratio="1,0.4722222222222222"/>
+					<y:FreeNodePortLocationModelParameter Ratio="1,0.5277777777777778"/>
 				</data>
 			</port>
 			<port name="p7">
@@ -3201,57 +3202,57 @@
 			</port>
 			<port name="p8">
 				<data key="d16">
-					<y:FreeNodePortLocationModelParameter Ratio="1,0.6388888888888888"/>
+					<y:FreeNodePortLocationModelParameter Ratio="1,0.3611111111111111"/>
 				</data>
 			</port>
 			<port name="p9">
 				<data key="d16">
-					<y:FreeNodePortLocationModelParameter Ratio="1,0.3611111111111111"/>
+					<y:FreeNodePortLocationModelParameter Ratio="1,0.6388888888888888"/>
 				</data>
 			</port>
 			<port name="p10">
 				<data key="d16">
-					<y:FreeNodePortLocationModelParameter Ratio="1,0.5277777777777778"/>
+					<y:FreeNodePortLocationModelParameter Ratio="1,0.4166666666666667"/>
 				</data>
 			</port>
 			<port name="p11">
 				<data key="d16">
-					<y:FreeNodePortLocationModelParameter Ratio="1,0.5833333333333334"/>
+					<y:FreeNodePortLocationModelParameter Ratio="1,0.4722222222222222"/>
 				</data>
 			</port>
 			<port name="p12">
 				<data key="d16">
-					<y:FreeNodePortLocationModelParameter Ratio="1,0.75"/>
+					<y:FreeNodePortLocationModelParameter Ratio="1,0.25"/>
 				</data>
 			</port>
 			<port name="p13">
 				<data key="d16">
-					<y:FreeNodePortLocationModelParameter Ratio="1,0.6944444444444444"/>
+					<y:FreeNodePortLocationModelParameter Ratio="1,0.3055555555555556"/>
 				</data>
 			</port>
 			<port name="p14">
 				<data key="d16">
-					<y:FreeNodePortLocationModelParameter Ratio="1,0.027777777777777776"/>
+					<y:FreeNodePortLocationModelParameter Ratio="1,0.9722222222222222"/>
 				</data>
 			</port>
 			<port name="p15">
 				<data key="d16">
-					<y:FreeNodePortLocationModelParameter Ratio="1,0.8055555555555556"/>
+					<y:FreeNodePortLocationModelParameter Ratio="1,0.19444444444444445"/>
 				</data>
 			</port>
 			<port name="p16">
 				<data key="d16">
-					<y:FreeNodePortLocationModelParameter Ratio="1,0.8611111111111112"/>
+					<y:FreeNodePortLocationModelParameter Ratio="1,0.1388888888888889"/>
 				</data>
 			</port>
 			<port name="p17">
 				<data key="d16">
-					<y:FreeNodePortLocationModelParameter Ratio="1,0.9722222222222222"/>
+					<y:FreeNodePortLocationModelParameter Ratio="1,0.08333333333333333"/>
 				</data>
 			</port>
 			<port name="p18">
 				<data key="d16">
-					<y:FreeNodePortLocationModelParameter Ratio="1,0.9166666666666666"/>
+					<y:FreeNodePortLocationModelParameter Ratio="1,0.027777777777777776"/>
 				</data>
 			</port>
 		</node>
@@ -3272,34 +3273,34 @@
 				</x:List>
 			</data>
 			<data key="d5">
-				<y:RectD X="0" Y="-868" Width="180" Height="180"/>
+				<y:RectD X="0" Y="-2114" Width="180" Height="180"/>
 			</data>
 			<data key="d7">
 				<demostyle:AssetNodeStyle assetName="flat-server.svg" clipMode="outline"/>
 			</data>
 			<port name="p0">
 				<data key="d16">
-					<y:FreeNodePortLocationModelParameter Ratio="1,0.3"/>
+					<y:FreeNodePortLocationModelParameter Ratio="1,0.5"/>
 				</data>
 			</port>
 			<port name="p1">
 				<data key="d16">
-					<y:FreeNodePortLocationModelParameter Ratio="1,0.1"/>
+					<y:FreeNodePortLocationModelParameter Ratio="1,0.9"/>
 				</data>
 			</port>
 			<port name="p2">
 				<data key="d16">
-					<y:FreeNodePortLocationModelParameter Ratio="1,0.7"/>
+					<y:FreeNodePortLocationModelParameter Ratio="1,0.3"/>
 				</data>
 			</port>
 			<port name="p3">
 				<data key="d16">
-					<y:FreeNodePortLocationModelParameter Ratio="1,0.5"/>
+					<y:FreeNodePortLocationModelParameter Ratio="1,0.7"/>
 				</data>
 			</port>
 			<port name="p4">
 				<data key="d16">
-					<y:FreeNodePortLocationModelParameter Ratio="1,0.9"/>
+					<y:FreeNodePortLocationModelParameter Ratio="1,0.1"/>
 				</data>
 			</port>
 		</node>
@@ -3320,7 +3321,7 @@
 				</x:List>
 			</data>
 			<data key="d5">
-				<y:RectD X="1030.7566598962321" Y="-1042" Width="390" Height="60"/>
+				<y:RectD X="1086.4673380148865" Y="-1910" Width="439.2433401037679" Height="60"/>
 			</data>
 			<data key="d7">
 				<yjs:ShapeNodeStyle stroke="{y:GraphMLReference 16}" fill="{y:GraphMLReference 25}" shape="ROUND_RECTANGLE"/>
@@ -3367,14 +3368,14 @@
 		<edge id="e1" source="n0::n1" target="n5" sourceport="p0" targetport="p0">
 			<data key="d12">
 				<x:List>
-					<y:Bend Location="870.0459817775773,-1659"/>
-					<y:Bend Location="884.1881174013083,-1673.142135623731"/>
-					<y:Bend Location="884.1881174013083,-2041.8578643762692"/>
-					<y:Bend Location="898.3302530250392,-2056"/>
-					<y:Bend Location="2387.756659896232,-2056"/>
-					<y:Bend Location="2402.609473638618,-2041.147186257614"/>
-					<y:Bend Location="2402.609473638618,-1548.5900522903976"/>
-					<y:Bend Location="2416.751609262349,-1534.4479166666665"/>
+					<y:Bend Location="999.0409311436937,-1377"/>
+					<y:Bend Location="1013.1830667674247,-1362.857864376269"/>
+					<y:Bend Location="1013.1830667674247,-896.142135623731"/>
+					<y:Bend Location="1027.3252023911557,-882"/>
+					<y:Bend Location="2207.8014851729977,-882"/>
+					<y:Bend Location="2320.279220613578,-994.4777354405805"/>
+					<y:Bend Location="2320.279220613578,-1579.7718524715071"/>
+					<y:Bend Location="2334.4213562373093,-1593.9139880952382"/>
 				</x:List>
 			</data>
 			<data key="d13">
@@ -3394,10 +3395,10 @@
 		<edge id="e2" source="n0::n0::n0" target="n6" sourceport="p0" targetport="p0">
 			<data key="d12">
 				<x:List>
-					<y:Bend Location="2098.756659896232,-2330"/>
-					<y:Bend Location="2387.609473638618,-2041.147186257614"/>
-					<y:Bend Location="2387.609473638618,-1333.7540403856356"/>
-					<y:Bend Location="2401.751609262349,-1319.6119047619047"/>
+					<y:Bend Location="2203.7106781186544,-562"/>
+					<y:Bend Location="2379.4213562373093,-737.7106781186549"/>
+					<y:Bend Location="2379.4213562373093,-1331.3292929476977"/>
+					<y:Bend Location="2393.5634918610403,-1345.4714285714288"/>
 				</x:List>
 			</data>
 			<data key="d13">
@@ -3415,12 +3416,6 @@
 			</data>
 		</edge>
 		<edge id="e3" source="n0::n0::n1" target="n7" sourceport="p0" targetport="p0">
-			<data key="d12">
-				<x:List>
-					<y:Bend Location="2098.756659896232,-2510"/>
-					<y:Bend Location="2103.479164474987,-2514.722504578755"/>
-				</x:List>
-			</data>
 			<data key="d13">
 				<yjs:PolylineEdgeStyle>
 					<yjs:PolylineEdgeStyle.stroke>
@@ -3438,8 +3433,8 @@
 		<edge id="e4" source="n0::n0::n2" target="n7" sourceport="p0" targetport="p1">
 			<data key="d12">
 				<x:List>
-					<y:Bend Location="2098.756659896232,-2600"/>
-					<y:Bend Location="2108.201745366318,-2609.445085470086"/>
+					<y:Bend Location="2203.7106781186544,-292"/>
+					<y:Bend Location="2208.4331445411212,-287.27753357753346"/>
 				</x:List>
 			</data>
 			<data key="d13">
@@ -3466,6 +3461,12 @@
 			</data>
 		</edge>
 		<edge id="e6" source="n18" target="n7" sourceport="p1" targetport="p2">
+			<data key="d12">
+				<x:List>
+					<y:Bend Location="2203.710678118654,-472"/>
+					<y:Bend Location="2208.4333734788493,-476.72269536019525"/>
+				</x:List>
+			</data>
 			<data key="d13">
 				<yjs:PolylineEdgeStyle>
 					<yjs:PolylineEdgeStyle.stroke>
@@ -3483,12 +3484,12 @@
 		<edge id="e7" source="n0::n3::n0" target="n7" sourceport="p1" targetport="p7">
 			<data key="d12">
 				<x:List>
-					<y:Bend Location="822.2842712474621,-2131"/>
-					<y:Bend Location="837.2842712474621,-2146"/>
-					<y:Bend Location="2297.756659896232,-2146"/>
-					<y:Bend Location="2311.898795519963,-2160.142135623731"/>
-					<y:Bend Location="2311.898795519963,-2311.135207172362"/>
-					<y:Bend Location="2326.0409311436943,-2325.277342796093"/>
+					<y:Bend Location="877.9949493661165,-761"/>
+					<y:Bend Location="892.9949493661165,-746"/>
+					<y:Bend Location="2394.4213562373093,-746"/>
+					<y:Bend Location="2408.5634918610403,-731.8578643762689"/>
+					<y:Bend Location="2408.5634918610403,-585.5874118752571"/>
+					<y:Bend Location="2422.7056274847714,-571.4452762515261"/>
 				</x:List>
 			</data>
 			<data key="d13">
@@ -3508,14 +3509,14 @@
 		<edge id="e8" source="n0::n3::n1" target="n7" sourceport="p1" targetport="p8">
 			<data key="d12">
 				<x:List>
-					<y:Bend Location="822.2842712474621,-1951"/>
-					<y:Bend Location="851.4264068711932,-1980.142135623731"/>
-					<y:Bend Location="851.4264068711932,-2071.857864376269"/>
-					<y:Bend Location="865.5685424949243,-2086"/>
-					<y:Bend Location="2357.756659896232,-2086"/>
-					<y:Bend Location="2371.898795519963,-2100.142135623731"/>
-					<y:Bend Location="2371.898795519963,-2121.6900453897"/>
-					<y:Bend Location="2386.0409311436943,-2135.832181013431"/>
+					<y:Bend Location="877.9949493661165,-851"/>
+					<y:Bend Location="892.1370849898475,-836.857864376269"/>
+					<y:Bend Location="892.1370849898475,-790.142135623731"/>
+					<y:Bend Location="906.2792206135784,-776"/>
+					<y:Bend Location="2394.4213562373093,-776"/>
+					<y:Bend Location="2423.5634918610403,-746.8578643762689"/>
+					<y:Bend Location="2423.5634918610403,-680.3099927665882"/>
+					<y:Bend Location="2437.7056274847714,-666.1678571428571"/>
 				</x:List>
 			</data>
 			<data key="d13">
@@ -3535,14 +3536,12 @@
 		<edge id="e9" source="n0::n3::n2" target="n7" sourceport="p0" targetport="p6">
 			<data key="d12">
 				<x:List>
-					<y:Bend Location="822.284271247462,-2041"/>
-					<y:Bend Location="836.4264068711931,-2055.142135623731"/>
-					<y:Bend Location="836.4264068711931,-2101.857864376269"/>
-					<y:Bend Location="850.5685424949241,-2116"/>
-					<y:Bend Location="2327.756659896232,-2116"/>
-					<y:Bend Location="2341.898795519963,-2130.142135623731"/>
-					<y:Bend Location="2341.898795519963,-2216.412626281031"/>
-					<y:Bend Location="2356.0409311436943,-2230.554761904762"/>
+					<y:Bend Location="877.9949493661165,-1031"/>
+					<y:Bend Location="907.1370849898475,-1001.857864376269"/>
+					<y:Bend Location="907.1370849898475,-820.142135623731"/>
+					<y:Bend Location="921.2792206135784,-806"/>
+					<y:Bend Location="2394.4213562373093,-806"/>
+					<y:Bend Location="2439.530918203121,-760.890438034188"/>
 				</x:List>
 			</data>
 			<data key="d13">
@@ -3571,10 +3570,10 @@
 		<edge id="e11" source="n0::n3::n0" target="n9" sourceport="p2" targetport="p0">
 			<data key="d12">
 				<x:List>
-					<y:Bend Location="911.6145242725011,-2101"/>
-					<y:Bend Location="986.6145242725011,-2026"/>
-					<y:Bend Location="986.6145242725011,-1538.6229048545001"/>
-					<y:Bend Location="1000.7566598962319,-1524.4807692307693"/>
+					<y:Bend Location="951.3252023911557,-791"/>
+					<y:Bend Location="1042.3252023911557,-882"/>
+					<y:Bend Location="1042.3252023911557,-1353.3770951454999"/>
+					<y:Bend Location="1056.4673380148865,-1367.5192307692307"/>
 				</x:List>
 			</data>
 			<data key="d13">
@@ -3594,10 +3593,10 @@
 		<edge id="e12" source="n0::n3::n1" target="n9" sourceport="p2" targetport="p1">
 			<data key="d12">
 				<x:List>
-					<y:Bend Location="899.1881174013082,-1921"/>
-					<y:Bend Location="913.3302530250393,-1906.857864376269"/>
-					<y:Bend Location="913.3302530250393,-1459.9305971621923"/>
-					<y:Bend Location="927.4723886487701,-1445.7884615384614"/>
+					<y:Bend Location="954.8987955199628,-881"/>
+					<y:Bend Location="984.0409311436938,-910.142135623731"/>
+					<y:Bend Location="984.0409311436938,-1392.7232489916537"/>
+					<y:Bend Location="998.1830667674246,-1406.8653846153845"/>
 				</x:List>
 			</data>
 			<data key="d13">
@@ -3617,10 +3616,10 @@
 		<edge id="e13" source="n0::n3::n2" target="n9" sourceport="p1" targetport="p2">
 			<data key="d12">
 				<x:List>
-					<y:Bend Location="899.1881174013082,-2011"/>
-					<y:Bend Location="928.3302530250393,-1981.857864376269"/>
-					<y:Bend Location="928.3302530250393,-1499.2767510083463"/>
-					<y:Bend Location="942.4723886487701,-1485.1346153846155"/>
+					<y:Bend Location="877.9949493661165,-1061"/>
+					<y:Bend Location="910.7566598962319,-1093.7617105301154"/>
+					<y:Bend Location="910.7566598962319,-1471.4155566839613"/>
+					<y:Bend Location="924.898795519963,-1485.5576923076924"/>
 				</x:List>
 			</data>
 			<data key="d13">
@@ -3640,10 +3639,10 @@
 		<edge id="e14" source="n0::n3::n4" target="n9" sourceport="p1" targetport="p4">
 			<data key="d12">
 				<x:List>
-					<y:Bend Location="822.2842712474622,-1846"/>
-					<y:Bend Location="855.0459817775774,-1813.2382894698849"/>
-					<y:Bend Location="855.0459817775774,-1420.5844433160387"/>
-					<y:Bend Location="869.1881174013084,-1406.4423076923076"/>
+					<y:Bend Location="877.9949493661165,-1136"/>
+					<y:Bend Location="895.7566598962319,-1153.7617105301154"/>
+					<y:Bend Location="895.7566598962319,-1510.7617105301151"/>
+					<y:Bend Location="909.898795519963,-1524.9038461538462"/>
 				</x:List>
 			</data>
 			<data key="d13">
@@ -3663,10 +3662,10 @@
 		<edge id="e15" source="n0::n3::n5" target="n9" sourceport="p1" targetport="p5">
 			<data key="d12">
 				<x:List>
-					<y:Bend Location="822.2842712474622,-1756"/>
-					<y:Bend Location="840.0459817775774,-1738.2382894698849"/>
-					<y:Bend Location="840.0459817775774,-1381.2382894698849"/>
-					<y:Bend Location="854.1881174013084,-1367.0961538461538"/>
+					<y:Bend Location="954.8987955199628,-956"/>
+					<y:Bend Location="969.0409311436938,-970.142135623731"/>
+					<y:Bend Location="969.0409311436938,-1432.0694028378077"/>
+					<y:Bend Location="983.1830667674246,-1446.2115384615386"/>
 				</x:List>
 			</data>
 			<data key="d13">
@@ -3686,8 +3685,8 @@
 		<edge id="e16" source="n1::n0::n0" target="n9" sourceport="p0" targetport="p6">
 			<data key="d12">
 				<x:List>
-					<y:Bend Location="822.2842712474621,-1294"/>
-					<y:Bend Location="827.8804250936159,-1288.4038461538462"/>
+					<y:Bend Location="877.9949493661165,-1598"/>
+					<y:Bend Location="883.5911032122704,-1603.5961538461538"/>
 				</x:List>
 			</data>
 			<data key="d13">
@@ -3707,10 +3706,10 @@
 		<edge id="e17" source="n1::n0::n1" target="n9" sourceport="p0" targetport="p7">
 			<data key="d12">
 				<x:List>
-					<y:Bend Location="822.284271247462,-1384"/>
-					<y:Bend Location="836.4264068711931,-1369.857864376269"/>
-					<y:Bend Location="836.4264068711931,-1341.8921356237308"/>
-					<y:Bend Location="850.5685424949239,-1327.75"/>
+					<y:Bend Location="877.9949493661164,-1508"/>
+					<y:Bend Location="892.1370849898475,-1522.142135623731"/>
+					<y:Bend Location="892.1370849898475,-1550.1078643762692"/>
+					<y:Bend Location="906.2792206135783,-1564.25"/>
 				</x:List>
 			</data>
 			<data key="d13">
@@ -3730,10 +3729,10 @@
 		<edge id="e18" source="n2::n0::n0" target="n9" sourceport="p0" targetport="p8">
 			<data key="d12">
 				<x:List>
-					<y:Bend Location="822.2842712474621,-2833"/>
-					<y:Bend Location="1001.6145242725011,-2653.669746974961"/>
-					<y:Bend Location="1001.6145242725011,-1577.969058700654"/>
-					<y:Bend Location="1015.7566598962319,-1563.826923076923"/>
+					<y:Bend Location="877.9949493661165,-59"/>
+					<y:Bend Location="1057.3252023911557,-238.33025302503916"/>
+					<y:Bend Location="1057.3252023911557,-1314.030941299346"/>
+					<y:Bend Location="1071.4673380148865,-1328.173076923077"/>
 				</x:List>
 			</data>
 			<data key="d13">
@@ -3792,10 +3791,10 @@
 		<edge id="e19" source="n3::n0::n0" target="n9" sourceport="p0" targetport="p9">
 			<data key="d12">
 				<x:List>
-					<y:Bend Location="822.284271247462,-1136"/>
-					<y:Bend Location="836.4264068711931,-1150.142135623731"/>
-					<y:Bend Location="836.4264068711931,-1234.9155566839615"/>
-					<y:Bend Location="850.5685424949239,-1249.0576923076924"/>
+					<y:Bend Location="877.9949493661164,-1756"/>
+					<y:Bend Location="892.1370849898475,-1741.857864376269"/>
+					<y:Bend Location="892.1370849898475,-1657.0844433160385"/>
+					<y:Bend Location="906.2792206135783,-1642.9423076923076"/>
 				</x:List>
 			</data>
 			<data key="d13">
@@ -3815,10 +3814,10 @@
 		<edge id="e20" source="n3::n0::n1" target="n9" sourceport="p0" targetport="p10">
 			<data key="d12">
 				<x:List>
-					<y:Bend Location="822.2842712474621,-1061"/>
-					<y:Bend Location="851.4264068711932,-1090.142135623731"/>
-					<y:Bend Location="851.4264068711932,-1195.5694028378077"/>
-					<y:Bend Location="865.568542494924,-1209.7115384615386"/>
+					<y:Bend Location="877.9949493661164,-1831"/>
+					<y:Bend Location="907.1370849898475,-1801.857864376269"/>
+					<y:Bend Location="907.1370849898475,-1696.4305971621925"/>
+					<y:Bend Location="921.2792206135786,-1682.2884615384614"/>
 				</x:List>
 			</data>
 			<data key="d13">
@@ -3865,12 +3864,12 @@
 		<edge id="e24" source="n0::n4::n0" target="n7" sourceport="p0" targetport="p12">
 			<data key="d12">
 				<x:List>
-					<y:Bend Location="943.3302530250392,-1542"/>
-					<y:Bend Location="957.4723886487702,-1556.142135623731"/>
-					<y:Bend Location="957.4723886487702,-2011.8578643762692"/>
-					<y:Bend Location="971.6145242725011,-2026"/>
-					<y:Bend Location="2417.609473638618,-2026"/>
-					<y:Bend Location="2432.719073760718,-2041.1096001221001"/>
+					<y:Bend Location="925.7566598962318,-1260"/>
+					<y:Bend Location="939.8987955199628,-1245.857864376269"/>
+					<y:Bend Location="939.8987955199628,-866.142135623731"/>
+					<y:Bend Location="954.0409311436938,-852"/>
+					<y:Bend Location="2203.7106781186544,-852"/>
+					<y:Bend Location="2207.3236970441735,-855.613018925519"/>
 				</x:List>
 			</data>
 			<data key="d13">
@@ -3929,10 +3928,10 @@
 		<edge id="e25" source="n17::n3::n0" target="n7" sourceport="p0" targetport="p13">
 			<data key="d12">
 				<x:List>
-					<y:Bend Location="2222.2211890802023,-209"/>
-					<y:Bend Location="2314.3252023911564,-301.1040133109541"/>
-					<y:Bend Location="2314.3252023911564,-1648.0771409330457"/>
-					<y:Bend Location="2328.467338014887,-1662.2192765567765"/>
+					<y:Bend Location="2203.7106781186544,-2503"/>
+					<y:Bend Location="2423.5634918610403,-2283.147186257614"/>
+					<y:Bend Location="2423.5634918610403,-1153.9228972232427"/>
+					<y:Bend Location="2437.7056274847714,-1139.7807615995116"/>
 				</x:List>
 			</data>
 			<data key="d13">
@@ -3952,10 +3951,10 @@
 		<edge id="e26" source="n17::n3::n1" target="n7" sourceport="p0" targetport="p14">
 			<data key="d12">
 				<x:List>
-					<y:Bend Location="2226.898795519963,-299"/>
-					<y:Bend Location="2256.0409311436943,-328.14213562373106"/>
-					<y:Bend Location="2256.0409311436943,-1742.7997218243763"/>
-					<y:Bend Location="2270.1830667674253,-1756.9418574481074"/>
+					<y:Bend Location="2203.7106781186544,-2593"/>
+					<y:Bend Location="2438.5634918610403,-2358.147186257614"/>
+					<y:Bend Location="2438.5634918610403,-1248.6454781145735"/>
+					<y:Bend Location="2452.7056274847714,-1234.5033424908424"/>
 				</x:List>
 			</data>
 			<data key="d13">
@@ -3975,10 +3974,10 @@
 		<edge id="e27" source="n17::n3::n2" target="n7" sourceport="p0" targetport="p15">
 			<data key="d12">
 				<x:List>
-					<y:Bend Location="2226.898795519963,-389"/>
-					<y:Bend Location="2241.0409311436943,-403.14213562373106"/>
-					<y:Bend Location="2241.0409311436943,-1837.5223027157076"/>
-					<y:Bend Location="2255.183066767425,-1851.6644383394384"/>
+					<y:Bend Location="2268.7106781186544,-2413"/>
+					<y:Bend Location="2408.5634918610403,-2273.147186257614"/>
+					<y:Bend Location="2408.5634918610403,-1059.2003163319116"/>
+					<y:Bend Location="2422.705627484771,-1045.0581807081808"/>
 				</x:List>
 			</data>
 			<data key="d13">
@@ -3998,10 +3997,10 @@
 		<edge id="e28" source="n17::n3::n0" target="n9" sourceport="p1" targetport="p11">
 			<data key="d12">
 				<x:List>
-					<y:Bend Location="822.2842712474621,-239"/>
-					<y:Bend Location="896.4264068711932,-313.14213562373106"/>
-					<y:Bend Location="896.4264068711932,-1077.530941299346"/>
-					<y:Bend Location="910.568542494924,-1091.673076923077"/>
+					<y:Bend Location="877.9949493661164,-2473"/>
+					<y:Bend Location="937.1370849898475,-2413.857864376269"/>
+					<y:Bend Location="937.1370849898475,-1775.1229048545001"/>
+					<y:Bend Location="951.2792206135783,-1760.9807692307693"/>
 				</x:List>
 			</data>
 			<data key="d13">
@@ -4021,10 +4020,10 @@
 		<edge id="e29" source="n17::n3::n1" target="n9" sourceport="p1" targetport="p12">
 			<data key="d12">
 				<x:List>
-					<y:Bend Location="822.2842712474621,-329"/>
-					<y:Bend Location="881.4264068711932,-388.14213562373106"/>
-					<y:Bend Location="881.4264068711932,-1116.8770951454999"/>
-					<y:Bend Location="895.568542494924,-1131.0192307692307"/>
+					<y:Bend Location="877.9949493661164,-2563"/>
+					<y:Bend Location="952.1370849898475,-2488.857864376269"/>
+					<y:Bend Location="952.1370849898475,-1814.469058700654"/>
+					<y:Bend Location="966.2792206135783,-1800.326923076923"/>
 				</x:List>
 			</data>
 			<data key="d13">
@@ -4044,10 +4043,10 @@
 		<edge id="e30" source="n17::n3::n2" target="n9" sourceport="p1" targetport="p13">
 			<data key="d12">
 				<x:List>
-					<y:Bend Location="822.2842712474621,-419"/>
-					<y:Bend Location="866.4264068711932,-463.14213562373106"/>
-					<y:Bend Location="866.4264068711932,-1156.2232489916537"/>
-					<y:Bend Location="880.568542494924,-1170.3653846153845"/>
+					<y:Bend Location="877.9949493661164,-2383"/>
+					<y:Bend Location="922.1370849898475,-2338.857864376269"/>
+					<y:Bend Location="922.1370849898475,-1735.7767510083463"/>
+					<y:Bend Location="936.2792206135783,-1721.6346153846155"/>
 				</x:List>
 			</data>
 			<data key="d13">
@@ -4067,10 +4066,10 @@
 		<edge id="e31" source="n17::n1" target="n10" sourceport="p0" targetport="p0">
 			<data key="d12">
 				<x:List>
-					<y:Bend Location="2098.756659896232,-37"/>
-					<y:Bend Location="2329.3252023911564,-267.56854249492426"/>
-					<y:Bend Location="2329.3252023911564,-931.0026560429357"/>
-					<y:Bend Location="2343.4673380148874,-945.1447916666667"/>
+					<y:Bend Location="2203.7106781186544,-2785"/>
+					<y:Bend Location="2453.5634918610403,-2535.147186257614"/>
+					<y:Bend Location="2453.5634918610403,-1965.7199630046834"/>
+					<y:Bend Location="2467.7056274847714,-1951.5778273809524"/>
 				</x:List>
 			</data>
 			<data key="d13">
@@ -4105,10 +4104,10 @@
 		<edge id="e33" source="n16::n6" target="n10" sourceport="p1" targetport="p5">
 			<data key="d12">
 				<x:List>
-					<y:Bend Location="2157.0409311436943,-1681.5"/>
-					<y:Bend Location="2171.1830667674253,-1667.357864376269"/>
-					<y:Bend Location="2171.1830667674253,-1110.5163915761116"/>
-					<y:Bend Location="2185.3252023911564,-1096.3742559523807"/>
+					<y:Bend Location="2261.994949366116,-1160"/>
+					<y:Bend Location="2305.279220613578,-1203.2842712474621"/>
+					<y:Bend Location="2305.279220613578,-1786.2062274715074"/>
+					<y:Bend Location="2319.421356237309,-1800.3483630952383"/>
 				</x:List>
 			</data>
 			<data key="d13">
@@ -4128,10 +4127,10 @@
 		<edge id="e34" source="n16::n3" target="n7" sourceport="p1" targetport="p16">
 			<data key="d12">
 				<x:List>
-					<y:Bend Location="2098.756659896232,-638"/>
-					<y:Bend Location="2142.0409311436943,-681.2842712474621"/>
-					<y:Bend Location="2142.0409311436943,-1932.2448836070384"/>
-					<y:Bend Location="2156.183066767425,-1946.3870192307693"/>
+					<y:Bend Location="2203.7106781186544,-2236"/>
+					<y:Bend Location="2246.994949366116,-2192.7157287525383"/>
+					<y:Bend Location="2246.994949366116,-964.4777354405809"/>
+					<y:Bend Location="2261.137084989847,-950.3355998168499"/>
 				</x:List>
 			</data>
 			<data key="d13">
@@ -4177,10 +4176,10 @@
 		<edge id="e36" source="n16::n0" target="n10" sourceport="p2" targetport="p2">
 			<data key="d12">
 				<x:List>
-					<y:Bend Location="2098.756659896232,-1327.75"/>
-					<y:Bend Location="2112.898795519963,-1313.607864376269"/>
-					<y:Bend Location="2112.898795519963,-1060.1065701475402"/>
-					<y:Bend Location="2127.0409311436943,-1045.9644345238094"/>
+					<y:Bend Location="2203.7106781186544,-1564.25"/>
+					<y:Bend Location="2217.8528137423855,-1578.392135623731"/>
+					<y:Bend Location="2217.8528137423855,-1836.6160489000788"/>
+					<y:Bend Location="2231.994949366116,-1850.7581845238096"/>
 				</x:List>
 			</data>
 			<data key="d13">
@@ -4203,7 +4202,7 @@
 					<y:Label>
 						<y:Label.Text><![CDATA[Yellow card turns into red card]]></y:Label.Text>
 						<y:Label.LayoutParameter>
-							<y:FreeEdgeLabelModelParameter Ratio="0.2887312525008322" Distance="-49.77344266389254" Model="{y:GraphMLReference 30}"/>
+							<y:FreeEdgeLabelModelParameter Ratio="0.1970264502564292" Distance="113.90331496901952" Model="{y:GraphMLReference 30}"/>
 						</y:Label.LayoutParameter>
 						<y:Label.Style>
 							<yjs:DefaultLabelStyle verticalTextAlignment="CENTER" horizontalTextAlignment="CENTER" textFill="BLACK" textSize="14">
@@ -4217,12 +4216,10 @@
 			</data>
 			<data key="d12">
 				<x:List>
-					<y:Bend Location="1953.7566598962321,-443"/>
-					<y:Bend Location="1969.7566598962321,-427"/>
-					<y:Bend Location="2197.756659896232,-427"/>
-					<y:Bend Location="2211.898795519963,-412.85786437626894"/>
-					<y:Bend Location="2211.898795519963,-241.96187768722297"/>
-					<y:Bend Location="2226.0409311436943,-227.81974206349201"/>
+					<y:Bend Location="2468.5634918610403,-2341"/>
+					<y:Bend Location="2482.7056274847714,-2355.142135623731"/>
+					<y:Bend Location="2482.7056274847714,-2760.038122312777"/>
+					<y:Bend Location="2496.8477631085025,-2774.180257936508"/>
 				</x:List>
 			</data>
 			<data key="d13">
@@ -4242,10 +4239,10 @@
 		<edge id="e38" source="n19" target="n15" sourceport="p0" targetport="p2">
 			<data key="d12">
 				<x:List>
-					<y:Bend Location="195,-391.1428571428571"/>
-					<y:Bend Location="209.14213562373095,-405.28499276658806"/>
-					<y:Bend Location="209.14213562373095,-608.857864376269"/>
-					<y:Bend Location="223.2842712474619,-623"/>
+					<y:Bend Location="194.9999999999999,-2500.8571428571427"/>
+					<y:Bend Location="209.14213562373095,-2486.7150072334116"/>
+					<y:Bend Location="209.14213562373095,-2323.142135623731"/>
+					<y:Bend Location="223.28427124746202,-2309"/>
 				</x:List>
 			</data>
 			<data key="d13">
@@ -4257,6 +4254,14 @@
 			</data>
 		</edge>
 		<edge id="e39" source="n15" target="n16::n3" sourceport="p3" targetport="p3">
+			<data key="d12">
+				<x:List>
+					<y:Bend Location="870.9949493661164,-2294"/>
+					<y:Bend Location="885.1370849898475,-2279.857864376269"/>
+					<y:Bend Location="885.1370849898475,-2250.142135623731"/>
+					<y:Bend Location="899.2792206135786,-2236"/>
+				</x:List>
+			</data>
 			<data key="d13">
 				<yjs:PolylineEdgeStyle targetArrow="{y:GraphMLReference 28}" sourceArrow="{y:GraphMLReference 29}">
 					<yjs:PolylineEdgeStyle.stroke>
@@ -4266,6 +4271,12 @@
 			</data>
 		</edge>
 		<edge id="e40" source="n21" target="n16::n2" sourceport="p5" targetport="p3">
+			<data key="d12">
+				<x:List>
+					<y:Bend Location="1540.7106781186544,-1211.75"/>
+					<y:Bend Location="1563.9606781186544,-1235"/>
+				</x:List>
+			</data>
 			<data key="d13">
 				<yjs:PolylineEdgeStyle targetArrow="{y:GraphMLReference 28}" sourceArrow="{y:GraphMLReference 29}">
 					<yjs:PolylineEdgeStyle.stroke>
@@ -4277,10 +4288,10 @@
 		<edge id="e41" source="n22" target="n0::n2" sourceport="p0" targetport="p0">
 			<data key="d12">
 				<x:List>
-					<y:Bend Location="200,-2006"/>
-					<y:Bend Location="224.14213562373106,-2030.142135623731"/>
-					<y:Bend Location="224.14213562373106,-2702.857864376269"/>
-					<y:Bend Location="238.28427124746213,-2717"/>
+					<y:Bend Location="200,-796"/>
+					<y:Bend Location="224.14213562373095,-771.857864376269"/>
+					<y:Bend Location="224.14213562373095,-209.14213562373095"/>
+					<y:Bend Location="238.2842712474619,-195"/>
 				</x:List>
 			</data>
 			<data key="d13">
@@ -4294,10 +4305,10 @@
 		<edge id="e42" source="n22" target="n0::n0::n0" sourceport="p1" targetport="p1">
 			<data key="d12">
 				<x:List>
-					<y:Bend Location="220,-1966"/>
-					<y:Bend Location="284.14213562373106,-2030.142135623731"/>
-					<y:Bend Location="284.14213562373106,-2315.857864376269"/>
-					<y:Bend Location="298.28427124746213,-2330"/>
+					<y:Bend Location="220,-836"/>
+					<y:Bend Location="284.14213562373095,-771.857864376269"/>
+					<y:Bend Location="284.14213562373095,-576.142135623731"/>
+					<y:Bend Location="298.2842712474619,-562"/>
 				</x:List>
 			</data>
 			<data key="d13">
@@ -4311,10 +4322,10 @@
 		<edge id="e43" source="n22" target="n0::n0::n1" sourceport="p2" targetport="p1">
 			<data key="d12">
 				<x:List>
-					<y:Bend Location="210,-1986"/>
-					<y:Bend Location="254.14213562373106,-2030.142135623731"/>
-					<y:Bend Location="254.14213562373106,-2495.857864376269"/>
-					<y:Bend Location="268.28427124746213,-2510"/>
+					<y:Bend Location="210,-816"/>
+					<y:Bend Location="254.14213562373095,-771.857864376269"/>
+					<y:Bend Location="254.14213562373095,-396.14213562373095"/>
+					<y:Bend Location="268.2842712474619,-382"/>
 				</x:List>
 			</data>
 			<data key="d13">
@@ -4328,10 +4339,10 @@
 		<edge id="e44" source="n22" target="n0::n0::n2" sourceport="p3" targetport="p1">
 			<data key="d12">
 				<x:List>
-					<y:Bend Location="205,-1996"/>
-					<y:Bend Location="239.14213562373106,-2030.142135623731"/>
-					<y:Bend Location="239.14213562373106,-2585.857864376269"/>
-					<y:Bend Location="253.28427124746213,-2600"/>
+					<y:Bend Location="205,-806"/>
+					<y:Bend Location="239.14213562373095,-771.857864376269"/>
+					<y:Bend Location="239.14213562373095,-306.14213562373095"/>
+					<y:Bend Location="253.2842712474619,-292"/>
 				</x:List>
 			</data>
 			<data key="d13">
@@ -4345,10 +4356,10 @@
 		<edge id="e45" source="n22" target="n0::n0::n3" sourceport="p4" targetport="p1">
 			<data key="d12">
 				<x:List>
-					<y:Bend Location="215,-1976"/>
-					<y:Bend Location="269.14213562373106,-2030.142135623731"/>
-					<y:Bend Location="269.14213562373106,-2405.857864376269"/>
-					<y:Bend Location="283.28427124746213,-2420"/>
+					<y:Bend Location="215,-826"/>
+					<y:Bend Location="269.14213562373095,-771.857864376269"/>
+					<y:Bend Location="269.14213562373095,-486.14213562373095"/>
+					<y:Bend Location="283.2842712474619,-472"/>
 				</x:List>
 			</data>
 			<data key="d13">
@@ -4362,10 +4373,8 @@
 		<edge id="e46" source="n22" target="n0::n3::n0" sourceport="p5" targetport="p3">
 			<data key="d12">
 				<x:List>
-					<y:Bend Location="230,-1946"/>
-					<y:Bend Location="314.14213562373106,-2030.142135623731"/>
-					<y:Bend Location="314.14213562373106,-2101.857864376269"/>
-					<y:Bend Location="328.28427124746213,-2116"/>
+					<y:Bend Location="234.14213562373095,-856"/>
+					<y:Bend Location="314.14213562373095,-776"/>
 				</x:List>
 			</data>
 			<data key="d13">
@@ -4388,10 +4397,10 @@
 		<edge id="e48" source="n23" target="n0::n1" sourceport="p0" targetport="p1">
 			<data key="d12">
 				<x:List>
-					<y:Bend Location="220.2842712474619,-814"/>
-					<y:Bend Location="359.14213562373095,-952.857864376269"/>
-					<y:Bend Location="359.14213562373095,-1644.857864376269"/>
-					<y:Bend Location="373.284271247462,-1659"/>
+					<y:Bend Location="271.71067811865464,-2024"/>
+					<y:Bend Location="325.71067811865464,-1970"/>
+					<y:Bend Location="325.71067811865464,-1391.1421356237308"/>
+					<y:Bend Location="339.8528137423855,-1377"/>
 				</x:List>
 			</data>
 			<data key="d13">
@@ -4411,10 +4420,10 @@
 		<edge id="e49" source="n23" target="n0::n3::n2" sourceport="p1" targetport="p3">
 			<data key="d12">
 				<x:List>
-					<y:Bend Location="224.14213562373095,-850"/>
-					<y:Bend Location="344.14213562373095,-970"/>
-					<y:Bend Location="344.14213562373095,-2011.8578643762692"/>
-					<y:Bend Location="358.2842712474618,-2026"/>
+					<y:Bend Location="194.9999999999999,-1952"/>
+					<y:Bend Location="209.14213562373095,-1937.857864376269"/>
+					<y:Bend Location="209.14213562373095,-1060.1421356237308"/>
+					<y:Bend Location="223.2842712474618,-1046"/>
 				</x:List>
 			</data>
 			<data key="d13">
@@ -4449,10 +4458,10 @@
 		<edge id="e51" source="n23" target="n0::n4::n0" sourceport="p3" targetport="p1">
 			<data key="d12">
 				<x:List>
-					<y:Bend Location="199.2842712474619,-778"/>
-					<y:Bend Location="374.14213562373095,-952.857864376269"/>
-					<y:Bend Location="374.14213562373095,-1512.857864376269"/>
-					<y:Bend Location="388.284271247462,-1527"/>
+					<y:Bend Location="253.2842712474618,-1988"/>
+					<y:Bend Location="267.42640687119285,-1973.857864376269"/>
+					<y:Bend Location="267.42640687119285,-1289.1421356237308"/>
+					<y:Bend Location="281.5685424949237,-1275"/>
 				</x:List>
 			</data>
 			<data key="d13">
@@ -4505,10 +4514,10 @@
 		<edge id="e52" source="n22" target="n0::n4::n0" sourceport="p8" targetport="p2">
 			<data key="d12">
 				<x:List>
-					<y:Bend Location="224.9999999999999,-1906"/>
-					<y:Bend Location="299.14213562373095,-1831.857864376269"/>
-					<y:Bend Location="299.14213562373095,-1571.142135623731"/>
-					<y:Bend Location="313.284271247462,-1557"/>
+					<y:Bend Location="225.0000000000001,-896"/>
+					<y:Bend Location="414.8528137423856,-1085.8528137423855"/>
+					<y:Bend Location="414.8528137423856,-1230.857864376269"/>
+					<y:Bend Location="428.99494936611666,-1245"/>
 				</x:List>
 			</data>
 			<data key="d13">
@@ -4548,10 +4557,10 @@
 		<edge id="e53" source="n22" target="n0::n3::n3" sourceport="p9" targetport="p3">
 			<data key="d12">
 				<x:List>
-					<y:Bend Location="225,-1956"/>
-					<y:Bend Location="299.14213562373106,-2030.142135623731"/>
-					<y:Bend Location="299.14213562373106,-2191.857864376269"/>
-					<y:Bend Location="313.28427124746213,-2206"/>
+					<y:Bend Location="225,-846"/>
+					<y:Bend Location="299.14213562373095,-771.857864376269"/>
+					<y:Bend Location="299.14213562373095,-700.142135623731"/>
+					<y:Bend Location="313.2842712474619,-686"/>
 				</x:List>
 			</data>
 			<data key="d13">
@@ -4565,8 +4574,10 @@
 		<edge id="e54" source="n22" target="n0::n3::n4" sourceport="p10" targetport="p2">
 			<data key="d12">
 				<x:List>
-					<y:Bend Location="249.14213562373095,-1926"/>
-					<y:Bend Location="329.14213562373095,-1846"/>
+					<y:Bend Location="230.0000000000001,-886"/>
+					<y:Bend Location="429.8528137423856,-1085.8528137423855"/>
+					<y:Bend Location="429.8528137423856,-1121.857864376269"/>
+					<y:Bend Location="443.99494936611666,-1136"/>
 				</x:List>
 			</data>
 			<data key="d13">
@@ -4580,10 +4591,8 @@
 		<edge id="e55" source="n22" target="n0::n3::n5" sourceport="p11" targetport="p2">
 			<data key="d12">
 				<x:List>
-					<y:Bend Location="229.9999999999999,-1916"/>
-					<y:Bend Location="314.14213562373095,-1831.857864376269"/>
-					<y:Bend Location="314.14213562373095,-1770.142135623731"/>
-					<y:Bend Location="328.284271247462,-1756"/>
+					<y:Bend Location="235.0000000000001,-876"/>
+					<y:Bend Location="315.0000000000001,-956"/>
 				</x:List>
 			</data>
 			<data key="d13">
@@ -4597,10 +4606,10 @@
 		<edge id="e56" source="n22" target="n1::n0::n0" sourceport="p12" targetport="p1">
 			<data key="d12">
 				<x:List>
-					<y:Bend Location="214.9999999999999,-1886"/>
-					<y:Bend Location="269.14213562373095,-1831.857864376269"/>
-					<y:Bend Location="269.14213562373095,-1308.142135623731"/>
-					<y:Bend Location="283.284271247462,-1294"/>
+					<y:Bend Location="215.0000000000001,-916"/>
+					<y:Bend Location="384.8528137423856,-1085.8528137423855"/>
+					<y:Bend Location="384.8528137423856,-1583.857864376269"/>
+					<y:Bend Location="398.99494936611666,-1598"/>
 				</x:List>
 			</data>
 			<data key="d13">
@@ -4614,10 +4623,10 @@
 		<edge id="e57" source="n22" target="n1::n0::n1" sourceport="p13" targetport="p1">
 			<data key="d12">
 				<x:List>
-					<y:Bend Location="219.9999999999999,-1896"/>
-					<y:Bend Location="284.14213562373095,-1831.857864376269"/>
-					<y:Bend Location="284.14213562373095,-1398.142135623731"/>
-					<y:Bend Location="298.284271247462,-1384"/>
+					<y:Bend Location="220.0000000000001,-906"/>
+					<y:Bend Location="399.8528137423856,-1085.8528137423855"/>
+					<y:Bend Location="399.8528137423856,-1493.857864376269"/>
+					<y:Bend Location="413.99494936611666,-1508"/>
 				</x:List>
 			</data>
 			<data key="d13">
@@ -4631,10 +4640,10 @@
 		<edge id="e58" source="n22" target="n2::n0::n0" sourceport="p14" targetport="p1">
 			<data key="d12">
 				<x:List>
-					<y:Bend Location="194.9999999999999,-2016"/>
-					<y:Bend Location="209.14213562373095,-2030.142135623731"/>
-					<y:Bend Location="209.14213562373095,-2833.857864376269"/>
-					<y:Bend Location="223.28427124746202,-2848"/>
+					<y:Bend Location="195,-786"/>
+					<y:Bend Location="209.14213562373095,-771.857864376269"/>
+					<y:Bend Location="209.14213562373095,-58.14213562373095"/>
+					<y:Bend Location="223.2842712474619,-44"/>
 				</x:List>
 			</data>
 			<data key="d13">
@@ -4674,10 +4683,10 @@
 		<edge id="e59" source="n22" target="n3::n0::n0" sourceport="p15" targetport="p1">
 			<data key="d12">
 				<x:List>
-					<y:Bend Location="209.9999999999999,-1876"/>
-					<y:Bend Location="254.14213562373095,-1831.857864376269"/>
-					<y:Bend Location="254.14213562373095,-1150.142135623731"/>
-					<y:Bend Location="268.284271247462,-1136"/>
+					<y:Bend Location="210.0000000000001,-926"/>
+					<y:Bend Location="369.8528137423856,-1085.8528137423855"/>
+					<y:Bend Location="369.8528137423856,-1741.857864376269"/>
+					<y:Bend Location="383.99494936611666,-1756"/>
 				</x:List>
 			</data>
 			<data key="d13">
@@ -4691,10 +4700,10 @@
 		<edge id="e60" source="n22" target="n3::n0::n1" sourceport="p16" targetport="p1">
 			<data key="d12">
 				<x:List>
-					<y:Bend Location="204.9999999999999,-1866"/>
-					<y:Bend Location="239.14213562373095,-1831.857864376269"/>
-					<y:Bend Location="239.14213562373095,-1060.142135623731"/>
-					<y:Bend Location="253.28427124746202,-1046"/>
+					<y:Bend Location="205.0000000000001,-936"/>
+					<y:Bend Location="354.8528137423856,-1085.8528137423855"/>
+					<y:Bend Location="354.8528137423856,-1831.8578643762692"/>
+					<y:Bend Location="368.99494936611643,-1846"/>
 				</x:List>
 			</data>
 			<data key="d13">
@@ -4708,10 +4717,10 @@
 		<edge id="e61" source="n22" target="n3::n1::n0" sourceport="p17" targetport="p1">
 			<data key="d12">
 				<x:List>
-					<y:Bend Location="194.9999999999999,-1846"/>
-					<y:Bend Location="209.14213562373095,-1831.857864376269"/>
-					<y:Bend Location="209.14213562373095,-846.142135623731"/>
-					<y:Bend Location="223.2842712474619,-832"/>
+					<y:Bend Location="200,-946"/>
+					<y:Bend Location="296.5685424949238,-1042.5685424949238"/>
+					<y:Bend Location="296.5685424949238,-1955.8578643762692"/>
+					<y:Bend Location="310.71067811865464,-1970"/>
 				</x:List>
 			</data>
 			<data key="d13">
@@ -4725,10 +4734,10 @@
 		<edge id="e62" source="n22" target="n3::n1::n1" sourceport="p18" targetport="p1">
 			<data key="d12">
 				<x:List>
-					<y:Bend Location="199.9999999999999,-1856"/>
-					<y:Bend Location="224.14213562373095,-1831.857864376269"/>
-					<y:Bend Location="224.14213562373095,-936.142135623731"/>
-					<y:Bend Location="238.2842712474619,-922"/>
+					<y:Bend Location="195,-956"/>
+					<y:Bend Location="238.2842712474619,-999.2842712474619"/>
+					<y:Bend Location="238.2842712474619,-2135.857864376269"/>
+					<y:Bend Location="252.42640687119297,-2150"/>
 				</x:List>
 			</data>
 			<data key="d13">
@@ -4742,8 +4751,8 @@
 		<edge id="e63" source="n0::n2" target="n7" sourceport="p1" targetport="p17">
 			<data key="d12">
 				<x:List>
-					<y:Bend Location="2098.756659896232,-2717"/>
-					<y:Bend Location="2111.5889935348155,-2704.1676663614167"/>
+					<y:Bend Location="2203.7106781186544,-195"/>
+					<y:Bend Location="2206.155725432452,-192.55495268620257"/>
 				</x:List>
 			</data>
 			<data key="d13">
@@ -4763,8 +4772,10 @@
 		<edge id="e64" source="n19" target="n17::n3::n2" sourceport="p1" targetport="p2">
 			<data key="d12">
 				<x:List>
-					<y:Bend Location="194.99999999999997,-339.7142857142857"/>
-					<y:Bend Location="259.2857142857142,-404"/>
+					<y:Bend Location="194.9999999999999,-2526.5714285714284"/>
+					<y:Bend Location="224.14213562373095,-2497.4292929476974"/>
+					<y:Bend Location="224.14213562373095,-2412.142135623731"/>
+					<y:Bend Location="238.28427124746202,-2398"/>
 				</x:List>
 			</data>
 			<data key="d13">
@@ -4787,8 +4798,8 @@
 		<edge id="e66" source="n19" target="n17::n3::n0" sourceport="p3" targetport="p2">
 			<data key="d12">
 				<x:List>
-					<y:Bend Location="195,-288.28571428571433"/>
-					<y:Bend Location="259.28571428571433,-224"/>
+					<y:Bend Location="194.99999999999977,-2552.285714285714"/>
+					<y:Bend Location="259.285714285714,-2488"/>
 				</x:List>
 			</data>
 			<data key="d13">
@@ -4802,10 +4813,10 @@
 		<edge id="e67" source="n19" target="n17::n1" sourceport="p4" targetport="p1">
 			<data key="d12">
 				<x:List>
-					<y:Bend Location="195,-236.85714285714286"/>
-					<y:Bend Location="209.14213562373095,-222.7150072334119"/>
-					<y:Bend Location="209.14213562373095,-51.14213562373095"/>
-					<y:Bend Location="223.2842712474619,-37"/>
+					<y:Bend Location="195,-2629.4285714285716"/>
+					<y:Bend Location="224.14213562373106,-2658.5707070523026"/>
+					<y:Bend Location="224.14213562373106,-2770.857864376269"/>
+					<y:Bend Location="238.28427124746213,-2785"/>
 				</x:List>
 			</data>
 			<data key="d13">
@@ -4819,10 +4830,10 @@
 		<edge id="e68" source="n19" target="n17::n2" sourceport="p5" targetport="p1">
 			<data key="d12">
 				<x:List>
-					<y:Bend Location="195,-262.57142857142856"/>
-					<y:Bend Location="224.14213562373095,-233.4292929476976"/>
-					<y:Bend Location="224.14213562373095,-141.14213562373095"/>
-					<y:Bend Location="238.2842712474619,-127"/>
+					<y:Bend Location="194.9999999999999,-2655.1428571428573"/>
+					<y:Bend Location="209.14213562373095,-2669.2849927665884"/>
+					<y:Bend Location="209.14213562373095,-2860.857864376269"/>
+					<y:Bend Location="223.28427124746202,-2875"/>
 				</x:List>
 			</data>
 			<data key="d13">
@@ -4836,10 +4847,10 @@
 		<edge id="e69" source="n19" target="n17::n0" sourceport="p6" targetport="p1">
 			<data key="d12">
 				<x:List>
-					<y:Bend Location="195,-365.42857142857144"/>
-					<y:Bend Location="224.14213562373095,-394.5707070523024"/>
-					<y:Bend Location="224.14213562373095,-506.85786437626905"/>
-					<y:Bend Location="238.2842712474619,-521"/>
+					<y:Bend Location="195,-2603.714285714286"/>
+					<y:Bend Location="239.14213562373106,-2647.856421338017"/>
+					<y:Bend Location="239.14213562373106,-2680.857864376269"/>
+					<y:Bend Location="253.28427124746213,-2695"/>
 				</x:List>
 			</data>
 			<data key="d13">
@@ -4853,10 +4864,10 @@
 		<edge id="e70" source="n16::n4" target="n6" sourceport="p2" targetport="p1">
 			<data key="d12">
 				<x:List>
-					<y:Bend Location="2256.0409311436943,-1786.5"/>
-					<y:Bend Location="2343.467338014887,-1699.0735931288073"/>
-					<y:Bend Location="2343.467338014887,-1266.5409451475405"/>
-					<y:Bend Location="2357.6094736386176,-1252.3988095238096"/>
+					<y:Bend Location="2335.279220613578,-1055"/>
+					<y:Bend Location="2364.4213562373093,-1084.142135623731"/>
+					<y:Bend Location="2364.4213562373093,-1398.5423881857928"/>
+					<y:Bend Location="2378.5634918610403,-1412.6845238095239"/>
 				</x:List>
 			</data>
 			<data key="d13">
@@ -4876,8 +4887,8 @@
 		<edge id="e71" source="n3::n0::n1" target="n24" sourceport="p2" targetport="p1">
 			<data key="d12">
 				<x:List>
-					<y:Bend Location="822.2842712474621,-1031"/>
-					<y:Bend Location="841.2842712474621,-1012"/>
+					<y:Bend Location="877.9949493661165,-1861"/>
+					<y:Bend Location="896.9949493661165,-1880"/>
 				</x:List>
 			</data>
 			<data key="d13">
@@ -4891,10 +4902,10 @@
 		<edge id="e72" source="n23" target="n15" sourceport="p4" targetport="p4">
 			<data key="d12">
 				<x:List>
-					<y:Bend Location="195,-706"/>
-					<y:Bend Location="209.14213562373095,-691.857864376269"/>
-					<y:Bend Location="209.14213562373095,-667.142135623731"/>
-					<y:Bend Location="223.2842712474619,-653"/>
+					<y:Bend Location="194.9999999999999,-2096"/>
+					<y:Bend Location="209.14213562373095,-2110.142135623731"/>
+					<y:Bend Location="209.14213562373095,-2264.857864376269"/>
+					<y:Bend Location="223.28427124746202,-2279"/>
 				</x:List>
 			</data>
 			<data key="d13">
@@ -4912,12 +4923,6 @@
 			</data>
 		</edge>
 		<edge id="e73" source="n20" target="n16::n5" sourceport="p3" targetport="p2">
-			<data key="d12">
-				<x:List>
-					<y:Bend Location="1382.7566598962321,-1666.5"/>
-					<y:Bend Location="1442.7566598962321,-1606.5"/>
-				</x:List>
-			</data>
 			<data key="d13">
 				<yjs:PolylineEdgeStyle targetArrow="{y:GraphMLReference 28}" sourceArrow="{y:GraphMLReference 29}">
 					<yjs:PolylineEdgeStyle.stroke>
@@ -4929,8 +4934,10 @@
 		<edge id="e74" source="n20" target="n16::n6" sourceport="p4" targetport="p3">
 			<data key="d12">
 				<x:List>
-					<y:Bend Location="1330.7566598962321,-1726.5"/>
-					<y:Bend Location="1360.7566598962321,-1696.5"/>
+					<y:Bend Location="1510.7105789123052,-1085"/>
+					<y:Bend Location="1540.7106781186544,-1115.0000992063492"/>
+					<y:Bend Location="1540.7106781186544,-1130.8578643762692"/>
+					<y:Bend Location="1554.8528137423853,-1145"/>
 				</x:List>
 			</data>
 			<data key="d13">
@@ -4942,6 +4949,12 @@
 			</data>
 		</edge>
 		<edge id="e75" source="n20" target="n16::n4" sourceport="p5" targetport="p3">
+			<data key="d12">
+				<x:List>
+					<y:Bend Location="1450.7105789123052,-1025"/>
+					<y:Bend Location="1480.7105789123052,-1055"/>
+				</x:List>
+			</data>
 			<data key="d13">
 				<yjs:PolylineEdgeStyle targetArrow="{y:GraphMLReference 28}" sourceArrow="{y:GraphMLReference 29}">
 					<yjs:PolylineEdgeStyle.stroke>
@@ -4956,7 +4969,7 @@
 					<y:Label>
 						<y:Label.Text><![CDATA[For third active yellow card]]></y:Label.Text>
 						<y:Label.LayoutParameter>
-							<y:FreeEdgeLabelModelParameter Ratio="0.8354448633711632" Distance="-120.64789297779484" Model="{y:GraphMLReference 30}"/>
+							<y:FreeEdgeLabelModelParameter Ratio="0.7774090110914513" Distance="98.05704730089805" Model="{y:GraphMLReference 30}"/>
 						</y:Label.LayoutParameter>
 						<y:Label.Style>
 							<yjs:DefaultLabelStyle verticalTextAlignment="CENTER" horizontalTextAlignment="CENTER" textFill="BLACK" textSize="14">
@@ -4970,10 +4983,12 @@
 			</data>
 			<data key="d12">
 				<x:List>
-					<y:Bend Location="2215.5409311436943,-995.5546130952381"/>
-					<y:Bend Location="2201.398795519963,-981.4124774715071"/>
-					<y:Bend Location="2201.398795519963,-487.14213562373106"/>
-					<y:Bend Location="2187.256659896232,-473"/>
+					<y:Bend Location="2320.494949366116,-1901.168005952381"/>
+					<y:Bend Location="2306.3528137423855,-1915.3101415761118"/>
+					<y:Bend Location="2306.3528137423855,-2280.857864376269"/>
+					<y:Bend Location="2292.2106781186544,-2295"/>
+					<y:Bend Location="2074.7106781186544,-2295"/>
+					<y:Bend Location="2058.7106781186544,-2311"/>
 				</x:List>
 			</data>
 			<data key="d13">
@@ -4987,10 +5002,10 @@
 		<edge id="e77" source="n16::n6" target="n6" sourceport="p4" targetport="p2">
 			<data key="d12">
 				<x:List>
-					<y:Bend Location="2271.0409311436943,-1711.5"/>
-					<y:Bend Location="2285.1830667674253,-1697.357864376269"/>
-					<y:Bend Location="2285.1830667674253,-1199.3278499094454"/>
-					<y:Bend Location="2299.3252023911564,-1185.1857142857145"/>
+					<y:Bend Location="2335.279220613578,-1130"/>
+					<y:Bend Location="2349.4213562373093,-1144.142135623731"/>
+					<y:Bend Location="2349.4213562373093,-1465.755483423888"/>
+					<y:Bend Location="2363.5634918610403,-1479.897619047619"/>
 				</x:List>
 			</data>
 			<data key="d13">
@@ -5010,10 +5025,10 @@
 		<edge id="e78" source="n16::n2" target="n5" sourceport="p4" targetport="p1">
 			<data key="d12">
 				<x:List>
-					<y:Bend Location="2224.100282884641,-1897.7472222222223"/>
-					<y:Bend Location="2358.467338014887,-1763.380167091976"/>
-					<y:Bend Location="2358.467338014887,-1447.7704094332548"/>
-					<y:Bend Location="2372.609473638618,-1433.6282738095238"/>
+					<y:Bend Location="2261.994949366116,-1235"/>
+					<y:Bend Location="2276.137084989847,-1249.142135623731"/>
+					<y:Bend Location="2276.137084989847,-1680.5914953286501"/>
+					<y:Bend Location="2290.279220613578,-1694.733630952381"/>
 				</x:List>
 			</data>
 			<data key="d13">
@@ -5033,10 +5048,10 @@
 		<edge id="e79" source="n2::n0::n0" target="n7" sourceport="p2" targetport="p18">
 			<data key="d12">
 				<x:List>
-					<y:Bend Location="2098.756659896232,-2863"/>
-					<y:Bend Location="2112.898795519963,-2848.857864376269"/>
-					<y:Bend Location="2112.898795519963,-2813.0323828764786"/>
-					<y:Bend Location="2127.0409311436943,-2798.8902472527475"/>
+					<y:Bend Location="2203.7106781186544,-29"/>
+					<y:Bend Location="2217.8528137423855,-43.142135623731065"/>
+					<y:Bend Location="2217.8528137423855,-83.69023617114067"/>
+					<y:Bend Location="2231.9949493661165,-97.83237179487162"/>
 				</x:List>
 			</data>
 			<data key="d13">
