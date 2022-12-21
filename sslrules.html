@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="generator" content="Asciidoctor 2.0.18">
-<meta name="author" content="2022-11-22">
+<meta name="author" content="2022-12-21">
 <title>Rules of the RoboCup Small Size League</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
 <style>
@@ -441,7 +441,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div id="header">
 <h1>Rules of the RoboCup Small Size League</h1>
 <div class="details">
-<span id="author" class="author">2022-11-22</span><br>
+<span id="author" class="author">2022-12-21</span><br>
 </div>
 <div id="toc" class="toc">
 <div id="toctitle">Table of Contents</div>
@@ -592,7 +592,8 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <ul class="sectlevel3">
 <li><a href="#_damaging_other_robots">8.3.1. Damaging Other Robots</a></li>
 <li><a href="#_damaging_the_field_or_the_ball">8.3.2. Damaging The Field Or The Ball</a></li>
-<li><a href="#_showing_lack_of_respect">8.3.3. Showing Lack Of Respect</a></li>
+<li><a href="#_disrespect_procedures">8.3.3. Disrespect Procedures</a></li>
+<li><a href="#_showing_lack_of_respect">8.3.4. Showing Lack Of Respect</a></li>
 </ul>
 </li>
 <li><a href="#_fouls">8.4. Fouls</a>
@@ -637,18 +638,19 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#_ball_manipulation">A.1. Ball Manipulation</a></li>
 </ul>
 </li>
-<li><a href="#_game_event_table">Appendix B: Game Event Table</a>
+<li><a href="#_game_states">Appendix B: Game States</a></li>
+<li><a href="#_game_event_table">Appendix C: Game Event Table</a>
 <ul class="sectlevel2">
-<li><a href="#_events_for_ball_leaving_the_field">B.1. Events For Ball Leaving The Field</a></li>
-<li><a href="#_events_for_stopping_fouls">B.2. Events For Stopping Fouls</a></li>
-<li><a href="#_events_for_non_stopping_fouls">B.3. Events For Non Stopping Fouls</a></li>
-<li><a href="#_events_for_fouls_while_ball_out_of_play">B.4. Events For Fouls While Ball Out Of Play</a></li>
-<li><a href="#_events_for_scoring_goals">B.5. Events For Scoring Goals</a></li>
-<li><a href="#_other_events">B.6. Other events</a></li>
+<li><a href="#_events_for_ball_leaving_the_field">C.1. Events For Ball Leaving The Field</a></li>
+<li><a href="#_events_for_stopping_fouls">C.2. Events For Stopping Fouls</a></li>
+<li><a href="#_events_for_non_stopping_fouls">C.3. Events For Non Stopping Fouls</a></li>
+<li><a href="#_events_for_fouls_while_ball_out_of_play">C.4. Events For Fouls While Ball Out Of Play</a></li>
+<li><a href="#_events_for_scoring_goals">C.5. Events For Scoring Goals</a></li>
+<li><a href="#_other_events">C.6. Other events</a></li>
 </ul>
 </li>
-<li><a href="#_overview_of_timings">Appendix C: Overview of Timings</a></li>
-<li><a href="#_differences_between_divisions">Appendix D: Differences Between Divisions</a></li>
+<li><a href="#_overview_of_timings">Appendix D: Overview of Timings</a></li>
+<li><a href="#_differences_between_divisions">Appendix E: Differences Between Divisions</a></li>
 </ul>
 </div>
 </div>
@@ -1182,6 +1184,11 @@ Bluetooth is not allowed since it cannot be fixed to frequency channels.
 advice of an assistant referee, provided that he has not restarted play.</p>
 </div>
 <div class="paragraph">
+<p>The rules do not define all circumstance and their consequences in every detail.
+The referee is thus advised to judge in an adequate way, if the rules are not explicit.
+The usual procedure is to issue a warning on the first occurrence and an <a href="#_unsporting_behavior">Unsporting Behavior</a> on repetition.</p>
+</div>
+<div class="paragraph">
 <p>The referee is not held liable for any kind of injury suffered by an official or spectator, any damage to property of any kind nor any other loss suffered by an individual, club, company, association, or other body.</p>
 </div>
 <div class="paragraph">
@@ -1557,6 +1564,9 @@ The rule applies to all game types for simplicity.
 <div class="sect1">
 <h2 id="_referee_commands">5. Referee Commands</h2>
 <div class="sectionbody">
+<div class="paragraph">
+<p>An overview of the referee commands and how they interact with the game state, is given in <a href="#_game_states">Game States</a>.</p>
+</div>
 <div class="sect2">
 <h3 id="_stopping_the_game">5.1. Stopping The Game</h3>
 <div class="sect3">
@@ -2273,6 +2283,13 @@ Remaining in contact with the ball for more than 0.05 meters also counts as doub
 <div class="paragraph">
 <p>Unsporting behavior can lead to <a href="#_yellow_card">yellow cards</a>, <a href="#_red_card">red cards</a>, <a href="#_penalty_kick">penalty kicks</a>, a <a href="#_forced_forfeit">forced forfeit</a> or a <a href="#_disqualification">disqualification</a>. The human <a href="#_referee">referee</a> chooses an appropriate sanction, depending on the severity of the offense.</p>
 </div>
+<div class="paragraph">
+<p>For minor infringements, a <a href="#_yellow_card">Yellow Card</a> is adequate,
+while on more severe infringements, that gave the team an advantage, a <a href="#_red_card">Red Card</a> or <a href="#_penalty_kick">Penalty Kick</a> can be issued.</p>
+</div>
+<div class="paragraph">
+<p>For harder sanctions, the referee is advised to refer to members of the <a href="#_technical_committee">technical committee</a> or the <a href="#_organizing_committee">organizing committee</a>.</p>
+</div>
 <div class="admonitionblock note">
 <table>
 <tr>
@@ -2280,7 +2297,7 @@ Remaining in contact with the ball for more than 0.05 meters also counts as doub
 <i class="fa icon-note" title="Note"></i>
 </td>
 <td class="content">
-If the referee is not sure which sanction to choose, he may confer with members of the <a href="#_technical_committee">technical committee</a> or the <a href="#_organizing_committee">organizing committee</a>.
+If the referee is not sure which sanction to choose, he may confer with the <a href="#_assistant_referee">assistant referee</a> and members of the <a href="#_technical_committee">technical committee</a> or the <a href="#_organizing_committee">organizing committee</a>.
 </td>
 </tr>
 </table>
@@ -2301,7 +2318,26 @@ If the referee is not sure which sanction to choose, he may confer with members 
 </div>
 </div>
 <div class="sect3">
-<h4 id="_showing_lack_of_respect">8.3.3. Showing Lack Of Respect</h4>
+<h4 id="_disrespect_procedures">8.3.3. Disrespect Procedures</h4>
+<div class="paragraph">
+<p>Not following defined procedures repetitively, like for example:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="#_robot_handler">Robot handler</a> puts a robot on the field, while it is not allowed</p>
+</li>
+<li>
+<p>Robots do not keep required distance to the ball during stop</p>
+</li>
+<li>
+<p>Robots do not conform to the positioning rules during a <a href="#_penalty_kick">penalty kick</a> and need to be moved or removed manually</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_showing_lack_of_respect">8.3.4. Showing Lack Of Respect</h4>
 <div class="paragraph">
 <p>A team member must show appropriate respect to everyone involved in the game. Infringements of this rule include but are not limited to:</p>
 </div>
@@ -2921,7 +2957,79 @@ If a rule is found to cause significant negative impact to the competition, the 
 </div>
 </div>
 <div class="sect1">
-<h2 id="_game_event_table">Appendix B: Game Event Table</h2>
+<h2 id="_game_states">Appendix B: Game States</h2>
+<div class="sectionbody">
+<div class="literalblock">
+<div class="content">
+<pre>@startuml
+state Halted {
+    state Halt {
+    }
+    state Timeout {
+    }
+}
+
+state Stopped {
+    state Stop {
+    }
+    state BallPlacement {
+    }
+    state PrepareKickoff {
+    }
+    state PreparePenalty {
+    }
+}
+
+state Running {
+    state Run {
+    }
+    state FreeKick {
+    }
+    state Kickoff {
+    }
+    state Penalty {
+    }
+}
+
+Halt: Robots are not allowed to move
+Timeout: Both teams can do what ever they want
+Stop: Both teams have to keep distance to the ball
+PrepareKickoff: Teams have to move to their sides
+BallPlacement: One team places the ball,\nthe other keeps distance to ball
+PreparePenalty: Keeper on goal line,\nattacker behind ball,\nother robots on legal positions
+Kickoff: One team may kick the ball\nwithin 5 (A) or 10 (B) seconds
+FreeKick: One team may kick the ball\nwithin 5 (A) or 10 (B) seconds
+Penalty: Execute a penalty kick within 10 seconds
+Run: Both teams may manipulate the ball
+
+[*] -&gt; Halt: (from any state) Halt
+
+Halt --&gt; Stop: Stop
+Stop --&gt; Timeout: Timeout
+Timeout --&gt; Stop: Stop
+
+Stop --&gt; BallPlacement: Ball Placement
+BallPlacement --&gt; Stop: Stop
+
+Stop --&gt; PrepareKickoff: PrepareKickoff
+PrepareKickoff --&gt; Kickoff: NormalStart
+Kickoff --&gt; Run: after x seconds or if ball moved
+
+Stop --&gt; FreeKick: FreeKick
+FreeKick --&gt; Run: after x seconds or if ball moved
+
+Stop --&gt; Run: ForceStart
+
+Stop --&gt; PreparePenalty: PreparePenalty
+PreparePenalty --&gt; Penalty: NormalStart
+Penalty --&gt; Stop: after 10 seconds
+@enduml</pre>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_game_event_table">Appendix C: Game Event Table</h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>The game event table is a compilation of the different game events and their consequences. It also lists what all <a href="#_automatic_referee">Automatic Referee</a> implementations must be capable of handling.</p>
@@ -2939,7 +3047,7 @@ Note that the information shown in this table here is incomplete. Please read th
 </table>
 </div>
 <div class="sect2">
-<h3 id="_events_for_ball_leaving_the_field">B.1. Events For Ball Leaving The Field</h3>
+<h3 id="_events_for_ball_leaving_the_field">C.1. Events For Ball Leaving The Field</h3>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
 <col style="width: 25%;">
@@ -2978,7 +3086,7 @@ Note that the information shown in this table here is incomplete. Please read th
 </table>
 </div>
 <div class="sect2">
-<h3 id="_events_for_stopping_fouls">B.2. Events For Stopping Fouls</h3>
+<h3 id="_events_for_stopping_fouls">C.2. Events For Stopping Fouls</h3>
 <div class="paragraph">
 <p>All <a href="#_stopping_fouls">Stopping Fouls</a> result in:</p>
 </div>
@@ -3057,7 +3165,7 @@ Note that the information shown in this table here is incomplete. Please read th
 </table>
 </div>
 <div class="sect2">
-<h3 id="_events_for_non_stopping_fouls">B.3. Events For Non Stopping Fouls</h3>
+<h3 id="_events_for_non_stopping_fouls">C.3. Events For Non Stopping Fouls</h3>
 <div class="paragraph">
 <p>All <a href="#_non_stopping_fouls">Non Stopping Fouls</a> result in:</p>
 </div>
@@ -3115,7 +3223,7 @@ Note that the information shown in this table here is incomplete. Please read th
 </table>
 </div>
 <div class="sect2">
-<h3 id="_events_for_fouls_while_ball_out_of_play">B.4. Events For Fouls While Ball Out Of Play</h3>
+<h3 id="_events_for_fouls_while_ball_out_of_play">C.4. Events For Fouls While Ball Out Of Play</h3>
 <div class="paragraph">
 <p>All <a href="#_fouls_while_ball_out_of_play">Fouls While Ball Out Of Play</a> result in:</p>
 </div>
@@ -3170,7 +3278,7 @@ Note that the information shown in this table here is incomplete. Please read th
 </table>
 </div>
 <div class="sect2">
-<h3 id="_events_for_scoring_goals">B.5. Events For Scoring Goals</h3>
+<h3 id="_events_for_scoring_goals">C.5. Events For Scoring Goals</h3>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
 <col style="width: 25%;">
@@ -3209,7 +3317,7 @@ Note that the information shown in this table here is incomplete. Please read th
 </table>
 </div>
 <div class="sect2">
-<h3 id="_other_events">B.6. Other events</h3>
+<h3 id="_other_events">C.6. Other events</h3>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
 <col style="width: 25%;">
@@ -3310,7 +3418,7 @@ Note that the information shown in this table here is incomplete. Please read th
 </div>
 </div>
 <div class="sect1">
-<h2 id="_overview_of_timings">Appendix C: Overview of Timings</h2>
+<h2 id="_overview_of_timings">Appendix D: Overview of Timings</h2>
 <div class="sectionbody">
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
@@ -3361,7 +3469,7 @@ Note that the information shown in this table here is incomplete. Please read th
 </div>
 </div>
 <div class="sect1">
-<h2 id="_differences_between_divisions">Appendix D: Differences Between Divisions</h2>
+<h2 id="_differences_between_divisions">Appendix E: Differences Between Divisions</h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>This is a complete list of differences between <a href="#_divisions">division</a> A and <a href="#_divisions">division</a> B.</p>
@@ -3381,7 +3489,10 @@ Note that the information shown in this table here is incomplete. Please read th
 <p>The <a href="#aimless-kick">aimless kick</a> rule only applies to division B.</p>
 </li>
 <li>
-<p>Division A has shorter timeouts in some situations</p>
+<p>Division A has shorter timeouts in some situations.</p>
+</li>
+<li>
+<p><a href="#_emergency_stop">Emergency stop</a> only applies to division A.</p>
 </li>
 </ul>
 </div>
@@ -3390,7 +3501,7 @@ Note that the information shown in this table here is incomplete. Please read th
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2022-11-22 07:48:21 UTC
+Last updated 2022-12-21 20:20:37 UTC
 </div>
 </div>
 </body>
