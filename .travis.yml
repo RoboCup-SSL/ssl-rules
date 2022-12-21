@@ -25,12 +25,4 @@ script:
   - git config user.email "build-pipeline@travis-ci.org"
   - git add *.html *.pdf
   - git commit -m "Update GitHub Pages"
-  - git push "https://${GH_TOKEN}@${GH_REF}" gh-pages
-
-after_error:
-  - docker logs asciidoc-to-html
-  - docker logs asciidoc-to-pdf
-
-after_failure:
-  - docker logs asciidoc-to-html
-  - docker logs asciidoc-to-pdf
+  - git push "https://oauth2:${GH_TOKEN}@${GH_REF}" gh-pages
