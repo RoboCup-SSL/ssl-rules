@@ -1,4 +1,6 @@
 # IntelliJ files
 /.idea
-sslrules.html
-sslrules.pdf
+/sslrules.html
+/sslrules.pdf
+/.asciidoctor
+/images/game-states.svg

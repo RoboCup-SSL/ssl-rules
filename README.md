@@ -21,7 +21,7 @@ If you have Docker installed, you can use the official AsciiDoctor image:
 # Pull image once
 docker pull asciidoctor/docker-asciidoctor
 # Build the HTML5 version
-docker run -v $PWD:/documents/ asciidoctor/docker-asciidoctor asciidoctor sslrules.adoc
+docker run -v $PWD:/documents/ asciidoctor/docker-asciidoctor asciidoctor -r asciidoctor-diagram sslrules.adoc
 # Build the PDF version
-docker run -v $PWD:/documents/ asciidoctor/docker-asciidoctor asciidoctor-pdf sslrules.adoc
+docker run -v $PWD:/documents/ asciidoctor/docker-asciidoctor asciidoctor-pdf -r asciidoctor-diagram sslrules.adoc
 ```
