@@ -1,28 +1,37 @@
-if: branch = master
-
-sudo: required
-
-language: python
+language: shell
+os: linux
+dist: focal
 
 services:
   - docker
 
-before_install:
-  - mkdir -p output
-  - docker pull asciidoctor/docker-asciidoctor
+env:
+  - DIFF_YEAR=2022
 
-install:
-  - pip install htmldiffer
+stages:
+  - name: build
+    if: branch != master
+  - name: build-publish
+    if: branch = master
 
-script:
-  - docker run -v $TRAVIS_BUILD_DIR:/documents/ --name asciidoc-to-html asciidoctor/docker-asciidoctor asciidoctor -r asciidoctor-diagram -a data-uri sslrules.adoc
-  - docker run -v $TRAVIS_BUILD_DIR:/documents/ --name asciidoc-to-pdf asciidoctor/docker-asciidoctor asciidoctor-pdf -r asciidoctor-diagram sslrules.adoc
-  - git clone https://${GH_REF} --single-branch --branch gh-pages $TRAVIS_BUILD_DIR/gh-pages
-  - cd $TRAVIS_BUILD_DIR/gh-pages
-  - cp ../*.html ../*.pdf .
-  - python ../diffRules.py ./2022/sslrules.html ./sslrules.html > sslrules-diff.html
-  - git config user.name "TravisCI"
-  - git config user.email "build-pipeline@travis-ci.org"
-  - git add *.html *.pdf
-  - git commit -m "Update GitHub Pages"
-  - git push "https://${GH_TOKEN}@${GH_REF}" gh-pages
+jobs:
+  include:
+    - stage: build
+      script:
+        - cd $TRAVIS_BUILD_DIR
+        - docker run -v $TRAVIS_BUILD_DIR:/documents/ asciidoctor/docker-asciidoctor asciidoctor -r asciidoctor-diagram -a data-uri *.adoc
+        - docker run -v $TRAVIS_BUILD_DIR:/documents/ asciidoctor/docker-asciidoctor asciidoctor-pdf -r asciidoctor-diagram *.adoc
+    - stage: build-publish
+      script:
+        - cd $TRAVIS_BUILD_DIR
+        - docker run -v $TRAVIS_BUILD_DIR:/documents/ asciidoctor/docker-asciidoctor asciidoctor -r asciidoctor-diagram -a data-uri *.adoc
+        - docker run -v $TRAVIS_BUILD_DIR:/documents/ asciidoctor/docker-asciidoctor asciidoctor-pdf -r asciidoctor-diagram *.adoc
+        - git clone https://${GH_REF} --single-branch --branch gh-pages $TRAVIS_BUILD_DIR/gh-pages
+        - cd $TRAVIS_BUILD_DIR/gh-pages
+        - cp ../*.html ../*.pdf .
+        - python ../diffRules.py ./${DIFF_YEAR}/sslrules.html ./sslrules.html > sslrules-diff.html
+        - git config user.name "TravisCI"
+        - git config user.email "build-pipeline@travis-ci.org"
+        - git add *.html *.pdf
+        - git commit -m "Update GitHub Pages"
+        - git push "https://${GH_TOKEN}@${GH_REF}" gh-pages
