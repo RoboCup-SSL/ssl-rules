@@ -1,12 +1,9 @@
-language: shell
+language: python
 os: linux
 dist: focal
 
 services:
   - docker
-
-env:
-  - DIFF_YEAR=2022
 
 stages:
   - name: build
@@ -22,6 +19,8 @@ jobs:
         - docker run -v $TRAVIS_BUILD_DIR:/documents/ asciidoctor/docker-asciidoctor asciidoctor -r asciidoctor-diagram -a data-uri *.adoc
         - docker run -v $TRAVIS_BUILD_DIR:/documents/ asciidoctor/docker-asciidoctor asciidoctor-pdf -r asciidoctor-diagram *.adoc
     - stage: build-publish
+      install:
+        - pip install htmldiffer
       script:
         - cd $TRAVIS_BUILD_DIR
         - docker run -v $TRAVIS_BUILD_DIR:/documents/ asciidoctor/docker-asciidoctor asciidoctor -r asciidoctor-diagram -a data-uri *.adoc
@@ -29,7 +28,8 @@ jobs:
         - git clone https://${GH_REF} --single-branch --branch gh-pages $TRAVIS_BUILD_DIR/gh-pages
         - cd $TRAVIS_BUILD_DIR/gh-pages
         - cp ../*.html ../*.pdf .
-        - python ../diffRules.py ./${DIFF_YEAR}/sslrules.html ./sslrules.html > sslrules-diff.html
+        - year="$(ls -1 | grep -E '^[0-9]{4}$' | sort -n | tail -n1)"
+        - python ../diffRules.py ./${year}/sslrules.html ./sslrules.html > sslrules-diff.html
         - git config user.name "TravisCI"
         - git config user.email "build-pipeline@travis-ci.org"
         - git add *.html *.pdf
