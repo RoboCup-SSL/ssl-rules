@@ -118,7 +118,7 @@ NOTE: The information shown in this table here may be incomplete. Please read th
 || <<Defender Too Close To Ball, DEFENDER_TOO_CLOSE_TO_KICK_POINT>> | <<Ball In And Out Of Play, ball out of play>> | timer for bringing the ball into play is reset | yes | auto referee
 
 | 5+| *Ball Placement*
-|| <<Ball Placement Interference, BOT_INTERFERED_PLACEMENT>> | during <<Ball Placement>> | placement timer increased by 10 seconds | no | auto referee
+|| <<Ball Placement Interference, BOT_INTERFERED_PLACEMENT>> | during <<Ball Placement>> | placement timer increased by 10 seconds | yes | auto referee
 || <<Ball Placement, PLACEMENT_SUCCEEDED>> | during <<Ball Placement>> | continue | no | auto referee
 || <<Ball Placement, PLACEMENT_FAILED>> by team in favor | during <<Ball Placement>> | <<Stop>> -> <<Free Kick>> (div A) / previous command (div B) | no | game controller
 || <<Ball Placement, PLACEMENT_FAILED>> by opponent | during <<Ball Placement>> | <<Stop>> | no | game controller
