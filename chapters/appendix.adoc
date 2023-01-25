@@ -57,6 +57,7 @@ Timeout --> Stop: Stop
 
 Stop --> BallPlacement: Ball Placement
 BallPlacement --> Stop: Stop
+BallPlacement --> FreeKick: Continue
 
 Stop --> PrepareKickoff: PrepareKickoff
 PrepareKickoff --> Kickoff: NormalStart
