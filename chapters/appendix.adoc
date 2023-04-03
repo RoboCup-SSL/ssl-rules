@@ -71,6 +71,8 @@ Stop --> Run: ForceStart
 Stop --> PreparePenalty: PreparePenalty
 PreparePenalty --> Penalty: NormalStart
 Penalty --> Stop: after 10 seconds
+
+Run --> Stop: Stop
 @enduml
 ....
 
