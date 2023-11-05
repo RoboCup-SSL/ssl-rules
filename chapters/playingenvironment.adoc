@@ -100,8 +100,6 @@ New automatic referee implementations can be provided, given that the source cod
 The <<Game Events, Game Event Table>> shows which game events an automatic referee implementation must be able to detect.
 Individual game events can be disabled completely or in some automatic referee implementations if both teams and the <<Technical Committee, technical committee>> agree.
 
-Existing implementations can be found on Github: https://github.com/RoboCup-SSL/ssl-autorefs.
-
 ==== Remote Control
 A remote control for each team can optionally be provided by the tournament organizers.
 It is a physical device that allows entering the following commands:
