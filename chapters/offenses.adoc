@@ -176,3 +176,8 @@ NOTE: This rule does not cover all cases of ball placement interference.
 The <<Referee, referee>> is encouraged to call fouls if the non-placing team is obviously interfering with the ball placement.
 
 NOTE: If a robot keeps interfering the ball placement (for example if it is stuck or can not move), the human referee is encouraged to stop the placement and place the ball manually.
+
+===== Excessive Robot Substitutions
+If a team has used up their free robot substitution budget, every additional robot substitution is a foul.
+The match is resumed with a <<Free Kick, free kick>> for the opponent team.
+If both teams committed this foul in the same <<Stop, stop>>, the match is resumed with the original command.
