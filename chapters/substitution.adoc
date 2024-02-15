@@ -8,7 +8,7 @@ Robots can always be taken in and out during game play without notifying the <<R
 
 . The robot is at least partially inside the <<Field Surface, field margin>>.
 . The robot is at a distance from the <<Halfway Line, halfway line>> that must not exceed 1 meter.
-. The ball must be at least 2 meters away from the <<Halfway Line, halfway line>>.
+. The ball must be at least 0.5 meters away from the robot.
 
 Additionally, robots can be taken out from any position on request using the procedure below:
 
