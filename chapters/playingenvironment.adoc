@@ -30,6 +30,7 @@ The field surface will continue for 0.7 meters beyond the <<Field Lines, field l
 ==== Field Markings
 The field of play is marked with lines. All lines are 0.01 meters wide and white (paint, spray, white carpet or strong tape). Lines belong to the areas of which they are boundaries.
 Distances between lines are measured from their centers.
+Distances from a robot are measured from its nearest side to the respective measurement point, with an assumed radius of 0.09 m.
 
 ===== Field Lines
 The playing area is defined by four field lines. The two longer field lines are called touch lines. The two shorter field lines are called goal lines.
