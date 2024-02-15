@@ -14,7 +14,7 @@ Additionally, robots can be taken out from any position on request using the pro
 
 . The <<Robot Handler, robot handler>> requests robot substitution at any time.
 . The <<Game Controller, game controller>> will <<Halt, halt>> the game at the next opportunity.
-. The <<Robot Handler, robot handler>> may enter the field and touch robots now, as long as the game is still <<Halt, halted>>.
+. The <<Robot Handler, robot handler>> may enter the field and touch robots now.
 . The <<Robot Handler, robot handler>> takes robots out.
 . The <<Robot Handler, robot handler>> informs the <<Referee, referee>> when done.
 . When both teams finished the robot substitution, the <<Referee, referee>> informs the <<Game Controller Operator, game controller operator>>.
@@ -23,7 +23,10 @@ Additionally, robots can be taken out from any position on request using the pro
 The maximum allowed number of robots of the team on the field must not be exceeded at any time when putting robots in.
 
 .Usage
-Robots can be substituted for any reason. There is no limit on the number of substitutions.
+Robots can be substituted for any reason.
+A substitution grants the team 10 seconds to take robots out. After that time, a new substitution is started.
+Each team has 5 free substitutions per halftime.
+Every additional substitution will result in an <<Excessive Robot Substitutions, excessive robot substitutions foul>> for the team.
 
 A robot substitution intent can be made by:
 
