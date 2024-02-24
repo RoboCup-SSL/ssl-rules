@@ -2,40 +2,40 @@ version: 2.1
 
 jobs:
   build:
-    resource_class: small
-    docker:
-      - image: cimg/base:2024.01
+    machine:
+      image: ubuntu-2204:current
     steps:
       - checkout
-      - setup_remote_docker
       - run: |
-          - docker run -v $(pwd):/documents/ asciidoctor/docker-asciidoctor asciidoctor -r asciidoctor-diagram -a data-uri *.adoc
-          - docker run -v $(pwd):/documents/ asciidoctor/docker-asciidoctor asciidoctor-pdf -r asciidoctor-diagram *.adoc
+          docker run -v $(pwd):/documents/ -u $(id -u) asciidoctor/docker-asciidoctor asciidoctor -r asciidoctor-diagram -a data-uri *.adoc
+          docker run -v $(pwd):/documents/ -u $(id -u) asciidoctor/docker-asciidoctor asciidoctor-pdf -r asciidoctor-diagram *.adoc
   build_publish:
-    resource_class: small
-    docker:
-      - image: cimg/base:2024.01
+    machine:
+      image: ubuntu-2204:current
     steps:
       - add_ssh_keys:
           fingerprints:
             - "SHA256:qDk4RVZw4RPDgi01xxEo11tKG72jbNJKWn9ZJbOt3gU"
       - checkout
-      - setup_remote_docker
       - run: |
-          - pip install htmldiffer
-          - docker run -v $(pwd):/documents/ asciidoctor/docker-asciidoctor asciidoctor -r asciidoctor-diagram -a data-uri *.adoc
-          - docker run -v $(pwd):/documents/ asciidoctor/docker-asciidoctor asciidoctor-pdf -r asciidoctor-diagram *.adoc
-          - mkdir out
-          - year="$(ls -1 | grep -E '^[0-9]{4}$' | sort -n | tail -n1)"
-          - python ./diffRules.py ./pages/${year}/sslrules.html ./sslrules.html > sslrules-diff.html
-          - cp ./pages/* ./*.html ./*.pdf out/
-          - git checkout gh-pages
-          - rm -rf *
-          - git config user.name "CircleCI"
-          - git config user.email "build-pipeline@circleci.com"
-          - git add .
-          - git commit -m "Update GitHub Pages"
-          - git push
+          docker run -v $(pwd):/documents/ -u $(id -u) asciidoctor/docker-asciidoctor asciidoctor -r asciidoctor-diagram -a data-uri *.adoc
+          docker run -v $(pwd):/documents/ -u $(id -u) asciidoctor/docker-asciidoctor asciidoctor-pdf -r asciidoctor-diagram *.adoc
+      - run: |
+          pip install htmldiffer
+          latest_year="$(ls -1 pages | grep -E '^[0-9]{4}$' | sort -n | tail -n1)"
+          python ./diffRules.py ./pages/${latest_year}/sslrules.html ./sslrules.html > sslrules-diff.html
+      - run: |
+          mkdir /tmp/out
+          mv ./*.html ./*.pdf /tmp/out/
+          cp -r ./pages/* /tmp/out/
+          git checkout gh-pages
+          rm -rf * .asciidoctor
+          mv /tmp/out/* .
+          git config user.name "CircleCI"
+          git config user.email "build-pipeline@circleci.com"
+          git add .
+          git commit -m "Update GitHub Pages"
+          git push
 
 workflows:
   version: 2
