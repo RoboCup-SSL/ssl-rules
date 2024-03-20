@@ -1056,6 +1056,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#_defender_too_close_to_ball">Defender Too Close To Ball</a></li>
 <li><a href="#_robot_stop_speed">Robot Stop Speed</a></li>
 <li><a href="#_ball_placement_interference">Ball Placement Interference</a></li>
+<li><a href="#_excessive_robot_substitutions"><span class="diff_insert">Excessive </span><span class="diff_insert">Robot </span><span class="diff_insert">Substitutions</span></a></li>
 </ul>
 </li>
 </ul>
@@ -3085,6 +3086,14 @@ If a robot keeps interfering the ball placement (for example if it is stuck or c
 </table>
 </div>
 </div>
+<div class="sect4">
+<h5 id="_excessive_robot_substitutions"><span class="diff_insert">Excessive </span><span class="diff_insert">Robot </span><span class="diff_insert">Substitutions</span></h5>
+<div class="paragraph">
+<p><span class="diff_insert">If </span><span class="diff_insert">a </span><span class="diff_insert">team </span><span class="diff_insert">has </span><span class="diff_insert">used </span><span class="diff_insert">up </span><span class="diff_insert">their </span><span class="diff_insert">free </span><span class="diff_insert">robot </span><span class="diff_insert">substitution </span><span class="diff_insert">budget, </span><span class="diff_insert">every </span><span class="diff_insert">additional </span><span class="diff_insert">robot </span><span class="diff_insert">substitution </span><span class="diff_insert">is </span><span class="diff_insert">a </span><span class="diff_insert">foul.
+The </span><span class="diff_insert">match </span><span class="diff_insert">is </span><span class="diff_insert">resumed </span><span class="diff_insert">with </span><span class="diff_insert">a </span><a href="#_free_kick"><span class="diff_insert">free </span><span class="diff_insert">kick</span></a> <span class="diff_insert">for </span><span class="diff_insert">the </span><span class="diff_insert">opponent </span><span class="diff_insert">team.
+If </span><span class="diff_insert">both </span><span class="diff_insert">teams </span><span class="diff_insert">committed </span><span class="diff_insert">this </span><span class="diff_insert">foul </span><span class="diff_insert">in </span><span class="diff_insert">the </span><span class="diff_insert">same </span><a href="#_stop"><span class="diff_insert">stop</span></a><span class="diff_insert">, </span><span class="diff_insert">the </span><span class="diff_insert">match </span><span class="diff_insert">is </span><span class="diff_insert">resumed </span><span class="diff_insert">with </span><span class="diff_insert">the </span><span class="diff_insert">original </span><span class="diff_insert">command.</span></p>
+</div>
+</div>
 </div>
 </div>
 </div>
@@ -3127,7 +3136,7 @@ If a robot keeps interfering the ball placement (for example if it is stuck or c
 <p>The <a href="#_game_controller">game controller</a> will <a href="#_halt">halt</a> the game at the next opportunity.</p>
 </li>
 <li>
-<p>The <a href="#_robot_handler">robot handler</a> may enter the field and touch robots now, as long as the game is still <a href="#_halt">halted</a>.</p>
+<p>The <a href="#_robot_handler">robot handler</a> may enter the field and touch robots <span class="diff_delete">now, </span><span class="diff_delete">as </span><span class="diff_delete">long </span><span class="diff_delete">as </span><span class="diff_delete">the </span><span class="diff_delete">game </span><span class="diff_delete">is </span><span class="diff_delete">still </span><a href="#_halt"><span class="diff_delete">halted</span></a><span class="diff_delete">.</span><span class="diff_insert">now.</span></p>
 </li>
 <li>
 <p>The <a href="#_robot_handler">robot handler</a> takes robots out.</p>
@@ -3148,7 +3157,10 @@ If a robot keeps interfering the ball placement (for example if it is stuck or c
 </div>
 <div class="paragraph">
 <div class="title">Usage</div>
-<p>Robots can be substituted for any reason. There is no limit on the number of substitutions.</p>
+<p>Robots can be substituted for any <span class="diff_delete">reason. </span><span class="diff_delete">There </span><span class="diff_insert">reason.
+A </span><span class="diff_insert">substitution </span><span class="diff_insert">grants </span><span class="diff_insert">the </span><span class="diff_insert">team </span><span class="diff_insert">10 </span><span class="diff_insert">seconds </span><span class="diff_insert">to </span><span class="diff_insert">take </span><span class="diff_insert">robots </span><span class="diff_insert">out. </span><span class="diff_insert">After </span><span class="diff_insert">that </span><span class="diff_insert">time, </span><span class="diff_insert">a </span><span class="diff_insert">new </span><span class="diff_insert">substitution </span>is <span class="diff_delete">no </span><span class="diff_delete">limit </span><span class="diff_delete">on </span><span class="diff_insert">started.
+Each </span><span class="diff_insert">team </span><span class="diff_insert">has </span><span class="diff_insert">5 </span><span class="diff_insert">free </span><span class="diff_insert">substitutions </span><span class="diff_insert">per </span><span class="diff_insert">halftime.
+Every </span><span class="diff_insert">additional </span><span class="diff_insert">substitution </span><span class="diff_insert">will </span><span class="diff_insert">result </span><span class="diff_insert">in </span><span class="diff_insert">an </span><a href="#_excessive_robot_substitutions"><span class="diff_insert">excessive </span><span class="diff_insert">robot </span><span class="diff_insert">substitutions </span><span class="diff_insert">foul</span></a> <span class="diff_insert">for </span>the <span class="diff_delete">number </span><span class="diff_delete">of </span><span class="diff_delete">substitutions.</span><span class="diff_insert">team.</span></p>
 </div>
 <div class="paragraph">
 <p>A robot substitution intent can be made by:</p>
@@ -3836,7 +3848,7 @@ The information shown in this table here may be incomplete. Please read the sect
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated <span class="diff_delete">2023-05-04 </span><span class="diff_delete">15:45:33 </span><span class="diff_insert">2024-03-20 </span><span class="diff_insert">19:40:16 </span>UTC
+Last updated <span class="diff_delete">2023-05-04 </span><span class="diff_delete">15:45:33 </span><span class="diff_insert">2024-03-20 </span><span class="diff_insert">21:00:32 </span>UTC
 </div>
 </div>
 </body>

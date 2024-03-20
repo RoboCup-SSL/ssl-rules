@@ -620,6 +620,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#_defender_too_close_to_ball">Defender Too Close To Ball</a></li>
 <li><a href="#_robot_stop_speed">Robot Stop Speed</a></li>
 <li><a href="#_ball_placement_interference">Ball Placement Interference</a></li>
+<li><a href="#_excessive_robot_substitutions">Excessive Robot Substitutions</a></li>
 </ul>
 </li>
 </ul>
@@ -2646,6 +2647,14 @@ If a robot keeps interfering the ball placement (for example if it is stuck or c
 </table>
 </div>
 </div>
+<div class="sect4">
+<h5 id="_excessive_robot_substitutions">Excessive Robot Substitutions</h5>
+<div class="paragraph">
+<p>If a team has used up their free robot substitution budget, every additional robot substitution is a foul.
+The match is resumed with a <a href="#_free_kick">free kick</a> for the opponent team.
+If both teams committed this foul in the same <a href="#_stop">stop</a>, the match is resumed with the original command.</p>
+</div>
+</div>
 </div>
 </div>
 </div>
@@ -2688,7 +2697,7 @@ If a robot keeps interfering the ball placement (for example if it is stuck or c
 <p>The <a href="#_game_controller">game controller</a> will <a href="#_halt">halt</a> the game at the next opportunity.</p>
 </li>
 <li>
-<p>The <a href="#_robot_handler">robot handler</a> may enter the field and touch robots now, as long as the game is still <a href="#_halt">halted</a>.</p>
+<p>The <a href="#_robot_handler">robot handler</a> may enter the field and touch robots now.</p>
 </li>
 <li>
 <p>The <a href="#_robot_handler">robot handler</a> takes robots out.</p>
@@ -2709,7 +2718,10 @@ If a robot keeps interfering the ball placement (for example if it is stuck or c
 </div>
 <div class="paragraph">
 <div class="title">Usage</div>
-<p>Robots can be substituted for any reason. There is no limit on the number of substitutions.</p>
+<p>Robots can be substituted for any reason.
+A substitution grants the team 10 seconds to take robots out. After that time, a new substitution is started.
+Each team has 5 free substitutions per halftime.
+Every additional substitution will result in an <a href="#_excessive_robot_substitutions">excessive robot substitutions foul</a> for the team.</p>
 </div>
 <div class="paragraph">
 <p>A robot substitution intent can be made by:</p>
@@ -3397,7 +3409,7 @@ The information shown in this table here may be incomplete. Please read the sect
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2024-03-20 19:40:16 UTC
+Last updated 2024-03-20 21:00:32 UTC
 </div>
 </div>
 </body>
