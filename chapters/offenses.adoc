@@ -179,5 +179,5 @@ NOTE: If a robot keeps interfering the ball placement (for example if it is stuc
 
 ===== Excessive Robot Substitutions
 If a team has used up their free robot substitution budget, every additional robot substitution is a foul.
-The match is resumed with a <<Free Kick, free kick>> for the opponent team.
+The match is resumed with a <<Corner Kick, corner kick>> for the opponent team.
 If both teams committed this foul in the same <<Stop, stop>>, the match is resumed with the original command.
