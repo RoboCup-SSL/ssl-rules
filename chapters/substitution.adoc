@@ -24,7 +24,7 @@ The maximum allowed number of robots of the team on the field must not be exceed
 
 .Usage
 Robots can be substituted for any reason.
-A substitution grants the team 10 seconds to take robots out. After that time, a new substitution is started.
+A substitution grants the team 20 seconds to take robots out. After that time, a new substitution is started.
 Each team has 5 free substitutions per halftime.
 Every additional substitution will result in an <<Excessive Robot Substitutions, excessive robot substitutions foul>> for the team.
 
