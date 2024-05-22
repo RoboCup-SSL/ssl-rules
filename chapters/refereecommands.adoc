@@ -139,7 +139,7 @@ The procedure of a penalty kick is as follows:
 
 . The ball is placed by the human referee on the <<Penalty Mark, penalty mark>>.
 . When the <<Penalty Kick, penalty>> command is issued:
-.. The defending keeper has to move to the goal line and keep touching it.
+.. The defending keeper has to move to the goal line between the goal posts and keep touching the goal line.
 .. One attacking robot is allowed to approach the ball but not allowed to touch the ball.
 . Throughout the penalty kick procedure, all other robots have to be 1m behind the ball such that they do not interfere the penalty kick procedure.
 . When the <<Normal Start, normal start>> command is issued, the attacker is allowed to <<Ball Manipulation, manipulate the ball>>. The ball has to only move towards the opponent goal, as measured by its x coordinate in the coordinate system of <<Vision, SSL-Vision>>.
