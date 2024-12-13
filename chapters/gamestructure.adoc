@@ -96,6 +96,11 @@ The <<Referee, referee>> asks the <<Robot Handler, robot handlers>> of the teams
 
 However, if both teams prefer the same color, the referee assigns the colors by chance. In this case, the teams switch the colors after the first half of the match as well as after the first half of the overtime if applicable.
 
+==== Choosing Hulls Colors
+The <<Referee, referee>> asks the <<Robot Handler, robot handlers>> for their preferred hull color (dark or bright). If teams agree, the colors are used; otherwise, the referee assigns them by chance.
+
+Robots must keep their assigned color throughout the game.
+
 ==== Choosing Side And Kick-Off
 The <<Referee, referee>> tosses a coin with both <<Robot Handler, robot handlers>>. The winning team chooses the goal it will attack in the first half of the match. The other team takes the <<Kick-Off, kick-off>> to start the match.
 
