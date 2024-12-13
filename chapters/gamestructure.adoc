@@ -96,11 +96,6 @@ The <<Referee, referee>> asks the <<Robot Handler, robot handlers>> of the teams
 
 However, if both teams prefer the same color, the referee assigns the colors by chance. In this case, the teams switch the colors after the first half of the match as well as after the first half of the overtime if applicable.
 
-==== Choosing Hulls Colors
-The <<Referee, referee>> asks the <<Robot Handler, robot handlers>> for their preferred hull color (dark or bright). If teams agree, the colors are used; otherwise, the referee assigns them by chance.
-
-Robots must keep their assigned color throughout the game.
-
 ==== Choosing Side And Kick-Off
 The <<Referee, referee>> tosses a coin with both <<Robot Handler, robot handlers>>. The winning team chooses the goal it will attack in the first half of the match. The other team takes the <<Kick-Off, kick-off>> to start the match.
 
@@ -166,6 +161,11 @@ No timeouts are possible in the <<Shoot-Out, shoot-out>> stage.
 
 ==== Early Termination At A Score Of 10
 Before the <<Shoot-Out, shoot-out>> stage, when a team manages to shoot 10 goals,
+the match is automatically terminated as soon as the goal difference is greater than one and
+the team with more goals is declared the winner.
+
+NOTE: During the group phase, the number of goals scored is used as tie-breaker, so the absolute number of goals matter for overall scoring.
+The rule applies to all game types for simplicity.
 the match is automatically terminated as soon as the goal difference is greater than one and
 the team with more goals is declared the winner.
 

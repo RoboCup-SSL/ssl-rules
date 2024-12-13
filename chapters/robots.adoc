@@ -18,19 +18,6 @@ The <<Referee, referee>> has to force a team to remove a robot from the field if
 ==== Shape
 A robot must fit inside a 0.18 meters wide and 0.15 meters high cylinder at any point in time. Additionally, the top of the robot must adhere to the standard pattern size and surface constraints.
 
-==== Robot's Hull Color
-To ensure clarity and effective identification during gameplay, the following rules apply to the coloring of robot hulls:
-
-Bright and Dark Color Scheme:
-* Each robot must include both a bright and a dark color in its design.
-* These colors must cover at least 40% of the robot's maximum height (15 cm), equivalent to a minimum of 6 cm of vertical coverage.
-* Teams must use the same color scheme throughout the entire game.
-
-Coverage Requirements:
-* The color coverage must be consistent and visible from all standard angles.
-* The robot hull must not be reflective to avoid interfering with the vision system.
-* Colors must adhere properly and remain durable to prevent dropping or peeling during the match. If the color cover drops, it will be penalized accordingly (see <<Tipping Over or Dropping Parts>>).
-
 ==== Dribbling Device
 Dribbling devices that actively exert spin on the ball, which keep the ball in contact with the robot are permitted under certain conditions:
 
@@ -54,6 +41,19 @@ The center dot color determines the team and is either blue or yellow (see <<Cho
 
 NOTE: Teams are encouraged to prefer color assignments with ids 0 to 7 because they have been experimentally found more stable, as there is no risk that the back two dots “color-bleed” into each other.
 
+.Standard Vision Pattern Colors
+[[standard-vision-colors]]
+image::standard_colors2010.svg[width=500]
+
+==== Radio Communication
+Participants using wireless communications must notify the <<Organizing Committee, organizing committee>> of the method of wireless communication, power, and frequency. The <<Organizing Committee, organizing committee>> must be notified of any change after registration as soon as possible. In order to avoid interference, a team must be able to select from two carrier frequencies before the match. The type of wireless communication has to follow legal regulations of the country where the competition is held. Compliance with local laws is the responsibility of the competing teams, not the RoboCup Federation.
+
+The type of wireless communication may also be restricted by the <<Local Organizing Committee, local organizing committee>>. The local organizing committee will announce any restrictions to the community as early as possible.
+
+NOTE: Bluetooth is not allowed since it cannot be fixed to frequency channels.
+
+==== Autonomy
+The robotic equipment has to be fully autonomous. Human operators are not permitted to enter any information to the system during a match, except in <<Overview, breaks>> or during a <<Timeouts,timeout>>. Disregarding this rule is considered <<Unsporting Behavior, unsporting behavior>>.
 .Standard Vision Pattern Colors
 [[standard-vision-colors]]
 image::standard_colors2010.svg[width=500]
