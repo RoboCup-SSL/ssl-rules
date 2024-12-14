@@ -18,17 +18,16 @@ The <<Referee, referee>> has to force a team to remove a robot from the field if
 ==== Shape
 A robot must fit inside a 0.18 meters wide and 0.15 meters high cylinder at any point in time. Additionally, the top of the robot must adhere to the standard pattern size and surface constraints.
 
-==== Robot's Hull Color
+==== Hull Color of Robots
 To ensure clarity and effective identification during gameplay, the following rules apply to the coloring of robot hulls:
 
-Bright and Dark Color Scheme:
+Bright and dark color scheme:
 
-* All robots from a team must include two interchangeable colors: one bright and one dark.
+* All robots from a team must have interchangeable hull colors: one bright and one dark.
 * These two colors must be the same for all robots in a team.
 * The color must cover at least 40% of the robot's maximum height (15 cm), equivalent to a minimum of 6 cm of vertical coverage.
-* Teams must use the same color scheme throughout the entire game.
 
-Coverage Requirements:
+Coverage requirements:
 
 * The robot hull must not be reflective to avoid interfering with the vision system.
 * The robot hull must avoid colors close to the ones used at <<Vision Pattern, vision pattern>> and <<Ball, ball>>. 
