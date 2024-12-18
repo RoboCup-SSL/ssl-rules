@@ -25,7 +25,7 @@ Bright and dark color scheme:
 
 * All robots from a team must have interchangeable hull colors: one bright and one dark.
 * These two colors must be the same for all robots in a team.
-* The color must cover at least 40% of the robot's maximum height (15 cm), equivalent to a minimum of 6 cm of vertical coverage.
+* The color must vertically cover at least 6 cm of the robot's maximum height.
 
 Coverage requirements:
 
