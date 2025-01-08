@@ -53,4 +53,4 @@ The type of wireless communication may also be restricted by the <<Local Organiz
 NOTE: Bluetooth is not allowed since it cannot be fixed to frequency channels.
 
 ==== Autonomy
-The robotic equipment has to be fully autonomous. Human operators are not permitted to enter any information to the system during a match, except in <<Overview, breaks>> or during a <<Timeouts,timeout>>. Disregarding this rule is considered <<Unsporting Behavior, unsporting behavior>>.
+The robotic equipment has to be fully autonomous. Human operators are not permitted to enter any information to the system during a match, except in <<Overview, breaks>> or during a <<Timeouts,timeout>>. Additionally, robots may not be manually moved during any phase of the match, except for moving robots out of the field, or into the field as described in <<Robot Substitution, Robot Substitution>>. Disregarding this rule is considered <<Unsporting Behavior, unsporting behavior>>.
