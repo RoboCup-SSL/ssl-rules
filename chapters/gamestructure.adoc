@@ -150,6 +150,8 @@ NOTE: As a result, the time needed for a match is much greater than the playing 
 ==== Timeouts
 The <<Robot Handler, robot handler>> has to ask the referee for a timeout. Timeouts are handled like <<Overview, breaks>>, meaning that both teams are allowed to make modifications to their software and hardware (see <<Autonomy>>).
 
+Any robot that has been physically interacted with during a timeout must be taken out of the field. It can be brought in again, also during the same timeout, via the area outlined in <<Robot Substitution, Robot Substitution>>.
+
 Each team is allocated 4 timeouts at the beginning of the match. A total of 300 seconds is allowed for all timeouts. Timeouts may only be taken during a game
 stoppage. The time is monitored and recorded by the <<Game Controller Operator, game controller operator>>.
 
