@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="generator" content="Asciidoctor 2.0.23">
-<meta name="author" content="2025-01-17">
+<meta name="author" content="2025-02-03">
 <title>Rules of the RoboCup Small Size League</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
 <style>
@@ -439,7 +439,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div id="header">
 <h1>Rules of the RoboCup Small Size League</h1>
 <div class="details">
-<span id="author" class="author">2025-01-17</span><br>
+<span id="author" class="author">2025-02-03</span><br>
 </div>
 <div id="toc" class="toc">
 <div id="toctitle">Table of Contents</div>
@@ -495,10 +495,11 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <ul class="sectlevel3">
 <li><a href="#_safety">3.2.1. Safety</a></li>
 <li><a href="#_shape">3.2.2. Shape</a></li>
-<li><a href="#_dribbling_device">3.2.3. Dribbling Device</a></li>
-<li><a href="#_vision_pattern">3.2.4. Vision Pattern</a></li>
-<li><a href="#_radio_communication">3.2.5. Radio Communication</a></li>
-<li><a href="#_autonomy">3.2.6. Autonomy</a></li>
+<li><a href="#_hull_color_of_robots">3.2.3. Hull Color of Robots</a></li>
+<li><a href="#_dribbling_device">3.2.4. Dribbling Device</a></li>
+<li><a href="#_vision_pattern">3.2.5. Vision Pattern</a></li>
+<li><a href="#_radio_communication">3.2.6. Radio Communication</a></li>
+<li><a href="#_autonomy">3.2.7. Autonomy</a></li>
 </ul>
 </li>
 </ul>
@@ -523,8 +524,9 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#_game_result_sheet">4.3.1. Game Result Sheet</a></li>
 <li><a href="#_testing_the_network">4.3.2. Testing The Network</a></li>
 <li><a href="#_choosing_team_colors">4.3.3. Choosing Team Colors</a></li>
-<li><a href="#_choosing_side_and_kick_off">4.3.4. Choosing Side And Kick-Off</a></li>
-<li><a href="#_choosing_keeper_id">4.3.5. Choosing Keeper Id</a></li>
+<li><a href="#_choosing_robot_hull_colors">4.3.4. Choosing Robot Hull Colors</a></li>
+<li><a href="#_choosing_side_and_kick_off">4.3.5. Choosing Side And Kick-Off</a></li>
+<li><a href="#_choosing_keeper_id">4.3.6. Choosing Keeper Id</a></li>
 </ul>
 </li>
 <li><a href="#_game_stages">4.4. Game Stages</a>
@@ -1042,7 +1044,45 @@ Any other solution that the organizers find feasible can also be used.</p>
 </div>
 </div>
 <div class="sect3">
-<h4 id="_dribbling_device">3.2.3. Dribbling Device</h4>
+<h4 id="_hull_color_of_robots">3.2.3. Hull Color of Robots</h4>
+<div class="paragraph">
+<p>To ensure clarity and effective identification during gameplay, the following rules apply to the coloring of robot hulls:</p>
+</div>
+<div class="paragraph">
+<p>Bright and dark color scheme:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>All robots from a team must have interchangeable hull colors: one bright and one dark.</p>
+</li>
+<li>
+<p>These two colors must be the same for all robots in a team.</p>
+</li>
+<li>
+<p>The color must vertically cover at least 6 cm of the robot&#8217;s maximum height.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Coverage requirements:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>The robot hull must not be reflective to avoid interfering with the vision system.</p>
+</li>
+<li>
+<p>The robot hull must avoid colors close to the ones used at <a href="#_vision_pattern">vision pattern</a> and <a href="#_ball">ball</a>.</p>
+</li>
+<li>
+<p>Colors must adhere properly and remain durable to prevent dropping or peeling during the match. If the color cover drops, it will be penalized accordingly (see <a href="#_tipping_over_or_dropping_parts">Tipping Over Or Dropping Parts</a>).</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_dribbling_device">3.2.4. Dribbling Device</h4>
 <div class="paragraph">
 <p>Dribbling devices that actively exert spin on the ball, which keep the ball in contact with the robot are permitted under certain conditions:</p>
 </div>
@@ -1064,7 +1104,7 @@ Any other solution that the organizers find feasible can also be used.</p>
 </div>
 </div>
 <div class="sect3">
-<h4 id="_vision_pattern">3.2.4. Vision Pattern</h4>
+<h4 id="_vision_pattern">3.2.5. Vision Pattern</h4>
 <div class="paragraph">
 <p>All participating teams must adhere to the given operating requirements of the <a href="#_vision">shared vision system</a>. In particular, teams are required to use a certain set of standardized colors and patterns on top of their robots.</p>
 </div>
@@ -1103,7 +1143,7 @@ Teams are encouraged to prefer color assignments with ids 0 to 7 because they ha
 </div>
 </div>
 <div class="sect3">
-<h4 id="_radio_communication">3.2.5. Radio Communication</h4>
+<h4 id="_radio_communication">3.2.6. Radio Communication</h4>
 <div class="paragraph">
 <p>Participants using wireless communications must notify the <a href="#_organizing_committee">organizing committee</a> of the method of wireless communication, power, and frequency. The <a href="#_organizing_committee">organizing committee</a> must be notified of any change after registration as soon as possible. In order to avoid interference, a team must be able to select from two carrier frequencies before the match. The type of wireless communication has to follow legal regulations of the country where the competition is held. Compliance with local laws is the responsibility of the competing teams, not the RoboCup Federation.</p>
 </div>
@@ -1124,7 +1164,7 @@ Bluetooth is not allowed since it cannot be fixed to frequency channels.
 </div>
 </div>
 <div class="sect3">
-<h4 id="_autonomy">3.2.6. Autonomy</h4>
+<h4 id="_autonomy">3.2.7. Autonomy</h4>
 <div class="paragraph">
 <p>The robotic equipment has to be fully autonomous. Human operators are not permitted to enter any information to the system during a match, except in <a href="#_overview">breaks</a> or during a <a href="#_timeouts">timeout</a>. Additionally, robots may not be manually moved during any phase of the match, except for moving robots out of the field, or into the field as described in <a href="#_robot_substitution">Robot Substitution</a>. Disregarding this rule is considered <a href="#_unsporting_behavior">unsporting behavior</a>.</p>
 </div>
@@ -1344,13 +1384,19 @@ While obtaining the game result sheet, the referee can also take an official <a 
 </div>
 </div>
 <div class="sect3">
-<h4 id="_choosing_side_and_kick_off">4.3.4. Choosing Side And Kick-Off</h4>
+<h4 id="_choosing_robot_hull_colors">4.3.4. Choosing Robot Hull Colors</h4>
+<div class="paragraph">
+<p>The <a href="#_hull_color_of_robots">robot hull color</a> (dark or bright) should match the <a href="#_choosing_team_colors">team&#8217;s color</a>. The blue team uses the dark hulls, while the yellow team uses light hulls. If teams switch color during the game, they must switch also hull colors.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_choosing_side_and_kick_off">4.3.5. Choosing Side And Kick-Off</h4>
 <div class="paragraph">
 <p>The <a href="#_referee">referee</a> tosses a coin with both <a href="#_robot_handler">robot handlers</a>. The winning team chooses the goal it will attack in the first half of the match. The other team takes the <a href="#_kick_off">kick-off</a> to start the match.</p>
 </div>
 </div>
 <div class="sect3">
-<h4 id="_choosing_keeper_id">4.3.5. Choosing Keeper Id</h4>
+<h4 id="_choosing_keeper_id">4.3.6. Choosing Keeper Id</h4>
 <div class="paragraph">
 <p>The <a href="#_referee">referee</a> asks both <a href="#_robot_handler">robot handlers</a> which robot they will use as the keeper and forwards this information to the <a href="#_game_controller_operator">game controller operator</a>.</p>
 </div>
@@ -3412,7 +3458,7 @@ The information shown in this table here may be incomplete. Please read the sect
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2025-01-17 11:00:53 UTC
+Last updated 2025-02-03 12:23:06 UTC
 </div>
 </div>
 </body>
