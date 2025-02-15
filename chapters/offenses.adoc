@@ -75,9 +75,9 @@ all robots have to keep at least 0.2 meters distance to the opponent <<Defense A
 
 There is a grace period of 2 seconds for the robots to move away from the opponent defense area.
 
-The game is immediately halted after every second such foul committed by the same team.
+The game is immediately halted after the second such foul committed by the same team while the game is stopped or during a <<Free Kick, free kick>>, before the ball has entered play.
 
-NOTE: If the foul is committed during a <<Free Kick, free kick>>, the game is still stopped.
+NOTE: If the first foul is committed during a <<Free Kick, free kick>>, the game is still stopped regularly.
 The grace period is restarted after the first foul of the same team.
 Both fouls count towards the foul counter.
 There are no individual fouls per robot.
