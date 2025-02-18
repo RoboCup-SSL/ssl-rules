@@ -70,8 +70,7 @@ with a <<Free Kick, free kick>> for the opposite team from the position where th
 located when the foul began happening.
 
 ===== Robot Too Close To Opponent Defense Area
-During <<Stop, stop>> and <<Free Kick, free kicks>>, before the ball <<Resuming The Game, has entered play>>,
-all robots have to keep at least 0.2 meters distance to the opponent <<Defense Area, defense area>>.
+During <<Stop, stop>> and <<Free Kick, free kicks>>, before the ball <<Resuming The Game, has entered play>>, all robots have to keep at least 0.2 meters distance to the opponent <<Defense Area, defense area>>.
 
 There is a grace period of 2 seconds for the robots to move away from the opponent defense area.
 
