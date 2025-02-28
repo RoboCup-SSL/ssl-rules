@@ -91,9 +91,9 @@ red card>>.
 
 
 ==== 試合の停止を伴うファウル/Stopping Fouls
-このセクションにあるファウルは試合を<<停止/Stop, 停止>>させ、反則が発生した時点でボールがあった位置からの<<フリーキック/Free Kick, フリーキック>>で再開する。 +
+このセクションにあるファウルは試合を<<停止/Stop, 停止>>させ、反則が発生した時点でボールがあった位置から相手チームの<<フリーキック/Free Kick, フリーキック>>で再開する。 +
 Fouls in this section cause the game to <<停止/Stop, stop>> and then resume
-with a <<フリーキック/Free Kick, free kick>> from the position where the ball was
+with a <<フリーキック/Free Kick, free kick>> for the opposite team from the position where the ball was
 located when the foul began happening.
 
 ===== ロボットの相手ディフェンスエリアへの極端な接近/Robot Too Close To Opponent Defense Area
@@ -102,6 +102,18 @@ During <<停止/Stop, stop>> and <<フリーキック/Free Kick, free kicks>>, b
 
 ロボットが相手ディフェンスエリアから離れるため、2秒間の猶予が設けられる。 +
 There is a grace period of 2 seconds for the robots to move away from the opponent defense area.
+
+試合が停止(stop)状態もしくは<<フリーキック/Free Kick, フリーキック>>中で、インプレイになる前に同じチームによる2度目の反則があった場合は、試合は直ちに停止(halt)される。 +
+The game is immediately halted after the second such foul committed by the same team while the game is stopped or during a <<フリーキック/Free Kick, free kick>>, before the ball has entered play.
+
+NOTE: 最初の反則が<<フリーキック/Free Kick, フリーキック>>中に発生した場合、試合は通常通りに停止(stop)される。
+猶予時間は同チームによる最初の反則後から再開される。
+いずれの反則も、ファウルのカウンターを進める。
+ロボットごとに個別の反則を取られることはない。 +
+If the first foul is committed during a <<フリーキック/Free Kick, free kick>>, the game is still stopped regularly.
+The grace period is restarted after the first foul of the same team.
+Both fouls count towards the foul counter.
+There are no individual fouls per robot.
 
 ===== プッシング/Pushing
 あるロボットが相手のロボットに外力を加えて押していて、両方のロボットがボールもしくは互いに接触している(たとえば互いのロボットが相手のロボットの方向に移動している)時、これはプッシングの反則となる。 +
