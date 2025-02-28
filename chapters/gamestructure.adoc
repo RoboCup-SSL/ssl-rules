@@ -144,8 +144,8 @@ The <<主審/Referee, referee>> asks the <<ハンドラー/Robot Handler, robot 
 However, if both teams prefer the same color, the referee assigns the colors by chance. In this case, the teams switch the colors after the first half of the match as well as after the first half of the overtime if applicable.
 
 ==== ロボット外装色の選択/Choosing Robot Hull Colors
-<<ロボット外装の色/Hull Color of Robots, ロボット外装の色>> (暗もしくは明)は<<チームカラーの選択/Choosing Team Colors, チームカラー>>と一致する必要がある。チームカラーが青であるチームは暗配色の外装を、黄であるチームは明配色の外装を使用する。試合中にチームカラーが変更される場合は、外装の色もまた変更しなければならない。 +
-The <<ロボット外装の色/Hull Color of Robots, robot hull color>> (dark or bright) should match the <<チームカラーの選択/Choosing Team Colors, team's color>>. The blue team uses the dark hulls, while the yellow team uses light hulls. If teams switch color during the game, they must switch also hull colors.
+チームは試合前に<<ロボット外装の色/Hull Color of Robots, ロボット外装の色>> (暗もしくは明)を選択してよい。両チームが同じ色を選択した場合、<<主審/Referee, 主審>>は試合開始前に任意に色を割り当てる。選択された外装色は試合を通して使用されなければならない。 +
+Teams are encouraged to choose their preferred <<ロボット外装の色/Hull Color of Robots, robot hull color>> (dark or bright) before the match. If both teams choose the same color, the <<主審/Referee, referee>> assigns the colors by chance before the game starts. The selected hull color must be used throughout the game.
 
 ==== 陣地とキックオフの選択/Choosing Side And Kick-Off
 <<主審/Referee, 主審>>は両チームの<<ハンドラー/Robot Handler, ハンドラー>>と一緒にコイントスを行う。コイントスの勝者が前半戦で攻めるゴールを選ぶ。もう一方のチームが前半戦開始時の<<キックオフ/Kick-Off, キックオフ>>を行う。 +
