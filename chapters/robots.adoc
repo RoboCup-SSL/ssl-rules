@@ -23,7 +23,7 @@ To ensure clear identification during gameplay, robots must be visually distingu
 
 Color scheme requirements:
 
-* Robots must have distinctive coloring covering at least 60% of the robot's side.
+* Robots must have distinctive coloring covering at least 50% of the robot's side.
 * All robots from a team must have interchangeable colors: one bright and one dark.
 * These two colors must be consistent across all robots on the same team.
 
