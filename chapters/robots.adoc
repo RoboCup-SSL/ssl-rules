@@ -25,30 +25,25 @@ The <<主審/Referee, referee>> has to force a team to remove a robot from the f
 ロボットはいかなる時点においても、直径0.18m、高さ0.15m以下の大きさでなければならない。さらに、ロボットの上面はstandard patternのサイズおよび表面の制約を満たさなければならない。 +
 A robot must fit inside a 0.18 meters wide and 0.15 meters high cylinder at any point in time. Additionally, the top of the robot must adhere to the standard pattern size and surface constraints.
 
-==== ロボット外装の色/Hull Color of Robots
+==== ロボットの色/Color of Robots
 試合中の明瞭さと効果的な識別を確保するために、ロボット外装の色付けには次のルールが適用される: +
-To ensure clarity and effective identification during gameplay, the following rules apply to the coloring of robot hulls:
+To ensure clear identification during gameplay, robots must be visually distinguishable from the opposing team. The following rules apply:
 
 暗配色と明配色: +
-Bright and dark color scheme:
+Color scheme requirements:
 
-
-* チームの全ロボットは、明配色と暗配色それぞれ1種類の交換可能な外装を備えなければならない。 +
-All robots from a team must have interchangeable hull colors: one bright and one dark.
-* この2色はチーム内の全ロボットについて同一でなければならない。 +
-These two colors must be the same for all robots in a team.
-* その色はロボットの最大高さのうち、少なくとも6cmを垂直方向に覆わなくてはならない。 +
-The color must vertically cover at least 6 cm of the robot's maximum height.
+* Robots must have distinctive coloring covering at least 20% of the robot's surrounding area (bottom and top surfaces do not count).
+* The color must be partially visible from all sides.
+* All robots from a team must have interchangeable colors: one bright and one dark.
+* These two colors must be consistent across all robots on the same team.
 
 被覆率の要求仕様: +
-Coverage requirements:
+Design and durability requirements:
 
-* visionシステムへの干渉を防ぐため、ロボット外装は反射性であってはならない。 +
-The robot hull must not be reflective to avoid interfering with the vision system.
-* ロボット外装の色は<<Vision Pattern, Visionパターン>>や<<ボール/Ball, ボール>>に用いられる色と近しい色であってはならない。 +
-The robot hull must avoid colors close to the ones used at <<Vision Pattern, vision pattern>> and <<ボール/Ball, ball>>. 
-* 試合中に落ちたりはがれたりしないように、色は適切に付着し、耐久性を維持しなければならない。カラーカバーが落下した場合は、それに応じた罰則が課せられる (「<<転倒や部品の脱落/Tipping Over Or Dropping Parts, 転倒や部品の脱落>>」を参照)。 +
-Colors must adhere properly and remain durable to prevent dropping or peeling during the match. If the color cover drops, it will be penalized accordingly (see <<転倒や部品の脱落/Tipping Over Or Dropping Parts, Tipping Over Or Dropping Parts>>).
+* Teams may use creative patterns to distinguish their robots from other teams.
+* Robot color must not be reflective, and the top surface should be black to avoid vision system interference.
+* Robot sides must avoid colors similar to those used in the <<Vision Pattern, vision pattern>> and <<Ball, ball>>.
+* Colors must be properly applied and durable throughout the match to prevent peeling or detachment. If color covering detaches during play, penalties will apply (see <<Tipping Over Or Dropping Parts>>).
 
 NOTE: (訳者注記) ここで「外装(hull)」とは「ガワ」「カバー」「シェル」などと呼称される場合もある、ロボット外観のうち上面をのぞいた側面を覆っている箇所を指す。
 
