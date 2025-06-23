@@ -23,15 +23,15 @@ To ensure clear identification during gameplay, robots must be visually distingu
 
 Color scheme requirements:
 
-* Robots must have distinctive coloring covering at least 50% of the robot's side.
+* Robots must have distinctive coloring covering at least 20% of the robot's surrounding area (bottom and top surfaces do not count).
+* The color must be partially visible from all sides.
 * All robots from a team must have interchangeable colors: one bright and one dark.
 * These two colors must be consistent across all robots on the same team.
 
 Design and durability requirements:
 
-* Cut-outs for wheels and essential functional components are permitted and do not count against coverage requirements.
 * Teams may use creative patterns to distinguish their robots from other teams.
-* Robot color must not be reflective and the top surface should be black to avoid vision system interference.
+* Robot color must not be reflective, and the top surface should be black to avoid vision system interference.
 * Robot sides must avoid colors similar to those used in the <<Vision Pattern, vision pattern>> and <<Ball, ball>>.
 * Colors must be properly applied and durable throughout the match to prevent peeling or detachment. If color covering detaches during play, penalties will apply (see <<Tipping Over Or Dropping Parts>>).
 
