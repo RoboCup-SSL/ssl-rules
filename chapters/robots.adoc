@@ -18,20 +18,22 @@ The <<Referee, referee>> has to force a team to remove a robot from the field if
 ==== Shape
 A robot must fit inside a 0.18 meters wide and 0.15 meters high cylinder at any point in time. Additionally, the top of the robot must adhere to the standard pattern size and surface constraints.
 
-==== Hull Color of Robots
-To ensure clarity and effective identification during gameplay, the following rules apply to the coloring of robot hulls:
+==== Color of Robots
+To ensure clear identification during gameplay, robots must be visually distinguishable from the opposing team. The following rules apply:
 
-Bright and dark color scheme:
+Color scheme requirements:
 
-* All robots from a team must have interchangeable hull colors: one bright and one dark.
-* These two colors must be the same for all robots in a team.
-* The color must vertically cover at least 6 cm of the robot's maximum height.
+* Robots must have distinctive coloring covering at least 20% of the robot's surrounding area (bottom and top surfaces do not count).
+* The color must be partially visible from all sides.
+* All robots from a team must have interchangeable colors: one bright and one dark.
+* These two colors must be consistent across all robots on the same team.
 
-Coverage requirements:
+Design and durability requirements:
 
-* The robot hull must not be reflective to avoid interfering with the vision system.
-* The robot hull must avoid colors close to the ones used at <<Vision Pattern, vision pattern>> and <<Ball, ball>>. 
-* Colors must adhere properly and remain durable to prevent dropping or peeling during the match. If the color cover drops, it will be penalized accordingly (see <<Tipping Over Or Dropping Parts>>).
+* Teams may use creative patterns to distinguish their robots from other teams.
+* Robot color must not be reflective, and the top surface should be black to avoid vision system interference.
+* Robot sides must avoid colors similar to those used in the <<Vision Pattern, vision pattern>> and <<Ball, ball>>.
+* Colors must be properly applied and durable throughout the match to prevent peeling or detachment. If color covering detaches during play, penalties will apply (see <<Tipping Over Or Dropping Parts>>).
 
 ==== Dribbling Device
 Dribbling devices that actively exert spin on the ball, which keep the ball in contact with the robot are permitted under certain conditions:
