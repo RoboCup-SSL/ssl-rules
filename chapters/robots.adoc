@@ -53,8 +53,6 @@ Robot sides must avoid colors similar to those used in the <<Vision Pattern, vis
 * 剥脱や剥離を防ぐため、ロボットの色は適切に塗布され、試合を通じて耐久性がなければならない。試合中にカラーが剥がれた場合、罰則が適用される(「<<転倒や部品の脱落/Tipping Over Or Dropping Parts, 転倒や部品の脱落>>」を参照)。 +
 Colors must be properly applied and durable throughout the match to prevent peeling or detachment. If color covering detaches during play, penalties will apply (see <<転倒や部品の脱落/Tipping Over Or Dropping Parts, Tipping Over Or Dropping Parts>>).
 
-NOTE: (訳者注記) ここで「外装(hull)」とは「ガワ」「カバー」「シェル」などと呼称される場合もある、ロボット外観のうち上面をのぞいた側面を覆っている箇所を指す。
-
 ==== ドリブルデバイス/Dribbling Device
 ボールを積極的にスピンさせてボールをロボットに接触し続けさせるためのドリブルデバイスは以下の条件を満たす場合のみ許可される。 +
 Dribbling devices that actively exert spin on the ball, which keep the ball in contact with the robot are permitted under certain conditions:
