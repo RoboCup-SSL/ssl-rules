@@ -7,10 +7,11 @@
 A robot is considered to be in the Goal Substitution Area if it is at least 0.3 meters outside the field, behind its own goal line.
 
 Robots are allowed to remain in the Goal Substitution Area while the game is running.
-They must still comply with the following rules:
+They are allowed to move freely and must comply with the following rules:
 
 * Minimum ball distance during <<Stop, stop>> or <<Free Kick, free kick>>
 * Must not interfere with <<Ball Placement, ball placement>>
+* Must not exceed the <<Number Of Robots, maximum number of robots>>
 
 [[center-substitution-area]]
 ==== Center Substitution Area

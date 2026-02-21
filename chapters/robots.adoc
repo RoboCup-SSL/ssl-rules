@@ -5,6 +5,8 @@ A match is played by two teams, with each team consisting of not more than 11 ro
 
 An exception is made during the Division A group phase, where the number of robots is limited to 8 if at least one of the two teams prefers it.
 
+Robots in the <<goal-substitution-area, Goal Substitution Area>> do not count towards this limit.
+
 === Hardware And Software Constraints
 The <<Referee, referee>> may force a team to remove a robot from the field if it does not satisfy the rules. Members of the <<Technical Committee, technical committee>> may also check the hardware and software constraints of robots at any point of the tournament.
 
