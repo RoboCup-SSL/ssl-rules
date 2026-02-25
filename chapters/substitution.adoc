@@ -1,4 +1,22 @@
 == Robot Substitution
+
+=== Substitution Areas
+
+[[goal-substitution-area]]
+==== Goal Substitution Area (Division A only)
+A robot is considered to be in the Goal Substitution Area if it is at least 0.3 meters outside the field, behind its own goal line.
+
+Robots are allowed to remain in the Goal Substitution Area while the game is running.
+They are allowed to move freely and must comply with the following rules:
+
+* Minimum ball distance during <<Stop, stop>> or <<Free Kick, free kick>>
+* Must not interfere with <<Ball Placement, ball placement>>
+
+[[center-substitution-area]]
+==== Center Substitution Area
+A robot is considered to be in the Center Substitution Area if it is at least partially inside the field margin and at a distance of at most 1 meter from the <<Halfway Line, halfway line>>.
+
+=== Rules
 .Definition
 Robots are substituted by the <<Robot Handler, robot handler>> of the respective team. No other team member is allowed to take robots out or put robots in.
 
@@ -6,8 +24,7 @@ The <<Robot Handler, robot handler>> should prefer to use long sleeves and color
 
 Robots can always be taken in and out during game play without notifying the <<Referee, referee>> if all the following conditions are met:
 
-. The robot is at least partially inside the <<Field Surface, field margin>>.
-. The robot is at a distance from the <<Halfway Line, halfway line>> that must not exceed 1 meter.
+. The robot is in its team's substitution area.
 . The ball must be at least 0.5 meters away from the robot.
 
 Additionally, robots can be taken out from any position on request using the procedure below:
