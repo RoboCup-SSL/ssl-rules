@@ -34,6 +34,9 @@ It is not allowed to damage or modify robots of other teams.
 ==== Damaging The Field Or The Ball
 It is not allowed to damage or modify the field or the ball.
 
+==== Unsafe Operations
+It is not allowed to have robot failures that endanger the participants or scpectators. Examples of unsafe operations include, but not limited to: high power or high velocity uncontrolled robot operation, electronics fire, high voltage or visible arc discharge.
+
 ==== Disrespect Procedures
 Not following defined procedures repetitively, like for example:
 
