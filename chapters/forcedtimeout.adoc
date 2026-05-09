@@ -1,4 +1,4 @@
-== Emergency stop
+== Forced Timeout
 
 .Definition
 A team can ask to stop the game immediately after a grace period of 10 seconds or at the next stoppage, whichever happens first regardless of the current situation.
@@ -19,6 +19,6 @@ For these possibilities there are two methods to proceed the game:
 . For *3*, the game is continued like after a regular timeout.
 
 .Usage
-An emergency stop intent can be made using <<Communication Flags, communication flags>>.
+A forced timeout intent can be made using <<Communication Flags, communication flags>>.
 
 NOTE: The referee may stop the game earlier if there is no promising play in action.

@@ -112,11 +112,11 @@ Individual game events can be disabled completely or in some automatic referee i
 A remote control for each team can optionally be provided by the tournament organizers.
 It is a physical device that allows entering the following commands:
 
-- Raise a challenge flag
 - Request a timeout
+- Request a forced timeout
 - Request robot substitution
-- Request emergency stop
 - Change the keeper id
+- Raise a challenge flag
 
 It may also provide feedback information, like:
 
@@ -131,7 +131,7 @@ The official implementation for the league can be found on GitHub: https://githu
 === Communication Flags
 
 The communication flags are used to avoid gesturing and yelling with the <<Referee, referee>> during a match.
-These flags are responsible for communicating various intents, such as: <<Timeouts, timeouts>>, <<Emergency stop, emergency stops>>, <<Robot Substitution, manual robot substitution>> and <<Challenge Flags, challenges>>.
+These flags are responsible for communicating various intents, such as: <<Timeouts, timeouts>>, <<Forced Timeout, forced timeout>>, <<Robot Substitution, manual robot substitution>> and <<Challenge Flags, challenges>>.
 
 The <<Referee, referee>> or <<Game Controller Operator, game controller operator>> has to acknowledge the communication flag.
 Any gesturing and yelling will be considered <<Unsporting Behavior, unsporting behavior>>, punished by a <<Red Card, red card>> after the first warning.

@@ -37,7 +37,7 @@ include::chapters/substitution.adoc[]
 
 include::chapters/shootout.adoc[]
 
-include::chapters/emergencystop.adoc[]
+include::chapters/forcedtimeout.adoc[]
 
 include::chapters/challengeflag.adoc[]
 
