@@ -1087,6 +1087,12 @@ Each robot must be clearly numbered according to its vision pattern so that the 
 <div class="paragraph">
 <p>A robot must fit inside a 0.18 meters wide and 0.15 meters high cylinder at any point in time. Additionally, the top of the robot must adhere to the standard pattern size and surface constraints.</p>
 </div>
+<div class="paragraph">
+<p>The height of all robots of one team participating in a match must be within 0.02 meters of each other (e.g. the maximum and minimum robot heights may differ by no more than 0.02 meters). The shared vision system does not support correcting for different robot heights, and the league does not intend to support this feature. Keeping robot heights similar ensures shared localization data is accurate and fair for all participating teams.</p>
+</div>
+<div class="paragraph">
+<p>The robot height in the vision system shall be specified as: h<sub>min</sub> + 0.5 * (h<sub>max</sub> - h<sub>min</sub>).</p>
+</div>
 </div>
 <div class="sect3">
 <h4 id="_color_of_robots">3.2.3. Color of Robots</h4>
@@ -3556,7 +3562,7 @@ The information shown in this table here may be incomplete. Please read the sect
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2026-05-20 18:34:12 UTC
+Last updated 2026-05-20 18:52:08 UTC
 </div>
 </div>
 </body>
