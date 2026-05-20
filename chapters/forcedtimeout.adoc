@@ -1,11 +1,11 @@
-== Emergency stop
+== Forced Timeout
 
 .Definition
-A team can ask to stop the game immediately after a grace period of 10 seconds or at the next stoppage, whichever happens first regardless of the current situation.
+A team can ask to stop the game after a grace period of 10 seconds or at the next stoppage, whichever happens first regardless of the current situation.
 It will receive a yellow card for this and must take a timeout immediately.
 If the team is out of timeouts, it is still allowed to remove robots from the field, but can not use any remaining timeout time.
 
-NOTE: This rule is supposed to be used in extreme situations only, e.g. a software crash or when robots are damaging themselves significantly.
+NOTE: This rule is supposed to be used in extreme situations only, e.g. a software crash or when robots are damaging themselves significantly. If robots are failing to the extent they are endangering the participants, the referee should immediatley invoke Halt, and may choose to penalize the team for <<Unsafe Operations, unsafe operations>>.
 
 When the game is stopped due to this rule, there are three possibilities that may have happened:
 
@@ -19,6 +19,6 @@ For these possibilities there are two methods to proceed the game:
 . For *3*, the game is continued like after a regular timeout.
 
 .Usage
-An emergency stop intent can be made using <<Communication Flags, communication flags>>.
+A forced timeout intent can be made using <<Communication Flags, communication flags>>.
 
 NOTE: The referee may stop the game earlier if there is no promising play in action.
