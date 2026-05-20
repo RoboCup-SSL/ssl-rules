@@ -5,7 +5,7 @@ A team can ask to stop the game after a grace period of 10 seconds or at the nex
 It will receive a yellow card for this and must take a timeout immediately.
 If the team is out of timeouts, it is still allowed to remove robots from the field, but can not use any remaining timeout time.
 
-NOTE: This rule is supposed to be used in extreme situations only, e.g. a software crash or when robots are damaging themselves significantly. If robots are failing to the extent they are endangering the participants, the referee should immediatley invoke Halt, and may choose to penalize the team for <<Unsafe Operations, unsafe operations>>.
+NOTE: This rule is supposed to be used in extreme situations only, e.g. a software crash or when robots are damaging themselves significantly. If robots are failing to the extent they are endangering the participants, the referee should immediately invoke Halt, and may choose to penalize the team for <<Unsafe Operations, unsafe operations>>.
 
 When the game is stopped due to this rule, there are three possibilities that may have happened:
 
