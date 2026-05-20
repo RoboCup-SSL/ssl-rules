@@ -86,11 +86,18 @@ For official matches, the <<Organizing Committee, organizing committee>> provide
 The shared software used in the Small Size League is maintained by the <<Technical Committee, technical committee>>, though everyone is encouraged to contribute. The <<Technical Committee, technical committee>> members however guarantee that any changes made less than three months before the next RoboCup do not break compatibility.
 
 ==== Vision
-Each field is provided with a shared central vision server and a set of shared cameras. This shared vision equipment uses the community-maintained SSL-Vision software (https://github.com/RoboCup-SSL/ssl-vision) to provide localization data to teams via Ethernet in a packet format that is to be announced by the shared vision system developers before the competition. Teams need to ensure that their systems are compatible with the shared vision system output and that their systems are able to handle the typical properties of real-world sensory data as provided by the shared vision system (including noise, latency, or occasional failed detections and misclassifications). The vision patterns on the top of the robots must adhere to the specifications of SSL-Vision, and must be of the standard color paper as specified in the SSL-Vision documentation.
+Each field is provided with a shared vision system and a set of shared cameras. This shared vision equipment provides localization data to teams via Ethernet in a packet format that is to be announced by the shared vision system developers before the competition. If multiple vision systems are approved for a competitive event, the organizers will describe in advance which one(s) will be available for use.
+
+There are currently two software implementations that are approved for use at a competitive event.
+
+- SSL-Vision (https://github.com/RoboCup-SSL/ssl-vision)
+- Vision Processor (https://github.com/TIGERs-Mannheim/vision-processor)
+
+Both softwares detect the same approved jersey patterns, and produce the same network packets. Teams need to ensure that their systems are compatible with the shared vision system output and that their systems are able to handle the typical properties of real-world sensory data as provided by the shared vision system (including noise, latency, or occasional failed detections and misclassifications). The vision patterns on the top of the robots must adhere to the specifications defined at SSL-Vision. Teams must use the color paper specified (or provided) by the event organizers.
 
 Besides the shared vision equipment, teams are not allowed to mount their own cameras or other external sensors, unless specifically announced or permitted by the respective competition organizers.
 
-SSL-Vision defines an additional https://github.com/RoboCup-SSL/ssl-vision/blob/master/src/shared/proto/messages_robocup_ssl_wrapper_tracked.proto[tracker protocol] that contains filtered and enriched tracking data. Messages are not published by SSL-Vision itself, but for example by some <<Automatic Referee, automatic referees>>.
+The league defines an additional https://github.com/RoboCup-SSL/ssl-vision/blob/master/src/shared/proto/messages_robocup_ssl_wrapper_tracked.proto[tracker protocol] that contains filtered and enriched tracking data. Messages are not published by the shared vision system itself, but for example by some <<Automatic Referee, automatic referees>>.
 It is meant to be used by the <<Game Controller, game controller>> and by teams that do not yet have their own sophisticated filter.
 
 ==== Game Controller
